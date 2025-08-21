@@ -58,6 +58,9 @@
             <trait source="castlist">
               <desc>príncipe</desc>
             </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
+            </trait>
           </person>
           <person xml:id="federico" sex="MALE">
             <persName>Federico</persName>
