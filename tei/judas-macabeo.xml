@@ -92,6 +92,9 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
+            </trait>
           </person>
           <person xml:id="tolomeo" sex="MALE">
             <persName>Tolomeo</persName>

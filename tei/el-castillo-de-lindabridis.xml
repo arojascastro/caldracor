@@ -104,6 +104,9 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
+            </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
             <persName>Sirene</persName>
@@ -121,6 +124,9 @@
             <persName>Claridiana</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">

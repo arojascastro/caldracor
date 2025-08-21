@@ -53,6 +53,9 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
+            </trait>
           </person>
           <person xml:id="filipo" sex="MALE">
             <persName>Filipo</persName>

@@ -47,6 +47,9 @@
             <trait source="#calderondigital">
               <desc>reina</desc>
             </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
+            </trait>
           </person>
           <person xml:id="astrea" sex="FEMALE">
             <persName>Astrea</persName>
@@ -100,6 +103,9 @@
             <persName>Ninias</persName>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
             </trait>
           </person>
           <person xml:id="lisías" sex="MALE">
