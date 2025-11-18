@@ -142,7 +142,7 @@
           <term source="dracor" type="genreTitle">comedia</term>
           <term source="#kroll" type="main">tragedia y drama de honor</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
