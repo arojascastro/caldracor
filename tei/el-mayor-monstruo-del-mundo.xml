@@ -881,7 +881,7 @@
             <l n="520"> que basta que por César me reciba. </l>
             <l> el saco cese, cese la violencia, </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aristóbolo #capitán #octaviano #polidoro #soldado-1">
             <speaker>TODOS</speaker>
             <l> ¡Muera Cleopatra, y Octaviano viva! </l>
           </sp>
@@ -4187,7 +4187,7 @@
             <l> en ambos coros uno y otro estruendo... </l>
             <stage>Música.</stage>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>¡Viva Octaviano, viva!</l>
             <l>Y en los campos de Oriente</l>
@@ -4229,7 +4229,7 @@
             <speaker>LOS DOS</speaker>
             <l part="I"> Diciendo a voces... </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #filipo #mariene #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
             <speaker>TODOS</speaker>
             <l part="F"> ¡Octaviano viva! </l>
           </sp>
@@ -4611,7 +4611,7 @@
             <l part="F"> Sea diciendo: </l>
             <l part="I"> ¡Viva Octaviano! </l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">¡Viva!</l>
             <l>Y en los campos de Oriente</l>
@@ -6105,7 +6105,7 @@
             <l> estruendo, salir no excuso </l>
             <l part="I"> de mi prisión. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#libia #octaviano #polidoro #sirene #tetrarca">
             <speaker>TODOS</speaker>
             <l n="3595" part="F">¿Qué es aquesto? </l>
           </sp>
@@ -6124,7 +6124,7 @@
             <speaker>TETRARCA</speaker>
             <l> Yo no la he dado la muerte. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#libia #octaviano #polidoro #sirene #tetrarca">
             <speaker>TODOS</speaker>
             <l part="I"> Pues ¿quién? </l>
           </sp>

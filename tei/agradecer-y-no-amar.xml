@@ -2578,7 +2578,7 @@
         </div>
         <div type="scene" resp="#rojas" n="16">
           <stage>Salen [Lísida, Flora, Ismenia,] dama [y Fabio].</stage>
-          <sp who="#todas">
+          <sp who="#flérida #lísida">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -6529,7 +6529,7 @@
             <l>Por no remediarlo estaba</l>
             <l>por pedírmelo tú.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#flérida #lísida">
             <speaker rend="caps">Todos</speaker>
 
 

@@ -421,7 +421,7 @@
         </div>
         <div type="scene" resp="#rojas" n="3">
           <stage>(Vanse por la gruta POLIDORO y PASQUÍN.)</stage>
-          <sp who="#todos">
+          <sp who="#céfalo #rosicler">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -435,7 +435,7 @@
             <l>sin ser media, tomando esta carrera:</l>
             <l>dime si la pespuntas o la coses...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#céfalo #rosicler">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -470,7 +470,7 @@
 
             <l>¡Harre, hombre!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#céfalo #rosicler">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1037,7 +1037,7 @@
 
             <l>No espulgo bien galgos.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#aura">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">(Dentro.)</stage>
 
@@ -1601,7 +1601,7 @@
             <l>Pues sigamos las hazañas</l>
             <l>nosotros. ¡Caiga esa puerta!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#céfalo #pastel #rosicler #tabaco">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">(Dentro.)</stage>
 
@@ -1802,7 +1802,7 @@
             <l>son? Pues a la cárcel vayan:</l>
             <l>¡prendedlos!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #capitán #céfalo #pastel #rosicler #soldado-1 #tabaco">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1914,7 +1914,7 @@
 
             <l>¡Uno de la red se escapa!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #capitán #céfalo #pastel #rosicler #soldado-1 #tabaco">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3294,7 +3294,7 @@
 
             <l>¿Es esto así?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #aura #flora #pasquín #rey #rosicler #tabaco">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4092,7 +4092,7 @@
             <l>Vasallos, mi hijo murió</l>
             <l>anoche.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #aura #gigante #rey #rosicler">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5005,7 +5005,7 @@
             <l>como a gallo destas eras,</l>
             <l>quiero.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#filis">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -5067,7 +5067,7 @@
 
             <l>Va, aunque estoy algo estropeada.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#clori #filis #lesbia #nise">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -5629,7 +5629,7 @@
             <l>¡Jesús, Jesús,</l>
             <l>qué bobería! ¡Matadlos!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #capitán #céfalo #filis #pastel #pocris #rey #rosicler #tabaco">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6841,7 +6841,7 @@
             <l>adonde echar la limosna.</l>
             <l>¡Pocris viva!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #céfalo #rey #rosicler">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6934,7 +6934,7 @@
             <l>procesales escritores,</l>
             <l>al hacer la causa?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #clori #céfalo #filis #flora #lesbia #pocris #rey #rosicler">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7840,7 +7840,7 @@
             <l>¡Pocris murió! Decid, pues:</l>
             <l>«¡Su moño descanse en paz!»</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#céfalo #pocris">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7961,7 +7961,7 @@
             <l>esta infelice tragedia</l>
             <l>como todas las demás.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #céfalo #dueña #filis #pastel #rey #rosicler">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8092,7 +8092,7 @@
         </div>
         <div type="scene" resp="#rojas" n="21">
           <stage>(Salen todos.)</stage>
-          <sp who="#todos">
+          <sp who="#rey">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8104,7 +8104,7 @@
 
             <l>Pues repitan a compás...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#rey">
             <speaker rend="caps">Todos</speaker>
 
 

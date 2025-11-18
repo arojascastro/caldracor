@@ -299,7 +299,7 @@
             <l>y hablando con la Deidad,</l>
             <l>así a la fiera responde.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cloris #laura #nise #rosarda">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -413,7 +413,7 @@
 
             <l>Yo la paso.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cloris #laura #nise #rosarda">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -461,7 +461,7 @@
             <l>hallar un estilo, un medio</l>
             <l>con que el dolor divirtamos.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cloris #laura #nise #rosarda">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -1004,7 +1004,7 @@
             <l>aquel repetido hinmno,</l>
             <l>que a Venus sus Coros cantan.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cloris #laura #rosarda">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">Cantan.</stage>
 
@@ -1065,7 +1065,7 @@
 
             <l>Vira.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cloris #laura #rosarda">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1206,7 +1206,7 @@
 
             <l>Qué pena</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cloris #laura #libio #nise #rosarda">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2058,7 +2058,7 @@
             <l>a estos pies, una, y mil veces</l>
             <l>volved a decir el verso.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #rosarda #seleuco">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3912,7 +3912,7 @@
             <l>El más noble riesgo es de</l>
             <l>Amor el oír.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cloris #ismenia #rosarda">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -4018,7 +4018,7 @@
         </div>
         <div type="scene" resp="#rojas" n="5">
           <stage>Cantan, y a un mismo tiempo representan, y sale por una parte Celio, y por otra Flabio.</stage>
-          <sp who="#todas">
+          <sp who="#cloris #laura #rosarda">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -6287,7 +6287,7 @@
             <l>a las iras de mi acero</l>
             <l>habéis de morir.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celio #flabio #libio #pasquin">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8948,7 +8948,7 @@
 
             <l>Piedad, desmayo, y valor.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celio #coro-1 #coro-2 #flabio #ismenia #libio #música-1 #música-2 #música-3 #pasquin #rosarda #seleuco">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9009,7 +9009,7 @@
             <l>y yo, que pida perdón,</l>
             <l>diciendo a esos pies mil veces.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celio #coro-1 #coro-2 #flabio #ismenia #libio #música-1 #música-2 #música-3 #pasquin #rosarda #seleuco">
             <speaker rend="caps">Todos</speaker>
 
 

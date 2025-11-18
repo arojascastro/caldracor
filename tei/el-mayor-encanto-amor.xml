@@ -329,7 +329,7 @@
             <l> Monumentos de yelos </l>
             <l part="I"> hoy serán estas ondas. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #arquelao #clarín #floro #lebrel #polidoro #timantes #ulises">
             <speaker>TODOS</speaker>
             <l part="F">¡Piedad cielos! </l>
           </sp>
@@ -355,7 +355,7 @@
             <speaker>TIMANTES</speaker>
             <l part="I"> Celajes se descubren. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #arquelao #clarín #floro #lebrel #polidoro #timantes #ulises">
             <speaker>TODOS</speaker>
             <l part="F">¡Tierra, tierra! </l>
           </sp>
@@ -373,7 +373,7 @@
             <speaker>ANTISTES</speaker>
             <l part="I"> ¡Vaya toda la gente a tierra! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #arquelao #clarín #floro #lebrel #polidoro #timantes #ulises">
             <speaker>TODOS</speaker>
             <l part="F">¡Vaya! </l>
           </sp>
@@ -385,7 +385,7 @@
             <speaker>ULISES</speaker>
             <l part="I"> Vencimos el naufragio. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #arquelao #clarín #floro #lebrel #polidoro #timantes #ulises">
             <speaker>TODOS</speaker>
             <l part="F">¡A tierra, a tierra! </l>
           </sp>
@@ -4230,7 +4230,7 @@
             <l n="110"> Dejalde, no le creáis nada </l>
             <l> y vamos a nuestro intento. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #arquelao #floro #lebrel #polidoro #timantes">
             <speaker>TODOS</speaker>
             <l part="I"> Vamos. </l>
           </sp>
@@ -4652,7 +4652,7 @@
             <l> aquella pasada pena, </l>
             <l> ya me vuelvo a tu favor. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #circe #ulises">
             <speaker>TODOS</speaker>
             <l part="I"> ¡Guerra, guerra! </l>
           </sp>
@@ -4684,7 +4684,7 @@
             <l> a su amor labra su olvido? </l>
             <l part="I"> Oye esta voz. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #circe #ulises">
             <speaker>TODOS</speaker>
             <l part="F">¡Guerra, guerra! </l>
           </sp>
@@ -4726,7 +4726,7 @@
             <speaker>MÚSICA</speaker>
             <l part="I"> Amor, amor. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #circe #ulises">
             <speaker>TODOS</speaker>
             <l part="F">¡Guerra, guerra! </l>
             <l part="I"> ¡Guerra, guerra! </l>
@@ -4786,7 +4786,7 @@
             <speaker>MÚSICA</speaker>
             <l part="I"> Amor, amor. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#antistes #circe #ulises">
             <speaker>TODOS</speaker>
             <l part="F">Guerra, guerra. </l>
           </sp>
@@ -5184,7 +5184,7 @@
             <speaker>LISIDAS</speaker>
             <l part="I"> Todos te seguiremos. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #astrea #circe #clori #flérida #libia #lisidas #sirene #soldado #tisbe">
             <speaker>TODOS</speaker>
             <l part="F">¡Guerra, guerra! </l>
           </sp>
@@ -5220,7 +5220,7 @@
             <l> Segur de vuestros cuellos </l>
             <l part="I"> hoy serán nuestras armas. ¡A ellos! </l>
           </sp>
-          <sp who="#todas">
+          <sp who="#astrea #circe #flérida #libia">
             <speaker>TODAS</speaker>
             <l part="F">¡A ellos! </l>
           </sp>
@@ -5748,7 +5748,7 @@
             <l> transladando esos palacios </l>
             <l> a los campos de Anfitrite. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #astrea #circe #flérida #libia #lisidas #ulises">
             <speaker>TODOS</speaker>
             <l part="I"> ¡Buen vïaje! </l>
           </sp>

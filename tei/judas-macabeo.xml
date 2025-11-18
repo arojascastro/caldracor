@@ -1071,7 +1071,7 @@
             <l>y, oprimida la tierra,</l>
             <l>guerra solo sustente.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#judas">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5136,7 +5136,7 @@
 
             <l>¡Yo solo ganarle puedo!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#chato #jonatás #simeón #tolomeo #zarés">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -5185,7 +5185,7 @@
 
             <l>¡Aquí Judea!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#chato #jonatás #simeón #tolomeo #zarés">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 

@@ -6032,7 +6032,7 @@
         </div>
         <div type="scene" resp="#rojas" n="23">
           <stage>Salen el Duque, Carlos y César.</stage>
-          <sp who="#todos">
+          <sp who="#capricho #carlos #césar #duque">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6044,7 +6044,7 @@
 
             <l>Reñir sin gana.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capricho #carlos #césar #duque">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10548,7 +10548,7 @@
             <l>dejando al mundo enseñanza,</l>
             <l>que siendo preciso amar...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capricho #carlos #conde #césar #duque #margarita #roberto #serafina">
             <speaker rend="caps">Todos</speaker>
 
 

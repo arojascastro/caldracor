@@ -213,7 +213,7 @@
 
             <l>¡Muera el homicida!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celio #lisidante #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -260,7 +260,7 @@
             <l>herido, desesperado y furioso</l>
             <l>de sí le arroja, no escape.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celio #lisidante #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -755,7 +755,7 @@
             <l>¡Viva</l>
             <l>Auristela!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#auristela #clariana #licanoro #milor #soldado-1 #soldado-2">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2050,7 +2050,7 @@
         </div>
         <div type="scene" resp="#rojas" n="14">
           <stage>Salen todos, y abrázanse por detrás con ellos, y quítale Milor la espada.</stage>
-          <sp who="#todos">
+          <sp who="#arsidas #brunel #milor">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3516,7 +3516,7 @@
             <l>habiendo quedado sola</l>
             <l>a la vista de un prodigio.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#auristela #flérida #lisidante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3570,7 +3570,7 @@
 
             <l>No sé, ¡ay infelice!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#auristela #estela #flérida #lisidante #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6987,7 +6987,7 @@
 
             <l>Deteneos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #auristela #clariana #licanoro #lisidante #milor #timantes">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">(Dentro.)</stage>
 
@@ -7298,7 +7298,7 @@
             <l>Ni vientos ni mares respiren ni giman,</l>
             <l>que importan callados hoy mares y vientos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #lisidante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7357,7 +7357,7 @@
 
             <l>Silencio.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #lisidante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7426,7 +7426,7 @@
 
             <l>Silencio.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #lisidante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10295,7 +10295,7 @@
 
             <l>¿Cómo tu valor ultrajas?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #auristela #aurora #celio #cintia #clariana #licanoro #lisidante #merlín #milor #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10712,7 +10712,7 @@
             <l>Falta</l>
             <l>que yo me dé por vencido.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #auristela #aurora #celio #cintia #clariana #licanoro #lisidante #merlín #milor #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -11167,7 +11167,7 @@
             <l>Iguales las armas son,</l>
             <l>toca al arma.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #auristela #aurora #brunel #cintia #clariana #licanoro #lisidante #merlín #milor #timantes">
             <speaker rend="caps">Todos</speaker>
 
 

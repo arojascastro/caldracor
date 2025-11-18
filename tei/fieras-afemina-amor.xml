@@ -1497,7 +1497,7 @@
 
             <l>... a quejas de Amor cuantos lloran sus quejas.</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -1586,7 +1586,7 @@
             <l>la rara hermosura de Yole, que es bien,</l>
             <l>pues niega esplendores, que sombras le venzan.</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -1606,7 +1606,7 @@
 
             <l>Sí haré, porque todos repitan...</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -1797,7 +1797,7 @@
             <l>que viva para que venza.</l>
           </sp>
           <stage>(Las cajas.) </stage>
-          <sp who="#todos">
+          <sp who="#anteo #hércules #licas #rey">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2444,7 +2444,7 @@
             <l>flechas de celos.</l>
           </sp>
           <stage>(TODOS con la MÚSICA.)</stage>
-          <sp who="#todos">
+          <sp who="#cupido #hércules #rey">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2518,7 +2518,7 @@
 
             <l>¡Alto y pase la palabra!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#hércules">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3468,7 +3468,7 @@
 
             <l>¡Viva Hércules! ¡Arma, arma!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4622,7 +4622,7 @@
             <l>no para amarla, no, pero</l>
             <l>para aborrecerla sí.</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#calíope #hércules #licas #música">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -4954,7 +4954,7 @@
             <l>Mas que es alguna desdicha</l>
             <l>que a mí me viene siguiendo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #aristeo #egle #hesperia #hombre #hércules #licas #mujer #verusa #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6843,7 +6843,7 @@
             <l>trata de premiar tan bien:</l>
             <l>¡quejémonos dél!</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#calíope #yole">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">(Cantando.) </stage>
 
@@ -6862,7 +6862,7 @@
             <l>a quien te trató tan mal</l>
             <l>tratas de premiar tan bien?</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#calíope #yole">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -6898,7 +6898,7 @@
             <l>hasta ver que cautelas de Amor</l>
             <l>tal vez son piedad y castigo tal vez.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#calíope #egle #hesperia #ninfas #venus #verusa #yole">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -6915,7 +6915,7 @@
             <l>en cierta crueldad piadosa</l>
             <l>que pasa a piedad cruel.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#calíope #egle #hesperia #ninfas #venus #verusa #yole">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -6942,7 +6942,7 @@
             <l>Tras ti</l>
             <l>iremos hasta saber...</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#calíope #egle #hesperia #ninfas #venus #verusa #yole">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">(Cantando.) </stage>
 
@@ -7299,7 +7299,7 @@
             <l>y entrad todos.</l>
           </sp>
           <stage>(ARISTEO, LICAS y soldados.)</stage>
-          <sp who="#todos">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7362,7 +7362,7 @@
             <l>ni oye ni mira ni alienta:</l>
             <l>no forcéis su libertad.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7399,7 +7399,7 @@
 
             <l>¡Seguidle!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7459,7 +7459,7 @@
             <l>bien como le representa</l>
             <l>ya pinceles y ya plumas.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7565,7 +7565,7 @@
             <l>... que si él afemina fieras,</l>
             <l>fieras afemina Amor.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7577,7 +7577,7 @@
 
             <l>Pues otra mayor le resta.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7613,7 +7613,7 @@
             <l>el perdón, diciendo todos,</l>
             <l>puestos a las plantas vuestras...</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #música #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 

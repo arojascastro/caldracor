@@ -1218,7 +1218,7 @@
             <l>juraría que me dijo…</l>
             <l>Dentro ¡Muera el etíope!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cariclés #idaspes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1240,7 +1240,7 @@
         </div>
         <div type="scene" resp="#rojas" n="11">
           <stage>Sale un capitán y soldados.</stage>
-          <sp who="#todos">
+          <sp who="#capitán #cariclea #cariclés #idaspes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1334,7 +1334,7 @@
             <l>a las señas de contrario,</l>
             <l>no albergándoos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #cariclea #cariclés #idaspes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2842,7 +2842,7 @@
 
             <l>… la paz (mejor diré, el riesgo)…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cariclea #teágenes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4034,7 +4034,7 @@
 
             <l>Mira…</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cariclea">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">dentro</stage>
 
@@ -5152,7 +5152,7 @@
             <l>castigue tu atrevimiento.</l>
           </sp>
           <stage>Caja.</stage>
-          <sp who="#todos">
+          <sp who="#jebnón #nausiclés #petosiris #tíamis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5226,7 +5226,7 @@
 
             <l>¡Arda todo!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#jebnón #nausiclés #petosiris #tíamis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7856,7 +7856,7 @@
           <sp who="#teágenes">
             <speaker rend="caps">Teágenes</speaker>
 
-            
+
             <l>Eso es amar sin amar.</l>
           </sp>
           <sp who="#cariclea">
@@ -8201,7 +8201,7 @@
             <l>¡Ceda el valor a la fuerza,</l>
             <l>y a Menfis todos!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeta #cariclea #persina">
             <speaker rend="caps">Todos</speaker>
 
 

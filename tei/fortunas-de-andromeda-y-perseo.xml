@@ -3776,7 +3776,7 @@
             <l n="540">pastores destas montañas,</l>
             <l>venid a pedirme albricias.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cardenio #dánae #gilote #libio #perseo #polídites">
             <speaker>TODOS</speaker>
             <l>¡Viva Perseo y Dïana!</l>
           </sp>
@@ -5105,7 +5105,7 @@
             <l>no un despecho os ocasione</l>
             <l>a seguirle y a creerle.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#andrómeda #celio #fineo #rey">
             <speaker>TODOS</speaker>
             <l>La verdad es la que ha dicho.</l>
           </sp>
@@ -6506,7 +6506,7 @@
             <l>toca el ponérosla donde</l>
             <l>gima ciega y diga muda.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#andrómeda #libia">
             <speaker>TODOS</speaker>
             <l n="550">La que nace para ser</l>
             <l>estrago de la fortuna,</l>
@@ -6729,7 +6729,7 @@
             <speaker>ANDRÓMEDA</speaker>
             <l part="F">¡Ay infelice!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#andrómeda #nereida-1 #nereida-2 #nereida-3 #nereida-4">
             <speaker>TODOS</speaker>
             <l>En él arrastrando suba.</l>
           </sp>
@@ -6792,7 +6792,7 @@
             <l part="F">Ahora</l>
             <l n="740">verás si el viento te escucha.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#andrómeda #nereida-1 #nereida-2 #nereida-3 #nereida-4">
             <speaker>TODOS</speaker>
             <l>¿Quién merece ser, tú o Venus,</l>
             <l>la reina de la hermosura?</l>
@@ -7305,7 +7305,7 @@
             <l>Todo el coro de los dioses</l>
             <l>rasga sus azules velos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#andrómeda #bato #discordia #fineo #juno #lidoro #mercurio #palas #perseo #rey">
             <speaker>TODOS</speaker>
             <l n="1025">Nueva música se escucha.</l>
           </sp>
@@ -7334,7 +7334,7 @@
             <l>Y así, para que prosiga,</l>
             <l>vuelva a decir vuestro acento.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#júpiter">
             <speaker>TODOS</speaker>
             <stage>Con música y representando.</stage>
             <l> ¡Viva, viva la gala</l>

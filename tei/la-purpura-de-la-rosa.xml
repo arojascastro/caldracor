@@ -352,7 +352,7 @@
             <l>con que más segura estoy—,</l>
             <l>sepa quién eres.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -809,7 +809,7 @@
             <l>diga el eco en más sangrientas</l>
             <l>lides de celos y amor:…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#belona #marte">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -986,7 +986,7 @@
 
             <l>¡Guarda la fiera!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celfa #chato">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -1148,7 +1148,7 @@
             <l>Dejadme, pues, dejadme</l>
             <l>sola; todas os id.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #clori #flora #libia #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -1584,7 +1584,7 @@
         </div>
         <div type="scene" resp="#rojas" n="17">
           <stage>Salen las ninfas cantando y bailando, y Celfa y Chato.</stage>
-          <sp who="#todos">
+          <sp who="#adonis #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -1661,7 +1661,7 @@
             <l>La planta fugitiva</l>
             <l>del laurel ceda al roble.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#belona #dragón #marte">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2026,7 +2026,7 @@
             <l>¡Romped</l>
             <l>los riscos!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#belona">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -2197,7 +2197,7 @@
             <l>Mi angustia, mi pena, mi queja, mi asombro,</l>
             <l>¿hay quien los lamente?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2309,7 +2309,7 @@
             <l>…siempre paran las</l>
             <l>fugas.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2401,7 +2401,7 @@
             <l>al peregrino el riesgo le anuncia,</l>
             <l>ya que entré, ¿quién el preso es de celos?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2464,7 +2464,7 @@
 
             <l>Quién es sepa, pues.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2595,7 +2595,7 @@
             <l>si es verdad, porque es verdad;</l>
             <l>y si mientes, porque mientes.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2608,7 +2608,7 @@
 
             <l>¿Por qué?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2624,7 +2624,7 @@
 
             <l>¿De qué suerte?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3022,7 +3022,7 @@
         </div>
         <div type="scene" resp="#rojas" n="27">
           <stage>Vase.</stage>
-          <sp who="#todos">
+          <sp who="#amor #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -3242,7 +3242,7 @@
 
             <l>¡Al arma, celos, al arma!</l>
           </sp>
-          <sp who="#música #todos">
+          <sp who="#belona #celfa #chato #cintia #clori #flora #libia #marte #música #venus">
             <speaker rend="caps">Instrumentos Y Todas</speaker>
 
 
@@ -3254,7 +3254,7 @@
 
             <l>Que agravios obligan,…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#belona #celfa #chato #cintia #clori #flora #libia #marte #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -3266,7 +3266,7 @@
 
             <l>…y para venganzas, oh Marte, despierta,…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#belona #celfa #chato #cintia #clori #flora #libia #marte #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -3278,7 +3278,7 @@
 
             <l>…alienta y anima.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#belona #celfa #chato #cintia #clori #flora #libia #marte #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -3542,7 +3542,7 @@
 
             <l>¡Huid, pastores!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celfa #dragón #marte">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3890,7 +3890,7 @@
             <l>y así, ¿para qué has de ver</l>
             <l>qué humana púrpura corre?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#belona #libia #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -3964,7 +3964,7 @@
             <l>los ojos con mucha noche.</l>
           </sp>
           <stage>Cae Venus desmayada.</stage>
-          <sp who="#todos">
+          <sp who="#venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -4001,7 +4001,7 @@
             <l>sale la estrella de Venus</l>
             <l>al tiempo que el sol se pone.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #amor #belona #marte #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4039,7 +4039,7 @@
             <l>…con que nos aclama a un tiempo</l>
             <l>la música de dos orbes.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #amor #belona #marte #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4057,7 +4057,7 @@
             <l>La púrpura de la rosa,</l>
             <l>volviendo a decir las voces:…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adonis #amor #belona #marte #venus">
             <speaker rend="caps">Todos</speaker>
 
 

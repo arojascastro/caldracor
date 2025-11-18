@@ -214,7 +214,7 @@
             <l>De Climene bella</l>
             <l>son las voces.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#climene #flora">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
@@ -231,21 +231,21 @@
             <l>¡Alerta, guardas!</l>
             <stage>A una parte las mujeres y a otra los hombres.</stage>
           </sp>
-          <sp who="#todos">
+          <sp who="#climene #flora">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
 
             <l>¡Alerta!</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#climene #flora">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">[dentro.]</stage>
 
 
             <l>¡A la gruta, al cenador!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#climene #flora">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -275,7 +275,7 @@
             <l>con luces, arcos y flechas</l>
             <l>todas a mi voz.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cintia #clicie #climene #flora #lesbia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -492,7 +492,7 @@
             <l>¡Traición hay en los jardines!</l>
             <l>¡Alerta, guardas, alerta!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #clicie #climene #céfiro #flora #lesbia">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
@@ -2386,7 +2386,7 @@
 
             <l>¡Oye, aguarda, escucha, espera!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #céfiro">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -2423,7 +2423,7 @@
             <l>la libertad apellida</l>
             <l>en altas voces diciendo:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #céfiro">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
@@ -2828,7 +2828,7 @@
         </div>
         <div type="scene" resp="#rojas" n="2">
           <stage>Vase.</stage>
-          <sp who="#todos">
+          <sp who="#cintia #clicie #climene #céfiro #flora #lesbia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2846,7 +2846,7 @@
             <l>Clicie el tono y yo pondré</l>
             <l>en el baile las mudanzas.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #clicie #climene #céfiro #flora #lesbia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2945,7 +2945,7 @@
             <l>discurrir por los ejidos,</l>
             <l>vaya el baile otra vez.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #clicie #climene #céfiro #flora #lesbia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3378,7 +3378,7 @@
             <l>por más que todo junto</l>
             <l>repita en tu alabanza:</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#clicie #climene">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -3441,7 +3441,7 @@
             <l>repetiremos siempre</l>
             <l>que al valle a vernos salgas:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#apolo #clicie #climene #erídano">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4712,7 +4712,7 @@
 
             <l>Tó, Barcino.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#apolo #sátiro">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
@@ -5010,7 +5010,7 @@
 
             <l>Mas en vano…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #clicie #climene #céfiro #erídano #flora #sátiro">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -5664,7 +5664,7 @@
             <l>mézclome con los que llegan).</l>
             <stage>Salen Admeto, Erídano, Céfiro, Sátiro y pastores.</stage>
           </sp>
-          <sp who="#apolo #todos">
+          <sp who="#admeto #apolo #clicie #climene #céfiro #erídano #flora #sátiro">
             <speaker rend="caps">Él Y Todos</speaker>
 
 
@@ -6000,7 +6000,7 @@
             <l>prisión de la que antes tuvo</l>
             <l>presa vaya.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #céfiro #erídano #sátiro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6014,7 +6014,7 @@
             <l>libertad las voces vuestras</l>
             <l>y hoy son prisión.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #céfiro #erídano #sátiro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6034,7 +6034,7 @@
             <l>No puedo,</l>
             <l>que el río el paso me cerca.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #céfiro #erídano #sátiro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6046,7 +6046,7 @@
 
             <l>Yo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #céfiro #erídano #sátiro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6079,7 +6079,7 @@
             <l>varados están al agua</l>
             <l>echad para socorrerla.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #céfiro #erídano #sátiro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6240,7 +6240,7 @@
             <l>quien viene remando a bordo</l>
             <l>quien dice:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #fitón">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
@@ -6266,7 +6266,7 @@
 
             <l>Que aun en su destierro Apolo,…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #fitón">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
@@ -6280,7 +6280,7 @@
 
             <l>…si le ve un golfo morir,…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #fitón">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
@@ -6294,7 +6294,7 @@
 
             <l>…le ve nacer otro golfo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #fitón">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
@@ -6419,7 +6419,7 @@
             <l>que sin elección de que</l>
             <l>hago bien o mal, me escondo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeto #apolo #climene #fitón">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
 
@@ -7681,7 +7681,7 @@
 
             <l>…por ti gozando quietudes?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#apolo #climene #coro-primero #coro-segundo #fitón #sátiro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8691,7 +8691,7 @@
           </sp>
           <sp who="#iris #mercurio">
             <speaker rend="caps">Los dos</speaker>
-            
+
 
 
             <l>Ufanos</l>

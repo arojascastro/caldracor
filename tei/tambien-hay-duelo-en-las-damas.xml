@@ -3333,7 +3333,7 @@
         </div>
         <div type="scene" resp="#rojas" n="24">
           <stage>Salen todos.</stage>
-          <sp who="#todos">
+          <sp who="#don-fernando #don-félix #don-juan #don-pedro #simón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3368,7 +3368,7 @@
             <l>Uno que me ha de caber</l>
             <l>tras mí a la calle se salga.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#don-fernando #don-félix #don-juan #don-pedro #simón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3420,7 +3420,7 @@
             <l>Procurarla,</l>
             <l>poniéndome en salvo agora.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#don-fernando #don-félix #don-juan #don-pedro #simón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3463,7 +3463,7 @@
         </div>
         <div type="scene" resp="#rojas" n="26">
           <stage>Vase.</stage>
-          <sp who="#todos">
+          <sp who="#don-fernando #don-félix #don-pedro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10599,7 +10599,7 @@
         </div>
         <div type="scene" resp="#rojas" n="39">
           <stage>Salen todos.</stage>
-          <sp who="#todos">
+          <sp who="#don-alonso #don-fernando #don-félix #don-juan #don-pedro #leonor #simón #violante">
             <speaker rend="caps">Todos</speaker>
 
 

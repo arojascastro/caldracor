@@ -4604,7 +4604,7 @@
             <l>¡Mueran los dos!</l>
           </sp>
           <stage>Riñen</stage>
-          <sp who="#todos">
+          <sp who="#criado #juan #octavio #sancho">
             <speaker rend="caps">Todos</speaker>
 
 

@@ -215,7 +215,7 @@
             <l>a otro halcón, que tras él suba</l>
             <l>a socorrerle.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#federico #irifela #roberto #soldán">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -242,7 +242,7 @@
             <l>el caballo del Soldán</l>
             <l>se desboca.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#federico #irifela #roberto #soldán">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -400,7 +400,7 @@
             <l>por más que en mí tus iras ejecutas,</l>
             <l>no es infeliz quien de tus iras triunfa.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#federico #irifela #roberto #soldán">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -416,7 +416,7 @@
             <l>no menos casual asombro</l>
             <l>que la primera y segunda.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#federico #irifela #roberto #soldán">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -447,7 +447,7 @@
         </div>
         <div type="scene" resp="#rojas" n="2">
           <stage>Salen algunos guardas con armas.</stage>
-          <sp who="#todos">
+          <sp who="#roberto #soldán">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1168,7 +1168,7 @@
             <l>quién son y en lo que se ocupan.</l>
           </sp>
           <stage>En una parte cajas y trompetas y en otra instrumentos.</stage>
-          <sp who="#todos">
+          <sp who="#astolfo #casimiro #federico #irifela #soldán #voces">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -1417,7 +1417,7 @@
             <l>Pero prosiga la acción</l>
             <l>en que está Astolfo de Rusia.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#casimiro #federico #soldán">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -1437,7 +1437,7 @@
             <l>que para mí no es gloria</l>
             <l>si no se baña en sangre la vitoria.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1554,7 +1554,7 @@
             <l>ha salido Rosimunda,</l>
             <l>le sucede.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#federico #irifela #soldán">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -4200,7 +4200,7 @@
             <l>pues vuelve a la prisión con mi cadena).</l>
             <l>¡Hola!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #casimiro #lucanor #pasquín #rosimunda">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5891,7 +5891,7 @@
             <l>(Aquí llegó mi esperanza</l>
             <l>al último parasismo).</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #casimiro #estela #flora #lucanor #pasquín #roberto #rosimunda">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5910,7 +5910,7 @@
         </div>
         <div type="scene" resp="#rojas" n="28">
           <stage>Vase.</stage>
-          <sp who="#todos">
+          <sp who="#astolfo #casimiro #lucanor #rosimunda">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8068,7 +8068,7 @@
             <l>aunque quedó en la ensenada</l>
             <l>segura la retirada).</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#lucanor #pasquín">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8568,8 +8568,8 @@
           </sp>
           <sp who="#uno">
             <speaker rend="caps">Uno</speaker>
-			
-			
+
+
             <l>El viento</l>
             <l>aun no la podrá seguir.</l>
           </sp>
@@ -10482,7 +10482,7 @@
 
             <l>¡Jesús mil veces!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #casimiro #estela #lucanor #rosimunda #soldán">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10623,7 +10623,7 @@
             <l>Con que El conde Lucanor</l>
             <l>será feliz, si merece...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#federico #lucanor #pasquín #roberto #rosimunda #soldán">
             <speaker rend="caps">Todos</speaker>
 
 

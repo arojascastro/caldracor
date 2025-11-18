@@ -230,7 +230,7 @@
             <l>Detente,</l>
             <l>no le mates.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anfión #celauro #coro #ismenia #lidoro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -295,7 +295,7 @@
             <l>la memoria aun no se acuerde.</l>
           </sp>
           <stage>Las cajas y trompas.</stage>
-          <sp who="#todos">
+          <sp who="#anfión #celauro #coro #ismenia #lidoro">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -400,7 +400,7 @@
             <l>con segura confianza</l>
             <l>de que han de vivir, si atiendes…</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -444,7 +444,7 @@
             <l>pues no repara, no mira,</l>
             <l>no considera, no advierte…</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -476,7 +476,7 @@
             <l>Y siendo así que uno y otro</l>
             <l>más te ensalza que te ofende…</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -490,7 +490,7 @@
             <l>No digan de ti, si lidias</l>
             <l>contra quien no se defiende…</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -768,7 +768,7 @@
 
             <l>(Cielos, ¿qué diré?).</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#ismenia #libia">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">dentro</stage>
 
@@ -787,7 +787,7 @@
             <l>¿qué vale el oro en cadena</l>
             <l>que se arrastra y no se vende?).</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -836,7 +836,7 @@
             <l>dirán, depuesto el lamento</l>
             <l>y no el canto, una y mil veces:</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -862,7 +862,7 @@
             <l>Ni reine, triunfe ni viva;</l>
             <l>sino gima, llore y pene.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anfión #doris #ismenia #libia #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1024,7 +1024,7 @@
             <l>diciendo confusamente:</l>
             <l>Pues el invicto Anfión…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anfión #doris #ismenia #libia #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1036,7 +1036,7 @@
 
             <l>…la saña en piedad convierte…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anfión #doris #ismenia #libia #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1049,7 +1049,7 @@
             <l>En el templo de Diana</l>
             <l>Venus viva, triunfe y reine.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anfión #doris #ismenia #libia #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2425,7 +2425,7 @@
             <l>¡Ah de los claustros! ¡Venid,</l>
             <l>venid a favorecernos!</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#doris #ismenia #libia">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">dentro</stage>
 
@@ -2480,7 +2480,7 @@
         </div>
         <div type="scene" resp="#rojas" n="14">
           <stage>Escóndese, y sale Ismenia y otras.</stage>
-          <sp who="#todas">
+          <sp who="#ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2757,7 +2757,7 @@
             <l>mientras llegamos al templo,</l>
             <l>la música a decir vuelva:</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#anfión #ismenia #libia #música">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -2765,7 +2765,7 @@
             <l>destas incultas selvas,</l>
             <l>al nuevo sacrificio…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anfión #ismenia #libia">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -3104,7 +3104,7 @@
             <l>diciendo mi corazón</l>
             <l>más que esos bronces y lenguas).</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#celauro #doris #ismenia #libia #música">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -4916,7 +4916,7 @@
             <l>si no me dicen cuál es</l>
             <l>la que ha quitado la estatua.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#doris #ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -4932,7 +4932,7 @@
             <l>el que allí entrase a robarla?</l>
             <l>¿Cerrado el templo no estuvo?</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#doris #ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -4991,7 +4991,7 @@
             <l>(que ya sé que vencerás</l>
             <l>si tú del ruego te encargas).</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#doris #ismenia #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -7213,7 +7213,7 @@
             <l>mas la madre del Amor</l>
             <l>que las castiga, las premia.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anfión #celauro #doris #ismenia #lelio #libia #lidoro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7338,14 +7338,14 @@
             <l>No haberme librado fuera,</l>
             <l>de echarme a las sabandijas.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anfión #celauro #cupido #doris #ismenia #lelio #libia">
             <speaker rend="caps">Todos</speaker>
 
 
             <l>Vaya de música y fiesta,</l>
             <l>repitiendo todos que…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#anfión #celauro #cupido #doris #ismenia #lelio #libia #música">
             <speaker rend="caps">Todos Y Música</speaker>
 
 

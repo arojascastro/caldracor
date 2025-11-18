@@ -381,7 +381,7 @@
 
             <l>¡Viva mil siglos dichosos Aureliano!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #aureliano #capitán #soldados-aureliano">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -460,7 +460,7 @@
             <l>y el viento con ecos roncos</l>
             <l>repite: «¡Aureliano viva!».</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #aureliano #capitán #soldados-aureliano">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3807,7 +3807,7 @@
 
             <l>¡Traición!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #cenobia #libio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4422,7 +4422,7 @@
             <l>a este hombre por cobarde</l>
             <l>y a esta mujer por soberbia».</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aureliano #cenobia #decio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5631,7 +5631,7 @@
             <l>ciñe el sagrado laurel,</l>
             <l>Decio.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#decio #soldado-romano-1 #soldado-romano-2">
             <speaker rend="caps">Todos</speaker>
 
 
