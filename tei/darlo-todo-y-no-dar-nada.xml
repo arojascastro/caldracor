@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000072" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -255,7 +257,7 @@
 
             <l>...que a su imperio le viene el mundo estrecho.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -294,7 +296,7 @@
 
             <l>Alto, y prosigan los versos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -327,7 +329,7 @@
             <l>suena en su cóncavo espacio</l>
             <l>una y otra vez diciendo...</l>
           </sp>
-          <sp who="#diógenes #todos">
+          <sp who="#diógenes">
             <speaker rend="caps">Él y todos</speaker>
 
 
@@ -683,7 +685,7 @@
             <l>por más que esas voces digan</l>
             <l>una y otra vez al viento.</l>
           </sp>
-          <sp who="#diógenes #todos">
+          <sp who="#chichón #diógenes">
             <speaker rend="caps">Él y todos</speaker>
 
 
@@ -1478,7 +1480,7 @@
             <l>Mientras a su tienda vuelve</l>
             <l>el César, id repitiendo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #apeles #ceuxis #chichón #efestión #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3674,7 +3676,7 @@
         </div>
         <div type="scene" resp="#rojas" n="7">
           <stage>Vanse todos y queda Chichón.</stage>
-          <sp who="#todos">
+          <sp who="#chichón">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -3806,7 +3808,7 @@
             <l>Dioses,</l>
             <l>piedad.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #campaspe #estatira #siroés">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -3843,7 +3845,7 @@
 
             <l>Cielos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #campaspe #estatira #siroés">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -3856,7 +3858,7 @@
 
             <l>Piedad.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #campaspe #estatira #siroés">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3999,7 +4001,7 @@
         </div>
         <div type="scene" resp="#rojas" n="13">
           <stage>Salen Siroés, Nise y Clori, todas con arcos y flechas.</stage>
-          <sp who="#todas">
+          <sp who="#estatira #siroés">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -8571,7 +8573,7 @@
             <l>que me ahogo, que me aflijo.</l>
           </sp>
           <stage>Arroja los vestidos.</stage>
-          <sp who="#todos">
+          <sp who="#apeles #diógenes #estatira #siroés">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9220,7 +9222,7 @@
 
             <l>Mentís todos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #apeles #campaspe #diógenes #efestión">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 

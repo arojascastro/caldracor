@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000145" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -502,7 +504,7 @@
 
             <l>¡Viva Ildefonso!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#paje-1 #paje-2 #payo #pelagio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -520,7 +522,7 @@
 
             <l>¡Muera Pelagio!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#paje-1 #paje-2 #payo #pelagio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2195,7 +2197,7 @@
 
             <l>¿Qué respondéis? ¿Qué decís?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#elvira #godmán #paje-1 #paje-2 #paje-3 #sancha">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3191,7 +3193,7 @@
             <l>que en ningún tiempo el secreto</l>
             <l>deste caso reveléis.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#godmán #rodrigo #teodosio #íñigo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5428,7 +5430,7 @@
 
             <l>Salve Regina.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5440,7 +5442,7 @@
 
             <l>Mater Misericordiae.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5477,7 +5479,7 @@
 
             <l>Vita dulcedo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5489,7 +5491,7 @@
 
             <l>Spes nostra.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
             <speaker rend="caps">Todos</speaker>
 
 

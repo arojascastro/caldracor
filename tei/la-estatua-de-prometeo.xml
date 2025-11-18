@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000114" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -275,7 +277,7 @@
 
             <l>¡A la espesura!</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#epimeteo #libia #merlín #música #prometeo">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -317,7 +319,7 @@
             <l>sus lígneas a un punto, el fiero</l>
             <l>afán dejando en su busca, ...</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#epimeteo #libia #merlín #música #prometeo">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -345,7 +347,7 @@
 
             <l>Sepamos a qué nos juntas.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #libia #merlín #prometeo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -812,7 +814,7 @@
             <l>y tal vez al viento ahúma,</l>
             <l>al monte ha salido.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -825,7 +827,7 @@
 
             <l>Al monte, al valle. Dentro</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -837,7 +839,7 @@
 
             <l>Al llano, al bosque. Dentro</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1215,7 +1217,7 @@
             <l>tu deidad los temores asegura...</l>
           </sp>
           <stage>Suben asidos a un árbol.</stage>
-          <sp who="#todos #prometeo">
+          <sp who="#minerva #prometeo">
             <speaker rend="caps">Todos Con Él</speaker>
 
 
@@ -1400,7 +1402,7 @@
             <l>extremos que digan en voces diversas</l>
             <l>contra Prometeo...</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#epimeteo #música #palas #timantes">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -1458,7 +1460,7 @@
             <l>Hacia aquella</l>
             <l>parte está.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #palas #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1474,7 +1476,7 @@
         </div>
         <div type="scene" resp="#rojas" n="12">
           <stage>Salen [Timantes, Libia y Merlín y] todos los villanos.</stage>
-          <sp who="#todos">
+          <sp who="#epimeteo #libia #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1562,7 +1564,7 @@
             <l>el irnos sin que parezca</l>
             <l>Prometeo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#libia #merlín #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1577,7 +1579,7 @@
             <l>yo lo que pienso, sería</l>
             <l>saberlo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#libia #merlín #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2636,7 +2638,7 @@
 
             <l>Dejad, dejad las cabañas.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #merlín #minerva #prometeo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2954,7 +2956,7 @@
 
             <l>¿Quién madruga antes que el alba?</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#epimeteo #libia #minerva #música #prometeo #timantes">
             <speaker rend="caps">Todos con Música</speaker>
 
 
@@ -2987,7 +2989,7 @@
             <l>esa es noticia muy larga;</l>
             <l>después lo sabrás.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #libia #minerva #prometeo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3019,7 +3021,7 @@
             <l>de su doméstica lumbre,</l>
             <l>repetid en voces varias...</l>
           </sp>
-          <sp who="#todos #minerva #música">
+          <sp who="#epimeteo #libia #minerva #música #prometeo #timantes">
             <speaker rend="caps">Todos, Ella y Música</speaker>
 
 
@@ -3033,7 +3035,7 @@
             <l>¡Guerra, guerra, al arma, al arma! Dentro</l>
           </sp>
           <stage>Caja y clarín</stage>
-          <sp who="#todos">
+          <sp who="#epimeteo #libia #minerva #prometeo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3048,7 +3050,7 @@
             <l>es el enojo de Palas</l>
             <l>contra mí.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #libia #minerva #prometeo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3217,7 +3219,7 @@
             <l>En tanto que él no suceda,</l>
             <l>mejor es decir con ambas...</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#libia #música #timantes">
             <speaker rend="caps">Con Todos y Música</speaker>
 
 
@@ -3725,13 +3727,13 @@
             <speaker rend="caps">Con la Música a 4 voces</speaker>
             <l>con salvas el eco.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#discordia #epimeteo #libia #minerva #prometeo #timantes #villana-1 #villana-2 #villana-3">
             <speaker rend="caps">Todos</speaker>
 
 
             <l>Todos que te sirvan les agradecemos:</l>
           </sp>
-          <sp who="#música #todos">
+          <sp who="#discordia #epimeteo #libia #minerva #música #prometeo #timantes #villana-1 #villana-2 #villana-3">
 
             
             <speaker rend="caps">Con la Música a 4 voces</speaker>
@@ -3752,7 +3754,7 @@
             <l>la tierra con flores, el agua con perlas,</l>
             <l>el aire con plumas, con salvas el eco.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#discordia #epimeteo #libia #minerva #prometeo #timantes #villana-1 #villana-2 #villana-3">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3972,7 +3974,7 @@
         </div>
         <div type="scene" resp="#rojas" n="3">
           <stage>Abre la caja y sale humo y todos se barajan como ciegos.</stage>
-          <sp who="#todos">
+          <sp who="#discordia #epimeteo #prometeo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4125,7 +4127,7 @@
             <l>Qué mucho, si es la ojeriza</l>
             <l>de Palas, a quien yo temo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #libia #merlín #minerva #prometeo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4169,7 +4171,7 @@
             <l>clamad conmigo, diciendo:</l>
             <l>¡Favor, dioses soberanos!</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#epimeteo #libia #merlín #minerva #música #prometeo #timantes">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -4277,7 +4279,7 @@
             <l>Al que amo aborrecida,</l>
             <l>que no al que amada aborrezco.</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#epimeteo #música">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -4316,7 +4318,7 @@
             <l>después a su sacrificio,</l>
             <l>repetir ahora con ellos...</l>
           </sp>
-          <sp who="#todos #epimeteo">
+          <sp who="#epimeteo">
             <speaker rend="caps">El Y Todos</speaker>
 
 
@@ -4737,7 +4739,7 @@
             <l>en bandos, ¡viva Palas,</l>
             <l>que es diosa de la lid!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#discordia #minerva #prometeo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5969,7 +5971,7 @@
             <l>a los empeños de un bando</l>
             <l>o a los decretos de un dios.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #minerva #prometeo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5985,7 +5987,7 @@
 
             <l>¿Cómo, traidores?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #minerva #prometeo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6044,7 +6046,7 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <sp who="#todos">
+          <sp who="#minerva">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6303,7 +6305,7 @@
 
             <l>¡Qué pena!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#discordia #epimeteo #libia #merlín #minerva #palas #prometeo #timantes #villana-1 #villana-2 #villana-3">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6325,7 +6327,7 @@
             <l>él a la gruta, y ella</l>
             <l>a la hoguera.</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#discordia #epimeteo #libia #merlín #minerva #música #palas #prometeo #timantes #villana-1 #villana-2 #villana-3">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -6356,7 +6358,7 @@
             <l>Y di, ¿qué nuevo arrebol</l>
             <l>es el que ilumina el día?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#apolo #epimeteo #palas #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6545,7 +6547,7 @@
             <l>Sea,</l>
             <l>todos diciendo a una voz, ...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#epimeteo #libia #merlín #minerva #prometeo #timantes">
             <speaker rend="caps">Todos</speaker>
 
 

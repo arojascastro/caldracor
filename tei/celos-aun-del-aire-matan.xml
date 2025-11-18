@@ -1,4 +1,6 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000068" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -1628,7 +1630,7 @@
             <l>las unas sus rizos coronen guirnaldas,</l>
             <l>las otras sus aras adornen perfumes.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#eróstrato">
             <speaker>TODOS</speaker>
             <l>Venid, que hoy de marzo la luna se cumple.</l>
           </sp>
@@ -1655,7 +1657,7 @@
             <l>las unas, sus rizos coronen guirnaldas,</l>
             <l>las otras, sus aras adornen perfumes.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#eróstrato">
             <speaker>TODOS</speaker>
             <l n="30">Venid, que hoy de marzo la luna se cumple,</l>
             <l>en que partidos el día y la noche</l>
@@ -1880,7 +1882,7 @@
         </div>
         <div type="scene" resp="#rojas" n="5">
           <stage>Descúbrese el templo; salen por una puerta los hombres y por otra las mujeres, DIANA está en el trono, y sale ERÓSTRATO, CÉFALO, CLARÍN y RÚSTICO.</stage>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l n="175">Venid, moradores de Lidia, venid,</l>
             <l>venid, que hoy de marzo la luna se cumple,</l>
@@ -1894,7 +1896,7 @@
             <l>las unas sus rizos coronen guirnaldas,</l>
             <l>las otras sus aras adornen perfumes.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l>Venid, que hoy de marzo la luna se cumple.</l>
           </sp>
@@ -1983,7 +1985,7 @@
             <l>dice, en púrpura teñido:</l>
             <l n="240">¡Muera el amor y viva el olvido!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l>¡Viva el olvido y muera el amor!</l>
           </sp>
@@ -2010,7 +2012,7 @@
             <l>de haber de decir rendido:</l>
             <l>¡Muera el amor y viva el olvido!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l>¡Viva el olvido y muera amor!</l>
           </sp>
@@ -2043,7 +2045,7 @@
             <speaker>CLARÍN</speaker>
             <l>¡Muera el amor y viva el olvido!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l n="265">¡Viva el olvido y muera el amor!</l>
           </sp>
@@ -2079,7 +2081,7 @@
             <l n="280">en los coros de Diana</l>
             <l>cláusula de Venus es.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l>A nadie vemos, y solo</l>
             <l>sentimos, al parecer,</l>
@@ -2245,7 +2247,7 @@
             <l>y pues a todas nos toca,</l>
             <l>de parte de todas ve.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#céfalo #diana #mujeres">
             <speaker>TODAS</speaker>
             <l n="410">Y sepa que va</l>
             <l>a alegar contra él,</l>
@@ -2829,7 +2831,7 @@
             <l>siempre que a verla llego</l>
             <l part="I">todo es decirme, ¡ay, triste!...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#clarín #céfalo">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l n="620" part="F">¡Fuego, fuego!</l>
@@ -2860,7 +2862,7 @@
             <l>es donde se oye el confuso</l>
             <l part="I">clamor decir...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#clarín #céfalo">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l part="F">¡Fuego, fuego!</l>
@@ -2974,7 +2976,7 @@
             <speaker>NINFA 3.ª</speaker>
             <l>Cazadores destas selvas...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #ninfa-1 #ninfa-2 #ninfa-3 #voz-1 #voz-2">
             <speaker>TODOS</speaker>
             <l n="680">Acudid, acudid presto.</l>
           </sp>
@@ -3092,7 +3094,7 @@
             <l>A pesar de sus clamores,</l>
             <l part="I">¡arda todo!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #céfalo #voz-1 #voz-2 #voz-3 #voz-4">
             <speaker>TODOS</speaker>
             <l part="F">¡Fuego, fuego!</l>
           </sp>
@@ -3172,7 +3174,7 @@
             <speaker>VOZ 4.ª</speaker>
             <l>¡Que me ahogo! ¡Fuego!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #voz-1 #voz-2 #voz-3 #voz-4">
             <speaker>TODOS</speaker>
             <l n="740">¡A la torre, al claustro, al templo!</l>
           </sp>
@@ -3180,7 +3182,7 @@
             <speaker>AURA</speaker>
             <l part="I">Arda todo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #voz-1 #voz-2 #voz-3 #voz-4">
             <speaker>TODOS</speaker>
             <l part="F">¡Piedad, dioses!</l>
           </sp>
@@ -3188,7 +3190,7 @@
             <speaker>AURA</speaker>
             <l part="I">Todo acabe.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #voz-1 #voz-2 #voz-3 #voz-4">
             <speaker>TODOS</speaker>
             <l part="F">¡Piedad, cielos!</l>
           </sp>
@@ -3719,7 +3721,7 @@
             <l>Pocris, si a saber alcanzas...</l>
           </sp>
           <stage>Toda la música.</stage>
-          <sp who="#todos">
+          <sp who="#alecto #floreta #pocris">
             <speaker>TODOS</speaker>
             <l n="320">Que si el aire diere celos...</l>
           </sp>
@@ -4880,7 +4882,7 @@
             <l>diciendo en ecos acordes:</l>
             <l>Viva la deidad...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l n="930">Viva la deidad...</l>
           </sp>
@@ -4888,7 +4890,7 @@
             <speaker>DIANA</speaker>
             <l>Que a los corazones...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l>Que a los corazones...</l>
           </sp>
@@ -4896,7 +4898,7 @@
             <speaker>DIANA</speaker>
             <l>Que prende el amor...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l>Que prende el amor...</l>
           </sp>
@@ -4904,7 +4906,7 @@
             <speaker>DIANA</speaker>
             <l n="935">Los grillos les rompe...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l>Los grillos les rompe...</l>
           </sp>
@@ -4981,7 +4983,7 @@
             <l>poco importa que blasones</l>
             <l part="I">de estrella y aire.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l part="F">Con que</l>
             <l n="990">diremos todos conformes:</l>

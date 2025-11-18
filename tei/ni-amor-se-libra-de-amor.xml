@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000141" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -300,7 +302,7 @@
 
             <l>No vi hermosura mayor.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#selenisa">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -402,7 +404,7 @@
             <l>lo mismo dirás?, que siempre</l>
             <l>la postrera es la mejor.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#astrea">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -512,7 +514,7 @@
 
             <l>¡Oh, quiera Amor que Selenisa sea!</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#siquis">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -1027,7 +1029,7 @@
 
             <l>¡Profanemos sus altares!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #atamas #fabio #libio #lidoro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1045,7 +1047,7 @@
 
             <l>Todo es confusión y estruendo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #atamas #fabio #libio #lidoro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1057,7 +1059,7 @@
 
             <l>¡Vasallos, amigos, deudos…!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #atamas #fabio #libio #lidoro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1342,7 +1344,7 @@
 
             <l>¡Vasallos, amigos, deudos…!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #atamas #friso #lidoro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1434,7 +1436,7 @@
             <l>el aplauso en la venganza</l>
             <l>no es diosa.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #atamas #selenisa #siquis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1462,7 +1464,7 @@
             <l>¿Mi respeto a deteneros</l>
             <l>no es bastante?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #atamas #selenisa #siquis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1495,7 +1497,7 @@
             <l>la verdad, también, Astrea,</l>
             <l>llevo el propio sentimiento.)</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #atamas #selenisa #siquis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2936,7 +2938,7 @@
 
             <l>¿Tú, suspendido?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #astrea #atamas #selenisa">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3452,7 +3454,7 @@
 
             <l>¡Al chafaldete!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #atamas #flora #friso #siquis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3529,7 +3531,7 @@
             <l>hasta que por los demás</l>
             <l>otra vez al bajel vuelva.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #atamas #flora #friso #siquis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3553,7 +3555,7 @@
 
             <l>¡A tierra!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #atamas #flora #friso #siquis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4331,7 +4333,7 @@
             <l>yo no puedo socorrerte,</l>
             <l>que atado y preso me llevan.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #atamas #flora #friso #siquis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4369,7 +4371,7 @@
             <l>hasta que pueda volver</l>
             <l>a morir donde tú mueras!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #atamas #flora #friso #siquis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6898,7 +6900,7 @@
             <l>y el alma, pues que sin Siquis,</l>
             <l>no la tengo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -8635,7 +8637,7 @@
             <l>¿Adónde se han ido tantos</l>
             <l>torreones y chapiteles?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #arsidas #astrea #atamas #flora #friso #lidoro #selenisa #siquis">
             <speaker rend="caps">Todos</speaker>
 
 

@@ -1,4 +1,6 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000096" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -3999,7 +4001,7 @@
             <speaker>MÚSICOS</speaker>
             <l n="765">Què voleu? </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#don-juan #don-álvaro #fabio #hombre-1 #juanete #mujer-1 #serafina">
             <speaker>TODOS</speaker>
             <l> Las paraletas</l>
             <l> digan tots10. </l>
@@ -4577,7 +4579,7 @@
         </div>
         <div type="scene" resp="#rojas" n="27">
           <stage>Salen todos los de la máscara.</stage>
-          <sp who="#todos">
+          <sp who="#don-juan #juanete">
             <speaker>TODOS</speaker>
             <l part="M"> ¿Qué es esto? </l>
           </sp>
@@ -4602,7 +4604,7 @@
             <l n="1010"> Por aqueste «¡hombre a la mar!» </l>
             <l part="I"> se dijo ya. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#don-juan #juanete">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l part="F"> ¡Al agua, al agua! </l>
@@ -4618,7 +4620,7 @@
             <stage>Dentro.</stage>
             <l part="I">¡Amparo, cielo! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#don-juan #juanete">
             <speaker>TODOS</speaker>
             <l n="1015" part="F"> Él te valga.</l>
           </sp>
@@ -6647,7 +6649,7 @@
             <l> Ahora, más que me maten; </l>
             <l> que ya no estimo la vida. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#don-juan #don-luis #don-pedro #don-álvaro #porcia #serafina">
             <speaker>TODOS</speaker>
             <l> ¡El ruido se oyó a esta parte! </l>
           </sp>

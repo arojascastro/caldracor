@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000086" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -409,7 +411,7 @@
 
             <l>Y todos, ¿qué dicen?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #sileno">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -451,7 +453,7 @@
 
             <l>¿Qué dicen?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #sileno">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -698,7 +700,7 @@
 
             <l>Que el que antes fue invierno es ya primavera.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -734,7 +736,7 @@
 
             <l>…las ondas se ríen.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -868,7 +870,7 @@
             <l>debemos a otras deidades</l>
             <l>tener gratas.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -914,7 +916,7 @@
             <l>vengan norabuena.</l>
           </sp>
           <stage>Bajan todos.</stage>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -930,7 +932,7 @@
             <l>el sol amanezca,</l>
             <l>venga norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -946,7 +948,7 @@
             <l>en las almas reina,</l>
             <l>venga norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -962,7 +964,7 @@
             <l>de entrambas grandezas,</l>
             <l>venga norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -978,7 +980,7 @@
             <l>de aquel sol estrellas,</l>
             <l>vengan norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1015,7 +1017,7 @@
 
             <l>Aquél es otro cantar.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1058,7 +1060,7 @@
 
             <l>A la escota.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1080,7 +1082,7 @@
 
             <l>Bien dice.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1104,7 +1106,7 @@
             <l>Júpiter, piedad;</l>
             <l>Neptuno, clemencia.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #celfa #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1192,7 +1194,7 @@
             <l>pues nunca el voto es inútil,</l>
             <l>repitan las voces nuestras.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#ulises">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -3233,7 +3235,7 @@
 
             <l>Conque diremos los tres:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#caribdis #escila #ulises">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4822,7 +4824,7 @@
             <l>miramos sobre las aguas,</l>
             <l>nunca hasta ahora descubiertos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #astrea #caribdis #dante #escila #pescador-primero #pescador-segundo #pescador-tercero #sirena-cuarta #sirena-primera #sirena-segunda #sirena-tercera #ulises #villana-primera #villana-segunda">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4837,7 +4839,7 @@
 
             <l>El cielo me valga.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #pescador-primero #sileno #viejo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4893,7 +4895,7 @@
             <l>Todos estamos acá,</l>
             <l>amigos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #pescador-primero #sileno #viejo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4916,7 +4918,7 @@
             <l>es hoy toda esta comarca,</l>
             <l>huyamos todos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #pescador-primero #sileno #viejo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5217,7 +5219,7 @@
             <l>Venid todos, venid todas</l>
             <l>a recibirle.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5230,7 +5232,7 @@
             <l>En toda mi vida vi</l>
             <l>fieras tan buenas cristianas.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5258,7 +5260,7 @@
             <l>Sí iré tal, porque vendido,</l>
             <l>la puedo volver.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5348,7 +5350,7 @@
             <l>matarme tú con ventaja.</l>
             <l>¡Ay, que me ha muerto!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5381,7 +5383,7 @@
             <l>Con no oírme, que a un salvaje,</l>
             <l>quien no le escucha le mata.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5446,7 +5448,7 @@
             <l>Y yo que un gran puerco fui,</l>
             <l>soy jabalí.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5479,7 +5481,7 @@
 
             <l>¿Esa es nube o es banasta?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5492,7 +5494,7 @@
 
             <l>¿Quién es el que me ha librado?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5518,7 +5520,7 @@
 
             <l>¿Tú eres, falsa?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5650,7 +5652,7 @@
             <l>Que con marido y desencantada,</l>
             <l>qué dos venturas, venturas tan raras.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 

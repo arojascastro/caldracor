@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000070" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -8768,7 +8770,7 @@
             <l>¿Qué voz, ¡ay triste!,</l>
             <l>aquélla es?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alonso #beatriz #félix #leonor #luis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8821,7 +8823,7 @@
         </div>
         <div type="scene" resp="#rojas" n="36">
           <stage>Salen acuchillándose don Antonio y don Alonso.</stage>
-          <sp who="#todos">
+          <sp who="#alonso #antonio #beatriz #félix #luis #roque #ángela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8985,7 +8987,7 @@
             <l>Conque dirá la comedia,</l>
             <l>aunque a don Antonio pese...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alonso #antonio #beatriz #félix #luis #roque #ángela">
             <speaker rend="caps">Todos</speaker>
 
 

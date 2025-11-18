@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000084" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -1221,7 +1223,7 @@
         </div>
         <div type="scene" resp="#rojas" n="15">
           <stage>Sale Margarita.</stage>
-          <sp who="#todos">
+          <sp who="#laura #margarita">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1302,7 +1304,7 @@
 
             <l>Amiga.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#enrique #laura #margarita #serafina">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1353,7 +1355,7 @@
             <l>Después</l>
             <l>para todo habrá lugar.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#fabio #laura #serafina">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5679,7 +5681,7 @@
         </div>
         <div type="scene" resp="#rojas" n="17">
           <stage>Salen y abrázanse con ellos y cúbrenlos los rostros.</stage>
-          <sp who="#todos">
+          <sp who="#enrique #fabio #franchipán #libia #serafina">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7520,7 +7522,7 @@
 
             <l>El prodigio de un valor.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#laura #libia #margarita #serafina">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -8147,7 +8149,7 @@
             <l>Pues ya aquí mal resistirnos</l>
             <l>podemos, ¡al monte!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celio #enrique #florante #franchipán #laura #libia #margarita #serafina">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -8244,7 +8246,7 @@
             <l>y en mejor traje nos halle</l>
             <l>cualquier suceso.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#enrique #franchipán #laura #margarita">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -8398,7 +8400,7 @@
             <l>¡Tente, Margarita! ¡Espera,</l>
             <l>Laura!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celio #florante #gobernador #laura #margarita">
             <speaker rend="caps">Todos</speaker>
 
 

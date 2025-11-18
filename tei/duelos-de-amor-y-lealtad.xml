@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000075" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -235,7 +237,7 @@
 
             <l>¡Guerra, guerra!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cenón #leonido #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -339,7 +341,7 @@
 
             <l>¡A la selva!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cenón #leonido #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1622,7 +1624,7 @@
             <l>se ha sabido desmentir.)</l>
             <l>¿Qué esperáis? Retiraos, pues.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#deidamia #flora">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2906,7 +2908,7 @@
             <l>…que morir diciendo…!</l>
           </sp>
           <stage>La música y los dos a un tiempo.</stage>
-          <sp who="#todos">
+          <sp who="#cósdroas #deidamia #irífile #leonido #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4383,7 +4385,7 @@
             <l>vuelva a ganarte, que a mí</l>
             <l>no ha de obstar…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#leonido #música">
             <speaker rend="caps">Todos Y Música</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -4412,7 +4414,7 @@
         </div>
         <div type="scene" resp="#rojas" n="15">
           <stage>Salen todos los cautivos que pudieren, Toante, Cósdroas, Morlaco y músicos.</stage>
-          <sp who="#todos">
+          <sp who="#cósdroas #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4474,7 +4476,7 @@
 
             <l>Ni oírnos ni entrar pueden ya.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4698,7 +4700,7 @@
             <l>sin que de aquí salga vivo,</l>
             <l>muera a nuestras manos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4764,7 +4766,7 @@
             <l>de su mitad la divida</l>
             <l>la luna en dos equilibrios.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4787,7 +4789,7 @@
             <l>volved para que nos abran</l>
             <l>a entonar más alto el himno:</l>
           </sp>
-          <sp who="#música #todos">
+          <sp who="#cósdroas #morlaco #música #toante">
             <speaker rend="caps">Música Y Todos</speaker>
 
 
@@ -4813,7 +4815,7 @@
             <l>al favor, sin mudar nadie</l>
             <l>semblante, color ni estilo.</l>
           </sp>
-          <sp who="#música #todos">
+          <sp who="#cósdroas #morlaco #música #toante">
             <speaker rend="caps">Música Y Todos</speaker>
 
 
@@ -5616,7 +5618,7 @@
             <l>pues yo dél te aviso, y hago</l>
             <l>no poco en darte el aviso.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #irífile #leonido #toante">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -5837,7 +5839,7 @@
             <l>y Toante, no ya Estratón,</l>
             <l>que dio la muerte a Leonido!»</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #irífile #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5956,7 +5958,7 @@
 
             <l>Y todos juntos:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cenón #leonido #toante">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -5977,7 +5979,7 @@
 
             <l>¡Cielos, favor!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cenón #leonido #toante">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -6204,7 +6206,7 @@
             <l>y de su ingratitud sus triunfos labra?</l>
             <l>A Tiro, pues, y pase la palabra.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #cenón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6851,7 +6853,7 @@
             <l>lo resistáis, la habéis hoy</l>
             <l>de aclamar y obedecer.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#deidamia #irífile #toante">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -6867,7 +6869,7 @@
 
             <l>¿Qué esperáis, pues?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#deidamia #irífile #toante">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -6898,7 +6900,7 @@
             <l>¿Contra vuestro general</l>
             <l>armas tomáis?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #irífile #morlaco #soldados-fenicios-1 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7042,7 +7044,7 @@
             <l>que, de haber de admitir otra,</l>
             <l>tú nos estabas más bien.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #irífile #morlaco">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7183,7 +7185,7 @@
 
             <l>Mirad.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #leonido #soldados-fenicios-1 #soldados-fenicios-2">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7201,7 +7203,7 @@
             <l>que acabarla de vencer.</l>
             <l>Haya medio que os ajuste.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #leonido #soldados-fenicios-1 #soldados-fenicios-2">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7215,7 +7217,7 @@
             <l>sin excepción de personas,</l>
             <l>igual a todos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #leonido #soldados-fenicios-1 #soldados-fenicios-2">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7256,7 +7258,7 @@
             <l>señal que no puede ser</l>
             <l>de otro sino suya.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #leonido #soldados-fenicios-1 #soldados-fenicios-2">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7294,7 +7296,7 @@
             <l>pues, influida de Apolo,</l>
             <l>la luz del sol será el juez.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cósdroas #leonido #soldados-fenicios-1 #soldados-fenicios-2">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7317,7 +7319,7 @@
             <l>laurel y luz han de ceñir, poniendo</l>
             <l>tú la luz y nosotros el laurel.</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#cósdroas #leonido #música #soldados-fenicios-1 #soldados-fenicios-2">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -7350,7 +7352,7 @@
             <l>diciendo ni al mal ni al bien…?</l>
             <l>La música dentro, a lo lejos.</l>
           </sp>
-          <sp who="#leonido #todos">
+          <sp who="#cósdroas #leonido #soldados-fenicios-1 #soldados-fenicios-2">
             <speaker rend="caps">Él Y Todos</speaker>
 
 
@@ -7499,7 +7501,7 @@
             <l>por si aquí no lo oyes bien:</l>
           </sp>
           <stage>Él y la música a lo lejos.</stage>
-          <sp who="#toante #todos">
+          <sp who="#leonido #toante">
             <speaker rend="caps">Él Y Todos</speaker>
 
 
@@ -7737,7 +7739,7 @@
         </div>
         <div type="scene" resp="#rojas" n="14">
           <stage>Vanse, y salen los hombres y mujeres que puedan, y canta la música.</stage>
-          <sp who="#todos">
+          <sp who="#coro-1 #coro-2 #cósdroas">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7931,7 +7933,7 @@
             <l>quieren volver, aquí</l>
             <l>me hallarán.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7999,7 +8001,7 @@
             <l>salió el sol, a quien vi</l>
             <l>yo el primero de todos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8112,7 +8114,7 @@
             <l>tan especial decreto</l>
             <l>podrá?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8142,7 +8144,7 @@
             <l>¡viva Toante, feliz</l>
             <l>primero rey de Tiro!</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #música #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -8163,7 +8165,7 @@
             <l>vosotros repetid</l>
             <l>en su festivo aplauso:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8359,7 +8361,7 @@
             <l>Jove hoy de Apolo nos venga</l>
             <l>en la elección de Toante.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#deidamia #soldados-fenicios-1">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8537,7 +8539,7 @@
             <l>sino a que te compadezcas.</l>
             <l>¡Piedad, piedad, señor! En ti se vea…</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#deidamia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -8549,7 +8551,7 @@
 
             <l>…cuán hija del valor es la clemencia.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#deidamia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -8674,7 +8676,7 @@
 
             <l>Dete el pueblo la respuesta:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #cósdroas #irífile #soldados-fenicios-1 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9005,7 +9007,7 @@
             <l>de que vivo, a darme muerte</l>
             <l>vienen.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#irífile #leonido">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro.</stage>
 
@@ -9043,7 +9045,7 @@
             <l>¿Pues qué novedad es esta?</l>
             <l>¿Vos, señor?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #cenón #deidamia #flora #irífile #laura #leonido #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9056,7 +9058,7 @@
             <l>¿Qué hay que a todos os suspenda?</l>
             <l>¿Quién es este hombre?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #cenón #deidamia #flora #irífile #laura #leonido #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9299,7 +9301,7 @@
             <l>que el hacer paces también</l>
             <l>suelen ser triunfos de guerra.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alejandro #cenón #deidamia #flora #irífile #laura #leonido #morlaco #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9309,7 +9311,7 @@
             <l>esas tus mejores señas:</l>
           </sp>
           <stage>Todos y la música, unos cantando y otros representando a un tiempo.</stage>
-          <sp who="#todos #música">
+          <sp who="#alejandro #cenón #deidamia #flora #irífile #laura #leonido #morlaco #música #toante">
             <speaker rend="caps">Todos Y Música</speaker>
 
 

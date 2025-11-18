@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000091" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -541,7 +543,7 @@
         </div>
         <div type="scene" resp="#rojas" n="3">
           <stage>Vanse los tres, y de la puerta por donde salió Beatriz, salen riñendo, las espaldas al tablado don Félix, y don Juan de cara, y por otra parte don Diego y Celio, gente, y luz.</stage>
-          <sp who="#todos">
+          <sp who="#don-diego #don-félix">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1156,7 +1158,7 @@
 
             <l>(Echó mi fortuna el resto.)</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#beatriz #chacón #don-enrique">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7010,7 +7012,7 @@
             <l>Los brazos una y mil veces</l>
             <l>me dad.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7102,7 +7104,7 @@
             <l>que estos señores darán</l>
             <l>licencia, Inés.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7189,7 +7191,7 @@
             <l>Ya no es tiempo de eso. Quien,</l>
             <l>a pesar de todos, salga.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7434,7 +7436,7 @@
             <l>don Diego con igual yerno,</l>
             <l>Fernando con tal venganza!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7456,7 +7458,7 @@
             <l>No nos quitarás, por eso,</l>
             <l>que nuestras voces añadan:…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 

@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000087" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -1165,7 +1167,7 @@
         </div>
         <div type="scene" resp="#rojas" n="9">
           <stage>Vase.</stage>
-          <sp who="#todos">
+          <sp who="#alcuzcuz">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1363,7 +1365,7 @@
             <l>Pues su caudillo les falta,</l>
             <l>¡a ellos, soldados!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #buen-genio #cide #mal-genio #muley #príncipe #voces #zara">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -1526,7 +1528,7 @@
 
             <l>¡A ellos, soldados!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #buen-genio #cide #mal-genio #muley #príncipe #voces #zara">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -1584,7 +1586,7 @@
             <l>unos y otros hasta que</l>
             <l>más claro lo diga el tiempo:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #buen-genio #cide #mal-genio #muley #príncipe #voces #zara">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -1947,7 +1949,7 @@
 
             <l>…sacro laurel, pacífica la oliva.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #alcuzcuz #cide #muley #príncipe #rey #zara">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1966,7 +1968,7 @@
             <l>la militar mezclando y la festiva,</l>
             <l>quien diga a voces: ¡Viva Mahomet!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #alcuzcuz #cide #muley #príncipe #rey #zara">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1984,7 +1986,7 @@
             <l>la aclamación festiva</l>
             <l>no sea a mí, sí a Zara.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #alcuzcuz #cide #muley #príncipe #rey #zara">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">Caja y música.</stage>
 
@@ -2027,7 +2029,7 @@
 
             <l>Bien suena el «¡viva Zara!».</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #alcuzcuz #cide #muley #príncipe #rey #zara">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2070,7 +2072,7 @@
 
             <l>…es bien que nuestras ansias le reciban!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #alcuzcuz #cide #muley #príncipe #rey #zara">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2765,7 +2767,7 @@
             <l>y en orden la gente vaya</l>
             <l>desembarcándose.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#baltasar #maestre">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -5038,7 +5040,7 @@
 
             <l>¿Qué oigo?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#príncipe">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -5645,7 +5647,7 @@
             <l>cuando dicen:</l>
           </sp>
           <stage>El terremoto, y con esta faena se descubre el bajel en que vendrán el Príncipe, Cide, Alcuzcuz y otros de marineros.</stage>
-          <sp who="#todos">
+          <sp who="#alcuzcuz #buen-genio #cide #la-virgen #mal-genio #príncipe">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5783,7 +5785,7 @@
             <l>dulcísimas armonías</l>
             <l>en los vientos?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alcuzcuz #buen-genio #cide #la-virgen #mal-genio #príncipe">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5862,7 +5864,7 @@
             <l>¡A Malta, a Malta otra vez,</l>
             <l>amigos!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alcuzcuz #buen-genio #cide #la-virgen #mal-genio #príncipe">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6253,7 +6255,7 @@
             <l>a las músicas y voces,</l>
             <l>diciendo una y otra vez:</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#baltasar #buen-genio #maestre #mal-genio #música #príncipe">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6277,7 +6279,7 @@
             <l>don Baltasar de Loyola</l>
             <l>el gran príncipe de Fez,…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#baltasar #buen-genio #maestre #mal-genio #música #príncipe">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6761,7 +6763,7 @@
 
             <l>¡Ay, infeliz!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #cide #muley #zara">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -6826,7 +6828,7 @@
         </div>
         <div type="scene" resp="#rojas" n="8">
           <stage>Vase.</stage>
-          <sp who="#todos">
+          <sp who="#abdalá #zara">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7877,7 +7879,7 @@
 
             <l>¡Muera Mahomet!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#mal-genio #príncipe #zara">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -7891,7 +7893,7 @@
 
             <l>¡Viva Muley!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#mal-genio #príncipe #zara">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7998,7 +8000,7 @@
             <l>calles y plazas la estatua</l>
             <l>arrastrad hecha pedazos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#abdalá #alcuzcuz #muley #príncipe #zara">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8931,7 +8933,7 @@
             <l>…y yo</l>
             <l>con todos a mi despecho:</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#caballero #mal-genio #moro #música #religión">
             <speaker rend="caps">Todos Y Música</speaker>
 
 

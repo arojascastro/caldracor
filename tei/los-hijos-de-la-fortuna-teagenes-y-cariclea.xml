@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000132" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -1219,7 +1221,7 @@
             <l>juraría que me dijo…</l>
             <l>Dentro ¡Muera el etíope!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cariclés #idaspes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1241,7 +1243,7 @@
         </div>
         <div type="scene" resp="#rojas" n="11">
           <stage>Sale un capitán y soldados.</stage>
-          <sp who="#todos">
+          <sp who="#capitán #cariclea #cariclés #idaspes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1335,7 +1337,7 @@
             <l>a las señas de contrario,</l>
             <l>no albergándoos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #cariclea #cariclés #idaspes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2843,7 +2845,7 @@
 
             <l>… la paz (mejor diré, el riesgo)…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cariclea #teágenes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4035,7 +4037,7 @@
 
             <l>Mira…</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cariclea">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">dentro</stage>
 
@@ -5153,7 +5155,7 @@
             <l>castigue tu atrevimiento.</l>
           </sp>
           <stage>Caja.</stage>
-          <sp who="#todos">
+          <sp who="#jebnón #nausiclés #petosiris #tíamis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5227,7 +5229,7 @@
 
             <l>¡Arda todo!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#jebnón #nausiclés #petosiris #tíamis">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8202,7 +8204,7 @@
             <l>¡Ceda el valor a la fuerza,</l>
             <l>y a Menfis todos!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#admeta #cariclea #persina">
             <speaker rend="caps">Todos</speaker>
 
 

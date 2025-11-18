@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000126" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -1495,7 +1497,7 @@
 
             <l>¡Viva nuestro gran dios!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#ceusis #demonio #lesbia #licanoro #lirón #rey #sacerdote">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1564,7 +1566,7 @@
             <l>darte como tal respuesta.</l>
             <l>¡Viva nuestro gran dios!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#ceusis #demonio #lesbia #licanoro #lirón #rey #sacerdote">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2111,7 +2113,7 @@
             <l>¡Muera a mis manos quien viene</l>
             <l>a alterar la patria!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#bartolomé #ceusis #demonio #irene #lesbia #licanoro #lirón #rey">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2161,7 +2163,7 @@
             <l>No le oigas.</l>
             <l>¡Muera a nuestras manos!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#bartolomé #ceusis #demonio #irene #lesbia #licanoro #lirón #rey">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4442,7 +4444,7 @@
 
             <l>¡Que esto los cielos consientan!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#bartolomé #ceusis #demonio">
             <speaker rend="caps">Todos</speaker>
 
 

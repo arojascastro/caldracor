@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000089" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -624,7 +626,7 @@
 
             <l>Llegad todos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capricho #eugenia #filipo #julia #sergio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2873,7 +2875,7 @@
             <l>contra mí... ¡Padre, señor,</l>
             <l>hermano, Julia!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capricho #eugenia #filipo #julia #sergio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4117,7 +4119,7 @@
 
             <l>A las ondas se ha arrojado.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cesarino #filipo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4284,7 +4286,7 @@
             <l>¿Qué esperáis? Repetid todos:</l>
             <l>¡Viva la deidad de Eugenia!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #cesarino #filipo #sergio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5960,7 +5962,7 @@
             <l>nueva deidad soberana,</l>
             <l>viva!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #eugenia #gente #melancia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6142,7 +6144,7 @@
 
             <l>...es la que tengo en el alma!).</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #capricho #eugenia #julia #melancia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7431,7 +7433,7 @@
             <l>Ya te obedezco. Dejadme,</l>
             <l>tiranos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #capricho #cesarino #eleno #eugenia #filipo #melancia #sergio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7458,7 +7460,7 @@
             <l>no es posible que yo sea</l>
             <l>el agresor?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #capricho #cesarino #eleno #eugenia #filipo #melancia #sergio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7592,7 +7594,7 @@
             <l>La máquina de dos polos</l>
             <l>sobre nosotros se viene.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #cesarino">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -7654,7 +7656,7 @@
         </div>
         <div type="scene" resp="#rojas" n="20">
           <stage>Vase.</stage>
-          <sp who="#todos">
+          <sp who="#aurelio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7707,7 +7709,7 @@
 
             <l>Oíd todos antes.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cesarino #eugenia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7755,7 +7757,7 @@
 
             <l>¿Qué?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cesarino #eugenia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8056,7 +8058,7 @@
         </div>
         <div type="scene" resp="#rojas" n="27">
           <stage>Húndese y salen llamas.</stage>
-          <sp who="#músicos #todos">
+          <sp who="#capricho #músicos">
             <speaker rend="caps">Músicos y Todos</speaker>
 
 

@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000148" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -6182,7 +6184,7 @@
 
             <l>Un empeño llama a otro.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#fadrique #hipólita #juana #laura #lisardo #vicente #álvaro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6260,7 +6262,7 @@
             <l>si no basta mi disculpa</l>
             <l>a moveros.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#fadrique #hipólita #juana #laura #lisardo #vicente #álvaro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6676,7 +6678,7 @@
 
             <l>No será fácil.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#fadrique #hipólita #juana #laura #lisardo #vicente #álvaro">
             <speaker rend="caps">Todos</speaker>
 
 

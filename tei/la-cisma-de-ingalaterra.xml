@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000112" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -5706,7 +5708,7 @@
             <l>al juramento procedan.</l>
             <l>¿Así lo obedecen todos?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #infanta #margarita #rey #tomás">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5872,7 +5874,7 @@
 
             <l>¿Quiere el reino hacer la jura?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #infanta #margarita #rey #tomás">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5899,7 +5901,7 @@
             <l>jurada, ya Londres muestra</l>
             <l>en sus aplausos su gusto.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #infanta #margarita #rey #tomás">
             <speaker rend="caps">Todos</speaker>
 
 

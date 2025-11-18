@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000103" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -1403,14 +1405,14 @@
             <l>su cumbre tropas diversas</l>
             <l>por ambas partes.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #heraclio #hombres #leonido #mujeres">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
 
             <l>¡Al risco!</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#mujeres">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">dentro</stage>
 
@@ -2632,7 +2634,7 @@
             <l>Voces Libia y Cintia dan.</l>
             <l>¡Acudid todos!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #focas #heraclio #leonido #libia #soldado-1">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2820,7 +2822,7 @@
             <l>No quede acerado arpón</l>
             <l>que no se vibre a sus pechos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #focas #heraclio #leonido #libia #soldado-1">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5707,7 +5709,7 @@
             <l>los lebreles, a que sigan</l>
             <l>la ladra de los sabuenos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #dama-1 #focas #heraclio #leonido #libia #luquete #primero #sabañón #segundo #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5722,7 +5724,7 @@
 
             <l>¡To! ¡To!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#heraclio #leonido #los-dos-graciosos #los-dos-jóvenes #luquete #sabañón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5806,7 +5808,7 @@
 
             <l>¡To, to, Melampo, Barcino!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #libia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8399,7 +8401,7 @@
             <l>es el no menor indicio.</l>
           </sp>
           <stage>Lisipo y todas las mujeres.</stage>
-          <sp who="#todos">
+          <sp who="#cintia #dama-1 #dama-2 #focas #heraclio #leonido #libia #lisipo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8475,7 +8477,7 @@
             <l>esos formados prodigios</l>
             <l>lo digan.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cintia #dama-1 #dama-2 #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -8513,7 +8515,7 @@
 
             <l>…en que forzados venimos,…</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#cintia #dama-1 #dama-2 #libia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -8625,7 +8627,7 @@
             <l>desde ayer no ha parecido,</l>
             <l>le dio muerte y vuelve hambriento.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #focas #libia #montero-1 #primero #segundo #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8761,7 +8763,7 @@
             <l>el montaraz alarido</l>
             <l>de la caza.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #focas #heraclio #leonido #libia #luquete #sabañón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8888,7 +8890,7 @@
             <l>allá estábamos contigo;</l>
             <l>u díganlo Libia y Cintia.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#cintia #focas #heraclio #leonido #libia #luquete #sabañón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9381,7 +9383,7 @@
             <l>Leonido es mi hijo y vuestro</l>
             <l>príncipe.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #cintia #focas #heraclio #leonido #libia #lisipo #luquete #sabañón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9525,7 +9527,7 @@
             <l>besen tu mano, diciendo</l>
             <l>a voces:…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo #luquete #sabañón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9723,7 +9725,7 @@
 
             <l>¡Favor!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo #luquete #sabañón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10091,7 +10093,7 @@
 
             <l>¡Viva Focas!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #federico #focas #heraclio #primero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10485,7 +10487,7 @@
 
             <l>(Perdido me llego a ver.)</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10507,7 +10509,7 @@
 
             <l>No es eso.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10538,7 +10540,7 @@
             <l>su tiranía le puso,</l>
             <l>dice una y otra vez:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10677,7 +10679,7 @@
 
             <l>Humilde estoy a tus pies.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo">
             <speaker rend="caps">Todos</speaker>
 
 

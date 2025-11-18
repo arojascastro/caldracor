@@ -1,4 +1,6 @@
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?><?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000117" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -3026,7 +3028,7 @@
             <speaker>CHATO</speaker>
             <l> No hay otra cosa que hacer. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#chato #irene #menón #nino #semíramis">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l part="I"> ¡Qué desdicha! </l>
@@ -3061,7 +3063,7 @@
             <stage>Dentro.</stage>
             <l part="I"> ¡Corred todos! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#chato #irene #menón #nino #semíramis">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l part="F"> ¡Qué tragedia! </l>
@@ -4288,7 +4290,7 @@
             <stage>Dentro.</stage>
             <l> ¡Viva del Asia el asombro! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arsidas #chato #nino #soldado-1">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l> ¡Viva la que dio la vida </l>
@@ -6368,7 +6370,7 @@
             <speaker>MENÓN</speaker>
             <l part="F"> ¡Suerte esquiva! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#chato #menón">
             <speaker>TODOS</speaker>
             <stage>Dentro. Chirimías.</stage>
             <l> ¡La gran Semíramis bella, </l>

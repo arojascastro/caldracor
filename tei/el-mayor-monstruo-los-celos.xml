@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000095" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -980,7 +982,7 @@
             <l>el saco cese, cese la violencia,</l>
             <l>que basta que por César me reciba.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #octaviano">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4812,7 +4814,7 @@
             <l>de mísero concento,</l>
             <l>diga de otra manera:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #mariene">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4919,7 +4921,7 @@
             <l>salen también, diciendo</l>
             <l>en ambos coros uno y otro estruendo...</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#capitán #mariene #música #octaviano">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -4978,7 +4980,7 @@
 
             <l>Diciendo a voces...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#filipo #mariene #octaviano #tolomeo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5419,7 +5421,7 @@
             <l>Sea diciendo:</l>
             <l>¡Viva Octaviano!</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#mariene #música #octaviano #polidoro #tetrarca #tolomeo">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -7167,7 +7169,7 @@
             <l>estruendo, salir no escuso</l>
             <l>de mi prisión.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #filipo #libia #mariene #octaviano #polidoro #sirene #tetrarca #tolomeo">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7194,7 +7196,7 @@
 
             <l>Yo no la he dado la muerte.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#capitán #filipo #libia #mariene #octaviano #polidoro #sirene #tetrarca #tolomeo">
             <speaker rend="caps">Todos</speaker>
 
 

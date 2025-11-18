@@ -1,4 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000074" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -2038,7 +2040,7 @@
             <l>sin miedo de que le erremos,</l>
             <l>pues que ya viene ensayado.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#flora #serafina">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2691,7 +2693,7 @@
 
             <l>Muera este atrevido.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#félix #lidoro #tristán">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -11190,7 +11192,7 @@
             <l>Hija ingrata, ¿tú en aquese</l>
             <l>traje y aquí?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#félix #lidoro #príncipe">
             <speaker rend="caps">Todos</speaker>
 
 
