@@ -89,7 +89,7 @@
               <desc>criado</desc>
             </trait>
           </person>
-          <person xml:id="pocris" sex="MALE">
+          <person xml:id="pocris" sex="FEMALE">
             <persName>Pocris</persName>
             <trait source="#calderondigital">
               <desc>princesa</desc>
