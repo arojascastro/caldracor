@@ -117,7 +117,7 @@
           <person xml:id="almagro" sex="MALE">
             <persName>Almagro</persName>
           </person>
-          <person xml:id="candía" sex="FEMALE">
+          <person xml:id="candía" sex="MALE">
             <persName>Candía</persName>
           </person>
           <personGrp xml:id="marineros" sex="MALE">
