@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Dicha y desdicha del nombre</title>
+        <title>Dicha y desdicha del nombre</title>
         <title type="sub">Comedia Famosa</title>
         <author>
           <persName>
@@ -34,10 +34,7 @@
           <time when="13:05:00"/>
         </date>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

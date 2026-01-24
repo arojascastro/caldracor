@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Fieras afemina amor</title>
+        <title>Fieras afemina amor</title>
         <title type="sub">Fiesta que se representó a los siempre felices años de la Serenísima Católica Majestad doña María-ana de Austria. En el Real Coliseo de Buen Retiro.</title>
         <author>
           <persName>
@@ -34,10 +34,7 @@
           <time when="15:35:01"/>
         </date>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

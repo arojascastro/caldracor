@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Hado y divisa de Leonido y Marfisa</title>
+        <title>Hado y divisa de Leonido y Marfisa</title>
         <title type="sub"/>
         <author>
           <persName>
@@ -31,10 +31,7 @@
         </date>
         <idno type="quadramaX">Hado y divisa de Leonido y Marfisa</idno>
         <availability>
-          <licence>
-            <ab> CC0 1.0 </ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Licence </ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

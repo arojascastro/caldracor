@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Agradecer y no amar</title>
+        <title>Agradecer y no amar</title>
         <title type="sub">Gran Comedia</title>
         <title type="sub">Fiesta que se representó a sus Majestades</title>
         <author>
@@ -35,10 +35,7 @@
           <time when="15:00:57"/>
         </date>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

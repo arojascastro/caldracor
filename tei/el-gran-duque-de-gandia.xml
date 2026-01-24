@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">El gran duque de Gandía</title>
+        <title>El gran duque de Gandía</title>
         <title type="sub"/>
         <author cert="medium">
           <persName>
@@ -28,10 +28,7 @@
         </date>
         <idno type="quadramaX">El gran duque de Gandía</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

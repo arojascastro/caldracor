@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Tu prójimo como a ti (primera versión)</title>
+        <title>Tu prójimo como a ti (primera versión)</title>
         <title type="sub"/>
         <author>
           <persName>
@@ -29,10 +29,7 @@
         </date>
         <idno type="quadramaX">Tu prójimo como a ti (primera versión)</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

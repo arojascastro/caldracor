@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">La devoción de la misa</title>
+        <title>La devoción de la misa</title>
         <title type="sub">Auto historial alegórico</title>
         <author>
           <persName>
@@ -30,10 +30,7 @@
         </date>
         <idno type="quadramaX">La devoción de la misa</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

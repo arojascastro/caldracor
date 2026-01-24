@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main"> El segundo Scipión </title>
+        <title> El segundo Scipión </title>
         <title type="sub"> Fiesta que se representó a los años del rey </title>
         <title type="sub"> Comedia Famosa </title>
         <author>
@@ -30,10 +30,7 @@
         </date>
         <idno type="quadramaX"> El segundo Scipión </idno>
         <availability>
-          <licence>
-            <ab> CC0 1.0 </ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/"> Licence </ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

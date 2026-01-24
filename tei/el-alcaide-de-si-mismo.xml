@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">El alcaide de sí mismo</title>
+        <title>El alcaide de sí mismo</title>
         <title type="sub">Gran Comedia</title>
         <author>
           <persName>
@@ -34,10 +34,7 @@
           <time when="13:22:03"/>
         </date>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>

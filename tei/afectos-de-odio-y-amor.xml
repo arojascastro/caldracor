@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Afectos de odio y amor</title>
+        <title>Afectos de odio y amor</title>
         <author>
           <persName>
             <forename>Pedro</forename>
@@ -29,10 +29,7 @@
         </date>
         <idno type="quadramaX">Afectos de odio y amor</idno>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
