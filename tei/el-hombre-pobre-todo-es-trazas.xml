@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+>>>>>>> da935a244c0d951150ec316b8162ed98bf4c2a6e
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000088" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">El hombre pobre todo es trazas</title>
+        <title>El hombre pobre todo es trazas</title>
         <title type="sub">Comedia Famosa</title>
         <author>
           <persName>
@@ -33,10 +39,7 @@
           <time when="10:52:44"/>
         </date>
         <availability>
-          <licence>
-            <ab>CC0 1.0</ab>
-            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
-          </licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
       </publicationStmt>
       <sourceDesc>
