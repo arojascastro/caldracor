@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000057" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -150,7 +149,7 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -1264,7 +1263,7 @@
 
             <l>¡Piedad, dioses!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aminta #aurelio #dante #diana #flora #irene #lidoro #nise #rey #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1361,7 +1360,7 @@
             <l>en sus entrañas trayendo</l>
             <l>tan grande traición oculta.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aminta #aurelio #dante #diana #flora #irene #lidoro #nise #rey #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1379,7 +1378,7 @@
 
             <l>¡Qué ansia!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aminta #aurelio #dante #diana #flora #irene #lidoro #nise #rey #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6735,7 +6734,7 @@
 
             <l>¡Hermana!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aminta #aurelio #clori #dante #flora #irene #laura #malandrín #nise #rey">
             <speaker rend="caps">Todos</speaker>
 
 

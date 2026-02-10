@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000200" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -103,7 +104,7 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>

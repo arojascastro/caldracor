@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000125" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -165,7 +164,7 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -370,7 +369,7 @@
             <l>que dentro de Roma forman</l>
             <l>voces, cajas y trompetas?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coriolano #coro-1 #coro-2 #hombre-1 #hombre-2 #hombre-3 #libia #mujer-1 #pasquín #veturia #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -901,7 +900,7 @@
             <l>cabo; tú, Enio, de la plebe,</l>
             <l>¿qué riesgo habrá que no emprenda?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #coriolano #enio #flavio #lelio #pasquín #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -970,7 +969,7 @@
             <l>¿Quién pudo desempeñarse</l>
             <l>ni más noble ni más cuerda?</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#veturia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -1030,7 +1029,7 @@
             <l>poniendo yo en las de Roma</l>
             <l>el mismo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #coriolano #enio #flavio #lelio #pasquín #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1108,7 +1107,7 @@
             <l>Digan</l>
             <l>al mismo compás las nuestras...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #coriolano #enio #flavio #lelio #pasquín #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1120,7 +1119,7 @@
 
             <l>¡Vivan Sabinio y Astrea!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #coriolano #enio #flavio #lelio #pasquín #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1137,7 +1136,7 @@
         </div>
         <div type="scene" resp="#rojas" n="4">
           <stage>Vase</stage>
-          <sp who="#todos">
+          <sp who="#aurelio #coriolano #enio #flavio #lelio #pasquín #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1365,7 +1364,7 @@
 
             <l>¿Quién no ha de seguir su ejemplo?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #emilio #sabinio #soldado-1 #soldado-2">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1493,7 +1492,7 @@
 
             <l>¡A ellos, sabinos!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coriolano">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1595,7 +1594,7 @@
         </div>
         <div type="scene" resp="#rojas" n="11">
           <stage>Vase. Salen CORIOLANO, LELIO, ENIO y SOLDADOS con las banderas</stage>
-          <sp who="#todos">
+          <sp who="#coriolano #enio #lelio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1656,7 +1655,7 @@
         </div>
         <div type="scene" resp="#rojas" n="12">
           <stage>Vase</stage>
-          <sp who="#todos">
+          <sp who="#coriolano #enio #lelio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1860,7 +1859,7 @@
 
             <l>Vamos, y sea diciendo...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #coriolano #enio #soldado-1 #soldado-2">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2349,7 +2348,7 @@
             <stage>Dentro tocan cajas y atabalillos</stage>
             <l>Mas ¿qué es aquello?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#lelio #pasquín">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2389,7 +2388,7 @@
             <l>Con que en uno y otro muestro</l>
             <l>que ni uno ni otro permito.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#lelio #pasquín">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2450,7 +2449,7 @@
             <l>Vosotros</l>
             <l>repetid el parabién.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #coriolano #flavio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2468,7 +2467,7 @@
             <l>heroico caudillo nuestro;"</l>
             <l>que no es de ese nombre digno.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3957,7 +3956,7 @@
 
             <l>¿Qué dije yo?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #enio #relator">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4503,7 +4502,7 @@
             <l>de su perdón, trae en tropas</l>
             <l>mujeres y hombres diciendo:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#libia #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4626,7 +4625,7 @@
             <l>pena de ser sospechoso</l>
             <l>el que no diga con ellos:</l>
           </sp>
-          <sp who="#relator #todos">
+          <sp who="#aurelio #coriolano #enio #lelio #mujer-1 #relator #veturia">
             <speaker rend="caps">Relator y Todos</speaker>
 
 
@@ -4733,7 +4732,7 @@
             <l>que, para saber quién es,</l>
             <l>basta que vais repitiendo:</l>
           </sp>
-          <sp who="#relator #todos">
+          <sp who="#aurelio #coriolano #enio #lelio #mujer-1 #relator #veturia">
             <speaker rend="caps">Relator y Todos</speaker>
 
 
@@ -4824,7 +4823,7 @@
             <l>me vuelva contra mi dueño.</l>
           </sp>
           <stage>Cúbrenle el rostro y llévanle</stage>
-          <sp who="#todos">
+          <sp who="#coriolano #soldado-1">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5614,7 +5613,7 @@
 
             <l>Todos contigo diremos...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #coriolano #emilio #pasquín #sabinio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5773,7 +5772,7 @@
             <l>y así ¿qué mucho que el pueblo</l>
             <l>una y otra vez pronuncie...?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #enio #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5854,7 +5853,7 @@
             <l>y persuadir pude el daño</l>
             <l>y que el remedio no pude.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #enio #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7241,7 +7240,7 @@
             <l>Aquí ya no hay más remedio</l>
             <l>de que todo el pueblo clame:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#aurelio #coriolano #enio #lelio #pasquín #veturia #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7262,7 +7261,7 @@
             <l>Matronas de Roma, hagamos</l>
             <l>nosotras los ejemplares.</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#veturia">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -7921,7 +7920,7 @@
             <l>¡Viva, amigos, Roma, y pase</l>
             <l>la palabra!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#enio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8026,7 +8025,7 @@
         </div>
         <div type="scene" resp="#rojas" n="26">
           <stage>Salen TODOS, hombres y mujeres</stage>
-          <sp who="#todos">
+          <sp who="#astrea #aurelio #coriolano #enio #lelio #pasquín #sabinio #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8050,7 +8049,7 @@
             <l>y hasta ver que los acepte,</l>
             <l>no está perdonada Roma.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #aurelio #coriolano #enio #lelio #pasquín #sabinio #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8098,7 +8097,7 @@
             <l>es preciso que yo acepte</l>
             <l>en nombre de Roma.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #aurelio #coriolano #enio #lelio #pasquín #sabinio #veturia">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8174,7 +8173,7 @@
             <l>a las plantas de Sabinio,</l>
             <l>Astrea y Coriolano, alegres:</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #aurelio #coriolano #enio #lelio #pasquín #sabinio #veturia">
             <speaker rend="caps">Todos</speaker>
 
 

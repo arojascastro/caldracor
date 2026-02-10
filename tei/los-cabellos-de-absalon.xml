@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?>
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000129" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -141,7 +140,7 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -513,7 +512,7 @@
             <speaker>DAVID</speaker>
             <l part="I"> ¿Qué apeteces?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#absalón #adonías #amón #aquitofel #david #joab #salomón #tamar">
             <speaker>TODOS</speaker>
             <l n="195" part="F"> ¿Qué deseas?</l>
           </sp>

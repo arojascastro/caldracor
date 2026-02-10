@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000110" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -91,6 +90,9 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
+            </trait>
           </person>
           <person xml:id="tolomeo" sex="MALE">
             <persName>Tolomeo</persName>
@@ -129,7 +131,7 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -1068,7 +1070,7 @@
             <l>y, oprimida la tierra,</l>
             <l>guerra solo sustente.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#judas">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5133,7 +5135,7 @@
 
             <l>¡Yo solo ganarle puedo!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#chato #jonatás #simeón #tolomeo #zarés">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -5182,7 +5184,7 @@
 
             <l>¡Aquí Judea!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#chato #jonatás #simeón #tolomeo #zarés">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?>
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000118" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -48,6 +47,9 @@
             <persName>Semíramis</persName>
             <trait source="#calderondigital">
               <desc>reina</desc>
+            </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
             </trait>
           </person>
           <person xml:id="astrea" sex="FEMALE">
@@ -103,6 +105,9 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait source="rolecall">
+              <desc>travestido</desc>
+            </trait>
           </person>
           <person xml:id="lisías" sex="MALE">
             <persName>Lisías</persName>
@@ -132,7 +137,7 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -820,7 +825,7 @@
             <speaker>UNO</speaker>
             <l part="I">¡Viva Semíramis!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#licas #semíramis">
             <speaker>TODOS</speaker>
             <l part="F">¡Viva!</l>
           </sp>
@@ -1118,7 +1123,7 @@
         </div>
         <div type="scene" resp="#rojas" n="9">
           <stage>Toca la música y éntranse todos.</stage>
-          <sp who="#todos">
+          <sp who="#chato">
             <speaker>TODOS</speaker>
             <l n="690">¡Viva Semíramis, viva!</l>
           </sp>
@@ -1313,7 +1318,7 @@
             <l>de que soy mujer te acuerdas,</l>
             <l>y te olvidas de mi brío?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#friso #licas #lisías #semíramis">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l>Sí, que Rey varón queremos.</l>
@@ -1718,7 +1723,7 @@
         </div>
         <div type="scene" resp="#rojas" n="17">
           <stage>Con chirimías, todo el acompañamiento detrás de NINIAS, vestido de camino, y a la puerta por donde entra estará LIDORO con cadena.</stage>
-          <sp who="#todos">
+          <sp who="#chato #lidoro #ninias">
             <speaker>TODOS</speaker>
             <l>¡Viva el sucesor de Nino!</l>
           </sp>
@@ -2116,7 +2121,7 @@
             <l>Ninias vive, Ninias reina.</l>
             <l part="I">Decid todos, ¡viva!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#flavio #friso #licas">
             <speaker>TODOS</speaker>
             <l part="F">¡Viva</l>
             <l>siglos y edades eternas!</l>
@@ -2268,7 +2273,7 @@
             <stage>Chirimías.</stage>
             <l part="I">¡Viva Ninias!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#flavio #friso #licas">
             <speaker>TODOS</speaker>
             <l part="F">¡Ninias viva</l>
             <l>siglos y edades eternas!</l>
@@ -2315,7 +2320,7 @@
         </div>
         <div type="scene" resp="#rojas" n="2">
           <stage>Sale todo el acompañamiento, LISÍAS, LICAS y NINIAS. Suena la música.</stage>
-          <sp who="#todos">
+          <sp who="#friso #licas #lisías #ninias #soldado-1">
             <speaker>TODOS</speaker>
             <l part="F">¡Ninias viva</l>
             <l>siglos y edades eternas!</l>
@@ -4663,7 +4668,7 @@
             <l n="110" part="F">¡Qué rara</l>
             <l part="I">lealtad! ¡Hola!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#chato #friso #licas #lisías #semíramis #soldado-1">
             <speaker>TODOS</speaker>
             <l part="M">Señor.</l>
           </sp>
@@ -5935,7 +5940,7 @@
             <speaker>OTROS</speaker>
             <l part="M">¡Lidoro viva!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#anteo #friso #irán #licas #lidoro #semíramis">
             <speaker>TODOS</speaker>
             <l part="F">¡Guerra!</l>
           </sp>
@@ -6375,7 +6380,7 @@
             <l>sino también venir hoy</l>
             <l part="I">a darme muerte?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#astrea #licas #lidoro #lisías #ninias">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué es esto?</l>
           </sp>

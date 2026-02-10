@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000097" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -162,7 +161,7 @@
           <term source="dracor" type="genreTitle">comedia famosa</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -6048,7 +6047,7 @@
             <l>es el agradecimiento</l>
             <l>de haberte dado la vida?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#benito #don-jerónimo #don-pedro #gila">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6121,7 +6120,7 @@
             <l>¡Vaguido de primer clase</l>
             <l>hasta con su amigo y deudo!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#almirante #don-jerónimo #don-pedro #ginés #marqués">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8598,7 +8597,7 @@
             <l>abrazados.</l>
           </sp>
           <stage>Toca al arma.</stage>
-          <sp who="#todos">
+          <sp who="#almirante #carlos #condestable #don-jerónimo #don-pedro #marqués">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8934,7 +8933,7 @@
             <l>los duelos de España, este</l>
             <l>El postrer duelo de España.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#almirante #benito #carlos #condestable #don-jerónimo #flora #gila #ginés #serafina">
             <speaker rend="caps">Todos</speaker>
 
 

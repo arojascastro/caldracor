@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000139" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -106,7 +105,7 @@
           <term source="dracor" type="genreTitle">comedia palatina</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -840,7 +839,7 @@
 
             <l>¡Y muera un aleve!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#enrique #madama #margarita #patín #soldado #voz">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -1032,7 +1031,7 @@
             <l>y ella lo dijera, a estar</l>
             <l>libre,...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #celio #enrique #madama">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3066,7 +3065,7 @@
             <l>diciendo a voces que no</l>
             <l>has de volver...</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#enrique #federico #madama #margarita #patín #talón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5719,7 +5718,7 @@
             <l>que tapatán,</l>
             <l>galería es de Amor.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #celio #enrique #federico #madama #margarita">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5739,7 +5738,7 @@
             <l>que tapatán,</l>
             <l>de confusa armonía.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #celio #enrique #federico #madama #margarita">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5759,7 +5758,7 @@
             <l>que tapatán,</l>
             <l>mudanza a primor.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #celio #enrique #federico #madama #margarita">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5779,7 +5778,7 @@
             <l>que tapatán,</l>
             <l>de noche y de día.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #celio #enrique #federico #madama #margarita">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5793,7 +5792,7 @@
             <l>Que tapatán,</l>
             <l>este alegre rumor.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #celio #enrique #federico #madama #margarita">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5965,7 +5964,7 @@
             <l>Y goce felices años</l>
             <l>a Turingia.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #celio #enrique #federico #madama #margarita">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6037,7 +6036,7 @@
             <l>una vez y otra en su aplauso:</l>
             <l>¡Viva Enrique!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #celio #enrique #federico #madama #margarita">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6253,7 +6252,7 @@
             <l>¡Piadosos</l>
             <l>cielos, favor!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#celio #federico #margarita #talón">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -7395,7 +7394,7 @@
 
             <l>Viva ella, que yo no importo.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#enrique #federico #laura #madama #margarita #patín">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -8456,7 +8455,7 @@
             <l>fiado en que por mí has de oír</l>
             <l>de todos los ecos juntos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #celio #federico #madama">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 

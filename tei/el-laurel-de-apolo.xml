@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000090" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -205,7 +204,7 @@
           <term source="dracor" type="genreTitle">comedia famosa</term>
           <term source="#kroll" type="main">zarzuela</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q148163</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -520,7 +519,7 @@
             <l>por César del año, por rey de los meses.</l>
           </sp>
           <stage>Júntanse todas las voces y cuadrillas.</stage>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -633,7 +632,7 @@
             <l>sino vitoria de todos</l>
             <l>vosotros.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -718,7 +717,7 @@
             <l>pero para que seamos</l>
             <l>quien te ayude.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -749,7 +748,7 @@
             <l>pero mejor ella mesma</l>
             <l>lo dirá, si la empezamos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -767,7 +766,7 @@
             <l>a España amanezca;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -783,7 +782,7 @@
             <l>de reinar quien reina;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -799,7 +798,7 @@
             <l>goce armas yletras;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -815,7 +814,7 @@
             <l>tan galán le vea;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -831,7 +830,7 @@
             <l>y a ellos convalezca;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -847,7 +846,7 @@
             <l>le haga cien mil fiestas;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -863,7 +862,7 @@
             <l>pues siempre se es perla;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -879,7 +878,7 @@
             <l>ser flores ni estrellas;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -895,7 +894,7 @@
             <l>cañas y libreas;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -944,7 +943,7 @@
             <l>¿No hay quien me socorra?</l>
             <l>¿No hay quien me defienda?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -996,7 +995,7 @@
             <l>a España amanezca;</l>
             <l>sea norabuena.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-4 #dafne #eco #iris #zarzuela">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1667,7 +1666,7 @@
             <l>…del que es dios, en valles y montes,</l>
             <l>de flores y plantas!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#bata #dafne #flora #hombres #lauro #mujeres #rústico #silvio #un-mujer">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1684,7 +1683,7 @@
             <l>que en seguir del sol la huella</l>
             <l>la primera se señala!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#bata #dafne #flora #hombres #lauro #mujeres #rústico #silvio #un-mujer">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1699,7 +1698,7 @@
             <l>astro, que en saliendo él,</l>
             <l>todos los demás iguala!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#bata #dafne #flora #hombres #lauro #mujeres #rústico #silvio #un-mujer">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1738,7 +1737,7 @@
             <l>y por acá es otra cosa,</l>
             <l>no sé si buena o si mala!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#bata #dafne #flora #hombres #lauro #mujeres #rústico #silvio #un-mujer">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1753,7 +1752,7 @@
             <l>que ha de matar al Figón,</l>
             <l>que a sí solo se regala!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#bata #dafne #flora #hombres #lauro #mujeres #rústico #silvio #un-mujer">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1939,7 +1938,7 @@
             <l>volvemos cantando todos</l>
             <l>en hacimiento de gracias:…</l>
           </sp>
-          <sp who="#flora #lauro #todos">
+          <sp who="#bata #dafne #flora #hombres #lauro #mujeres #rústico #silvio #un-mujer">
             <speaker rend="caps">Ellos Y Todos</speaker>
 
 
@@ -2017,7 +2016,7 @@
             <l>Hasta llegar a la orilla,</l>
             <l>vaya de música.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#céfalo #dafne #flora">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2845,7 +2844,7 @@
 
             <l>(¡Que esto pase por mí!)</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#dafne #libia #un-mujer">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2977,7 +2976,7 @@
 
             <l>¿Empiezo?</l>
           </sp>
-          <sp who="#todas">
+          <sp who="#dafne #libia #un-mujer">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -3149,7 +3148,7 @@
             <l>Titirití, que de Apolo es el día;</l>
             <l>titirití, que no del Amor.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#amor #eco #rústico">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3296,7 +3295,7 @@
         </div>
         <div type="scene" resp="#rojas" n="4">
           <stage>Vuelven a salir bailando, como entraron.</stage>
-          <sp who="#todos">
+          <sp who="#apolo #coro-1 #dafne #eco #flora #lauro #libia #rústico">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3524,7 +3523,7 @@
 
             <l>¡Olvido!</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#coro-1 #coro-2 #iris">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4401,7 +4400,7 @@
             <l>ni que Amor de mí se vengue,</l>
             <l>ni que tú…?</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#apolo #bata #flora #rústico">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">dentro</stage>
 
@@ -4544,7 +4543,7 @@
             <l>…de aquesta suerte:…</l>
           </sp>
           <stage>Villanos cantando y bailando.</stage>
-          <sp who="#todos">
+          <sp who="#apolo #bata #flora #rústico">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">cantan</stage>
 
@@ -4574,7 +4573,7 @@
             <l>matar dueñas arpones</l>
             <l>que matan sierpes.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#apolo #bata #flora #rústico">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -4644,7 +4643,7 @@
         </div>
         <div type="scene" resp="#rojas" n="15">
           <stage>Vase.</stage>
-          <sp who="#todos">
+          <sp who="#lauro">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5896,7 +5895,7 @@
             <l>de aceitunas y escabeches</l>
             <l>será general.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5928,7 +5927,7 @@
             <l>que, en loor suyo, de sus ramas</l>
             <l>llevemos.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5942,7 +5941,7 @@
             <l>a todos se les concede</l>
             <l>ese honor.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5963,7 +5962,7 @@
             <l>y por su persona amable,</l>
             <l>le merezca solamente.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6006,7 +6005,7 @@
             <l>de sus hojas a ofrecerle</l>
             <l>llegue la triunfal guirnalda.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6047,7 +6046,7 @@
             <stage>Canta</stage>
             <l>Señor, amor en sombras…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6059,7 +6058,7 @@
 
             <l>…de fabulosos dioses…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6072,7 +6071,7 @@
 
             <l>…y del Amor vencido,…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6084,7 +6083,7 @@
 
             <l>…el césar de los orbes,…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6097,7 +6096,7 @@
 
             <l>…el arco de la paz…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6109,7 +6108,7 @@
 
             <l>…que vuestro imperio logre,…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6122,7 +6121,7 @@
 
             <l>…el eco que le esparza…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6134,14 +6133,14 @@
 
             <l>…en siempre heroicas voces,…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
             <l>…en siempre heroicas voces,…</l>
           </sp>
           <stage>Representan todos.</stage>
-          <sp who="#todos">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6153,7 +6152,7 @@
 
             <l>…todos humildemente…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6165,7 +6164,7 @@
 
             <l>…a vuestras plantas ponen…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6180,7 +6179,7 @@
 
             <l>Y pues hoy es el día…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6192,7 +6191,7 @@
 
             <l>…que Amor sus triunfos goce,…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6204,7 +6203,7 @@
 
             <l>…dénos la que ha de ser…</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6216,7 +6215,7 @@
 
             <l>…amor de los amores.</l>
           </sp>
-          <sp who="#todos #música">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6277,7 +6276,7 @@
 
             <l>…y todo en vos blasones,…</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6291,7 +6290,7 @@
             <l>…bandera de los aires,</l>
             <l>garzota de las flores.</l>
           </sp>
-          <sp who="#todos">
+          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?>
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000092" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -120,7 +119,7 @@
           <term source="dracor" type="genreTitle">comedia</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -3322,7 +3321,7 @@
         </div>
         <div type="scene" resp="#rojas" n="22">
           <stage>Salen el GOBERNADOR, LISANDRO y gente.</stage>
-          <sp who="#todos">
+          <sp who="#floro #gobernador #justina #lelio #lisandro">
             <speaker>TODOS</speaker>
             <l part="I"> Teneos. </l>
           </sp>
@@ -3344,7 +3343,7 @@
             <speaker>LISANDRO</speaker>
             <l part="F">¡Qué pesar! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#floro #gobernador #justina #lelio #lisandro">
             <speaker>TODOS</speaker>
             <l part="I"> Señor. </l>
           </sp>
@@ -4203,7 +4202,7 @@
             <l> ¿Cuál es la gloria mayor </l>
             <l part="I"> desta vida? </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#demonio">
             <speaker>TODOS</speaker>
             <stage>Cantan.</stage>
             <l part="F"> Amor, amor. </l>
@@ -4223,7 +4222,7 @@
             <l n="170"> el tronco, la flor y el ave; </l>
             <l> luego es la gloria mayor... </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#justina">
             <speaker>TODOS</speaker>
             <stage>Cantan.</stage>
             <l> Amor, amor. </l>
@@ -4285,7 +4284,7 @@
             <l> o decid, ¿qué venenosa </l>
             <l part="I"> fuerza usáis? </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#justina">
             <speaker>TODOS</speaker>
             <l part="F"> Amor, amor. </l>
           </sp>
@@ -5586,7 +5585,7 @@
             <l> la sutileza le tiene </l>
             <l n="840"> en aqueste estado puesto. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#demonio #fabio #floro #gobernador #lelio">
             <speaker>TODOS</speaker>
             <l> ¡Guarda el loco, guarda el loco! </l>
           </sp>

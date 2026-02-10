@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000109" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -156,7 +155,7 @@
           <term source="dracor" type="genreTitle">comedia novelesca</term>
           <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
-      </textClass>
+      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
@@ -246,7 +245,7 @@
             <l> más de la espuela irritado </l>
             <l n="10"> que corregido a la rienda? </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arminda #leonido #merlin #polidoro">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l part="I"> Al monte, al llano! </l>
@@ -290,7 +289,7 @@
             <l> si al despeño me reserva, </l>
             <l part="I"> no al peligro. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#leonido #polidoro">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l part="F"> Al monte, al llano! </l>
@@ -385,7 +384,7 @@
         </div>
         <div type="scene" resp="#rojas" n="3">
           <stage> Vanse los dos. </stage>
-          <sp who="#todos">
+          <sp who="#leonido #polidoro">
             <speaker> TODOS </speaker>
             <stage> Dentro </stage>
             <l> A la marina, a la selva! </l>
@@ -1516,7 +1515,7 @@
             <l> vuelve por ellas y qué </l>
             <l> quiso decir cuando dijo...) </l>
           </sp>
-          <sp who="#marfisa #musico #todos">
+          <sp who="#argante #marfisa #mitilene #musico">
             <speaker> MÚSICA y MARFISA y TODOS </speaker>
             <l> Dad paso a mis suspiros </l>
             <l n="755"> por si un prodigio vence otro prodigio. </l>
@@ -2625,7 +2624,7 @@
             <speaker> OTROS </speaker>
             <l part="F"> Qué espanto! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#argante #leonido #marfisa #megera #mitilene">
             <speaker> TODOS </speaker>
             <l n="1375"> Qué es esto, cielos, qué es esto? </l>
           </sp>
@@ -2633,7 +2632,7 @@
             <speaker> ARGANTE </speaker>
             <l> Eso el tiempo lo dirá. </l>
           </sp>
-          <sp who="#musico #todos">
+          <sp who="#argante #leonido #marfisa #megera #mitilene #musico">
             <speaker> MÚSICA y TODOS </speaker>
             <l> Pues mientras lo diga el tiempo, </l>
             <l> ¡gima a temblores la tierra, </l>
@@ -3882,7 +3881,7 @@
         </div>
         <div type="scene" resp="#rojas" n="12">
           <stage> Vase. </stage>
-          <sp who="#todos #musico">
+          <sp who="#leonido #musico #polidoro">
             <speaker> TODOS y MÚSICA. </speaker>
             <l> ¡Arma, arma, guerra, guerra, </l>
             <l> guerra, guerra, al arma, al arma, </l>
@@ -5118,7 +5117,7 @@
         </div>
         <div type="scene" resp="#rojas" n="27">
           <stage> Vanse y tocan cajas y trompetas. </stage>
-          <sp who="#todos">
+          <sp who="#adolfo #arminda #aurelio #leonido #megera #merlin #mitilene #polidoro">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l part="I"> ¡Arma, arma! </l>
@@ -5166,7 +5165,7 @@
             <l> delante, porque conozca </l>
             <l n="2720"> mi divisa Mitilene! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #arminda #aurelio #leonido #megera #merlin #mitilene #polidoro">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l> ¡Arma, arma! ¡Guerra, guerra! </l>
@@ -5249,7 +5248,7 @@
             <speaker> OTROS </speaker>
             <l part="M"> ¡Al mar! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #arminda #aurelio #leonido #megera #merlin #mitilene #polidoro">
             <speaker> TODOS </speaker>
             <l part="F"> ¡Fuego, fuego! </l>
           </sp>
@@ -5264,7 +5263,7 @@
             <l> el fuego, con sus ardientes </l>
             <l part="I"> iras. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #arminda #aurelio #leonido #megera #merlin #mitilene #polidoro">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l part="F"> ¡Socorro, piedad! </l>
@@ -5287,7 +5286,7 @@
             <stage> Dentro. </stage>
             <l> ¡Ay, infelice de mí! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #arminda #aurelio #leonido #megera #merlin #mitilene #polidoro">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l> El monte en que el fuego prende </l>
@@ -6642,7 +6641,7 @@
             <stage> A Alfreda. </stage>
             <l part="I"> el soldado.) </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#alfreda #arminda #casimiro #mitilene">
             <speaker> TODOS </speaker>
             <l part="F"> El baile vuelve. </l>
           </sp>
@@ -6688,7 +6687,7 @@
             <l> que tan vil traición no cabe </l>
             <l n="3555"> en tan generoso pecho.) </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arminda #casimiro #dama #mitilene">
             <speaker> TODOS </speaker>
             <l> ¿Quién este alboroto causa? </l>
           </sp>
@@ -7547,7 +7546,7 @@
             <l> vaya el cadáver al mar </l>
             <l n="4105"> y todos al bergantín. </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#florante #marfisa #polidoro">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l> Vaya el cadáver al mar </l>
@@ -7932,7 +7931,7 @@
             <l> ajustadas conveniencias </l>
             <l> se publicaron diciendo... </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#arminda #aurelio #casimiro #mitilene">
             <speaker> TODOS </speaker>
             <l> ¡Viva el valiente alemán </l>
             <l n="4345"> que restaura el honor nuestro! </l>
@@ -8389,7 +8388,7 @@
             <stage> Dentro. </stage>
             <l part="I"> ¡Silencio todos! </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #argante #casimiro #florante #leonido #marfisa">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l part="F"> ¡Silencio! </l>
@@ -8705,7 +8704,7 @@
             <speaker> LOS DOS </speaker>
             <l> ¡Cielos! ¿Es verdad o es sueño? </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #argante #arminda #aurelio #casimiro #florante #leonido #marfisa #mitilene">
             <speaker> TODOS </speaker>
             <l> ¡Vivan Leonido y Marfisa, </l>
             <l> de Tinacria heroicos dueños! </l>
@@ -8780,7 +8779,7 @@
             <speaker> CASIMIRO </speaker>
             <l n="4835"> Y repita ufano el pueblo... </l>
           </sp>
-          <sp who="#todos">
+          <sp who="#adolfo #argante #arminda #aurelio #casimiro #florante #leonido #marfisa #mitilene">
             <speaker> TODOS </speaker>
             <l> ¡Vivan Leonido y Marfisa, </l>
             <l> de Tinacria heroicos dueños! </l>
