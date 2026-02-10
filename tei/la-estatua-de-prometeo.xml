@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-=======
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
->>>>>>> da935a244c0d951150ec316b8162ed98bf4c2a6e
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000114" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -3691,7 +3685,7 @@
             </sp>
             <sp who="#música #villana-1">
 
-              
+
               <speaker rend="caps">Con la Música a 4 voces</speaker>
             <l>el agua con perlas.</l>
           </sp>
@@ -3708,7 +3702,7 @@
           </sp>
           <sp who="#música #villana-2">
 
-            
+
             <speaker rend="caps">Con la Música a 4 voces</speaker>
             <l>el aire con plumas.</l>
           </sp>
@@ -3725,7 +3719,7 @@
           </sp>
           <sp who="#música #villana-3">
 
-            
+
             <speaker rend="caps">Con la Música a 4 voces</speaker>
             <l>con salvas el eco.</l>
           </sp>
@@ -3737,7 +3731,7 @@
           </sp>
           <sp who="#discordia #epimeteo #libia #minerva #música #prometeo #timantes #villana-1 #villana-2 #villana-3">
 
-            
+
             <speaker rend="caps">Con la Música a 4 voces</speaker>
             <l>La tierra con flores, el agua con perlas,</l>
             <l>el aire con plumas, con salvas el eco.</l>

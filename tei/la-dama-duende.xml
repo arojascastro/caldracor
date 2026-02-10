@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-=======
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://relaxng.org/ns/structure/1.0?>
-<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
->>>>>>> da935a244c0d951150ec316b8162ed98bf4c2a6e
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000025" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -2327,7 +2321,7 @@
             <l n="1120">El papel, Beatriz, es este.</l>
             <l>Holgareme que te agrade.</l>
             <stage>Lee ÁNGELA.</stage>
-            <p>«Fermosa dueña, cualquier que vos seáis la condolida deste afanado caballero, y assaz piadosa minoráis sus cuitas, ruégovos me queráis facer sabidor del follón mezquino o pagano malandrín que en este encanto vos amancilla, para que segunda vegada en vueso nombre, sano ya de las pasadas feridas, entre en descomunal batalla, maguer que finque en ella, que non es la vida de más pro que la muerte, tenudo a su deber un caballero. El dador de la luz vos mampare e a mí non olvide. <lb/>El caballero de la Dama Duende».</p> 
+            <p>«Fermosa dueña, cualquier que vos seáis la condolida deste afanado caballero, y assaz piadosa minoráis sus cuitas, ruégovos me queráis facer sabidor del follón mezquino o pagano malandrín que en este encanto vos amancilla, para que segunda vegada en vueso nombre, sano ya de las pasadas feridas, entre en descomunal batalla, maguer que finque en ella, que non es la vida de más pro que la muerte, tenudo a su deber un caballero. El dador de la luz vos mampare e a mí non olvide. <lb/>El caballero de la Dama Duende».</p>
           </sp>
           <sp who="#doña-beatriz">
             <speaker>BEATRIZ</speaker>
@@ -3324,7 +3318,7 @@
             <l n="1650">Ropa blanca es y un papel.</l>
             <l>Veamos si el fraile es discreto.</l>
             <stage>Lee.</stage>
-            <p>«En el poco tiempo que ha que vivís en esta casa no se ha podido hacer más ropa; como se fuere haciendo, se irá llevando. A lo que decís del amigo, persuadido a que soy dama de don Luis, os aseguro que no sólo no lo soy, pero que no puedo serlo; y esto dejo para la vista, que será presto. Dios os guarde».</p> 
+            <p>«En el poco tiempo que ha que vivís en esta casa no se ha podido hacer más ropa; como se fuere haciendo, se irá llevando. A lo que decís del amigo, persuadido a que soy dama de don Luis, os aseguro que no sólo no lo soy, pero que no puedo serlo; y esto dejo para la vista, que será presto. Dios os guarde».</p>
             <l>Bautizado está este duende,</l>
             <l part="I"> pues de Dios se acuerda. </l>
           </sp>

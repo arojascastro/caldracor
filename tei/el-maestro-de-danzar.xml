@@ -1,11 +1,5 @@
-<<<<<<< HEAD
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-=======
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
->>>>>>> da935a244c0d951150ec316b8162ed98bf4c2a6e
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000091" xml:lang="es">
   <teiHeader>
     <fileDesc>
@@ -949,7 +943,7 @@
           <stage>Sale una ronda.</stage>
           <sp who="#alguacil-1">
             <speaker rend="caps">Alguacil 1</speaker>
-            
+
 
             <l>La justicia, caballeros.</l>
           </sp>
@@ -971,7 +965,7 @@
           <sp who="#alguacil-2">
             <speaker rend="caps">Alguacil 2</speaker>
 
-            
+
             <l>¿Quién va?</l>
           </sp>
           <sp who="#don-enrique">
@@ -981,11 +975,11 @@
             <l>Un hombre forastero,</l>
             <l>que ahora acaba de llegar.</l>
           </sp>
-          <stage>Pónense delante de ella.</stage> 
+          <stage>Pónense delante de ella.</stage>
           <sp who="#alguacil-1">
             <speaker rend="caps">Alguacil 1</speaker>
-            
-            
+
+
             <l>¿Vos quién sois?</l>
           </sp>
           <sp who="#chacón">
@@ -996,7 +990,7 @@
           </sp>
           <sp who="#alguacil-2">
             <speaker rend="caps">Alguacil 2</speaker>
-              
+
 
             <l>¿Cómo el mesmo y otro?</l>
           </sp>
@@ -1202,8 +1196,8 @@
           <stage>Vase. Métenlos a cuchilladas, y sale don Félix.</stage>
           <sp who="#alguacil-1">
             <speaker rend="caps">Alguacil 1</speaker>
-            
-            
+
+
             <l>¡Ay infeliz, que me han muerto!</l>
           </sp>
           <sp who="#chacón">
