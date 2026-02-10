@@ -51,7 +51,7 @@
           <person xml:id="castidad" sex="FEMALE">
             <persName>La Castidad</persName>
           </person>
-          <person xml:id="asenet" sex="MALE">
+          <person xml:id="asenet" sex="FEMALE">
             <persName>Asenet</persName>
           </person>
           <person xml:id="sueño" sex="MALE">
