@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000103" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-09">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, En la vida todo es verdad y todo mentira. En: Comedias, Vol. 3. Dirección de Luis Iglesias Feijoo y Don William Cruickshank. Madrid : Fundación José Antonio de Castro, 2007</title>
+          <title>Pedro Calderón de la Barca, En la vida todo es verdad y todo mentira. En: Comedias,
+            Vol. 3. Dirección de Luis Iglesias Feijoo y Don William Cruickshank. Madrid : Fundación
+            José Antonio de Castro, 2007</title>
           <idno type="ISBN">978-84-96452-32-9</idno>
         </bibl>
       </sourceDesc>
@@ -48,8 +51,12 @@
         <listPerson>
           <person xml:id="focas" sex="MALE">
             <persName>Focas</persName>
+            <idno type="wikidata">Q31556</idno>
             <trait source="#calderondigital">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="cintia" sex="FEMALE">
@@ -57,11 +64,17 @@
             <trait source="#calderondigital">
               <desc>reina</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
             <persName>Libia</persName>
             <trait source="#calderondigital">
               <desc>hija</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="ismenia" sex="FEMALE">
@@ -69,17 +82,27 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="astolfo" sex="MALE">
             <persName>Astolfo</persName>
             <trait source="#calderondigital">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="heraclio" sex="MALE">
             <persName>Heraclio</persName>
+            <idno type="wikidata">Q41852</idno>
             <trait source="#calderondigital">
               <desc>joven</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="leonido" sex="MALE">
@@ -87,11 +110,17 @@
             <trait source="#calderondigital">
               <desc>joven</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sabañón" sex="MALE">
             <persName>Sabañón</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="luquete" sex="MALE">
@@ -99,11 +128,17 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisipo" sex="MALE">
             <persName>Lisipo</persName>
             <trait source="#calderondigital">
               <desc>mago</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="federico" sex="MALE">
@@ -111,15 +146,24 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="soldados" sex="MALE">
             <persName>Soldados</persName>
           </personGrp>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1°</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="hombres" sex="MALE">
             <persName>Hombres</persName>
@@ -144,51 +188,96 @@
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dama-2" sex="FEMALE">
             <persName>Dama 2a</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado-1" sex="MALE">
             <persName>Criado 1°</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-1">
             <persName>Voz 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-2">
             <persName>Voz 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-3">
             <persName>Voz 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-4">
             <persName>Voz 4</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="primero" sex="MALE">
             <persName>1.º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="primera" sex="FEMALE">
             <persName>1.ª</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="segundo" sex="MALE">
             <persName>2.º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="segunda" sex="FEMALE">
             <persName>2.ª</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tercero" sex="MALE">
             <persName>3.º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tercera" sex="FEMALE">
             <persName>3.ª</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cuarta" sex="FEMALE">
             <persName>4.ª</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="montero-1" sex="MALE">
             <persName>Montero 1.º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -197,17 +286,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -246,7 +338,9 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro, a una parte, cajas y trompetas, y a otra, instrumentos músicos; y salen, después de los primeros versos, por una parte soldados, y detrás Focas, y por otra, damas, y detrás Cintia.</stage>
+          <stage>Dentro, a una parte, cajas y trompetas, y a otra, instrumentos músicos; y salen,
+            después de los primeros versos, por una parte soldados, y detrás Focas, y por otra,
+            damas, y detrás Cintia.</stage>
           <sp who="#soldados">
             <speaker rend="caps">Soldados</speaker>
             <stage type="withText">dentro</stage>
@@ -723,7 +817,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vanse a entrar, sonando a un tiempo la música, las cajas y las voces, y vuelven todos a la de Libia.</stage>
+          <stage>Vanse a entrar, sonando a un tiempo la música, las cajas y las voces, y vuelven
+            todos a la de Libia.</stage>
           <sp who="#unos">
             <speaker rend="caps">Unos</speaker>
 
@@ -1073,7 +1168,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Vanse; y sonando música, cajas y voces, salen, vestidos de pieles, Astolfo, viejo venerable, Heraclio y Leonido, galanes.</stage>
+          <stage>Vanse; y sonando música, cajas y voces, salen, vestidos de pieles, Astolfo, viejo
+            venerable, Heraclio y Leonido, galanes.</stage>
           <sp who="#astolfo">
             <speaker rend="caps">Astolfo</speaker>
 
@@ -2175,7 +2271,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Estando suspensos los dos, salen a la otra parte en la misma acción Leonido y Libia.</stage>
+          <stage>Estando suspensos los dos, salen a la otra parte en la misma acción Leonido y
+            Libia.</stage>
           <sp who="#leonido">
             <speaker rend="caps">Leonido</speaker>
 
@@ -2407,7 +2504,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Sale cada uno de los dos por donde entró, y hállanse Heraclio con Libia y Leonido con Cintia.</stage>
+          <stage>Sale cada uno de los dos por donde entró, y hállanse Heraclio con Libia y Leonido
+            con Cintia.</stage>
           <sp who="#heraclio">
             <speaker rend="caps">Heraclio</speaker>
 
@@ -5705,7 +5803,8 @@
             <l>los lebreles, a que sigan</l>
             <l>la ladra de los sabuenos.</l>
           </sp>
-          <sp who="#cintia #dama-1 #focas #heraclio #leonido #libia #luquete #primero #sabañón #segundo #tercero">
+          <sp
+            who="#cintia #dama-1 #focas #heraclio #leonido #libia #luquete #primero #sabañón #segundo #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5812,7 +5911,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Vanse, y vuelven a salir Leonido con Luquete y Heraclio con Sabañón, por dos partes.</stage>
+          <stage>Vanse, y vuelven a salir Leonido con Luquete y Heraclio con Sabañón, por dos
+            partes.</stage>
           <sp who="#leonido">
             <speaker rend="caps">Leonido</speaker>
 
@@ -6084,7 +6184,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Salen en dos tropas todos los músicos y músicas que puedan; y trayn todos en fuentes capas, espadas, sombreros y otros adornos de vestidos.</stage>
+          <stage>Salen en dos tropas todos los músicos y músicas que puedan; y trayn todos en
+            fuentes capas, espadas, sombreros y otros adornos de vestidos.</stage>
           <sp who="#coro-1 #música">
             <speaker rend="caps">Coro 1° Música</speaker>
 
@@ -6305,7 +6406,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Vanse, cada uno por su parte con un coro y una tropa, como ayudándolos a desnudar.</stage>
+          <stage>Vanse, cada uno por su parte con un coro y una tropa, como ayudándolos a
+            desnudar.</stage>
           <sp who="#música">
             <speaker rend="caps">Toda La Música</speaker>
 
@@ -6391,7 +6493,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage>Por dos partes salen Heraclio y Leonido, vestidos de gala, con criados; acaban de vestirse, y salen Luquete y Sabañón de lacayos ridículos.</stage>
+          <stage>Por dos partes salen Heraclio y Leonido, vestidos de gala, con criados; acaban de
+            vestirse, y salen Luquete y Sabañón de lacayos ridículos.</stage>
           <sp who="#primero">
             <speaker rend="caps">1o</speaker>
 
@@ -9523,7 +9626,8 @@
             <l>besen tu mano, diciendo</l>
             <l>a voces:…</l>
           </sp>
-          <sp who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo #luquete #sabañón">
+          <sp
+            who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo #luquete #sabañón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9721,7 +9825,8 @@
 
             <l>¡Favor!</l>
           </sp>
-          <sp who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo #luquete #sabañón">
+          <sp
+            who="#astolfo #cintia #federico #focas #heraclio #leonido #libia #lisipo #luquete #sabañón">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10462,7 +10567,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Salen por una parte Libia y la gente de Cintia, y por otra Federico y soldados.</stage>
+          <stage>Salen por una parte Libia y la gente de Cintia, y por otra Federico y
+            soldados.</stage>
           <sp who="#libia">
             <speaker rend="caps">Libia</speaker>
 

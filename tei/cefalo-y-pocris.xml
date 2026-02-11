@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000067" xml:lang="es">
   <teiHeader>
@@ -6,7 +6,8 @@
       <titleStmt>
         <title>Céfalo y Pocris</title>
         <title type="sub">Comedia burlesca</title>
-        <title type="sub">Fiesta que se representó a Sus Majestades día de carnestolendas, en el Salón Real de Palacio</title>
+        <title type="sub">Fiesta que se representó a Sus Majestades día de carnestolendas, en el
+          Salón Real de Palacio</title>
         <author>
           <persName>
             <forename>Pedro</forename>
@@ -27,7 +28,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-30">
@@ -40,9 +42,13 @@
       <sourceDesc>
         <bibl type="sourceText">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/cefalo-y-pocris--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/cefalo-y-pocris--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de Novena parte de Comedias de Don Pedro Calderón de la Barca que nuevamente corregidas, publica Don Juan de Vera Tassis y Villarroel, Madrid, Por Francisco Sanz, 1691. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title>Edición digital a partir de Novena parte de Comedias de Don Pedro Calderón de la
+              Barca que nuevamente corregidas, publica Don Juan de Vera Tassis y Villarroel, Madrid,
+              Por Francisco Sanz, 1691. Localización: Base de Datos Teatro Español del Siglo de Oro
+              (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -58,11 +64,17 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="antistes" sex="MALE">
             <persName>Antistes</persName>
             <trait source="#calderondigital">
               <desc>privado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="polidoro" sex="MALE">
@@ -70,11 +82,17 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="céfalo" sex="MALE">
             <persName>Céfalo</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="rosicler" sex="MALE">
@@ -82,11 +100,17 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tabaco" sex="MALE">
             <persName>Tabaco</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="pocris" sex="FEMALE">
@@ -94,11 +118,17 @@
             <trait source="#calderondigital">
               <desc>princesa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="aura" sex="FEMALE">
             <persName>Aura</persName>
             <trait source="castlist">
               <desc>dueña</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="filis" sex="FEMALE">
@@ -106,11 +136,17 @@
             <trait source="#calderondigital">
               <desc>infanta</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
             <persName>Clori</persName>
             <trait source="castlist">
               <desc>dueña</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lesbia" sex="FEMALE">
@@ -118,11 +154,17 @@
             <trait source="castlist">
               <desc>dueña</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nise" sex="FEMALE">
             <persName>Nise</persName>
             <trait source="castlist">
               <desc>dueña</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
@@ -130,42 +172,72 @@
             <trait source="castlist">
               <desc>dueña</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pastel" sex="MALE">
             <persName>Pastel</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="gigante" sex="MALE">
             <persName>Un Gigante</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pasquín" sex="MALE">
             <persName>Pasquín</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="capitán" sex="MALE">
             <persName>Un Capitán</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Un Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dueña" sex="FEMALE">
             <persName>Dueña</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dueñas" sex="FEMALE">
             <persName>Dueñas</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -174,17 +246,20 @@
           <term source="dracor" type="genreTitle">comedia burlesca</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -204,7 +279,8 @@
       <docTitle>
         <titlePart type="main">Céfalo y Pocris</titlePart>
         <titlePart type="sub">Comedia burlesca</titlePart>
-        <titlePart type="sub">Fiesta que se representó a Sus Majestades día de carnestolendas, en el Salón Real de Palacio</titlePart>
+        <titlePart type="sub">Fiesta que se representó a Sus Majestades día de carnestolendas, en el
+          Salón Real de Palacio</titlePart>
       </docTitle>
       <castList>
         <head>PERSONAS QUE HABLAN EN ELLA</head>
@@ -232,7 +308,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Habrá en el teatro una gruta. Sale PASQUÍN y, llegando junto a ella, representa.</stage>
+          <stage>Habrá en el teatro una gruta. Sale PASQUÍN y, llegando junto a ella,
+            representa.</stage>
           <sp who="#pasquín">
             <speaker rend="caps">Pasquín</speaker>
 
@@ -697,7 +774,8 @@
             <l>cabizbajo y pensativo</l>
             <l>estaba el pastor Chamorro.</l>
           </sp>
-          <stage>(Hasta aquí han representado como sin verse, y ahora reparan unos en otros.)</stage>
+          <stage>(Hasta aquí han representado como sin verse, y ahora reparan unos en
+            otros.)</stage>
           <sp who="#tabaco">
             <speaker rend="caps">Tabaco</speaker>
 
@@ -8049,7 +8127,8 @@
             <l>en un instante mirad</l>
             <l>cuántas canas se me quitan</l>
             <l>en comenzando a cantar.</l>
-            <stage>(Empieza a cantar, y por un arambre le quitan las barbas y cabellera cana al REY.)</stage>
+            <stage>(Empieza a cantar, y por un arambre le quitan las barbas y cabellera cana al
+              REY.)</stage>
             <stage>(Canta)</stage>
             <l>Vaya, vaya de mojiganga,</l>
             <l>de alegría y de pesar;</l>

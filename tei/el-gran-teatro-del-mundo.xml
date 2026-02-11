@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000015" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-03-11">
           <time when="13:42:28"/>
@@ -35,9 +36,14 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-gran-teatro-del-mundo--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-gran-teatro-del-mundo--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don
+              Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier,
+              Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización:
+              Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina
+              Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,42 +53,78 @@
         <listPerson>
           <person xml:id="el-autor" sex="MALE">
             <persName>El Autor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-mundo" sex="MALE">
             <persName>El Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-rey" sex="MALE">
             <persName>El Rey</persName>
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-discreción" sex="FEMALE">
             <persName>La Discreción</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-ley-de-gracia" sex="FEMALE">
             <persName>La Ley de Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-hermosura" sex="FEMALE">
             <persName>La Hermosura</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-rico" sex="MALE">
             <persName>El Rico</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-labrador" sex="MALE">
             <persName>El Labrador</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-pobre" sex="MALE">
             <persName>El Pobre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="un-niño" sex="MALE">
             <persName>Un Niño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="una-voz">
             <persName>Una Voz</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="acompañamiento" sex="MALE">
             <persName>Acompañamiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -91,17 +133,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -113,7 +158,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000015" passive="http://www.wikidata.org/entity/Q1171310"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000015"
+        passive="http://www.wikidata.org/entity/Q1171310"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -140,7 +186,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage type="entrance">Sale el AUTOR con manto de estrellas y potencias en el sombrero.</stage>
+          <stage type="entrance">Sale el AUTOR con manto de estrellas y potencias en el
+            sombrero.</stage>
           <sp who="#el-autor">
             <speaker>AUTOR</speaker>
             <l>Hermosa compostura</l>
@@ -460,7 +507,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage type="unassigned">Salen el RICO, el REY, el LABRADOR, el POBRE y la HERMOSURA, la DISCRECIÓN y un NIÑO.</stage>
+          <stage type="unassigned">Salen el RICO, el REY, el LABRADOR, el POBRE y la HERMOSURA, la
+            DISCRECIÓN y un NIÑO.</stage>
           <sp who="#el-rey">
             <speaker>REY</speaker>
             <l>Ya estamos a tu obediencia,</l>
@@ -1057,7 +1105,9 @@
             <l>de la tierra, pues que dentro</l>
             <l>della la scena ha de ser!</l>
           </sp>
-          <stage type="unassigned">Con música se abren a un tiempo dos globos: en el uno estará un trono de gloria, y en él el AUTOR sentado; en el otro ha de haber representación con dos puertas: en la una pintada una cuna y en la otra un ataúd.</stage>
+          <stage type="unassigned">Con música se abren a un tiempo dos globos: en el uno estará un
+            trono de gloria, y en él el AUTOR sentado; en el otro ha de haber representación con dos
+            puertas: en la una pintada una cuna y en la otra un ataúd.</stage>
           <sp who="#el-autor">
             <speaker>AUTOR</speaker>
             <l>Pues para grandeza mía</l>
@@ -1108,7 +1158,8 @@
             <l>en elevación está</l>
             <l>sobre la haz de la tierra.</l>
           </sp>
-          <stage type="unassigned">Aparece la LEY DE GRACIA con una elevación, que estará sobre donde estuviere el MUNDO, con un papel en la mano.</stage>
+          <stage type="unassigned">Aparece la LEY DE GRACIA con una elevación, que estará sobre
+            donde estuviere el MUNDO, con un papel en la mano.</stage>
           <sp who="#la-ley-de-gracia">
             <speaker>LEY</speaker>
             <l>Yo, que Ley de Gracia soy,</l>
@@ -1134,7 +1185,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage type="unassigned">Sale la HERMOSURA y la DISCRECIÓN por la puerta de la cuna.</stage>
+          <stage type="unassigned">Sale la HERMOSURA y la DISCRECIÓN por la puerta de la
+            cuna.</stage>
           <sp who="#la-hermosura">
             <speaker>HERMOSURA</speaker>
             <l n="675">Vente conmigo a espaciar</l>
@@ -1671,7 +1723,8 @@
             <l n="975">Ciencia para gobernar</l>
             <l>pide, como Salomón.</l>
           </sp>
-          <stage type="unassigned">Canta una voz triste dentro, a la parte que está la puerta del ataúd.</stage>
+          <stage type="unassigned">Canta una voz triste dentro, a la parte que está la puerta del
+            ataúd.</stage>
           <sp who="#una-voz">
             <speaker>VOZ</speaker>
             <l>Rey de ese caduco imperio,</l>
@@ -2580,7 +2633,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="30">
-          <stage type="unassigned">Con música se descubre otra vez el globo celeste, y en él una mesa con cáliz y ostia, y el AUTOR sentado a ella, y sale el MUNDO.</stage>
+          <stage type="unassigned">Con música se descubre otra vez el globo celeste, y en él una
+            mesa con cáliz y ostia, y el AUTOR sentado a ella, y sale el MUNDO.</stage>
           <sp who="#el-autor">
             <speaker>AUTOR</speaker>
             <l>Esta mesa, donde tengo</l>

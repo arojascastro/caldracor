@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000156" xml:lang="es">
   <teiHeader>
@@ -37,7 +37,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/18224</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de E. Galar Irurre, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2010. ISBN: 978-3-937734-71-1.</title>
+            <title>Edición digital a partir de la edición de E. Galar Irurre, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 2010. ISBN: 978-3-937734-71-1.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,69 +48,159 @@
         <listPerson>
           <person sex="MALE" xml:id="rencor">
             <persName>Rencor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sombra">
             <persName>Sombra</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fama">
             <persName>Fama</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="ateismo">
             <persName>Ateísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gentilidad">
             <persName>Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hebraismo">
             <persName>Hebraísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="idolatria">
             <persName>Idolatría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="apostasia">
             <persName>Apostasía</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="alcoran">
             <persName>Alcorán</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="judaismo">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hombre">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="albedrio">
             <persName>Albedrío</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="principe">
             <persName>Príncipe</persName>
+            <idno type="wikidata">Q302</idno>
             <trait resp="#rojas">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="andres">
             <persName>Andrés</persName>
+            <idno type="wikidata">Q43399</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pedro">
             <persName>Pedro</persName>
+            <idno type="wikidata">Q33923</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="juan">
             <persName>Juan</persName>
+            <idno type="wikidata">Q44015</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="diego">
             <persName>Diego</persName>
+            <idno type="wikidata">Q43999</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pablo">
             <persName>Pablo</persName>
+            <idno type="wikidata">Q9200</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Voz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="iglesia">
             <persName>Iglesia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="apostoles">
             <persName>Apóstoles</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -123,12 +214,14 @@
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -171,7 +264,10 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Ábrese el primer carro y se ve el Rencor sentado en un trono de peñascos corpóreos, echando llamas, con corona de áspides, manto de estrellas negro, plumas, bengala y banda negra. Adviértase que el carro ha de ser también de peñascos, cayendo el rastrillo al tablado para que baje a su tiempo por él</stage>
+          <stage>Ábrese el primer carro y se ve el Rencor sentado en un trono de peñascos corpóreos,
+            echando llamas, con corona de áspides, manto de estrellas negro, plumas, bengala y banda
+            negra. Adviértase que el carro ha de ser también de peñascos, cayendo el rastrillo al
+            tablado para que baje a su tiempo por él</stage>
           <sp who="#rencor">
             <speaker>RENCOR</speaker>
             <l>¡Rompa mi acento horrible</l>
@@ -219,7 +315,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Ábrese el carro opuesto, que será una montaña levantada, en forma de concha el sobrecarro, y se ve la Sombra, como recostada, y sale del peñasco después del primer verso</stage>
+          <stage>Ábrese el carro opuesto, que será una montaña levantada, en forma de concha el
+            sobrecarro, y se ve la Sombra, como recostada, y sale del peñasco después del primer
+            verso</stage>
           <sp who="#sombra">
             <speaker>SOMBRA</speaker>
             <l part="F">¿Quién me nombra?</l>
@@ -781,7 +879,8 @@
             <l>cuando convidando a todos</l>
             <l>repitan sus consonancias…</l>
           </sp>
-          <stage>Atraviesa la Fama cantando, con el clarín en la mano, en una águila, lo que se sigue. Canta</stage>
+          <stage>Atraviesa la Fama cantando, con el clarín en la mano, en una águila, lo que se
+            sigue. Canta</stage>
           <sp who="#fama">
             <speaker>FAMA</speaker>
             <l n="595">Venga a noticia de cuantos</l>
@@ -1013,7 +1112,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vanse y sale cantando la Fama como primero, y salen el Hebraísmo a lo judío, el Ateísmo de pieles, la Idolatría de indio y la Gentilidad de romano, con corona y cetro y manto imperial, y todos siguiéndola y escuchando. Canta</stage>
+          <stage>Vanse y sale cantando la Fama como primero, y salen el Hebraísmo a lo judío, el
+            Ateísmo de pieles, la Idolatría de indio y la Gentilidad de romano, con corona y cetro y
+            manto imperial, y todos siguiéndola y escuchando. Canta</stage>
           <sp who="#fama">
             <speaker>FAMA</speaker>
             <l>Venid, mortales, venid.</l>
@@ -1233,7 +1334,8 @@
             <l>aliento a sus voces, voces a su llama.</l>
             <l>Venid pues, venid</l>
             <l n="900">que da mesa franca</l>
-            <stage>Repite todo lo que cantó al principio, sin dejar verso ni la repetición de los seis versos de arriba, sin desaparecer hasta su tiempo</stage>
+            <stage>Repite todo lo que cantó al principio, sin dejar verso ni la repetición de los
+              seis versos de arriba, sin desaparecer hasta su tiempo</stage>
             <l>a aquel que viniere</l>
             <l>a la voz que inflama,</l>
             <l>y a todos convoca,</l>
@@ -1722,7 +1824,8 @@
             <l>a tu centro la carrera</l>
             <l part="I">encaminas.</l>
           </sp>
-          <sp who="#idolatria #fama #hebraismo #rencor #sombra #acompanamiento #gentilidad #apostasia">
+          <sp
+            who="#idolatria #fama #hebraismo #rencor #sombra #acompanamiento #gentilidad #apostasia">
             <speaker>TODOS</speaker>
             <l n="1170" part="F">¿Qué será esto?</l>
           </sp>
@@ -1793,7 +1896,8 @@
             <l>y una vida aborrecida,</l>
             <l>¿qué se pierde en que se pierda?</l>
           </sp>
-          <sp who="#idolatria #fama #hebraismo #acompanamiento #gentilidad #rencor #judaismo #sombra #alcoran #apostasia">
+          <sp
+            who="#idolatria #fama #hebraismo #acompanamiento #gentilidad #rencor #judaismo #sombra #alcoran #apostasia">
             <speaker>TODOS</speaker>
             <l part="I">¿Pues quién eres?</l>
           </sp>
@@ -2236,7 +2340,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Salen cantando y bailando algunos y algunas, todos de zagales y, entre ellos, también la Sombra de zagala</stage>
+          <stage>Salen cantando y bailando algunos y algunas, todos de zagales y, entre ellos,
+            también la Sombra de zagala</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Venid, zagalejas,</l>
@@ -2875,7 +2980,8 @@
             <stage>Canta</stage>
             <l>Venga a noticia de cuantos</l>
             <l>son y han sido en la animada</l>
-            <stage>Canta todo el recitativo y todas las coplas y repeticiones como la segunda vez y salen como oyéndole ANDRÉS, primero, luego PEDRO, JUAN y DIEGO, de pescadores</stage>
+            <stage>Canta todo el recitativo y todas las coplas y repeticiones como la segunda vez y
+              salen como oyéndole ANDRÉS, primero, luego PEDRO, JUAN y DIEGO, de pescadores</stage>
             <l n="1930">esfera del universo,</l>
             <l>desde la zona abrasada</l>
             <l>hasta la gélida zona,</l>
@@ -3096,7 +3202,8 @@
             <l n="2080">voces, porque el Hombre pueda</l>
             <l>oírlas, digan nuestras ansias…</l>
           </sp>
-          <sp who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #sombra #musicos #hombre #albedrio #rencor #principe #andres #pedro #juan #diego #pablo #fama">
+          <sp
+            who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #sombra #musicos #hombre #albedrio #rencor #principe #andres #pedro #juan #diego #pablo #fama">
             <speaker>TODOS Y PABLO</speaker>
             <l>Todos digamos contigo,</l>
             <l>porque logres lo que mandas,</l>
@@ -3107,7 +3214,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>Salen el Hombre luchando con el Albedrío y la Sombra y el Rencor de zagales, acechando y siguiendo al Hombre</stage>
+          <stage>Salen el Hombre luchando con el Albedrío y la Sombra y el Rencor de zagales,
+            acechando y siguiendo al Hombre</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="I">¡Ven tras mí!</l>
@@ -3314,7 +3422,8 @@
             <speaker>FAMA</speaker>
             <l part="F">Dame tus plantas.</l>
           </sp>
-          <sp who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #musicos #andres #juan #diego #pablo #hombre #albedrio #pedro #sombra #rencor #principe #fama">
+          <sp
+            who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #musicos #andres #juan #diego #pablo #hombre #albedrio #pedro #sombra #rencor #principe #fama">
             <speaker>TODOS Y ANDRÉS</speaker>
             <l part="I">Dame tus pies.</l>
           </sp>
@@ -3565,7 +3674,8 @@
             <l>vamos cantando la gala</l>
             <l part="I">al Príncipe.</l>
           </sp>
-          <sp who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #musicos #sombra #rencor #hombre #albedrio #pablo #andres #diego #juan #pedro #principe #fama">
+          <sp
+            who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #musicos #sombra #rencor #hombre #albedrio #pablo #andres #diego #juan #pedro #principe #fama">
             <speaker>TODOS</speaker>
             <l part="F">Sea diciendo…</l>
           </sp>
@@ -3597,7 +3707,8 @@
             <l>ofreced las alabanzas</l>
             <l part="I">de vuestra aclamación.</l>
           </sp>
-          <sp who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #sombra #rencor #hombre #albedrio #pablo #andres #diego #juan #pedro #fama #musicos #principe">
+          <sp
+            who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #sombra #rencor #hombre #albedrio #pablo #andres #diego #juan #pedro #fama #musicos #principe">
             <speaker>TODOS</speaker>
             <l part="F">Sea,</l>
             <l>uniendo las dos sagradas</l>
@@ -3620,14 +3731,16 @@
             <l>Y después nuestra alegría</l>
             <l>llegue diciendo en tu loor…</l>
           </sp>
-          <sp who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #sombra #rencor #hombre #albedrio #pablo #andres #diego #juan #pedro #musicos #principe #fama">
+          <sp
+            who="#alcoran #acompanamiento #gentilidad #apostasia #idolatria #hebraismo #ateismo #sombra #rencor #hombre #albedrio #pablo #andres #diego #juan #pedro #musicos #principe #fama">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>El pan nuestro de cada día</l>
             <l>dánosle hoy, Señor.</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Vanse y salen como oyendo a lo lejos el Hebraísmo y por otra parte la Idolatría y la Apostasía hablando entre sí</stage>
+          <stage>Vanse y salen como oyendo a lo lejos el Hebraísmo y por otra parte la Idolatría y
+            la Apostasía hablando entre sí</stage>
           <sp who="#musicos #principe #fama">
             <speaker>LOS TRES</speaker>
             <l n="2375">El pan nuestro de cada día</l>
@@ -3995,7 +4108,8 @@
             <l n="2615" part="F">No tienes</l>
             <l>qué recelar, pues a tiempo</l>
             <l>llegas de que están dormidos,</l>
-            <stage>Descúbrese una puerta grande y en el umbral de ella a PEDRO, JUAN y DIEGO, durmiendo</stage>
+            <stage>Descúbrese una puerta grande y en el umbral de ella a PEDRO, JUAN y DIEGO,
+              durmiendo</stage>
             <l>después que acabadas fueron</l>
             <l>las ceremonias de haber</l>
             <l n="2620">lavado los pies, a ellos</l>
@@ -4135,8 +4249,16 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="25">
-          <stage>Descúbrese una mesa en lo alto de un carro, y en su cabecera se ve el Príncipe, sentado, y a una banda y a otra los seis, que son: el Hombre, cerca del Príncipe, y San Andrés y San Pedro; a la otra parte, San Diego y San Pablo y San Juan, durmiendo al pecho del Príncipe, como le pintan en la Cena; y a los lados del Príncipe, la que hizo a la Fama, con la vara de cruz en la mano, dormida, y la Iglesia al otro lado, sentadas , y el Apostasía, sentado hacia el tablado, advirtiendo que por el rastrillo ha de haber despeño para él , que ha de estar sin ropa, y todos los demás con ropas de velillo de plata; y el Albedrío detrás de el Hombre</stage>
-          <sp who="#acompanamiento #gentilidad #ateismo #hombre #albedrio #pablo #andres #diego #juan #fama #voz #musicos #idolatria #hebraismo #apostasia #principe #pedro #rencor #judaismo #sombra">
+          <stage>Descúbrese una mesa en lo alto de un carro, y en su cabecera se ve el Príncipe,
+            sentado, y a una banda y a otra los seis, que son: el Hombre, cerca del Príncipe, y San
+            Andrés y San Pedro; a la otra parte, San Diego y San Pablo y San Juan, durmiendo al
+            pecho del Príncipe, como le pintan en la Cena; y a los lados del Príncipe, la que hizo a
+            la Fama, con la vara de cruz en la mano, dormida, y la Iglesia al otro lado, sentadas ,
+            y el Apostasía, sentado hacia el tablado, advirtiendo que por el rastrillo ha de haber
+            despeño para él , que ha de estar sin ropa, y todos los demás con ropas de velillo de
+            plata; y el Albedrío detrás de el Hombre</stage>
+          <sp
+            who="#acompanamiento #gentilidad #ateismo #hombre #albedrio #pablo #andres #diego #juan #fama #voz #musicos #idolatria #hebraismo #apostasia #principe #pedro #rencor #judaismo #sombra">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Aunque no somos, Señor,</l>
             <l>por nuestros merecimientos</l>
@@ -4652,7 +4774,8 @@
             <l>La Iglesia, que halló el aumento</l>
             <l>de gracia para sus hijos.</l>
           </sp>
-          <sp who="#alcoran #acompanamiento #ateismo #andres #diego #juan #voz #musicos #idolatria #judaismo #pablo #pedro #albedrio #apostasia #apostoles #hombre #rencor #sombra #gentilidad #hebraismo #fama #principe #iglesia">
+          <sp
+            who="#alcoran #acompanamiento #ateismo #andres #diego #juan #voz #musicos #idolatria #judaismo #pablo #pedro #albedrio #apostasia #apostoles #hombre #rencor #sombra #gentilidad #hebraismo #fama #principe #iglesia">
             <speaker>LOS CINCO</speaker>
             <l>Sus hijos que, a los pies puestos</l>
             <l>de poder, ciencia y amor,</l>
@@ -4868,14 +4991,16 @@
             <l n="3120">tú, Gentilidad, serás</l>
             <l>de su lugar heredero.</l>
           </sp>
-          <sp who="#acompanamiento #ateismo #andres #diego #juan #voz #musicos #idolatria #judaismo #pablo #albedrio #apostasia #apostoles #hombre #iglesia #pedro #fama #hebraismo #sombra #rencor #gentilidad #principe">
+          <sp
+            who="#acompanamiento #ateismo #andres #diego #juan #voz #musicos #idolatria #judaismo #pablo #albedrio #apostasia #apostoles #hombre #iglesia #pedro #fama #hebraismo #sombra #rencor #gentilidad #principe">
             <speaker>TODOS</speaker>
             <l>Y todos en fe de que es</l>
             <l>día de perdonar yerros,</l>
             <l>en hacimiento de gracias,</l>
             <l n="3125">una y mil veces diremos…</l>
           </sp>
-          <sp who="#acompanamiento #ateismo #andres #diego #juan #voz #musicos #idolatria #judaismo #pablo #albedrio #apostasia #apostoles #hombre #iglesia #pedro #fama #hebraismo #sombra #rencor #gentilidad #principe">
+          <sp
+            who="#acompanamiento #ateismo #andres #diego #juan #voz #musicos #idolatria #judaismo #pablo #albedrio #apostasia #apostoles #hombre #iglesia #pedro #fama #hebraismo #sombra #rencor #gentilidad #principe">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Aunque no somos, Señor,</l>
             <l>por nuestros merecimientos</l>

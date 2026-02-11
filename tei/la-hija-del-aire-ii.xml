@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000118" xml:lang="es">
   <teiHeader>
@@ -33,9 +33,21 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-hija-del-aire-segunda-parte--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-hija-del-aire-segunda-parte--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Tercera parte de Comedias de D. Pedro Calderón de la Barca, En Madrid, por Domingo García Morrás, 1664 y cotejada con la edición crítica de Francisco Ruiz Ramón (Madrid, Cátedra, 1987, pp. 197-325). En esta última edición, cuya consulta recomendamos para la correcta apreciación crítica de la obra, se incorporan variantes procedentes de la edición preparada por Juan de Vera Tassís y Villarroel (En Madrid, por Francisco Sanz, 1678). Hemos asumido algunas de ellas, al mismo tiempo que, con respecto a la edición de Francisco Ruiz Ramón, hemos modificado un total de treinta y nueve versos para corregir erratas y modificar la puntuación, fundamentalmente. Asimismo, hemos utilizado distintos criterios en algunos de los apartes y las acotaciones. Modernizamos la ortografía, la acentuación y la puntuación. Las acotaciones que no figuran en las ediciones de 1664 y 1678 van entre corchetes.</title>
+            <title>Edición digital a partir de la Tercera parte de Comedias de D. Pedro Calderón de
+              la Barca, En Madrid, por Domingo García Morrás, 1664 y cotejada con la edición crítica
+              de Francisco Ruiz Ramón (Madrid, Cátedra, 1987, pp. 197-325). En esta última edición,
+              cuya consulta recomendamos para la correcta apreciación crítica de la obra, se
+              incorporan variantes procedentes de la edición preparada por Juan de Vera Tassís y
+              Villarroel (En Madrid, por Francisco Sanz, 1678). Hemos asumido algunas de ellas, al
+              mismo tiempo que, con respecto a la edición de Francisco Ruiz Ramón, hemos modificado
+              un total de treinta y nueve versos para corregir erratas y modificar la puntuación,
+              fundamentalmente. Asimismo, hemos utilizado distintos criterios en algunos de los
+              apartes y las acotaciones. Modernizamos la ortografía, la acentuación y la puntuación.
+              Las acotaciones que no figuran en las ediciones de 1664 y 1678 van entre
+              corchetes.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -45,11 +57,15 @@
         <listPerson>
           <person xml:id="semíramis" sex="FEMALE">
             <persName>Semíramis</persName>
+            <idno type="wikidata">Q103960</idno>
             <trait source="#calderondigital">
               <desc>reina</desc>
             </trait>
             <trait source="rolecall">
               <desc>travestido</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="astrea" sex="FEMALE">
@@ -57,11 +73,17 @@
             <trait source="#calderondigital">
               <desc>hija</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
             <persName>Libia</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
@@ -69,11 +91,17 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="licas" sex="MALE">
             <persName>Licas</persName>
             <trait source="#calderondigital">
               <desc>vasallo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="irán" sex="MALE">
@@ -81,11 +109,17 @@
             <trait source="#calderondigital">
               <desc>hijo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="friso" sex="MALE">
             <persName>Friso</persName>
             <trait source="#calderondigital">
               <desc>vasallo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lidoro" sex="MALE">
@@ -93,20 +127,30 @@
             <trait source="#calderondigital">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="chato" sex="MALE">
             <persName>Chato</persName>
             <trait source="#calderondigital">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ninias" sex="MALE">
             <persName>Ninias</persName>
+            <idno type="wikidata">Q3342062</idno>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
             <trait source="rolecall">
               <desc>travestido</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="lisías" sex="MALE">
@@ -114,18 +158,30 @@
             <trait source="#calderondigital">
               <desc>consejero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="anteo" sex="MALE">
             <persName>Anteo</persName>
             <trait source="#calderondigital">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flavio" sex="MALE">
             <persName>Flavio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Un Soldado</persName>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="músicos">
             <persName>Músicos</persName>
@@ -137,17 +193,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -187,7 +246,10 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
-          <stage>Músicos y soldados. Suenan cajas y trompetas y salen ASTREA con su espejo, LIBIA con una fuente y en ella una espada; FLORA con otra y en ella un sombrero, todos los músicos descubiertos; detrás de todos, SEMÍRAMIS, vestida de luto, suelto el cabello, como vistiéndose, y todas las mujeres sirviéndola.</stage>
+          <stage>Músicos y soldados. Suenan cajas y trompetas y salen ASTREA con su espejo, LIBIA
+            con una fuente y en ella una espada; FLORA con otra y en ella un sombrero, todos los
+            músicos descubiertos; detrás de todos, SEMÍRAMIS, vestida de luto, suelto el cabello,
+            como vistiéndose, y todas las mujeres sirviéndola.</stage>
           <sp who="#semíramis">
             <speaker>SEMÍRAMIS</speaker>
             <l>En tanto que Lidoro, Rey de Lidia,</l>
@@ -216,7 +278,8 @@
             <l>aquéllos al valor y éstos al gusto.</l>
             <l n="25">Las almohadas llegad, idme quitando</l>
             <l>estas trenzas, irélas yo peinando.</l>
-            <stage>Siéntase a tocar, todas sirviéndola con la mayor ostentación que se pueda.</stage>
+            <stage>Siéntase a tocar, todas sirviéndola con la mayor ostentación que se
+              pueda.</stage>
           </sp>
           <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
@@ -890,7 +953,8 @@
             <stage>Dentro.</stage>
             <l>El Rey en la lid entró;</l>
             <l>seguidle, no le dejéis.</l>
-            <stage>Vuelve a salir herido, cayendo, y con él LICAS y FRISO; por otra parte, SEMÍRAMIS.</stage>
+            <stage>Vuelve a salir herido, cayendo, y con él LICAS y FRISO; por otra parte,
+              SEMÍRAMIS.</stage>
           </sp>
           <sp who="#friso">
             <speaker>FRISO</speaker>
@@ -1722,7 +1786,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Con chirimías, todo el acompañamiento detrás de NINIAS, vestido de camino, y a la puerta por donde entra estará LIDORO con cadena.</stage>
+          <stage>Con chirimías, todo el acompañamiento detrás de NINIAS, vestido de camino, y a la
+            puerta por donde entra estará LIDORO con cadena.</stage>
           <sp who="#chato #lidoro #ninias">
             <speaker>TODOS</speaker>
             <l>¡Viva el sucesor de Nino!</l>
@@ -2114,7 +2179,8 @@
       <div type="act" n="2">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada II</head>
-          <stage>Suenan chirimías y atabalillos. Sale en lo alto del teatro, con un estandarte, LICAS, y por lo bajo salen FRISO y FLAVIO.</stage>
+          <stage>Suenan chirimías y atabalillos. Sale en lo alto del teatro, con un estandarte,
+            LICAS, y por lo bajo salen FRISO y FLAVIO.</stage>
           <sp who="#licas">
             <speaker>LICAS</speaker>
             <l>Oíd, oíd, oíd, vasallos.</l>
@@ -2125,7 +2191,8 @@
             <speaker>TODOS</speaker>
             <l part="F">¡Viva</l>
             <l>siglos y edades eternas!</l>
-            <stage>Enarbola el estandarte, vuelven a tocar y vanse LICAS y el acompañamiento, y quédanse FRISO y FLAVIO.</stage>
+            <stage>Enarbola el estandarte, vuelven a tocar y vanse LICAS y el acompañamiento, y
+              quédanse FRISO y FLAVIO.</stage>
           </sp>
           <sp who="#friso">
             <speaker>FRISO</speaker>
@@ -4072,7 +4139,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>SEMÍRAMIS cierra la puerta, FRISO entra dentro, suena ruido y cae el bufete.</stage>
+          <stage>SEMÍRAMIS cierra la puerta, FRISO entra dentro, suena ruido y cae el
+            bufete.</stage>
           <sp who="#ninias">
             <speaker>NINIAS</speaker>
             <stage>Dentro.</stage>
@@ -4098,7 +4166,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Entra FRISO y NINIAS en los brazos y con vestido parecido, cubierto el rostro.</stage>
+          <stage>Entra FRISO y NINIAS en los brazos y con vestido parecido, cubierto el
+            rostro.</stage>
           <sp who="#friso">
             <speaker>FRISO</speaker>
             <l>¡Qué mal de mí te defiendes!</l>
@@ -4542,7 +4611,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Salen algunos con memoriales; el SOLDADO I.º, CHATO y luego SEMÍRAMIS, y detrás, LISÍAS. Hincan las rodillas.</stage>
+          <stage>Salen algunos con memoriales; el SOLDADO I.º, CHATO y luego SEMÍRAMIS, y detrás,
+            LISÍAS. Hincan las rodillas.</stage>
           <sp who="#semíramis">
             <speaker>SEMÍRAMIS</speaker>
             <stage>Aparte.</stage>
@@ -5573,7 +5643,8 @@
         </div>
         <div type="scene" resp="#rojas" n="6">
           <stage>Vase.</stage>
-          <stage>Salen LIBIA y ASTREA, a quien SEMÍRAMIS se dirige y habla bajo, mientras se retira LICAS y sale FRISO.</stage>
+          <stage>Salen LIBIA y ASTREA, a quien SEMÍRAMIS se dirige y habla bajo, mientras se retira
+            LICAS y sale FRISO.</stage>
           <sp who="#friso">
             <speaker>FRISO</speaker>
             <stage>Aparte.</stage>
@@ -5676,7 +5747,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Vase LISÍAS, quedan ASTREA y LIBIA, y, por distintos lados, salen FRISO y LICAS.</stage>
+          <stage>Vase LISÍAS, quedan ASTREA y LIBIA, y, por distintos lados, salen FRISO y
+            LICAS.</stage>
           <sp who="#licas">
             <speaker>LICAS</speaker>
             <stage>A LIBIA.</stage>
@@ -5753,7 +5825,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Tocan a marchar, y salen toda la gente que pudiere y, después, IRÁN, niño, con bastón de general, y ANTEO, viejo con bastón.</stage>
+          <stage>Tocan a marchar, y salen toda la gente que pudiere y, después, IRÁN, niño, con
+            bastón de general, y ANTEO, viejo con bastón.</stage>
           <sp who="#irán">
             <speaker>IRÁN</speaker>
             <l>Babilonia, república eminente</l>

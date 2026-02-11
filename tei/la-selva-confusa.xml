@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000207" xml:lang="es">
   <teiHeader>
@@ -42,7 +42,8 @@
           <idno type="URL"/>
         </bibl>
         <bibl type="originalSource">
-          <title>Edición digital a partir de la edición de Erik Coenen, Kassel, Reichenberger, 2011.</title>
+          <title>Edición digital a partir de la edición de Erik Coenen, Kassel, Reichenberger,
+            2011.</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -54,11 +55,17 @@
             <trait source="#calderondigital">
               <desc>hijo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="fadrique">
             <persName>Fadrique</persName>
             <trait source="#calderondigital">
               <desc>hijo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="carlos">
@@ -66,11 +73,17 @@
             <trait source="#calderondigital">
               <desc>conde</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="leonelo">
             <persName>Leonelo</persName>
             <trait source="#calderondigital">
               <desc>caballero</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="marcial">
@@ -78,11 +91,17 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="celia">
             <persName>Celia</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="flora">
@@ -90,29 +109,47 @@
             <trait source="#calderondigital">
               <desc>hija</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="otavio">
             <persName>Otavio</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="duque">
             <persName>Duque</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="fabricio">
             <persName>Fabricio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="oton">
             <persName>Otón</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="jacinta">
             <persName>Jacinta</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
         </listPerson>
@@ -122,23 +159,27 @@
           <term source="dracor" type="genreTitle">comedia</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
     <revisionDesc>
       <listChange>
-        <change when="2022-06-09T13:03:17">Converted with txt2tei&lt;https://github.com/fsanzl/txt2tei&gt;</change>
+        <change when="2022-06-09T13:03:17">Converted with
+          txt2tei&lt;https://github.com/fsanzl/txt2tei&gt;</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -4561,7 +4602,8 @@
       </div>
       <div type="act" n="3">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen el príncipe Filipo, Carlos y Leonelo; el Duque, Otón, Otavio, Celia y Flora.</stage>
+          <stage>Salen el príncipe Filipo, Carlos y Leonelo; el Duque, Otón, Otavio, Celia y
+            Flora.</stage>
           <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l>El Duque de Milán, agradecido</l>

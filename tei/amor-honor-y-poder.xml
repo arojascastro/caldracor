@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000004" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-28">
           <time when="17:45:16"/>
@@ -35,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/amor-honor-y-poder--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/amor-honor-y-poder--0/html/</idno>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la Segunda parte de Comedias de don Pedro Calderón de la Barca, Madrid, Por María de Quiñónez, 1637. Localización: Base de DatosTeatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title> Edición digital a partir de la Segunda parte de Comedias de don Pedro Calderón
+              de la Barca, Madrid, Por María de Quiñónez, 1637. Localización: Base de DatosTeatro
+              Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -53,11 +57,17 @@
             <trait source="#calderondigital">
               <desc>seductor</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="teobaldo" sex="MALE">
             <persName>Teobaldo</persName>
             <trait source="#calderondigital">
               <desc>noble</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="conde" sex="MALE">
@@ -65,11 +75,17 @@
             <trait source="#calderondigital">
               <desc>padre</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ludovico" sex="MALE">
             <persName>Ludovico</persName>
             <trait source="#calderondigital">
               <desc>noble</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="enrico" sex="MALE">
@@ -77,11 +93,17 @@
             <trait source="#calderondigital">
               <desc>conde</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="estela" sex="FEMALE">
             <persName>Estela</persName>
             <trait source="#calderondigital">
               <desc>condesa</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="infanta" sex="FEMALE">
@@ -89,9 +111,15 @@
             <trait source="#calderondigital">
               <desc>hermana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cazador" sex="MALE">
             <persName>Un Cazador</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tosco" sex="MALE">
             <persName>Tosco</persName>
@@ -101,6 +129,9 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -109,17 +140,20 @@
           <term source="dracor" type="genreTitle">comedia palatina</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -134,7 +168,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000004" passive="http://www.wikidata.org/entity/Q5672955"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000004"
+        passive="http://www.wikidata.org/entity/Q5672955"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -906,11 +941,12 @@
             <l> Si el desprecio solicitas </l>
             <l n="435"> por los celos que me quitas, </l>
             <l> yo te perdono el rigor. </l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Sale un CAZADOR por una puerta, y TOSCO villano por otra y dicen dentro primero.</stage>
+          <stage>Sale un CAZADOR por una puerta, y TOSCO villano por otra y dicen dentro
+            primero.</stage>
           <sp who="#cazador">
             <speaker>CAZADOR</speaker>
             <l part="I"> ¡Hola, hao, pastor! </l>
@@ -4720,7 +4756,7 @@
             <l> que alumbre ardiente el cielo, </l>
             <l> que comunique el mar </l>
             <l> y que suspenda el viento. </l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
@@ -5067,7 +5103,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Salen LUDOVICO y el CONDE por una puerta y por otra TEOBALDO, ENRICO y TOSCO villano.</stage>
+          <stage>Salen LUDOVICO y el CONDE por una puerta y por otra TEOBALDO, ENRICO y TOSCO
+            villano.</stage>
           <sp who="#enrico">
             <speaker>ENRICO</speaker>
             <l part="I"> Vós, Teobaldo, ¿venís por mí? </l>

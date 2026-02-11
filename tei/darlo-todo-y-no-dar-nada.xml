@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000072" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-06">
@@ -39,7 +40,8 @@
       <sourceDesc>
         <bibl type="sourceText">
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ignacio Arellano, Séptima parte de comedias, VII, Madrid, Biblioteca Castro, en prensa.</title>
+            <title>Edición digital a partir de la edición de Ignacio Arellano, Séptima parte de
+              comedias, VII, Madrid, Biblioteca Castro, en prensa.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -49,11 +51,19 @@
         <listPerson>
           <person xml:id="alejandro" sex="MALE">
             <persName>Alejandro</persName>
+            <idno type="wikidata">Q8409</idno>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="diógenes" sex="MALE">
             <persName>Diógenes</persName>
+            <idno type="wikidata">Q59180</idno>
             <trait source="#calderondigital">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="chichón" sex="MALE">
@@ -64,11 +74,18 @@
             <trait source="#calderondigital">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="efestión" sex="MALE">
             <persName>Efestión</persName>
+            <idno type="wikidata">Q310739</idno>
             <trait source="#calderondigital">
               <desc>privado</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="estatira" sex="FEMALE">
@@ -76,44 +93,72 @@
             <trait source="castlist">
               <desc>infanta</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="siroés" sex="FEMALE">
             <persName>Siroés</persName>
             <trait source="castlist">
               <desc>hermana</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="campaspe" sex="FEMALE">
             <persName>Campaspe</persName>
+            <idno type="wikidata">Q432787</idno>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="apeles" sex="MALE">
             <persName>Apeles</persName>
+            <idno type="wikidata">Q216822</idno>
             <trait source="castlist">
               <desc>pintor</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="ceuxis" sex="FEMALE">
             <persName>Ceuxis</persName>
+            <idno type="wikidata">Q197044</idno>
             <trait source="castlist">
               <desc>pintor</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="timantes" sex="MALE">
             <persName>Timantes</persName>
+            <idno type="wikidata">Q707873</idno>
             <trait source="castlist">
               <desc>pintor</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="sacerdote" sex="MALE">
             <persName>Un Sacerdote de Júpiter</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nise" sex="FEMALE">
             <persName>Nise</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
@@ -121,18 +166,33 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-1">
             <persName>Voz 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-2">
             <persName>Voz 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1</persName>
@@ -150,17 +210,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -203,7 +266,9 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suenan a una parte cajas y trompetas, y a otra instrumentos músicos, y mientras se dicen dentro los primeros versos, sale Diógenes, viejo venerable, vestido pobremente, con una vasija de barro en la mano.</stage>
+          <stage>Suenan a una parte cajas y trompetas, y a otra instrumentos músicos, y mientras se
+            dicen dentro los primeros versos, sale Diógenes, viejo venerable, vestido pobremente,
+            con una vasija de barro en la mano.</stage>
           <sp who="#unos">
             <speaker rend="caps">Unos</speaker>
             <stage type="withText">dentro</stage>
@@ -560,7 +625,8 @@
             <l>Para que bebas cogiendo</l>
             <l>el agua con más descanso.</l>
           </sp>
-          <stage>Llega a un lado del tablado, donde habrá entre flores agua, y bebe con la mano.</stage>
+          <stage>Llega a un lado del tablado, donde habrá entre flores agua, y bebe con la
+            mano.</stage>
           <sp who="#chichón">
             <speaker rend="caps">Chichón</speaker>
 
@@ -714,7 +780,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Salen Alejandro y un sacerdote, asidos de un yugo, enredadas las coyundas, y gente.</stage>
+          <stage>Salen Alejandro y un sacerdote, asidos de un yugo, enredadas las coyundas, y
+            gente.</stage>
           <sp who="#sacerdote">
             <speaker rend="caps">Sacerdote</speaker>
 
@@ -1886,7 +1953,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Sale Campaspe cayendo, vestida de cazadora rústica, con la espada en la mano, ensangrentado el rostro.</stage>
+          <stage>Sale Campaspe cayendo, vestida de cazadora rústica, con la espada en la mano,
+            ensangrentado el rostro.</stage>
           <sp who="#campaspe">
             <speaker rend="caps">Campaspe</speaker>
 
@@ -5938,7 +6006,8 @@
             <l>los que medran no teniendo</l>
             <l>brazos.</l>
           </sp>
-          <stage>Siéntase ella y él pone el bastidor, toma la paleta, y Chichón muele las colores, y pinta Apeles.</stage>
+          <stage>Siéntase ella y él pone el bastidor, toma la paleta, y Chichón muele las colores, y
+            pinta Apeles.</stage>
           <sp who="#campaspe">
             <speaker rend="caps">Campaspe</speaker>
 
@@ -7464,7 +7533,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Sale Campaspe huyendo, Alejandro tras ella, y en viendo a Apeles se detiene.</stage>
+          <stage>Sale Campaspe huyendo, Alejandro tras ella, y en viendo a Apeles se
+            detiene.</stage>
           <sp who="#campaspe">
             <speaker rend="caps">Campaspe</speaker>
 
@@ -9070,7 +9140,8 @@
 
             <l>Traición es cuando disfama</l>
             <l>las sacras leyes de amor.</l>
-            <stage>Canta la música a un lado, suenan las cajas y trompetas a otro lado, y los dos representan todo a un tiempo.</stage>
+            <stage>Canta la música a un lado, suenan las cajas y trompetas a otro lado, y los dos
+              representan todo a un tiempo.</stage>
           </sp>
           <sp who="#música">
             <speaker rend="caps">Músicos</speaker>

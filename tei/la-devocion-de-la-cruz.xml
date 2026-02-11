@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000026" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-22">
           <time when="22:25:37"/>
@@ -35,9 +36,14 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-devocion-de-la-cruz--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-devocion-de-la-cruz--0/html/</idno>
           <bibl type="originalSource">
-            <title> Edición digital a partir de Primera parte de Comedias de Don Pedro Calderón de la Barca. Recogidas por Don Joseph Calderón de la Barca, su hermano, Madrid, Por la viuda de Juan Sánchez, a costa de Gabriel de León, 1640. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title> Edición digital a partir de Primera parte de Comedias de Don Pedro Calderón de
+              la Barca. Recogidas por Don Joseph Calderón de la Barca, su hermano, Madrid, Por la
+              viuda de Juan Sánchez, a costa de Gabriel de León, 1640. Localización: Base de Datos
+              Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez
+              Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -50,11 +56,17 @@
             <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisardo" sex="MALE">
             <persName>Lisardo</persName>
             <trait source="#calderondigital">
               <desc>hermano</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="curcio" sex="MALE">
@@ -62,11 +74,17 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="octavio" sex="MALE">
             <persName>Octavio</persName>
             <trait source="#calderondigital">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="celio" sex="MALE">
@@ -74,11 +92,17 @@
             <trait source="#calderondigital">
               <desc>bandolero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ricardo" sex="MALE">
             <persName>Ricardo</persName>
             <trait source="#calderondigital">
               <desc>bandolero</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="arminda" sex="FEMALE">
@@ -86,11 +110,17 @@
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="gil" sex="MALE">
             <persName>Gil</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="menga" sex="FEMALE">
@@ -98,11 +128,17 @@
             <trait source="#calderondigital">
               <desc>graciosa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="julia" sex="FEMALE">
             <persName>Julia</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp xml:id="villanos" sex="MALE">
@@ -113,6 +149,9 @@
             <trait source="#calderondigital">
               <desc>monje</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="bandoleros" sex="MALE">
             <persName>Bandoleros</persName>
@@ -122,11 +161,17 @@
             <trait source="#calderondigital">
               <desc>bandolero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="blas" sex="MALE">
             <persName>Blas</persName>
             <trait source="#calderondigital">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="tirso" sex="MALE">
@@ -134,15 +179,24 @@
             <trait source="#calderondigital">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="toribio" sex="MALE">
             <persName>Toribio</persName>
             <trait source="#calderondigital">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="una-voz">
             <persName>Una Voz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -151,17 +205,20 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -176,7 +233,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000026" passive="http://www.wikidata.org/entity/Q10861205"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000026"
+        passive="http://www.wikidata.org/entity/Q10861205"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -678,7 +736,8 @@
             <l n="365">castigar vuestro desprecio,</l>
             <l>y satisfacer mi afrenta.</l>
           </sp>
-          <stage>Sacan las espadas, riñen y LISARDO cae en el suelo, y procura levantarse, y torna a caer.</stage>
+          <stage>Sacan las espadas, riñen y LISARDO cae en el suelo, y procura levantarse, y torna a
+            caer.</stage>
           <sp who="#lisardo">
             <speaker>LISARDO</speaker>
             <l>Eusebio, donde el acero</l>
@@ -751,7 +810,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Llévale en los brazos, y sale GIL de donde estaba escondido, y TIRSO, BLAS, y MENGA y TORIBIO.</stage>
+          <stage>Llévale en los brazos, y sale GIL de donde estaba escondido, y TIRSO, BLAS, y MENGA
+            y TORIBIO.</stage>
           <sp who="#gil">
             <speaker>GIL</speaker>
             <l>¿Han visto lo que le debe?</l>
@@ -1455,7 +1515,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Vanse todos, y queda JULIA en medio de LISARDO y EUSEBIO, que sale por otra puerta.</stage>
+          <stage>Vanse todos, y queda JULIA en medio de LISARDO y EUSEBIO, que sale por otra
+            puerta.</stage>
           <sp who="#julia">
             <speaker>JULIA</speaker>
             <l n="795">Mil veces procuro hablarte,</l>
@@ -1685,7 +1746,8 @@
       <div type="act" n="2">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada II</head>
-          <stage>Ruido de arcabuces, salen RICARDO, CELIO y EUSEBIO de bandoleros con arcabuces.</stage>
+          <stage>Ruido de arcabuces, salen RICARDO, CELIO y EUSEBIO de bandoleros con
+            arcabuces.</stage>
           <sp who="#ricardo">
             <speaker>RICARDO</speaker>
             <l>Pasó el plomo ardiente</l>
@@ -3244,7 +3306,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Sale RICARDO y bandoleros, y traen a JULIA vestida de hombre, y cubierto el rostro.</stage>
+          <stage>Sale RICARDO y bandoleros, y traen a JULIA vestida de hombre, y cubierto el
+            rostro.</stage>
           <sp who="#ricardo">
             <speaker>RICARDO</speaker>
             <l n="85">En lo bajo del camino,</l>

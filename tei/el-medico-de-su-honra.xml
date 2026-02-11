@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000018" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-23">
           <time when="23:18:03"/>
@@ -35,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-medico-de-su-honra--comedia-famosa/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-medico-de-su-honra--comedia-famosa/html/</idno>
           <bibl type="originalSource">
-            <title>Edición a cargo de Santiago Fernández Mosquera. Grupo de investigación Calderón de la Barca. Esta obra pertenece a la Colección Teatro clásico español. Canon 60. La colección esencial del TC/12. Grupo de investigación Calderón </title>
+            <title>Edición a cargo de Santiago Fernández Mosquera. Grupo de investigación Calderón
+              de la Barca. Esta obra pertenece a la Colección Teatro clásico español. Canon 60. La
+              colección esencial del TC/12. Grupo de investigación Calderón </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,32 +51,58 @@
         <listPerson>
           <person xml:id="don-gutierre" sex="MALE">
             <persName>Don Gutierre</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rey-don-pedro" sex="MALE">
             <persName>Rey Don Pedro</persName>
+            <idno type="wikidata">Q310963</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="infante-don-enrique" sex="MALE">
             <persName>Infante Don Enrique</persName>
+            <idno type="wikidata">Q262363</idno>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="don-arias" sex="MALE">
             <persName>Don Arias</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-diego" sex="MALE">
             <persName>Don Diego</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="doña-mencía-de-acuña" sex="FEMALE">
             <persName>Doña Mencía de Acuña</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
             <persName>Leonor</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="jacinta" sex="FEMALE">
             <persName>Jacinta</persName>
             <trait source="castlist">
               <desc>esclava</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="inés" sex="FEMALE">
@@ -80,11 +110,17 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="teodora" sex="FEMALE">
             <persName>Teodora</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="coquín" sex="MALE">
@@ -92,27 +128,48 @@
             <trait source="castlist">
               <desc>lacayo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ludovico" sex="MALE">
             <persName>Ludovico</persName>
             <trait source="castlist">
               <desc>sangrador</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1°</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 1°</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-3" sex="MALE">
             <persName>Soldado 3°</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="viejo" sex="MALE">
             <persName>Un Viejo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -121,17 +178,20 @@
           <term source="dracor" type="genreTitle">drama de honor</term>
           <term source="#kroll" type="main">tragedia y drama de honor</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -146,7 +206,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000018" passive="http://www.wikidata.org/entity/Q5352475"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000018"
+        passive="http://www.wikidata.org/entity/Q5352475"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -179,7 +240,8 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
-          <stage>Suena ruido de caja y sale cayendo el INFANTE DON ENRIQUE y DON ARIAS y DON DIEGO y algo detrás el REY DON PEDRO, todos de camino.</stage>
+          <stage>Suena ruido de caja y sale cayendo el INFANTE DON ENRIQUE y DON ARIAS y DON DIEGO y
+            algo detrás el REY DON PEDRO, todos de camino.</stage>
           <sp who="#infante-don-enrique">
             <speaker>DON ENRIQUE</speaker>
             <l part="I">¡Jesús mil veces!</l>
@@ -1615,7 +1677,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Vase, y sale ENRIQUE, DON GUTIERRE, DON DIEGO y DON ARIAS, y toda la compañía.</stage>
+          <stage>Vase, y sale ENRIQUE, DON GUTIERRE, DON DIEGO y DON ARIAS, y toda la
+            compañía.</stage>
           <sp who="#infante-don-enrique">
             <speaker>DON ENRIQUE</speaker>
             <l>Deme vuestra Majestad</l>
@@ -2593,7 +2656,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Al tomar la luz, la mata disimuladamente y salen JACINTA y ENRIQUE siguiéndola.</stage>
+          <stage>Al tomar la luz, la mata disimuladamente y salen JACINTA y ENRIQUE
+            siguiéndola.</stage>
           <sp who="#don-gutierre">
             <speaker>DON GUTIERRE</speaker>
             <l n="1310">Esto me faltaba más,</l>
@@ -2823,7 +2887,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Vanse cada uno por su puerta. Salen el REY y DON DIEGO con rodelas y capa de color y, como representa, se muda de negro.</stage>
+          <stage>Vanse cada uno por su puerta. Salen el REY y DON DIEGO con rodelas y capa de color
+            y, como representa, se muda de negro.</stage>
           <sp who="#rey-don-pedro">
             <speaker>REY</speaker>
             <l>Ten, don Diego, esa rodela.</l>
@@ -4778,7 +4843,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Vase cada uno por su puerta y salen DON GUTIERRE y LUDOVICO, cubierto el rostro.</stage>
+          <stage>Vase cada uno por su puerta y salen DON GUTIERRE y LUDOVICO, cubierto el
+            rostro.</stage>
           <sp who="#don-gutierre">
             <speaker>DON GUTIERRE</speaker>
             <l n="2540">Entra, no tengas temor,</l>

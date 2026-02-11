@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000005" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-16">
           <time when="14:28:49"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/andromeda-y-perseo--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/andromeda-y-perseo--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por José María Ruano de la Haza procedente de la edición Calderón de la Barca, Pedro, Andrómeda y Perseo, ed. José María Ruano de la Haza, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1995. ISBN: 3-930700-43-3</title>
+            <title>Texto crítico preparado por José María Ruano de la Haza procedente de la edición
+              Calderón de la Barca, Pedro, Andrómeda y Perseo, ed. José María Ruano de la Haza,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1995. ISBN:
+              3-930700-43-3</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,51 +52,116 @@
         <listPerson>
           <person xml:id="andrómeda" sex="FEMALE">
             <persName>Andrómeda</persName>
+            <idno type="wikidata">Q161582</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="medusa" sex="FEMALE">
             <persName>Medusa</persName>
+            <idno type="wikidata">Q160730</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="gracia" sex="FEMALE">
             <persName>Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="ciencia" sex="FEMALE">
             <persName>Ciencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="ignociencia" sex="FEMALE">
             <persName>Ignociencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="voluntad" sex="FEMALE">
             <persName>Voluntad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="fuego" sex="MALE">
             <persName>Fuego</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="aire" sex="MALE">
             <persName>Aire</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="agua" sex="MALE">
             <persName>Agua</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="tierra" sex="FEMALE">
             <persName>Tierra</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="centro" sex="MALE">
             <persName>Centro</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="albedrío" sex="MALE">
             <persName>Albedrío</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="perseo" sex="MALE">
             <persName>Perseo</persName>
+            <idno type="wikidata">Q130832</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="demonio" sex="MALE">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="mercurio" sex="MALE">
             <persName>Mercurio</persName>
+            <idno type="wikidata">Q1150</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -100,17 +170,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -122,7 +195,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000005" passive="http://www.wikidata.org/entity/Q5676291"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000005"
+        passive="http://www.wikidata.org/entity/Q5676291"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -153,7 +227,10 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen en tropa, cantando y bailando, la GRACIA y el AGUA con un espejo; la CIENCIA y el AIRE con un airón de plumas; la IGNOCIENCIA y el FUEGO con un manto imperial; y la VOLUNTAD y la TIERRA con un azafate de frutas y flores; y, detrás, ANDRÓMEDA, como vistiéndose, y el ALBEDRÍO.</stage>
+          <stage>Salen en tropa, cantando y bailando, la GRACIA y el AGUA con un espejo; la CIENCIA
+            y el AIRE con un airón de plumas; la IGNOCIENCIA y el FUEGO con un manto imperial; y la
+            VOLUNTAD y la TIERRA con un azafate de frutas y flores; y, detrás, ANDRÓMEDA, como
+            vistiéndose, y el ALBEDRÍO.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Los años floridos</l>
@@ -2625,7 +2702,9 @@
         </div>
         <div type="scene" resp="#rojas" n="19">
           <stage>Vase.</stage>
-          <stage>Cajas y trompetas destempladas, y salen por una parte CENTRO y ELEMENTOS, y por otra las VIRTUDES, y ANDRÓMEDA en medio, cubierto el rostro con un velo negro, y los músicos con instrumentos.</stage>
+          <stage>Cajas y trompetas destempladas, y salen por una parte CENTRO y ELEMENTOS, y por
+            otra las VIRTUDES, y ANDRÓMEDA en medio, cubierto el rostro con un velo negro, y los
+            músicos con instrumentos.</stage>
           <sp who="#fuego #aire #agua #tierra #centro">
             <speaker>CORO 1.º</speaker>
             <l>La que nace para ser</l>
@@ -3247,7 +3326,8 @@
             <l>¡Viva el divino Perseo,</l>
             <l>viva el segundo David!</l>
           </sp>
-          <sp who="#fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro">
+          <sp
+            who="#fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro">
             <speaker>TODOS</speaker>
             <l>¡Viva sin fin!</l>
           </sp>
@@ -3256,7 +3336,8 @@
             <l n="1730">Pues mató en tierra y en mar</l>
             <l>la fiera y el filistín.</l>
           </sp>
-          <sp who="#fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro">
+          <sp
+            who="#fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro">
             <speaker>TODOS</speaker>
             <l>¡Viva sin fin!</l>
           </sp>
@@ -3267,7 +3348,8 @@
             <l n="1735">las flores de mayo</l>
             <l>y las rosas de abril.</l>
           </sp>
-          <sp who="#fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro">
+          <sp
+            who="#fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro">
             <speaker>TODOS</speaker>
             <l>¡Viva sin fin!</l>
           </sp>
@@ -3289,7 +3371,8 @@
             <l>venció al ciego gentilismo</l>
             <l n="1745">y al idólatra gentil!</l>
           </sp>
-          <sp who="#fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro">
+          <sp
+            who="#fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro">
             <speaker>TODOS</speaker>
             <l>¡Viva sin fin!</l>
           </sp>
@@ -3305,7 +3388,8 @@
             <l>Yo con esta fe le llamo:</l>
             <l part="I">¿dónde estás, esposo?</l>
           </sp>
-          <stage>Ábrese un carro en que se verá un altar, y en él una custodia, con ángeles que la tengan; y PERSEO, y al pie del altar MEDUSA y el DEMONIO a sus pies.</stage>
+          <stage>Ábrese un carro en que se verá un altar, y en él una custodia, con ángeles que la
+            tengan; y PERSEO, y al pie del altar MEDUSA y el DEMONIO a sus pies.</stage>
           <sp who="#perseo">
             <speaker>PERSEO</speaker>
             <l n="1750" part="F">Aquí,</l>
@@ -3350,7 +3434,8 @@
             <l>el religioso festín.</l>
           </sp>
           <stage>Dos coros.</stage>
-          <sp who="#música #fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro #perseo #demonio #medusa">
+          <sp
+            who="#música #fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro #perseo #demonio #medusa">
             <speaker>MÚSICA y TODOS</speaker>
             <l n="1775">Viva sin fin</l>
             <l>y coronen su frente</l>
@@ -3406,7 +3491,8 @@
             <l>todos se rinden a ti.</l>
           </sp>
           <stage>Eses.</stage>
-          <sp who="#música #fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro #perseo #demonio #medusa #albedrío">
+          <sp
+            who="#música #fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro #perseo #demonio #medusa #albedrío">
             <speaker>TODOS</speaker>
             <l>Viva sin fin</l>
             <l n="1795">y coronen tus sienes</l>
@@ -3432,7 +3518,8 @@
             <l>pidiendo perdón,</l>
             <l>volviendo a decir...</l>
           </sp>
-          <sp who="#música #fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro #perseo #demonio #medusa #albedrío">
+          <sp
+            who="#música #fuego #aire #agua #tierra #gracia #ciencia #voluntad #ignociencia #andrómeda #centro #perseo #demonio #medusa #albedrío">
             <speaker>TODOS</speaker>
             <l n="1805">Que viva sin fin</l>
             <l>y coronen su frente</l>

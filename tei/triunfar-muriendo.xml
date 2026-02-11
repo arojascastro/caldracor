@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000054" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-16">
           <time when="08:00:48"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/triunfar-muriendo--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/triunfar-muriendo--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de V. García Ruiz, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1993. ISBN: 3-928064-48-7 El auto Triunfar muriendo ocupa los folios 208r-235v del tomo de autógrafos calderonianos de la Biblioteca Municipal de Madrid (BMM 1255, 8).</title>
+            <title>Edición digital a partir de la edición de V. García Ruiz, Pamplona, Universidad
+              de Navarra ; Kassel, Reichenberger, 1993. ISBN: 3-928064-48-7 El auto Triunfar
+              muriendo ocupa los folios 208r-235v del tomo de autógrafos calderonianos de la
+              Biblioteca Municipal de Madrid (BMM 1255, 8).</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,45 +52,91 @@
         <listPerson>
           <person xml:id="hombre" sex="MALE">
             <persName>El Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="placer" sex="MALE">
             <persName>El Placer</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="baptismo" sex="MALE">
             <persName>El Baptismo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="confirmación" sex="FEMALE">
             <persName>La Confirmación</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="penitencia" sex="FEMALE">
             <persName>La Penitencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="comunión" sex="FEMALE">
             <persName>La Comunión</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="orden-sacerdotal" sex="MALE">
             <persName>El Orden Sacerdotal</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="matrimonio" sex="MALE">
             <persName>El Matrimonio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>El Rey</persName>
+            <idno type="wikidata">Q302</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="esposa" sex="FEMALE">
             <persName>La Esposa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="pecado" sex="MALE">
             <persName>El Pecado</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="muerte" sex="FEMALE">
             <persName>La Muerte</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -94,17 +145,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -116,7 +170,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000054" passive="http://www.wikidata.org/entity/Q69031968"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000054"
+        passive="http://www.wikidata.org/entity/Q69031968"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -174,7 +229,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Con estos versos sale la MÚSICA y luego el BAPTISMO, niño, la CONFIRMACIÓN, dama, la PENITENCIA vestido de pieles, la COMUNIÓN también de dama, el ORDEN SACERDOTAL, viejo venerable y el MATRIMONIO de galán. Detrás el REY y haciéndole reverencia se quedan todos en ala y él pasa adelante.</stage>
+          <stage>Con estos versos sale la MÚSICA y luego el BAPTISMO, niño, la CONFIRMACIÓN, dama,
+            la PENITENCIA vestido de pieles, la COMUNIÓN también de dama, el ORDEN SACERDOTAL, viejo
+            venerable y el MATRIMONIO de galán. Detrás el REY y haciéndole reverencia se quedan
+            todos en ala y él pasa adelante.</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l> Ya que esa altiva, esa bella </l>
@@ -444,7 +502,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Vanse cantando y sale la MUERTE, como escuchando con asombro los últimos versos.</stage>
+          <stage>Vanse cantando y sale la MUERTE, como escuchando con asombro los últimos
+            versos.</stage>
           <sp who="#muerte">
             <speaker>MUERTE</speaker>
             <l> «¿Que aquí esta la vida, puesto que está aquí </l>
@@ -1139,7 +1198,8 @@
             <l> sino segunda alusión </l>
             <l> de haber de reinar después. </l>
           </sp>
-          <stage>Ábrese el primer carro y vense en él la ESPOSA en un trono y el MATRIMONIO hincada la rodilla.</stage>
+          <stage>Ábrese el primer carro y vense en él la ESPOSA en un trono y el MATRIMONIO hincada
+            la rodilla.</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
             <l> ¡Oh, quién de una vez cegara! </l>
@@ -1317,7 +1377,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Dentro el HOMBRE y, abriéndose un peñasco, sale dél vestido de peregrino con una hacha en la mano, la cual se ha de componer de seis velas, de manera que pueda dividirse en seis luces, cada una de por sí.</stage>
+          <stage>Dentro el HOMBRE y, abriéndose un peñasco, sale dél vestido de peregrino con una
+            hacha en la mano, la cual se ha de componer de seis velas, de manera que pueda dividirse
+            en seis luces, cada una de por sí.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F"> ¡Ah del mundo! </l>
@@ -1597,7 +1659,9 @@
             <l part="F"> Con que jamás </l>
             <l> blasonar de libre esperes. </l>
           </sp>
-          <stage>Cógenle entre los dos, la MUERTE le tiene las manos y el PECADO le pone un hierro en la frente, y él huyendo llega a la puerta del carro donde entró el REY y sacramentos.</stage>
+          <stage>Cógenle entre los dos, la MUERTE le tiene las manos y el PECADO le pone un hierro
+            en la frente, y él huyendo llega a la puerta del carro donde entró el REY y
+            sacramentos.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="855"> ¡Ah de ese palacio! ¿No </l>
@@ -1727,7 +1791,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Sale la CONFIRMACIÓN con una pistola en la mano, y pasando del BAUTISMO, el HOMBRE se pone al lado de la CONFIRMACIÓN.</stage>
+          <stage>Sale la CONFIRMACIÓN con una pistola en la mano, y pasando del BAUTISMO, el HOMBRE
+            se pone al lado de la CONFIRMACIÓN.</stage>
           <sp who="#confirmación">
             <speaker>CONFIRMACIÓN</speaker>
             <l n="905" part="F"> Yo, </l>
@@ -1815,7 +1880,8 @@
           <sp who="#confirmación">
             <speaker>CONFIRMACIÓN</speaker>
             <l part="F"> Cristo, </l>
-            <stage>Dispara la pistola y cayendo el PECADO llega donde estaba retirada la MUERTE.</stage>
+            <stage>Dispara la pistola y cayendo el PECADO llega donde estaba retirada la
+              MUERTE.</stage>
             <l n="945"> cuyo nombre es rayo que </l>
             <l> yo en mi fortaleza vibro. </l>
           </sp>
@@ -1914,7 +1980,9 @@
             <l> divierten, desvanecido </l>
             <l> mi noble ser de mirarse </l>
             <l> de tantos aplausos digno! </l>
-            <stage>A estos versos BAPTISMO y CONFIRMACIÓN se ponen las manos en los ojos. La MUERTE hace señas llamando al PECADO y él vuelve a acercarse al HOMBRE por delante de los dos.</stage>
+            <stage>A estos versos BAPTISMO y CONFIRMACIÓN se ponen las manos en los ojos. La MUERTE
+              hace señas llamando al PECADO y él vuelve a acercarse al HOMBRE por delante de los
+              dos.</stage>
             <l n="995"> ¡Qué heroica es la majestad! </l>
             <l> ¡Quién ciñera sus invictos </l>
             <l> laureles, aunque comprara </l>
@@ -2347,7 +2415,8 @@
             <l> a ver qué aumentos de Vida </l>
             <l> le dan ese Pan y Vino. </l>
           </sp>
-          <stage>Va a embestir con él, pónense todos delante, y ella los va apartando hasta llegar al ORDEN SACERDOTAL.</stage>
+          <stage>Va a embestir con él, pónense todos delante, y ella los va apartando hasta llegar
+            al ORDEN SACERDOTAL.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="I"> Valedme todos. </l>
@@ -2487,7 +2556,8 @@
             <l> ¡Arma, arma, guerra, guerra! </l>
             <stage>Cajas dentro.</stage>
           </sp>
-          <sp who="#música #muerte #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #rey">
+          <sp
+            who="#música #muerte #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #rey">
             <speaker>TODOS</speaker>
             <l> ¿Qué estruendo de armas, qué ruido </l>
             <l part="I"> es este? </l>
@@ -2650,7 +2720,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Vase el PLACER y salen REY y PECADO luchando, sin dejar el hacha que traerá encendida todavía el REY.</stage>
+          <stage>Vase el PLACER y salen REY y PECADO luchando, sin dejar el hacha que traerá
+            encendida todavía el REY.</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
             <l part="F"> Pues te miras </l>
@@ -2699,7 +2770,11 @@
             <l part="F">Y tú </l>
             <l part="I"> a las mías. </l>
           </sp>
-          <stage>Mata la MUERTE el hacha al mismo tiempo que el REY al PECADO y cayn los dos quedando en medio la MUERTE como asombrada, y volviendo los dos con las ansias a querer luchar, se abrazan ambos con la MUERTE, y ella y el PECADO cayn a los pies del REY, que se mantendrá en pie arrimado a la cruz, y suena dentro terremoto de truenos y otros ruidos.</stage>
+          <stage>Mata la MUERTE el hacha al mismo tiempo que el REY al PECADO y cayn los dos
+            quedando en medio la MUERTE como asombrada, y volviendo los dos con las ansias a querer
+            luchar, se abrazan ambos con la MUERTE, y ella y el PECADO cayn a los pies del REY, que
+            se mantendrá en pie arrimado a la cruz, y suena dentro terremoto de truenos y otros
+            ruidos.</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l n="1410" part="F"> Padre mío, </l>
@@ -2843,7 +2918,10 @@
             <l> pues cuando triunfando muero </l>
             <l> es cuando triunfando vivo. </l>
           </sp>
-          <stage>Llévanle entre BAPTISMO y ORDEN SACERDOTAL; y PENITENCIA y COMUNIÓN llegan a MUERTE y PECADO, y ellos cayendo y levantando, vienen a dar el PECADO en brazos de la PENITENCIA y la MUERTE en brazos de la COMUNIÓN, quedando la CONFIRMACIÓN en medio de los cuatro.</stage>
+          <stage>Llévanle entre BAPTISMO y ORDEN SACERDOTAL; y PENITENCIA y COMUNIÓN llegan a MUERTE
+            y PECADO, y ellos cayendo y levantando, vienen a dar el PECADO en brazos de la
+            PENITENCIA y la MUERTE en brazos de la COMUNIÓN, quedando la CONFIRMACIÓN en medio de
+            los cuatro.</stage>
           <sp who="#baptismo #comunión #confirmación #penitencia #orden-sacerdotal #pecado #muerte">
             <speaker>TODOS</speaker>
             <l> Venid donde seáis los dos </l>
@@ -2943,7 +3021,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Vanse llevando a los dos presos PENITENCIA y COMUNIÓN, y la CONFIRMACIÓN tras ellos. Volviendo el terremoto, sale el HOMBRE como despavorido.</stage>
+          <stage>Vanse llevando a los dos presos PENITENCIA y COMUNIÓN, y la CONFIRMACIÓN tras
+            ellos. Volviendo el terremoto, sale el HOMBRE como despavorido.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F"> ¿Qué prodigio </l>
@@ -3036,7 +3115,10 @@
             <l> ¡Dichoso yo, pues resulta </l>
             <l> su triunfo en provecho mío! </l>
           </sp>
-          <stage>Da vuelta la nave y viene sentada en la popa la ESPOSA, el MATRIMONIO en la proa, y en los costados la tropa de música de un coro. A este tiempo da vuelta también el carro y viene sentado en su trono el REY, a sus pies MUERTE y PECADO, y en el demás espacio los Sacramentos, que formarán otro coro.</stage>
+          <stage>Da vuelta la nave y viene sentada en la popa la ESPOSA, el MATRIMONIO en la proa, y
+            en los costados la tropa de música de un coro. A este tiempo da vuelta también el carro
+            y viene sentado en su trono el REY, a sus pies MUERTE y PECADO, y en el demás espacio
+            los Sacramentos, que formarán otro coro.</stage>
           <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión">
             <speaker>CORO 1</speaker>
             <l part="I"> ¡Ah del mar! </l>
@@ -3072,7 +3154,8 @@
             <speaker>CORO 2</speaker>
             <l n="1590" part="F"> ¡Buen pasaje... </l>
           </sp>
-          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp
+            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>AMBOS COROS</speaker>
             <l> ...la tierra y el cielo alegres la den! </l>
           </sp>
@@ -3084,7 +3167,8 @@
             <speaker>CORO 2</speaker>
             <l part="F"> Y venga con bien, </l>
           </sp>
-          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp
+            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>AMBOS COROS</speaker>
             <l> ...pues que nuestros puertos viene a enriquecer. </l>
           </sp>
@@ -3135,7 +3219,8 @@
             <speaker>CORO 1</speaker>
             <l part="F"> ¡Buen pasaje... </l>
           </sp>
-          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp
+            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>TODOS</speaker>
             <l> ...el mar y la tierra alegres le den! </l>
           </sp>
@@ -3147,7 +3232,8 @@
             <speaker>CORO 1</speaker>
             <l n="1605" part="F"> Y venga con bien, </l>
           </sp>
-          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp
+            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>TODOS</speaker>
             <l> ...pues que nuestros mares viene a enriquecer. </l>
           </sp>
@@ -3218,7 +3304,8 @@
             <l part="F"> Vuelva la alegre salva </l>
             <l> de tierra y mar a saludar al alba. </l>
           </sp>
-          <stage>Con salva de chirimías y música, bajan todos al tablado trayendo como prisiones, la PENITENCIA al PECADO y la COMUNION a la MUERTE.</stage>
+          <stage>Con salva de chirimías y música, bajan todos al tablado trayendo como prisiones, la
+            PENITENCIA al PECADO y la COMUNION a la MUERTE.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="1640"> ¡Ah del mar! ¡Ah de la tierra! </l>
@@ -3266,7 +3353,8 @@
             <stage>A la ESPOSA.</stage>
             <l> que también a tus pies libre se mira. </l>
           </sp>
-          <stage>Postrados los dos a sus pies y el HOMBRE en medio de los dos, la besa la mano, hincada la rodilla y van llegando todos.</stage>
+          <stage>Postrados los dos a sus pies y el HOMBRE en medio de los dos, la besa la mano,
+            hincada la rodilla y van llegando todos.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="I"> ¡Qué más alto favor! </l>
@@ -3323,7 +3411,8 @@
             <l> en sus entrañas quiero </l>
             <l n="1690"> que veas que son de cándido cordero. </l>
           </sp>
-          <stage>Ábrese el carro del palacio y vese en él un león en pie sobre un altar, el cual, abriéndose en dos mitades, tiene dentro un cordero.</stage>
+          <stage>Ábrese el carro del palacio y vese en él un león en pie sobre un altar, el cual,
+            abriéndose en dos mitades, tiene dentro un cordero.</stage>
           <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l> Aquella fortaleza </l>
@@ -3333,7 +3422,8 @@
             <l n="1695"> verás tú que por alma suya asoma </l>
             <l> sinceridad de cándida paloma. </l>
           </sp>
-          <stage>Ábrese el carro del peñasco y vese en él una águila imperial que abriéndose en dos mitades tiene dentro una paloma.</stage>
+          <stage>Ábrese el carro del peñasco y vese en él una águila imperial que abriéndose en dos
+            mitades tiene dentro una paloma.</stage>
           <sp who="#placer">
             <speaker>PLACER</speaker>
             <l> Pues si el águila bella </l>
@@ -3388,7 +3478,8 @@
             <l n="1730"> es de lo humilde y lo fuerte, </l>
             <l> poder y benignidad </l>
             <l> dice; y porque a verlo llegues </l>
-            <stage>Ábrese el cordero y vese dentro un Niño de Pasión con la cruz a cuestas y demás insignias en un canastico.</stage>
+            <stage>Ábrese el cordero y vese dentro un Niño de Pasión con la cruz a cuestas y demás
+              insignias en un canastico.</stage>
             <l> aquel el cordero es </l>
             <l> de Isaías que inocente </l>
             <l n="1735"> sin dar un solo balido </l>
@@ -3499,7 +3590,8 @@
             <speaker>LOS DOS</speaker>
             <l>Y yo, aunque me pese, habré de decir... </l>
           </sp>
-          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp
+            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>TODOS Y MÚSICA.</speaker>
             <l> ...que aquí está la Vida, puesto que está aquí </l>
             <l n="1790"> quien a Muerte y Pecado pudo destruir. </l>

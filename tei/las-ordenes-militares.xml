@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000039" xml:lang="es">
   <teiHeader>
@@ -21,7 +21,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-04-30">
           <time when="10:23:28"/>
@@ -34,9 +35,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/las-ordenes-militares--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/las-ordenes-militares--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la de Pedro Pando y Mier, Autos Sacramentales, alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 479-516.</title>
+            <title>Edición digital a partir de la de Pedro Pando y Mier, Autos Sacramentales,
+              alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la
+              edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª
+              ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 479-516.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -46,60 +51,154 @@
         <listPerson>
           <person xml:id="culpa" sex="FEMALE">
             <persName>La Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="gracia" sex="FEMALE">
             <persName>La Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="naturaleza" sex="FEMALE">
             <persName>La Naturaleza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="lucero" sex="MALE">
             <persName>El Lucero</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="mundo" sex="MALE">
             <persName>El Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="gentilidad" sex="FEMALE">
             <persName>La Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="judaísmo" sex="MALE">
             <persName>El Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="inocencia" sex="FEMALE">
             <persName>La Inocencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="segundo-adán" sex="MALE">
             <persName>El Segundo Adán</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="josué" sex="MALE">
             <persName>Josué</persName>
+            <idno type="wikidata">Q7734</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="moisés" sex="MALE">
             <persName>Moisés</persName>
+            <idno type="wikidata">Q9077</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="job" sex="MALE">
             <persName>Job</persName>
+            <idno type="wikidata">Q179962</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="david" sex="MALE">
             <persName>David</persName>
+            <idno type="wikidata">Q41370</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="isaías" sex="MALE">
             <persName>Isaías</persName>
+            <idno type="wikidata">Q188794</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="santiago" sex="MALE">
             <persName>Santiago</persName>
+            <idno type="wikidata">Q43999</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="benito" sex="MALE">
             <persName>San Benito</persName>
+            <idno type="wikidata">Q44265</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="bernardo" sex="MALE">
             <persName>San Bernardo</persName>
+            <idno type="wikidata">Q188411</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
           </personGrp>
           <person xml:id="acompañamiento" sex="MALE">
             <persName>Acompañamiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -108,17 +207,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -136,7 +238,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000039" passive="http://www.wikidata.org/entity/Q68907441"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000039"
+        passive="http://www.wikidata.org/entity/Q68907441"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -420,7 +523,8 @@
             <l>la metáfora, diciendo</l>
             <l n="245">allí el que a las puertas llama</l>
             <l>del mundo audiencia pidiendo.</l>
-            <stage>Hojea el libro, y como que va a escribir en él, con los cendales asidos a la pluma, mancha una hoja.</stage>
+            <stage>Hojea el libro, y como que va a escribir en él, con los cendales asidos a la
+              pluma, mancha una hoja.</stage>
           </sp>
           <stage>Dentro LUCERO, cantando.</stage>
           <sp who="#lucero">
@@ -443,7 +547,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Con esta música y acompañamiento sale el MUNDO vestido de galán; el JUDAÍSMO, de hebreo, y la GENTILIDAD, de romano.</stage>
+          <stage>Con esta música y acompañamiento sale el MUNDO vestido de galán; el JUDAÍSMO, de
+            hebreo, y la GENTILIDAD, de romano.</stage>
           <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="255">No prosigas, que no es</l>
@@ -479,7 +584,8 @@
             <l n="285">nada deshaga la pompa</l>
             <l>de mis desvanecimientos.</l>
           </sp>
-          <stage>Esto dice mirando al primer carro, que será un pavón grande y hermoso, bien imitado en los colores de las plumas y rueda.</stage>
+          <stage>Esto dice mirando al primer carro, que será un pavón grande y hermoso, bien imitado
+            en los colores de las plumas y rueda.</stage>
           <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Dices bien, pues cuando no</l>
@@ -610,7 +716,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Retírase la CULPA, y, cantando aparte, divertidos, MUNDO, y GENTILIDAD, y JUDAÍSMO; salen por otra el SEGUNDO ADÁN, de soldado; el LUCERO, de pieles, y la INOCENCIA, de villano.</stage>
+          <stage>Retírase la CULPA, y, cantando aparte, divertidos, MUNDO, y GENTILIDAD, y JUDAÍSMO;
+            salen por otra el SEGUNDO ADÁN, de soldado; el LUCERO, de pieles, y la INOCENCIA, de
+            villano.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Selvas y bosques del mundo,</l>
@@ -1243,7 +1351,8 @@
             <l>No, pues, el premio al mérito se niegue,</l>
             <l n="715">demos satisfacción al cielo, ¡oh Mundo!,</l>
             <l>yo en el primero Adán, tú en el segundo.</l>
-            <stage>Señalando a un carro, que será un pelícano con sus polluelos, herido el pecho.</stage>
+            <stage>Señalando a un carro, que será un pelícano con sus polluelos, herido el
+              pecho.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
@@ -1405,7 +1514,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Oyendo el pregón, sale la GRACIA por una parte y la NATURALEZA por otra, ambas con dos memoriales.</stage>
+          <stage>Oyendo el pregón, sale la GRACIA por una parte y la NATURALEZA por otra, ambas con
+            dos memoriales.</stage>
           <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>El Mundo al Adán Segundo</l>
@@ -2105,7 +2215,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Vanse las dos. Ha de haber en uno de los carros una puerta, que ha de estar cerrada, y queriendo adelantarse la CULPA a abrirla y entrar por ella, llega primero la GRACIA, y llevando consigo la NATURALEZA, al llegar la CULPA, las dos cierran la puerta.</stage>
+          <stage>Vanse las dos. Ha de haber en uno de los carros una puerta, que ha de estar
+            cerrada, y queriendo adelantarse la CULPA a abrirla y entrar por ella, llega primero la
+            GRACIA, y llevando consigo la NATURALEZA, al llegar la CULPA, las dos cierran la
+            puerta.</stage>
           <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1125">Adelantóse la Gracia,</l>
@@ -2255,7 +2368,12 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Retíranse los dos a una parte del tablado, córrese en medio una cortina y vense sentados a MOISÉS y JOSUÉ, teniendo delante un bufete con recado de escribir, y al mismo tiempo salen por la otra parte GRACIA y NATURALEZA hablando a JOB, que saldrá vestido de pobre llagado. Y adviértese que él y los demás testigos, como fueren saliendo, hablen a la GRACIA con respeto y agrado, y a la NATURALEZA con despego; los criados, que corran la cortina, y llegando el bufete, se retiran.</stage>
+          <stage>Retíranse los dos a una parte del tablado, córrese en medio una cortina y vense
+            sentados a MOISÉS y JOSUÉ, teniendo delante un bufete con recado de escribir, y al mismo
+            tiempo salen por la otra parte GRACIA y NATURALEZA hablando a JOB, que saldrá vestido de
+            pobre llagado. Y adviértese que él y los demás testigos, como fueren saliendo, hablen a
+            la GRACIA con respeto y agrado, y a la NATURALEZA con despego; los criados, que corran
+            la cortina, y llegando el bufete, se retiran.</stage>
           <sp who="#moisés">
             <speaker>MOISÉS</speaker>
             <l n="1205">Llegad esa mesa aquí,</l>
@@ -3518,7 +3636,8 @@
             <l>con aqueste triunfo está</l>
             <l>tan alegre y tan contenta.</l>
           </sp>
-          <stage>Con música ábrese un carro, que será un jardín lleno de ángeles, con los atributos de Nuestra Señora, y entre ellos la NATURALEZA en elevación.</stage>
+          <stage>Con música ábrese un carro, que será un jardín lleno de ángeles, con los atributos
+            de Nuestra Señora, y entre ellos la NATURALEZA en elevación.</stage>
           <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l n="1875">En el nuevo paraíso</l>
@@ -3705,7 +3824,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="33">
-          <stage>Con esta repetición sale el SEGUNDO ADÁN con manto capitular y hábito de Cristo. El LUCERO, con manto negro y cruz blanca de San Juan. DIEGO, con manto y cruz de Santiago. BENITO, con manto y cruz de Calatrava. La NATURALEZA, con manto y cruz de Montesa. BERNARDO, con manto y cruz de Alcántara. La GRACIA, con manto azul e imagen de la Purísima Concepción bordada en él.</stage>
+          <stage>Con esta repetición sale el SEGUNDO ADÁN con manto capitular y hábito de Cristo. El
+            LUCERO, con manto negro y cruz blanca de San Juan. DIEGO, con manto y cruz de Santiago.
+            BENITO, con manto y cruz de Calatrava. La NATURALEZA, con manto y cruz de Montesa.
+            BERNARDO, con manto y cruz de Alcántara. La GRACIA, con manto azul e imagen de la
+            Purísima Concepción bordada en él.</stage>
           <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="2015">¡De tan nuevo visto auto</l>
@@ -3840,7 +3963,8 @@
             <speaker>INOCENCIA</speaker>
             <l n="2080" part="F"> Mueve la lengua. </l>
           </sp>
-          <sp who="#acompañamiento #job #judaísmo #naturaleza #gracia #mundo #inocencia #santiago #segundo-adán #benito #bernardo">
+          <sp
+            who="#acompañamiento #job #judaísmo #naturaleza #gracia #mundo #inocencia #santiago #segundo-adán #benito #bernardo">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué ibas a decir?</l>
           </sp>
@@ -3944,7 +4068,8 @@
             <l>del nuevo Adán, que en la cruz</l>
             <l>pagó del otro la deuda.</l>
           </sp>
-          <sp who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia">
+          <sp
+            who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia">
             <speaker>TODOS</speaker>
             <l>Pues dando al cielo las gracias,</l>
             <l>diga en su aplauso la tierra.</l>
@@ -3979,7 +4104,8 @@
             <l n="2145">Repitamos todos,</l>
             <l>en voces diversas.</l>
           </sp>
-          <sp who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia #música">
+          <sp
+            who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l>Cobre lenguas y plumas</l>
             <l>la Gracia bella,</l>

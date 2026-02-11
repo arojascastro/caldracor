@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000033" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-06-17">
           <time when="08:33:37"/>
@@ -35,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-piel-de-gedeon--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-piel-de-gedeon--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por Ana Armendáriz procedente de la edición Calderón de la Barca, Pedro, La piel de Gedeón, ed. Ana Armendáriz, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1998. ISBN: 3-931887-45-6.</title>
+            <title>Texto crítico preparado por Ana Armendáriz procedente de la edición Calderón de
+              la Barca, Pedro, La piel de Gedeón, ed. Ana Armendáriz, Pamplona–Kassel, Universidad
+              de Navarra–Reichenberger, 1998. ISBN: 3-931887-45-6.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,54 +51,125 @@
         <listPerson>
           <person xml:id="gedeón" sex="MALE">
             <persName>Gedeón</persName>
+            <idno type="wikidata">Q176125</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="joás" sex="MALE">
             <persName>Joas</persName>
+            <idno type="wikidata">Q14925384</idno>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="ángel" sex="MALE">
             <persName>Un Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="fará" sex="MALE">
             <persName>Fará</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp xml:id="soldados" sex="MALE">
             <persName>4 soldados</persName>
           </personGrp>
           <person xml:id="aurora" sex="FEMALE">
             <persName>La Aurora</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="idolatría" sex="FEMALE">
             <persName>Idolatría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="madián" sex="MALE">
             <persName>Madián</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="amalec" sex="MALE">
             <persName>Amalec</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="mies" sex="FEMALE">
             <persName>La Mies</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="monte" sex="MALE">
             <persName>El Monte</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="prado" sex="MALE">
             <persName>El Prado</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="labrador-1" sex="MALE">
             <persName>Labrador 1.°</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="labrador-2" sex="MALE">
             <persName>Labrador 2.°</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="labrador-3" sex="MALE">
             <persName>Labrador 3.°</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="labrador-4" sex="MALE">
             <persName>Labrador 4.°</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -106,17 +181,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -154,7 +232,9 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suenan en un carro cajas y trompetas y en otro instrumentos de música, y dicen a una parte MADIÁN y a otra AMALEC sus versos representados, a tiempo que la tropa responde con los suyos cantando.</stage>
+          <stage>Suenan en un carro cajas y trompetas y en otro instrumentos de música, y dicen a
+            una parte MADIÁN y a otra AMALEC sus versos representados, a tiempo que la tropa
+            responde con los suyos cantando.</stage>
           <sp who="#madián">
             <speaker>MADIÁN</speaker>
             <l>¡Muera esta infame canalla</l>
@@ -219,7 +299,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>A esta última repetición, sale un ÁNGEL trayendo como arrastrando a la IDOLATRÍA, vestida de mujer, con alguna alusión de demonio en el manto o tocado, con banda, espada, bengala y plumas.</stage>
+          <stage>A esta última repetición, sale un ÁNGEL trayendo como arrastrando a la IDOLATRÍA,
+            vestida de mujer, con alguna alusión de demonio en el manto o tocado, con banda, espada,
+            bengala y plumas.</stage>
           <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l part="I">¡Sal de este pueblo!</l>
@@ -639,7 +721,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vanse los dos. Sale GEDEÓN vestido de labrador, con un bieldo en la mano y algunas espigas de trigo, como asustado, y tras él FARÁ.</stage>
+          <stage>Vanse los dos. Sale GEDEÓN vestido de labrador, con un bieldo en la mano y algunas
+            espigas de trigo, como asustado, y tras él FARÁ.</stage>
           <sp who="#gedeón">
             <speaker>GEDEÓN</speaker>
             <l>Vive y triunfa, vive y triunfa,</l>
@@ -1229,7 +1312,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Salen cuatro vestidos de labradores, con bieldos y otras armas, tras GEDEÓN, y él defendiéndose, y en medio JOÁS, viejo venerable, y FARÁ huyendo.</stage>
+          <stage>Salen cuatro vestidos de labradores, con bieldos y otras armas, tras GEDEÓN, y él
+            defendiéndose, y en medio JOÁS, viejo venerable, y FARÁ huyendo.</stage>
           <sp who="#joás">
             <speaker>JOÁS</speaker>
             <l part="I">¡Deteneos!</l>
@@ -1423,7 +1507,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Éntrase con majestad y los otros con rendimiento; tocan cajas y trompetas y salen de un carro MADIÁN y de otro AMALEC representando aparte, mirando adentro.</stage>
+          <stage>Éntrase con majestad y los otros con rendimiento; tocan cajas y trompetas y salen
+            de un carro MADIÁN y de otro AMALEC representando aparte, mirando adentro.</stage>
           <sp who="#amalec">
             <speaker>AMALEC</speaker>
             <l>A los dulces compases de la trompa,</l>
@@ -2137,7 +2222,12 @@
             <l>empieza el alba a reír,</l>
             <l n="925">vuelve a esas nubes los ojos.</l>
           </sp>
-          <stage>Pájaros dentro. Ábrense las cuatro nubes. En la primera está la AURORA, con manto azul y corona de flores; en la segunda la MIES, con guirnalda de espigas; en la tercera el MONTE, con un árbol en la mano; en la cuarta el PRADO, con un cordero. Si se pudieren ajustar los vestidos, la MIES ha de tener manto dorado, el MONTE pardo, el PRADO verde. Adviértese que sola la nube del vellón ha de estar lloviendo unos copos de algodón.</stage>
+          <stage>Pájaros dentro. Ábrense las cuatro nubes. En la primera está la AURORA, con manto
+            azul y corona de flores; en la segunda la MIES, con guirnalda de espigas; en la tercera
+            el MONTE, con un árbol en la mano; en la cuarta el PRADO, con un cordero. Si se pudieren
+            ajustar los vestidos, la MIES ha de tener manto dorado, el MONTE pardo, el PRADO verde.
+            Adviértese que sola la nube del vellón ha de estar lloviendo unos copos de
+            algodón.</stage>
           <sp who="#idolatría">
             <speaker>IDOLATRÍA</speaker>
             <l>Ya sus senos miro abrir,</l>
@@ -2313,7 +2403,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Ciérranse las nubes quedando el ÁNGEL dentro; tocan cajas y trompetas y salen los que pudieren marchando y detrás GEDEÓN con insignias y traje de general, JOÁS, y FARÁ vestido de soldado redículo.</stage>
+          <stage>Ciérranse las nubes quedando el ÁNGEL dentro; tocan cajas y trompetas y salen los
+            que pudieren marchando y detrás GEDEÓN con insignias y traje de general, JOÁS, y FARÁ
+            vestido de soldado redículo.</stage>
           <sp who="#idolatría">
             <speaker>IDOLATRÍA</speaker>
             <l>¡Oh! ¿Para qué, cielo santo,</l>
@@ -3430,7 +3522,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="32">
-          <stage>Pónese en medio la IDOLATRÍA representando con las acciones el detenerlos, mientras salen GEDEÓN, JOÁS, FARÁ y los cuatro Soldados, con hachas encendidas dentro de unos cántaros.</stage>
+          <stage>Pónese en medio la IDOLATRÍA representando con las acciones el detenerlos, mientras
+            salen GEDEÓN, JOÁS, FARÁ y los cuatro Soldados, con hachas encendidas dentro de unos
+            cántaros.</stage>
           <sp who="#gedeón">
             <speaker>GEDEÓN</speaker>
             <l>Vuestros contrarios tenéis</l>
@@ -3479,7 +3573,8 @@
             <speaker>IDOLATRÍA</speaker>
             <l n="1550" part="F">¡Qué confusión!</l>
           </sp>
-          <stage>Quiebran los cántaros, descubren las luces y embisten. Con ellos, y a un tiempo, cajas y trompetas.</stage>
+          <stage>Quiebran los cántaros, descubren las luces y embisten. Con ellos, y a un tiempo,
+            cajas y trompetas.</stage>
           <sp who="#amalec #madián #idolatría #gedeón #fará #joás">
             <speaker>TODOS</speaker>
             <l>¡Arma, arma, guerra, guerra!</l>
@@ -3683,7 +3778,9 @@
             <l>porque se enmiende en la dicha de hoy</l>
             <l n="1640">la soledad, y la pena de ayer.</l>
           </sp>
-          <stage>Ábrense las cuatro nubes y llueven las tres que primero no llovían, y la otra no, donde ha de estar la AURORA con el ÁNGEL arrodillado, como quedaron cuando se cerró.</stage>
+          <stage>Ábrense las cuatro nubes y llueven las tres que primero no llovían, y la otra no,
+            donde ha de estar la AURORA con el ÁNGEL arrodillado, como quedaron cuando se
+            cerró.</stage>
           <sp who="#aurora">
             <speaker>AURORA</speaker>
             <l>Nubes, mieses, montes, prados,</l>
@@ -3766,7 +3863,8 @@
             <speaker>IDOLATRÍA</speaker>
             <l part="F">Y de eso,</l>
             <l part="I">¿qué se sigue al Prado?</l>
-            <stage type="object">Descúbrese, en el cuarto carro, un cordero en un altar con un Cáliz y Hostia.</stage>
+            <stage type="object">Descúbrese, en el cuarto carro, un cordero en un altar con un Cáliz
+              y Hostia.</stage>
           </sp>
           <sp who="#prado">
             <speaker>PRADO</speaker>

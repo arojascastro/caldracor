@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000045" xml:lang="es">
   <teiHeader>
@@ -22,12 +22,14 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-16">
           <time when="07:59:47"/>
         </date>
-        <idno type="quadramaX">Loa para el auto sacramental intitulado El gran teatro del mundo</idno>
+        <idno type="quadramaX">Loa para el auto sacramental intitulado El gran teatro del
+          mundo</idno>
         <availability>
           <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
@@ -35,9 +37,14 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-el-gran-teatro-del-mundo--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-el-gran-teatro-del-mundo--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don
+              Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier,
+              Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización:
+              Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina
+              Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,33 +54,74 @@
         <listPerson>
           <person xml:id="apostasía" sex="FEMALE">
             <persName>La Apostasía</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="españa" sex="FEMALE">
             <persName>España</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="testamento-antiguo" sex="MALE">
             <persName>Testamento Antiguo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="testamento-nuevo" sex="MALE">
             <persName>Testamento Nuevo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="isaac" sex="MALE">
             <persName>Isaac</persName>
+            <idno type="wikidata">Q671872</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="sansón" sex="MALE">
             <persName>Sansón</persName>
+            <idno type="wikidata">Q214648</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="ley-natural" sex="FEMALE">
             <persName>Ley Natural</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="ley-escrita" sex="FEMALE">
             <persName>Ley Escrita</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="ley-de-gracia" sex="FEMALE">
             <persName>Ley de Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -87,12 +135,14 @@
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -108,7 +158,8 @@
     <front>
       <docAuthor>Pedro Calderón de la Barca</docAuthor>
       <docTitle>
-        <titlePart type="main">Loa para el auto sacramental intitulado El gran teatro del mundo</titlePart>
+        <titlePart type="main">Loa para el auto sacramental intitulado El gran teatro del
+          mundo</titlePart>
       </docTitle>
       <castList>
         <head>Personas</head>
@@ -331,7 +382,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Salen por un lado el TESTAMENTO ANTIGUO de barba, a lo Hebreo, y por otro el NUEVO, joven a lo Romano.</stage>
+          <stage>Salen por un lado el TESTAMENTO ANTIGUO de barba, a lo Hebreo, y por otro el NUEVO,
+            joven a lo Romano.</stage>
           <sp who="#testamento-antiguo">
             <speaker>ANTIGUO</speaker>
             <l n="155"> El Antiguo Testamento </l>
@@ -625,12 +677,14 @@
             <l> en sus psalmos que le alaben </l>
             <l> en todos tiempos las gentes. </l>
           </sp>
-          <sp who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia">
+          <sp
+            who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia">
             <speaker>TODOS</speaker>
             <l n="385">Con que los acentos todos </l>
             <l> otra vez a decir vuelven. </l>
           </sp>
-          <sp who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia #música">
+          <sp
+            who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l> Memoria de sus prodigios </l>
             <l> hizo el Sumo Dios clemente </l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000012" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-09">
           <time when="09:49:55"/>
@@ -35,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-divino-orfeo-version-de-1663--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-divino-orfeo-version-de-1663--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por J. Enrique Duarte procedente de la edición Calderón de la Barca, Pedro, El divino Orfeo, ed. J. Enrique Duarte, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1999. ISBN: 3-931887-51-0.</title>
+            <title>Texto crítico preparado por J. Enrique Duarte procedente de la edición Calderón
+              de la Barca, Pedro, El divino Orfeo, ed. J. Enrique Duarte, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 1999. ISBN: 3-931887-51-0.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,50 +51,98 @@
         <listPerson>
           <person xml:id="príncipe-de-las-tinieblas" sex="MALE">
             <persName>El Príncipe de Las Tinieblas</persName>
+            <idno type="wikidata">Q6674</idno>
             <trait resp="#rojas">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="envidia" sex="FEMALE">
             <persName>La Envidia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="orfeo" sex="MALE">
             <persName>Orfeo</persName>
+            <idno type="alternative_wikidata">Q302</idno>
+            <idno type="wikidata">Q174353</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="naturaleza-humana" sex="FEMALE">
             <persName>La Naturaleza Humana</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-1" sex="MALE">
             <persName>Día 1</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-2" sex="MALE">
             <persName>Día 2</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-3" sex="MALE">
             <persName>Día 3</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-4" sex="MALE">
             <persName>Día 4</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-5" sex="MALE">
             <persName>Día 5</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-6" sex="MALE">
             <persName>Día 6</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-7" sex="MALE">
             <persName>Día 7</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="leteo" sex="MALE">
             <persName>Leteo</persName>
             <trait source="castlist">
               <desc>barquero</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="placer" sex="MALE">
             <persName>Placer</persName>
             <trait source="castlist">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
@@ -101,6 +153,9 @@
           </personGrp>
           <person xml:id="eurídice" sex="FEMALE">
             <persName>Eurídice</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -112,17 +167,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -137,7 +195,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000012" passive="http://www.wikidata.org/entity/Q68902927"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000012"
+        passive="http://www.wikidata.org/entity/Q68902927"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -167,7 +226,10 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suena un clarín. En el carro primero que será una nave negra y negras sus flámulas, banderolas, jarcias y gallardetes, pintadas de áspides por armas y dando vuelta, se ven en su popa el PRÍNCIPE DE LAS TINIEBLAS y la ENVIDIA con bandas, plumas y bengalas negras.</stage>
+          <stage>Suena un clarín. En el carro primero que será una nave negra y negras sus flámulas,
+            banderolas, jarcias y gallardetes, pintadas de áspides por armas y dando vuelta, se ven
+            en su popa el PRÍNCIPE DE LAS TINIEBLAS y la ENVIDIA con bandas, plumas y bengalas
+            negras.</stage>
           <sp who="#príncipe-de-las-tinieblas">
             <speaker>PRÍNCIPE</speaker>
             <l>Ya que sulcar me veo</l>
@@ -282,7 +344,13 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Puesta en través la nave y ellos en su costado, se abre el segundo carro que será un globo celeste pintado de astros, signos y planetas en dos mitades, cayendo la una sobre el tablado y quedando la otra fija, de suerte que ORFEO, que sale de la una, pueda representar sobre la otra. Adviértase que cuanto represente ha de ser cantado en estilo recitativo, a cuya primer copla se abrirá el carro tercero en otras dos mitades, viéndose dentro de él los siete DÍAS reclinados, como dormidos, y en medio de ellos la NATURALEZA HUMANA.</stage>
+          <stage>Puesta en través la nave y ellos en su costado, se abre el segundo carro que será
+            un globo celeste pintado de astros, signos y planetas en dos mitades, cayendo la una
+            sobre el tablado y quedando la otra fija, de suerte que ORFEO, que sale de la una, pueda
+            representar sobre la otra. Adviértase que cuanto represente ha de ser cantado en estilo
+            recitativo, a cuya primer copla se abrirá el carro tercero en otras dos mitades,
+            viéndose dentro de él los siete DÍAS reclinados, como dormidos, y en medio de ellos la
+            NATURALEZA HUMANA.</stage>
           <sp who="#orfeo">
             <speaker>ORFEO</speaker>
             <l>¡Ah de ese informe embrión!</l>
@@ -349,7 +417,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Sale de la parte de adentro, como rompiendo el peñasco, una hacha encendida, despierta el DÍA 1.º y tomándola en la mano, representa yéndose con ella.</stage>
+          <stage>Sale de la parte de adentro, como rompiendo el peñasco, una hacha encendida,
+            despierta el DÍA 1.º y tomándola en la mano, representa yéndose con ella.</stage>
           <sp who="#día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
             <speaker>TODOS</speaker>
             <l>¿Quién te dio luz tan pura?</l>
@@ -377,7 +446,8 @@
           <sp who="#día-2">
             <speaker>DÍA 2.º</speaker>
             <l>Del Día Segundo, la estación segunda.</l>
-            <stage>Descúbrense en lo lejos del peñasco una perspectiva de ondas y despierta el DÍA 2.º</stage>
+            <stage>Descúbrense en lo lejos del peñasco una perspectiva de ondas y despierta el DÍA
+              2.º</stage>
             <l n="115">Pues las aguas divididas</l>
             <l>en transparente cerúlea</l>
             <l>tez forman un pabellón</l>
@@ -415,7 +485,8 @@
           <sp who="#día-3">
             <speaker>DÍA 3.º</speaker>
             <l n="130">Del Día Tercero son mansión fecunda.</l>
-            <stage>Despierta el DÍA 3.º con guirnalda de flores y ramos de frutas en las manos.</stage>
+            <stage>Despierta el DÍA 3.º con guirnalda de flores y ramos de frutas en las
+              manos.</stage>
             <l>Pues ya a la tierra, que estaba</l>
             <l>llena de grietas y arrugas,</l>
             <l>árboles, frutos y flores</l>
@@ -454,7 +525,8 @@
           <sp who="#día-4">
             <speaker>DÍA 4.º</speaker>
             <l>Del Cuarto Día majestad augusta</l>
-            <stage>Descúbrense en la cumbre del peñasco un sol, estrellas y luna y despierta el DÍA 4.º</stage>
+            <stage>Descúbrense en la cumbre del peñasco un sol, estrellas y luna y despierta el DÍA
+              4.º</stage>
             <l>son las dos y no en las dos</l>
             <l>solas su esplendor se aúna,</l>
             <l>que todo el cielo se esmalta</l>
@@ -488,7 +560,8 @@
           <sp who="#día-5">
             <speaker>DÍA 5.º</speaker>
             <l>Del Quinto Día el alto afán anuncian.</l>
-            <stage>En las ondas que se descubrieron se ven correr por ellas algunos pescados y se echan a volar pájaros y despierta el DÍA 5.º</stage>
+            <stage>En las ondas que se descubrieron se ven correr por ellas algunos pescados y se
+              echan a volar pájaros y despierta el DÍA 5.º</stage>
             <l>Pues en el de mar y viento</l>
             <l n="160">pueblan páramos y espumas</l>
             <l>los peces que le atraviesan</l>
@@ -522,7 +595,8 @@
           <sp who="#día-6">
             <speaker>DÍA 6.º</speaker>
             <l n="170">La fatiga del Sexto Día divulga</l>
-            <stage>Por varias concavidades del peñasco se ven testas de diversos animales y despierta el DÍA 6.º</stage>
+            <stage>Por varias concavidades del peñasco se ven testas de diversos animales y
+              despierta el DÍA 6.º</stage>
             <l>esa bruta especie, pero</l>
             <l>no por eso se desluzga</l>
             <l>su Hacedor, pues ser no deja</l>
@@ -720,7 +794,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Entre la ondas en que se mueve la nave ha de haber un escollo; este se abre y sale de él LETEO, vestido de barquero, con una guadaña por tridente.</stage>
+          <stage>Entre la ondas en que se mueve la nave ha de haber un escollo; este se abre y sale
+            de él LETEO, vestido de barquero, con una guadaña por tridente.</stage>
           <sp who="#leteo">
             <speaker>LETEO</speaker>
             <l>¿Qué es, Príncipe, lo que quieres?</l>
@@ -814,7 +889,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Con esta repetición, sonando a un tiempo el clarín, la MÚSICA y la representación, da vuelta la nave con el PRÍNCIPE y la ENVIDIA; el escollo se cierra con LETEO y salen del carro del peñasco los DÍAS cantando y bailando delante de la NATURALEZA y el PLACER con ellos, introducido en su festejo, cuya copla se repite lo que tarden en desaparecer escollo y nave.</stage>
+          <stage>Con esta repetición, sonando a un tiempo el clarín, la MÚSICA y la representación,
+            da vuelta la nave con el PRÍNCIPE y la ENVIDIA; el escollo se cierra con LETEO y salen
+            del carro del peñasco los DÍAS cantando y bailando delante de la NATURALEZA y el PLACER
+            con ellos, introducido en su festejo, cuya copla se repite lo que tarden en desaparecer
+            escollo y nave.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Puesto que es de tantas bellas criaturas</l>
@@ -875,7 +954,8 @@
             <l>conmigo decid en tanto</l>
             <l n="400">que a él hallemos ahora un canto</l>
             <l>que será salmo después.</l>
-            <stage>Ella representa y todos cantan alrededor de ella, danzando y bailando. Representando.</stage>
+            <stage>Ella representa y todos cantan alrededor de ella, danzando y bailando.
+              Representando.</stage>
             <l>Al Señor confesemos...</l>
           </sp>
           <sp who="#placer #príncipe-de-las-tinieblas #leteo #envidia">
@@ -1130,14 +1210,17 @@
             <l>es el principio y fin</l>
             <l n="545">de tantas bellas obras.</l>
           </sp>
-          <sp who="#placer #envidia #leteo #orfeo #naturaleza-humana #príncipe-de-las-tinieblas #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+          <sp
+            who="#placer #envidia #leteo #orfeo #naturaleza-humana #príncipe-de-las-tinieblas #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
             <speaker>TODOS</speaker>
             <l>Confesemos su gloria,</l>
             <l>pues es en eterno su misericordia.</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Haciendo la MÚSICA y los DÍAS dos alas, se entran por en medio de ellos ORFEO y la NATURALEZA, dadas las manos, y todos con sumisión los siguen cantando. Queda el PLACER solo y salen el PRÍNCIPE y la ENVIDIA, vestidos de villanos.</stage>
+          <stage>Haciendo la MÚSICA y los DÍAS dos alas, se entran por en medio de ellos ORFEO y la
+            NATURALEZA, dadas las manos, y todos con sumisión los siguen cantando. Queda el PLACER
+            solo y salen el PRÍNCIPE y la ENVIDIA, vestidos de villanos.</stage>
           <sp who="#placer">
             <speaker>PLACER</speaker>
             <l>¿No es bueno que ya de miedo</l>
@@ -1503,7 +1586,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Salen los DÍAS y músicos cantando y la NATURALEZA ricamente vestida detrás, como señora de ellos; cada uno tray las insinias de su creación, la hacha el DÍA 1.º y el 3.º, las frutas y flores, etc.</stage>
+          <stage>Salen los DÍAS y músicos cantando y la NATURALEZA ricamente vestida detrás, como
+            señora de ellos; cada uno tray las insinias de su creación, la hacha el DÍA 1.º y el
+            3.º, las frutas y flores, etc.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Pisa, pisa con tiento las flores,</l>
@@ -1550,7 +1635,8 @@
             <speaker>ENVIDIA</speaker>
             <l>Cuidado con que habla el áspid,</l>
             <l>porque el demonio le alienta.</l>
-            <stage>Llega a hablarla la ENVIDIA y el PRÍNCIPE detrás de ella, como que la dicta al oído lo que dice, representando lo mismo el uno quedo que la otra en voz.</stage>
+            <stage>Llega a hablarla la ENVIDIA y el PRÍNCIPE detrás de ella, como que la dicta al
+              oído lo que dice, representando lo mismo el uno quedo que la otra en voz.</stage>
             <l>Quien de otra extranjera patria,</l>
             <l>sabiendo las dichas de esta,</l>
             <l n="810">no sin mérito en alguna</l>
@@ -1791,7 +1877,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Va pasando el DÍA 1.º y sale por detrás de él la ENVIDIA vestida de negro, con manto largo y banda en el rostro y, haciendo ación como que le apresura para que pase, se queda ella en su lugar y con todos hace lo mismo de suerte que siempre haya noche entre uno y otro DÍA.</stage>
+          <stage>Va pasando el DÍA 1.º y sale por detrás de él la ENVIDIA vestida de negro, con
+            manto largo y banda en el rostro y, haciendo ación como que le apresura para que pase,
+            se queda ella en su lugar y con todos hace lo mismo de suerte que siempre haya noche
+            entre uno y otro DÍA.</stage>
           <sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l>¡Oh, quién hiciera que en culpa</l>
@@ -2014,7 +2103,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Sale el PRÍNCIPE a tiempo que ella, tropezando, cay en sus brazos desmayada.</stage>
+          <stage>Sale el PRÍNCIPE a tiempo que ella, tropezando, cay en sus brazos
+            desmayada.</stage>
           <stage>Sale LETEO.</stage>
           <sp who="#leteo">
             <speaker>LETEO</speaker>
@@ -2276,7 +2366,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Sale ORFEO con una arpa al hombro, cantando, en cuyo bastón vendrá hecha una Cruz.</stage>
+          <stage>Sale ORFEO con una arpa al hombro, cantando, en cuyo bastón vendrá hecha una
+            Cruz.</stage>
           <sp who="#orfeo">
             <speaker>ORFEO</speaker>
             <l>Perdida esposa mía,</l>
@@ -2438,7 +2529,8 @@
             <l>de mortales heridas;</l>
             <l n="1210">no sé más y así acabe</l>
             <l>contigo mi fiereza.</l>
-            <stage>Hace como que le hiere y, dado el golpe, cay a sus plantas y pasa encima de él ORFEO.</stage>
+            <stage>Hace como que le hiere y, dado el golpe, cay a sus plantas y pasa encima de él
+              ORFEO.</stage>
             <l>Mas, ¡ay!, que al mismo instante</l>
             <l>que mato muero, pues</l>
             <l>toda mi furia cae</l>
@@ -2457,7 +2549,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="28">
-          <stage>Cayendo LETEO y levantando y cantando ORFEO, se abre el peñasco y entran los dos en él, a cuyo tiempo se hace dentro ruido de terremoto.</stage>
+          <stage>Cayendo LETEO y levantando y cantando ORFEO, se abre el peñasco y entran los dos en
+            él, a cuyo tiempo se hace dentro ruido de terremoto.</stage>
           <sp who="#día-1 #día-2 #día-3">
             <speaker>UNOS</speaker>
             <l part="I">¡Qué asombro!</l>
@@ -2599,7 +2692,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage>Vese en el carro de la nave negra, arrimado al árbol mayor, que será una Cruz, el ORFEO y a sus pies LETEO y, subiendo en elevación, da vuelta la nave con un CORO de música; y a este tiempo salen al tablado PRÍNCIPE y ENVIDIA.</stage>
+          <stage>Vese en el carro de la nave negra, arrimado al árbol mayor, que será una Cruz, el
+            ORFEO y a sus pies LETEO y, subiendo en elevación, da vuelta la nave con un CORO de
+            música; y a este tiempo salen al tablado PRÍNCIPE y ENVIDIA.</stage>
           <sp who="#orfeo">
             <speaker>ORFEO</speaker>
             <l>Abrid las puertas, abrid,</l>
@@ -2708,7 +2803,9 @@
             <l>Tan gran fineza de amor</l>
             <l>solo el silencio la ensalce.</l>
           </sp>
-          <stage>Llévanla los DÍAS al cuarto carro, que será una nave, en oposición de la primera, dorada, con flámulas y gallardetes blancos y encarnados, pintados en ellos el Sacramento y por fanal un Cáliz grande con una Hostia.</stage>
+          <stage>Llévanla los DÍAS al cuarto carro, que será una nave, en oposición de la primera,
+            dorada, con flámulas y gallardetes blancos y encarnados, pintados en ellos el Sacramento
+            y por fanal un Cáliz grande con una Hostia.</stage>
           <sp who="#príncipe-de-las-tinieblas">
             <speaker>PRÍNCIPE</speaker>
             <l n="1325">¿Qué importa que ellos la lleven,</l>
@@ -2741,7 +2838,9 @@
             <l>cuando yo en muerte y en vida</l>
             <l n="1340">digan al ver que se embarque...</l>
           </sp>
-          <stage>Han subido a la nave los DÍAS con la NATURALEZA y dando vuelta, se ve en su árbol mayor el DÍA 5.º en otra elevación, con un escudo, pintado en él el Sacramento y dicen todos con otro CORO de música.</stage>
+          <stage>Han subido a la nave los DÍAS con la NATURALEZA y dando vuelta, se ve en su árbol
+            mayor el DÍA 5.º en otra elevación, con un escudo, pintado en él el Sacramento y dicen
+            todos con otro CORO de música.</stage>
           <sp who="#naturaleza-humana #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7 #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l>A la nave de la vida...</l>
@@ -2838,7 +2937,8 @@
             <l>Diciendo al pedir perdón,</l>
             <l>al compás de sus compases...</l>
           </sp>
-          <sp who="#príncipe-de-las-tinieblas #envidia #coro-1 #coro-2 #leteo #orfeo #placer #música #naturaleza-humana #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+          <sp
+            who="#príncipe-de-las-tinieblas #envidia #coro-1 #coro-2 #leteo #orfeo #placer #música #naturaleza-humana #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
             <speaker>TODOS y MÚSICA</speaker>
             <l>A la nave de la vida</l>
             <l n="1380">la Naturaleza pase,</l>
@@ -2847,7 +2947,8 @@
             <l>es de la vida la nave,</l>
             <l>buen pasaje, buen viaje.</l>
           </sp>
-          <stage>Con esta repetición, sonando a un tiempo representación, música y clarín, dando una y otra vuelta las naves, acaba el auto.</stage>
+          <stage>Con esta repetición, sonando a un tiempo representación, música y clarín, dando una
+            y otra vuelta las naves, acaba el auto.</stage>
         </div>
 
       </div>

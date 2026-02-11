@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000052" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-22">
           <time when="13:12:38"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/quien-hallara-mujer-fuerte--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/quien-hallara-mujer-fuerte--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por Ignacio Arellano y Luis Galván procedente de la edición Calderón de la Barca, Pedro, ¿Quién hallará mujer fuerte?, ed. Ignacio Arellano y Luis Galván, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2001. ISBN: 3-935004-42-7.</title>
+            <title>Texto crítico preparado por Ignacio Arellano y Luis Galván procedente de la
+              edición Calderón de la Barca, Pedro, ¿Quién hallará mujer fuerte?, ed. Ignacio
+              Arellano y Luis Galván, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2001.
+              ISBN: 3-935004-42-7.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,66 +52,163 @@
         <listPerson>
           <person xml:id="sabiduría" sex="FEMALE">
             <persName>La Sabiduría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="mundo" sex="MALE">
             <persName>El Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="prudencia" sex="FEMALE">
             <persName>La Prudencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="barac" sex="MALE">
             <persName>Barac</persName>
+            <idno type="wikidata">Q807236</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="templanza" sex="FEMALE">
             <persName>La Templanza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="sísara" sex="FEMALE">
             <persName>Sísara</persName>
+            <idno type="wikidata">Q976765</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="justicia" sex="FEMALE">
             <persName>La Justicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="jael" sex="FEMALE">
             <persName>La Jael</persName>
+            <idno type="wikidata">Q954820</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="fortaleza" sex="FEMALE">
             <persName>La Fortaleza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="haber" sex="MALE">
             <persName>Haber</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="débora" sex="FEMALE">
             <persName>La Débora</persName>
+            <idno type="wikidata">Q213633</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="morfuz" sex="MALE">
             <persName>El Morfuz</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="turpín" sex="MALE">
             <persName>El Turpín</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="dos-hombres" sex="MALE">
             <persName>Dos hombres</persName>
           </personGrp>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="villanos" sex="MALE">
             <persName>Villanos</persName>
           </personGrp>
           <person xml:id="soldado" sex="MALE">
             <persName>Soldado</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="hombre-1" sex="MALE">
             <persName>Hombre 1</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="hombre-2" sex="MALE">
             <persName>Hombre 2</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mujer" sex="FEMALE">
             <persName>Mujer</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fama" sex="FEMALE">
             <persName>Fama</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -115,17 +217,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -143,7 +248,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000052" passive="http://www.wikidata.org/entity/Q69031014"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000052"
+        passive="http://www.wikidata.org/entity/Q69031014"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -175,7 +281,8 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale la SABIDURÍA, dama bizarra, con guirnalda de flores y estrellas, y los MÚSICOS con instrumentos.</stage>
+          <stage>Sale la SABIDURÍA, dama bizarra, con guirnalda de flores y estrellas, y los MÚSICOS
+            con instrumentos.</stage>
           <sp who="#sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Aquí de la ciencia mía</l>
@@ -756,7 +863,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Sonando a un tiempo cajas, voces y música, salen huyendo unos VILLANOS, y con ellos BARAC, viejo venerable.</stage>
+          <stage>Sonando a un tiempo cajas, voces y música, salen huyendo unos VILLANOS, y con ellos
+            BARAC, viejo venerable.</stage>
           <sp who="#barac">
             <speaker>BARAC</speaker>
             <l part="F">¡A las selvas!</l>
@@ -855,7 +963,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Sonando las cajas y trompetas y la MÚSICA, se van todos y sale HABER, y JAEL deteniéndole</stage>
+          <stage>Sonando las cajas y trompetas y la MÚSICA, se van todos y sale HABER, y JAEL
+            deteniéndole</stage>
           <sp who="#haber">
             <speaker>HABER</speaker>
             <l>No huyáis, esperad, villanos,</l>
@@ -1405,7 +1514,8 @@
         </div>
         <div type="scene" resp="#rojas" n="20">
           <stage>Vase.</stage>
-          <stage>Instrumentos y chirimías, y aparece en un trono, debajo de una palma DÉBORA sentada, y salen al tablado una MUJER y dos HOMBRES.</stage>
+          <stage>Instrumentos y chirimías, y aparece en un trono, debajo de una palma DÉBORA
+            sentada, y salen al tablado una MUJER y dos HOMBRES.</stage>
           <sp who="#débora">
             <speaker>DÉBORA</speaker>
             <l>Suenen tus voces, ¡oh Fama!,</l>
@@ -2095,7 +2205,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="27">
-          <stage>Con esta repetición, volviendo a sonar juntos instrumentos, cajas y trompetas y música, se van todos, y sale SÍSARA y SOLDADOS que traen preso a MORFUZ, VILLANO.</stage>
+          <stage>Con esta repetición, volviendo a sonar juntos instrumentos, cajas y trompetas y
+            música, se van todos, y sale SÍSARA y SOLDADOS que traen preso a MORFUZ,
+            VILLANO.</stage>
           <sp who="#sísara">
             <speaker>SÍSARA</speaker>
             <l>¡Al arma, al arma,</l>
@@ -2421,7 +2533,8 @@
             <l>de que haya Fortaleza en la Templanza.</l>
             <l>¡Oye, Señor, sus voces…</l>
           </sp>
-          <stage>Una parte, lo más distante que puedan, DÉBORA, JUSTICIA y PRUDENCIA, y a otro JAEL, FORTALEZA y TEMPLANZA, y en medio la SABIDURÍA.</stage>
+          <stage>Una parte, lo más distante que puedan, DÉBORA, JUSTICIA y PRUDENCIA, y a otro JAEL,
+            FORTALEZA y TEMPLANZA, y en medio la SABIDURÍA.</stage>
           <sp who="#justicia #prudencia #fortaleza #templanza">
             <speaker>LAS 4</speaker>
             <stage>Cantan.</stage>
@@ -2817,7 +2930,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="36">
-          <stage>Salen DÉBORA y BARAC y SOLDADOS, y hacen la batalla con SÍSARA y los suyos, sonando a un tiempo las cajas, las trompetas y el terremoto.</stage>
+          <stage>Salen DÉBORA y BARAC y SOLDADOS, y hacen la batalla con SÍSARA y los suyos, sonando
+            a un tiempo las cajas, las trompetas y el terremoto.</stage>
           <sp who="#débora">
             <speaker>DÉBORA</speaker>
             <l>A ellos, que sin duda hoy</l>
@@ -2828,7 +2942,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="37">
-          <stage>Danse la batalla, retirándose SÍSARA y los demás, y salen el MUNDO como despavorido y asombrado.</stage>
+          <stage>Danse la batalla, retirándose SÍSARA y los demás, y salen el MUNDO como despavorido
+            y asombrado.</stage>
           <sp who="#mujer #hombre-1">
             <speaker>UNOS</speaker>
             <l part="I">¡Viva Canán!</l>
@@ -2928,7 +3043,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="38">
-          <stage>La caja, el terremoto, y yéndose el MUNDO, sale JAEL asustada oyendo a lo lejos.</stage>
+          <stage>La caja, el terremoto, y yéndose el MUNDO, sale JAEL asustada oyendo a lo
+            lejos.</stage>
           <sp who="#jael">
             <speaker>JAEL</speaker>
             <l n="1485" part="F">El temor</l>
@@ -2947,7 +3063,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="39">
-          <stage>Sale MORFUZ con unos manojos de trigo y un esquino, en que vendrán clavos y martillo.</stage>
+          <stage>Sale MORFUZ con unos manojos de trigo y un esquino, en que vendrán clavos y
+            martillo.</stage>
           <sp who="#morfuz">
             <speaker>MORFUZ</speaker>
             <l part="F">Gracias a Dios,</l>
@@ -3332,7 +3449,9 @@
             <l>para haber hallado el Mundo</l>
             <l part="I">a la mujer fuerte?</l>
           </sp>
-          <stage>Ábrense dos carros y vense en el uno la JUSTICIA y la PRUDENCIA, y en el otro la TEMPLANZA y la FORTALEZA, y todas cuatro en dos rastrillos, que bajen al tablado sentadas en un iris de nubes con araceli de flores.</stage>
+          <stage>Ábrense dos carros y vense en el uno la JUSTICIA y la PRUDENCIA, y en el otro la
+            TEMPLANZA y la FORTALEZA, y todas cuatro en dos rastrillos, que bajen al tablado
+            sentadas en un iris de nubes con araceli de flores.</stage>
           <sp who="#fortaleza #justicia #templanza #prudencia">
             <speaker>LAS 4</speaker>
             <stage>Cantan.</stage>
@@ -3424,7 +3543,8 @@
             <speaker>FORTALEZA</speaker>
             <l>Dígalo su misma acción.</l>
           </sp>
-          <stage>Ábrese en un carro un pabellón de campaña, y vese como en un lecho SÍSARA con un clavo en la frente, y JAEL en acción de estarle enclavando.</stage>
+          <stage>Ábrese en un carro un pabellón de campaña, y vese como en un lecho SÍSARA con un
+            clavo en la frente, y JAEL en acción de estarle enclavando.</stage>
           <sp who="#fortaleza">
             <speaker>FORTALEZA</speaker>
             <l>Volved los ojos, veréis</l>
@@ -3494,7 +3614,8 @@
             <l>sin que la Sabiduría</l>
             <l n="1775">atienda a mi invocación.</l>
           </sp>
-          <stage>En el carro de la palma donde estuvo sentada DÉBORA, sube sentada por elevación la SABIDURÍA con hostia y cáliz en la mano.</stage>
+          <stage>En el carro de la palma donde estuvo sentada DÉBORA, sube sentada por elevación la
+            SABIDURÍA con hostia y cáliz en la mano.</stage>
           <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>¿Dónde, alta deidad, estás?</l>
@@ -3617,7 +3738,8 @@
             <l n="1850">digamos todos, pidiendo</l>
             <l>de nuestras faltas perdón.</l>
           </sp>
-          <sp who="#fortaleza #prudencia #justicia #templanza #sísara #morfuz #jael #débora #mundo #sabiduría #música">
+          <sp
+            who="#fortaleza #prudencia #justicia #templanza #sísara #morfuz #jael #débora #mundo #sabiduría #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Jael viva, sombra de aquella</l>
             <l>pura y limpia concepción,</l>

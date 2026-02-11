@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000062" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-16">
@@ -38,7 +39,10 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Argenis y Poliarco. Edición crítica de Alicia Vara López. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano. Universidad de Navarra / Iberoamericana / Vervuert 2015 Biblioteca Áurea Hispánica 95, Comedias completas de Calderón 12</title>
+          <title>Pedro Calderón de la Barca, Argenis y Poliarco. Edición crítica de Alicia Vara
+            López. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano. Universidad de Navarra
+            / Iberoamericana / Vervuert 2015 Biblioteca Áurea Hispánica 95, Comedias completas de
+            Calderón 12</title>
           <idno type="URL">https://doi.org/10.31819/9783954872459</idno>
         </bibl>
       </sourceDesc>
@@ -51,11 +55,17 @@
             <trait source="castlist">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="argenis" sex="MALE">
             <persName>Argenis</persName>
             <trait source="castlist">
               <desc>hija</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="timoclea" sex="FEMALE">
@@ -63,11 +73,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="selenisa" sex="FEMALE">
             <persName>Selenisa</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="poliarco" sex="MALE">
@@ -78,11 +94,17 @@
             <trait source="#calderondigital">
               <desc>delfín</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="arcombroto" sex="MALE">
             <persName>Arcombroto</persName>
             <trait source="#calderondigital">
               <desc>amigo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="arsidas" sex="MALE">
@@ -90,11 +112,17 @@
             <trait source="#calderondigital">
               <desc>amigo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="eristenes" sex="MALE">
             <persName>Eristenes</persName>
             <trait source="#calderondigital">
               <desc>embajador</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lidoro" sex="MALE">
@@ -102,17 +130,26 @@
             <trait source="#calderondigital">
               <desc>mensajero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="gelanor" sex="MALE">
             <persName>Gelanor</persName>
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="hianisbe" sex="FEMALE">
             <persName>Hianisbe</persName>
             <trait source="castlist">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp xml:id="dama" sex="FEMALE">
@@ -123,9 +160,15 @@
             <trait source="#calderondigital">
               <desc>enemigo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criada" sex="FEMALE">
             <persName>Criada</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="músicos">
             <persName>Músicos</persName>
@@ -137,17 +180,20 @@
           <term source="dracor" type="genreTitle">comedia novelesca</term>
           <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -187,7 +233,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suene dentro un clarín y ruido de desembarcación y digan marineros y Arcombroto.</stage>
+          <stage>Suene dentro un clarín y ruido de desembarcación y digan marineros y
+            Arcombroto.</stage>
           <sp who="#dentro">
             <speaker rend="caps">Dentro</speaker>
 
@@ -313,7 +360,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Digan dentro Eristenes y Lidoro y salgan luego huyendo con las espadas desnudas, y Poliarco y Arcombroto.</stage>
+          <stage>Digan dentro Eristenes y Lidoro y salgan luego huyendo con las espadas desnudas, y
+            Poliarco y Arcombroto.</stage>
           <sp who="#lidoro">
             <speaker rend="caps">Lidoro</speaker>
 
@@ -1550,7 +1598,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Salgan Meleandro, rey, viejo; Lidoro y Eristenes con una caja y una banda en ella.</stage>
+          <stage>Salgan Meleandro, rey, viejo; Lidoro y Eristenes con una caja y una banda en
+            ella.</stage>
           <sp who="#rey">
             <speaker rend="caps">Rey</speaker>
 
@@ -4291,7 +4340,8 @@
 
             <l>Pues espérame.</l>
           </sp>
-          <stage>Váyase Arcombroto, Poliarco quiera ir tras él y le detenga Arsidas que saldrá a este tiempo.</stage>
+          <stage>Váyase Arcombroto, Poliarco quiera ir tras él y le detenga Arsidas que saldrá a
+            este tiempo.</stage>
           <sp who="#arsidas">
             <speaker rend="caps">Arsidas</speaker>
 
@@ -4962,7 +5012,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Toquen cajas y salgan por ambas puertas del tablado dos alardes de soldados y, al fin de cada uno, Poliarco y Arcombroto vayan pasando y haciendo cortesía a los Reyes.</stage>
+          <stage>Toquen cajas y salgan por ambas puertas del tablado dos alardes de soldados y, al
+            fin de cada uno, Poliarco y Arcombroto vayan pasando y haciendo cortesía a los
+            Reyes.</stage>
           <sp who="#arcombroto">
             <speaker rend="caps">Arcombroto</speaker>
 

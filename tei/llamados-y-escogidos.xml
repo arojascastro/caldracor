@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000195" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Llamados y escogidos.</title>
-        <title type="sub">Para la imperial ciudad de Toledo en las fiestas del santísimo sacramento.</title>
+        <title type="sub">Para la imperial ciudad de Toledo en las fiestas del santísimo
+          sacramento.</title>
         <author>
           <persName>
             <forename>Pedro</forename>
@@ -38,7 +39,9 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/62324</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ignacio Arellano y Luis Galván, Pamplona/Kassel, Universidad de Navarra/Reichenberger, 2002. ISBN: 3-935004-55-9</title>
+            <title>Edición digital a partir de la edición de Ignacio Arellano y Luis Galván,
+              Pamplona/Kassel, Universidad de Navarra/Reichenberger, 2002. ISBN:
+              3-935004-55-9</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,20 +51,47 @@
         <listPerson>
           <person sex="MALE" xml:id="isaias">
             <persName>Isaías</persName>
+            <idno type="wikidata">Q188794</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="daniel">
             <persName>Daniel</persName>
+            <idno type="wikidata">Q171724</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Una Voz</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="rey">
             <persName>Rey</persName>
+            <idno type="wikidata">Q186350</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
@@ -72,45 +102,88 @@
           </personGrp>
           <person sex="MALE" xml:id="principe">
             <persName>Príncipe</persName>
+            <idno type="wikidata">Q302</idno>
             <trait resp="#rojas">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="esposa">
             <persName>Esposa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="verdad">
             <persName>Verdad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="mentira">
             <persName>Mentira</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gentilidad">
             <persName>Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sinagoga">
             <persName>Sinagoga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="persia">
             <persName>Persia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="etiopia">
             <persName>Etiopía</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="armenia">
             <persName>Armenia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="citia">
             <persName>Citia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="padmos">
             <persName>Padmos</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="espana">
             <persName>España</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -119,17 +192,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -235,7 +311,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale oyendo estas voces el Rey con barba venerable, corona y cetro y manto imperial</stage>
+          <stage>Sale oyendo estas voces el Rey con barba venerable, corona y cetro y manto
+            imperial</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l>Estas piadosas voces,</l>
@@ -347,7 +424,14 @@
             <l>en que no importa que esté</l>
             <l n="125">el tiempo alterado viendo</l>
             <l>lo que ha sido y ha de ser.</l>
-            <stage>Suenan las chirimías y descúbrese lejos un carro triunfal a quien tiran un ángel, una águila, un león y un buey. En él sentado el Príncipe, a sus pies la Voz con un coro de músicos. Este carro no se mueve hasta después que ha de venir por palenque al tablado donde en habiéndose apeado los que vienen en él ha de dar vuelta sobre el juego que esté armado y volverse. Esto mismo sucede a su tiempo a la nave en que viene la Esposa, la Fe y otro coro de música advirtiendo que como lo dicen los versos procure ejecutarse midiendo con las chirimías y la música aunque se repita algunas veces, que partan iguales y vuelvan iguales.</stage>
+            <stage>Suenan las chirimías y descúbrese lejos un carro triunfal a quien tiran un ángel,
+              una águila, un león y un buey. En él sentado el Príncipe, a sus pies la Voz con un
+              coro de músicos. Este carro no se mueve hasta después que ha de venir por palenque al
+              tablado donde en habiéndose apeado los que vienen en él ha de dar vuelta sobre el
+              juego que esté armado y volverse. Esto mismo sucede a su tiempo a la nave en que viene
+              la Esposa, la Fe y otro coro de música advirtiendo que como lo dicen los versos
+              procure ejecutarse midiendo con las chirimías y la música aunque se repita algunas
+              veces, que partan iguales y vuelvan iguales.</stage>
             <l>Volved los ojos, miralde</l>
             <l>en el carro de Ezequiel,</l>
             <l>que es figura de las dos</l>
@@ -458,7 +542,9 @@
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en la tierra.</l>
           </sp>
-          <stage>Apéanse unos y otros en el tablado, el Rey los recibe y abraza y después destas cortesías que se harán con las chirimías en los blancos de la música se vuelven el carro y la nave</stage>
+          <stage>Apéanse unos y otros en el tablado, el Rey los recibe y abraza y después destas
+            cortesías que se harán con las chirimías en los blancos de la música se vuelven el carro
+            y la nave</stage>
           <sp who="#principe">
             <speaker>PRÍNCIPE</speaker>
             <l>Bella Micol, dulcísima Raquel,</l>
@@ -469,7 +555,8 @@
             <l>llueva sobre tu cuello de jazmín</l>
             <l>purpúreas rosas del mejor jardín,</l>
             <l n="195">cándidos lirios del mejor vergel.</l>
-            <stage>Adviértase que la Fe siempre tray un cáliz en la mano y la Voz una cruz como pintan a San Juan</stage>
+            <stage>Adviértase que la Fe siempre tray un cáliz en la mano y la Voz una cruz como
+              pintan a San Juan</stage>
             <l>Tanta es tu gracia, tanta es tu virtud,</l>
             <l>divina Ester, que a cuantos hoy estén</l>
             <l>condenados a muerte das favor,</l>
@@ -553,7 +640,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vanse los dos cada uno a su carro advirtiendo cuál haya de ser para la salida de después</stage>
+          <stage>Vanse los dos cada uno a su carro advirtiendo cuál haya de ser para la salida de
+            después</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l>Elías y Jeremías,</l>
@@ -610,7 +698,8 @@
             <l>La Voz soy; a mí me toca</l>
             <l>dar al mundo el parabién.</l>
           </sp>
-          <stage>Con la música se van haciendo cortesías midiendo el tiempo de suerte que al acabar la música se entren</stage>
+          <stage>Con la música se van haciendo cortesías midiendo el tiempo de suerte que al acabar
+            la música se entren</stage>
           <sp who="#acompanamiento">
             <speaker>VOZ</speaker>
             <stage>canta</stage>
@@ -668,13 +757,15 @@
             <speaker>CORO 2</speaker>
             <l part="F">¡Mas, ay, qué placer!</l>
           </sp>
-          <sp who="#musicos #isaias #daniel #principe #esposa #fe #rey #acompanamiento #coro-1 #coro-2">
+          <sp
+            who="#musicos #isaias #daniel #principe #esposa #fe #rey #acompanamiento #coro-1 #coro-2">
             <speaker>TODOS</speaker>
             <l n="285">La tierra y el cielo alabanzas les den.</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Vanse. Salen como oyendo la música la Verdad y la Mentira del otro carro, la Mentira en cuerpo y la Verdad vestido de villano con capote</stage>
+          <stage>Vanse. Salen como oyendo la música la Verdad y la Mentira del otro carro, la
+            Mentira en cuerpo y la Verdad vestido de villano con capote</stage>
           <sp who="#mentira #verdad">
             <speaker>LOS DOS</speaker>
             <l>La tierra y el cielo alabanzas les den.</l>
@@ -943,7 +1034,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Huyendo la Verdad y la Mentira tras ella echa la mano al capote y se le quita quedando como desnuda y a este tiempo sale la Gentilidad y la Verdad se ampara de ella</stage>
+          <stage>Huyendo la Verdad y la Mentira tras ella echa la mano al capote y se le quita
+            quedando como desnuda y a este tiempo sale la Gentilidad y la Verdad se ampara de
+            ella</stage>
           <sp who="#mentira">
             <speaker>MENTIRA</speaker>
             <l part="I">¿La capa dejas?</l>
@@ -1201,7 +1294,8 @@
             <speaker>VOZ 4</speaker>
             <l part="F">Y Apolo es el sol…</l>
           </sp>
-          <sp who="#acompanamiento #isaias #daniel #principe #esposa #fe #rey #coro-2 #verdad #mentira #gentilidad #coro-1">
+          <sp
+            who="#acompanamiento #isaias #daniel #principe #esposa #fe #rey #coro-2 #verdad #mentira #gentilidad #coro-1">
             <speaker>TODOS</speaker>
             <l n="505">Dioses, piedad, que ofenderos no puede</l>
             <l part="I">a tantos la fama…</l>
@@ -1420,7 +1514,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Música y Gentilidad cantando y representando el otro coro en la otra parte y Daniel representando. Sale la Sinagoga vestida a lo judío como furiosa y algunos deteniéndola</stage>
+          <stage>Música y Gentilidad cantando y representando el otro coro en la otra parte y Daniel
+            representando. Sale la Sinagoga vestida a lo judío como furiosa y algunos
+            deteniéndola</stage>
           <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Dejadme morir a manos</l>
@@ -1895,7 +1991,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Salen la Voz con la cruz y la Fe con el cáliz juntos de modo que traigan las insignias como acaso iguales y el Rey tras ellos</stage>
+          <stage>Salen la Voz con la cruz y la Fe con el cáliz juntos de modo que traigan las
+            insignias como acaso iguales y el Rey tras ellos</stage>
           <sp who="#principe">
             <speaker>PRÍNCIPE</speaker>
             <l n="890">Aunque temo morir, morir deseo;</l>
@@ -1953,7 +2050,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Vase, diciéndole esto, le va llevando a la puerta del carro donde ha de haber una canal que suba hasta lo alto y desde allí ha de haber una maroma que pase a la ot[ra] torre […]</stage>
+          <stage>Vase, diciéndole esto, le va llevando a la puerta del carro donde ha de haber una
+            canal que suba hasta lo alto y desde allí ha de haber una maroma que pase a la ot[ra]
+            torre […]</stage>
           <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l n="920">Fe, pues de sus acentos</l>
@@ -2026,7 +2125,8 @@
             <l>Llegad, mortales, llegad</l>
             <l n="945">a comer en las bodas de un feliz manjar.</l>
           </sp>
-          <sp who="#gentilidad #musicos #daniel #acompanamiento #isaias #mentira #sinagoga #verdad #rey #principe #esposa #coro-1 #coro-2 #fe">
+          <sp
+            who="#gentilidad #musicos #daniel #acompanamiento #isaias #mentira #sinagoga #verdad #rey #principe #esposa #coro-1 #coro-2 #fe">
             <speaker>TODOS</speaker>
             <l>Comeréis en la boda de un feliz manjar.</l>
           </sp>
@@ -2220,7 +2320,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Cajas y trompetas, y salen España con manto capitular de Santiago, Etiopia, negra, Persia, Armenia, Padmos, Citia, Asia y otros; todos en sus trajes o lo más que se pudiese imitar de ellos y detrás la Gentilidad con corona de laurel, manto imperial y bastón con unas hojas de oliva en él</stage>
+          <stage>Cajas y trompetas, y salen España con manto capitular de Santiago, Etiopia, negra,
+            Persia, Armenia, Padmos, Citia, Asia y otros; todos en sus trajes o lo más que se
+            pudiese imitar de ellos y detrás la Gentilidad con corona de laurel, manto imperial y
+            bastón con unas hojas de oliva en él</stage>
           <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Invicta Jerusalén,</l>
@@ -2331,7 +2434,8 @@
             <l>Suenen, confundiendo el aire,</l>
             <l>mis cajas y mis trompetas.</l>
           </sp>
-          <stage>Pasa por delante de la Sinagoga el alarde, y al pasar la Mentira se mezcla entre ellos</stage>
+          <stage>Pasa por delante de la Sinagoga el alarde, y al pasar la Mentira se mezcla entre
+            ellos</stage>
           <sp who="#mentira">
             <speaker>MENTIRA</speaker>
             <l n="1145">Agora disimulado</l>
@@ -2364,12 +2468,14 @@
             <l>dad voces, pidiendo al cielo</l>
             <l n="1160">que nos aclare la senda.</l>
           </sp>
-          <sp who="#musicos #daniel #acompanamiento #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #fe #mentira #sinagoga #gentilidad">
+          <sp
+            who="#musicos #daniel #acompanamiento #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #fe #mentira #sinagoga #gentilidad">
             <speaker>TODOS</speaker>
             <l>Señor, pues a ti venimos</l>
             <l>el camino nos enseña.</l>
           </sp>
-          <stage>Canta dentro la Fe y la Voz aunque los de afuera ayuden a la música no importa</stage>
+          <stage>Canta dentro la Fe y la Voz aunque los de afuera ayuden a la música no
+            importa</stage>
           <sp who="#acompanamiento">
             <speaker>VOZ</speaker>
             <stage>dentro</stage>
@@ -2380,7 +2486,8 @@
             <stage>dentro</stage>
             <l>Norabuena venga.</l>
           </sp>
-          <sp who="#musicos #daniel #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #mentira #sinagoga #gentilidad #acompanamiento #fe">
+          <sp
+            who="#musicos #daniel #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #mentira #sinagoga #gentilidad #acompanamiento #fe">
             <speaker>TODOS</speaker>
             <l n="1165">La unión de los fieles</l>
             <l>formando la Iglesia.</l>
@@ -2390,14 +2497,16 @@
             <l>Pues ya músicas nos guían</l>
             <l>responda la salva nuestra.</l>
           </sp>
-          <sp who="#musicos #daniel #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #mentira #sinagoga #acompanamiento #fe #gentilidad">
+          <sp
+            who="#musicos #daniel #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #mentira #sinagoga #acompanamiento #fe #gentilidad">
             <speaker>TODOS</speaker>
             <l>Venga norabuena,</l>
             <l n="1170">norabuena venga.</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Tocan las cajas y las trompetas y la música junto todo suene como sonare. Salen la Esposa, y la Fe y la Verdad</stage>
+          <stage>Tocan las cajas y las trompetas y la música junto todo suene como sonare. Salen la
+            Esposa, y la Fe y la Verdad</stage>
           <sp who="#esposa">
             <speaker>ESPOSA</speaker>
             <l>Con los brazos os recibo</l>
@@ -2506,13 +2615,19 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Las chirimías. Salen por debajo del tablado dos aparadores a los dos lados lo más ricos y adornados que se pueda con luces, y en medio una mesa grande adornada de viandas y en medio un cordero, lo mejor imitado que se pueda, con luces la mesa, advirtiendo que todo ha de estar clavado, de manera que pueda a su tiempo dar vuelta toda la mesa, y quedar un cáliz grande y una hostia con luces a los lados, y si se hiciese de madera una como custodia en gradillas será mejor.</stage>
+          <stage>Las chirimías. Salen por debajo del tablado dos aparadores a los dos lados lo más
+            ricos y adornados que se pueda con luces, y en medio una mesa grande adornada de viandas
+            y en medio un cordero, lo mejor imitado que se pueda, con luces la mesa, advirtiendo que
+            todo ha de estar clavado, de manera que pueda a su tiempo dar vuelta toda la mesa, y
+            quedar un cáliz grande y una hostia con luces a los lados, y si se hiciese de madera una
+            como custodia en gradillas será mejor.</stage>
           <sp who="#fe">
             <speaker>FE</speaker>
             <l n="1225">Llamando al Príncipe todos,</l>
             <l>la voz al viento suspenda.</l>
           </sp>
-          <sp who="#musicos #daniel #isaias #rey #principe #coro-1 #coro-2 #sinagoga #acompanamiento #gentilidad #persia #etiopia #armenia #citia #padmos #mentira #esposa #verdad #fe">
+          <sp
+            who="#musicos #daniel #isaias #rey #principe #coro-1 #coro-2 #sinagoga #acompanamiento #gentilidad #persia #etiopia #armenia #citia #padmos #mentira #esposa #verdad #fe">
             <speaker>TODOS</speaker>
             <stage>Cantan</stage>
             <l>Ven, príncipe generoso,</l>
@@ -2666,7 +2781,8 @@
             <l n="1310">Yo saldré mañana a ella,</l>
             <l>donde triunfaré muriendo.</l>
           </sp>
-          <stage>Saca España la espada y la Gentilidad pone el bastón reparando el golpe y la Fe pone entre los dos la cruz</stage>
+          <stage>Saca España la espada y la Gentilidad pone el bastón reparando el golpe y la Fe
+            pone entre los dos la cruz</stage>
           <sp who="#espana">
             <speaker>ESPAÑA</speaker>
             <l>¿No es mejor que pues yo en esta</l>
@@ -2782,7 +2898,8 @@
             <speaker>SINAGOGA</speaker>
             <l part="I">No lo creo.</l>
           </sp>
-          <sp who="#musicos #daniel #isaias #coro-1 #coro-2 #acompanamiento #persia #armenia #citia #verdad #rey #mentira #principe #gentilidad #esposa #etiopia #fe #padmos #espana #sinagoga">
+          <sp
+            who="#musicos #daniel #isaias #coro-1 #coro-2 #acompanamiento #persia #armenia #citia #verdad #rey #mentira #principe #gentilidad #esposa #etiopia #fe #padmos #espana #sinagoga">
             <speaker>TODOS</speaker>
             <l part="F">Todos sí.</l>
           </sp>
@@ -2863,7 +2980,8 @@
             <l>y pocos los escogidos.</l>
           </sp>
           <stage>Cúbrense las mesas con las chirimías y la música</stage>
-          <stage>Si quid dictus contra fides et bonos mores quasi non dictus et omnia sub correctione Sante matris Eclesie</stage>
+          <stage>Si quid dictus contra fides et bonos mores quasi non dictus et omnia sub
+            correctione Sante matris Eclesie</stage>
           <stage>Don Pedro Calderón de la Barca</stage>
         </div>
       </div>

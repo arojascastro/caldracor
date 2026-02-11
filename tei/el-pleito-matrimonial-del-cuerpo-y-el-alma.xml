@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000170" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/19079</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de M. Roig, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2011. ISBN: 978-3-937734-80-4.</title> /&gt; </bibl>
+            <title>Edición digital a partir de la edición de M. Roig, Pamplona–Kassel, Universidad
+              de Navarra–Reichenberger, 2011. ISBN: 978-3-937734-80-4.</title> /&gt; </bibl>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -47,33 +48,64 @@
         <listPerson>
           <person sex="MALE" xml:id="pecado">
             <persName>Pecado</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="muerte">
             <persName>Muerte</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="cuerpo">
             <persName>Cuerpo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="alma">
             <persName>Alma</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="vida">
             <persName>Vida</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="memoria">
             <persName>Memoria</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="voluntad">
             <persName>Voluntad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="entendimiento">
             <persName>Entendimiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="cristo">
             <persName>Cristo</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -82,17 +114,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -126,7 +161,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale de un carro el PECADO, al tiempo que en el otro se abre un tronco y sale de él la MUERTE</stage>
+          <stage>Sale de un carro el PECADO, al tiempo que en el otro se abre un tronco y sale de él
+            la MUERTE</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
             <l>¡Parasismo del mundo, a cuyo horror</l>
@@ -405,7 +441,8 @@
             <l>verás que de sus purpúreas</l>
             <l n="205">esferas desciende el Alma,</l>
             <l>hermosa, perfecta y pura,</l>
-            <stage>Ábrese el carro y aparece el ALMA sentada en un trono con las tres POTENCIAS</stage>
+            <stage>Ábrese el carro y aparece el ALMA sentada en un trono con las tres
+              POTENCIAS</stage>
             <l>a casarse con el Cuerpo,</l>
             <l>ajeno de sus venturas.</l>
             <l>Y para que a aqueste asunto</l>
@@ -1344,7 +1381,8 @@
             <l part="F">Donde me llevan</l>
             <l>los misterios de este Pan.</l>
           </sp>
-          <stage>Él se queda suspenso y la MEMORIA anda sin parar, poniéndose siempre al lado del que habla</stage>
+          <stage>Él se queda suspenso y la MEMORIA anda sin parar, poniéndose siempre al lado del
+            que habla</stage>
           <sp who="#alma">
             <speaker>ALMA</speaker>
             <l>Pues este es aquel Cordero</l>
@@ -3132,7 +3170,8 @@
             <l>—si el cielo tiene envidia—</l>
             <l>envidia el cielo.</l>
           </sp>
-          <stage>Al mismo tiempo que se canta esto suenan las chirimías y se cubre el HOMBRE y sube el NIÑO y el ALMA en la apariencia con que se da fin</stage>
+          <stage>Al mismo tiempo que se canta esto suenan las chirimías y se cubre el HOMBRE y sube
+            el NIÑO y el ALMA en la apariencia con que se da fin</stage>
         </div>
       </div>
     </body>

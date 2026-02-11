@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000030" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-02">
           <time when="13:22:09"/>
@@ -35,9 +36,14 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-humildad-coronada-de-las-plantas--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-humildad-coronada-de-las-plantas--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de Datos de Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros</title>
+            <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don
+              Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier,
+              Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización:
+              Base de Datos de Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina
+              Rodríguez Cuadros</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,39 +53,84 @@
         <listPerson>
           <person xml:id="espino" sex="MALE">
             <persName>El Espino</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="moral" sex="MALE">
             <persName>El Moral</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="olivo" sex="MALE">
             <persName>El Olivo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="cedro" sex="MALE">
             <persName>El Cedro</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="almendro" sex="MALE">
             <persName>El Almendro</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="encina" sex="FEMALE">
             <persName>La Encina</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="espiga" sex="FEMALE">
             <persName>La Espiga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="vid" sex="FEMALE">
             <persName>La Vid</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="laurel" sex="MALE">
             <persName>El Laurel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="ángel-primero" sex="MALE">
             <persName>Ángel Primero</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="ángel-segundo" sex="MALE">
             <persName>Ángel Segundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -88,17 +139,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -483,7 +537,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale el CEDRO con un bastón en forma de cruz, en un azo de ella hojas de palma, en el otro hojas de ciprés, y en el medio otras ramas de las que más le imiten.</stage>
+          <stage>Sale el CEDRO con un bastón en forma de cruz, en un azo de ella hojas de palma, en
+            el otro hojas de ciprés, y en el medio otras ramas de las que más le imiten.</stage>
           <sp who="#cedro">
             <speaker>CEDRO</speaker>
             <l part="F">Estadme atentos,</l>
@@ -1291,7 +1346,8 @@
             <l>Quien hoy la Humildad ensalza y corona,</l>
             <l>virtud que eligieron la Espiga y la Vid.</l>
           </sp>
-          <stage>Tocan chirimías y van subiendo las voces, o si quieren por apariencia, y se verán los dos ángeles, el uno en un Arco Iris y el otro en un pirámide.</stage>
+          <stage>Tocan chirimías y van subiendo las voces, o si quieren por apariencia, y se verán
+            los dos ángeles, el uno en un Arco Iris y el otro en un pirámide.</stage>
           <sp who="#espiga">
             <speaker>ESPIGA</speaker>
             <l n="720">Ya no solamente, ¡ha, cielos!,</l>
@@ -1463,7 +1519,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Vanse, y sale el CEDRO con una cruz, y una palma en un brazo de ella, repitiendo los dos versos de la MÚSICA.</stage>
+          <stage>Vanse, y sale el CEDRO con una cruz, y una palma en un brazo de ella, repitiendo
+            los dos versos de la MÚSICA.</stage>
           <sp who="#cedro">
             <speaker>CEDRO</speaker>
             <l n="790">¿Quién hoy la Humildad ensalza y corona,</l>
@@ -1495,7 +1552,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Arrímase al paño, y la cruz delante, que sea de su estatura, a manera de enclavada, en los brazos hojas de ciprés, de cedro y palma, y échase al pie de ella, y sale el ESPINO.</stage>
+          <stage>Arrímase al paño, y la cruz delante, que sea de su estatura, a manera de enclavada,
+            en los brazos hojas de ciprés, de cedro y palma, y échase al pie de ella, y sale el
+            ESPINO.</stage>
           <sp who="#espino">
             <speaker>ESPINO</speaker>
             <l>Por aquesta parte vino</l>
@@ -1819,7 +1878,8 @@
             <l>árbol que en sombra de cruz,</l>
             <l n="950">es cedro, palma y ciprés.</l>
           </sp>
-          <stage>Estarán los árboles la mitad a un lado y la otra mitad al otro, el MORAL y el ALMENDRO juntos.</stage>
+          <stage>Estarán los árboles la mitad a un lado y la otra mitad al otro, el MORAL y el
+            ALMENDRO juntos.</stage>
           <sp who="#laurel">
             <speaker>LAUREL</speaker>
             <l>Por más que hayáis pretendido</l>
@@ -2555,7 +2615,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Aparecen en lo alto de una fuente la Cruz y el CEDRO, y salen todos los árboles.</stage>
+          <stage>Aparecen en lo alto de una fuente la Cruz y el CEDRO, y salen todos los
+            árboles.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>¡Ha de las plantas y flores,</l>
@@ -2735,7 +2796,8 @@
             <speaker>MORAL</speaker>
             <l>Preguntémoselo todos.</l>
           </sp>
-          <sp who="#espino #vid #espiga #almendro #laurel #encina #olivo #cedro #ángel-primero #ángel-segundo">
+          <sp
+            who="#espino #vid #espiga #almendro #laurel #encina #olivo #cedro #ángel-primero #ángel-segundo">
             <speaker>TODOS</speaker>
             <l n="1420">Dinos, gran Señor, quién es.</l>
           </sp>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000206" xml:lang="es">
   <teiHeader>
@@ -34,9 +34,11 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra/el-primer-blason-del-austria--0/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra/el-primer-blason-del-austria--0/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Victoriano Roncero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN: 3-931887-04-9.</title>
+            <title>Edición digital a partir de la edición de Victoriano Roncero, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 1997. ISBN: 3-931887-04-9.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -46,47 +48,114 @@
         <listPerson>
           <person sex="FEMALE" xml:id="iglesia">
             <persName>Iglesia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="san-miguel">
             <persName>San Miguel</persName>
+            <idno type="wikidata">Q45581</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hornos">
             <persName>Hornos</persName>
+            <idno type="wikidata">Q550657</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="weimar">
             <persName>Weimar</persName>
+            <idno type="wikidata">Q61118</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="fabricio">
             <persName>Fabricio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="rey">
             <persName>Rey</persName>
+            <idno type="wikidata">Q150575</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="infante">
             <persName>Infante</persName>
+            <idno type="wikidata">Q559041</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="teutonico">
             <persName>Teutónico</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="galaso">
             <persName>Galaso</persName>
+            <idno type="wikidata">Q553849</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="leganes">
             <persName>Leganés</persName>
+            <idno type="wikidata">Q691804</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="idiaquez">
             <persName>Idiáquez</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="rivera">
             <persName>Rivera</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="reina">
             <persName>Reina</persName>
             <trait resp="#rojas">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
             </trait>
           </person>
         </listPerson>
@@ -96,17 +165,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -449,7 +521,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Vanse. Salen por una puerta el REY DE HUNGRÍA, el MAESTRO TEUTÓNICO, GALASO, PICOLOMINI, y por la otra el INFANTE CARDENAL, el de LEGANÉS, DON MARTÍN IDIÁQUEZ, y RIVERA, soldado, al son de cajas y clarines</stage>
+          <stage>Vanse. Salen por una puerta el REY DE HUNGRÍA, el MAESTRO TEUTÓNICO, GALASO,
+            PICOLOMINI, y por la otra el INFANTE CARDENAL, el de LEGANÉS, DON MARTÍN IDIÁQUEZ, y
+            RIVERA, soldado, al son de cajas y clarines</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l>Vuestra alteza, señor, sea bien venido.</l>
@@ -751,7 +825,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Vanse. Salen el INFANTE, el REY, LEGANÉS, IDIÁQUEZ y DON PEDRO GIRÓN. Suenan clarines y cajas</stage>
+          <stage>Vanse. Salen el INFANTE, el REY, LEGANÉS, IDIÁQUEZ y DON PEDRO GIRÓN. Suenan
+            clarines y cajas</stage>
           <sp who="#infante">
             <speaker>INFANTE</speaker>
             <l>El enemigo soberbio</l>
@@ -892,7 +967,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Vanse. Suena ruido de artillería; salen acuchillándose. Y luego sale RIVERA con un hereje a cuestas</stage>
+          <stage>Vanse. Suena ruido de artillería; salen acuchillándose. Y luego sale RIVERA con un
+            hereje a cuestas</stage>
           <sp who="#rivera">
             <speaker>RIVERA</speaker>
             <l>Mientras siguen el alcance,</l>
@@ -1066,7 +1142,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Vanse. Suena dentro: ¡victoria, victoria!, y al son de clarines y cajas, salen el INFANTE, el REY y los demás</stage>
+          <stage>Vanse. Suena dentro: ¡victoria, victoria!, y al son de clarines y cajas, salen el
+            INFANTE, el REY y los demás</stage>
           <sp who="#infante">
             <speaker>INFANTE</speaker>
             <l>¡Gran victoria, amado hermano!</l>

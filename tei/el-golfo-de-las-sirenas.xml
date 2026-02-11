@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000086" xml:lang="es">
   <teiHeader>
@@ -27,7 +27,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-08">
@@ -39,7 +40,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, La Golfo de las Sirenas. En: Comedias, Vol. 4. Dirección de Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, La Golfo de las Sirenas. En: Comedias, Vol. 4.
+            Dirección de Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José
+            Antonio de Castro, 2010</title>
           <idno type="ISBN">978-84-96452-89-3</idno>
         </bibl>
       </sourceDesc>
@@ -52,11 +55,17 @@
             <trait source="castlist">
               <desc>pescador</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sileno" sex="MALE">
             <persName>Sileno</persName>
             <trait source="castlist">
               <desc>pescador</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lauro" sex="MALE">
@@ -64,11 +73,17 @@
             <trait source="castlist">
               <desc>pescador</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="astrea" sex="FEMALE">
             <persName>Astrea</persName>
             <trait source="castlist">
               <desc>villana</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="celfa" sex="FEMALE">
@@ -76,23 +91,38 @@
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="escila" sex="FEMALE">
             <persName>Escila</persName>
+            <idno type="wikidata">Q193115</idno>
             <trait source="castlist">
               <desc>cazadora</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="caribdis" sex="FEMALE">
             <persName>Caribdis</persName>
+            <idno type="wikidata">Q192082</idno>
             <trait source="castlist">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="ulises" sex="MALE">
             <persName>Ulises</persName>
+            <idno type="wikidata">Q47231</idno>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="anteo" sex="MALE">
@@ -100,39 +130,72 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dante" sex="MALE">
             <persName>Dante</persName>
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sirena-primera" sex="FEMALE">
             <persName>Sirena Primera</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="sirena-segunda" sex="FEMALE">
             <persName>Sirena Segunda</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="sirena-tercera" sex="FEMALE">
             <persName>Sirena Tercera</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="sirena-cuarta" sex="FEMALE">
             <persName>Sirena Cuarta</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="pescador-primero" sex="MALE">
             <persName>Pescador Primero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pescador-segundo" sex="MALE">
             <persName>Pescador Segundo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pescador-tercero" sex="MALE">
             <persName>Pescador Tercero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="villana-primera" sex="FEMALE">
             <persName>Villana Primera</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="villana-segunda" sex="FEMALE">
             <persName>Villana Segunda</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-primero">
             <persName>Coro Primero</persName>
@@ -151,36 +214,69 @@
           </personGrp>
           <person xml:id="viejo" sex="MALE">
             <persName>Un Viejo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="salvaje" sex="MALE">
             <persName>Un Salvaje</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="primera" sex="FEMALE">
             <persName>Mujer Primera</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="segunda" sex="FEMALE">
             <persName>Mujer Segunda</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tercera" sex="FEMALE">
             <persName>Mujer Tercera</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cuarta" sex="FEMALE">
             <persName>Mujer Cuarta</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="primero" sex="MALE">
             <persName>Hombre Primero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="segundo" sex="MALE">
             <persName>Hombre Segundo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tercero" sex="MALE">
             <persName>Hombre Tercero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cuarto" sex="MALE">
             <persName>Hombre Cuarto</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -189,17 +285,20 @@
           <term source="dracor" type="genreTitle">zarzuela</term>
           <term source="#kroll" type="main">zarzuela</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q148163</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q148163</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -407,7 +506,8 @@
 
             <l>Y todos, ¿qué dicen?</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #sileno">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #sileno">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -449,7 +549,8 @@
 
             <l>¿Qué dicen?</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #sileno">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #sileno">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -497,7 +598,8 @@
 
             <l>Dadme albricias.</l>
           </sp>
-          <sp who="#pescador-primero #pescador-segundo #pescador-tercero #villana-primera #villana-segunda">
+          <sp
+            who="#pescador-primero #pescador-segundo #pescador-tercero #villana-primera #villana-segunda">
             <speaker rend="caps">Unos Y Otros</speaker>
 
 
@@ -696,7 +798,8 @@
 
             <l>Que el que antes fue invierno es ya primavera.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -732,7 +835,8 @@
 
             <l>…las ondas se ríen.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -866,7 +970,8 @@
             <l>debemos a otras deidades</l>
             <l>tener gratas.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -912,7 +1017,8 @@
             <l>vengan norabuena.</l>
           </sp>
           <stage>Bajan todos.</stage>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -928,7 +1034,8 @@
             <l>el sol amanezca,</l>
             <l>venga norabuena.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -944,7 +1051,8 @@
             <l>en las almas reina,</l>
             <l>venga norabuena.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -960,7 +1068,8 @@
             <l>de entrambas grandezas,</l>
             <l>venga norabuena.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -976,7 +1085,8 @@
             <l>de aquel sol estrellas,</l>
             <l>vengan norabuena.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1013,7 +1123,8 @@
 
             <l>Aquél es otro cantar.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1056,7 +1167,8 @@
 
             <l>A la escota.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1078,7 +1190,8 @@
 
             <l>Bien dice.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
+          <sp
+            who="#alfeo #astrea #celfa #coro-cuarto #coro-primero #coro-segundo #coro-tercero #lauro #pescador-primero #pescador-segundo #pescador-tercero #sileno #villana-primera #villana-segunda #voces">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -1200,7 +1313,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Salen en lo alto Escila, vestida de cazadora, y Caribdis, de sirena, cada una por su parte.</stage>
+          <stage>Salen en lo alto Escila, vestida de cazadora, y Caribdis, de sirena, cada una por
+            su parte.</stage>
           <sp who="#escila">
             <speaker rend="caps">Escila</speaker>
 
@@ -4065,7 +4179,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Con el terremoto sale el barco y en él Ulises, Dante, Anteo y Alfeo remando.</stage>
+          <stage>Con el terremoto sale el barco y en él Ulises, Dante, Anteo y Alfeo
+            remando.</stage>
           <sp who="#ulises">
             <speaker rend="caps">Ulises</speaker>
 
@@ -4820,7 +4935,8 @@
             <l>miramos sobre las aguas,</l>
             <l>nunca hasta ahora descubiertos.</l>
           </sp>
-          <sp who="#anteo #astrea #caribdis #dante #escila #pescador-primero #pescador-segundo #pescador-tercero #sirena-cuarta #sirena-primera #sirena-segunda #sirena-tercera #ulises #villana-primera #villana-segunda">
+          <sp
+            who="#anteo #astrea #caribdis #dante #escila #pescador-primero #pescador-segundo #pescador-tercero #sirena-cuarta #sirena-primera #sirena-segunda #sirena-tercera #ulises #villana-primera #villana-segunda">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5215,7 +5331,8 @@
             <l>Venid todos, venid todas</l>
             <l>a recibirle.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5228,7 +5345,8 @@
             <l>En toda mi vida vi</l>
             <l>fieras tan buenas cristianas.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5256,7 +5374,8 @@
             <l>Sí iré tal, porque vendido,</l>
             <l>la puedo volver.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5346,7 +5465,8 @@
             <l>matarme tú con ventaja.</l>
             <l>¡Ay, que me ha muerto!</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5379,7 +5499,8 @@
             <l>Con no oírme, que a un salvaje,</l>
             <l>quien no le escucha le mata.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5444,7 +5565,8 @@
             <l>Y yo que un gran puerco fui,</l>
             <l>soy jabalí.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5477,7 +5599,8 @@
 
             <l>¿Esa es nube o es banasta?</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5490,7 +5613,8 @@
 
             <l>¿Quién es el que me ha librado?</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5516,7 +5640,8 @@
 
             <l>¿Tú eres, falsa?</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5648,7 +5773,8 @@
             <l>Que con marido y desencantada,</l>
             <l>qué dos venturas, venturas tan raras.</l>
           </sp>
-          <sp who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
+          <sp
+            who="#alfeo #astrea #celfa #cuarta #cuarto #primera #primero #salvaje #segunda #segundo #tercera #tercero">
             <speaker rend="caps">Todos</speaker>
 
 

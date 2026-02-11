@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000115" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar). </title>
+            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar).
+            </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,8 +49,12 @@
         <listPerson>
           <person sex="MALE" xml:id="siroes">
             <persName>Siroes</persName>
+            <idno type="wikidata">Q315873</idno>
             <trait source="castlist">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="menardes">
@@ -57,11 +62,17 @@
             <trait source="castlist">
               <desc>hermano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="anastasio">
             <persName>Anastasio</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp sex="MALE" xml:id="unos">
@@ -72,26 +83,40 @@
           </personGrp>
           <person sex="MALE" xml:id="cosdroas">
             <persName>Cosdroas</persName>
+            <idno type="wikidata">Q212732</idno>
             <trait source="castlist">
               <desc>rey</desc>
             </trait>
             <trait source="castlist">
               <desc>padre</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="zacarias">
             <persName>Zacarías</persName>
+            <idno type="wikidata">Q3068735</idno>
             <trait source="castlist">
               <desc>patriarca</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz">
             <persName>Voz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="morlaco">
             <persName>Morlaco</persName>
             <trait source="castlist">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
@@ -99,8 +124,12 @@
           </personGrp>
           <person sex="MALE" xml:id="heraclio">
             <persName>Heraclio</persName>
+            <idno type="wikidata">Q41852</idno>
             <trait source="castlist">
               <desc>emperador</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="irene">
@@ -108,11 +137,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="arnesto">
             <persName>Arnesto</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="libio">
@@ -120,11 +155,17 @@
             <trait source="castlist">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="flora">
             <persName>Flora</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="clodomira">
@@ -132,24 +173,45 @@
             <trait source="castlist">
               <desc>reina</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="dentro">
             <persName>Dentro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="cosdoras">
             <persName>Cosdoras</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel-1">
             <persName>Ángel 1</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel-2">
             <persName>Ángel 2</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado">
             <persName>Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="uno">
             <persName>Uno</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -158,17 +220,20 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -208,7 +273,8 @@
       <div n="1" type="act">
         <div type="scene" resp="#rojas" n="1">
           <head> Jornada I </head>
-          <stage> Salen Siroes y Menardes, príncipes de Persia, cada uno por su parte representando al teatro, que ha de ser todo una montaña. </stage>
+          <stage> Salen Siroes y Menardes, príncipes de Persia, cada uno por su parte representando
+            al teatro, que ha de ser todo una montaña. </stage>
           <sp who="#siroes">
             <speaker> SIROES </speaker>
             <l> ¡Ah del soberbio monte </l>
@@ -438,7 +504,10 @@
             <speaker> LOS DOS </speaker>
             <l n="180" part="F"> Sí tendremos. </l>
           </sp>
-          <stage> Hace Anastasio un círculo en la tierra, y van subiendo sobre dos peñascos los dos lo más que pudieren; y esta apariencia se ha de obrar en las dos puntas del tablado, y Anastasio enmedio. Tocan cajas y trompetas, y ábrese la montaña y queda el teatro de muralla todo. </stage>
+          <stage> Hace Anastasio un círculo en la tierra, y van subiendo sobre dos peñascos los dos
+            lo más que pudieren; y esta apariencia se ha de obrar en las dos puntas del tablado, y
+            Anastasio enmedio. Tocan cajas y trompetas, y ábrese la montaña y queda el teatro de
+            muralla todo. </stage>
           <sp who="#anastasio">
             <speaker> ANASTASIO </speaker>
             <l> Pues espíritus impuros, </l>
@@ -483,7 +552,8 @@
             <l> que la primera, asaltada </l>
             <l> de los escuadrones nuestros. </l>
           </sp>
-          <stage> Tocan arma. Dase la batalla en el tablado, saliendo unos retirándose otros tras ellos. </stage>
+          <stage> Tocan arma. Dase la batalla en el tablado, saliendo unos retirándose otros tras
+            ellos. </stage>
           <sp who="#unos">
             <speaker> UNOS </speaker>
             <l part="I"> Arma, arma. </l>
@@ -496,7 +566,8 @@
             <speaker> COSDROAS </speaker>
             <l> ¡Viva de Persia el imperio! </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l n="205"> ¡Viva Persia, Persia viva! </l>
           </sp>
@@ -560,7 +631,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage> Al entrar por una puerta que ha de tener el muro, sale Zacarías, viejo venerable, vestido de sacerdote a lo antiguo y pónese de rodillas, y él se suspende. </stage>
+          <stage> Al entrar por una puerta que ha de tener el muro, sale Zacarías, viejo venerable,
+            vestido de sacerdote a lo antiguo y pónese de rodillas, y él se suspende. </stage>
           <sp who="#zacarias">
             <speaker> ZACARÍAS </speaker>
             <l part="F"> Soberbio </l>
@@ -651,7 +723,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage> Abre Zacarías la puerta del muro, y descúbrese dentro un altar y en él la cruz, y a sus lados Elena, vestida de viuda y Constantino de rey; y estos, o sean figuras vivas, o bultos. Entra Cosdroas y Zacarías deteniéndole. A este tiempo se cierra todo como estaba primero y los dos peñascos vienen al suelo con la mayor velocidad que pueda. Anastasio queda como asombrado. </stage>
+          <stage> Abre Zacarías la puerta del muro, y descúbrese dentro un altar y en él la cruz, y
+            a sus lados Elena, vestida de viuda y Constantino de rey; y estos, o sean figuras vivas,
+            o bultos. Entra Cosdroas y Zacarías deteniéndole. A este tiempo se cierra todo como
+            estaba primero y los dos peñascos vienen al suelo con la mayor velocidad que pueda.
+            Anastasio queda como asombrado. </stage>
           <sp who="#voz">
             <speaker> VOZ </speaker>
             <stage> Dentro </stage>
@@ -791,7 +867,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage> Quédase suspenso y sale Morlaco vestido de pieles, redículo, con una cesta en el brazo. </stage>
+          <stage> Quédase suspenso y sale Morlaco vestido de pieles, redículo, con una cesta en el
+            brazo. </stage>
           <sp who="#morlaco">
             <speaker> MORLACO </speaker>
             <l n="345"> Oigan qué elevado está </l>
@@ -965,7 +1042,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage> Vanse. Salen los músicos con instrumentos, y los sombreros en las espadas. Irene y Flora, damas; detrás el emperador Heraclio mirando un retrato. </stage>
+          <stage> Vanse. Salen los músicos con instrumentos, y los sombreros en las espadas. Irene y
+            Flora, damas; detrás el emperador Heraclio mirando un retrato. </stage>
           <sp who="#musicos">
             <speaker> MÚSICOS </speaker>
             <l> ¿Qué dolor, qué pena a ser </l>
@@ -1444,7 +1522,8 @@
             <l n="765"> lleva asegurado el triunfo. </l>
           </sp>
           <stage> Las cajas y sordinas. </stage>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> ¡Viva Heraclio, viva Heraclio! </l>
           </sp>
@@ -1532,7 +1611,8 @@
             <l> y repitan las cajas y las trompas </l>
             <l> al son de dulces ecos... </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> ¡Viva Cosdroas! </l>
           </sp>
@@ -1564,7 +1644,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage> Suena todo junto y salen por una puerta Siroes y Menardes y los músicos, y por otra Cosdroas y soldados y Zacarías, vestido de cautivo. </stage>
+          <stage> Suena todo junto y salen por una puerta Siroes y Menardes y los músicos, y por
+            otra Cosdroas y soldados y Zacarías, vestido de cautivo. </stage>
           <sp who="#musicos">
             <speaker> MÚSICOS </speaker>
             <l> En hora dichosa venga </l>
@@ -1574,7 +1655,8 @@
             <l n="845"> y repitan las cajas y las trompas </l>
             <l> al son de dulces ecos. </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> ¡Viva Cosdroas! </l>
           </sp>
@@ -1785,7 +1867,8 @@
             <l> y repitan las cajas y las trompas </l>
             <l n="965"> al son de dulces ecos. </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> ¡Viva Cosdroas! </l>
           </sp>
@@ -2819,7 +2902,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage> Tocan cajas y trompetas destempladas, y salen por vna parte Libio y Arnesto y Heraclio, y soldados, y por la otra Irene, Flora y Clodomira y las mujeres que puedan, todas con bandas y plumas negras. Arnesto trae un estandarte negro y Flora otro, pintada en ellos la cruz. </stage>
+          <stage> Tocan cajas y trompetas destempladas, y salen por vna parte Libio y Arnesto y
+            Heraclio, y soldados, y por la otra Irene, Flora y Clodomira y las mujeres que puedan,
+            todas con bandas y plumas negras. Arnesto trae un estandarte negro y Flora otro, pintada
+            en ellos la cruz. </stage>
           <sp who="#heraclio">
             <speaker> HERACLIO </speaker>
             <l> Es esta parte, donde </l>
@@ -2983,7 +3069,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage> Arma. Salen Cosdroas, Anastasio, Menardes, y Siroes y otros; y hácense Heraclio y los demás a una parte, y trábase la batalla. </stage>
+          <stage> Arma. Salen Cosdroas, Anastasio, Menardes, y Siroes y otros; y hácense Heraclio y
+            los demás a una parte, y trábase la batalla. </stage>
           <sp who="#cosdroas">
             <speaker> COSDROAS </speaker>
             <l> Antes que prevenidos </l>
@@ -3012,7 +3099,8 @@
             <l part="F"> ¡Cierra </l>
             <l part="I"> por Europa! </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l part="F"> ¡Arma, arma, guerra, guerra! </l>
           </sp>
@@ -3469,7 +3557,8 @@
             <l> y hizo en lid sangrienta y dura, </l>
             <l> prisionera esta hermosura. </l>
           </sp>
-          <stage> Ha tenido la mano delante Clodomira, como llorando, y ahora la quita y él se admira de vella. </stage>
+          <stage> Ha tenido la mano delante Clodomira, como llorando, y ahora la quita y él se
+            admira de vella. </stage>
           <sp who="#siroes">
             <speaker> SIROES </speaker>
             <l part="I"> ¿Qué escucho? </l>
@@ -3983,7 +4072,8 @@
             <l> de buena guerra y si quieres </l>
             <l> capitularlos conmigo. </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l> Aceta, señor, las vidas, </l>
@@ -4074,7 +4164,8 @@
             <l> ante ella habéis de hacer todos </l>
             <l> a mis dioses sacrificios. </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l> No lo acetes, no lo acetes, </l>
@@ -4107,7 +4198,8 @@
             <speaker> COSDROAS </speaker>
             <l n="2115"> Eso lo dices tú solo. </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l> Todos, todos lo decimos. </l>
@@ -4152,12 +4244,14 @@
             <l> porque las voces de unos </l>
             <l n="2130"> digan de otros el martirio. </l>
           </sp>
-          <stage> Estos versos y la música y cajas a un tiempo, y al mismo aparecerán dos ángeles en lo alto con espadas de fuego. </stage>
+          <stage> Estos versos y la música y cajas a un tiempo, y al mismo aparecerán dos ángeles en
+            lo alto con espadas de fuego. </stage>
           <sp who="#musicos">
             <speaker> MÚSICOS </speaker>
             <l> ¡Piedad, Señor divino! </l>
           </sp>
-          <sp who="#siroes #menardes #anastasio #unos #otros #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno #cosdroas">
+          <sp
+            who="#siroes #menardes #anastasio #unos #otros #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno #cosdroas">
             <speaker> COSDROAS Y LOS SUYOS </speaker>
             <l part="I"> ¡Viva Cosdroas! </l>
           </sp>
@@ -4165,7 +4259,8 @@
             <speaker> OTROS </speaker>
             <l part="F"> ¡Viva Heraclio! </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> ¡Viva la gran cruz de Cristo! </l>
           </sp>
@@ -4187,7 +4282,8 @@
             <l> se amotinen y con ellos </l>
             <l> venza Dios sus enemigos. </l>
           </sp>
-          <stage> Todo junto otra vez y suenan truenos y morteretes y rayos, y si se puede escurecer el teatro se haga. Truenos. </stage>
+          <stage> Todo junto otra vez y suenan truenos y morteretes y rayos, y si se puede escurecer
+            el teatro se haga. Truenos. </stage>
           <sp who="#unos">
             <speaker> UNOS </speaker>
             <l part="I"> ¡Viva Heraclio! </l>
@@ -4196,7 +4292,8 @@
             <speaker> OTROS </speaker>
             <l part="F"> ¡Viva Cosdroas! </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> ¡Viva la gran cruz de Cristo! </l>
           </sp>
@@ -4279,7 +4376,8 @@
             <l> con sus hechizos nos vencen, </l>
             <l> peleemos hechizo a hechizo. </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> Serena el cielo que a rayos </l>
             <l> se está desatando en giros; </l>
@@ -4294,7 +4392,8 @@
             <l n="2180"> más soberanos ministros </l>
             <l> peleando contra ellos. </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> ¿Pues de qué nos han servido </l>
             <l part="I"> tus ciencias? </l>
@@ -4304,7 +4403,8 @@
             <l part="F"> A retirar, </l>
             <l part="I"> soldados. </l>
           </sp>
-          <stage> Otra vez música, cajas y tempestad, y representa Anastasio procurando cerrar la jornada todos. </stage>
+          <stage> Otra vez música, cajas y tempestad, y representa Anastasio procurando cerrar la
+            jornada todos. </stage>
           <sp who="#heraclio">
             <speaker> HERACLIO </speaker>
             <l part="F"> ¡Que huyen, seguidlos! </l>
@@ -4319,7 +4419,8 @@
             <l n="2190"> y así confieso y publico </l>
             <l> con la voz de los cristianos... </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> ¡Viva la gran cruz de Cristo! </l>
           </sp>
@@ -4329,7 +4430,8 @@
       <div n="3" type="act">
         <div type="scene" resp="#rojas" n="1">
           <head> Jornada III </head>
-          <stage> Suena otra vez la tempestad con que acabó la segunda jornada y salen como asombrados Clodomira y Zacarías. Truenos. </stage>
+          <stage> Suena otra vez la tempestad con que acabó la segunda jornada y salen como
+            asombrados Clodomira y Zacarías. Truenos. </stage>
           <sp who="#zacarias">
             <speaker> ZACARÍAS </speaker>
             <l part="I"> Clodomira. </l>
@@ -4497,7 +4599,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage> Sale Cosdroas furioso, y huyendo dél algunos soldados, y Siroes, Menardes y Anastasio. </stage>
+          <stage> Sale Cosdroas furioso, y huyendo dél algunos soldados, y Siroes, Menardes y
+            Anastasio. </stage>
           <sp who="#cosdroas">
             <speaker> COSDROAS </speaker>
             <l part="F"> Huid de mí </l>
@@ -4515,7 +4618,8 @@
             <speaker> ANASTASIO </speaker>
             <l part="I"> Considera... </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l part="M"> Mira... </l>
           </sp>
@@ -4943,7 +5047,9 @@
             <l> que den fin desdichas tantas? </l>
             <l n="2475"> De lo que a vos os pregunto </l>
             <l> me dan respuesta las cajas, </l>
-            <stage> Tocan a marchar. Cajas y trompetas, ábrese una tienda de campaña, y vese en ella Cosdroas sentado en un trono con laurel y bastoncillo; a sus lados, Siroes y Menardes, en asientos más bajos y los más que pudieren al paño. </stage>
+            <stage> Tocan a marchar. Cajas y trompetas, ábrese una tienda de campaña, y vese en ella
+              Cosdroas sentado en un trono con laurel y bastoncillo; a sus lados, Siroes y Menardes,
+              en asientos más bajos y los más que pudieren al paño. </stage>
             <l> por buen agüero lo tomo, </l>
             <l> pues es decir que ya marcha </l>
             <l> el consuelo al compás mismo </l>
@@ -5014,7 +5120,8 @@
             <l part="I"> ¡Viva Menardes! </l>
           </sp>
           <stage> Levántase, pónele su corona y bájase del trono y Menardes se sienta en él. </stage>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l part="F"> ¡Menardes </l>
             <l part="I"> viva! </l>
@@ -5124,13 +5231,15 @@
             <l n="2610"> al son de músicas varias, </l>
             <l part="I"> ¡viva el gran Menardes! </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l part="F"> ¡Viva! </l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage> Éntranse con la majestad mayor que puedan, haciéndole to- dos reverencias y quédanse Clodomira y Siroes. </stage>
+          <stage> Éntranse con la majestad mayor que puedan, haciéndole to- dos reverencias y
+            quédanse Clodomira y Siroes. </stage>
           <sp who="#siroes">
             <speaker> SIROES </speaker>
             <l> ¿Qué es esto que por mí pasa? </l>
@@ -5398,7 +5507,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage> Sale Flora hablando de adentro, y Siroes y Clodomira ves- tidos de villanos, con bandas en los rostros. </stage>
+          <stage> Sale Flora hablando de adentro, y Siroes y Clodomira ves- tidos de villanos, con
+            bandas en los rostros. </stage>
           <sp who="#flora">
             <speaker> FLORA </speaker>
             <l part="F"> Aquí </l>
@@ -5932,7 +6042,8 @@
             <l part="F"> ¡Siroes viva! </l>
           </sp>
           <stage> Dentro cajas. </stage>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l part="I"> ¡Traición, traición! </l>
           </sp>
@@ -5993,7 +6104,8 @@
             <l part="F"> ¡Siroes viva! </l>
           </sp>
           <stage> Arma. </stage>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l> ¡Arma, arma, guerra, guerra! </l>
           </sp>
@@ -6005,7 +6117,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage> Riñendo con todos sale por otra parte Menardes huyendo, y Siroes tras dél: él se pone detrás de Cosdroas, hace como que le defiende. </stage>
+          <stage> Riñendo con todos sale por otra parte Menardes huyendo, y Siroes tras dél: él se
+            pone detrás de Cosdroas, hace como que le defiende. </stage>
           <sp who="#clodomira">
             <speaker> CLODOMIRA </speaker>
             <l> Todo eso es volverle a dar </l>
@@ -6140,7 +6253,8 @@
             <l> Pues que vencidos nos vemos, </l>
             <l> a la piedad apelemos. </l>
           </sp>
-          <sp who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
+          <sp
+            who="#menardes #anastasio #unos #otros #cosdroas #zacarias #voz #morlaco #musicos #heraclio #irene #arnesto #libio #flora #clodomira #dentro #angel-1 #angel-2 #soldado #uno">
             <speaker> TODOS </speaker>
             <l n="3160"> ¡Viva Heraclio y Siroes viva! </l>
           </sp>
@@ -6462,7 +6576,16 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage> Suenan las chirimías, y baja una nube con dos ángeles; toman a Anastasio de las manos y suben hasta la mitad del teatro, y como dicen los versos, por el palenque de enfrente suenan otras chirimías y salen Cosdroas y Menardes vestidos de cautivos, Clodomira y Siroes de gala, Irene, Libio, Flora y Morlaco, trayendo en las manos algunos vasos de oro. Después Zacarías vestido de pontifical, y detrás de todo el acompañamiento, Heraclio con manto imperial y corona de emperador, trayendo la cruz. Cuando vienen entrando por el palenque se abre la montaña, y se ve la ciudad de Jerusalén, con el altar adornado de luces, y las dos estatuas de Elena y Costantino, y por debajo de tierra, en la frente del tablado se levanta una portada grande, como que es la puerte de Jerusalén. </stage>
+          <stage> Suenan las chirimías, y baja una nube con dos ángeles; toman a Anastasio de las
+            manos y suben hasta la mitad del teatro, y como dicen los versos, por el palenque de
+            enfrente suenan otras chirimías y salen Cosdroas y Menardes vestidos de cautivos,
+            Clodomira y Siroes de gala, Irene, Libio, Flora y Morlaco, trayendo en las manos algunos
+            vasos de oro. Después Zacarías vestido de pontifical, y detrás de todo el
+            acompañamiento, Heraclio con manto imperial y corona de emperador, trayendo la cruz.
+            Cuando vienen entrando por el palenque se abre la montaña, y se ve la ciudad de
+            Jerusalén, con el altar adornado de luces, y las dos estatuas de Elena y Costantino, y
+            por debajo de tierra, en la frente del tablado se levanta una portada grande, como que
+            es la puerte de Jerusalén. </stage>
           <sp who="#angel-1">
             <speaker> [ÁNGEL] 1 </speaker>
             <l> Anastasio, habiendo oído </l>
@@ -6631,7 +6754,8 @@
             <l> en cuya exaltación todos </l>
             <l> decid, cantando y tañendo. </l>
           </sp>
-          <stage> Con esta música de todos vuelven las chirimías y se cierra la montaña, y vuelven los ángeles a dejar en el tablado a Anastasio, y ellos vuelven a subir en la nube. </stage>
+          <stage> Con esta música de todos vuelven las chirimías y se cierra la montaña, y vuelven
+            los ángeles a dejar en el tablado a Anastasio, y ellos vuelven a subir en la nube. </stage>
           <sp who="#musicos">
             <speaker> MÚSICOS </speaker>
             <l> En hora dichosa vuelva </l>

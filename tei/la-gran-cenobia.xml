@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000116" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-29">
@@ -38,7 +39,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, La Gran Cenobia. En: Comedias, Vol. 1. Dirección de Luis Iglesias Feijoo. Madrid : Fundación José Antonio de Castro, 2006</title>
+          <title>Pedro Calderón de la Barca, La Gran Cenobia. En: Comedias, Vol. 1. Dirección de
+            Luis Iglesias Feijoo. Madrid : Fundación José Antonio de Castro, 2006</title>
           <idno type="ISBN">978-84-96452-28-2</idno>
         </bibl>
       </sourceDesc>
@@ -48,14 +50,21 @@
         <listPerson>
           <person xml:id="aureliano" sex="MALE">
             <persName>Aureliano</persName>
+            <idno type="wikidata">Q46780</idno>
             <trait source="#calderondigital">
               <desc>emperador</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="decio" sex="MALE">
             <persName>Decio</persName>
             <trait source="#calderondigital">
               <desc>general</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="persio" sex="MALE">
@@ -66,23 +75,39 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldados-aureliano" sex="MALE">
             <persName>Persio Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libio" sex="MALE">
             <persName>Libio Infante</persName>
             <trait source="#calderondigital">
               <desc>traidor</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="capitán" sex="MALE">
             <persName>Un Capitán</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cenobia" sex="FEMALE">
             <persName>Cenobia Reina</persName>
+            <idno type="wikidata">Q189705</idno>
             <trait resp="#rojas">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="astrea" sex="FEMALE">
@@ -90,36 +115,63 @@
             <trait source="#calderondigital">
               <desc>profetisa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="irene" sex="FEMALE">
             <persName>Irene</persName>
             <trait source="#calderondigital">
               <desc>enamorada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-romano-1" sex="MALE">
             <persName>Soldado Romano 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-romano-2" sex="MALE">
             <persName>Soldado Romano 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-cenobia-1" sex="MALE">
             <persName>Soldado de Cenobia 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-cenobia-2" sex="MALE">
             <persName>Soldado de Cenobia 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-cenobia-3" sex="MALE">
             <persName>Soldado de Cenobia 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="crotilda" sex="FEMALE">
             <persName>Crotilda</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="villano-1" sex="MALE">
             <persName>Un Villano</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -128,17 +180,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -230,7 +285,8 @@
             <l>está sobre estas peñas y el dorado</l>
             <l>cetro más adelante.</l>
             <l>Enigmas son de mi discurso errante</l>
-            <stage type="object">Descúbrese sobre un peñasco la corona y el cetro en una rama.</stage>
+            <stage type="object">Descúbrese sobre un peñasco la corona y el cetro en una
+              rama.</stage>
             <l>tan declaradas señas,</l>
             <l>si no es que, en vez de troncos, estas peñas</l>
             <l>cetros dan y ellos, viendo congojas,</l>
@@ -507,7 +563,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Tocan cajas, y trompetas a marchar, y salen en orden soldados, y Decio detras vestido de luto, o con armas negras, y ponese de rodillas delante del Cesar.</stage>
+          <stage>Tocan cajas, y trompetas a marchar, y salen en orden soldados, y Decio detras
+            vestido de luto, o con armas negras, y ponese de rodillas delante del Cesar.</stage>
           <sp who="#decio">
             <speaker rend="caps">Decio</speaker>
 
@@ -2467,7 +2524,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Tocan cajas y trompetas, y metiendo mano se entran como de guerra, y salen por otra parte Aureliano, Astrea, el Capitán y soldados, y Decio cubierto el rostro con la banda de Cenobia.</stage>
+          <stage>Tocan cajas y trompetas, y metiendo mano se entran como de guerra, y salen por otra
+            parte Aureliano, Astrea, el Capitán y soldados, y Decio cubierto el rostro con la banda
+            de Cenobia.</stage>
           <sp who="#astrea">
             <speaker rend="caps">Astrea</speaker>
 
@@ -2506,7 +2565,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Dase la batalla, saliendo, y entrando dos veces, y salen huyendo Aureliano, y Astrea.</stage>
+          <stage>Dase la batalla, saliendo, y entrando dos veces, y salen huyendo Aureliano, y
+            Astrea.</stage>
           <sp who="#astrea">
             <speaker rend="caps">Astrea</speaker>
 
@@ -2587,7 +2647,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Vanse, y tocan al arma, sale Cenobia con la espada desnuda, con una banda en el brazo.</stage>
+          <stage>Vanse, y tocan al arma, sale Cenobia con la espada desnuda, con una banda en el
+            brazo.</stage>
           <sp who="#cenobia">
             <speaker rend="caps">Cenobia</speaker>
 
@@ -2860,7 +2921,8 @@
             <l>tanto puede quien desea</l>
             <l>la vida.</l>
           </sp>
-          <stage>Sacala en brazos, toda herida, y llena de polvo, y el rostro lleno de sangre, como despeñada.</stage>
+          <stage>Sacala en brazos, toda herida, y llena de polvo, y el rostro lleno de sangre, como
+            despeñada.</stage>
           <sp who="#decio">
             <speaker rend="caps">Decio</speaker>
 
@@ -3762,7 +3824,8 @@
             <l>¡Qué terrible aprehensión!</l>
             <l>Mas ¿qué es esto?</l>
           </sp>
-          <stage>Llegan, y cogenla por detras, y atanla las manos, y echanla una banda en el rostro.</stage>
+          <stage>Llegan, y cogenla por detras, y atanla las manos, y echanla una banda en el
+            rostro.</stage>
           <sp who="#libio">
             <speaker rend="caps">Libio</speaker>
 
@@ -3880,7 +3943,8 @@
             <l>las trompetas suaves,</l>
             <l>cuyo compás con bajas</l>
             <l>voces repiten las templadas cajas.</l>
-            <stage>Van saliendo los soldados, y despues Cenobia atadas las manos, cubierto el rostro, y luego la descubren, y se hinca de rodillas.</stage>
+            <stage>Van saliendo los soldados, y despues Cenobia atadas las manos, cubierto el
+              rostro, y luego la descubren, y se hinca de rodillas.</stage>
             <l>Y ya a Cenobia veo,</l>
             <l>que entre desdichas tantas</l>
             <l>besa, humilde, mis plantas.</l>
@@ -4195,7 +4259,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Suena la musica, y entran soldados delante, y detras un carro triunfal, en el qual viene Aureliano Emperador, y a sus pies Cenobia muy bizarra atadas las manos, y tirando el carro cautivos, y detras gente.</stage>
+          <stage>Suena la musica, y entran soldados delante, y detras un carro triunfal, en el qual
+            viene Aureliano Emperador, y a sus pies Cenobia muy bizarra atadas las manos, y tirando
+            el carro cautivos, y detras gente.</stage>
           <sp who="#dentro">
             <speaker rend="caps">Dentro</speaker>
 
@@ -5136,7 +5202,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Vanse, y descubren un trono, y en el sentado Aureliano, y algunos soldados, y el Capitán con memoriales de todos, y un bufete a bajo con papel, y recado de escribir.</stage>
+          <stage>Vanse, y descubren un trono, y en el sentado Aureliano, y algunos soldados, y el
+            Capitán con memoriales de todos, y un bufete a bajo con papel, y recado de
+            escribir.</stage>
           <sp who="#aureliano">
             <speaker rend="caps">Aureliano</speaker>
 
@@ -5274,7 +5342,8 @@
             <stage>Aparte.</stage>
             <l>Ahora puedes llegar.</l>
           </sp>
-          <stage>Va Libio a darle con la daga, y atemorizasse, y detiene el brazo, y Aureliano se estremece como dormido, y retirase Libio.</stage>
+          <stage>Va Libio a darle con la daga, y atemorizasse, y detiene el brazo, y Aureliano se
+            estremece como dormido, y retirase Libio.</stage>
           <sp who="#aureliano">
             <speaker rend="caps">Aureliano</speaker>
 
@@ -5638,7 +5707,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="20">
-          <stage>Coronanle, y vanle besando los pies, y manos, y sale Astrea con Cenobia, y todos.</stage>
+          <stage>Coronanle, y vanle besando los pies, y manos, y sale Astrea con Cenobia, y
+            todos.</stage>
           <sp who="#decio">
             <speaker rend="caps">Decio</speaker>
 

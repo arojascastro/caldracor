@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000163" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/18195</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ana Suárez Miramón, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2003. ISBN: 3-935004-45-1.</title>
+            <title>Edición digital a partir de la edición de Ana Suárez Miramón, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 2003. ISBN: 3-935004-45-1.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,57 +49,108 @@
         <listPerson>
           <person sex="FEMALE" xml:id="fama">
             <persName>Fama</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="buen-genio">
             <persName>Buen Genio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="malicia">
             <persName>Malicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="mal-genio">
             <persName>Mal Genio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gracia">
             <persName>Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="padre">
             <persName>Padre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="inocencia">
             <persName>Inocencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="culpa">
             <persName>Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gula">
             <persName>Gula</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="lascivia">
             <persName>Lascivia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="mundo">
             <persName>Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="soberbia">
             <persName>Soberbia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="humildad">
             <persName>Humildad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="desengano">
             <persName>Desengaño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="penitencia">
             <persName>Penitencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="herejia">
             <persName>Herejía</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1</persName>
@@ -113,17 +165,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -138,7 +193,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000163" passive="http://www.wikidata.org/entity/Q5492719"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000163"
+        passive="http://www.wikidata.org/entity/Q5492719"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -169,7 +225,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale la FAMA por lo alto en una apariencia que pase de un lado a otro, despacio, cantando y dentro la MÚSICA</stage>
+          <stage>Sale la FAMA por lo alto en una apariencia que pase de un lado a otro, despacio,
+            cantando y dentro la MÚSICA</stage>
           <sp who="#fama">
             <speaker>FAMA</speaker>
             <l>¡Oíd, mortales, oíd,</l>
@@ -1788,7 +1845,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Sale la SOBERBIA con un sombrero de plumas en la mano y una pieza de tela, como cogida</stage>
+          <stage>Sale la SOBERBIA con un sombrero de plumas en la mano y una pieza de tela, como
+            cogida</stage>
           <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>¿Quién eres tú, que vienes la primera?</l>
@@ -2156,7 +2214,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="30">
-          <stage>Vase el MUNDO y salen el BUEN GENIO y la INOCENCIA, y por otra parte, el MAL GENIO y la MALICIA</stage>
+          <stage>Vase el MUNDO y salen el BUEN GENIO y la INOCENCIA, y por otra parte, el MAL GENIO
+            y la MALICIA</stage>
           <sp who="#buen-genio">
             <speaker>BUEN GENIO</speaker>
             <l>¡Qué hermosa que está la plaza</l>
@@ -3514,7 +3573,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="44">
-          <stage>Salen por diferentes partes el BUEN GENIO y el MAL GENIO, GULA, CULPA, INOCENCIA y la FE</stage>
+          <stage>Salen por diferentes partes el BUEN GENIO y el MAL GENIO, GULA, CULPA, INOCENCIA y
+            la FE</stage>
           <sp who="#buen-genio">
             <speaker>BUEN GENIO</speaker>
             <l n="1520">Dame tu mano a besar.</l>
@@ -3614,7 +3674,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="45">
-          <stage>Descúbrese un trono y siéntanse los dos y las VIRTUDES, quedando en medio el PADRE</stage>
+          <stage>Descúbrese un trono y siéntanse los dos y las VIRTUDES, quedando en medio el
+            PADRE</stage>
           <sp who="#padre">
             <speaker>PADRE</speaker>
             <l>Llega a mis brazos y ven</l>
@@ -3673,7 +3734,10 @@
             <l>de los Genios el talento</l>
             <l>y El gran mercado del mundo.</l>
           </sp>
-          <stage>Al principio de estos versos se abre un escotillón y salen llamas de fuego y se hunde el MAL GENIO y la CULPA, abrazados como estaban, y los cuatro últimos versos vuelve a repetir la MÚSICA y el trono se eleva y se tocan chirimías y demás instrumentos, con que se da fin al auto</stage>
+          <stage>Al principio de estos versos se abre un escotillón y salen llamas de fuego y se
+            hunde el MAL GENIO y la CULPA, abrazados como estaban, y los cuatro últimos versos
+            vuelve a repetir la MÚSICA y el trono se eleva y se tocan chirimías y demás
+            instrumentos, con que se da fin al auto</stage>
         </div>
       </div>
     </body>

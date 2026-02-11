@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000093" xml:lang="es">
   <teiHeader>
@@ -33,9 +33,12 @@
       <sourceDesc>
         <bibl type="sourceText">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-mayor-encanto-amor--6/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-mayor-encanto-amor--6/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Segunda parte de Comedias de Don Pedro Calderón de la Barca, Madrid, Por María de Quiñónez, 1637. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title>Edición digital a partir de la Segunda parte de Comedias de Don Pedro Calderón de
+              la Barca, Madrid, Por María de Quiñónez, 1637. Localización: Base de Datos Teatro
+              Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -45,8 +48,12 @@
         <listPerson>
           <person xml:id="ulises" sex="MALE">
             <persName>Ulises</persName>
+            <idno type="wikidata">Q47231</idno>
             <trait source="#calderondigital">
               <desc>héroe</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="antistes" sex="MALE">
@@ -54,11 +61,17 @@
             <trait source="#calderondigital">
               <desc>compañero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="arquelao" sex="MALE">
             <persName>Arquelao</persName>
             <trait source="#calderondigital">
               <desc>compañero</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lebrel" sex="MALE">
@@ -66,11 +79,17 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="polidoro" sex="MALE">
             <persName>Polidoro</persName>
             <trait source="#calderondigital">
               <desc>compañero</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="timantes" sex="MALE">
@@ -78,11 +97,17 @@
             <trait source="#calderondigital">
               <desc>compañero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="floro" sex="MALE">
             <persName>Floro</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clarín" sex="MALE">
@@ -90,11 +115,17 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="arsidas" sex="MALE">
             <persName>Arsidas</persName>
             <trait source="#calderondigital">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lisidas" sex="MALE">
@@ -102,11 +133,18 @@
             <trait source="#calderondigital">
               <desc>amante</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="circe" sex="FEMALE">
             <persName>Circe</persName>
+            <idno type="wikidata">Q187602</idno>
             <trait source="#calderondigital">
               <desc>maga</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="flérida" sex="FEMALE">
@@ -114,17 +152,27 @@
             <trait source="#calderondigital">
               <desc>amante</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
             <persName>Libia</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="iris" sex="FEMALE">
             <persName>Iris</persName>
+            <idno type="wikidata">Q184570</idno>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="casimira" sex="FEMALE">
@@ -132,11 +180,17 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tisbe" sex="FEMALE">
             <persName>Tisbe</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
@@ -144,11 +198,18 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="galatea" sex="FEMALE">
             <persName>Galatea</persName>
+            <idno type="wikidata">Q241070</idno>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
@@ -156,11 +217,17 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="brutamonte" sex="MALE">
             <persName>Brutamonte</persName>
             <trait source="#calderondigital">
               <desc>gigante</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="dueña" sex="FEMALE">
@@ -168,26 +235,42 @@
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="enano" sex="MALE">
             <persName>Enano</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="aquiles" sex="MALE">
             <persName>Aquiles</persName>
+            <idno type="wikidata">Q12152</idno>
             <trait source="#calderondigital">
               <desc>héroe</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="soldado" sex="MALE">
             <persName>Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="astrea">
             <persName>Astrea</persName>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
@@ -200,17 +283,20 @@
           <term source="dracor" type="genreTitle">comedia</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -260,7 +346,8 @@
       <div type="act" n="1">
         <head>Jornada I</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Tocan un clarín y descúbrese un navío, y en él ULISES, ANTISTES, ARQUELAO, LEBREL, POLIDORO, TIMANTES, FLORO y CLARÍN.</stage>
+          <stage>Tocan un clarín y descúbrese un navío, y en él ULISES, ANTISTES, ARQUELAO, LEBREL,
+            POLIDORO, TIMANTES, FLORO y CLARÍN.</stage>
           <sp who="#antistes">
             <speaker>ANTISTES</speaker>
             <l> En vano forcejamos, </l>
@@ -852,7 +939,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Sale CIRCE, ASTREA, LIBIA, CASIMIRA, TISBE, CLORI y todas las músicas y músicos. Trae ASTREA un vaso y salva, y LIBIA una toalla, y cantan.</stage>
+          <stage>Sale CIRCE, ASTREA, LIBIA, CASIMIRA, TISBE, CLORI y todas las músicas y músicos.
+            Trae ASTREA un vaso y salva, y LIBIA una toalla, y cantan.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l> En hora dichosa venga </l>
@@ -1654,7 +1742,8 @@
       <div type="act" n="2">
         <head>Jornada II</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Descubre un palacio muy suntuoso, y van saliendo todas las damas por diferentes partes y llegan a la puerta, y sale CIRCE.</stage>
+          <stage>Descubre un palacio muy suntuoso, y van saliendo todas las damas por diferentes
+            partes y llegan a la puerta, y sale CIRCE.</stage>
           <sp who="#libia">
             <speaker>LIBIA</speaker>
             <l> Señora, ¿qué llanto es este? </l>
@@ -2193,7 +2282,8 @@
             <l> Flérida: a entablar empieza </l>
             <l part="I"> lo que has de fingir. </l>
           </sp>
-          <stage>Van tomando lugares las damas y los galanes, y ULISES se sienta en medio de CIRCE y FLÉRIDA.</stage>
+          <stage>Van tomando lugares las damas y los galanes, y ULISES se sienta en medio de CIRCE y
+            FLÉRIDA.</stage>
           <sp who="#flérida">
             <speaker>FLÉRIDA</speaker>
             <l part="F">Aquí </l>
@@ -3717,7 +3807,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="28">
-          <stage>De debajo del tablado sale una mesa muy compuesta y con luces, y siéntanse ULISES y CIRCE y ARSIDAS, y las demás en el suelo.</stage>
+          <stage>De debajo del tablado sale una mesa muy compuesta y con luces, y siéntanse ULISES y
+            CIRCE y ARSIDAS, y las demás en el suelo.</stage>
           <sp who="#circe">
             <speaker>CIRCE</speaker>
             <l> ¡Hola, cantad, cantad! Y divertido </l>
@@ -3964,7 +4055,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="30">
-          <stage>Salen todas las fieras y pónense al lado de ARSIDAS, y los griegos al lado de ULISES.</stage>
+          <stage>Salen todas las fieras y pónense al lado de ARSIDAS, y los griegos al lado de
+            ULISES.</stage>
           <sp who="#ulises">
             <speaker>ULISES</speaker>
             <l> Aunque a tus voces se muevan </l>
@@ -4076,7 +4168,8 @@
             <speaker>CLARÍN</speaker>
             <l> ¡Todo se hunde con nosotros! </l>
           </sp>
-          <stage>Húndese la mesa y los dos graciosos sobre ella, y con la batalla, a escuras, se van todos.</stage>
+          <stage>Húndese la mesa y los dos graciosos sobre ella, y con la batalla, a escuras, se van
+            todos.</stage>
         </div>
 
 
@@ -5235,7 +5328,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Dase la batalla, y retíranse los hombres; y luego sale LEBREL y CLARÍN de mona.</stage>
+          <stage>Dase la batalla, y retíranse los hombres; y luego sale LEBREL y CLARÍN de
+            mona.</stage>
           <sp who="#lebrel">
             <speaker>LEBREL</speaker>
             <l> Pues nos dejó Circe y pues </l>
@@ -5670,7 +5764,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Vanse, y salen marchando todas las damas, y traen presos a ARSIDAS y LISIDAS.</stage>
+          <stage>Vanse, y salen marchando todas las damas, y traen presos a ARSIDAS y
+            LISIDAS.</stage>
           <sp who="#circe">
             <speaker>CIRCE</speaker>
             <l n="875"> Hagan salva a mis palacios </l>
@@ -5839,7 +5934,8 @@
         </div>
         <div type="scene" resp="#rojas" n="16">
           <stage>Sale fuego del agua.</stage>
-          <stage>Serénese el mar y sale por él, en un carro triunfal, GALATEA; tíranle dos sirenas y al rededor muchos tritones con instrumentos.</stage>
+          <stage>Serénese el mar y sale por él, en un carro triunfal, GALATEA; tíranle dos sirenas y
+            al rededor muchos tritones con instrumentos.</stage>
           <sp who="#galatea">
             <speaker>GALATEA</speaker>
             <l> Sí habrá; y quien serene el mar </l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000142" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, No hay burlas con el amor. En: Comedias, Vol. 5. Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, No hay burlas con el amor. En: Comedias, Vol. 5.
+            Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza. Madrid : Fundación José
+            Antonio de Castro, 2010</title>
           <idno type="ISBN">978-84-96452-94-7</idno>
         </bibl>
       </sourceDesc>
@@ -51,11 +54,17 @@
             <trait source="#calderondigital">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-juan" sex="MALE">
             <persName>Don Juan de Mendoza</persName>
             <trait source="#calderondigital">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="moscatel" sex="MALE">
@@ -63,11 +72,17 @@
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-luis" sex="MALE">
             <persName>Don Luis</persName>
             <trait source="#calderondigital">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="don-diego" sex="MALE">
@@ -75,11 +90,17 @@
             <trait source="#calderondigital">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-pedro" sex="MALE">
             <persName>Don Pedro Enríquez</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="beatriz" sex="FEMALE">
@@ -87,17 +108,26 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="inés" sex="FEMALE">
             <persName>Inés</persName>
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
             <persName>Leonor</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
         </listPerson>
@@ -107,17 +137,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -135,7 +168,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000142" passive="http://www.wikidata.org/entity/Q6043775"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000142"
+        passive="http://www.wikidata.org/entity/Q6043775"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -831,7 +865,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>(Vanse DON JUAN y DON ALONSO, y salen DON LUIS y DON DIEGO por la otra puerta.)</stage>
+          <stage>(Vanse DON JUAN y DON ALONSO, y salen DON LUIS y DON DIEGO por la otra
+            puerta.)</stage>
           <sp who="#don-luis">
             <speaker rend="caps">Don Luis</speaker>
 
@@ -2471,7 +2506,8 @@
             <l>Espera;</l>
             <l>le leeré.</l>
           </sp>
-          <stage>(Lee DON JUAN, y entre tanto se pone MOSCATEL en medio de DON ALONSO y de INÉS.)</stage>
+          <stage>(Lee DON JUAN, y entre tanto se pone MOSCATEL en medio de DON ALONSO y de
+            INÉS.)</stage>
           <sp who="#don-alonso">
             <speaker rend="caps">Don Alonso</speaker>
 
@@ -3215,7 +3251,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>(Sale DON PEDRO al paño detrás de BEATRIZ y de cara a LEONOR, ella le ve y él se recata.)</stage>
+          <stage>(Sale DON PEDRO al paño detrás de BEATRIZ y de cara a LEONOR, ella le ve y él se
+            recata.)</stage>
           <sp who="#don-pedro">
             <speaker rend="caps">Don Pedro</speaker>
 
@@ -4524,7 +4561,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>(Entran en la alacena, quiébranse vidrios y salen DON PEDRO, LEONOR y DON JUAN.)</stage>
+          <stage>(Entran en la alacena, quiébranse vidrios y salen DON PEDRO, LEONOR y DON
+            JUAN.)</stage>
           <sp who="#inés">
             <speaker rend="caps">Inés</speaker>
 

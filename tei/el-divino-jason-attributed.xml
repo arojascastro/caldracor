@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000160" xml:lang="es">
   <teiHeader>
@@ -37,7 +37,9 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ignacio Arellano y Ángel L. Cilveti, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 1992. ISBN: 3-928064-34-7.</title>
+            <title>Edición digital a partir de la edición de Ignacio Arellano y Ángel L. Cilveti,
+              Pamplona–Kassel, Universidad de Navarra– Reichenberger, 1992. ISBN:
+              3-928064-34-7.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,8 +49,16 @@
         <listPerson>
           <person sex="MALE" xml:id="jason">
             <persName>Jasón</persName>
+            <idno type="alternative_wikidata">Q302</idno>
+            <idno type="wikidata">Q176758</idno>
             <trait source="castlist">
               <desc>que es cristo</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="argos">
@@ -56,20 +66,39 @@
             <trait source="castlist">
               <desc>amor divino</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Cantan</persName>
           </personGrp>
           <person sex="MALE" xml:id="hercules">
             <persName>Hércules</persName>
+            <idno type="alternative_wikidata">Q33923</idno>
+            <idno type="wikidata">Q240679</idno>
             <trait source="castlist">
               <desc>san pedro</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="teseo">
             <persName>Teseo</persName>
+            <idno type="alternative_wikidata">Q43399</idno>
+            <idno type="wikidata">Q1320718</idno>
             <trait source="castlist">
               <desc>san andrés</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="idolatria">
@@ -77,11 +106,17 @@
             <trait source="castlist">
               <desc>luzbel</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="medea">
             <persName>Medea</persName>
             <trait source="castlist">
               <desc>que es el alma</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="rey">
@@ -92,11 +127,22 @@
             <trait source="castlist">
               <desc>el mundo</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="orfeo">
             <persName>Orfeo</persName>
+            <idno type="alternative_wikidata">Q40662</idno>
+            <idno type="wikidata">Q174353</idno>
             <trait source="castlist">
               <desc>san juan bautista</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
         </listPerson>
@@ -106,17 +152,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -252,7 +301,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Salen HÉRCULES y TESEO, que son SAN PEDRO y SAN ANDRÉS con una aspa y una llave grande PEDRO.</stage>
+          <stage>Salen HÉRCULES y TESEO, que son SAN PEDRO y SAN ANDRÉS con una aspa y una llave
+            grande PEDRO.</stage>
           <sp who="#hercules">
             <speaker>HÉRCULES</speaker>
             <l>Si significa Jasón</l>
@@ -677,7 +727,8 @@
             <l>anegaré sus pilotos</l>
             <l>y pondré el Olimpo encima.</l>
           </sp>
-          <stage>Aparece la nave con chirimías, y en ella JASÓN, HÉRCULES, TESEO y ORFEO, que es el BAUTISTA, como le pintan, con sus pieles.</stage>
+          <stage>Aparece la nave con chirimías, y en ella JASÓN, HÉRCULES, TESEO y ORFEO, que es el
+            BAUTISTA, como le pintan, con sus pieles.</stage>
           <sp who="#hercules">
             <speaker>HÉRCULES</speaker>
             <l>Tierra nos muestra un celaje;</l>
@@ -916,7 +967,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Ponen un arco de colores con una Cruz en la proa de la nave, y vanse tocando al arma los del bajel, y los de abajo tocan cajas y clarines y luego chirimías. Quédase la IDOLATRÍA.</stage>
+          <stage>Ponen un arco de colores con una Cruz en la proa de la nave, y vanse tocando al
+            arma los del bajel, y los de abajo tocan cajas y clarines y luego chirimías. Quédase la
+            IDOLATRÍA.</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l n="555">Pasó la tempestad; ya está serena</l>
@@ -954,7 +1007,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Salen por la otra puerta JASÓN y los suyos, y por laotra MEDEA, y quédase la IDOLATRÍA a la puerta</stage>
+          <stage>Salen por la otra puerta JASÓN y los suyos, y por laotra MEDEA, y quédase la
+            IDOLATRÍA a la puerta</stage>
           <sp who="#jason">
             <speaker>JASÓN</speaker>
             <l>Como en sus playas me vea</l>
@@ -1780,7 +1834,9 @@
             <l>tus pisadas, Jasón fuerte;</l>
             <l n="945">no ha de espantarnos la muerte.</l>
           </sp>
-          <stage>Van subiendo donde estará un árbol con manzanas de oro, y en la copa el Vellocino, que es una corderilla blanca, y al pie del árbol un dragón y un toro y otros animales, que bramen y se meneen horribles.</stage>
+          <stage>Van subiendo donde estará un árbol con manzanas de oro, y en la copa el Vellocino,
+            que es una corderilla blanca, y al pie del árbol un dragón y un toro y otros animales,
+            que bramen y se meneen horribles.</stage>
           <sp who="#jason">
             <speaker>JASÓN</speaker>
             <l>Ya en la lid última estamos;</l>
@@ -1850,7 +1906,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Bajan mientras cantan, y ciérrase la apariencia, y luego suben a la nave cantando, y sale la IDOLATRÍA.</stage>
+          <stage>Bajan mientras cantan, y ciérrase la apariencia, y luego suben a la nave cantando,
+            y sale la IDOLATRÍA.</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l>A esa católica nave</l>
@@ -1963,7 +2020,9 @@
             <l n="1095">en Cáliz, dando a quien ama</l>
             <l>Vellocino verdadero.</l>
           </sp>
-          <stage>Suena música, y córrese una cortina y aparece encima del árbol un cordero corriendo sangre, un Cáliz y una Hostia, y en lugar de manzanas Angeles y Serafines. Han de haber quitado las fieras.</stage>
+          <stage>Suena música, y córrese una cortina y aparece encima del árbol un cordero corriendo
+            sangre, un Cáliz y una Hostia, y en lugar de manzanas Angeles y Serafines. Han de haber
+            quitado las fieras.</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l>Árbol que diste la muerte,</l>
@@ -1989,7 +2048,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Húndese con ruido de cohetes tronadores, y salgan llamas por donde se hundió, con pez.</stage>
+          <stage>Húndese con ruido de cohetes tronadores, y salgan llamas por donde se hundió, con
+            pez.</stage>
           <sp who="#acompanamiento">
             <speaker>CANTAN</speaker>
             <l>El hombre, que era mortal,</l>
@@ -1997,7 +2057,8 @@
             <l>que eterno será, si come</l>
             <l n="1120">ese Cordero legal.</l>
           </sp>
-          <stage>Cúbrese todo, con chirimías, con que se da fin al famoso auto del Divino Jasón.</stage>
+          <stage>Cúbrese todo, con chirimías, con que se da fin al famoso auto del Divino
+            Jasón.</stage>
         </div>
       </div>
     </body>

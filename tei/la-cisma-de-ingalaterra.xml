@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000112" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-29">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, La cisma de Ingalaterra. Edición crítica de Juan Manuel Escudero Baztán. Teatro del Siglo de Oro. Ediciones críticas Vol. 115 Kassel : Edition Reichenberger, 2001</title>
+          <title>Pedro Calderón de la Barca, La cisma de Ingalaterra. Edición crítica de Juan Manuel
+            Escudero Baztán. Teatro del Siglo de Oro. Ediciones críticas Vol. 115 Kassel : Edition
+            Reichenberger, 2001</title>
           <idno type="ISBN">3-935004-20-6</idno>
         </bibl>
       </sourceDesc>
@@ -48,23 +51,38 @@
         <listPerson>
           <person xml:id="rey" sex="MALE">
             <persName>El Rey Enrique Viii</persName>
+            <idno type="wikidata">Q38370</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="volseo" sex="MALE">
             <persName>El Cardenal Volseo</persName>
+            <idno type="wikidata">Q206512</idno>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="carlos" sex="MALE">
             <persName>Carlos</persName>
             <trait source="castlist">
               <desc>embajador</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tomás" sex="MALE">
             <persName>Tomás Boleno</persName>
+            <idno type="wikidata">Q312398</idno>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="dionís" sex="MALE">
@@ -72,48 +90,83 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pasquín" sex="MALE">
             <persName>Pasquín</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="capitán" sex="MALE">
             <persName>Un Capitán</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="reina" sex="FEMALE">
             <persName>La Reina Doña Catalina</persName>
+            <idno type="wikidata">Q162819</idno>
             <trait resp="#rojas">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="ana" sex="FEMALE">
             <persName>Ana Bolena</persName>
+            <idno type="wikidata">Q80823</idno>
             <trait resp="#rojas">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="infanta" sex="FEMALE">
             <persName>La Infanta María</persName>
+            <idno type="wikidata">Q82674</idno>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="margarita" sex="FEMALE">
             <persName>Margarita Polo</persName>
+            <idno type="wikidata">Q241806</idno>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="semeyra" sex="FEMALE">
             <persName>Juana Semeyra</persName>
+            <idno type="wikidata">Q182637</idno>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1°</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 2°</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -122,17 +175,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -175,7 +231,9 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Tocan chirimías, y córrese una cortina; aparece el rey Enrique durmiendo; delante, una mesa con recado de escribir, y a un lado, Ana Bolena. Y dice el rey entre sueños.</stage>
+          <stage>Tocan chirimías, y córrese una cortina; aparece el rey Enrique durmiendo; delante,
+            una mesa con recado de escribir, y a un lado, Ana Bolena. Y dice el rey entre
+            sueños.</stage>
           <sp who="#rey">
             <speaker rend="caps">Rey</speaker>
 
@@ -423,7 +481,8 @@
             <l>cúya la vitoria es, 8</l>
             <l>baje Lutero a mis pies,</l>
             <l>y León suba a mi cabeza.</l>
-            <stage>Por arrojar la carta de Lutero a sus pies y poner la del Pontífice sobre la cabeza, las trueca.</stage>
+            <stage>Por arrojar la carta de Lutero a sus pies y poner la del Pontífice sobre la
+              cabeza, las trueca.</stage>
             <l>Ahora veré lo que dice</l>
             <l>su Santidad. Mas ¿qué es esto?</l>
             <l>En nuevas dudas me ha puesto</l>
@@ -963,7 +1022,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Salen Ana Bolena, su padre un capitán y acompañamiento por un lado; y por otro la reina la infanta María y Margarita Polo.</stage>
+          <stage>Salen Ana Bolena, su padre un capitán y acompañamiento por un lado; y por otro la
+            reina la infanta María y Margarita Polo.</stage>
           <sp who="#ana">
             <speaker rend="caps">Ana</speaker>
 
@@ -1378,7 +1438,7 @@
           <stage>Vase.</stage>
         </div>
         <div type="scene" resp="#rojas" n="15">
-           <stage>Salen Tomás Boleno y Ana Bolena.</stage>
+          <stage>Salen Tomás Boleno y Ana Bolena.</stage>
           <sp who="#tomás">
             <speaker rend="caps">Tomás</speaker>
 
@@ -1706,7 +1766,8 @@
           <stage>Vase.</stage>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Salen el rey, Volseo, la reina, la infanta y damas, y el rey, en viendo a Ana Bolena, se turba.</stage>
+          <stage>Salen el rey, Volseo, la reina, la infanta y damas, y el rey, en viendo a Ana
+            Bolena, se turba.</stage>
           <sp who="#ana">
             <speaker rend="caps">Ana</speaker>
 
@@ -3483,7 +3544,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Salen las damas, córrese una cortina y estarán sentados el rey y la reina con coronas y cetros y la infanta sentada junto a la reina, y Volseo detrás del rey, en pie.</stage>
+          <stage>Salen las damas, córrese una cortina y estarán sentados el rey y la reina con
+            coronas y cetros y la infanta sentada junto a la reina, y Volseo detrás del rey, en
+            pie.</stage>
           <sp who="#carlos">
             <speaker rend="caps">Carlos</speaker>
 
@@ -4032,7 +4095,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Vanse y sale Volseo, arrojando a unos soldados que traen memoriales y Pasquín.</stage>
+          <stage>Vanse y sale Volseo, arrojando a unos soldados que traen memoriales y
+            Pasquín.</stage>
           <sp who="#volseo">
             <speaker rend="caps">Volseo</speaker>
 
@@ -5664,7 +5728,9 @@
           <stage>Vase.</stage>
         </div>
         <div type="scene" resp="#rojas" n="31">
-          <stage>Tocan chirimías y clarines y salen a la jura los que pudieren y el rey y la infanta, que suben en un trono a cuyos pies en lugar de almohada ha de estar el cuerpo de Ana Bolena, cubierto con un tafetán y en estando sentados la descubren.</stage>
+          <stage>Tocan chirimías y clarines y salen a la jura los que pudieren y el rey y la
+            infanta, que suben en un trono a cuyos pies en lugar de almohada ha de estar el cuerpo
+            de Ana Bolena, cubierto con un tafetán y en estando sentados la descubren.</stage>
           <sp who="#infanta">
             <speaker rend="caps">Infanta</speaker>
 

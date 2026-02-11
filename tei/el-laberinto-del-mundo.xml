@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000164" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,9 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Juan Manuel Escudero Baztán, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2015. ISBN: 978-3-944244-36-5</title>
+            <title>Edición digital a partir de la edición de Juan Manuel Escudero Baztán,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2015. ISBN:
+              978-3-944244-36-5</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,27 +50,51 @@
         <listPerson>
           <person sex="MALE" xml:id="furor">
             <persName>Furor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hombre">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="malicia">
             <persName>Malicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="envidia">
             <persName>Envidia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="teos">
             <persName>Teos</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="caridad">
             <persName>Caridad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="inociencia">
             <persName>Inociencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="esperanza">
             <persName>Esperanza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1.º</persName>
@@ -81,21 +107,43 @@
           </personGrp>
           <person sex="FEMALE" xml:id="mentira">
             <persName>Mentira</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="verdad">
             <persName>Verdad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="culpa">
             <persName>Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="mundo">
             <persName>Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="teseo">
             <persName>Teseo</persName>
+            <idno type="wikidata">Q1320718</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino">
             <persName>Niño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -104,17 +152,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -151,7 +202,11 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>En el primero carro que será una galera negra sobre ondas de llamas, pintados sus gallardetes dedragones, y por quilla de su proa una serpiente, aparecerá en la proa el Furor, junto al árbol mayor la Envidia y al remo en una banda el Hombre decautivo, y en otra la Malicia y otros cuatro forzados, dos a cada lado, y mientras se representan los primeros versos, da vueltas al tablado.</stage>
+          <stage>En el primero carro que será una galera negra sobre ondas de llamas, pintados sus
+            gallardetes dedragones, y por quilla de su proa una serpiente, aparecerá en la proa el
+            Furor, junto al árbol mayor la Envidia y al remo en una banda el Hombre decautivo, y en
+            otra la Malicia y otros cuatro forzados, dos a cada lado, y mientras se representan los
+            primeros versos, da vueltas al tablado.</stage>
           <sp who="#furor">
             <speaker>FUROR</speaker>
             <l>Amáinese la vela,</l>
@@ -234,7 +289,8 @@
             <l>a quien la ley de su infelice suerte</l>
             <l>llamó a la vida, y destinó a la muerte.</l>
           </sp>
-          <stage>Sube la Envidia en elevación arrimada al árbol mayor y da la vuelta la nave.</stage>
+          <stage>Sube la Envidia en elevación arrimada al árbol mayor y da la vuelta la
+            nave.</stage>
           <sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l n="60">Ya elevada en el viento,</l>
@@ -251,7 +307,9 @@
             <l>quizá del mismo bárbaro desierto;</l>
             <l>pues dice al huracán que la acomete.</l>
           </sp>
-          <stage>Da vuelta la nave que estará fundada sobre ondasde nubarrones azules y sus flámulas encarnadascon hostias y cálices, y vese en la popa Teos de galán, la Caridad en el árbol mayor, y la Inocienciaen la proa, y los músicos de marineros.</stage>
+          <stage>Da vuelta la nave que estará fundada sobre ondasde nubarrones azules y sus flámulas
+            encarnadascon hostias y cálices, y vese en la popa Teos de galán, la Caridad en el árbol
+            mayor, y la Inocienciaen la proa, y los músicos de marineros.</stage>
           <sp who="#teos">
             <speaker>TEOS</speaker>
             <l part="I">¡Amaina la mayor!</l>
@@ -308,7 +366,8 @@
             <l part="F">¿Eso dices tan fría?</l>
             <l>Dilo, pidiendo albricias de alegría.</l>
           </sp>
-          <stage>Dan vueltas la galera y la nave cantando Esperanza y Envidia y respondiendo Furor a cada una.</stage>
+          <stage>Dan vueltas la galera y la nave cantando Esperanza y Envidia y respondiendo Furor a
+            cada una.</stage>
           <sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <l>Mortales, albricias…</l>
@@ -436,7 +495,8 @@
             <speaker>LOS DOS</speaker>
             <l>Y digan voces diversas.</l>
           </sp>
-          <sp who="#malicia #caridad #inociencia #esperanza #coro-1 #envidia #coro-2 #acompanamiento #furor #teos #musicos">
+          <sp
+            who="#malicia #caridad #inociencia #esperanza #coro-1 #envidia #coro-2 #acompanamiento #furor #teos #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="130">Mortales, albricias,</l>
             <l>albricias, mortales,</l>
@@ -462,7 +522,8 @@
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>¡Si esto es nacer a morir,</l>
-            <stage>Dejan todos los remos y levantándose con cadenas a los pies bajan por el escotillón que subieron.</stage>
+            <stage>Dejan todos los remos y levantándose con cadenas a los pies bajan por el
+              escotillón que subieron.</stage>
             <l>siendo en metáfora nueva,</l>
             <l>deste bajel las entrañas</l>
             <l>las que en su seno me engendran,</l>
@@ -574,7 +635,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Con esta repetición, haciendo salva la galera y sonando juntas Música, cajas y trompetas danvuelta ella y la nave, bajan de las apariencias Envidia y Esperanza y desapareciendo todos salen al otro lado la Verdad y la Mentira, como que han escuchado las salvas a lo lejos.</stage>
+          <stage>Con esta repetición, haciendo salva la galera y sonando juntas Música, cajas y
+            trompetas danvuelta ella y la nave, bajan de las apariencias Envidia y Esperanza y
+            desapareciendo todos salen al otro lado la Verdad y la Mentira, como que han escuchado
+            las salvas a lo lejos.</stage>
           <sp who="#mentira">
             <speaker>MENTIRA</speaker>
             <l n="195">Ya que al compás desta salva,</l>
@@ -852,7 +916,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Las cajas, y salen del carro de la galera el Hombre, la Malicia y los cuatro afectos con cadenas al pie, yel Furor detrás y desde la nave Teos y Inociencia.</stage>
+          <stage>Las cajas, y salen del carro de la galera el Hombre, la Malicia y los cuatro
+            afectos con cadenas al pie, yel Furor detrás y desde la nave Teos y Inociencia.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Recibirme risa y llanto</l>
@@ -1121,7 +1186,8 @@
             <l>sucedan las armonías</l>
             <l>de cajas y de trompetas.</l>
           </sp>
-          <sp who="#esperanza #coro-1 #envidia #coro-2 #musicos #acompanamiento #mentira #verdad #teos #inociencia #hombre #malicia #furor #caridad">
+          <sp
+            who="#esperanza #coro-1 #envidia #coro-2 #musicos #acompanamiento #mentira #verdad #teos #inociencia #hombre #malicia #furor #caridad">
             <speaker>TODOS</speaker>
             <l>Si a una deuda obligada</l>
             <l n="495">naturaleza,</l>
@@ -1130,7 +1196,9 @@
             <l>Pague su deuda el hombre,</l>
             <l>pague su deuda.</l>
           </sp>
-          <stage>Con esta repetición cantando unos y representando otros y al mismo tiempo cajas y trompetas se van, quedando sola la Verdad, a quien con sus versos llegan Teos y Inociencia.</stage>
+          <stage>Con esta repetición cantando unos y representando otros y al mismo tiempo cajas y
+            trompetas se van, quedando sola la Verdad, a quien con sus versos llegan Teos y
+            Inociencia.</stage>
           <sp who="#teos">
             <speaker>TEOS</speaker>
             <l part="I">¡Qué lastima!</l>
@@ -1620,7 +1688,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Llega al carro donde habrá una puerta como de cárcel, y abriéndose su reja sale de ella la Culpa, vestida de pieles, con un bastón.</stage>
+          <stage>Llega al carro donde habrá una puerta como de cárcel, y abriéndose su reja sale de
+            ella la Culpa, vestida de pieles, con un bastón.</stage>
           <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Quién es quién llama a esta puerta?</l>
@@ -2209,7 +2278,8 @@
             <speaker>FUROR</speaker>
             <l part="I">Asilde todos.</l>
           </sp>
-          <stage>Llegan los Afectos y prendiéndole le ponen la cadena que el quito al Hombre.</stage>
+          <stage>Llegan los Afectos y prendiéndole le ponen la cadena que el quito al
+            Hombre.</stage>
           <sp who="#teos">
             <speaker>TEOS</speaker>
             <l part="F">No asombre</l>
@@ -2351,7 +2421,8 @@
             <l>cobrarla intenta,</l>
             <l>pague su deuda el hombre,</l>
           </sp>
-          <sp who="#esperanza #coro-1 #envidia #coro-2 #acompanamiento #culpa #verdad #malicia #caridad #teos #inociencia #hombre #furor #mentira #musicos">
+          <sp
+            who="#esperanza #coro-1 #envidia #coro-2 #acompanamiento #culpa #verdad #malicia #caridad #teos #inociencia #hombre #furor #mentira #musicos">
             <speaker>TODOS</speaker>
             <l>Pague su deuda.</l>
           </sp>
@@ -2369,7 +2440,8 @@
             <l n="1250">acompañen las cajas</l>
             <l>y las trompetas.</l>
           </sp>
-          <sp who="#esperanza #coro-1 #envidia #coro-2 #acompanamiento #culpa #verdad #malicia #caridad #teos #hombre #mentira #musicos #inociencia #furor">
+          <sp
+            who="#esperanza #coro-1 #envidia #coro-2 #acompanamiento #culpa #verdad #malicia #caridad #teos #hombre #mentira #musicos #inociencia #furor">
             <speaker>TODOS</speaker>
             <l>Pague su deuda el hombre,</l>
             <l>pague su deuda.</l>
@@ -2384,7 +2456,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Con esta repetición y las cajas y trompetas se vandando vuelta al tablado llevando presos a los dos y sale la Verdad, como extrañando la salva.</stage>
+          <stage>Con esta repetición y las cajas y trompetas se vandando vuelta al tablado llevando
+            presos a los dos y sale la Verdad, como extrañando la salva.</stage>
           <sp who="#verdad">
             <speaker>VERDAD</speaker>
             <l>Un deseo y un cuidado,</l>
@@ -2457,7 +2530,8 @@
             <l>que pues es del mundo</l>
             <l>justa Sentencia,</l>
           </sp>
-          <sp who="#esperanza #coro-1 #envidia #coro-2 #acompanamiento #culpa #malicia #caridad #mentira #musicos #furor #teos #inociencia #verdad #hombre">
+          <sp
+            who="#esperanza #coro-1 #envidia #coro-2 #acompanamiento #culpa #malicia #caridad #mentira #musicos #furor #teos #inociencia #verdad #hombre">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l>Pague su deuda el hombre,</l>
@@ -2564,7 +2638,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Con esta repetición cajas y trompetas. Salen poruna parte la Mentira, el Furor, los cuatro afectos,Teos y la Inociencia con la cadena, y por otro el Mundo y acompañamiento.</stage>
+          <stage>Con esta repetición cajas y trompetas. Salen poruna parte la Mentira, el Furor, los
+            cuatro afectos,Teos y la Inociencia con la cadena, y por otro el Mundo y
+            acompañamiento.</stage>
           <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Ya tu tardanza acusaba,</l>
@@ -2909,7 +2985,8 @@
             <speaker>MUNDO</speaker>
             <l>¡Quién vio iguales confusiones!</l>
           </sp>
-          <sp who="#esperanza #coro-1 #envidia #coro-2 #acompanamiento #culpa #hombre #musicos #furor #mentira #caridad #malicia #verdad #teos #inociencia #mundo">
+          <sp
+            who="#esperanza #coro-1 #envidia #coro-2 #acompanamiento #culpa #hombre #musicos #furor #mentira #caridad #malicia #verdad #teos #inociencia #mundo">
             <speaker>TODOS</speaker>
             <l>¿En qué, Mundo, te resuelves?</l>
           </sp>
@@ -3124,7 +3201,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Sale la Verdad a lo lejos embozada con una banda yescucha lo que dicen los versos.</stage>
+          <stage>Sale la Verdad a lo lejos embozada con una banda yescucha lo que dicen los
+            versos.</stage>
           <sp who="#verdad">
             <speaker>VERDAD</speaker>
             <l>Envidia y Mentira están</l>
@@ -3163,7 +3241,8 @@
             <l>por más que ahora desveladas</l>
             <l>una y otra vez alienten.</l>
           </sp>
-          <stage>Acércase a ellas, tocándolas con lo que traerá en-vuelto en la banda sin descubrirlo, y ellas se vanadormeciendo, cantando desentonadas.</stage>
+          <stage>Acércase a ellas, tocándolas con lo que traerá en-vuelto en la banda sin
+            descubrirlo, y ellas se vanadormeciendo, cantando desentonadas.</stage>
           <sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l n="1625">Vela, vela, pisando las flores;</l>
@@ -3531,7 +3610,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage>Vase la Culpa. Y salen los cuatro Afectos trayendo al hombre y la Malicia presos.</stage>
+          <stage>Vase la Culpa. Y salen los cuatro Afectos trayendo al hombre y la Malicia
+            presos.</stage>
           <sp who="#caridad #esperanza #envidia #inociencia">
             <speaker>LOS CUATRO</speaker>
             <l>Llega, forajido dueño,</l>
@@ -3577,7 +3657,8 @@
             <speaker>MUNDO</speaker>
             <l>Bien dices, a llamar vuelve.</l>
           </sp>
-          <sp who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #verdad #mentira #envidia #teseo #teos #inociencia #hombre #malicia #furor #mundo">
+          <sp
+            who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #verdad #mentira #envidia #teseo #teos #inociencia #hombre #malicia #furor #mundo">
             <speaker>TODOS</speaker>
             <l part="I">¡Ah de la Culpa!</l>
           </sp>
@@ -3602,7 +3683,8 @@
             <l n="1840">por lo que nos sucediere.</l>
           </sp>
           <stage>El terremoto en todos cuatro carros.</stage>
-          <sp who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #verdad #mentira #envidia #teseo #hombre #malicia #furor #mundo #culpa #teos #inociencia">
+          <sp
+            who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #verdad #mentira #envidia #teseo #hombre #malicia #furor #mundo #culpa #teos #inociencia">
             <speaker>TODOS</speaker>
             <l>¡Cielos, qué notable estruendo</l>
             <l>en el laberinto es este!</l>
@@ -3624,8 +3706,10 @@
             <l>o que todo el Mundo expira,</l>
             <l>o que su hacedor padece.</l>
           </sp>
-          <stage>Cay el Mundo desmayado y todos se confunden,repitiendo siempre el terremoto.</stage>
-          <sp who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #verdad #envidia #teseo #hombre #malicia #furor #culpa #teos #inociencia #mentira #mundo">
+          <stage>Cay el Mundo desmayado y todos se confunden,repitiendo siempre el
+            terremoto.</stage>
+          <sp
+            who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #verdad #envidia #teseo #hombre #malicia #furor #culpa #teos #inociencia #mentira #mundo">
             <speaker>TODOS</speaker>
             <l>Desmayado el Mundo yace.</l>
           </sp>
@@ -3687,7 +3771,8 @@
             <speaker>OTROS</speaker>
             <l>… de tanto pavor, quién puede…</l>
           </sp>
-          <sp who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #verdad #teseo #culpa #teos #inociencia #mundo #furor #mentira #envidia #malicia #hombre">
+          <sp
+            who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #verdad #teseo #culpa #teos #inociencia #mundo #furor #mentira #envidia #malicia #hombre">
             <speaker>TODOS</speaker>
             <l part="I">… decirnos la causa?</l>
           </sp>
@@ -3698,7 +3783,8 @@
             <speaker>VERDAD</speaker>
             <l part="F">Yo.</l>
           </sp>
-          <sp who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #teseo #culpa #teos #inociencia #mundo #furor #mentira #envidia #malicia #hombre #verdad">
+          <sp
+            who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #teseo #culpa #teos #inociencia #mundo #furor #mentira #envidia #malicia #hombre #verdad">
             <speaker>TODOS</speaker>
             <l part="I">¿De qué suerte?</l>
           </sp>
@@ -3736,7 +3822,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="31">
-          <stage>Embisten todos con el hombre, y al ir le a entrar en la cárcel, sale Teos con la cinta encarnada prendidaen el costado. En una mano el pan y en otra la cruz. Y vestido de gala, con manto encarnado, y la Culpa ensangrentado el rostro, huyendo dél; y al caer en el suelo, se levanta el Mundo.</stage>
+          <stage>Embisten todos con el hombre, y al ir le a entrar en la cárcel, sale Teos con la
+            cinta encarnada prendidaen el costado. En una mano el pan y en otra la cruz. Y vestido
+            de gala, con manto encarnado, y la Culpa ensangrentado el rostro, huyendo dél; y al caer
+            en el suelo, se levanta el Mundo.</stage>
           <sp who="#furor">
             <speaker>FUROR</speaker>
             <l>Puesto que el Mundo perece,</l>
@@ -3772,7 +3861,8 @@
             <l>el Furor, al ver que el Mundo</l>
             <l>vive y que la Culpa muere.</l>
           </sp>
-          <sp who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #teseo #inociencia #envidia #verdad #mentira #malicia #hombre #teos #culpa #mundo #furor">
+          <sp
+            who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #teseo #inociencia #envidia #verdad #mentira #malicia #hombre #teos #culpa #mundo #furor">
             <speaker>TODOS</speaker>
             <l>¿Cómo es posible que humano</l>
             <l n="1910">valor al monstruo rindiese?</l>
@@ -3855,7 +3945,8 @@
             <l>labraré yo otro edificio,</l>
             <l>a la oposición de aqueste.</l>
           </sp>
-          <sp who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #teseo #inociencia #envidia #mentira #mundo #malicia #hombre #verdad #culpa #furor #teos">
+          <sp
+            who="#esperanza #coro-1 #coro-2 #acompanamiento #musicos #teseo #inociencia #envidia #mentira #mundo #malicia #hombre #verdad #culpa #furor #teos">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué edificio?</l>
           </sp>
@@ -3876,7 +3967,8 @@
             <l>para sustentar sus hijos</l>
             <l>con la sangre que dél vierte.</l>
           </sp>
-          <stage>Ábrese el carro en que habrá un palacio y en él un pelícano, que abriéndose en dos mitades, descubra dentro del pecho, cáliz y hostia y un niño vestido de pasión.</stage>
+          <stage>Ábrese el carro en que habrá un palacio y en él un pelícano, que abriéndose en dos
+            mitades, descubra dentro del pecho, cáliz y hostia y un niño vestido de pasión.</stage>
           <sp who="#nino">
             <speaker>NIÑO</speaker>
             <l>Y en testimonio, mortales,</l>
@@ -3952,12 +4044,14 @@
             <l>Pues para que más lo sea,</l>
             <l>Mundo, a llanto y canto vuelve.</l>
           </sp>
-          <sp who="#esperanza #coro-1 #coro-2 #acompanamiento #teseo #teos #musicos #verdad #mentira #hombre #furor #mundo #malicia #inociencia #envidia #culpa #nino">
+          <sp
+            who="#esperanza #coro-1 #coro-2 #acompanamiento #teseo #teos #musicos #verdad #mentira #hombre #furor #mundo #malicia #inociencia #envidia #culpa #nino">
             <speaker>TODOS</speaker>
             <l>A cuyo compás pidamos</l>
             <l>perdón, diciendo mil veces:</l>
           </sp>
-          <sp who="#esperanza #coro-1 #coro-2 #acompanamiento #teseo #teos #musicos #verdad #mentira #hombre #furor #mundo #malicia #inociencia #envidia #culpa #nino">
+          <sp
+            who="#esperanza #coro-1 #coro-2 #acompanamiento #teseo #teos #musicos #verdad #mentira #hombre #furor #mundo #malicia #inociencia #envidia #culpa #nino">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1995">Fábula y historia misterio tienen,</l>
             <l>cuando a la Mentira la Verdad vence.</l>

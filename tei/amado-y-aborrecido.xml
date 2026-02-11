@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000057" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-30">
@@ -41,7 +42,10 @@
           <name>The Association for Hispanic Classical Theatre (AHCT)</name>
           <idno type="URL">http://www.comedias.org/calderon/AMADO.pdf</idno>
           <bibl type="originalSource">
-            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en 2000.</title>
+            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge
+              Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y
+              luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en
+              2000.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,11 +58,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="aurelio" sex="MALE">
             <persName>Aurelio</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lidoro" sex="MALE">
@@ -66,17 +76,26 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>Rey de Chipre</persName>
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="malandrín" sex="MALE">
             <persName>Malandrín</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="aminta" sex="FEMALE">
@@ -87,6 +106,9 @@
             <trait source="castlist">
               <desc>hermana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="irene" sex="FEMALE">
             <persName>Irene</persName>
@@ -96,11 +118,17 @@
             <trait source="castlist">
               <desc>infanta</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="nise" sex="FEMALE">
@@ -108,11 +136,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
             <persName>Laura</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
@@ -120,27 +154,47 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="diana" sex="FEMALE">
             <persName>Diana</persName>
+            <idno type="wikidata">Q132543</idno>
             <trait source="castlist">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="venus" sex="FEMALE">
             <persName>Venus</persName>
+            <idno type="wikidata">Q47652</idno>
             <trait source="castlist">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="libio" sex="MALE">
             <persName>Libio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -149,17 +203,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -6172,7 +6229,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Salen la MÚSICA con instrumentos, el REY, AURELIO, AMINTA, IRENE, NISE, FLORA, LAURA y CLORI</stage>
+          <stage>Salen la MÚSICA con instrumentos, el REY, AURELIO, AMINTA, IRENE, NISE, FLORA,
+            LAURA y CLORI</stage>
           <sp who="#aurelio">
             <speaker rend="caps">Aurelio</speaker>
             <stage type="withText">Aparte</stage>
@@ -6293,7 +6351,9 @@
             <l>(Sufra este desaire el alma,</l>
             <l>pues es fuerza quien soy finja.)</l>
           </sp>
-          <stage>Siéntanse el REY en medio, a su mano derecha AMINTA, y a la otra IRENE, FLORA y LAURA al izquierdo suyo, y NISE y CLORI donde AMINTA; AURELIO y DANTE apartados, la MÚSICA al paño</stage>
+          <stage>Siéntanse el REY en medio, a su mano derecha AMINTA, y a la otra IRENE, FLORA y
+            LAURA al izquierdo suyo, y NISE y CLORI donde AMINTA; AURELIO y DANTE apartados, la
+            MÚSICA al paño</stage>
           <sp who="#rey">
             <speaker rend="caps">Rey</speaker>
 
@@ -9065,7 +9125,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Salen dos damas con máscara y hachas, tómanlas también VENUS y DIANA, y mientras danzan y cantan la copla que se sigue, salen por una parte el REY, AURELIO, MALANDRÍN, LIDORO y LIBIO, y por otra IRENE, AMINTA Y DANTE</stage>
+          <stage>Salen dos damas con máscara y hachas, tómanlas también VENUS y DIANA, y mientras
+            danzan y cantan la copla que se sigue, salen por una parte el REY, AURELIO, MALANDRÍN,
+            LIDORO y LIBIO, y por otra IRENE, AMINTA Y DANTE</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 

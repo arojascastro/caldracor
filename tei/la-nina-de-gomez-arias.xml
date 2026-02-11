@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000119" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-29">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, La niña de Gómez Arias. En: Comedias, Vol. 4. Dirección de Sebastian Neumeister y Luis Iglesias Feijoo. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, La niña de Gómez Arias. En: Comedias, Vol. 4. Dirección
+            de Sebastian Neumeister y Luis Iglesias Feijoo. Madrid : Fundación José Antonio de
+            Castro, 2010</title>
           <idno type="ISBN">978-84-96452-89-3</idno>
         </bibl>
       </sourceDesc>
@@ -51,11 +54,17 @@
             <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
             <persName>Fabio</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="beatriz" sex="FEMALE">
@@ -63,11 +72,17 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="celia" sex="FEMALE">
             <persName>Celia</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="diego" sex="MALE">
@@ -78,9 +93,15 @@
             <trait source="#calderondigital">
               <desc>padre</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="gómez" sex="MALE">
             <persName>Gómez Arias</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ginés" sex="MALE">
             <persName>Ginés</persName>
@@ -90,17 +111,26 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dorotea" sex="FEMALE">
             <persName>Dorotea</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juana" sex="FEMALE">
             <persName>Juana</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="luis" sex="MALE">
@@ -111,6 +141,9 @@
             <trait source="#calderondigital">
               <desc>padre</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juan" sex="MALE">
             <persName>Don Juan</persName>
@@ -120,11 +153,17 @@
             <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="floro" sex="MALE">
             <persName>Floro</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="cañerí" sex="MALE">
@@ -135,11 +174,18 @@
             <trait source="#calderondigital">
               <desc>alcalde</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="reina" sex="FEMALE">
             <persName>La Reina Doña Isabel</persName>
+            <idno type="wikidata">Q45859</idno>
             <trait resp="#rojas">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <personGrp xml:id="moro-1" sex="MALE">
@@ -147,9 +193,15 @@
           </personGrp>
           <person xml:id="criado" sex="MALE">
             <persName>Un Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -158,17 +210,20 @@
           <term source="dracor" type="genreTitle">tragedia</term>
           <term source="#kroll" type="main">tragedia y drama de honor</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -6765,10 +6820,11 @@
             <l>Yo volveré a hablarla hoy,</l>
             <l>y aun a venderla mañana.</l>
           </sp>
-            <stage>[Vase.]</stage>
-          </div>
+          <stage>[Vase.]</stage>
+        </div>
         <div type="scene" resp="#rojas" n="11">
-            <stage>Tocan chirimías y atabales, y salen todas las mujeres con acompañamiento y detrás la Reina.</stage>
+          <stage>Tocan chirimías y atabales, y salen todas las mujeres con acompañamiento y detrás
+            la Reina.</stage>
           <sp who="#reina">
             <speaker rend="caps">Reina</speaker>
 
@@ -7325,7 +7381,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>La caja y clarín siempre, y salen todos y la Reina por la puerta. Y desde el muro caen abrazados Cañerí y don Luis.</stage>
+          <stage>La caja y clarín siempre, y salen todos y la Reina por la puerta. Y desde el muro
+            caen abrazados Cañerí y don Luis.</stage>
           <sp who="#dorotea">
             <speaker rend="caps">Dorotea</speaker>
 

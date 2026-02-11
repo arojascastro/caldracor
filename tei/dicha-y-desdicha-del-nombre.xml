@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000074" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-06">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Dicha Y Desdicha Del Nombre. Edición de José María Viña Liste. En: Comedias, Vol. 6. Dirección de Luis Iglesias Feijoo y José María Viña Liste. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, Dicha Y Desdicha Del Nombre. Edición de José María Viña
+            Liste. En: Comedias, Vol. 6. Dirección de Luis Iglesias Feijoo y José María Viña Liste.
+            Madrid : Fundación José Antonio de Castro, 2010</title>
           <idno type="ISBN">978-84-96452-96-1</idno>
         </bibl>
       </sourceDesc>
@@ -48,14 +51,23 @@
         <listPerson>
           <person xml:id="félix" sex="MALE">
             <persName>Don Félix</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="césar" sex="MALE">
             <persName>Don César</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tristán" sex="MALE">
             <persName>Tristán</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
@@ -63,11 +75,17 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="aurelio" sex="MALE">
             <persName>Aurelio</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="violante" sex="FEMALE">
@@ -75,11 +93,17 @@
             <trait source="castlist">
               <desc>hija</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nise" sex="FEMALE">
             <persName>Nise</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="serafina" sex="FEMALE">
@@ -87,11 +111,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="príncipe" sex="MALE">
@@ -99,14 +129,23 @@
             <trait resp="#rojas">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisardo" sex="MALE">
             <persName>Lisardo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lidoro" sex="MALE">
             <persName>Lidoro</persName>
             <trait source="castlist">
               <desc>padre</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="libio" sex="MALE">
@@ -114,12 +153,18 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
           </personGrp>
           <person xml:id="criado" sex="MALE">
             <persName>Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -128,17 +173,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -2017,7 +2065,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Salen Serafina y Flora, de máscara, y Flora, si quiere, puede traer el disfraz ridículo.</stage>
+          <stage>Salen Serafina y Flora, de máscara, y Flora, si quiere, puede traer el disfraz
+            ridículo.</stage>
           <sp who="#serafina">
             <speaker rend="caps">Serafina</speaker>
 
@@ -2506,7 +2555,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Aquí salen todos los que pudieren con instrumentos, hachas y máscaras, y Lidoro, viejo.</stage>
+          <stage>Aquí salen todos los que pudieren con instrumentos, hachas y máscaras, y Lidoro,
+            viejo.</stage>
           <sp who="#otros">
             <speaker rend="caps">Otros</speaker>
 
@@ -2718,7 +2768,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="27">
-          <stage>Sale el príncipe, dos criados con hachas, y Lisardo por otra parte sin disfraz.</stage>
+          <stage>Sale el príncipe, dos criados con hachas, y Lisardo por otra parte sin
+            disfraz.</stage>
           <sp who="#príncipe">
             <speaker rend="caps">Príncipe</speaker>
 

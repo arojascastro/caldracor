@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000079" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -39,9 +40,15 @@
       <sourceDesc>
         <bibl type="sourceText">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/descargaPdf/el-alcayde-de-si-mismo--0/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/descargaPdf/el-alcayde-de-si-mismo--0/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Octaua parte de comedias del celebre poeta español don Pedro Calderon de la Barca ..., En Madrid : por Francisco Sanz..., 1684, pp. 431-473. La modernización de la ortografía, la acentuación y la puntuación se ha realizado mediante el modelo de transcripción desarrollado por Álvaro Cuéllar, “Spanish Golden Age Theatre Prints (Spelling Modernization) 1.0”. Transkribus, 2021.</title>
+            <title>Edición digital a partir de la Octaua parte de comedias del celebre poeta español
+              don Pedro Calderon de la Barca ..., En Madrid : por Francisco Sanz..., 1684, pp.
+              431-473. La modernización de la ortografía, la acentuación y la puntuación se ha
+              realizado mediante el modelo de transcripción desarrollado por Álvaro Cuéllar,
+              “Spanish Golden Age Theatre Prints (Spelling Modernization) 1.0”. Transkribus,
+              2021.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -53,6 +60,9 @@
             <persName>Margarita</persName>
             <trait source="castlist">
               <desc>infante</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="elena" sex="FEMALE">
@@ -66,11 +76,17 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="serafina" sex="FEMALE">
             <persName>Serafina</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="antona" sex="FEMALE">
@@ -78,15 +94,24 @@
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="benito" sex="MALE">
             <persName>Benito</persName>
             <trait source="castlist">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="capitán" sex="MALE">
             <persName>Un Capitán</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="federico" sex="MALE">
             <persName>Federico</persName>
@@ -96,20 +121,32 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>El Rey de Napoles</persName>
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="infante" sex="MALE">
             <persName>El Infante</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="enrique" sex="MALE">
             <persName>Enrique</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="leonelo" sex="MALE">
@@ -117,11 +154,17 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="roberto" sex="MALE">
             <persName>Roberto</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
@@ -129,27 +172,51 @@
           </personGrp>
           <person xml:id="villano-1" sex="MALE">
             <persName>Villano 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="villano-2" sex="MALE">
             <persName>Villano 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="villano-3" sex="MALE">
             <persName>Villano 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-3" sex="MALE">
             <persName>Soldado 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="labrador-1" sex="MALE">
             <persName>Labrador 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="labrador-2" sex="MALE">
             <persName>Labrador 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -158,17 +225,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -209,7 +279,8 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dicen dentro Federico, y Roberto, y salen luego como despeñados, y Fedérico armado, con hotas, y espuelas.</stage>
+          <stage>Dicen dentro Federico, y Roberto, y salen luego como despeñados, y Fedérico armado,
+            con hotas, y espuelas.</stage>
           <sp who="#roberto">
             <speaker rend="caps">Roberto</speaker>
             <stage type="withText">Dentro.</stage>

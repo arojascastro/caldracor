@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000037" xml:lang="es">
   <teiHeader>
@@ -21,7 +21,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-20">
           <time when="16:30:42"/>
@@ -34,9 +35,11 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-vida-es-sueno--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-vida-es-sueno--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Evangelina Rodríguez Cuadros, Madrid, Espasa-Calpe, 1997, 18ª ed.</title>
+            <title>Edición digital a partir de la edición de Evangelina Rodríguez Cuadros, Madrid,
+              Espasa-Calpe, 1997, 18ª ed.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -52,11 +55,17 @@
             <trait source="rolecall">
               <desc>travestido</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="segismundo" sex="MALE">
             <persName>Segismundo</persName>
             <trait source="castlist">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clotaldo" sex="MALE">
@@ -64,11 +73,17 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="estrella" sex="FEMALE">
             <persName>Estrella</persName>
             <trait source="castlist">
               <desc>infanta</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clarín" sex="MALE">
@@ -76,11 +91,17 @@
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="basilio" sex="MALE">
             <persName>Basilio</persName>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="astolfo" sex="MALE">
@@ -88,21 +109,36 @@
             <trait source="castlist">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="soldados" sex="MALE">
             <persName>Soldados</persName>
           </personGrp>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado-1" sex="MALE">
             <persName>Criado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado-2" sex="MALE">
             <persName>Criado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="guardas" sex="MALE">
             <persName>Guardas</persName>
@@ -117,17 +153,20 @@
           <term source="dracor" type="genreTitle">drama</term>
           <term source="#kroll" type="main">tragedia y drama de honor</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -142,7 +181,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000037" passive="http://www.wikidata.org/entity/Q138174"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000037"
+        passive="http://www.wikidata.org/entity/Q138174"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -169,7 +209,8 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>[Jornada I]</head>
-          <stage>Sale en lo alto de un monte ROSAURA en hábito de hombre, de camino, y en representando los primeros versos va bajando.</stage>
+          <stage>Sale en lo alto de un monte ROSAURA en hábito de hombre, de camino, y en
+            representando los primeros versos va bajando.</stage>
           <sp who="#rosaura">
             <speaker>ROSAURA</speaker>
             <l> Hipogrifo violento,</l>
@@ -856,7 +897,8 @@
           <stage>Vanse.</stage>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Sale por una parte ASTOLFO con acompañamiento de SOLDADOS, y por otra ESTRELLA con damas. Suena música.</stage>
+          <stage>Sale por una parte ASTOLFO con acompañamiento de SOLDADOS, y por otra ESTRELLA con
+            damas. Suena música.</stage>
           <sp who="#astolfo">
             <speaker>ASTOLFO</speaker>
             <l n="475"> Bien al ver los excelentes </l>
@@ -1323,7 +1365,8 @@
         </div>
         <div type="scene" resp="#rojas" n="7">
           <stage>Éntranse todos.</stage>
-          <stage>Antes que se entre el REY salen CLOTALDO, ROSAURA y CLARÍN, y CLOTALDO detiene al REY.</stage>
+          <stage>Antes que se entre el REY salen CLOTALDO, ROSAURA y CLARÍN, y CLOTALDO detiene al
+            REY.</stage>
           <sp who="#clotaldo">
             <speaker>CLOTALDO</speaker>
             <l part="I"> ¿Podréte hablar? </l>
@@ -1875,7 +1918,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Salen músicos cantando, y criados, dando de vestir a SEGISMUNDO, que sale como asombrado.</stage>
+          <stage>Salen músicos cantando, y criados, dando de vestir a SEGISMUNDO, que sale como
+            asombrado.</stage>
           <sp who="#segismundo">
             <speaker>SEGISMUNDO</speaker>
             <l> ¡Válgame el cielo, qué veo! </l>
@@ -3335,7 +3379,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="25">
-          <stage>Descúbrese SEGISMUNDO como al principio, con pieles y cadena, durmiendo en el suelo. Salen CLOTALDO, CLARÍN y los dos criados.</stage>
+          <stage>Descúbrese SEGISMUNDO como al principio, con pieles y cadena, durmiendo en el
+            suelo. Salen CLOTALDO, CLARÍN y los dos criados.</stage>
           <sp who="#clotaldo">
             <speaker>CLOTALDO</speaker>
             <l> Aquí le habéis de dejar, </l>
@@ -4489,7 +4534,7 @@
             <speaker>CLOTALDO</speaker>
             <l> Pues has de perderte, espera, </l>
             <l> hija, y perdámonos todos. </l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">

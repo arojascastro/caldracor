@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000145" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Origen, pérdida y restauración de la Virgen del Sagrario. En: Comedias, Vol. 2. Dirección de Luis Iglesias Feijoo y Santiago Fernández Mosquera. Madrid : Fundación José Antonio de Castro, 2007</title>
+          <title>Pedro Calderón de la Barca, Origen, pérdida y restauración de la Virgen del
+            Sagrario. En: Comedias, Vol. 2. Dirección de Luis Iglesias Feijoo y Santiago Fernández
+            Mosquera. Madrid : Fundación José Antonio de Castro, 2007</title>
           <idno type="ISBN">978-84-96452-36-7</idno>
         </bibl>
       </sourceDesc>
@@ -48,17 +51,28 @@
         <listPerson>
           <person xml:id="fiera" sex="FEMALE">
             <persName>Una Fiera</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ataúlfo" sex="MALE">
             <persName>Ataúlfo</persName>
+            <idno type="wikidata">Q159716</idno>
             <trait source="#calderondigital">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="recisundo" sex="MALE">
             <persName>Recisundo</persName>
+            <idno type="wikidata">Q315447</idno>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="payo" sex="MALE">
@@ -66,23 +80,42 @@
             <trait source="#calderondigital">
               <desc>estudiante</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ildefonso" sex="MALE">
             <persName>Ildefonso</persName>
+            <idno type="wikidata">Q456069</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="leocadia" sex="FEMALE">
             <persName>Santa Leocadia</persName>
+            <idno type="wikidata">Q442235</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>El Rey Don Alfonso El Sexto</persName>
+            <idno type="wikidata">Q235080</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="constanza" sex="FEMALE">
             <persName>La Reina Doña Constanza</persName>
+            <idno type="wikidata">Q2745448</idno>
             <trait resp="#rojas">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="don-bernardo" sex="MALE">
@@ -90,41 +123,71 @@
             <trait source="castlist">
               <desc>arzobispo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="selín" sex="MALE">
             <persName>Selín</persName>
             <trait source="castlist">
               <desc>moro</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nuño" sex="MALE">
             <persName>Don Nuño</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ramiro" sex="MALE">
             <persName>Ramiro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-vela" sex="MALE">
             <persName>Don Vela</persName>
             <trait source="#calderondigital">
               <desc>asturiano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="paje-1" sex="MALE">
             <persName>Paje 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="paje-2" sex="MALE">
             <persName>Paje 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="paje-3" sex="MALE">
             <persName>Paje 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="paje-4" sex="MALE">
             <persName>Paje 4</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juan" sex="MALE">
             <persName>Juan Ruiz</persName>
             <trait source="#calderondigital">
               <desc>mozárabe</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="domingo" sex="MALE">
@@ -135,11 +198,17 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pelagio" sex="MALE">
             <persName>Pelagio</persName>
             <trait source="#calderondigital">
               <desc>hereje</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="reina" sex="FEMALE">
@@ -147,24 +216,42 @@
             <trait resp="#rojas">
               <desc>reina</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="teudio" sex="MALE">
             <persName>Teudio</persName>
+            <idno type="wikidata">Q81171</idno>
             <trait source="#calderondigital">
               <desc>hereje</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="virgen" sex="FEMALE">
             <persName>La Virgen</persName>
+            <idno type="wikidata">Q345</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="alarico" sex="MALE">
             <persName>Alarico</persName>
+            <idno type="wikidata">Q102371</idno>
             <trait source="#calderondigital">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Un Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="músicos">
             <persName>Músicos</persName>
@@ -174,41 +261,67 @@
             <trait source="castlist">
               <desc>alcaide</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alí" sex="MALE">
             <persName>Alí</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="muza" sex="MALE">
             <persName>Muza</persName>
+            <idno type="wikidata">Q301261</idno>
             <trait source="#calderondigital">
               <desc>moro</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="tarif" sex="MALE">
             <persName>Abén Tarif</persName>
+            <idno type="wikidata">Q1408063</idno>
             <trait source="castlist">
               <desc>moro</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="sancha" sex="FEMALE">
             <persName>Doña Sancha</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="teodosio" sex="MALE">
             <persName>Teodosio</persName>
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="elvira" sex="FEMALE">
             <persName>Elvira</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="íñigo" sex="MALE">
             <persName>Íñigo</persName>
             <trait source="#calderondigital">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="luna" sex="FEMALE">
@@ -216,11 +329,18 @@
             <trait source="#calderondigital">
               <desc>mora</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rodrigo" sex="MALE">
             <persName>Rodrigo</persName>
+            <idno type="wikidata">Q243573</idno>
             <trait source="#calderondigital">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
         </listPerson>
@@ -230,17 +350,20 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -306,7 +429,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suena dentro ruido de caza y sale huyendo una fiera y, en llegando al tablado, se quita la máscara y queda un hombre y detrás de él sale el rey Recisundo.</stage>
+          <stage>Suena dentro ruido de caza y sale huyendo una fiera y, en llegando al tablado, se
+            quita la máscara y queda un hombre y detrás de él sale el rey Recisundo.</stage>
           <sp who="#dentro">
             <speaker rend="caps">Dentro</speaker>
 
@@ -648,7 +772,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Suena música y salen acompañamiento y los Reyes y san Ildefonso de cardenal.</stage>
+          <stage>Suena música y salen acompañamiento y los Reyes y san Ildefonso de
+            cardenal.</stage>
           <sp who="#rey">
             <speaker rend="caps">Rey</speaker>
 
@@ -1245,7 +1370,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Música, y ábrese el sepulcro y sale santa Leocadia con una cinta encarnada en la garganta y una palma.</stage>
+          <stage>Música, y ábrese el sepulcro y sale santa Leocadia con una cinta encarnada en la
+            garganta y una palma.</stage>
           <sp who="#ildefonso">
             <speaker rend="caps">Ildefonso</speaker>
 
@@ -1608,7 +1734,8 @@
 
             <l>(Presto verás el fin suyo).</l>
           </sp>
-          <stage>Descubre san Ildefonso el altar de la Virgen del Sagrario y hincado de rodillas va subiendo hasta que iguala con ella.</stage>
+          <stage>Descubre san Ildefonso el altar de la Virgen del Sagrario y hincado de rodillas va
+            subiendo hasta que iguala con ella.</stage>
           <sp who="#ildefonso">
             <speaker rend="caps">Ildefonso</speaker>
 
@@ -1678,7 +1805,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Sale un carro triunfal y en él la Virgen, de suerte que quede Nuestra Señora entre la de bulto y San Ildefonso y que pueda tocar a uno y a otro, y trae una casulla.</stage>
+          <stage>Sale un carro triunfal y en él la Virgen, de suerte que quede Nuestra Señora entre
+            la de bulto y San Ildefonso y que pueda tocar a uno y a otro, y trae una
+            casulla.</stage>
           <sp who="#virgen">
             <speaker rend="caps">Virgen</speaker>
 
@@ -1754,7 +1883,9 @@
       <div type="act" n="2">
         <head rend="caps">Segunda Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Cúbrese todo el teatro de lienzos de muralla y aparecen en el muro Íñigo, Rodrigo, Teodosio, viejo, y Godmán, alcaide. Suena un clarín y sale por lo bajo Tarif, moro negro.</stage>
+          <stage>Cúbrese todo el teatro de lienzos de muralla y aparecen en el muro Íñigo, Rodrigo,
+            Teodosio, viejo, y Godmán, alcaide. Suena un clarín y sale por lo bajo Tarif, moro
+            negro.</stage>
           <sp who="#teodosio">
             <speaker rend="caps">Teodosio</speaker>
 
@@ -3437,7 +3568,11 @@
       <div type="act" n="3">
         <head rend="caps">Tercera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Cúbrese todo el teatro de tafetanes y suenan atabalillos y chirimías y debajo de un dosel están el rey don Alfonso y la reina doña Constanza con coronas y cetros; a un lado todas las damas y al otro Ramiro, Nuño, Vela, Juan Ruiz y detrás de la silla del Rey don Bernardo, arzobispo, y a los pies Selín, moro, con una fuente y en ella unas llaves.</stage>
+          <stage>Cúbrese todo el teatro de tafetanes y suenan atabalillos y chirimías y debajo de un
+            dosel están el rey don Alfonso y la reina doña Constanza con coronas y cetros; a un lado
+            todas las damas y al otro Ramiro, Nuño, Vela, Juan Ruiz y detrás de la silla del Rey don
+            Bernardo, arzobispo, y a los pies Selín, moro, con una fuente y en ella unas
+            llaves.</stage>
           <sp who="#rey">
             <speaker rend="caps">Rey</speaker>
 
@@ -4201,7 +4336,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Suenan chirimías y sale oyendo don Bernardo, el arzobispo, y, en acabando de tocar, cantan dentro.</stage>
+          <stage>Suenan chirimías y sale oyendo don Bernardo, el arzobispo, y, en acabando de tocar,
+            cantan dentro.</stage>
           <sp who="#músicos">
             <speaker rend="caps">Músicos</speaker>
 
@@ -4842,7 +4978,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Sale la Reina, suelto el cabello, en una mano un cristo y en la otra un puñal.</stage>
+          <stage>Sale la Reina, suelto el cabello, en una mano un cristo y en la otra un
+            puñal.</stage>
           <sp who="#constanza">
             <speaker rend="caps">Constanza</speaker>
 
@@ -5157,7 +5294,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Suben a Selín, que sale enlodado con muchos temores y en las manos una losa.</stage>
+          <stage>Suben a Selín, que sale enlodado con muchos temores y en las manos una
+            losa.</stage>
           <sp who="#don-vela">
             <speaker rend="caps">Don Vela</speaker>
 
@@ -5411,7 +5549,8 @@
             <l>hasta que varón devoto</l>
             <l>mayor templo la levante.</l>
           </sp>
-          <stage>Sube la imagen y van en procesión todos; el arzobispo la lleva, y luego de rodillas canta la música, que han de ser los pajes con sobrepellices.</stage>
+          <stage>Sube la imagen y van en procesión todos; el arzobispo la lleva, y luego de rodillas
+            canta la música, que han de ser los pajes con sobrepellices.</stage>
           <sp who="#constanza">
             <speaker rend="caps">Constanza</speaker>
             <stage type="withText">Cantando</stage>
@@ -5426,7 +5565,8 @@
 
             <l>Salve Regina.</l>
           </sp>
-          <sp who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
+          <sp
+            who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5438,7 +5578,8 @@
 
             <l>Mater Misericordiae.</l>
           </sp>
-          <sp who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
+          <sp
+            who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5475,7 +5616,8 @@
 
             <l>Vita dulcedo.</l>
           </sp>
-          <sp who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
+          <sp
+            who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5487,7 +5629,8 @@
 
             <l>Spes nostra.</l>
           </sp>
-          <sp who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
+          <sp
+            who="#constanza #domingo #don-bernardo #don-vela #nuño #paje-1 #paje-2 #paje-3 #paje-4 #ramiro #rey #selín">
             <speaker rend="caps">Todos</speaker>
 
 

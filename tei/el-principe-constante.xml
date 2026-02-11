@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000098" xml:lang="es">
   <teiHeader>
@@ -33,9 +33,13 @@
       <sourceDesc>
         <bibl type="sourceText">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-principe-constante-comedia-famosa/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-principe-constante-comedia-famosa/html/</idno>
           <bibl type="originalSource">
-            <title>Esta obra pertenece a la Colección Teatro clásico español. Canon 60. Edición a cargo de Luis Iglesias Feijoo. La colección esencial del TC/12. Grupo de investigación Calderón de la Barca. Texto base: Primera Parte de Comedias de don Pedro Calderón de la Barca. Madrid, 1636 (QCL)</title>
+            <title>Esta obra pertenece a la Colección Teatro clásico español. Canon 60. Edición a
+              cargo de Luis Iglesias Feijoo. La colección esencial del TC/12. Grupo de investigación
+              Calderón de la Barca. Texto base: Primera Parte de Comedias de don Pedro Calderón de
+              la Barca. Madrid, 1636 (QCL)</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -45,14 +49,22 @@
         <listPerson>
           <person xml:id="don-fernando" sex="MALE">
             <persName>Don Fernando</persName>
+            <idno type="wikidata">Q552022</idno>
             <trait source="#calderondigital">
               <desc>infante</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="don-enrique" sex="MALE">
             <persName>Don Enrique</persName>
+            <idno type="wikidata">Q182897</idno>
             <trait source="#calderondigital">
               <desc>infante</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="don-juan" sex="MALE">
@@ -60,20 +72,32 @@
             <trait source="#calderondigital">
               <desc>noble</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>Rey Moro</persName>
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="celín" sex="FEMALE">
             <persName>Celín</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="muley" sex="MALE">
             <persName>Muley</persName>
             <trait source="#calderondigital">
               <desc>general</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="fénix" sex="MALE">
@@ -81,11 +105,17 @@
             <trait source="#calderondigital">
               <desc>enamorada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rosa" sex="FEMALE">
             <persName>Rosa</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="zara" sex="FEMALE">
@@ -93,17 +123,27 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tarudante" sex="MALE">
             <persName>Tarudante</persName>
             <trait source="#calderondigital">
               <desc>infante</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alfonso" sex="MALE">
             <persName>Don Alfonso</persName>
+            <idno type="wikidata">Q299119</idno>
             <trait source="#calderondigital">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="brito" sex="MALE">
@@ -111,27 +151,48 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="estrella" sex="FEMALE">
             <persName>Estrella</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="soldados" sex="MALE">
             <persName>Soldados</persName>
           </personGrp>
           <person xml:id="moro-1" sex="MALE">
             <persName>Un Moro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="moro-2" sex="MALE">
             <persName>Otro Moro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cautivo-1" sex="MALE">
             <persName>Cautivo Primero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cautivo-2" sex="MALE">
             <persName>Cautivo Segundo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cautivo-3" sex="MALE">
             <persName>Cautivo Tercero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -140,17 +201,20 @@
           <term source="dracor" type="genreTitle">comedia</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -165,7 +229,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000098" passive="http://www.wikidata.org/entity/Q4442767"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000098"
+        passive="http://www.wikidata.org/entity/Q4442767"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -954,7 +1019,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Vanse. Tocan un clarín y ruido de desembarcar y van saliendo el infante DON FERNANDO y DON ENRIQUE y DON JUAN COUTIÑO.</stage>
+          <stage>Vanse. Tocan un clarín y ruido de desembarcar y van saliendo el infante DON
+            FERNANDO y DON ENRIQUE y DON JUAN COUTIÑO.</stage>
           <sp who="#don-fernando">
             <speaker>FERNANDO</speaker>
             <l>Yo he de ser el primero, África bella,</l>
@@ -1595,7 +1661,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Vanse los dos y salen por la otra puerta DON ENRIQUE y DON JUAN retirándose de los MOROS, y luego el REY y DON FERNANDO.</stage>
+          <stage>Vanse los dos y salen por la otra puerta DON ENRIQUE y DON JUAN retirándose de los
+            MOROS, y luego el REY y DON FERNANDO.</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l>Rinde la espada, altivo</l>
@@ -3925,7 +3992,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Vanse y sacan en brazos al infante DON FERNANDO, DON JUAN y CAUTIVOS, y sacan una estera en que sentarle.</stage>
+          <stage>Vanse y sacan en brazos al infante DON FERNANDO, DON JUAN y CAUTIVOS, y sacan una
+            estera en que sentarle.</stage>
           <sp who="#don-fernando">
             <speaker>FERNANDO</speaker>
             <l>Ponedme en aquesta parte</l>
@@ -4555,7 +4623,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Vanse. El REY, CELÍN y en lo alto del tablado DON JUAN y un CAUTIVO, y el INFANTE en un ataúd, que se vea la caja no más.</stage>
+          <stage>Vanse. El REY, CELÍN y en lo alto del tablado DON JUAN y un CAUTIVO, y el INFANTE
+            en un ataúd, que se vea la caja no más.</stage>
           <sp who="#don-juan">
             <speaker>JUAN</speaker>
             <l>Bárbaro, gózate aquí</l>
@@ -4619,7 +4688,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Tocan cajas destempladas, sale el infante DON FERNANDO con una hacha alumbrando al infante DON ALFONSO y ENRIQUE, que traen cautivos a TARUDANTE, FÉNIX y MULEY y todos los SOLDADOS.</stage>
+          <stage>Tocan cajas destempladas, sale el infante DON FERNANDO con una hacha alumbrando al
+            infante DON ALFONSO y ENRIQUE, que traen cautivos a TARUDANTE, FÉNIX y MULEY y todos los
+            SOLDADOS.</stage>
           <sp who="#don-fernando">
             <speaker>FERNANDO</speaker>
             <l n="2655">En el horror de la noche,</l>

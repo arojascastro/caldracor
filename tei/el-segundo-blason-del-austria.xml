@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000175" xml:lang="es">
   <teiHeader>
@@ -36,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra/el-segundo-blason-del-austria--0/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra/el-segundo-blason-del-austria--0/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ignacio Arellano y Ma Carmen Pinillos, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN: 3-930700- 90-5.</title>
+            <title>Edición digital a partir de la edición de Ignacio Arellano y Ma Carmen Pinillos,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN: 3-930700-
+              90-5.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,57 +54,114 @@
           </personGrp>
           <person sex="MALE" xml:id="demonio">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="aspid">
             <persName>Áspid</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="basilisco">
             <persName>Basilisco</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="esperanza">
             <persName>Esperanza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="caridad">
             <persName>Caridad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
             <trait source="castlist">
               <desc>emperador</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="alegria">
             <persName>Alegría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pensamiento">
             <persName>Pensamiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="maximiliano">
             <persName>Maximiliano</persName>
+            <idno type="wikidata">Q150726</idno>
             <trait source="castlist">
               <desc>hijo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="sacerdote">
             <persName>Sacerdote</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel">
             <persName>Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="FEMALE" xml:id="virtudes">
             <persName>Virtudes</persName>
           </personGrp>
           <person sex="MALE" xml:id="federico">
             <persName>Federico</persName>
+            <idno type="wikidata">Q150966</idno>
             <trait source="castlist">
               <desc>emperador</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="criado-1">
             <persName>Criado 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="criado-2">
             <persName>Criado 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -110,17 +170,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -685,7 +748,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Con esta repetición se entran los tres, y salen en tropa los Músicos, vestidos de villanos, y entre ellos, de pastoras, la FE, la ESPERANZA y la CARIDAD, la ALEGRÍA y el PENSAMIENTO, un sacerdote anciano, y detrás de todos, MAXIMILIANO, Archiduque, vestido a lo flamenco, bailando todos delante de él</stage>
+          <stage>Con esta repetición se entran los tres, y salen en tropa los Músicos, vestidos de
+            villanos, y entre ellos, de pastoras, la FE, la ESPERANZA y la CARIDAD, la ALEGRÍA y el
+            PENSAMIENTO, un sacerdote anciano, y detrás de todos, MAXIMILIANO, Archiduque, vestido a
+            lo flamenco, bailando todos delante de él</stage>
           <sp who="#esperanza">
             <speaker>ESPERANZA</speaker>
             <stage>Cantado</stage>
@@ -1059,7 +1125,8 @@
             <l>sino un juego que en la aldea</l>
             <l>suele jugarse otras veces.</l>
           </sp>
-          <sp who="#musicos #caridad #esperanza #fe #aspid #demonio #sacerdote #virtudes #alegria #maximiliano #pensamiento">
+          <sp
+            who="#musicos #caridad #esperanza #fe #aspid #demonio #sacerdote #virtudes #alegria #maximiliano #pensamiento">
             <speaker>TODOS</speaker>
             <l part="I">¿Cómo es?</l>
           </sp>
@@ -1081,7 +1148,8 @@
             <l>que el preste, que ha de ser juez,</l>
             <l part="I">le señale.</l>
           </sp>
-          <sp who="#musicos #caridad #esperanza #fe #aspid #demonio #sacerdote #virtudes #alegria #maximiliano #pensamiento">
+          <sp
+            who="#musicos #caridad #esperanza #fe #aspid #demonio #sacerdote #virtudes #alegria #maximiliano #pensamiento">
             <speaker>TODOS</speaker>
             <l part="F">Norabuena.</l>
           </sp>
@@ -1147,7 +1215,8 @@
             <l>ni nací de virgen madre</l>
             <l>ni soy Dios, lo puedo ser».</l>
           </sp>
-          <sp who="#caridad #fe #aspid #demonio #sacerdote #virtudes #alegria #maximiliano #musicos #pensamiento #esperanza">
+          <sp
+            who="#caridad #fe #aspid #demonio #sacerdote #virtudes #alegria #maximiliano #musicos #pensamiento #esperanza">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="710">Viva el placer</l>
             <l>y sólo a la espiga cuadre</l>
@@ -1217,7 +1286,8 @@
             <l>¡Oh, batalla de virtudes</l>
             <l>y vicios, lo que me cuestas!</l>
           </sp>
-          <sp who="#caridad #fe #demonio #sacerdote #virtudes #alegria #musicos #esperanza #pensamiento #maximiliano #aspid">
+          <sp
+            who="#caridad #fe #demonio #sacerdote #virtudes #alegria #musicos #esperanza #pensamiento #maximiliano #aspid">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Vaya, vaya, el que necio la elección yerra;</l>
             <l>déle el sacerdocio la penitencia.</l>
@@ -1231,7 +1301,8 @@
             <l>no tenerla su castigo</l>
             <l n="760">y su castigo tenerla.</l>
           </sp>
-          <sp who="#caridad #fe #demonio #virtudes #alegria #musicos #esperanza #pensamiento #maximiliano #aspid #sacerdote">
+          <sp
+            who="#caridad #fe #demonio #virtudes #alegria #musicos #esperanza #pensamiento #maximiliano #aspid #sacerdote">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Vaya, vaya, y cumpla la penitencia.</l>
           </sp>
@@ -1276,7 +1347,8 @@
             <l>lo que oigo pues ya lo veo</l>
             <l>con los ojos de la fe.</l>
           </sp>
-          <sp who="#musicos #caridad #demonio #virtudes #alegria #esperanza #maximiliano #aspid #sacerdote #pensamiento #fe">
+          <sp
+            who="#musicos #caridad #demonio #virtudes #alegria #esperanza #maximiliano #aspid #sacerdote #pensamiento #fe">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>De todos diga el deseo</l>
             <l>que si la esperanza cree</l>
@@ -1340,7 +1412,8 @@
             <l>mi padre echar de Alemania.</l>
             <l>Disimule, el juego vuelva.</l>
           </sp>
-          <sp who="#caridad #demonio #virtudes #alegria #esperanza #aspid #sacerdote #fe #pensamiento #basilisco #maximiliano #musicos">
+          <sp
+            who="#caridad #demonio #virtudes #alegria #esperanza #aspid #sacerdote #fe #pensamiento #basilisco #maximiliano #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="825">Vaya, vaya, el que necio la elección yerra;</l>
             <l>déle el sacerdocio la penitencia.</l>
@@ -1358,7 +1431,8 @@
             <l n="835">en una fuente porque</l>
             <l>la vista a su vista pierda.</l>
           </sp>
-          <sp who="#demonio #virtudes #alegria #esperanza #aspid #fe #pensamiento #basilisco #maximiliano #musicos #sacerdote">
+          <sp
+            who="#demonio #virtudes #alegria #esperanza #aspid #fe #pensamiento #basilisco #maximiliano #musicos #sacerdote">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Vaya, vaya, y cumpla la penitencia.</l>
           </sp>
@@ -1404,7 +1478,8 @@
             <l n="870">suya para toda sed</l>
             <l>es la fuente de agua viva.</l>
           </sp>
-          <sp who="#virtudes #alegria #esperanza #aspid #fe #basilisco #maximiliano #musicos #sacerdote #pensamiento #caridad">
+          <sp
+            who="#virtudes #alegria #esperanza #aspid #fe #basilisco #maximiliano #musicos #sacerdote #pensamiento #caridad">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Con festiva</l>
             <l>ansia, mortales, corred</l>
@@ -1501,7 +1576,8 @@
             <speaker>ESPERANZA</speaker>
             <l part="I">¡Qué asombro!</l>
           </sp>
-          <sp who="#alegria #musicos #sacerdote #pensamiento #demonio #maximiliano #angel #aspid #basilisco #caridad #fe #esperanza">
+          <sp
+            who="#alegria #musicos #sacerdote #pensamiento #demonio #maximiliano #angel #aspid #basilisco #caridad #fe #esperanza">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l n="915" part="F">¡Guardá la fiera!</l>
@@ -1567,7 +1643,8 @@
             <speaker>OTROS</speaker>
             <l part="F">¡Al llano!</l>
           </sp>
-          <sp who="#alegria #musicos #sacerdote #pensamiento #demonio #angel #basilisco #caridad #fe #esperanza #maximiliano #voces #aspid #acompanamiento">
+          <sp
+            who="#alegria #musicos #sacerdote #pensamiento #demonio #angel #basilisco #caridad #fe #esperanza #maximiliano #voces #aspid #acompanamiento">
             <speaker>TODOS</speaker>
             <l n="945">¡Pastores, guardá la fiera!</l>
           </sp>
@@ -1651,7 +1728,8 @@
             <l>donde al hambre, sed y hielo</l>
             <l>desesperado fallezca.</l>
           </sp>
-          <stage>Luchan los dos, húndese el monte con el león, quedando en la cumbre MAXIMILIANO y suena dentro ruido de terremoto</stage>
+          <stage>Luchan los dos, húndese el monte con el león, quedando en la cumbre MAXIMILIANO y
+            suena dentro ruido de terremoto</stage>
           <sp who="#acompanamiento">
             <speaker>UNOS</speaker>
             <stage>Dentro</stage>
@@ -1722,7 +1800,8 @@
             <speaker>OTROS</speaker>
             <l n="1035" part="F">Augusto César.</l>
           </sp>
-          <sp who="#alegria #musicos #pensamiento #angel #basilisco #caridad #fe #esperanza #aspid #demonio #sacerdote #acompanamiento">
+          <sp
+            who="#alegria #musicos #pensamiento #angel #basilisco #caridad #fe #esperanza #aspid #demonio #sacerdote #acompanamiento">
             <speaker>TODOS</speaker>
             <l>Glorioso Maximiliano.</l>
           </sp>
@@ -1739,7 +1818,8 @@
             <l n="1045">pues ha esperado a que sea</l>
             <l>testigo yo de su ruina.</l>
           </sp>
-          <sp who="#alegria #musicos #pensamiento #basilisco #caridad #fe #esperanza #aspid #demonio #maximiliano #sacerdote #acompanamiento #federico">
+          <sp
+            who="#alegria #musicos #pensamiento #basilisco #caridad #fe #esperanza #aspid #demonio #maximiliano #sacerdote #acompanamiento #federico">
             <speaker>TODOS</speaker>
             <l>Al llano, al valle, a la selva.</l>
           </sp>
@@ -1905,7 +1985,8 @@
         </div>
         <div type="scene" resp="#rojas" n="14">
           <stage>Vanse</stage>
-          <sp who="#alegria #musicos #pensamiento #caridad #fe #esperanza #maximiliano #sacerdote #acompanamiento #federico #basilisco #aspid #demonio">
+          <sp
+            who="#alegria #musicos #pensamiento #caridad #fe #esperanza #maximiliano #sacerdote #acompanamiento #federico #basilisco #aspid #demonio">
             <speaker>TODOS</speaker>
             <l>Imposible es el socorro.</l>
           </sp>
@@ -1913,7 +1994,8 @@
             <speaker>FEDERICO</speaker>
             <l part="I">¡Qué ansia!</l>
           </sp>
-          <sp who="#alegria #musicos #pensamiento #caridad #fe #esperanza #maximiliano #sacerdote #acompanamiento #basilisco #aspid #demonio #federico">
+          <sp
+            who="#alegria #musicos #pensamiento #caridad #fe #esperanza #maximiliano #sacerdote #acompanamiento #basilisco #aspid #demonio #federico">
             <speaker>TODOS</speaker>
             <l part="M">¡Qué angustia!</l>
           </sp>
@@ -2990,7 +3072,8 @@
             <l>Llegad, llegad, que ya está</l>
             <l>el sacramento en el ara.</l>
           </sp>
-          <sp who="#acompanamiento #criado-1 #criado-2 #musicos #maximiliano #angel #caridad #fe #esperanza #federico #alegria #pensamiento #sacerdote">
+          <sp
+            who="#acompanamiento #criado-1 #criado-2 #musicos #maximiliano #angel #caridad #fe #esperanza #federico #alegria #pensamiento #sacerdote">
             <speaker>TODOS</speaker>
             <l>¡Quién en su culto tuviera</l>
             <l n="1770">mil corazones, mil almas</l>
@@ -3008,7 +3091,8 @@
             <speaker>BASILISCO</speaker>
             <l part="F">¡Quién mil rabias!</l>
           </sp>
-          <sp who="#acompanamiento #criado-1 #criado-2 #musicos #maximiliano #angel #caridad #fe #esperanza #federico #alegria #pensamiento #sacerdote">
+          <sp
+            who="#acompanamiento #criado-1 #criado-2 #musicos #maximiliano #angel #caridad #fe #esperanza #federico #alegria #pensamiento #sacerdote">
             <speaker>TODOS</speaker>
             <l>¡Quién mil lenguas para ques</l>
             <l>dijeran en su alabanza</l>
@@ -3016,7 +3100,8 @@
             <l n="1775">que su palabra</l>
             <l>mejora las horas y enmienda las almas.</l>
           </sp>
-          <sp who="#musicos #acompanamiento #criado-1 #criado-2 #maximiliano #angel #caridad #fe #esperanza #federico #alegria #pensamiento #sacerdote">
+          <sp
+            who="#musicos #acompanamiento #criado-1 #criado-2 #maximiliano #angel #caridad #fe #esperanza #federico #alegria #pensamiento #sacerdote">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Y así Caridad y Fe y Esperanza</l>
             <l>canten la victoria</l>
@@ -3024,7 +3109,8 @@
             <l n="1780">en loor del segundo</l>
             <l>blasón del Austria.</l>
           </sp>
-          <stage>Si quid Dictum contra fidem aut bonos mores quasi non dictum et omnia sub correctione. Don Pº Calderón De la Barca.</stage>
+          <stage>Si quid Dictum contra fidem aut bonos mores quasi non dictum et omnia sub
+            correctione. Don Pº Calderón De la Barca.</stage>
         </div>
       </div>
     </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000165" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/18214</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de V. Roncero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2007. ISBN: 978-3-937734-47-7.</title>
+            <title>Edición digital a partir de la edición de V. Roncero, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 2007. ISBN: 978-3-937734-47-7.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,18 +49,33 @@
         <listPerson>
           <person sex="FEMALE" xml:id="discordia">
             <persName>Discordia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="guerra">
             <persName>Guerra</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="rey-1">
             <persName>Rey 1.º</persName>
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel">
             <persName>Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
@@ -69,24 +85,45 @@
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="paz">
             <persName>Paz</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="ocio">
             <persName>Ocio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="seglar">
             <persName>Seglar</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="eclesiastico">
             <persName>Eclesiástico</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="justicia">
             <persName>Justicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="esposa">
             <persName>Esposa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1.º</persName>
@@ -96,9 +133,15 @@
           </personGrp>
           <person sex="FEMALE" xml:id="fama">
             <persName>Fama</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gracia">
             <persName>Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -107,17 +150,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -229,7 +275,8 @@
             <speaker>DISCORDIA</speaker>
             <l part="I">Y en aquella ¿qué ves?</l>
           </sp>
-          <stage>Ábrese la tienda y vese en ella Clodoveo, vestido a la francesa con manto imperial y corona, hincado de rodillas</stage>
+          <stage>Ábrese la tienda y vese en ella Clodoveo, vestido a la francesa con manto imperial
+            y corona, hincado de rodillas</stage>
           <sp who="#guerra">
             <speaker>GUERRA</speaker>
             <l part="F">A lo que creo,</l>
@@ -273,7 +320,8 @@
             <l>que exhala el corazón en dolor tanto</l>
             <l>o la sangre del agua de mi llanto.</l>
           </sp>
-          <stage>Suenan las chirimías y baja un Ángel con un ramo de tres lirios de oro en la mano, y sobre la cabeza del rey una paloma con una ampolleta de vidro en el pico</stage>
+          <stage>Suenan las chirimías y baja un Ángel con un ramo de tres lirios de oro en la mano,
+            y sobre la cabeza del rey una paloma con una ampolleta de vidro en el pico</stage>
           <sp who="#guerra">
             <speaker>GUERRA</speaker>
             <l n="75">Al compás de instrumentos,</l>
@@ -360,7 +408,8 @@
             <l>de otro el no menos misterioso asunto?</l>
             <l n="125">¿Qué ves en esa selva?</l>
           </sp>
-          <stage>Llévale a otro carro y suena dentro terremoto de tempestad, con truenos y relámpagos</stage>
+          <stage>Llévale a otro carro y suena dentro terremoto de tempestad, con truenos y
+            relámpagos</stage>
           <sp who="#guerra">
             <speaker>GUERRA</speaker>
             <l>No quieras que tan presto se me vuelva</l>
@@ -395,7 +444,8 @@
             <speaker>DISCORDIA</speaker>
             <l>¿Qué ves a las escasas luces de ella?</l>
           </sp>
-          <stage>El terremoto, y dando la vuelta al carro pasa por delante de ellos un sacerdote a caballo, y Rodulfo con una hacha llevándole de diestro, y desaparecen</stage>
+          <stage>El terremoto, y dando la vuelta al carro pasa por delante de ellos un sacerdote a
+            caballo, y Rodulfo con una hacha llevándole de diestro, y desaparecen</stage>
           <sp who="#guerra">
             <speaker>GUERRA</speaker>
             <l>Déjame que lo note;</l>
@@ -469,7 +519,8 @@
             <l>suceden al terror, y me parece</l>
             <l>que con la paz el iris amanece.</l>
           </sp>
-          <stage>Baja de lo alto un iris, y en él sentada la Paz con un ramo de azucenas en la mano</stage>
+          <stage>Baja de lo alto un iris, y en él sentada la Paz con un ramo de azucenas en la
+            mano</stage>
           <sp who="#discordia">
             <speaker>DISCORDIA</speaker>
             <l>A ti te toca oír lo que ahí se encierra,</l>
@@ -1057,7 +1108,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Sale el Brazo Eclesiástico con manto rojo, embrazado un escudo con las lises en él</stage>
+          <stage>Sale el Brazo Eclesiástico con manto rojo, embrazado un escudo con las lises en
+            él</stage>
           <sp who="#eclesiastico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="I">¿Qué quieres?</l>
@@ -1207,7 +1259,8 @@
             <l>contigo, ninguno ha hecho</l>
             <l part="I">caso de mí.</l>
           </sp>
-          <sp who="#rey-1 #musicos #rey-2 #seglar #guerra #eclesiastico #acompanamiento #discordia #ocio">
+          <sp
+            who="#rey-1 #musicos #rey-2 #seglar #guerra #eclesiastico #acompanamiento #discordia #ocio">
             <speaker>TODOS</speaker>
             <l part="F">La Paz muera.</l>
           </sp>
@@ -1238,7 +1291,8 @@
             <l>arrojan de sí a la Paz.</l>
           </sp>
           <stage>Cay, como cayendo la Paz a los pies de la Discordia</stage>
-          <sp who="#rey-1 #musicos #rey-2 #seglar #guerra #eclesiastico #acompanamiento #discordia #ocio">
+          <sp
+            who="#rey-1 #musicos #rey-2 #seglar #guerra #eclesiastico #acompanamiento #discordia #ocio">
             <speaker>TODOS</speaker>
             <l part="I">Muera, pues.</l>
           </sp>
@@ -1709,7 +1763,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Al irla a abrazar sale el Rey 2.º (que le hará el que en la primera salida hizo a Rodulfo) y detiénela impidiendo que se abracen</stage>
+          <stage>Al irla a abrazar sale el Rey 2.º (que le hará el que en la primera salida hizo a
+            Rodulfo) y detiénela impidiendo que se abracen</stage>
           <sp who="#rey-2">
             <speaker>REY 2.º</speaker>
             <l>No llegues Paz; y tú advierte</l>
@@ -1857,7 +1912,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Sale el Rey 1.º, que le hará el que hizo a Clodoveo vestido de francés, divertido en un retrato</stage>
+          <stage>Sale el Rey 1.º, que le hará el que hizo a Clodoveo vestido de francés, divertido
+            en un retrato</stage>
           <sp who="#ocio">
             <speaker>OCIO</speaker>
             <l n="980">Retírate hacia esta parte,</l>
@@ -2365,7 +2421,8 @@
             <l>Bien es que a los dos nos vea</l>
             <l>un campo y otro asistir.</l>
           </sp>
-          <stage>Divídense los dos, yendo la Guerra hacia donde está la Paz que, habiendo salido como para oír, es sentida</stage>
+          <stage>Divídense los dos, yendo la Guerra hacia donde está la Paz que, habiendo salido
+            como para oír, es sentida</stage>
           <sp who="#paz">
             <speaker>PAZ</speaker>
             <l n="1200">Por más que quise, amparada</l>
@@ -2564,7 +2621,8 @@
             <speaker>MÚSICA</speaker>
             <l>que el mundo no puede dar.</l>
           </sp>
-          <sp who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #guerra #discordia #ocio #coro-1 #coro-2 #paz">
+          <sp
+            who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #guerra #discordia #ocio #coro-1 #coro-2 #paz">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Pase la palabra y viva la Paz.</l>
           </sp>
@@ -2582,7 +2640,8 @@
             <l>suena mi deprecación,</l>
             <l>que ambos digan a la par</l>
           </sp>
-          <sp who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #guerra #discordia #coro-1 #coro-2 #ocio #paz">
+          <sp
+            who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #guerra #discordia #coro-1 #coro-2 #ocio #paz">
             <speaker>TODOS</speaker>
             <l>Pase la palabra y viva la Paz.</l>
           </sp>
@@ -2636,7 +2695,8 @@
             <l>pues entrambos sitios</l>
             <l>a un tiempo se oirá:</l>
           </sp>
-          <sp who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #guerra #discordia #coro-1 #coro-2 #ocio #paz">
+          <sp
+            who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #guerra #discordia #coro-1 #coro-2 #ocio #paz">
             <speaker>TODOS</speaker>
             <l>Pase la palabra y viva la Paz.</l>
           </sp>
@@ -2646,7 +2706,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Representando unos y cantando otros, salen por una parte la Guerra y por la otra la Discordia</stage>
+          <stage>Representando unos y cantando otros, salen por una parte la Guerra y por la otra la
+            Discordia</stage>
           <sp who="#discordia">
             <speaker>DISCORDIA</speaker>
             <l part="I">¡Cielos! ¿Qué escucho?</l>
@@ -2683,7 +2744,8 @@
             <speaker>LOS DOS</speaker>
             <l part="I">el campo alborota?</l>
           </sp>
-          <sp who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #coro-1 #coro-2 #paz #discordia #ocio #guerra">
+          <sp
+            who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #coro-1 #coro-2 #paz #discordia #ocio #guerra">
             <speaker>TODOS</speaker>
             <l part="F">Quien</l>
             <stage>Dentro</stage>
@@ -2709,7 +2771,8 @@
             <l n="1305">Ninguno es el que la pide,</l>
             <l>y ambos son los que la dan.</l>
           </sp>
-          <sp who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #coro-1 #coro-2 #paz #ocio #guerra #discordia">
+          <sp
+            who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #coro-1 #coro-2 #paz #ocio #guerra #discordia">
             <speaker>TODOS</speaker>
             <l>Pase la palabra y viva la Paz.</l>
           </sp>
@@ -2745,13 +2808,15 @@
             <l>ambos a la voz atentos</l>
             <l>que repite sin cesar.</l>
           </sp>
-          <sp who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #coro-1 #coro-2 #paz #ocio #guerra #discordia">
+          <sp
+            who="#musicos #seglar #eclesiastico #acompanamiento #rey-2 #esposa #justicia #rey-1 #coro-1 #coro-2 #paz #ocio #guerra #discordia">
             <speaker>TODOS</speaker>
             <l n="1330">Pase la palabra y viva la Paz.</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Salen con acompañamientos a un lado el Rey 1.º y Brazo Eclesiástico y a otro el 2º y Brazo Seglar</stage>
+          <stage>Salen con acompañamientos a un lado el Rey 1.º y Brazo Eclesiástico y a otro el 2º
+            y Brazo Seglar</stage>
           <sp who="#rey-1">
             <speaker>REY 1.º</speaker>
             <l>¿Quién ha movido esta voz</l>
@@ -2897,7 +2962,8 @@
             <speaker>SEGLAR</speaker>
             <l>…y vuelva airoso a escuchar.</l>
           </sp>
-          <sp who="#musicos #acompanamiento #esposa #justicia #coro-1 #coro-2 #paz #ocio #guerra #discordia #rey-1 #rey-2 #eclesiastico #seglar">
+          <sp
+            who="#musicos #acompanamiento #esposa #justicia #coro-1 #coro-2 #paz #ocio #guerra #discordia #rey-1 #rey-2 #eclesiastico #seglar">
             <speaker>TODOS</speaker>
             <l n="1395">Pase la palabra y viva la Paz.</l>
           </sp>
@@ -2990,7 +3056,8 @@
           <sp who="#seglar">
             <speaker>SEGLAR</speaker>
             <l>Pero por no detenerme</l>
-            <stage>Truecan lugares, mirando uno a la Discordia y otro a la Guerra, sin verse ellos</stage>
+            <stage>Truecan lugares, mirando uno a la Discordia y otro a la Guerra, sin verse
+              ellos</stage>
             <l>por otra parte he de echar.</l>
           </sp>
           <sp who="#discordia">
@@ -3079,7 +3146,8 @@
         </div>
         <div type="scene" resp="#rojas" n="28">
           <stage>Vanse los dos</stage>
-          <stage>Ábrese un carro, todo en bastidores, y vese una fábrica hermosa fundada sobre ondas y la Paz a sus puertas</stage>
+          <stage>Ábrese un carro, todo en bastidores, y vese una fábrica hermosa fundada sobre ondas
+            y la Paz a sus puertas</stage>
           <sp who="#eclesiastico">
             <speaker>ECLESIÁSTICO</speaker>
             <l n="1470">La admiración del oído</l>
@@ -3408,7 +3476,8 @@
             <l n="1620" part="F">Y en altas voces</l>
             <l part="I">el mío responda.</l>
           </sp>
-          <sp who="#acompanamiento #esposa #justicia #ocio #rey-1 #rey-2 #coro-1 #coro-2 #musicos #paz #eclesiastico #seglar">
+          <sp
+            who="#acompanamiento #esposa #justicia #ocio #rey-1 #rey-2 #coro-1 #coro-2 #musicos #paz #eclesiastico #seglar">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">¡Oh edad</l>
             <l>felice la que a ver llega,</l>
@@ -3418,7 +3487,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage>Con esta repetición de los tres, la música y cajas y trompetas se entran, haciendo reverencia, y vuelven Discordia y Guerra por dos partes</stage>
+          <stage>Con esta repetición de los tres, la música y cajas y trompetas se entran, haciendo
+            reverencia, y vuelven Discordia y Guerra por dos partes</stage>
           <sp who="#discordia">
             <speaker>DISCORDIA</speaker>
             <l>Aunque a ver mi desaire otra vez vuelva…</l>
@@ -3592,7 +3662,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="31">
-          <stage>Dentro atabales y chirimías, y sale en apariencia de bofetón la Fama cantando, dando vuelta lo que dura el pregón</stage>
+          <stage>Dentro atabales y chirimías, y sale en apariencia de bofetón la Fama cantando,
+            dando vuelta lo que dura el pregón</stage>
           <sp who="#fama">
             <speaker>FAMA</speaker>
             <l>Repúblicas de la vida,</l>
@@ -3812,12 +3883,15 @@
             <speaker>CORO 2.º</speaker>
             <l>Vengáis con bien.</l>
           </sp>
-          <sp who="#acompanamiento #esposa #justicia #rey-1 #rey-2 #paz #eclesiastico #seglar #fama #musicos #ocio #guerra #discordia #coro-1 #coro-2">
+          <sp
+            who="#acompanamiento #esposa #justicia #rey-1 #rey-2 #paz #eclesiastico #seglar #fama #musicos #ocio #guerra #discordia #coro-1 #coro-2">
             <speaker>TODOS</speaker>
             <l n="1810">Y repita el eco una y otra vez,</l>
             <l>que hoy es de la Fama el pregón parabién.</l>
           </sp>
-          <stage>Dan vuelta la nave, viéndose en ella la Gracia y el Rey 1.º, y en otra parte el carro triunfante, y en él la Esposa y Rey segundo; uno y otro con su coro de música, y por el tablado acompañamiento</stage>
+          <stage>Dan vuelta la nave, viéndose en ella la Gracia y el Rey 1.º, y en otra parte el
+            carro triunfante, y en él la Esposa y Rey segundo; uno y otro con su coro de música, y
+            por el tablado acompañamiento</stage>
           <sp who="#discordia">
             <speaker>DISCORDIA</speaker>
             <l>¡Oh, quién pudiera, empañando</l>
@@ -3872,7 +3946,8 @@
             <speaker>GUERRA</speaker>
             <l>…dócil al menor vaivén?</l>
           </sp>
-          <stage>Vese la Fama en la nube del ángel primera y podrá hacerla la misma que hizo el ángel</stage>
+          <stage>Vese la Fama en la nube del ángel primera y podrá hacerla la misma que hizo el
+            ángel</stage>
           <sp who="#fama">
             <speaker>FAMA</speaker>
             <l>Columnas en ella habrá</l>
@@ -3907,7 +3982,9 @@
             <speaker>SEGLAR</speaker>
             <l n="1845" part="F">…y de mi rey.</l>
           </sp>
-          <stage>Ábrese el palacio en bastidores, y vense en él Eclesiástico y Seglar sustentando un orbe entre los dos, en cuya eminencia estará por remate el Sacramento con siete cintas de nácar, que saliendo de la Hostia ciñan el orbe</stage>
+          <stage>Ábrese el palacio en bastidores, y vense en él Eclesiástico y Seglar sustentando un
+            orbe entre los dos, en cuya eminencia estará por remate el Sacramento con siete cintas
+            de nácar, que saliendo de la Hostia ciñan el orbe</stage>
           <sp who="#eclesiastico">
             <speaker>ECLESIÁSTICO</speaker>
             <l part="I">Repitiendo el eco…</l>
@@ -3967,11 +4044,14 @@
             <l n="1860" part="F">El eco</l>
             <l>repita una y otra vez…</l>
           </sp>
-          <sp who="#acompanamiento #justicia #ocio #paz #coro-1 #coro-2 #ambos #discordia #guerra #fama #eclesiastico #seglar #musicos #gracia #rey-1 #rey-2 #esposa">
+          <sp
+            who="#acompanamiento #justicia #ocio #paz #coro-1 #coro-2 #ambos #discordia #guerra #fama #eclesiastico #seglar #musicos #gracia #rey-1 #rey-2 #esposa">
             <speaker>TODOS</speaker>
             <l>que hoy es de la Fama el pregón parabién.</l>
           </sp>
-          <stage>Con salva de músicos, cajas y trompetas, bajan de la nave la Gracia y el Rey 1.º, y de la carroza la Esposa y el Rey 2º, hasta partir el tablado de la representación, donde se reciben abrazándose</stage>
+          <stage>Con salva de músicos, cajas y trompetas, bajan de la nave la Gracia y el Rey 1.º, y
+            de la carroza la Esposa y el Rey 2º, hasta partir el tablado de la representación, donde
+            se reciben abrazándose</stage>
           <sp who="#rey-2">
             <speaker>REY 2.º</speaker>
             <l>Desciende, María, conmigo;</l>
@@ -4003,7 +4083,8 @@
             <l>es cuando menos lo es.</l>
             <l part="I">Ya eres reina.</l>
           </sp>
-          <stage>Bajando de la nave no da la mano el Rey a la Gracia, sino pone el hombro y ella la mano en él</stage>
+          <stage>Bajando de la nave no da la mano el Rey a la Gracia, sino pone el hombro y ella la
+            mano en él</stage>
           <sp who="#rey-1">
             <speaker>REY 1.º</speaker>
             <l n="1875" part="F">Tú, señora,</l>
@@ -4065,7 +4146,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="32">
-          <stage>Salen de su tienda los dos y tray el uno la mano en la espada y el otro en un libro</stage>
+          <stage>Salen de su tienda los dos y tray el uno la mano en la espada y el otro en un
+            libro</stage>
           <sp who="#eclesiastico">
             <speaker>ECLESIÁSTICO</speaker>
             <l>Y el Eclesiástico Brazo</l>
@@ -4158,7 +4240,8 @@
             <l>a los dos se ve,</l>
             <l part="I">viva la Paz.</l>
           </sp>
-          <sp who="#acompanamiento #justicia #coro-1 #coro-2 #ambos #fama #musicos #seglar #eclesiastico #rey-1 #esposa #gracia #rey-2 #ocio #discordia #guerra #paz">
+          <sp
+            who="#acompanamiento #justicia #coro-1 #coro-2 #ambos #fama #musicos #seglar #eclesiastico #rey-1 #esposa #gracia #rey-2 #ocio #discordia #guerra #paz">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">Viva.</l>
           </sp>
@@ -4168,7 +4251,8 @@
             <l>azucena y lirio</l>
             <l n="1940">corone un laurel.</l>
           </sp>
-          <sp who="#acompanamiento #justicia #coro-1 #coro-2 #ambos #musicos #seglar #eclesiastico #rey-1 #esposa #gracia #rey-2 #ocio #discordia #guerra #paz #fama">
+          <sp
+            who="#acompanamiento #justicia #coro-1 #coro-2 #ambos #musicos #seglar #eclesiastico #rey-1 #esposa #gracia #rey-2 #ocio #discordia #guerra #paz #fama">
             <speaker>TODOS</speaker>
             <l>Viva la Paz, viva.</l>
             <l>Y en eterna fe</l>
@@ -4179,7 +4263,8 @@
             <speaker>OCIO</speaker>
             <l n="1945">Y repitan todos una y otra vez…</l>
           </sp>
-          <sp who="#acompanamiento #justicia #coro-1 #coro-2 #ambos #musicos #seglar #eclesiastico #rey-1 #esposa #gracia #rey-2 #discordia #guerra #paz #fama #ocio">
+          <sp
+            who="#acompanamiento #justicia #coro-1 #coro-2 #ambos #musicos #seglar #eclesiastico #rey-1 #esposa #gracia #rey-2 #discordia #guerra #paz #fama #ocio">
             <speaker>TODOS</speaker>
             <l>perdonando faltas, puestos a esos pies,</l>
             <l>que hoy es de la Fama el pregón parabién.</l>

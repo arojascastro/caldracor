@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000041" xml:lang="es">
   <teiHeader>
@@ -23,7 +23,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-04-30">
           <time when="19:03:20"/>
@@ -36,9 +37,11 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-a-el-ano-santo-de-roma--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/loa-a-el-ano-santo-de-roma--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de I. Arellano y A.L. Cilveti, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1995.</title>
+            <title>Edición digital a partir de la edición de I. Arellano y A.L. Cilveti, Pamplona,
+              Universidad de Navarra ; Kassel, Reichenberger, 1995.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,30 +51,57 @@
         <listPerson>
           <person xml:id="la-gracia" sex="FEMALE">
             <persName>La Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-naturaleza" sex="FEMALE">
             <persName>La Naturaleza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-1" sex="MALE">
             <persName>Día 1</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-2" sex="MALE">
             <persName>Día 2</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-3" sex="MALE">
             <persName>Día 3</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-4" sex="MALE">
             <persName>Día 4</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-5" sex="MALE">
             <persName>Día 5</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-6" sex="MALE">
             <persName>Día 6</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día-7" sex="MALE">
             <persName>Día 7</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -89,17 +119,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -116,7 +149,8 @@
       <docAuthor>Pedro Calderón de la Barca</docAuthor>
       <docTitle>
         <titlePart type="main">Loa a El año santo de Roma</titlePart>
-        <titlePart type="sub">Loa para el auto sacramental alegórico intitulado El año santo de Roma</titlePart>
+        <titlePart type="sub">Loa para el auto sacramental alegórico intitulado El año santo de
+          Roma</titlePart>
         <titlePart type="sub">Primera parte</titlePart>
       </docTitle>
       <castList>
@@ -138,7 +172,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen los músicos y en cantando la primera copla salen por una parte la GRACIA y por otra la NATURALEZA.</stage>
+          <stage>Salen los músicos y en cantando la primera copla salen por una parte la GRACIA y
+            por otra la NATURALEZA.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Hoy Naturaleza y Gracia</l>

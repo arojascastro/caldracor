@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000174" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Carmen Pinillos, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2016. ISBN: 978-3-944244-44-0.</title>
+            <title>Edición digital a partir de la edición de Carmen Pinillos, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 2016. ISBN: 978-3-944244-44-0.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -49,23 +50,43 @@
           <person sex="FEMALE" xml:id="sultana">
             <persName>Sultana</persName>
             <trait source="castlist"/>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="abenyucef">
             <persName>Abenyucef</persName>
             <trait source="castlist">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="rey">
             <persName>Rey</persName>
+            <idno type="wikidata">Q243122</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="vargas">
             <persName>Vargas</persName>
+            <idno type="wikidata">Q5875290</idno>
             <trait source="castlist">
               <desc>alférez real</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="correa">
@@ -73,64 +94,144 @@
             <trait source="castlist">
               <desc>maestre</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="calatrava">
             <persName>Calatrava</persName>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="alcantara">
             <persName>Alcántara</persName>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="prior">
             <persName>Prior</persName>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="santiago">
             <persName>Santiago</persName>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="segovia">
             <persName>Segovia</persName>
+            <idno type="wikidata">Q6098357</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="principe">
             <persName>Príncipe</persName>
+            <idno type="wikidata">Q47595</idno>
             <trait resp="#rojas">
               <desc>príncipe</desc>
             </trait>
             <trait source="castlist">
               <desc>hijo</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel-1">
             <persName>Ángel 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="angel-2">
             <persName>Ángel 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="nina">
             <persName>Niña</persName>
             <trait source="castlist"/>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="almirante">
             <persName>Almirante</persName>
+            <idno type="wikidata">Q7290579</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-pelay">
             <persName>Don Pelay</persName>
+            <idno type="wikidata">Q3306259</idno>
             <trait source="castlist">
               <desc>maestre</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="soldado">
             <persName>Soldado</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="tropezon">
             <persName>Tropezón</persName>
             <trait source="castlist">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="san-juan">
             <persName>San Juan</persName>
+            <idno type="wikidata">Q44015</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -139,17 +240,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -187,7 +291,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Tócase un clarín, y abriéndose en lo bajo del primer carro una tienda de campaña, se ve en ella Abenyucefdormido; y sale de otro, Sultana, mora</stage>
+          <stage>Tócase un clarín, y abriéndose en lo bajo del primer carro una tienda de campaña,
+            se ve en ella Abenyucefdormido; y sale de otro, Sultana, mora</stage>
           <sp who="#sultana">
             <speaker>SULTANA</speaker>
             <l>Valeroso Abenyucef,</l>
@@ -418,7 +523,8 @@
             <l n="210">de sus trompas y sus cajas:</l>
           </sp>
           <stage>Dentro cajas, trompetas y voces</stage>
-          <sp who="#sultana #abenyucef #acompanamiento #rey #vargas #correa #calatrava #alcantara #prior #santiago #segovia #principe #almirante #don-pelay #soldado #tropezon">
+          <sp
+            who="#sultana #abenyucef #acompanamiento #rey #vargas #correa #calatrava #alcantara #prior #santiago #segovia #principe #almirante #don-pelay #soldado #tropezon">
             <speaker>ELLA Y TODOS</speaker>
             <l>¡Arma, arma! ¡Guerra, guerra!</l>
           </sp>
@@ -494,13 +600,22 @@
             <speaker>OTROS</speaker>
             <l>¡Alto, y pase la palabra!</l>
           </sp>
-          <sp who="#sultana #abenyucef #acompanamiento #rey #vargas #correa #calatrava #alcantara #prior #santiago #segovia #principe #almirante #don-pelay #soldado #tropezon">
+          <sp
+            who="#sultana #abenyucef #acompanamiento #rey #vargas #correa #calatrava #alcantara #prior #santiago #segovia #principe #almirante #don-pelay #soldado #tropezon">
             <speaker>TODOS</speaker>
             <l>¡Alto, y pase la palabra!</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Con esta repetición, tocando arma en un carro y amarchar en otro, sale Garci Pérez De Vargas, con un estandarte blanco, pintada en él una imagende Nuestra Señora con el Niño en brazos, dorado el ropaje a flores, como suelen pintarse las que comúnmente se llaman de la Antigua, y a la otra parte unescudo con las armas de Castilla y León; luego don Pelay Correa, maestre de Santiago Fernán Ordóñez, maestre de Calatrava; don Periáñez, maestre de Alcántara; Fernán Ruiz, prior de san Juan, todos con botas y espuelas, bengalas y petos, yen ellos grabadas las cruces de sus órdenes; después don Arias, arzobispo de Santiago, y don Ramón, obispo de Segovia, el principe don Alfonso, y detrás el rey don Fernando.</stage>
+          <stage>Con esta repetición, tocando arma en un carro y amarchar en otro, sale Garci Pérez
+            De Vargas, con un estandarte blanco, pintada en él una imagende Nuestra Señora con el
+            Niño en brazos, dorado el ropaje a flores, como suelen pintarse las que comúnmente se
+            llaman de la Antigua, y a la otra parte unescudo con las armas de Castilla y León; luego
+            don Pelay Correa, maestre de Santiago Fernán Ordóñez, maestre de Calatrava; don
+            Periáñez, maestre de Alcántara; Fernán Ruiz, prior de san Juan, todos con botas y
+            espuelas, bengalas y petos, yen ellos grabadas las cruces de sus órdenes; después don
+            Arias, arzobispo de Santiago, y don Ramón, obispo de Segovia, el principe don Alfonso, y
+            detrás el rey don Fernando.</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l>Castellanos y leoneses</l>
@@ -587,7 +702,8 @@
             <l n="335">de mi pretexto a la instancia.</l>
             <l>Tocad al Ave María,</l>
             <l>que es siempre mi primer salva.</l>
-            <stage>Toca la caja los nueve golpes, y todos se arrodillanante la imagen del estandarte</stage>
+            <stage>Toca la caja los nueve golpes, y todos se arrodillanante la imagen del
+              estandarte</stage>
             <l>¡Virgen, a quien eligió</l>
             <l>para sagrario y morada</l>
             <l n="340">por hija el Padre; escogida</l>
@@ -931,7 +1047,12 @@
             <l>que, si no mueres, no vives,</l>
             <l>cuando piensas que descansas.</l>
           </sp>
-          <stage>Quédase dormido, suenan las chirimías y ábrese un carro de nubarrones y estrellas, y vese en él un trono de serafines, en que vendrá sentada una Niña, vestida como pintan la imagen de los Reyesde la santa iglesia de Sevilla, con el niño en brazos y a sus lados dos ángeles, como que sustentan el trono; y cantando ellos, y respondiendo toda la Música, bajan hasta quedar en el aire, en medida proporción, según la distancia del tablado</stage>
+          <stage>Quédase dormido, suenan las chirimías y ábrese un carro de nubarrones y estrellas,
+            y vese en él un trono de serafines, en que vendrá sentada una Niña, vestida como pintan
+            la imagen de los Reyesde la santa iglesia de Sevilla, con el niño en brazos y a sus
+            lados dos ángeles, como que sustentan el trono; y cantando ellos, y respondiendo toda la
+            Música, bajan hasta quedar en el aire, en medida proporción, según la distancia del
+            tablado</stage>
           <sp who="#angel-1">
             <speaker>ÁNGEL 1.º</speaker>
             <stage>Cantado</stage>
@@ -1268,12 +1389,14 @@
             <l>Mal con dos afectos lucho</l>
             <l n="695">cuando en dos partes escucho.</l>
           </sp>
-          <stage>Voces en el carro de la nube; y dando vuelta se veen ella el almirante, don Ramón Bonifaz, y soldados</stage>
+          <stage>Voces en el carro de la nube; y dando vuelta se veen ella el almirante, don Ramón
+            Bonifaz, y soldados</stage>
           <sp who="#almirante">
             <speaker>ALMIRANTE</speaker>
             <l part="I">¡Da fondo y a tierra!</l>
           </sp>
-          <sp who="#vargas #correa #calatrava #alcantara #prior #principe #santiago #segovia #acompanamiento #rey #almirante">
+          <sp
+            who="#vargas #correa #calatrava #alcantara #prior #principe #santiago #segovia #acompanamiento #rey #almirante">
             <speaker>TODOS</speaker>
             <l part="F">¡A tierra!</l>
           </sp>
@@ -1604,7 +1727,8 @@
             <l>a mi intención no se niega,</l>
             <l part="I">cielo y tierra oirán…</l>
           </sp>
-          <stage>Tocan el clarín, y dando vueltas la nave, se ven en ella el Almirante y Soldados</stage>
+          <stage>Tocan el clarín, y dando vueltas la nave, se ven en ella el Almirante y
+            Soldados</stage>
           <sp who="#almirante">
             <speaker>ALMIRANTE</speaker>
             <l n="915" part="F">¡Despliega</l>
@@ -1635,7 +1759,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Vanse los dos. Suena el clarín, y dando una y más vueltas la nave, se ven en ella el Almirante, Soldados y Marineros</stage>
+          <stage>Vanse los dos. Suena el clarín, y dando una y más vueltas la nave, se ven en ella
+            el Almirante, Soldados y Marineros</stage>
           <sp who="#almirante">
             <speaker>ALMIRANTE</speaker>
             <l n="925">Leva el áncora y vira,</l>
@@ -1674,7 +1799,8 @@
             <l n="955">mostraré que es en riesgo de la vida</l>
             <l>primero el tropezón que la caída.</l>
           </sp>
-          <sp who="#vargas #correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #almirante #tropezon">
+          <sp
+            who="#vargas #correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #almirante #tropezon">
             <speaker>TODOS</speaker>
             <l>¡Ninguno ha de dejarte!</l>
           </sp>
@@ -1682,13 +1808,16 @@
             <speaker>ALMIRANTE</speaker>
             <l>¡A morir o a pasar de esotra parte!</l>
           </sp>
-          <sp who="#abenyucef #vargas #correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #tropezon #almirante">
+          <sp
+            who="#abenyucef #vargas #correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #tropezon #almirante">
             <speaker>TODOS</speaker>
             <l>¡A morir o a pasar de esotra parte!</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>El clarín y las cajas en la nave, y dando vueltas,sale Sultana en el carro de enfrente, que será uncubo de muralla, sobre las más altas almenas, comomirando a lo lejos el mar</stage>
+          <stage>El clarín y las cajas en la nave, y dando vueltas,sale Sultana en el carro de
+            enfrente, que será uncubo de muralla, sobre las más altas almenas, comomirando a lo
+            lejos el mar</stage>
           <sp who="#sultana">
             <speaker>SULTANA</speaker>
             <l n="960">O morir o pasar de esotra parte</l>
@@ -1736,8 +1865,10 @@
             <l>viento en popa veloces,</l>
             <l>ser su faena repetir a voces:</l>
           </sp>
-          <stage>Dando vueltas la nave, suenan con las voces cajas y trompetas, ruido de terremoto dentro della</stage>
-          <sp who="#correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #tropezon #almirante">
+          <stage>Dando vueltas la nave, suenan con las voces cajas y trompetas, ruido de terremoto
+            dentro della</stage>
+          <sp
+            who="#correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #tropezon #almirante">
             <speaker>TODOS</speaker>
             <stage>En la nave</stage>
             <l>¡Ampara, Virgen pura, a tu Fernando!</l>
@@ -1759,7 +1890,8 @@
             <l>con que de esotra parte el agua arriba</l>
             <l part="I">diciendo va feliz:</l>
           </sp>
-          <sp who="#correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #tropezon #almirante #abenyucef #sultana">
+          <sp
+            who="#correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #tropezon #almirante #abenyucef #sultana">
             <speaker>TODOS</speaker>
             <stage>En la nave</stage>
             <l part="F">¡Fernando viva!</l>
@@ -1808,14 +1940,16 @@
             <speaker>ABENYUCEF</speaker>
             <l part="M">¡Al arma!</l>
           </sp>
-          <sp who="#correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #tropezon #almirante #sultana #abenyucef">
+          <sp
+            who="#correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #rey #tropezon #almirante #sultana #abenyucef">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l part="F">¡Guerra, guerra!</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="20">
-          <stage>Cajas y trompetas, y sale el Rey, el Príncipe y prelados, con los maestres y demás soldados</stage>
+          <stage>Cajas y trompetas, y sale el Rey, el Príncipe y prelados, con los maestres y demás
+            soldados</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l n="1030">Ved que rumor de arma en cuantas</l>
@@ -1850,7 +1984,8 @@
             <speaker>ABENYUCEF</speaker>
             <l part="I">¡Viva el gran profeta!</l>
           </sp>
-          <sp who="#correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #tropezon #almirante #sultana #rey #san-juan #abenyucef">
+          <sp
+            who="#correa #calatrava #alcantara #prior #acompanamiento #principe #don-pelay #santiago #soldado #segovia #tropezon #almirante #sultana #rey #san-juan #abenyucef">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l n="1050" part="F">¡Viva!</l>
@@ -1987,7 +2122,8 @@
             <stage>Dentro</stage>
             <l part="I">¡Arma, arma!</l>
           </sp>
-          <sp who="#prior #santiago #soldado #tropezon #almirante #abenyucef #sultana #acompanamiento #don-pelay #calatrava #alcantara #san-juan #vargas #rey #principe #segovia">
+          <sp
+            who="#prior #santiago #soldado #tropezon #almirante #abenyucef #sultana #acompanamiento #don-pelay #calatrava #alcantara #san-juan #vargas #rey #principe #segovia">
             <speaker>TODOS</speaker>
             <l n="1115" part="F">¡Guerra, guerra!</l>
           </sp>
@@ -2170,7 +2306,8 @@
             <l>que la batalla se pierda!</l>
           </sp>
           <stage>La caja</stage>
-          <sp who="#prior #soldado #almirante #sultana #don-pelay #calatrava #alcantara #san-juan #acompanamiento #vargas #principe #santiago #tropezon #rey #segovia #abenyucef">
+          <sp
+            who="#prior #soldado #almirante #sultana #don-pelay #calatrava #alcantara #san-juan #acompanamiento #vargas #principe #santiago #tropezon #rey #segovia #abenyucef">
             <speaker>TODOS</speaker>
             <l>A ellos, antes que los muros</l>
             <l>los amparen y defiendan.</l>
@@ -2240,7 +2377,8 @@
             <l n="1235">todo es una cosa mesma,</l>
             <l part="I">pues todo dice…?</l>
           </sp>
-          <sp who="#prior #soldado #almirante #don-pelay #calatrava #alcantara #san-juan #acompanamiento #vargas #acompanamiento #principe #tropezon #abenyucef #santiago #segovia #rey #sultana">
+          <sp
+            who="#prior #soldado #almirante #don-pelay #calatrava #alcantara #san-juan #acompanamiento #vargas #acompanamiento #principe #tropezon #abenyucef #santiago #segovia #rey #sultana">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l part="F">¡Victoria</l>
@@ -2287,7 +2425,8 @@
             <speaker>OTROS</speaker>
             <l>¡Viva, reine, triunfe y venza!</l>
           </sp>
-          <sp who="#prior #soldado #almirante #don-pelay #calatrava #alcantara #san-juan #acompanamiento #vargas #principe #tropezon #abenyucef #santiago #segovia #rey #sultana">
+          <sp
+            who="#prior #soldado #almirante #don-pelay #calatrava #alcantara #san-juan #acompanamiento #vargas #principe #tropezon #abenyucef #santiago #segovia #rey #sultana">
             <speaker>TODOS</speaker>
             <l>¡Danos, gran señor, las plantas!</l>
           </sp>
@@ -2377,7 +2516,8 @@
             <l>retiraos, que yo mismo</l>
             <l>veré lo que el moro intenta.</l>
           </sp>
-          <stage>Retíranse todos al carro de enfrente, y el Rey se adelanta al de la muralla, saliendo a ella Abenyucef</stage>
+          <stage>Retíranse todos al carro de enfrente, y el Rey se adelanta al de la muralla,
+            saliendo a ella Abenyucef</stage>
           <sp who="#abenyucef">
             <speaker>ABENYUCEF</speaker>
             <l>¡Ah del campo de Castilla</l>
@@ -2545,7 +2685,8 @@
             <speaker>REY</speaker>
             <l part="F">¡A la guerra!</l>
           </sp>
-          <sp who="#correa #prior #don-pelay #soldado #acompanamiento #tropezon #santiago #segovia #sultana #almirante #san-juan #calatrava #alcantara #vargas #principe #abenyucef #rey">
+          <sp
+            who="#correa #prior #don-pelay #soldado #acompanamiento #tropezon #santiago #segovia #sultana #almirante #san-juan #calatrava #alcantara #vargas #principe #abenyucef #rey">
             <speaker>LAS VOCES</speaker>
             <l>Ya fallecidos al hambre,</l>
             <l>¿quién quieres que la defienda?</l>
@@ -2611,7 +2752,8 @@
             <l>Hijos, ya Sevilla es nuestra,</l>
             <l n="1400">dadme en albricias los brazos.</l>
           </sp>
-          <sp who="#prior #soldado #acompanamiento #tropezon #santiago #segovia #sultana #almirante #san-juan #calatrava #alcantara #vargas #don-pelay #principe #abenyucef #rey">
+          <sp
+            who="#prior #soldado #acompanamiento #tropezon #santiago #segovia #sultana #almirante #san-juan #calatrava #alcantara #vargas #don-pelay #principe #abenyucef #rey">
             <speaker>TODOS</speaker>
             <l>Tus pies nuestro centro sean.</l>
           </sp>
@@ -2656,13 +2798,18 @@
             <l>de clarines y trompetas,</l>
             <l>diciendo: ¡Fernando viva!</l>
           </sp>
-          <sp who="#prior #don-pelay #soldado #tropezon #sultana #almirante #san-juan #calatrava #alcantara #vargas #acompanamiento #abenyucef #segovia #santiago #principe #rey">
+          <sp
+            who="#prior #don-pelay #soldado #tropezon #sultana #almirante #san-juan #calatrava #alcantara #vargas #acompanamiento #abenyucef #segovia #santiago #principe #rey">
             <speaker>TODOS</speaker>
             <l>¡Viva, reine, triunfe y venza!</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage>Con esta salva de cajas, clarines, chirimías y voces, llegan todos al carro del muro, y sale Abenyucef con una fuente, y en ella unas llaves doradas; cógenle en medio, y atravesando otra vez el tablado, llegan al carro de la primera tienda de campaña, donde se verá el Rey con manto imperial, corona y cetro; a sus lados los dos prelados, y el Príncipe</stage>
+          <stage>Con esta salva de cajas, clarines, chirimías y voces, llegan todos al carro del
+            muro, y sale Abenyucef con una fuente, y en ella unas llaves doradas; cógenle en medio,
+            y atravesando otra vez el tablado, llegan al carro de la primera tienda de campaña,
+            donde se verá el Rey con manto imperial, corona y cetro; a sus lados los dos prelados, y
+            el Príncipe</stage>
           <sp who="#principe">
             <speaker>PRÍNCIPE</speaker>
             <l n="1420">Ya el moro rey de Sevilla,</l>
@@ -2780,7 +2927,8 @@
             <speaker>UNOS</speaker>
             <l part="I">¡Viva el gran Fernando!</l>
           </sp>
-          <sp who="#prior #soldado #acompanamiento #tropezon #sultana #acompanamiento #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #principe #almirante #abenyucef #vargas #rey">
+          <sp
+            who="#prior #soldado #acompanamiento #tropezon #sultana #acompanamiento #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #principe #almirante #abenyucef #vargas #rey">
             <speaker>TODOS</speaker>
             <l part="F">¡Viva!</l>
           </sp>
@@ -2794,12 +2942,14 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="32">
-          <stage>Vargas en el muro, arbolando el estandarte; y Música, y todos respondiendo, se entran todos alcompás de cajas y trompetas, y sale la Sultana,de cautiva</stage>
+          <stage>Vargas en el muro, arbolando el estandarte; y Música, y todos respondiendo, se
+            entran todos alcompás de cajas y trompetas, y sale la Sultana,de cautiva</stage>
           <sp who="#vargas">
             <speaker>VARGAS</speaker>
             <l>¡Victoria por don Fernando!</l>
           </sp>
-          <sp who="#musicos #soldado #tropezon #sultana #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #almirante #abenyucef #rey #acompanamiento #principe #vargas">
+          <sp
+            who="#musicos #soldado #tropezon #sultana #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #almirante #abenyucef #rey #acompanamiento #principe #vargas">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Victoria por don Fernando!</l>
           </sp>
@@ -2807,7 +2957,8 @@
             <speaker>VARGAS</speaker>
             <l>¡Rey invicto, invicto césar!</l>
           </sp>
-          <sp who="#musicos #prior #soldado #acompanamiento #tropezon #sultana #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #almirante #abenyucef #rey #principe #vargas">
+          <sp
+            who="#musicos #prior #soldado #acompanamiento #tropezon #sultana #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #almirante #abenyucef #rey #principe #vargas">
             <speaker>MÚSICA Y TODOS</speaker>
             <l n="1495">¡Rey invicto, invicto césar!</l>
           </sp>
@@ -2815,7 +2966,8 @@
             <speaker>VARGAS</speaker>
             <l>¡De Castilla y de León!</l>
           </sp>
-          <sp who="#musicos #prior #soldado #acompanamiento #tropezon #sultana #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #almirante #abenyucef #rey #principe #vargas">
+          <sp
+            who="#musicos #prior #soldado #acompanamiento #tropezon #sultana #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #almirante #abenyucef #rey #principe #vargas">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡De Castilla y de León!</l>
           </sp>
@@ -2823,7 +2975,8 @@
             <speaker>VARGAS</speaker>
             <l>¡Que viva, que reine, que triunfe y que venza!</l>
           </sp>
-          <sp who="#musicos #prior #soldado #tropezon #sultana #acompanamiento #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #almirante #abenyucef #rey #principe #vargas">
+          <sp
+            who="#musicos #prior #soldado #tropezon #sultana #acompanamiento #san-juan #calatrava #alcantara #segovia #santiago #don-pelay #almirante #abenyucef #rey #principe #vargas">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Que viva, que reine, que triunfe y que venza!</l>
           </sp>
@@ -2883,7 +3036,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="33">
-          <stage>Salen cantando los dos Ángeles de peregrinos, y el tono sea imitación de extranjeros que piden limosna</stage>
+          <stage>Salen cantando los dos Ángeles de peregrinos, y el tono sea imitación de
+            extranjeros que piden limosna</stage>
           <sp who="#angel-1 #angel-2">
             <speaker>LOS ÁNGELES</speaker>
             <stage>Cantan</stage>
@@ -3437,7 +3591,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="39">
-          <stage>Vanse y sale Tropezón, con una cestilla con algode comer, y una limeta con vino</stage>
+          <stage>Vanse y sale Tropezón, con una cestilla con algode comer, y una limeta con
+            vino</stage>
           <sp who="#tropezon">
             <speaker>TROPEZÓN</speaker>
             <l>¿Cuál es una cosi cosa</l>
@@ -3483,7 +3638,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="40">
-          <stage>Llama a la puerta, salen a ella los Ángeles, toman la comida y, al ir él a entrar se cierran</stage>
+          <stage>Llama a la puerta, salen a ella los Ángeles, toman la comida y, al ir él a entrar
+            se cierran</stage>
           <sp who="#angel-1">
             <speaker>ÁNGEL 1.º</speaker>
             <l part="I">¿Quién llama?</l>
@@ -3684,7 +3840,8 @@
             <l>la puerta, fuerza es que llame</l>
             <l part="I">gente. ¡Hola!</l>
           </sp>
-          <sp who="#prior #soldado #san-juan #calatrava #alcantara #santiago #don-pelay #almirante #abenyucef #acompanamiento #principe #vargas #sultana #segovia #tropezon #rey">
+          <sp
+            who="#prior #soldado #san-juan #calatrava #alcantara #santiago #don-pelay #almirante #abenyucef #acompanamiento #principe #vargas #sultana #segovia #tropezon #rey">
             <speaker>TODOS</speaker>
             <l part="F">Señor ¿qué es esto?</l>
           </sp>
@@ -3694,7 +3851,8 @@
             <l>y sepamos lo que hay dentro.</l>
           </sp>
           <stage>Dan golpes</stage>
-          <sp who="#prior #soldado #san-juan #calatrava #alcantara #santiago #don-pelay #almirante #abenyucef #acompanamiento #principe #vargas #sultana #segovia #tropezon #rey">
+          <sp
+            who="#prior #soldado #san-juan #calatrava #alcantara #santiago #don-pelay #almirante #abenyucef #acompanamiento #principe #vargas #sultana #segovia #tropezon #rey">
             <speaker>TODOS</speaker>
             <l n="1960">Ya abiertas, señor, están.</l>
           </sp>
@@ -3704,7 +3862,10 @@
             <l>solas, pues puedo decir</l>
             <l>que abristes las de los cielos.</l>
           </sp>
-          <stage>Ábrense las puertas de todo el carro, y vese en un trono la misma Niña que hizo la imagen, inmoble,como si fuera estatua; y dos elevaciones, en que subirán los Ángeles cantando; el pan, y el vino estará en el plano del trono, como en forma de altar, y todos se hincan de rodillas</stage>
+          <stage>Ábrense las puertas de todo el carro, y vese en un trono la misma Niña que hizo la
+            imagen, inmoble,como si fuera estatua; y dos elevaciones, en que subirán los Ángeles
+            cantando; el pan, y el vino estará en el plano del trono, como en forma de altar, y
+            todos se hincan de rodillas</stage>
           <sp who="#segovia">
             <speaker>SEGOVIA</speaker>
             <l part="I">¡Qué maravilla!</l>
@@ -3967,7 +4128,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="45">
-          <stage>Sale el Rey como han dicho los versos, en brazos del Príncipe y arzobispo de Santiago que traerán dos luces en las manos</stage>
+          <stage>Sale el Rey como han dicho los versos, en brazos del Príncipe y arzobispo de
+            Santiago que traerán dos luces en las manos</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l>Sacadme hasta los umbrales</l>
@@ -4102,7 +4264,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="46">
-          <stage>Con esta repetición, llegando el Rey a la puerta izquierda del teatro, sale por la derecha todo el acompañamiento, y en medio el obispo de Segovia, y haciendo dos alas, atraviesa el tablado con mucha majestad, durando siempre la música; el Rey le espera a la puerta, y alumbrándole, se entra el primero, y todos tras él, quedando la Sultana sola</stage>
+          <stage>Con esta repetición, llegando el Rey a la puerta izquierda del teatro, sale por la
+            derecha todo el acompañamiento, y en medio el obispo de Segovia, y haciendo dos alas,
+            atraviesa el tablado con mucha majestad, durando siempre la música; el Rey le espera a
+            la puerta, y alumbrándole, se entra el primero, y todos tras él, quedando la Sultana
+            sola</stage>
           <sp who="#sultana">
             <speaker>SULTANA</speaker>
             <l>Aun con haber visto acto</l>
@@ -4162,7 +4328,8 @@
         </div>
         <div type="scene" resp="#rojas" n="48">
           <stage>Salen todos con el Príncipe</stage>
-          <sp who="#prior #soldado #acompanamiento #san-juan #abenyucef #tropezon #segovia #almirante #alcantara #vargas #calatrava #don-pelay #principe #santiago #rey #musicos #angel-1 #angel-2 #sultana">
+          <sp
+            who="#prior #soldado #acompanamiento #san-juan #abenyucef #tropezon #segovia #almirante #alcantara #vargas #calatrava #don-pelay #principe #santiago #rey #musicos #angel-1 #angel-2 #sultana">
             <speaker>TODOS</speaker>
             <l part="F">¡Alfonso viva!</l>
           </sp>
@@ -4171,7 +4338,8 @@
             <l>¡Qué a costa del sentimiento</l>
             <l>escucho vuestros aplausos!</l>
           </sp>
-          <sp who="#prior #soldado #san-juan #acompanamiento #abenyucef #tropezon #segovia #almirante #alcantara #vargas #calatrava #don-pelay #santiago #rey #musicos #angel-1 #angel-2 #sultana #principe">
+          <sp
+            who="#prior #soldado #san-juan #acompanamiento #abenyucef #tropezon #segovia #almirante #alcantara #vargas #calatrava #don-pelay #santiago #rey #musicos #angel-1 #angel-2 #sultana #principe">
             <speaker>TODOS</speaker>
             <l n="2230">Todos, señor, le tenemos.</l>
           </sp>
@@ -4181,7 +4349,8 @@
             <l>más es para dar ejemplo</l>
             <l>que dolor. ¡Alfonso viva!</l>
           </sp>
-          <sp who="#prior #soldado #acompanamiento #san-juan #abenyucef #tropezon #almirante #alcantara #vargas #calatrava #don-pelay #santiago #rey #musicos #angel-1 #angel-2 #sultana #principe #segovia">
+          <sp
+            who="#prior #soldado #acompanamiento #san-juan #abenyucef #tropezon #almirante #alcantara #vargas #calatrava #don-pelay #santiago #rey #musicos #angel-1 #angel-2 #sultana #principe #segovia">
             <speaker>TODOS</speaker>
             <l>¡Viva por siglos eternos!</l>
           </sp>
@@ -4194,7 +4363,8 @@
             <l>repiten todos conformes,</l>
             <l n="2240">en perdón de nuestros yerros!:</l>
           </sp>
-          <sp who="#prior #soldado #acompanamiento #san-juan #abenyucef #tropezon #almirante #alcantara #vargas #calatrava #don-pelay #santiago #rey #musicos #angel-1 #angel-2 #sultana #principe #segovia">
+          <sp
+            who="#prior #soldado #acompanamiento #san-juan #abenyucef #tropezon #almirante #alcantara #vargas #calatrava #don-pelay #santiago #rey #musicos #angel-1 #angel-2 #sultana #principe #segovia">
             <speaker>TODOS</speaker>
             <l>Cuando el llanto en el gozo</l>
             <l>resulta, es cierto</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000128" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-09">
@@ -41,7 +42,10 @@
           <name>Association for Hispanic Classical Theater</name>
           <idno type="URL">http://www.comedias.org/calderon/Trejus.html</idno>
           <bibl type="originalSource">
-            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en 1999.</title>
+            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge
+              Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y
+              luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en
+              1999.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,6 +58,9 @@
             <trait source="castlist">
               <desc>hijo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lope-padre" sex="MALE">
             <persName>Don Lope de Urrea</persName>
@@ -63,11 +70,17 @@
             <trait source="castlist">
               <desc>padre</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mendo" sex="MALE">
             <persName>Don Mendo Torrellas</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="guillén" sex="MALE">
@@ -75,11 +88,18 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>Rey Don Pedro de Aragón</persName>
+            <idno type="wikidata">Q336823</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="vicente" sex="MALE">
@@ -87,11 +107,17 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="violante" sex="FEMALE">
             <persName>Doña Violante</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="blanca" sex="FEMALE">
@@ -99,11 +125,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="beatriz" sex="FEMALE">
             <persName>Beatriz</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="elvira" sex="FEMALE">
@@ -111,12 +143,21 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="bandolero-1" sex="MALE">
             <persName>Bandolero 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="bandolero-2" sex="MALE">
             <persName>Bandolero 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="voces">
             <persName>Voces</persName>
@@ -128,17 +169,20 @@
           <term source="dracor" type="genreTitle">tragedia</term>
           <term source="#kroll" type="main">tragedia y drama de honor</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -177,7 +221,8 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suena dentro un arcabuzazo, y salen don MENDO y doña VIOLANTE, retirándose de cuatro bandoleros que los siguen, y VICENTE entre ellos</stage>
+          <stage>Suena dentro un arcabuzazo, y salen don MENDO y doña VIOLANTE, retirándose de
+            cuatro bandoleros que los siguen, y VICENTE entre ellos</stage>
           <sp who="#mendo">
             <speaker rend="caps">Mendo</speaker>
 
@@ -1414,7 +1459,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Vanse. Salen doña VIOLANTE en traje de camino por un lado, y por otro doña BLANCA</stage>
+          <stage>Vanse. Salen doña VIOLANTE en traje de camino por un lado, y por otro doña
+            BLANCA</stage>
           <sp who="#blanca">
             <speaker rend="caps">Blanca</speaker>
 
@@ -1944,7 +1990,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>Retíranse las dos a un retrete, que se fingirá con algunos lienzos.Salen don LOPE HIJO y VICENTE</stage>
+          <stage>Retíranse las dos a un retrete, que se fingirá con algunos lienzos.Salen don LOPE
+            HIJO y VICENTE</stage>
           <sp who="#lope-hijo">
             <speaker rend="caps">Lope Hijo</speaker>
 
@@ -2308,7 +2355,8 @@
       <div type="act" n="2">
         <head rend="caps">Jornada Segunda</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen don LOPE HIJO y VICENTE vestidos de camino, y por otra parte doña BLANCA, don LOPE PADRE y BEATRIZ</stage>
+          <stage>Salen don LOPE HIJO y VICENTE vestidos de camino, y por otra parte doña BLANCA, don
+            LOPE PADRE y BEATRIZ</stage>
           <sp who="#lope-hijo">
             <speaker rend="caps">Lope Hijo</speaker>
 
@@ -4619,7 +4667,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="28">
-          <stage>Vanse. Salen don GUILLÉN y don LOPE HIJO riñendo, otros metiendo paz, VICENTE y don LOPE PADRE</stage>
+          <stage>Vanse. Salen don GUILLÉN y don LOPE HIJO riñendo, otros metiendo paz, VICENTE y don
+            LOPE PADRE</stage>
           <sp who="#lope-padre">
             <speaker rend="caps">Lope Padre</speaker>
 
@@ -7186,7 +7235,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Llegan a abrir doña VIOLANTE y don MENDO las dos puertas. Salen, por la de VIOLANTE, doña BLANCA y BEATRIZ y, por la otra, don LOPE PADRE y VICENTE</stage>
+          <stage>Llegan a abrir doña VIOLANTE y don MENDO las dos puertas. Salen, por la de
+            VIOLANTE, doña BLANCA y BEATRIZ y, por la otra, don LOPE PADRE y VICENTE</stage>
           <sp who="#lope-padre">
             <speaker rend="caps">Lope Padre</speaker>
 
@@ -7234,7 +7284,8 @@
             <l>Si ya no es que la sentencia</l>
             <l>en esta cuadra se oculta,</l>
             <l>donde está preso don Lope.</l>
-            <stage>Abre la puerta, que será la de en medio del teatro, y se ve a don LOPE HIJO, como dado garrote, un papel en la mano, y luces a los lados</stage>
+            <stage>Abre la puerta, que será la de en medio del teatro, y se ve a don LOPE HIJO, como
+              dado garrote, un papel en la mano, y luces a los lados</stage>
             <l>Mas ¿qué miro?</l>
           </sp>
           <sp who="#blanca">

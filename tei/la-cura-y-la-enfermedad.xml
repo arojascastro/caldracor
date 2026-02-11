@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000181" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,9 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ignacio Arellano y Eva Reichenberger, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2014. ISBN: 978-3-944244-33-4.</title>
+            <title>Edición digital a partir de la edición de Ignacio Arellano y Eva Reichenberger,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2014. ISBN:
+              978-3-944244-33-4.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,45 +50,88 @@
         <listPerson>
           <person sex="MALE" xml:id="lucero">
             <persName>Lucero</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sombra">
             <persName>Sombra</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="esfera-1">
             <persName>Esfera 1.ª</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="esfera-2">
             <persName>Esfera 2.ª</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="esfera-3">
             <persName>Esfera 3.ª</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="esfera-4">
             <persName>Esfera 4.ª</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="inociencia">
             <persName>Inociencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="mundo">
             <persName>Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="FEMALE" xml:id="naturaleza">
             <persName>Naturaleza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gentilidad">
             <persName>Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="judaismo">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="peregrino">
             <persName>Peregrino</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="culpa">
             <persName>Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -95,17 +140,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -416,7 +464,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Ábrese el primer carro, que será un globo celeste, y vese dentro a caballo sobre una salamandra la Esfera del Fuego y al redor de ella pintado unzodiaco con los signos y más astros y imágenes quese puedan imitar, en cuya rueda ha de estar en movimiento mientras ella representa cantando.</stage>
+          <stage>Ábrese el primer carro, que será un globo celeste, y vese dentro a caballo sobre
+            una salamandra la Esfera del Fuego y al redor de ella pintado unzodiaco con los signos y
+            más astros y imágenes quese puedan imitar, en cuya rueda ha de estar en movimiento
+            mientras ella representa cantando.</stage>
           <sp who="#esfera-1">
             <speaker>ESFERA 1.ª</speaker>
             <l>Bella esfera del fuego que a cargo tuve,</l>
@@ -473,7 +524,9 @@
             <l>Pues atiende y solicita</l>
             <l>entender lo que pronuncie.</l>
           </sp>
-          <stage>Ábrese el segundo carro, que será una nube, y vese dentro la Esfera del Aire sobre un águila y alrededor de ella otra rueda en que estarán como volando varios pájaros, los cuales estarán también en movimiento, y ella canta.</stage>
+          <stage>Ábrese el segundo carro, que será una nube, y vese dentro la Esfera del Aire sobre
+            un águila y alrededor de ella otra rueda en que estarán como volando varios pájaros, los
+            cuales estarán también en movimiento, y ella canta.</stage>
           <sp who="#esfera-2">
             <speaker>ESFERA 2.ª</speaker>
             <l>Bella Esfera del Aire que a cargo tuve,</l>
@@ -515,7 +568,9 @@
             <l>Pues escúchala, podrá</l>
             <l>ser que mi pena articule.</l>
           </sp>
-          <stage>Ábrese el tercer carro, que será un escollo de mar, y dentro de él se ve la Esfera del Agua sobre un delfín y alrededor de ella, también en movimiento, una rueda de varios animales.</stage>
+          <stage>Ábrese el tercer carro, que será un escollo de mar, y dentro de él se ve la Esfera
+            del Agua sobre un delfín y alrededor de ella, también en movimiento, una rueda de varios
+            animales.</stage>
           <sp who="#esfera-3">
             <speaker>ESFERA 3.ª</speaker>
             <l n="205">Bella Esfera del Agua que a cargo tuve,</l>
@@ -540,7 +595,9 @@
             <l>su falda con laberintos</l>
             <l>de varios matices pulen.</l>
           </sp>
-          <stage>Ábrese el cuarto carro, que será un peñasco, y vese en él la Esfera de la Tierra sobre un león, y entre árboles y flores varios animales que también estén en movimiento alrededor de ella, y ella canta.</stage>
+          <stage>Ábrese el cuarto carro, que será un peñasco, y vese en él la Esfera de la Tierra
+            sobre un león, y entre árboles y flores varios animales que también estén en movimiento
+            alrededor de ella, y ella canta.</stage>
           <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l>Pues ya que allí de la tierra</l>
@@ -1170,7 +1227,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Sale de su carro la Esfera del Fuego con una hacha encendida; quiere la Sombra llegar y se retira.</stage>
+          <stage>Sale de su carro la Esfera del Fuego con una hacha encendida; quiere la Sombra
+            llegar y se retira.</stage>
           <sp who="#sombra">
             <speaker>SOMBRA</speaker>
             <l>Sí haré; mas en sol y luna</l>
@@ -1340,7 +1398,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Sale la Naturaleza ricamente vestida y los Elementos llegan con sus dones bailando alrededor de ella.</stage>
+          <stage>Sale la Naturaleza ricamente vestida y los Elementos llegan con sus dones bailando
+            alrededor de ella.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l n="650">Viva, viva felice siglos eternos</l>
@@ -1465,7 +1524,8 @@
             <speaker>NATURALEZA</speaker>
             <l part="I">¡Que hermosas son!</l>
           </sp>
-          <sp who="#sombra #musicos #mundo #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #naturaleza">
+          <sp
+            who="#sombra #musicos #mundo #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #naturaleza">
             <speaker>TODOS</speaker>
             <l part="F">¿No han de serlo…</l>
           </sp>
@@ -1684,7 +1744,8 @@
             <speaker>MUNDO</speaker>
             <l part="I">Llegad vosotros.</l>
           </sp>
-          <sp who="#musicos #dos #sombra #esfera-1 #esfera-2 #esfera-3 #esfera-4 #inociencia #naturaleza #mundo">
+          <sp
+            who="#musicos #dos #sombra #esfera-1 #esfera-2 #esfera-3 #esfera-4 #inociencia #naturaleza #mundo">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué es esto?</l>
           </sp>
@@ -1863,7 +1924,8 @@
             <l>Si os acercáis es a herirme</l>
             <l>y a huir de mí si yo me acerco.</l>
           </sp>
-          <sp who="#musicos #dos #sombra #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #mundo #naturaleza">
+          <sp
+            who="#musicos #dos #sombra #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #mundo #naturaleza">
             <speaker>TODOS</speaker>
             <l n="870">Sí, que no somos vasallos</l>
             <l part="I">ya.</l>
@@ -1872,7 +1934,8 @@
             <speaker>NATURALEZA</speaker>
             <l part="M">Pues ¿qué sois?</l>
           </sp>
-          <sp who="#musicos #dos #sombra #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #mundo #naturaleza">
+          <sp
+            who="#musicos #dos #sombra #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #mundo #naturaleza">
             <speaker>TODOS</speaker>
             <l part="F">Tus opuestos.</l>
           </sp>
@@ -2065,7 +2128,8 @@
             <l>…hará a quien cure su mal</l>
             <l>esposo de su belleza.</l>
           </sp>
-          <sp who="#dos #sombra #esfera-1 #esfera-2 #esfera-3 #inociencia #naturaleza #mundo #esfera-4 #musicos">
+          <sp
+            who="#dos #sombra #esfera-1 #esfera-2 #esfera-3 #inociencia #naturaleza #mundo #esfera-4 #musicos">
             <speaker>TODOS</speaker>
             <l n="960">La humana Naturaleza</l>
             <l>padece un daño mortal,</l>
@@ -2113,7 +2177,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Vase la Inociencia repitiendo al entrarse con la música los primeros versos de la copla. Y salen prosiguiendo los demás, por una parte el Judaísmo y por otra la Gentilidad sin verse, representando aparte cada uno.</stage>
+          <stage>Vase la Inociencia repitiendo al entrarse con la música los primeros versos de la
+            copla. Y salen prosiguiendo los demás, por una parte el Judaísmo y por otra la
+            Gentilidad sin verse, representando aparte cada uno.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>La Humana Naturaleza…</l>
@@ -2570,7 +2636,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Salen los Elementos y músicos cantando, detrás la Naturaleza vestida de negro, ensangrentados rostro y manos. Y detrás de todos la Sombra embozada con su manto como acechando.</stage>
+          <stage>Salen los Elementos y músicos cantando, detrás la Naturaleza vestida de negro,
+            ensangrentados rostro y manos. Y detrás de todos la Sombra embozada con su manto como
+            acechando.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>En vano espere piedad</l>
@@ -2853,13 +2921,15 @@
             <l n="1305">¿su antídoto otro bocado?</l>
             <l>Darele muerte primero</l>
             <l part="I">que lo intente…</l>
-            <stage>Saca un puñal y al irle a herir con él tropieza y caeen sus brazos; y él la recibe en ellos desmayada.</stage>
+            <stage>Saca un puñal y al irle a herir con él tropieza y caeen sus brazos; y él la
+              recibe en ellos desmayada.</stage>
             <l part="F">mas ¡ay triste!</l>
             <l>Sombra soy, y en mí tropiezo.</l>
             <l>Este es el primer desmayo</l>
             <l part="I">que yo he sentido.</l>
           </sp>
-          <sp who="#naturaleza #lucero #dos #esfera-3 #esfera-4 #gentilidad #musicos #gentilidad #judaismo #culpa #mundo #esfera-1 #esfera-2 #peregrino #sombra">
+          <sp
+            who="#naturaleza #lucero #dos #esfera-3 #esfera-4 #gentilidad #musicos #gentilidad #judaismo #culpa #mundo #esfera-1 #esfera-2 #peregrino #sombra">
             <speaker>NATURALEZA Y TODOS</speaker>
             <l n="1310" part="F">¿Qué es esto?</l>
           </sp>
@@ -2879,7 +2949,8 @@
             <speaker>MUNDO</speaker>
             <l part="I">¡Qué maravilla!</l>
           </sp>
-          <sp who="#naturaleza #lucero #dos #esfera-3 #esfera-4 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #sombra #peregrino #judaismo #gentilidad #mundo">
+          <sp
+            who="#naturaleza #lucero #dos #esfera-3 #esfera-4 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #sombra #peregrino #judaismo #gentilidad #mundo">
             <speaker>TODOS</speaker>
             <l part="F">¡Qué asombro!</l>
           </sp>
@@ -2939,7 +3010,8 @@
             <l>tan venenoso mi aliento?</l>
           </sp>
           <stage>Yéndose.</stage>
-          <sp who="#lucero #dos #esfera-3 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #judaismo #gentilidad #mundo #sombra #esfera-4 #peregrino #naturaleza">
+          <sp
+            who="#lucero #dos #esfera-3 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #judaismo #gentilidad #mundo #sombra #esfera-4 #peregrino #naturaleza">
             <speaker>TODOS</speaker>
             <l part="I">¿Dónde vas?</l>
           </sp>
@@ -2954,7 +3026,8 @@
             <l>Tarde que lo intentas, pienso,</l>
             <l>que ya creo que lo has sido.</l>
           </sp>
-          <sp who="#dos #esfera-3 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #judaismo #gentilidad #mundo #sombra #esfera-4 #peregrino #naturaleza #inociencia">
+          <sp
+            who="#dos #esfera-3 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #judaismo #gentilidad #mundo #sombra #esfera-4 #peregrino #naturaleza #inociencia">
             <speaker>TODOS</speaker>
             <l part="I">¡Detente!</l>
           </sp>
@@ -3022,7 +3095,9 @@
             <l>«médico, cúrate a ti»</l>
             <l part="I">el Eclesiastés.</l>
           </sp>
-          <stage>Aparta al Mundo y a la Gentilidad el Judaísmo y hablan los tres aparte; el Peregrino está retirado y la Inociencia se pone a oír como a hurto lo que hablan por detrás de los Elementos que estarán en medio de unos y otros.</stage>
+          <stage>Aparta al Mundo y a la Gentilidad el Judaísmo y hablan los tres aparte; el
+            Peregrino está retirado y la Inociencia se pone a oír como a hurto lo que hablan por
+            detrás de los Elementos que estarán en medio de unos y otros.</stage>
           <sp who="#judaismo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F">Atentos,</l>
@@ -3292,7 +3367,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="31">
-          <stage>Vanse Judaísmo y Mundo y suena música dentro y éntrase el Aire con los versos de la música, al tiempo que con ellos mismos sale el Lucero repitiéndolos también como asombrado.</stage>
+          <stage>Vanse Judaísmo y Mundo y suena música dentro y éntrase el Aire con los versos de la
+            música, al tiempo que con ellos mismos sale el Lucero repitiéndolos también como
+            asombrado.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Aqueste es mi amado hijo</l>
@@ -3676,7 +3753,9 @@
             <l>necesario confortarle</l>
             <l part="I">para que vuelva en sí?</l>
           </sp>
-          <stage>Habla el Lucero a espaldas del Judaísmo, como que le dicta lo que dicen los versos, diciéndolos quedo el Lucero y pronunciándolos recio el Judaísmo sin volver a verle.</stage>
+          <stage>Habla el Lucero a espaldas del Judaísmo, como que le dicta lo que dicen los versos,
+            diciéndolos quedo el Lucero y pronunciándolos recio el Judaísmo sin volver a
+            verle.</stage>
           <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l n="1725" part="F">Eso…</l>
@@ -3821,7 +3900,8 @@
             <l>Eso es querer que el imperio</l>
             <l>del mundo contra ti se arme.</l>
           </sp>
-          <stage>Toma la pluma el Lucero y dásela a la Gentilidad llevándole también la mano.</stage>
+          <stage>Toma la pluma el Lucero y dásela a la Gentilidad llevándole también la
+            mano.</stage>
           <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="I">No puedo, digo.</l>
@@ -4104,7 +4184,8 @@
             <l>¿qué dotor no se la yerra</l>
             <l>al enfermo que le cabe?</l>
           </sp>
-          <sp who="#gentilidad #culpa #musicos #peregrino #lucero #sombra #mundo #esfera-1 #esfera-2 #esfera-3 #esfera-4 #naturaleza #gentilidad #judaismo #inociencia">
+          <sp
+            who="#gentilidad #culpa #musicos #peregrino #lucero #sombra #mundo #esfera-1 #esfera-2 #esfera-3 #esfera-4 #naturaleza #gentilidad #judaismo #inociencia">
             <speaker>TODOS</speaker>
             <l>Sin duda Dios hombre era,</l>
             <l n="1910">en cuyas exequias hacen</l>
@@ -4242,7 +4323,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="55">
-          <stage>Ábrese segunda vez el primer carro y donde se viola Esfera del Fuego entre astros y imágenes celestes se ve un sacrificio de leña con un cordero y ella sale por lo bajo del tablado.</stage>
+          <stage>Ábrese segunda vez el primer carro y donde se viola Esfera del Fuego entre astros y
+            imágenes celestes se ve un sacrificio de leña con un cordero y ella sale por lo bajo del
+            tablado.</stage>
           <sp who="#esfera-1">
             <speaker>ESFERA 1.ª</speaker>
             <l>No podrás, que el holocausto</l>
@@ -4254,7 +4337,8 @@
             <speaker>SOMBRA</speaker>
             <l>El Aire inficionaré.</l>
           </sp>
-          <stage>Ábrese el segundo carro y vese donde estuvo primero la Esfera del Aire un pelícano ensangrentado el pecho, y ella en el tablado.</stage>
+          <stage>Ábrese el segundo carro y vese donde estuvo primero la Esfera del Aire un pelícano
+            ensangrentado el pecho, y ella en el tablado.</stage>
           <sp who="#esfera-2">
             <speaker>ESFERA 2.ª</speaker>
             <l>No harás, que hay entre sus aves</l>
@@ -4271,7 +4355,8 @@
           <sp who="#esfera-3">
             <speaker>ESFERA 3.ª</speaker>
             <l part="F">Tampoco,</l>
-            <stage>Ábrese el tercer carro y vese sobre las ondas que primero una arca como pintan la de Noé.</stage>
+            <stage>Ábrese el tercer carro y vese sobre las ondas que primero una arca como pintan la
+              de Noé.</stage>
             <l>que hay un arca en que se salve</l>
             <l>la Humana Naturaleza,</l>
             <l>sombra de una virgen madre.</l>
@@ -4287,7 +4372,8 @@
             <l>inficionarme mis frutos</l>
             <l>si de ellos este pan nace.</l>
           </sp>
-          <stage>Ábrese el cuarto carro y vese donde se vio la Tierra un altar y en él el sacramento y sentado a sumesa el Peregrino.</stage>
+          <stage>Ábrese el cuarto carro y vese donde se vio la Tierra un altar y en él el sacramento
+            y sentado a sumesa el Peregrino.</stage>
           <sp who="#lucero #esfera-4">
             <speaker>LOS DOS</speaker>
             <l part="I">Pues ¿qué pan es este?</l>
@@ -4319,7 +4405,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="57">
-          <stage>Sale la Naturaleza ricamente vestida y con ella Inociencia y Mundo y Gentilidad.</stage>
+          <stage>Sale la Naturaleza ricamente vestida y con ella Inociencia y Mundo y
+            Gentilidad.</stage>
           <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Yo lo creo y yo lo adoro,</l>
@@ -4367,7 +4454,8 @@
         </div>
         <div type="scene" resp="#rojas" n="58">
           <stage>Vanse los dos.</stage>
-          <sp who="#gentilidad #culpa #musicos #inociencia #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo">
+          <sp
+            who="#gentilidad #culpa #musicos #inociencia #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo">
             <speaker>TODOS</speaker>
             <l>Pues vuelve a sus perfecciones,</l>
             <l n="2030">volvamos todos a darte</l>
@@ -4381,11 +4469,13 @@
             <l n="2035">de este sacramento acabe</l>
             <l>la cura y la enfermedad.</l>
           </sp>
-          <sp who="#gentilidad #culpa #musicos #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo #inociencia">
+          <sp
+            who="#gentilidad #culpa #musicos #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo #inociencia">
             <speaker>TODOS</speaker>
             <l>Pues digan ecos suaves…</l>
           </sp>
-          <sp who="#gentilidad #culpa #musicos #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo #inociencia">
+          <sp
+            who="#gentilidad #culpa #musicos #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo #inociencia">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>No en vano espere piedad</l>
             <l>la Naturaleza bella,</l>

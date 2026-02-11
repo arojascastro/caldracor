@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000121" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>La púrpura de la rosa</title>
-        <title type="sub">Famosa Comedia. Fiesta de Zarzuela y representación música, que se hizo a sus Majestades en el Coliseo de Buen Retiro</title>
+        <title type="sub">Famosa Comedia. Fiesta de Zarzuela y representación música, que se hizo a
+          sus Majestades en el Coliseo de Buen Retiro</title>
         <author>
           <persName>
             <forename>Pedro</forename>
@@ -26,7 +27,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-17">
@@ -38,7 +40,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, La púrpura de la rosa. En: Comedias, Vol. 3. Dirección de Luis Iglesias Feijoo y Don William Cruickshank. Madrid : Fundación José Antonio de Castro, 2007</title>
+          <title>Pedro Calderón de la Barca, La púrpura de la rosa. En: Comedias, Vol. 3. Dirección
+            de Luis Iglesias Feijoo y Don William Cruickshank. Madrid : Fundación José Antonio de
+            Castro, 2007</title>
           <idno type="ISBN">978-84-96452-32-9</idno>
         </bibl>
       </sourceDesc>
@@ -48,26 +52,62 @@
         <listPerson>
           <person xml:id="adonis" sex="MALE">
             <persName>Adonis</persName>
+            <idno type="wikidata">Q163920</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="marte" sex="MALE">
             <persName>Marte</persName>
+            <idno type="wikidata">Q112</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="amor" sex="MALE">
             <persName>Amor</persName>
+            <idno type="wikidata">Q5011</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="temor" sex="MALE">
             <persName>El Temor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="desengaño" sex="MALE">
             <persName>El Desengaño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="rencor" sex="MALE">
             <persName>El Rencor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="chato" sex="MALE">
             <persName>Chato</persName>
             <trait source="castlist">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="dragón" sex="MALE">
@@ -75,20 +115,49 @@
             <trait source="castlist">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="envidia" sex="FEMALE">
             <persName>La Envidia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="venus" sex="FEMALE">
             <persName>Venus</persName>
+            <idno type="wikidata">Q47652</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="belona" sex="FEMALE">
             <persName>Belona</persName>
+            <idno type="wikidata">Q207234</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
             <trait source="castlist">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="cintia" sex="FEMALE">
@@ -96,11 +165,23 @@
             <trait source="castlist">
               <desc>ninfa</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
             <persName>Clori</persName>
             <trait source="castlist">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
@@ -108,15 +189,30 @@
             <trait source="castlist">
               <desc>ninfa</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="celfa" sex="FEMALE">
             <persName>Celfa</persName>
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sospecha" sex="FEMALE">
             <persName>La Sospecha</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp xml:id="soldados" sex="MALE">
             <persName>Soldados</persName>
@@ -137,17 +233,20 @@
           <term source="dracor" type="genreTitle">zarzuela</term>
           <term source="#kroll" type="main">zarzuela</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q148163</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q148163</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -166,7 +265,8 @@
     <front>
       <docTitle>
         <titlePart type="main">La Púrpura De La Rosa</titlePart>
-        <titlePart type="sub">Famosa Comedia. Fiesta de Zarzuela y representación música, que se hizo a sus Majestades en el Coliseo de Buen Retiro</titlePart>
+        <titlePart type="sub">Famosa Comedia. Fiesta de Zarzuela y representación música, que se
+          hizo a sus Majestades en el Coliseo de Buen Retiro</titlePart>
       </docTitle>
       <castList>
         <head>Personas que hablan en ella</head>
@@ -194,7 +294,8 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen Flora, Cintia, Clori y Libia, cada una de por sí, cantando en estilo recitativo, como con asombro, mirando al vestuario, como huyendo con admiración.</stage>
+          <stage>Salen Flora, Cintia, Clori y Libia, cada una de por sí, cantando en estilo
+            recitativo, como con asombro, mirando al vestuario, como huyendo con admiración.</stage>
           <sp who="#flora">
             <speaker rend="caps">Flora</speaker>
             <stage>sale</stage>
@@ -817,7 +918,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Despliégase el iris, baja Belona, y, arrebatando a Marte, desaparecen los dos, y salen Celfa y Chato, villanos rústicos.</stage>
+          <stage>Despliégase el iris, baja Belona, y, arrebatando a Marte, desaparecen los dos, y
+            salen Celfa y Chato, villanos rústicos.</stage>
           <sp who="#chato">
             <speaker rend="caps">Chato</speaker>
 
@@ -1652,7 +1754,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Vanse. Dentro cajas y trompetas, y con los primeros versos salgan Marte, Belona, Dragón y soldados.</stage>
+          <stage>Vanse. Dentro cajas y trompetas, y con los primeros versos salgan Marte, Belona,
+            Dragón y soldados.</stage>
           <sp who="#belona">
             <speaker rend="caps">Belona</speaker>
 
@@ -2048,7 +2151,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="25">
-          <stage>Éntrase por un lado y sale por otro, en cuyo espacio se ve el teatro de la gruta, y él no hace más que atravesar por ella, y salen Marte y Dragón.</stage>
+          <stage>Éntrase por un lado y sale por otro, en cuyo espacio se ve el teatro de la gruta, y
+            él no hace más que atravesar por ella, y salen Marte y Dragón.</stage>
           <sp who="#desengaño">
             <speaker rend="caps">El Desengaño</speaker>
             <stage type="withText">dentro</stage>
@@ -2196,7 +2300,8 @@
             <l>Mi angustia, mi pena, mi queja, mi asombro,</l>
             <l>¿hay quien los lamente?</l>
           </sp>
-          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
+          <sp
+            who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2211,7 +2316,9 @@
             <l>A pesar del pavor, de quién eres</l>
             <l>haré hoy experiencia lo que era pregunta.</l>
           </sp>
-          <stage>Van saliendo, cada una con su verso; el Temor con una hacha, la Sospecha con un antojo de larga vista, la Envidia con un áspid, el Rencor con un puñal, y todas de negro, con mascarillas.</stage>
+          <stage>Van saliendo, cada una con su verso; el Temor con una hacha, la Sospecha con un
+            antojo de larga vista, la Envidia con un áspid, el Rencor con un puñal, y todas de
+            negro, con mascarillas.</stage>
           <sp who="#temor">
             <speaker rend="caps">Temor</speaker>
 
@@ -2308,7 +2415,8 @@
             <l>…siempre paran las</l>
             <l>fugas.</l>
           </sp>
-          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
+          <sp
+            who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2400,7 +2508,8 @@
             <l>al peregrino el riesgo le anuncia,</l>
             <l>ya que entré, ¿quién el preso es de celos?</l>
           </sp>
-          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
+          <sp
+            who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2463,7 +2572,8 @@
 
             <l>Quién es sepa, pues.</l>
           </sp>
-          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
+          <sp
+            who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todas</speaker>
 
 
@@ -2594,7 +2704,8 @@
             <l>si es verdad, porque es verdad;</l>
             <l>y si mientes, porque mientes.</l>
           </sp>
-          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
+          <sp
+            who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2607,7 +2718,8 @@
 
             <l>¿Por qué?</l>
           </sp>
-          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
+          <sp
+            who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -2623,7 +2735,8 @@
 
             <l>¿De qué suerte?</l>
           </sp>
-          <sp who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
+          <sp
+            who="#adonis #celfa #chato #coro-1 #coro-2 #desengaño #dragón #envidia #marte #rencor #sospecha #temor #venus">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -3222,7 +3335,8 @@
             <l>volver a mis iras,</l>
             <l>no puedo, ¡ay de mí!</l>
           </sp>
-          <stage>Las voces con cajas y clarines, y las ninfas con instrumentos, cada una sus versos.</stage>
+          <stage>Las voces con cajas y clarines, y las ninfas con instrumentos, cada una sus
+            versos.</stage>
           <sp who="#belona">
             <speaker rend="caps">Belona</speaker>
 
@@ -3369,7 +3483,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="32">
-          <stage>Vase con sus ninfas, y con esta música se muda el tablado en monte, y vuelve Marte, trayendo de la mano a Chato y Celfa.</stage>
+          <stage>Vase con sus ninfas, y con esta música se muda el tablado en monte, y vuelve Marte,
+            trayendo de la mano a Chato y Celfa.</stage>
           <sp who="#marte">
             <speaker rend="caps">Marte</speaker>
 
@@ -3517,7 +3632,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="34">
-          <stage>Salen villanos huyendo por delante de ellos, y después Adonis, flechado el arco.</stage>
+          <stage>Salen villanos huyendo por delante de ellos, y después Adonis, flechado el
+            arco.</stage>
           <sp who="#uno">
             <speaker rend="caps">Uno</speaker>
 
@@ -3974,7 +4090,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="44">
-          <stage>Amor en lo alto se descubre, y se ve un cielo con el sol que se esconde, y una estrella que sale a tiempo que van subiendo Adonis por un lado, y Venus por otro.</stage>
+          <stage>Amor en lo alto se descubre, y se ve un cielo con el sol que se esconde, y una
+            estrella que sale a tiempo que van subiendo Adonis por un lado, y Venus por
+            otro.</stage>
           <sp who="#amor">
             <speaker rend="caps">Amor</speaker>
 
@@ -4064,7 +4182,8 @@
             <l>el Amor, colocados Venus y Adonis;</l>
             <l>y reciban ufanas, y eternas gocen</l>
             <l>las estrellas su estrella, su flor las flores.</l>
-            <stage>Suben los dos hasta donde está el Amor, y desaparecen los tres, escondiéndose el sol, y quedando la estrella.</stage>
+            <stage>Suben los dos hasta donde está el Amor, y desaparecen los tres, escondiéndose el
+              sol, y quedando la estrella.</stage>
             <stage>FIN</stage>
           </sp>
         </div>

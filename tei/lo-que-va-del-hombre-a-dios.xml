@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000196" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de María L. Lobato, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-25-5.</title>
+            <title>Edición digital a partir de la edición de María L. Lobato, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-25-5.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,45 +52,91 @@
           </personGrp>
           <person sex="MALE" xml:id="principe">
             <persName>Príncipe</persName>
+            <idno type="wikidata">Q302</idno>
             <trait resp="#rojas">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="hombre">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="naturaleza">
             <persName>Naturaleza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="vida">
             <persName>Vida</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="amor">
             <persName>Amor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="placer">
             <persName>Placer</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pesar">
             <persName>Pesar</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="muerte">
             <persName>Muerte</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="culpa">
             <persName>Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Voz</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pobre">
             <persName>Pobre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="apetito">
             <persName>Apetito</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="justicia">
             <persName>Justicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -98,17 +145,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -144,7 +194,11 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro, cajas y trompetas, y salen del primer carro marchando algunos soldados, y detrás el Príncipe, con corona de laurel y bastón de general; del cuarto carro de enfrente, la Naturaleza, de dama, y el Hombre, de galán; el Amor Propio y la Vida, sus hijos, también de galanes, y el Placer y el Pesar, de villanos, y los músicos, bailando todos y cantando</stage>
+          <stage>Dentro, cajas y trompetas, y salen del primer carro marchando algunos soldados, y
+            detrás el Príncipe, con corona de laurel y bastón de general; del cuarto carro de
+            enfrente, la Naturaleza, de dama, y el Hombre, de galán; el Amor Propio y la Vida, sus
+            hijos, también de galanes, y el Placer y el Pesar, de villanos, y los músicos, bailando
+            todos y cantando</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>«En hora dichosa vuelva,</l>
@@ -664,7 +718,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Con esta repetición se entran cantando y bailando delante del Príncipe, tocando al mismo tiempo las cajas y las trompetas, quedando solos el Placer y el Pesar</stage>
+          <stage>Con esta repetición se entran cantando y bailando delante del Príncipe, tocando al
+            mismo tiempo las cajas y las trompetas, quedando solos el Placer y el Pesar</stage>
           <sp who="#pesar">
             <speaker>PESAR</speaker>
             <l>Placer, ¿qué es eso? ¿Pues hoy</l>
@@ -756,7 +811,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Al irse cada uno por su puerta, sale la Culpa, con alusión de demonio, y se encuentra con el Placer, y la Muerte con el Pesar y, deteniéndolos aparte, se turban ambos, sin verse los dos hasta después</stage>
+          <stage>Al irse cada uno por su puerta, sale la Culpa, con alusión de demonio, y se
+            encuentra con el Placer, y la Muerte con el Pesar y, deteniéndolos aparte, se turban
+            ambos, sin verse los dos hasta después</stage>
           <sp who="#muerte">
             <speaker>MUERTE</speaker>
             <l>¿Adónde vais? Esperaos.</l>
@@ -940,7 +997,9 @@
             <speaker>CULPA</speaker>
             <l part="F">¡Calla, necio!</l>
           </sp>
-          <stage>Al arrojarlos de sí, truecan lugares, tropezando el uno con el otro; de suerte que cuando la Muerte y la Culpa vuelven a hablar con ellos, se hallan la Muerte con el Placer y la Culpa con el Pesar</stage>
+          <stage>Al arrojarlos de sí, truecan lugares, tropezando el uno con el otro; de suerte que
+            cuando la Muerte y la Culpa vuelven a hablar con ellos, se hallan la Muerte con el
+            Placer y la Culpa con el Pesar</stage>
           <sp who="#pesar">
             <speaker>PESAR</speaker>
             <l>¡Ay, que me ha muerto, señores!</l>
@@ -1320,7 +1379,8 @@
             <speaker>MUERTE</speaker>
             <l>¿Cuándo tú no sirves de eso?</l>
           </sp>
-          <stage>La Muerte pone una venda en los ojos al Placer, y la Culpa pone otra al Pesar, y andan los dos a ciegas</stage>
+          <stage>La Muerte pone una venda en los ojos al Placer, y la Culpa pone otra al Pesar, y
+            andan los dos a ciegas</stage>
           <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="695">Ya no dirán de nosotras,</l>
@@ -1395,7 +1455,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Sale por medio la Naturaleza, atendiendo a la música del uno y a los gemidos del otro</stage>
+          <stage>Sale por medio la Naturaleza, atendiendo a la música del uno y a los gemidos del
+            otro</stage>
           <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>«¡Cuán admirable en la tierra</l>
@@ -1695,7 +1756,9 @@
             <l>mas dónde ir a dar no sé,</l>
             <l part="I">del Placer echado.</l>
           </sp>
-          <stage>Va el Pesar arrojando al Placer, y él, como tropezando, viene a dar en los brazos del Pobre, que saldrá a este tiempo vestido de mendigo, con un plato, y en él, un papel</stage>
+          <stage>Va el Pesar arrojando al Placer, y él, como tropezando, viene a dar en los brazos
+            del Pobre, que saldrá a este tiempo vestido de mendigo, con un plato, y en él, un
+            papel</stage>
           <sp who="#pobre">
             <speaker>POBRE</speaker>
             <l n="850" part="F">En mí,</l>
@@ -2050,7 +2113,8 @@
             <speaker>VIDA</speaker>
             <l n="1010">Y yo apurar al Deseo.</l>
           </sp>
-          <stage>Cogen el Amor y la Vida a la Naturaleza de la mano, y cuando dice que no ha de ir, se va tras ellos</stage>
+          <stage>Cogen el Amor y la Vida a la Naturaleza de la mano, y cuando dice que no ha de ir,
+            se va tras ellos</stage>
           <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>No he de ir; mas ¿de quién movida,</l>
@@ -2063,7 +2127,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>El Hombre, la Naturaleza, el Amor Propio, la Vida, andan por el tablado tras el Placer, que va como sin tino, buscando la casa del Apetito; y salen la Muerte y la Culpa, de damas, con velos en los rostros</stage>
+          <stage>El Hombre, la Naturaleza, el Amor Propio, la Vida, andan por el tablado tras el
+            Placer, que va como sin tino, buscando la casa del Apetito; y salen la Muerte y la
+            Culpa, de damas, con velos en los rostros</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="I">¿Adónde es la casa?</l>
@@ -2357,7 +2423,8 @@
             <l part="F">De que</l>
             <l>tú lo habrás de pagar todo.</l>
           </sp>
-          <stage>Ciérrase el carro de la tienda, quedando dentro el Hombre, la Naturaleza, el Apetito y el Placer</stage>
+          <stage>Ciérrase el carro de la tienda, quedando dentro el Hombre, la Naturaleza, el
+            Apetito y el Placer</stage>
           <sp who="#vida">
             <speaker>VIDA</speaker>
             <l n="1160">Amor, ¿tras los dos no vas?</l>
@@ -2396,7 +2463,8 @@
             <l n="1170" part="F">A la Culpa, ¿cuándo</l>
             <l>no se acerca el propio Amor?</l>
           </sp>
-          <stage>Hablan Amor y Culpa, Vida y Muerte, divididos dos a dos y sin quitarse ellas los mantos de los rostros</stage>
+          <stage>Hablan Amor y Culpa, Vida y Muerte, divididos dos a dos y sin quitarse ellas los
+            mantos de los rostros</stage>
           <sp who="#vida">
             <speaker>VIDA</speaker>
             <l>Dama a quien no conocí</l>
@@ -2620,7 +2688,9 @@
             <l>Y pues siendo quien soy, eres quien eres,</l>
             <l part="I">que me oiga di a tu Príncipe.</l>
           </sp>
-          <stage>Las chirimías y se abre el globo, y se ve en él al Príncipe en un carro triunfal que tirarán un ángel, una águila, un león y un buey, con la mayor majestad que pueda dar de sí el adorno de rayos</stage>
+          <stage>Las chirimías y se abre el globo, y se ve en él al Príncipe en un carro triunfal
+            que tirarán un ángel, una águila, un león y un buey, con la mayor majestad que pueda dar
+            de sí el adorno de rayos</stage>
           <sp who="#principe">
             <speaker>PRÍNCIPE</speaker>
             <l n="1280" part="F">¿Qué quieres?</l>
@@ -2671,7 +2741,10 @@
             <speaker>MÚSICA</speaker>
             <l>... cada deleite cuesta un sentido».</l>
           </sp>
-          <stage>Ábrese el carro, que estará enfrente del globo, y se ve dentro una tienda con sus anaqueles llenos de mercaderías Y en el mostrador, el Apetito escribiendo, la Naturaleza, con cajas de joyas y telas descogidas, que irá doblando y desdoblando; el Placer, el Hombre, a un lado, y los músicos detrás</stage>
+          <stage>Ábrese el carro, que estará enfrente del globo, y se ve dentro una tienda con sus
+            anaqueles llenos de mercaderías Y en el mostrador, el Apetito escribiendo, la
+            Naturaleza, con cajas de joyas y telas descogidas, que irá doblando y desdoblando; el
+            Placer, el Hombre, a un lado, y los músicos detrás</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="1315">Cueste, que bien se emplean,</l>
@@ -2862,7 +2935,10 @@
             <l>y los testigos que citar presumo,</l>
             <l part="I">serán...</l>
           </sp>
-          <stage>La Vida y el Amor, con unos papeles, con manto y hábito Al llegar a las dos y verlas descubiertas se estremecen, a cuyo tiempo se hace en todos los cuatro carros ruidos de terremoto, y van saliendo, como asombrados, el Hombre, la Naturaleza, el Pobre, el Placer, el Pesar y el Apetito</stage>
+          <stage>La Vida y el Amor, con unos papeles, con manto y hábito Al llegar a las dos y
+            verlas descubiertas se estremecen, a cuyo tiempo se hace en todos los cuatro carros
+            ruidos de terremoto, y van saliendo, como asombrados, el Hombre, la Naturaleza, el
+            Pobre, el Placer, el Pesar y el Apetito</stage>
           <sp who="#amor">
             <speaker>AMOR</speaker>
             <l part="M">Aquí está el hábito.</l>
@@ -3011,7 +3087,8 @@
             <speaker>APETITO</speaker>
             <l part="F">¡Qué llanto!</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #musicos #principe #muerte #culpa #amor #vida #hombre #naturaleza #pobre #placer #pesar #apetito">
+          <sp
+            who="#acompanamiento #culpa #otros #musicos #principe #muerte #culpa #amor #vida #hombre #naturaleza #pobre #placer #pesar #apetito">
             <speaker>TODOS</speaker>
             <l>¿Qué será esta violencia?</l>
           </sp>
@@ -3022,7 +3099,10 @@
             <l>Y para que mejor lo sepáis, ¡huya</l>
             <l n="1420">la sombra, y el día al día restituya!</l>
           </sp>
-          <stage>Con estos medios versos y el terremoto, que estará siempre repetido, se confunden encontrándose unos con otros, de suerte que al salir el Príncipe se hallan abrazados el Amor y el Placer, el Pobre y el Pesar, el Apetito y la Naturaleza, el Hombre y la Culpa, la Muerte y la Vida, suspendiéndose todos en su acción</stage>
+          <stage>Con estos medios versos y el terremoto, que estará siempre repetido, se confunden
+            encontrándose unos con otros, de suerte que al salir el Príncipe se hallan abrazados el
+            Amor y el Placer, el Pobre y el Pesar, el Apetito y la Naturaleza, el Hombre y la Culpa,
+            la Muerte y la Vida, suspendiéndose todos en su acción</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="I">¡Señor!, tú, pues...</l>
@@ -3308,7 +3388,8 @@
             <speaker>LAS DOS</speaker>
             <l part="I">Vamos de aquí.</l>
           </sp>
-          <stage>Asen de ella la Culpa y Muerte, y ella forcejeando con ellos sigue al Príncipe, que habrá vuelto la espalda</stage>
+          <stage>Asen de ella la Culpa y Muerte, y ella forcejeando con ellos sigue al Príncipe, que
+            habrá vuelto la espalda</stage>
           <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l part="F">¡Aguarda, escucha!</l>
@@ -3444,7 +3525,8 @@
             <l>porque en tu piedad se induzca,</l>
             <l>«que entre piedad y culpa,</l>
             <l>la culpa es mía y la piedad es tuya».</l>
-            <stage>Va el Príncipe volviendo la espalda y ella tras él postrada, y Muerte y Culpa tras ellos</stage>
+            <stage>Va el Príncipe volviendo la espalda y ella tras él postrada, y Muerte y Culpa
+              tras ellos</stage>
             <l n="1675">De mis naturales dotes,</l>
             <l>obligada es la escritura</l>
             <l>a las deudas de mi esposo,</l>
@@ -3495,7 +3577,8 @@
             <l>y yo aborrecerte? ¡Oh, nunca</l>
             <l>la humana Naturaleza</l>
             <l>llegue a tanta desventura!</l>
-            <stage>Va volviendo el rostro el Príncipe hacia ella, y al irse acercando, se van retirando Muerte y Culpa</stage>
+            <stage>Va volviendo el rostro el Príncipe hacia ella, y al irse acercando, se van
+              retirando Muerte y Culpa</stage>
             <l n="1725">Y pues sola esta esperanza</l>
             <l>los dos extremos aúna</l>
             <l>de mi culpa y tu piedad,</l>
@@ -3540,7 +3623,9 @@
             <l>se acerca, los vuestros huyan.</l>
             <l>Vosotros, afectos míos,</l>
             <l>llegad, llegad en mi ayuda,</l>
-            <stage>Al Pesar y al Placer los postra de la misma suerte, y han de estar todos de forma que hagan una cruz, y la cabeza de ella ha de ser el Príncipe; la Muerte y la Culpa no entran en esta planta</stage>
+            <stage>Al Pesar y al Placer los postra de la misma suerte, y han de estar todos de forma
+              que hagan una cruz, y la cabeza de ella ha de ser el Príncipe; la Muerte y la Culpa no
+              entran en esta planta</stage>
             <l n="1765">y nadie extrañe que a un tiempo</l>
             <l>Pesar y Placer me acudan,</l>
             <l>pues como dijo Augustino</l>
@@ -3566,7 +3651,8 @@
             <l>«que entre piedad y culpa,</l>
             <l>la culpa es mía y la piedad es tuya».</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #musicos #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza">
+          <sp
+            who="#acompanamiento #culpa #otros #musicos #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza">
             <speaker>TODOS</speaker>
             <l part="I">¡Piedad, Señor!</l>
           </sp>
@@ -3574,7 +3660,8 @@
             <speaker>MÚSICA</speaker>
             <l part="F">¡Piedad!</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
+          <sp
+            who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
             <speaker>TODOS</speaker>
             <l n="1790">«Pues cosa es justa...</l>
           </sp>
@@ -3582,11 +3669,13 @@
             <speaker>MÚSICA</speaker>
             <l>... pues cosa es justa...</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
+          <sp
+            who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
             <speaker>TODOS</speaker>
             <l>... que habiendo culpa y piedad...</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
+          <sp
+            who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>... vean cielos, sol y luna,</l>
             <l>hombres, aves, peces, fieras,</l>
@@ -3643,7 +3732,8 @@
             <l>no hay música como el llanto,</l>
             <l>y así digan todas juntas...</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #musicos #muerte #culpa #naturaleza">
+          <sp
+            who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #musicos #muerte #culpa #naturaleza">
             <speaker>TODOS</speaker>
             <l part="I">¡Piedad, Señor!</l>
           </sp>
@@ -3651,7 +3741,8 @@
             <speaker>MÚSICA</speaker>
             <l n="1820" part="F">¡Piedad!</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
+          <sp
+            who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
             <speaker>TODOS</speaker>
             <l>«Pues cosa es justa...</l>
           </sp>
@@ -3659,7 +3750,8 @@
             <speaker>MÚSICA</speaker>
             <l>... pues cosa es justa...</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
+          <sp
+            who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
             <speaker>TODOS</speaker>
             <l>... que entre piedad y culpa...</l>
           </sp>
@@ -3667,7 +3759,8 @@
             <speaker>MÚSICA</speaker>
             <l>... que entre piedad y culpa...</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
+          <sp
+            who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1825">... la culpa es nuestra y la piedad es tuya».</l>
           </sp>
@@ -3755,14 +3848,16 @@
             <l n="1870">nuestras voces sólo pueden</l>
             <l>decir al aire confusas...</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #placer #pesar #apetito #hombre #pobre #justicia #musicos #muerte #culpa #principe #naturaleza #amor #vida">
+          <sp
+            who="#acompanamiento #culpa #otros #placer #pesar #apetito #hombre #pobre #justicia #musicos #muerte #culpa #principe #naturaleza #amor #vida">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>«que entre piedad y culpa,</l>
             <l>la culpa es nuestra y la piedad es tuya».</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Vanse el Príncipe, la Naturaleza, el Amor Propio, la Vida, el Apetito y el Pesar</stage>
+          <stage>Vanse el Príncipe, la Naturaleza, el Amor Propio, la Vida, el Apetito y el
+            Pesar</stage>
           <sp who="#pobre">
             <speaker>POBRE</speaker>
             <l>Vente conmigo, Placer,</l>
@@ -3841,7 +3936,8 @@
             <l part="F">Ser tú quien pronuncias</l>
             <l>el decreto, basta. Vuelve</l>
             <l n="1905">a ver del sol la luz pura,</l>
-            <stage>Al Hombre, que va saliendo de la cárcel, con cadenas, que le quita la Justicia</stage>
+            <stage>Al Hombre, que va saliendo de la cárcel, con cadenas, que le quita la
+              Justicia</stage>
             <l>que yo te pongo a estas puertas,</l>
             <l>porque en esta coyuntura</l>
             <l>veas entre luz y sombra</l>
@@ -4363,7 +4459,9 @@
             <speaker>MÚSICA</speaker>
             <l>lo que va del hombre a Dios</l>
           </sp>
-          <stage>En lo bajo del carro de la cárcel se ve al Hombre, en prisiones, y al Pobre, sentado en lo alto a una mesa, en trono real, con el Santísimo Sacramento en ella</stage>
+          <stage>En lo bajo del carro de la cárcel se ve al Hombre, en prisiones, y al Pobre,
+            sentado en lo alto a una mesa, en trono real, con el Santísimo Sacramento en
+            ella</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="2140">¡Ay de quien ya no es posible</l>
@@ -4423,7 +4521,8 @@
             <l>todos a una voz diciendo</l>
             <l n="2165">en dulces tonos y letras...</l>
           </sp>
-          <sp who="#acompanamiento #culpa #otros #justicia #musicos #hombre #pobre #amor #culpa #vida #muerte #pesar #placer #apetito #naturaleza #principe">
+          <sp
+            who="#acompanamiento #culpa #otros #justicia #musicos #hombre #pobre #amor #culpa #vida #muerte #pesar #placer #apetito #naturaleza #principe">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>«... de estos ejemplares dos</l>
             <l>mirad la distancia, pues</l>

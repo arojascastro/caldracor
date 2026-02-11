@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000166" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,9 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Carlos Castellano Gasch, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2014. ISBN: 978-3-944244-21-1.</title>
+            <title>Edición digital a partir de la edición de Carlos Castellano Gasch,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2014. ISBN:
+              978-3-944244-21-1.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,42 +50,112 @@
         <listPerson>
           <person sex="FEMALE" xml:id="malicia">
             <persName>Malicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="lisonja">
             <persName>Lisonja</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="bautista">
             <persName>Bautista</persName>
+            <idno type="wikidata">Q40662</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="duque">
             <persName>Duque</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="andres">
             <persName>Andrés</persName>
+            <idno type="wikidata">Q43399</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pedro">
             <persName>Pedro</persName>
+            <idno type="wikidata">Q33923</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="juan">
             <persName>Juan</persName>
+            <idno type="wikidata">Q44015</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="diego">
             <persName>Diego</persName>
+            <idno type="wikidata">Q43999</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="mateo">
             <persName>Mateo</persName>
+            <idno type="wikidata">Q43600</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="simplicidad">
             <persName>Simplicidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sinagoga">
             <persName>Sinagoga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="esposa">
             <persName>Esposa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="oracion">
             <persName>Oración</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
@@ -105,17 +177,20 @@
           <term source="#kroll" type="main">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -150,7 +225,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale la Malicia de galán, con alguna alusión en el vestido o manto de demonio.</stage>
+          <stage>Sale la Malicia de galán, con alguna alusión en el vestido o manto de
+            demonio.</stage>
           <sp who="#malicia">
             <speaker>MALICIA</speaker>
             <l>¡Oh tú, blando veneno,</l>
@@ -649,7 +725,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Salen el Duque , Pedro , Andrés , Juan , Diego ,Mateo y la Simplicidad , de villano.</stage>
+          <stage>Salen el Duque , Pedro , Andrés , Juan , Diego ,Mateo y la Simplicidad , de
+            villano.</stage>
           <sp who="#bautista">
             <speaker>BAUTISTA</speaker>
             <l>El que entre toda la turba</l>
@@ -1253,7 +1330,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Vase. Dentro voces y sale la Sinagoga vestidaa lo judío, con un venablo. Dentro</stage>
+          <stage>Vase. Dentro voces y sale la Sinagoga vestidaa lo judío, con un venablo.
+            Dentro</stage>
           <sp who="#acompanamiento">
             <speaker>UNO</speaker>
             <l n="760">¿No hay quien acuda al rebaño,</l>
@@ -1266,7 +1344,8 @@
             <l part="F">Ya con la presa</l>
             <l>se retira a la montaña.</l>
           </sp>
-          <sp who="#bautista #duque #andres #diego #juan #mateo #simplicidad #malicia #lisonja #acompanamiento">
+          <sp
+            who="#bautista #duque #andres #diego #juan #mateo #simplicidad #malicia #lisonja #acompanamiento">
             <speaker>TODOS</speaker>
             <l>A la selva, al risco, al llano,</l>
             <l part="I">al monte.</l>
@@ -1689,11 +1768,13 @@
             <l part="I">y otra vez…</l>
           </sp>
           <stage>Dentro</stage>
-          <sp who="#duque #andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja">
+          <sp
+            who="#duque #andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja">
             <speaker>TODOS</speaker>
             <l part="F">Amaina, amaina.</l>
           </sp>
-          <stage>Aparécese en lo alto de un carro, que será unanave, la Esposa , Pedro , la Oración , músicos yclarines.</stage>
+          <stage>Aparécese en lo alto de un carro, que será unanave, la Esposa , Pedro , la Oración
+            , músicos yclarines.</stage>
           <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l n="1020">Dime, ¿qué voces son estas?</l>
@@ -1712,7 +1793,8 @@
             <l>Más es desaire que salva.</l>
           </sp>
           <stage>Da vuelta la nave.</stage>
-          <sp who="#duque #andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #lisonja #sinagoga">
+          <sp
+            who="#duque #andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #lisonja #sinagoga">
             <speaker>TODOS</speaker>
             <l>Buen vïaje, buen pasaje.</l>
           </sp>
@@ -1736,7 +1818,8 @@
             <l>que a su tálamo me llama.</l>
           </sp>
           <stage>Da vuelta la nave.</stage>
-          <sp who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #lisonja #sinagoga #pedro #esposa">
+          <sp
+            who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #lisonja #sinagoga #pedro #esposa">
             <speaker>TODOS</speaker>
             <l>Buen vïaje, buen pasaje.</l>
           </sp>
@@ -1777,7 +1860,8 @@
             <l>Tormenta nos amenaza</l>
             <l>de opuestos contrarios vientos.</l>
           </sp>
-          <sp who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #pedro #sinagoga #lisonja #esposa">
+          <sp
+            who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #pedro #sinagoga #lisonja #esposa">
             <speaker>TODOS</speaker>
             <l>Iza, vira, amaina, amaina.</l>
           </sp>
@@ -1852,7 +1936,8 @@
         </div>
         <div type="scene" resp="#rojas" n="17">
           <stage>VanseDentro cajas.Dentro</stage>
-          <sp who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #pedro #esposa #sinagoga #lisonja">
+          <sp
+            who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #pedro #esposa #sinagoga #lisonja">
             <speaker>TODOS</speaker>
             <l>Iza, vira, amaina, amaina.</l>
           </sp>
@@ -1900,7 +1985,8 @@
             <speaker>ORACIÓN</speaker>
             <l>Y no lo diga eso solo.</l>
           </sp>
-          <sp who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion">
+          <sp
+            who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion">
             <speaker>TODOS</speaker>
             <l n="1115">¿Pues qué? Dilo en voces altas.</l>
           </sp>
@@ -1912,7 +1998,8 @@
             <l>y es serenidad del cielo</l>
             <l>que paz publique la tierra.</l>
           </sp>
-          <sp who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion">
+          <sp
+            who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion">
             <speaker>TODOS</speaker>
             <l n="1120">Tierra, tierra.</l>
           </sp>
@@ -1924,7 +2011,8 @@
             <l>y es serenidad del cielo</l>
             <l>que paz publique la tierra.</l>
           </sp>
-          <sp who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion #musicos">
+          <sp
+            who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion #musicos">
             <speaker>TODOS</speaker>
             <l n="1125">Tierra, tierra.</l>
           </sp>
@@ -1945,7 +2033,8 @@
             <l>que es serenidad del cielo</l>
             <l n="1135">que paz publique la tierra.</l>
           </sp>
-          <sp who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion #musicos">
+          <sp
+            who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion #musicos">
             <speaker>TODOS</speaker>
             <l>Tierra, tierra.</l>
           </sp>
@@ -1966,7 +2055,8 @@
             <l n="1145">que es serenidad del cielo</l>
             <l>que paz publique la tierra.</l>
           </sp>
-          <sp who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion #musicos">
+          <sp
+            who="#andres #diego #juan #mateo #simplicidad #malicia #acompanamiento #bautista #sinagoga #lisonja #pedro #esposa #oracion #musicos">
             <speaker>TODOS</speaker>
             <l>Tierra, tierra.</l>
           </sp>
@@ -1979,7 +2069,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Tocan clarines en la nave y disparan, y salen al tablado el Duque, Andrés, Juan, Mateo, la Malicia y la Simplicidad.</stage>
+          <stage>Tocan clarines en la nave y disparan, y salen al tablado el Duque, Andrés, Juan,
+            Mateo, la Malicia y la Simplicidad.</stage>
           <sp who="#duque">
             <speaker>DUQUE</speaker>
             <l>Pues ya en los lejos del mar</l>
@@ -2191,7 +2282,8 @@
             <stage>Dentro cajas y voces.Dentro</stage>
             <l part="F">Arma, arma.</l>
           </sp>
-          <sp who="#juan #acompanamiento #bautista #sinagoga #lisonja #oracion #pedro #andres #mateo #simplicidad #duque #esposa #malicia #musicos">
+          <sp
+            who="#juan #acompanamiento #bautista #sinagoga #lisonja #oracion #pedro #andres #mateo #simplicidad #duque #esposa #malicia #musicos">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué es esto?</l>
             <stage>Dentro</stage>
@@ -2398,7 +2490,8 @@
             <l>que no se mire triunfante,</l>
             <l>glorioso el laurel del Austria.</l>
           </sp>
-          <sp who="#juan #acompanamiento #sinagoga #lisonja #oracion #pedro #andres #mateo #simplicidad #musicos #esposa #bautista #malicia #duque">
+          <sp
+            who="#juan #acompanamiento #sinagoga #lisonja #oracion #pedro #andres #mateo #simplicidad #musicos #esposa #bautista #malicia #duque">
             <speaker>TODOS</speaker>
             <l n="1415">Por tan supremos favores</l>
             <l>a todos nos da tus plantas.</l>
@@ -2527,7 +2620,8 @@
             <speaker>DIEGO</speaker>
             <l>…Felipe, Señor, te aclama…</l>
           </sp>
-          <sp who="#acompanamiento #sinagoga #lisonja #oracion #coro #coro-1 #coro-2 #musicos #bautista #simplicidad #esposa #mateo #juan #malicia #pedro #duque #andres #diego">
+          <sp
+            who="#acompanamiento #sinagoga #lisonja #oracion #coro #coro-1 #coro-2 #musicos #bautista #simplicidad #esposa #mateo #juan #malicia #pedro #duque #andres #diego">
             <speaker>TODOS</speaker>
             <l n="1475">…pues vas a vencer la fiera</l>
             <l>cerviz de siete gargantas.</l>
@@ -3042,7 +3136,8 @@
             <l n="1645">de contrastes siempre tiene</l>
             <l>la Sinagoga instrumentos.</l>
           </sp>
-          <stage>Vuelve a salir la Lisonja con luz y en una fuente lo que van diciendo los versos.</stage>
+          <stage>Vuelve a salir la Lisonja con luz y en una fuente lo que van diciendo los
+            versos.</stage>
           <sp who="#lisonja">
             <speaker>LISONJA</speaker>
             <l>Tus piedras de toque y luz</l>
@@ -3354,7 +3449,9 @@
             <l>que instituyó para eso</l>
             <l part="I">de rojo color.</l>
           </sp>
-          <stage>Tocan chirimías, ábrese el palacio y vese sentado el Duque en una silla con manto carmesí del Tusón, y luego van bajando con el mismo manto Andrés, Pedro, Bautista, Juan, Mateo, Diego y la Simplicidad.</stage>
+          <stage>Tocan chirimías, ábrese el palacio y vese sentado el Duque en una silla con manto
+            carmesí del Tusón, y luego van bajando con el mismo manto Andrés, Pedro, Bautista, Juan,
+            Mateo, Diego y la Simplicidad.</stage>
           <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l n="1815" part="F">¡Ay triste!,</l>
@@ -3557,7 +3654,8 @@
             <l>En tanto que se previene</l>
             <l>a la Gracia otro festejo.</l>
           </sp>
-          <sp who="#acompanamiento #coro #coro-1 #coro-2 #musicos #oracion #lisonja #malicia #simplicidad #andres #bautista #juan #mateo #diego #pedro #sinagoga #esposa #duque">
+          <sp
+            who="#acompanamiento #coro #coro-1 #coro-2 #musicos #oracion #lisonja #malicia #simplicidad #andres #bautista #juan #mateo #diego #pedro #sinagoga #esposa #duque">
             <speaker>TODOS</speaker>
             <l>Y las de todos humildes</l>
             <l n="1910">a vuestras plantas, diciendo:</l>

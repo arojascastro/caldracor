@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000006" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-29">
           <time when="09:23:36"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/casa-con-dos-puertas-mala-es-de-guardar--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/casa-con-dos-puertas-mala-es-de-guardar--0/html/</idno>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la Primera parte de Comedias de don Pedro Calderón de la Barca, Madrid, Por la viuda de Juan Sánchez, a costa de Gabriel de León, 1640. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title> Edición digital a partir de la Primera parte de Comedias de don Pedro Calderón
+              de la Barca, Madrid, Por la viuda de Juan Sánchez, a costa de Gabriel de León, 1640.
+              Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por
+              Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -50,11 +55,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-félix" sex="MALE">
             <persName>Don Félix</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="calabazas" sex="MALE">
@@ -62,14 +73,23 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="escudero" sex="MALE">
             <persName>Un Escudero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
             <persName>Fabio</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="marcela" sex="FEMALE">
@@ -77,11 +97,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
             <persName>Laura</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="silvia" sex="FEMALE">
@@ -89,17 +115,26 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="celia" sex="FEMALE">
             <persName>Celia</persName>
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lelio" sex="MALE">
             <persName>Lelio</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
         </listPerson>
@@ -109,17 +144,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -134,7 +172,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000006" passive="http://www.wikidata.org/entity/Q16490369"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000006"
+        passive="http://www.wikidata.org/entity/Q16490369"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -162,7 +201,8 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
-          <stage>Salen MARCELA y SILVIA en corto con mantos, como recelándose, y detrás LISARDO y CALABAZAS.</stage>
+          <stage>Salen MARCELA y SILVIA en corto con mantos, como recelándose, y detrás LISARDO y
+            CALABAZAS.</stage>
           <sp who="#marcela">
             <speaker>MARCELA</speaker>
             <l part="I">¿Vienen tras nosotras? </l>
@@ -898,7 +938,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Salen MARCELA y SILVIA, abriendo una puerta que estará tapada con una antepuerta, y deténiense detrás della.</stage>
+          <stage>Salen MARCELA y SILVIA, abriendo una puerta que estará tapada con una antepuerta, y
+            deténiense detrás della.</stage>
           <sp who="#marcela">
             <speaker>MARCELA</speaker>
             <stage>[Aparte a SILVIA.]</stage>
@@ -1824,7 +1865,8 @@
       <div type="act" n="2">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada II</head>
-          <stage>Salen por una parte MARCELA con manto, y el ESCUDERO y por otra LAURA y CELIA.</stage>
+          <stage>Salen por una parte MARCELA con manto, y el ESCUDERO y por otra LAURA y
+            CELIA.</stage>
           <sp who="#laura">
             <speaker>LAURA</speaker>
             <l> Tú seas muy bien venida </l>
@@ -2759,7 +2801,8 @@
             <l> si es verdad que a la fortuna </l>
             <l> ayuda el atrevimiento. </l>
           </sp>
-          <stage>DON FÉLIX se va muy aprisa, FABIO está a la puerta con él, y CELIA después toma la una luz y se va, toma la otra luz FABIO.</stage>
+          <stage>DON FÉLIX se va muy aprisa, FABIO está a la puerta con él, y CELIA después toma la
+            una luz y se va, toma la otra luz FABIO.</stage>
           <sp who="#fabio">
             <speaker>FABIO</speaker>
             <l n="505"> Alumbra, Celia, a don Félix, </l>
@@ -3470,7 +3513,7 @@
             <speaker>LISARDO</speaker>
             <l> Cuando por haber faltado </l>
             <l> de casa, vete de aquí, </l>
-          <stage>Vase CALABAZAS.</stage>
+            <stage>Vase CALABAZAS.</stage>
             <l> toda la noche creí </l>
             <l n="890"> que habíades celebrado </l>
             <l> las paces con vuestra dama, </l>
@@ -3859,7 +3902,8 @@
             <speaker>MARCELA</speaker>
             <stage>[Aparte.]</stage>
             <l> No dirás, porque primero </l>
-            <stage>Pasa por delante tapada, como jurándosela a DON FÉLIX, él quiere seguirla, y LAURA le detiene.</stage>
+            <stage>Pasa por delante tapada, como jurándosela a DON FÉLIX, él quiere seguirla, y
+              LAURA le detiene.</stage>
             <l n="1065"> tus voces estorbaré </l>
             <l> con esta resolución. </l>
             <l> Amor ventura me de </l>
@@ -4464,7 +4508,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Vanse por una parte CELIA y MARCELA, y por la otra SILVIA y LAURA, y salen LISARDO y CALABAZAS.</stage>
+          <stage>Vanse por una parte CELIA y MARCELA, y por la otra SILVIA y LAURA, y salen LISARDO
+            y CALABAZAS.</stage>
           <sp who="#lisardo">
             <speaker>LISARDO</speaker>
             <l part="I"> ¿Qué papel es ese? </l>
@@ -5284,7 +5329,8 @@
             <l> todo, porque no hay honor </l>
             <l n="640"> ni amistad que tanto valga. </l>
           </sp>
-          <stage>Da golpes a la puerta como para derribarla, y a este tiempo como más lejos dan también golpes dentro.</stage>
+          <stage>Da golpes a la puerta como para derribarla, y a este tiempo como más lejos dan
+            también golpes dentro.</stage>
           <sp who="#calabazas">
             <speaker>CALABAZAS</speaker>
             <l part="I"> ¿Qué haces, señor? </l>
@@ -5584,7 +5630,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Sale DON FÉLIX con MARCELA, como a escuras, diciendo antes dentro los primeros versos, y luego abren la puerta, ha de ir cubierta, y salen a ella LAURA y SILVIA.</stage>
+          <stage>Sale DON FÉLIX con MARCELA, como a escuras, diciendo antes dentro los primeros
+            versos, y luego abren la puerta, ha de ir cubierta, y salen a ella LAURA y
+            SILVIA.</stage>
           <sp who="#don-félix">
             <speaker>DON FÉLIX</speaker>
             <l n="735"> ¡Hola! Traed aquí una luz. </l>
@@ -5683,7 +5731,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="20">
-          <stage>Vase apartando MARCELA, y LAURA atravesándose entre los dos; de suerte, que viene a tomar [DON] FÉLIX de la mano a LAURA, y tenella cuando sale la luz, MARCELA se va, y cierra la puerta tras sí.</stage>
+          <stage>Vase apartando MARCELA, y LAURA atravesándose entre los dos; de suerte, que viene a
+            tomar [DON] FÉLIX de la mano a LAURA, y tenella cuando sale la luz, MARCELA se va, y
+            cierra la puerta tras sí.</stage>
           <sp who="#marcela">
             <speaker>MARCELA</speaker>
             <stage>[Aparte.]</stage>

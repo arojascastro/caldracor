@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000102" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-26">
@@ -39,9 +40,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-sitio-de-breda--2/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-sitio-de-breda--2/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Primera parte de Comedias de don Pedro Calderón de la Barca, Madrid, Por la viuda de Juan Sánchez, a costa de Gabriel de León, 1640. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title>Edición digital a partir de la Primera parte de Comedias de don Pedro Calderón de
+              la Barca, Madrid, Por la viuda de Juan Sánchez, a costa de Gabriel de León, 1640.
+              Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por
+              Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,8 +56,12 @@
         <listPerson>
           <person xml:id="espínola" sex="MALE">
             <persName>El Marqués Espínola</persName>
+            <idno type="wikidata">Q359936</idno>
             <trait source="#calderondigital">
               <desc>capitán</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="alonso" sex="MALE">
@@ -63,11 +72,17 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="juan" sex="MALE">
             <persName>El Conde Juan de Nasau</persName>
             <trait source="#calderondigital">
               <desc>capitán</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="barlanzón" sex="MALE">
@@ -75,14 +90,23 @@
             <trait source="#calderondigital">
               <desc>capitán</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="pablos" sex="MALE">
             <persName>Pablos Ballón</persName>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="belveder" sex="MALE">
             <persName>Marqués de Belveder</persName>
             <trait source="#calderondigital">
               <desc>capitán</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="medina" sex="MALE">
@@ -90,11 +114,17 @@
             <trait source="#calderondigital">
               <desc>capitán</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="fadrique" sex="MALE">
             <persName>Don Fadrique Bazán</persName>
             <trait source="#calderondigital">
               <desc>capitán</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="gonzalo" sex="MALE">
@@ -102,11 +132,17 @@
             <trait source="#calderondigital">
               <desc>capitán</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="luis" sex="MALE">
             <persName>Don Luis de Velasco</persName>
             <trait source="#calderondigital">
               <desc>capitán</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="vicente" sex="MALE">
@@ -114,11 +150,17 @@
             <trait source="#calderondigital">
               <desc>capitán</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Madama Flora</persName>
             <trait source="#calderondigital">
               <desc>noble</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="alberto" sex="MALE">
@@ -126,26 +168,42 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="carlos" sex="MALE">
             <persName>Carlos</persName>
             <trait source="castlist">
               <desc>niño</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="enrique" sex="MALE">
             <persName>Enrique de Nasau</persName>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="morgan" sex="MALE">
             <persName>Morgan</persName>
             <trait source="castlist">
               <desc>inglés</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="justino" sex="MALE">
             <persName>Justino de Nasau</persName>
+            <idno type="wikidata">Q551885</idno>
             <trait source="#calderondigital">
               <desc>gobernador</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
@@ -153,14 +211,23 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ingeniero" sex="MALE">
             <persName>Un Ingeniero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="estela" sex="FEMALE">
             <persName>Estela</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="príncipe" sex="MALE">
@@ -168,20 +235,32 @@
             <trait resp="#rojas">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sargento" sex="MALE">
             <persName>Un Sargento</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="espía" sex="FEMALE">
             <persName>Una Espía</persName>
             <trait source="castlist">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="vergas" sex="MALE">
             <persName>Conde Enrique de Vergas</persName>
             <trait source="#calderondigital">
               <desc>capitán</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
         </listPerson>
@@ -191,17 +270,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -254,7 +336,8 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Tocan cajas y chirimías, salen el MARQUÉS ESPÍNOLA y ALONSO LADRÓN, capitán.</stage>
+          <stage>Tocan cajas y chirimías, salen el MARQUÉS ESPÍNOLA y ALONSO LADRÓN,
+            capitán.</stage>
           <sp who="#alonso">
             <speaker rend="caps">Alonso</speaker>
 
@@ -318,7 +401,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>(Sale el CONDE JUAN DE NASAU, de alemán, y el MARQUÉS BARLANZÓN, de tudesco.)</stage>
+          <stage>(Sale el CONDE JUAN DE NASAU, de alemán, y el MARQUÉS BARLANZÓN, de
+            tudesco.)</stage>
           <sp who="#juan">
             <speaker rend="caps">Juan</speaker>
 
@@ -437,7 +521,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>(Salen DON FRANCISCO DE MEDINA con hábito de Santiago, y DON FADRIQUE BAZÁN con jineta.)</stage>
+          <stage>(Salen DON FRANCISCO DE MEDINA con hábito de Santiago, y DON FADRIQUE BAZÁN con
+            jineta.)</stage>
           <sp who="#espínola">
             <speaker rend="caps">Espínola</speaker>
 
@@ -1005,7 +1090,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>(Vanse tocando cajas, y sale MADAMA FLORA y ALBERTO, su padre y CARLOS, su hijo y ENRIQUE DE NASAU.)</stage>
+          <stage>(Vanse tocando cajas, y sale MADAMA FLORA y ALBERTO, su padre y CARLOS, su hijo y
+            ENRIQUE DE NASAU.)</stage>
           <sp who="#enrique">
             <speaker rend="caps">Enrique</speaker>
 
@@ -2006,7 +2092,8 @@
       <div type="act" n="2">
         <head rend="caps">Jornada Segunda</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen descubriendo a ESPÍNOLA en una tienda escribiendo, y LADRÓN a un lado.</stage>
+          <stage>Salen descubriendo a ESPÍNOLA en una tienda escribiendo, y LADRÓN a un
+            lado.</stage>
           <sp who="#espínola">
             <speaker rend="caps">Espínola</speaker>
 
@@ -3219,7 +3306,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>(Sale el PRÍNCIPE DE POLONIA y ESPÍNOLA, y todos los que pudieren acompañándolos, atabales y trompetas, y al cabo chirimías, cuando salgan el de Polonia y ESPÍNOLA.)</stage>
+          <stage>(Sale el PRÍNCIPE DE POLONIA y ESPÍNOLA, y todos los que pudieren acompañándolos,
+            atabales y trompetas, y al cabo chirimías, cuando salgan el de Polonia y
+            ESPÍNOLA.)</stage>
           <sp who="#espínola">
             <speaker rend="caps">Espínola</speaker>
 
@@ -4004,7 +4093,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>(Quítanse del muro, y salen tocando chirimías el PRÍNCIPE [DE] POLONIA y ESPÍNOLA con acompañamiento.)</stage>
+          <stage>(Quítanse del muro, y salen tocando chirimías el PRÍNCIPE [DE] POLONIA y ESPÍNOLA
+            con acompañamiento.)</stage>
           <sp who="#espínola">
             <speaker rend="caps">Espínola</speaker>
 
@@ -4580,7 +4670,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>(Disparan y salen LADRÓN, ESPÍNOLA, DON VICENTE, DON GONZALO y DON FRANCISCO DE MEDINA.)</stage>
+          <stage>(Disparan y salen LADRÓN, ESPÍNOLA, DON VICENTE, DON GONZALO y DON FRANCISCO DE
+            MEDINA.)</stage>
           <sp who="#espínola">
             <speaker rend="caps">Espínola</speaker>
 
@@ -6502,7 +6593,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>(Salgan todos los que pudieren por una parte, y por otra, entrando los españoles, y después a la puerta JUSTINO con una fuente, y en ella las llaves.)</stage>
+          <stage>(Salgan todos los que pudieren por una parte, y por otra, entrando los españoles, y
+            después a la puerta JUSTINO con una fuente, y en ella las llaves.)</stage>
           <sp who="#justino">
             <speaker rend="caps">Justino</speaker>
 

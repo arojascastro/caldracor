@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000132" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Los hijos de la fortuna, Teágenes y Cariclea. En: Comedias, Vol. 3. Dirección de Luis Iglesias Feijoo y Don William Cruickshank. Madrid : Fundación José Antonio de Castro, 2007</title>
+          <title>Pedro Calderón de la Barca, Los hijos de la fortuna, Teágenes y Cariclea. En:
+            Comedias, Vol. 3. Dirección de Luis Iglesias Feijoo y Don William Cruickshank. Madrid :
+            Fundación José Antonio de Castro, 2007</title>
           <idno type="ISBN">978-84-96452-32-9</idno>
         </bibl>
       </sourceDesc>
@@ -51,11 +54,17 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="calasiris" sex="MALE">
             <persName>Calasiris</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="nausiclés" sex="MALE">
@@ -63,11 +72,17 @@
             <trait source="castlist">
               <desc>mercader</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tisbe" sex="FEMALE">
             <persName>Tisbe</persName>
             <trait source="castlist">
               <desc>esclava</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="idaspes" sex="MALE">
@@ -78,6 +93,9 @@
             <trait source="castlist">
               <desc>negro</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cariclea" sex="FEMALE">
             <persName>Cariclea</persName>
@@ -86,6 +104,9 @@
             </trait>
             <trait source="castlist">
               <desc>india</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="persina" sex="FEMALE">
@@ -99,20 +120,32 @@
             <trait source="castlist">
               <desc>negra</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="capitán" sex="MALE">
             <persName>Un Capitán</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tíamis" sex="MALE">
             <persName>Tíamis</persName>
             <trait source="castlist">
               <desc>bandolero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="termutes" sex="MALE">
             <persName>Termutes</persName>
             <trait source="castlist">
               <desc>bandolero</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="jebnón" sex="MALE">
@@ -123,6 +156,9 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="petosiris" sex="MALE">
             <persName>Petosiris</persName>
@@ -132,23 +168,38 @@
             <trait source="castlist">
               <desc>hermano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="teágenes" sex="MALE">
             <persName>Teágenes</persName>
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="caminante-vejete" sex="MALE">
             <persName>Caminante Vejete</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="otro-caminante" sex="MALE">
             <persName>Otro Caminante</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="admeta" sex="FEMALE">
             <persName>Admeta</persName>
             <trait source="castlist">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="libio" sex="MALE">
@@ -156,33 +207,60 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="damas-de-admeta" sex="FEMALE">
             <persName>Damas de Admeta</persName>
           </personGrp>
           <person xml:id="ninfa-1a" sex="FEMALE">
             <persName>Ninfa 1a de Apolo</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-2a" sex="FEMALE">
             <persName>Ninfa 2a de Apolo</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-3a" sex="FEMALE">
             <persName>Ninfa 3a de Apolo</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-4a" sex="FEMALE">
             <persName>Ninfa 4a de Apolo</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="mujer-1" sex="FEMALE">
             <persName>Mujer 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mujer-2" sex="FEMALE">
             <persName>Mujer 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mujer-3" sex="FEMALE">
             <persName>Mujer 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mujer-4" sex="FEMALE">
             <persName>Mujer 4</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="coro-1" sex="MALE">
             <persName>Coro 1 (hombres)</persName>
@@ -192,9 +270,15 @@
           </personGrp>
           <person sex="UNKNOWN" xml:id="voz">
             <persName>Voz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-2">
             <persName>Otra Voz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -206,17 +290,20 @@
           <term source="dracor" type="genreTitle">comedia novelesca</term>
           <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -265,7 +352,12 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Con los últimos versos de la copla, que se empieza a cantar desde adentro, salen todas las músicas que puedan, vestidas de ninfas, con guirnaldas de flores, y detrás Cariclés, viejo venerable, de sacerdote antiguo, y como van dando vuelta al tablado, van saliendo a su tiempo Calasiris, también viejo venerable, vestido de peregrino; luego, Nausiclés, de galán, y Tisbe, de esclava; luego, Idaspes, etíope negro, y Cariclea, cubierto el rostro con un velo.</stage>
+          <stage>Con los últimos versos de la copla, que se empieza a cantar desde adentro, salen
+            todas las músicas que puedan, vestidas de ninfas, con guirnaldas de flores, y detrás
+            Cariclés, viejo venerable, de sacerdote antiguo, y como van dando vuelta al tablado, van
+            saliendo a su tiempo Calasiris, también viejo venerable, vestido de peregrino; luego,
+            Nausiclés, de galán, y Tisbe, de esclava; luego, Idaspes, etíope negro, y Cariclea,
+            cubierto el rostro con un velo.</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -764,7 +856,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Duérmese. Cantan dentro, y salen músicas indias negras, y Persina, llorando.</stage>
+          <stage>Duérmese. Cantan dentro, y salen músicas indias negras, y Persina,
+            llorando.</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -858,7 +951,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Vanse, y salen por una puerta Calasiris, y por otra Idaspes; despierta Cariclés, y hállase en medio de los dos.</stage>
+          <stage>Vanse, y salen por una puerta Calasiris, y por otra Idaspes; despierta Cariclés, y
+            hállase en medio de los dos.</stage>
           <sp who="#cariclés">
             <speaker rend="caps">Cariclés</speaker>
 
@@ -1042,7 +1136,8 @@
             <l>podrán mejor que yo, éstas</l>
             <l>son: ved si es tesoro rico.</l>
           </sp>
-          <stage>Con un tafetán, que ha de estar con letras de oro, muestra unas joyas en un cofrecico.</stage>
+          <stage>Con un tafetán, que ha de estar con letras de oro, muestra unas joyas en un
+            cofrecico.</stage>
           <sp who="#cariclés">
             <speaker rend="caps">Cariclés</speaker>
 
@@ -1495,7 +1590,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Llévanla entre los dos, y vanse. Disparan dentro unas pistolas, y sale Tíamis, bandolero galán.</stage>
+          <stage>Llévanla entre los dos, y vanse. Disparan dentro unas pistolas, y sale Tíamis,
+            bandolero galán.</stage>
           <sp who="#unos">
             <speaker rend="caps">Unos</speaker>
             <stage type="withText">dentro</stage>
@@ -1980,7 +2076,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Cuando estas voces de dentro suenan en una parte, dicen mujeres en otra, y sale Admeta de caza, con arco y flechas.</stage>
+          <stage>Cuando estas voces de dentro suenan en una parte, dicen mujeres en otra, y sale
+            Admeta de caza, con arco y flechas.</stage>
           <sp who="#nausiclés">
             <speaker rend="caps">Nausiclés</speaker>
             <stage type="withText">dentro</stage>
@@ -2416,7 +2513,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage>Chirimías, cajas y instrumentos, y salen por una parte ninfas y Cariclea, con una hacha, y por otra saldrán los músicos y Teágenes.</stage>
+          <stage>Chirimías, cajas y instrumentos, y salen por una parte ninfas y Cariclea, con una
+            hacha, y por otra saldrán los músicos y Teágenes.</stage>
           <sp who="#calasiris">
             <speaker rend="caps">Calasiris</speaker>
 
@@ -3078,7 +3176,8 @@
             <l>os le entregaré. Aquél es</l>
             <l>su cuarto, venid.</l>
           </sp>
-          <stage>Al dar ellos vuelta por de dentro, se ve Cariclea, mirando una lámina, sentada junto a un bufete, en que estarán las joyas en su cofrecillo.</stage>
+          <stage>Al dar ellos vuelta por de dentro, se ve Cariclea, mirando una lámina, sentada
+            junto a un bufete, en que estarán las joyas en su cofrecillo.</stage>
           <sp who="#cariclea">
             <speaker rend="caps">Cariclea</speaker>
 
@@ -4191,7 +4290,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Vanse, llevándola en brazos, y se oyen las ninfas, Cariclés, Calasiris y otros.</stage>
+          <stage>Vanse, llevándola en brazos, y se oyen las ninfas, Cariclés, Calasiris y
+            otros.</stage>
           <sp who="#voz #voz-2">
             <speaker rend="caps">Vozes</speaker>
 
@@ -4216,7 +4316,8 @@
 
             <l>¡A la selva!</l>
           </sp>
-          <stage>Las chirimías. Por una parte Admeta, y por otra parte Idaspes, con acompañamiento.</stage>
+          <stage>Las chirimías. Por una parte Admeta, y por otra parte Idaspes, con
+            acompañamiento.</stage>
           <sp who="#idaspes">
             <speaker rend="caps">Idaspes</speaker>
 
@@ -4493,7 +4594,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Vase, y suenan dentro cuchilladas y ruido de platos que ruedan, y salen como oyendo a lo lejos Tíamis y Termutes, y bandoleros.</stage>
+          <stage>Vase, y suenan dentro cuchilladas y ruido de platos que ruedan, y salen como oyendo
+            a lo lejos Tíamis y Termutes, y bandoleros.</stage>
           <sp who="#unos">
             <speaker rend="caps">Uno</speaker>
 
@@ -4661,7 +4763,8 @@
             <l>cuando con su mismo acero</l>
             <l>sepa yo…</l>
           </sp>
-          <stage>Toma el puñal de Teágenes, y tiénela el brazo Tíamis, quedándose con él en la mano.</stage>
+          <stage>Toma el puñal de Teágenes, y tiénela el brazo Tíamis, quedándose con él en la
+            mano.</stage>
           <sp who="#tíamis">
             <speaker rend="caps">Tíamis</speaker>
 
@@ -5526,7 +5629,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Salen, entreabriendo la peña, Teágenes y Jebnón, con una hacha cubierta de hierba.</stage>
+          <stage>Salen, entreabriendo la peña, Teágenes y Jebnón, con una hacha cubierta de
+            hierba.</stage>
           <sp who="#jebnón">
             <speaker rend="caps">Jebnón</speaker>
 
@@ -6647,7 +6751,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Vanse. Cajas, y salen marchando todos los que puedan de etíopes, hombres y mujeres, músicos, luego Persina y Idaspes con bengalas.</stage>
+          <stage>Vanse. Cajas, y salen marchando todos los que puedan de etíopes, hombres y mujeres,
+            músicos, luego Persina y Idaspes con bengalas.</stage>
           <sp who="#persina">
             <speaker rend="caps">Persina</speaker>
 
@@ -8221,7 +8326,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Esta batalla se puede hacer saliendo con sus versos cada uno, y si no pareciere, dentro; y salen riñendo Persina y Cariclea.</stage>
+          <stage>Esta batalla se puede hacer saliendo con sus versos cada uno, y si no pareciere,
+            dentro; y salen riñendo Persina y Cariclea.</stage>
           <sp who="#persina">
             <speaker rend="caps">Persina</speaker>
 
@@ -8511,7 +8617,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Caja, y salen Idaspes con Admeta, Tíamis con Petosiris, Persina con Cariclea, y todo el acompañamiento de etíopes y gitanos, Teágenes y Jebnón.</stage>
+          <stage>Caja, y salen Idaspes con Admeta, Tíamis con Petosiris, Persina con Cariclea, y
+            todo el acompañamiento de etíopes y gitanos, Teágenes y Jebnón.</stage>
           <sp who="#idaspes">
             <speaker rend="caps">Idaspes</speaker>
 

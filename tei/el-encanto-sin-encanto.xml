@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000084" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-08">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, El encanto sin encanto. En: Comedias, Vol. 4. Dirección de Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, El encanto sin encanto. En: Comedias, Vol. 4. Dirección
+            de Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José Antonio de
+            Castro, 2010</title>
           <idno type="ISBN">978-84-96452-89-3</idno>
         </bibl>
       </sourceDesc>
@@ -51,17 +54,26 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
             <persName>Libia</persName>
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
             <persName>Laura</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
@@ -72,11 +84,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="margarita" sex="FEMALE">
             <persName>Margarita</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="florante" sex="MALE">
@@ -84,11 +102,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dionís" sex="MALE">
             <persName>Dionís</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="celio" sex="MALE">
@@ -96,11 +120,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="arnesto" sex="MALE">
             <persName>Arnesto</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="enrique" sex="MALE">
@@ -108,11 +138,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="franchipán" sex="MALE">
             <persName>Franchipán</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="gobernador" sex="MALE">
@@ -123,11 +159,17 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
             <persName>Fabio</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="músicos">
@@ -138,12 +180,21 @@
           </personGrp>
           <person xml:id="vejete" sex="MALE">
             <persName>Un Vejete</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="primero" sex="MALE">
             <persName>Un Villano</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="segundo" sex="MALE">
             <persName>Otro Villano</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -152,17 +203,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -284,7 +338,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Salen Laura, Flora y otras con máscaras; músicos y bailarines sin ellas danzando.</stage>
+          <stage>Salen Laura, Flora y otras con máscaras; músicos y bailarines sin ellas
+            danzando.</stage>
           <sp who="#laura">
             <speaker rend="caps">Laura</speaker>
 
@@ -451,7 +506,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Sale una tropa de música, Serafina y Libia con mascarilla, Fabio, viejo, y detrás Celio.</stage>
+          <stage>Sale una tropa de música, Serafina y Libia con mascarilla, Fabio, viejo, y detrás
+            Celio.</stage>
           <sp who="#florante">
             <speaker rend="caps">Florante</speaker>
 
@@ -964,7 +1020,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Andan por el tablado, ella tras él. Sale Arnesto a tiempo que él se pone delante y ella se va, sin hacer reparo Arnesto en ella.</stage>
+          <stage>Andan por el tablado, ella tras él. Sale Arnesto a tiempo que él se pone delante y
+            ella se va, sin hacer reparo Arnesto en ella.</stage>
           <sp who="#margarita">
             <speaker rend="caps">Margarita</speaker>
 
@@ -1143,7 +1200,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Vase Arnesto por una parte y, al irse por la otra Florante, sale Laura con la primera tropa y Franchipán.</stage>
+          <stage>Vase Arnesto por una parte y, al irse por la otra Florante, sale Laura con la
+            primera tropa y Franchipán.</stage>
           <sp who="#laura">
             <speaker rend="caps">Laura</speaker>
 
@@ -2330,7 +2388,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Riñen con ellos y retíranse los tres, entran por una puerta y vuelven a salir por otra.</stage>
+          <stage>Riñen con ellos y retíranse los tres, entran por una puerta y vuelven a salir por
+            otra.</stage>
           <sp who="#celio">
             <speaker rend="caps">Celio</speaker>
 
@@ -5796,7 +5855,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Vanse las dos y ábrese una puerta que estará pintada de muralla y que convenga con lo más, y salen Enrique, Fabio, Franchipán y el vejete.</stage>
+          <stage>Vanse las dos y ábrese una puerta que estará pintada de muralla y que convenga con
+            lo más, y salen Enrique, Fabio, Franchipán y el vejete.</stage>
           <sp who="#fabio">
             <speaker rend="caps">Fabio</speaker>
 
@@ -7498,7 +7558,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Salen cantando las que puedan, Libia con el vestido de Serafina y Serafina con el disfraz, todas con mascarillas.</stage>
+          <stage>Salen cantando las que puedan, Libia con el vestido de Serafina y Serafina con el
+            disfraz, todas con mascarillas.</stage>
           <sp who="#músicos">
             <speaker rend="caps">La Música</speaker>
 
@@ -8311,7 +8372,8 @@
             <l>Ni yo la quiero, restado</l>
             <l>a morir y matar hoy.</l>
           </sp>
-          <stage>Laura por una puerta y Margarita por otra, ambas con gente y espadas, y el Gobernador por medio.</stage>
+          <stage>Laura por una puerta y Margarita por otra, ambas con gente y espadas, y el
+            Gobernador por medio.</stage>
           <sp who="#margarita">
             <speaker rend="caps">Margarita</speaker>
 
@@ -8994,7 +9056,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Vanse, y salen don Enrique y Franchipán de franceses, uno de gala y otro de lacayo.</stage>
+          <stage>Vanse, y salen don Enrique y Franchipán de franceses, uno de gala y otro de
+            lacayo.</stage>
           <sp who="#enrique">
             <speaker rend="caps">Enrique</speaker>
 
@@ -9132,7 +9195,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>Arrímanse al nicho; suena ruido en la otra puerta; sale Florante lleno de tierra.</stage>
+          <stage>Arrímanse al nicho; suena ruido en la otra puerta; sale Florante lleno de
+            tierra.</stage>
           <sp who="#franchipán">
             <speaker rend="caps">Franchipán</speaker>
 

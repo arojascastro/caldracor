@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000108" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Gustos y disgustos son no más que imaginación</title>
-        <title type="sub">Fiesta que se representó a sus Majestades en el Salón de su Real Palacio</title>
+        <title type="sub">Fiesta que se representó a sus Majestades en el Salón de su Real
+          Palacio</title>
         <title type="sub">Gran Comedia</title>
         <author>
           <persName>
@@ -27,7 +28,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-09">
@@ -39,7 +41,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Gustos y disgustos son no más que imaginación. En: Comedias, Vol. 5. Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, Gustos y disgustos son no más que imaginación. En:
+            Comedias, Vol. 5. Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza.
+            Madrid : Fundación José Antonio de Castro, 2010</title>
           <idno type="ISBN">978-84-96452-94-7</idno>
         </bibl>
       </sourceDesc>
@@ -49,8 +53,12 @@
         <listPerson>
           <person xml:id="rey" sex="MALE">
             <persName>Don Pedro</persName>
+            <idno type="wikidata">Q315058</idno>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="conde" sex="MALE">
@@ -58,11 +66,17 @@
             <trait source="#calderondigital">
               <desc>padre</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="guillén" sex="MALE">
             <persName>Don Guillén</persName>
             <trait source="#calderondigital">
               <desc>privado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="vicente" sex="MALE">
@@ -70,17 +84,27 @@
             <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="chocolate" sex="MALE">
             <persName>Chocolate</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="reina" sex="FEMALE">
             <persName>La Reina Doña María</persName>
+            <idno type="wikidata">Q268731</idno>
             <trait resp="#rojas">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="violante" sex="FEMALE">
@@ -88,11 +112,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="elvira" sex="FEMALE">
             <persName>Elvira</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
@@ -100,9 +130,15 @@
             <trait source="castlist">
               <desc>dueña</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -111,17 +147,20 @@
           <term source="dracor" type="genreTitle">comedia palatina</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -137,7 +176,8 @@
     <front>
       <docTitle>
         <titlePart type="main">Gustos y disgustos son no más que imaginación</titlePart>
-        <titlePart type="sub">Fiesta que se representó a sus Majestades en el Salón de su Real Palacio</titlePart>
+        <titlePart type="sub">Fiesta que se representó a sus Majestades en el Salón de su Real
+          Palacio</titlePart>
         <titlePart type="sub">Gran Comedia</titlePart>
       </docTitle>
       <castList>
@@ -158,7 +198,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen por una puerta el Conde y su hija Violante y acompañamiento; y por otra, doña Elvira.</stage>
+          <stage>Salen por una puerta el Conde y su hija Violante y acompañamiento; y por otra, doña
+            Elvira.</stage>
           <sp who="#elvira">
             <speaker rend="caps">Elvira</speaker>
 
@@ -508,7 +549,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Salen don Guillén, don Vicente y el Conde, Traen al Rey desmayado y siéntanle en una silla.</stage>
+          <stage>Salen don Guillén, don Vicente y el Conde, Traen al Rey desmayado y siéntanle en
+            una silla.</stage>
           <sp who="#guillén">
             <speaker rend="caps">Guillén</speaker>
 
@@ -4634,7 +4676,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Salen don Vicente y Chocolate de camino; y el Rey y don Guillén se van por otra parte.</stage>
+          <stage>Salen don Vicente y Chocolate de camino; y el Rey y don Guillén se van por otra
+            parte.</stage>
           <sp who="#violante">
             <speaker rend="caps">Violante</speaker>
 
@@ -4721,7 +4764,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="25">
-          <stage>Vanse los dos; sale la Reina a la misma ventana y Elvira; y vuelven por otra parte, o puerta, el Rey y don Guillén.</stage>
+          <stage>Vanse los dos; sale la Reina a la misma ventana y Elvira; y vuelven por otra parte,
+            o puerta, el Rey y don Guillén.</stage>
           <sp who="#reina">
             <speaker rend="caps">Reina</speaker>
 
@@ -7293,7 +7337,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Vanse entrando y, desde la puerta, la Reina vuelve a llamar a Violante, estando don Vicente con la daga empuñada.</stage>
+          <stage>Vanse entrando y, desde la puerta, la Reina vuelve a llamar a Violante, estando don
+            Vicente con la daga empuñada.</stage>
           <sp who="#reina">
             <speaker rend="caps">Reina</speaker>
 
@@ -7797,7 +7842,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Salen apartados el Rey y don Vicente; el uno muy triste y otro muy alegre, sin verse.</stage>
+          <stage>Salen apartados el Rey y don Vicente; el uno muy triste y otro muy alegre, sin
+            verse.</stage>
           <sp who="#vicente">
             <speaker rend="caps">Vicente</speaker>
 
@@ -8048,7 +8094,8 @@
 
             <l>Esta vez...</l>
           </sp>
-          <stage>Lleguen los dos y, viéndose el uno al otro, se aparten y sacan las espadas; y el Rey se pone delante de la Reina.</stage>
+          <stage>Lleguen los dos y, viéndose el uno al otro, se aparten y sacan las espadas; y el
+            Rey se pone delante de la Reina.</stage>
           <sp who="#reina">
             <speaker rend="caps">Reina</speaker>
 
@@ -8141,7 +8188,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Dentro don Guillén y el Conde; y Violante dentro por otra parte; y Elvira saca luces por en medio dellos; y salen todos los demás.</stage>
+          <stage>Dentro don Guillén y el Conde; y Violante dentro por otra parte; y Elvira saca
+            luces por en medio dellos; y salen todos los demás.</stage>
           <sp who="#guillén">
             <speaker rend="caps">Guillén</speaker>
             <stage type="withText">[dentro]</stage>

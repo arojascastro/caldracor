@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000081" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-17">
@@ -38,7 +39,10 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, El astrólogo fingido. Edición crítica de Fernando Rodríguez-Gallego. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano. Universidad de Navarra / Iberoamericana / Vervuert 2011 Biblioteca Áurea Hispánica 73, Comedias completas de Calderón 6</title>
+          <title>Pedro Calderón de la Barca, El astrólogo fingido. Edición crítica de Fernando
+            Rodríguez-Gallego. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano.
+            Universidad de Navarra / Iberoamericana / Vervuert 2011 Biblioteca Áurea Hispánica 73,
+            Comedias completas de Calderón 6</title>
           <idno type="URL">https://doi.org/10.31819/9783865279835</idno>
         </bibl>
       </sourceDesc>
@@ -51,11 +55,17 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-diego" sex="MALE">
             <persName>Don Diego</persName>
             <trait source="#calderondigital">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="juan" sex="MALE">
@@ -63,11 +73,17 @@
             <trait source="#calderondigital">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="carlos" sex="MALE">
             <persName>Don Carlos</persName>
             <trait source="#calderondigital">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="antonio" sex="MALE">
@@ -75,11 +91,17 @@
             <trait source="#calderondigital">
               <desc>amigo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonardo" sex="MALE">
             <persName>Leonardo</persName>
             <trait source="#calderondigital">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="otáñez" sex="MALE">
@@ -90,11 +112,17 @@
             <trait source="castlist">
               <desc>vejete</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="maría" sex="FEMALE">
             <persName>Doña María</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="beatriz" sex="FEMALE">
@@ -102,11 +130,17 @@
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="violante" sex="FEMALE">
             <persName>Violante</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="quiteria" sex="FEMALE">
@@ -114,9 +148,15 @@
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="escudero" sex="MALE">
             <persName>Un Escudero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -125,17 +165,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -678,7 +721,7 @@
             <l>que soy vigilante y fiel.</l>
             <stage>Vase.</stage>
           </sp>
-          </div>
+        </div>
         <div type="scene" resp="#rojas" n="4">
           <sp who="#maría">
             <speaker rend="caps">María</speaker>
@@ -1869,7 +1912,8 @@
       <div type="act" n="2">
         <head rend="caps">Segunda Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage type="withText">Salen doña María y Beatriz con mantos y el escudero y don Diego y Morón.</stage>
+          <stage type="withText">Salen doña María y Beatriz con mantos y el escudero y don Diego y
+            Morón.</stage>
           <sp who="#don-diego">
             <speaker rend="caps">Don Diego</speaker>
 

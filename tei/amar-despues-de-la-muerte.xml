@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000058" xml:lang="es">
   <teiHeader>
@@ -33,7 +33,8 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/amar-despues-de-la-muerte-o-el-tuzani-de-las-alpujarras--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/amar-despues-de-la-muerte-o-el-tuzani-de-las-alpujarras--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital basada en la de Madrid, Espasa Calpe, 1970, pp.135-244. </title>
           </bibl>
@@ -48,17 +49,27 @@
             <trait source="#calderondigital">
               <desc>jefe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="malec" sex="MALE">
             <persName>Don Juan Malec</persName>
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="válor" sex="MALE">
             <persName>Don Fernando de Válor</persName>
+            <idno type="wikidata">Q336879</idno>
             <trait source="#calderondigital">
               <desc>jefe</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="alcuzcuz" sex="MALE">
@@ -69,11 +80,17 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cadí" sex="MALE">
             <persName>Cadí</persName>
             <trait source="castlist">
               <desc>morisco</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="mendoza" sex="MALE">
@@ -81,17 +98,28 @@
             <trait source="#calderondigital">
               <desc>noble</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-juan" sex="MALE">
             <persName>El Señor Don Juan de Austria</persName>
+            <idno type="wikidata">Q157107</idno>
             <trait source="#calderondigital">
               <desc>hermano</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="don-lope" sex="MALE">
             <persName>Don Lope de Figueroa</persName>
+            <idno type="wikidata">Q3259293</idno>
             <trait source="#calderondigital">
               <desc>general</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="don-alonso" sex="MALE">
@@ -99,11 +127,17 @@
             <trait source="castlist">
               <desc>corregidor</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="garcés" sex="MALE">
             <persName>Garcés</persName>
             <trait source="castlist">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="doña-isabel" sex="FEMALE">
@@ -111,11 +145,17 @@
             <trait source="#calderondigital">
               <desc>hermana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="doña-clara" sex="FEMALE">
             <persName>Doña Clara Malec</persName>
             <trait source="#calderondigital">
               <desc>hija</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="beatriz" sex="FEMALE">
@@ -123,24 +163,39 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="inés" sex="FEMALE">
             <persName>Inés</persName>
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Un Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="moriscos" sex="MALE">
             <persName>Moriscos</persName>
           </personGrp>
           <person xml:id="morisco" sex="MALE">
             <persName>Un Morisco</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="morisca" sex="FEMALE">
             <persName>Una Morisca</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="moriscas" sex="FEMALE">
             <persName>Moriscas</persName>
@@ -156,12 +211,21 @@
           </personGrp>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-3" sex="MALE">
             <persName>Soldado 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -170,17 +234,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -225,7 +292,8 @@
         <head>Jornada I</head>
         <div type="scene" n="1">
           <stage>Escena I</stage>
-          <stage>MORISCOS, con casaquillas y calzoncillos, y MORISCAS con jubones blancos e instrumentos; CADÍ y ALCUZCUZ.</stage>
+          <stage>MORISCOS, con casaquillas y calzoncillos, y MORISCAS con jubones blancos e
+            instrumentos; CADÍ y ALCUZCUZ.</stage>
           <sp who="#cadí">
             <speaker>CADÍ</speaker>
             <l>¿Están cerradas las puertas?</l>
@@ -850,7 +918,8 @@
         </div>
         <div type="scene" n="5">
           <stage>Escena V</stage>
-          <stage>DON ALONSO DE ZÚÑIGA, DON FERNANDO DE VÁLOR y DON JUAN MALEC.-DOÑA CLARA; DON ÁLVARO, oculto.</stage>
+          <stage>DON ALONSO DE ZÚÑIGA, DON FERNANDO DE VÁLOR y DON JUAN MALEC.-DOÑA CLARA; DON
+            ÁLVARO, oculto.</stage>
           <sp who="#malec">
             <speaker>MALEC</speaker>
             <l part="I">Clara...</l>
@@ -875,7 +944,8 @@
             <speaker>MALEC</speaker>
             <l part="F">Oye desde ahí.</l>
           </sp>
-          <stage>Vase DOÑA CLARA al cuarto donde está DON ÁLVARO, quedándose tras la puerta entreabierta.</stage>
+          <stage>Vase DOÑA CLARA al cuarto donde está DON ÁLVARO, quedándose tras la puerta
+            entreabierta.</stage>
           <sp who="#don-alonso">
             <speaker>DON ALONSO</speaker>
             <l n="400">Don Juan de Mendoza preso</l>
@@ -1621,7 +1691,8 @@
             <l>porque van ambos por mí,</l>
             <l n="740">si me ganan o me pierden...</l>
           </sp>
-          <stage>Tropezando en una silla, cae DON ÁLVARO; sale DOÑA ISABEL tapada y detiene a DON JUAN.</stage>
+          <stage>Tropezando en una silla, cae DON ÁLVARO; sale DOÑA ISABEL tapada y detiene a DON
+            JUAN.</stage>
           <sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Tropezando en esta silla,</l>
@@ -1709,7 +1780,8 @@
         </div>
         <div type="scene" n="12">
           <stage>Escena XII</stage>
-          <stage>DON FERNANDO DE VÁLOR, DON ALONSO; después, INÉS.-DOÑA ISABEL, tapada; DON ÁLVARO, DON JUAN DE MENDOZA.</stage>
+          <stage>DON FERNANDO DE VÁLOR, DON ALONSO; después, INÉS.-DOÑA ISABEL, tapada; DON ÁLVARO,
+            DON JUAN DE MENDOZA.</stage>
           <sp who="#doña-isabel">
             <speaker>DOÑA ISABEL</speaker>
             <l part="F">Caballeros,</l>
@@ -1981,7 +2053,8 @@
         <div type="scene" n="1">
           <stage>Sierra de la Alpujarra.-Cercanías de Galera.</stage>
           <stage>Escena I</stage>
-          <stage>Tocan cajas y trompetas, y salen SOLDADOS, DON JUAN DE MENDOZA y EL SEÑOR DON JUAN DE AUSTRIA.</stage>
+          <stage>Tocan cajas y trompetas, y salen SOLDADOS, DON JUAN DE MENDOZA y EL SEÑOR DON JUAN
+            DE AUSTRIA.</stage>
           <sp who="#don-juan">
             <speaker>DON JUAN</speaker>
             <l>Rebelada montaña,</l>
@@ -2690,7 +2763,9 @@
         </div>
         <div type="scene" n="6">
           <stage>Escena VI</stage>
-          <stage>MALEC, que llega a hablar a DON FERNANDO, hincada la rodilla; y a los lados, DON ÁLVARO y DOÑA CLARA, que salen en traje de moros, y se quedan a las puertas; BEATRIZ. -Dichos.</stage>
+          <stage>MALEC, que llega a hablar a DON FERNANDO, hincada la rodilla; y a los lados, DON
+            ÁLVARO y DOÑA CLARA, que salen en traje de moros, y se quedan a las puertas; BEATRIZ.
+            -Dichos.</stage>
           <sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <stage>Aparte.</stage>
@@ -2738,7 +2813,8 @@
             <stage>Aparte.</stage>
             <l n="465">Escucháis, mis fantasías...</l>
           </sp>
-          <stage>Música; y ellos, aparte Que bien se ve que sois mías en lo poco que duráis...</stage>
+          <stage>Música; y ellos, aparte Que bien se ve que sois mías en lo poco que
+            duráis...</stage>
           <sp who="#malec">
             <speaker>MALEC</speaker>
             <l>Señor, pues entre el estruendo</l>
@@ -4152,7 +4228,8 @@
         </div>
         <div type="scene" n="4">
           <stage>Escena IV</stage>
-          <stage>DON JUAN DE MENDOZA, DON LOPE DE FIGUEROA, GARCÉS, SOLDADOS; después, MALEC, MORISCOS y DOÑA CLARA.</stage>
+          <stage>DON JUAN DE MENDOZA, DON LOPE DE FIGUEROA, GARCÉS, SOLDADOS; después, MALEC,
+            MORISCOS y DOÑA CLARA.</stage>
           <sp who="#don-lope">
             <speaker>DON LOPE</speaker>
             <l>No quede persona a vida:</l>
@@ -4223,7 +4300,8 @@
         </div>
         <div type="scene" n="5">
           <stage>Escena V</stage>
-          <stage>Después de haberse concluido la batalla dentro, salen SOLDADOS, GARCÉS, DON LOPE y DON JUAN DE MENDOZA.</stage>
+          <stage>Después de haberse concluido la batalla dentro, salen SOLDADOS, GARCÉS, DON LOPE y
+            DON JUAN DE MENDOZA.</stage>
           <sp who="#soldado-1">
             <speaker>SOLDADO 1.º</speaker>
             <l>No se ha hecho presa tal</l>
@@ -4299,7 +4377,8 @@
             <l>O dadla vida o matadme.</l>
 
           </sp>
-          <stage>Entra, y saca a DOÑA CLARA, suelto el cabello, sangriento el rostro, y medio vestida.</stage>
+          <stage>Entra, y saca a DOÑA CLARA, suelto el cabello, sangriento el rostro, y medio
+            vestida.</stage>
           <sp who="#doña-clara">
             <speaker>DOÑA CLARA</speaker>
             <l>Soldado español, en quien</l>
@@ -4418,7 +4497,8 @@
         </div>
         <div type="scene" n="7">
           <stage>Escena VII</stage>
-          <stage>DON FERNANDO DE VÁLOR, DOÑA ISABEL TUZANÍ, MORISCOS.- DON ÁLVARO; DOÑA CLARA, muerta.</stage>
+          <stage>DON FERNANDO DE VÁLOR, DOÑA ISABEL TUZANÍ, MORISCOS.- DON ÁLVARO; DOÑA CLARA,
+            muerta.</stage>
           <sp who="#válor">
             <speaker>VÁLOR</speaker>
             <l>Aunque con lenguas de fuego</l>
@@ -5163,7 +5243,8 @@
             <l>Si yo estoy solo, ¿qué importa</l>
             <l>que todos contra mí sean?</l>
           </sp>
-          <stage>Salen riñendo GARCÉS y SOLDADOS, y deteniéndolos DON ÁLVARO; detrás ALCUZCUZ.</stage>
+          <stage>Salen riñendo GARCÉS y SOLDADOS, y deteniéndolos DON ÁLVARO; detrás
+            ALCUZCUZ.</stage>
           <sp who="#don-álvaro">
             <speaker>DON ÁLVARO</speaker>
             <l>Tantos a uno, soldados,</l>
@@ -6068,7 +6149,8 @@
         </div>
         <div type="scene" n="20">
           <stage>Escena XX</stage>
-          <stage>DON JUAN DE AUSTRIA, DON LOPE, y SOLDADOS.-DON ÁLVARO, DON JUAN DE MENDOZA, ALCUZCUZ; GARCÉS, muerto.</stage>
+          <stage>DON JUAN DE AUSTRIA, DON LOPE, y SOLDADOS.-DON ÁLVARO, DON JUAN DE MENDOZA,
+            ALCUZCUZ; GARCÉS, muerto.</stage>
           <sp who="#don-lope">
             <speaker>DON LOPE</speaker>
             <l part="F">¿Qué es aquesto?</l>
@@ -6136,7 +6218,8 @@
         </div>
         <div type="scene" resp="#rojas" n="21">
           <stage>Escena XXI</stage>
-          <stage>DOÑA ISABEL y SOLDADOS MORISCOS en el muro; después, DON ÁLVARO, DON JUAN DE AUSTRIA y SOLDADOS.</stage>
+          <stage>DOÑA ISABEL y SOLDADOS MORISCOS en el muro; después, DON ÁLVARO, DON JUAN DE
+            AUSTRIA y SOLDADOS.</stage>
           <sp who="#doña-isabel">
             <speaker>DOÑA ISABEL</speaker>
             <l>Haz con esa seña blanca</l>
@@ -6192,7 +6275,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Salen DON JUAN DE AUSTRIA y SOLDADOS, y por otro lado DOÑA ISABEL y MORISCOS.</stage>
+          <stage>Salen DON JUAN DE AUSTRIA y SOLDADOS, y por otro lado DOÑA ISABEL y
+            MORISCOS.</stage>
           <sp who="#doña-isabel">
             <speaker>DOÑA ISABEL</speaker>
             <l>Generoso don Juan de Austria,</l>

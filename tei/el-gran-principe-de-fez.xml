@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000087" xml:lang="es">
   <teiHeader>
@@ -27,7 +27,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-08">
@@ -39,7 +40,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, El gran príncipe de Fez. En: Comedias, Vol. 4. Dirección de Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, El gran príncipe de Fez. En: Comedias, Vol. 4.
+            Dirección de Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José
+            Antonio de Castro, 2010</title>
           <idno type="ISBN">978-84-96452-89-3</idno>
         </bibl>
       </sourceDesc>
@@ -52,6 +55,9 @@
             <trait source="castlist">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>El Rey</persName>
@@ -60,6 +66,9 @@
             </trait>
             <trait source="castlist">
               <desc>padre</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="muley" sex="MALE">
@@ -73,11 +82,17 @@
             <trait source="castlist">
               <desc>niño pequeño</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="zara" sex="FEMALE">
             <persName>Zara</persName>
             <trait source="castlist">
               <desc>esposa</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="cide" sex="MALE">
@@ -85,11 +100,17 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="abdalá" sex="MALE">
             <persName>Abdalá</persName>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="alcuzcuz" sex="MALE">
@@ -97,11 +118,17 @@
             <trait source="castlist">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="baltasar" sex="MALE">
             <persName>Don Baltasar Mandas</persName>
             <trait source="castlist">
               <desc>caballero</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="turín" sex="MALE">
@@ -109,11 +136,18 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="maestre" sex="MALE">
             <persName>Don Paulo Láscaris</persName>
+            <idno type="wikidata">Q952234</idno>
             <trait source="castlist">
               <desc>maestre</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="buen-genio" sex="MALE">
@@ -121,39 +155,89 @@
             <trait source="castlist">
               <desc>ángel</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="mal-genio" sex="MALE">
             <persName>El Mal Genio</persName>
+            <idno type="wikidata">Q6674</idno>
             <trait source="castlist">
               <desc>demonio</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="la-virgen" sex="FEMALE">
             <persName>La Virgen</persName>
+            <idno type="wikidata">Q345</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="religión" sex="FEMALE">
             <persName>La Religión</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="ignacio" sex="MALE">
             <persName>San Ignacio de Loyola</persName>
+            <idno type="wikidata">Q44281</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="morisco" sex="MALE">
             <persName>Un Morisco</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="abraham" sex="MALE">
             <persName>Abraham</persName>
+            <idno type="wikidata">Q9181</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="isaac" sex="MALE">
             <persName>Isaac</persName>
+            <idno type="wikidata">Q671872</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="ángel" sex="MALE">
             <persName>Un Ángel</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="caballero" sex="MALE">
             <persName>Un Caballero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="moro" sex="MALE">
             <persName>Un Moro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="voces">
             <persName>Voces</persName>
@@ -168,17 +252,20 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -225,7 +312,10 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro cajas y trompetas. Y abriéndose una tienda de campaña se verá en ella el Príncipe, vestido a lo moro, leyendo en un libro sobre un bufete en que habrá aderezo de escribir con luces y algunos instrumentos matemáticos, como son astrologías, globos y esferas; y a su lado, Cide Hamet, viejo.</stage>
+          <stage>Dentro cajas y trompetas. Y abriéndose una tienda de campaña se verá en ella el
+            Príncipe, vestido a lo moro, leyendo en un libro sobre un bufete en que habrá aderezo de
+            escribir con luces y algunos instrumentos matemáticos, como son astrologías, globos y
+            esferas; y a su lado, Cide Hamet, viejo.</stage>
           <sp who="#voces">
             <speaker rend="caps">Voces</speaker>
             <stage type="withText">dentro</stage>
@@ -435,7 +525,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Quédase dormido, y salen luchando el Buen Genio, con alusión, en su vestido, de ángel, y el Mal Genio en el suyo de demonio.</stage>
+          <stage>Quédase dormido, y salen luchando el Buen Genio, con alusión, en su vestido, de
+            ángel, y el Mal Genio en el suyo de demonio.</stage>
           <sp who="#buen-genio">
             <speaker rend="caps">Buen Genio</speaker>
 
@@ -682,7 +773,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Sale todo el acompañamiento que pueda y detrás Zara con espada, plumas y bengala, y Muley, niño, con bengala y espada.</stage>
+          <stage>Sale todo el acompañamiento que pueda y detrás Zara con espada, plumas y bengala, y
+            Muley, niño, con bengala y espada.</stage>
           <sp who="#príncipe">
             <speaker rend="caps">Príncipe</speaker>
 
@@ -902,7 +994,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Sale Cide Hamet, morabito viejo, con Alcuzcuz, vestido ridículamente de moro villano.</stage>
+          <stage>Sale Cide Hamet, morabito viejo, con Alcuzcuz, vestido ridículamente de moro
+            villano.</stage>
           <sp who="#cide">
             <speaker rend="caps">Cide</speaker>
 
@@ -1264,7 +1357,8 @@
 
             <l>Así.</l>
           </sp>
-          <stage>Disparan dentro, y dice en lo alto el Príncipe los primeros versos; viene cayendo en los últimos, como despeñado.</stage>
+          <stage>Disparan dentro, y dice en lo alto el Príncipe los primeros versos; viene cayendo
+            en los últimos, como despeñado.</stage>
           <sp who="#príncipe">
             <speaker rend="caps">Príncipe</speaker>
 
@@ -1593,7 +1687,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Sale don Baltasar Mandas con la gran cruz de San Juan, bastón y banda, y Turín, soldado.</stage>
+          <stage>Sale don Baltasar Mandas con la gran cruz de San Juan, bastón y banda, y Turín,
+            soldado.</stage>
           <sp who="#baltasar">
             <speaker rend="caps">Baltasar</speaker>
 
@@ -1751,7 +1846,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Sale don Paulo Láscaris con la gran cruz y acompañamiento de caballeros y soldados.</stage>
+          <stage>Sale don Paulo Láscaris con la gran cruz y acompañamiento de caballeros y
+            soldados.</stage>
           <sp who="#maestre">
             <speaker rend="caps">Maestre</speaker>
 
@@ -1896,7 +1992,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>En una parte música y en otra cajas y trompetas; y salen luego el Rey, el Príncipe, Muley y Zara, Abdalá y otros.</stage>
+          <stage>En una parte música y en otra cajas y trompetas; y salen luego el Rey, el Príncipe,
+            Muley y Zara, Abdalá y otros.</stage>
           <sp who="#unos">
             <speaker rend="caps">Unos</speaker>
 
@@ -2745,7 +2842,9 @@
       <div type="act" n="2">
         <head rend="caps">Jornada Segunda</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro salva de piezas y chirimías y, en habiéndose dicho los primeros versos, salen por una parte el Maestre con acompañamiento y por otra don Baltasar, Turín y soldados y con ellos el Príncipe, Cide Hamet, Alcuzcuz y otros moros cautivos.</stage>
+          <stage>Dentro salva de piezas y chirimías y, en habiéndose dicho los primeros versos,
+            salen por una parte el Maestre con acompañamiento y por otra don Baltasar, Turín y
+            soldados y con ellos el Príncipe, Cide Hamet, Alcuzcuz y otros moros cautivos.</stage>
           <sp who="#unos">
             <speaker rend="caps">Unos</speaker>
             <stage type="withText">dentro</stage>
@@ -4373,7 +4472,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>A la esquina del tablado ha de haber un bufete con libros, y por detrás sale el Buen Genio y señala uno.</stage>
+          <stage>A la esquina del tablado ha de haber un bufete con libros, y por detrás sale el
+            Buen Genio y señala uno.</stage>
           <sp who="#buen-genio">
             <speaker rend="caps">Buen Genio</speaker>
 
@@ -4491,7 +4591,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>Sale san Ignacio vestido de peregrino y un moro de morisco, como andaban en España. Y paseándose los dos por detrás de la silla, como que van de camino, representan sus versos y al mismo tiempo los lee el Príncipe con esta diferencia, que ellos los han de decir en voz alta y él en voz baja, como que los lee para sí.</stage>
+          <stage>Sale san Ignacio vestido de peregrino y un moro de morisco, como andaban en España.
+            Y paseándose los dos por detrás de la silla, como que van de camino, representan sus
+            versos y al mismo tiempo los lee el Príncipe con esta diferencia, que ellos los han de
+            decir en voz alta y él en voz baja, como que los lee para sí.</stage>
           <sp who="#príncipe #morisco">
             <speaker rend="caps">Príncipe Y Morisco</speaker>
 
@@ -4793,7 +4896,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Sale el Mal Genio. Por detrás le muda las hojas del libro al contrario siempre de lo que él las abre.</stage>
+          <stage>Sale el Mal Genio. Por detrás le muda las hojas del libro al contrario siempre de
+            lo que él las abre.</stage>
           <sp who="#mal-genio">
             <speaker rend="caps">Mal Genio</speaker>
 
@@ -5062,7 +5166,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Dentro cuchilladas y salen riñendo Turín y otros soldados, y unos y otros tirando de Alcuzcuz. El Príncipe entra por una puerta y sale por otra.</stage>
+          <stage>Dentro cuchilladas y salen riñendo Turín y otros soldados, y unos y otros tirando
+            de Alcuzcuz. El Príncipe entra por una puerta y sale por otra.</stage>
           <sp who="#turín">
             <speaker rend="caps">Turín</speaker>
 
@@ -5642,7 +5747,8 @@
             <l>que les ampare y asista</l>
             <l>cuando dicen:</l>
           </sp>
-          <stage>El terremoto, y con esta faena se descubre el bajel en que vendrán el Príncipe, Cide, Alcuzcuz y otros de marineros.</stage>
+          <stage>El terremoto, y con esta faena se descubre el bajel en que vendrán el Príncipe,
+            Cide, Alcuzcuz y otros de marineros.</stage>
           <sp who="#alcuzcuz #buen-genio #cide #la-virgen #mal-genio #príncipe">
             <speaker rend="caps">Todos</speaker>
 
@@ -5763,7 +5869,8 @@
             <l>su piedad que no la halle</l>
             <l>piadosamente benigna).</l>
           </sp>
-          <stage>Ábrese una nube sobre el bajel y vese una niña vestida de Concepción en ella sobre un dragón.</stage>
+          <stage>Ábrese una nube sobre el bajel y vese una niña vestida de Concepción en ella sobre
+            un dragón.</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -5892,7 +5999,8 @@
       <div type="act" n="3">
         <head rend="caps">Jornada Tercera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro atabalillos y chirimías, y mientras se canta la primera copla, salen Cide Hamet y Alcuzcuz.</stage>
+          <stage>Dentro atabalillos y chirimías, y mientras se canta la primera copla, salen Cide
+            Hamet y Alcuzcuz.</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -6098,7 +6206,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Vase Cide Hamet, y con esta repetición sale la música delante; luego caballeros con la gran cruz de San Juan: uno, con una fuente, y en ella un salero; otro, una vela; otro, un velillo de plata; otro, un mazapán, y detrás el Príncipe, vestido a la española, en medio del Maestre y don Baltasar. El Buen Genio delante de él, con un hacha encendida, y el Mal Genio detrás de todos como mirando a lo largo.</stage>
+          <stage>Vase Cide Hamet, y con esta repetición sale la música delante; luego caballeros con
+            la gran cruz de San Juan: uno, con una fuente, y en ella un salero; otro, una vela;
+            otro, un velillo de plata; otro, un mazapán, y detrás el Príncipe, vestido a la
+            española, en medio del Maestre y don Baltasar. El Buen Genio delante de él, con un hacha
+            encendida, y el Mal Genio detrás de todos como mirando a lo largo.</stage>
           <sp who="#maestre">
             <speaker rend="caps">Maestre</speaker>
 
@@ -6345,7 +6457,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Vase, y salen por una puerta Zara y por otra Abdalá, representando cada uno aparte, sin verse hasta después.</stage>
+          <stage>Vase, y salen por una puerta Zara y por otra Abdalá, representando cada uno aparte,
+            sin verse hasta después.</stage>
           <sp who="#zara #abdalá">
             <speaker rend="caps">Los Dos</speaker>
 
@@ -6746,7 +6859,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Sácale la espada. Abdalá se pone en medio y dicen todos dentro las voces y sale Muley y algunos.</stage>
+          <stage>Sácale la espada. Abdalá se pone en medio y dicen todos dentro las voces y sale
+            Muley y algunos.</stage>
           <sp who="#abdalá">
             <speaker rend="caps">Abdalá</speaker>
 
@@ -6873,7 +6987,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Sale Turín ridículamente vestido de soldado pobre con un brazo en una horquilla y una muleta en la otra mano.</stage>
+          <stage>Sale Turín ridículamente vestido de soldado pobre con un brazo en una horquilla y
+            una muleta en la otra mano.</stage>
           <sp who="#turín">
             <speaker rend="caps">Turín</speaker>
 
@@ -7046,7 +7161,8 @@
             <l>hablar yo, la leeré antes,</l>
             <l>pues trae en falso la nema.</l>
           </sp>
-          <stage>Pasa leyendo la carta, llega Turín y, sin reparar en él, le va mandando a Alcuzcuz que le dé limosna.</stage>
+          <stage>Pasa leyendo la carta, llega Turín y, sin reparar en él, le va mandando a Alcuzcuz
+            que le dé limosna.</stage>
           <sp who="#turín">
             <speaker rend="caps">Turín</speaker>
 
@@ -7897,7 +8013,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Descúbrese un trono con gradas y dosel y en lo alto una estatua del Príncipe, lo más parecida que pueda, con los mismos vestidos de moro que sacó primero y con bastón de general, corona y cetro; al pie del trono Zara, Muley y Abdalá y acompañamiento.</stage>
+          <stage>Descúbrese un trono con gradas y dosel y en lo alto una estatua del Príncipe, lo
+            más parecida que pueda, con los mismos vestidos de moro que sacó primero y con bastón de
+            general, corona y cetro; al pie del trono Zara, Muley y Abdalá y acompañamiento.</stage>
           <sp who="#príncipe">
             <speaker rend="caps">Príncipe</speaker>
             <stage type="withText">Entre sueños.</stage>
@@ -8101,7 +8219,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="20">
-          <stage>Quédase el Príncipe suspenso y salen Cide Hamet y Turín deteniendo a Alcuzcuz, que traerá en la mano las flores que dicen después los versos.</stage>
+          <stage>Quédase el Príncipe suspenso y salen Cide Hamet y Turín deteniendo a Alcuzcuz, que
+            traerá en la mano las flores que dicen después los versos.</stage>
           <sp who="#alcuzcuz">
             <speaker rend="caps">Alcuzcuz</speaker>
 
@@ -8689,7 +8808,10 @@
             <l>Ya contigo</l>
             <l>rompo la esfera del viento.</l>
           </sp>
-          <stage>Suben los dos juntos en dos elevaciones de dos canales y, en estando arriba, se apartan en dos bofetones y se ve un monte. Después, cuando lo dicen los versos, se abre el monte y se ve en él a Abraham y Isaac en el sacrificio y a su tiempo baja el Ángel.</stage>
+          <stage>Suben los dos juntos en dos elevaciones de dos canales y, en estando arriba, se
+            apartan en dos bofetones y se ve un monte. Después, cuando lo dicen los versos, se abre
+            el monte y se ve en él a Abraham y Isaac en el sacrificio y a su tiempo baja el
+            Ángel.</stage>
           <sp who="#buen-genio">
             <speaker rend="caps">Buen Genio</speaker>
 
@@ -8820,7 +8942,8 @@
             <l>¿A qué más han de llegar</l>
             <l>el día que a esto llegan?</l>
           </sp>
-          <stage>Vuelve el sacrificio y vese en el respaldo de él la Religión, con corona y cetro imperial.</stage>
+          <stage>Vuelve el sacrificio y vese en el respaldo de él la Religión, con corona y cetro
+            imperial.</stage>
           <sp who="#religión">
             <speaker rend="caps">Religión</speaker>
 

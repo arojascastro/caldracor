@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000089" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-08">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, El José de las mujeres. En: Comedias, Vol. 6. Dirección de Luis Iglesias Feijoo y José María Viña Liste. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, El José de las mujeres. En: Comedias, Vol. 6. Dirección
+            de Luis Iglesias Feijoo y José María Viña Liste. Madrid : Fundación José Antonio de
+            Castro, 2010</title>
           <idno type="ISBN">978-84-96452-96-1</idno>
         </bibl>
       </sourceDesc>
@@ -54,11 +57,17 @@
             <trait source="rolecall">
               <desc>travestido</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="filipo" sex="MALE">
             <persName>Filipo</persName>
             <trait source="castlist">
               <desc>padre</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="sergio" sex="MALE">
@@ -66,11 +75,17 @@
             <trait source="castlist">
               <desc>hermano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="julia" sex="FEMALE">
             <persName>Julia</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="capricho" sex="MALE">
@@ -78,20 +93,33 @@
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="eleno" sex="MALE">
             <persName>Eleno</persName>
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="demonio" sex="MALE">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="aurelio" sex="MALE">
             <persName>Aurelio</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="cesarino" sex="MALE">
@@ -99,11 +127,17 @@
             <trait source="castlist">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="melancia" sex="FEMALE">
             <persName>Melancia</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
@@ -111,18 +145,30 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="músicos">
             <persName>Músicos</persName>
           </personGrp>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="gente" sex="MALE">
             <persName>Gente</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -131,17 +177,20 @@
           <term source="dracor" type="genreTitle">comedia famosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -153,7 +202,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000089" passive="http://www.wikidata.org/entity/Q5399636"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000089"
+        passive="http://www.wikidata.org/entity/Q5399636"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -186,7 +236,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Corre una cortina y descúbrese Eugenia escribiendo en un bufete en que habrá escribanía, luces y libros.</stage>
+          <stage>Corre una cortina y descúbrese Eugenia escribiendo en un bufete en que habrá
+            escribanía, luces y libros.</stage>
           <sp who="#eugenia">
             <speaker rend="caps">Eugenia</speaker>
 
@@ -269,7 +320,10 @@
             <l>pueda mi ingenio atreverse</l>
             <l>a hallarle la solución,</l>
             <l>no la he de fiar de mí.</l>
-            <stage>Arroja la pluma y bajan de lo más alto dos sillas que tomen las dos cabeceras del bufete; en la una vendrá el Demonio, vestido de estrellas, y en la otra Eleno, viejo venerable, vestido de carmelito descalzo. Ella quiere huir y ellos la detienen.</stage>
+            <stage>Arroja la pluma y bajan de lo más alto dos sillas que tomen las dos cabeceras del
+              bufete; en la una vendrá el Demonio, vestido de estrellas, y en la otra Eleno, viejo
+              venerable, vestido de carmelito descalzo. Ella quiere huir y ellos la
+              detienen.</stage>
             <l>¿A quién, pues, de mi temor</l>
             <l>podré consultar la duda?</l>
             <l>¿Quién de tanta confusión,</l>
@@ -602,7 +656,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Desaparecen los dos. Ella se levanta arrojando el bufete, y salen Filipo y Sergio, Julia y Capricho, y otros con hachas.</stage>
+          <stage>Desaparecen los dos. Ella se levanta arrojando el bufete, y salen Filipo y Sergio,
+            Julia y Capricho, y otros con hachas.</stage>
           <sp who="#eugenia">
             <speaker rend="caps">Eugenia</speaker>
             <stage type="withText">dentro</stage>
@@ -886,7 +941,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Al irle a quemar, vuela de la una mano el libro y de la otra el hacha, y al mismo tiempo suenan cajas y sale Aurelio con bastón.</stage>
+          <stage>Al irle a quemar, vuela de la una mano el libro y de la otra el hacha, y al mismo
+            tiempo suenan cajas y sale Aurelio con bastón.</stage>
           <sp who="#sergio">
             <speaker rend="caps">Sergio</speaker>
 
@@ -1745,7 +1801,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Sale la música cantando y el acompañamiento que pudiere de hombres y mujeres. Luego Aurelio, Sergio, Melancia y Flora; detrás Cesarino y Eugenia, a quien todos van dando unos papeles; mientras canta la música, se van sentando y Eugenia en medio.</stage>
+          <stage>Sale la música cantando y el acompañamiento que pudiere de hombres y mujeres. Luego
+            Aurelio, Sergio, Melancia y Flora; detrás Cesarino y Eugenia, a quien todos van dando
+            unos papeles; mientras canta la música, se van sentando y Eugenia en medio.</stage>
           <sp who="#músicos">
             <speaker rend="caps">Músicos</speaker>
 
@@ -1791,7 +1849,8 @@
             <l>le mandó a su amante hacer</l>
             <l>una fineza...</l>
           </sp>
-          <stage>Levántase Sergio, toma el papel haciendo reverencias, vuelve a sentarse y lee, y todos hacen lo mismo.</stage>
+          <stage>Levántase Sergio, toma el papel haciendo reverencias, vuelve a sentarse y lee, y
+            todos hacen lo mismo.</stage>
           <sp who="#sergio">
             <speaker rend="caps">Sergio</speaker>
 
@@ -2279,7 +2338,8 @@
             <l>Para eso</l>
             <l>no es buen puesto el de un jardín.</l>
           </sp>
-          <stage>Levántanse todos empuñando las espadas, alborotándose. La música canta y al mismo tiempo representan.</stage>
+          <stage>Levántanse todos empuñando las espadas, alborotándose. La música canta y al mismo
+            tiempo representan.</stage>
           <sp who="#sergio">
             <speaker rend="caps">Sergio</speaker>
 
@@ -2583,7 +2643,8 @@
             <l>y libros, sombras encuentro.</l>
             <l>Aquí quedaron, y aquí</l>
             <l>aun señas no hay. Mas, ¡ay, cielos!,</l>
-            <stage>Llega al bufete, que ha de estar desocupado, y dando vuelta se ven en él libros, papeles, escribanía y luces como primero.</stage>
+            <stage>Llega al bufete, que ha de estar desocupado, y dando vuelta se ven en él libros,
+              papeles, escribanía y luces como primero.</stage>
             <l>del modo que los dejé,</l>
             <l>otra vez a hallarlos vuelvo.</l>
             <l>Pues ¿qué aguardo? Aprovechar</l>
@@ -2593,7 +2654,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Siéntase a escribir, y sale por una parte Julia y Cesarino, y por otra Capricho y Aurelio.</stage>
+          <stage>Siéntase a escribir, y sale por una parte Julia y Cesarino, y por otra Capricho y
+            Aurelio.</stage>
           <sp who="#julia">
             <speaker rend="caps">Julia</speaker>
             <stage type="withText">A Cesarino</stage>
@@ -2789,7 +2851,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Sacan las espadas y cae Aurelio muerto a la parte del tablado que pueda abrirse un escotillón a sus espaldas, y Eugenia cae desmayada al otro lado. Descúbrese el Demonio en lo alto, donde caerá de rápido a esconderse por el escotillón.</stage>
+          <stage>Sacan las espadas y cae Aurelio muerto a la parte del tablado que pueda abrirse un
+            escotillón a sus espaldas, y Eugenia cae desmayada al otro lado. Descúbrese el Demonio
+            en lo alto, donde caerá de rápido a esconderse por el escotillón.</stage>
           <sp who="#eugenia">
             <speaker rend="caps">Eugenia</speaker>
 
@@ -2826,7 +2890,8 @@
             <l>alma, vida, ser y aliento?</l>
             <stage>Desmáyase.</stage>
           </sp>
-          <stage>Desciende rápido el Demonio. Levántase Aurelio asombrado, al mismo tiempo que cae el Demonio.</stage>
+          <stage>Desciende rápido el Demonio. Levántase Aurelio asombrado, al mismo tiempo que cae
+            el Demonio.</stage>
           <sp who="#demonio">
             <speaker rend="caps">Demonio</speaker>
 
@@ -3219,7 +3284,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Vuélvese el teatro, que ha de haber sido de tafetanes, y queda todo de hierba, con una gruta en medio. Sale Eugenia vestida de hombre.</stage>
+          <stage>Vuélvese el teatro, que ha de haber sido de tafetanes, y queda todo de hierba, con
+            una gruta en medio. Sale Eugenia vestida de hombre.</stage>
           <sp who="#eugenia">
             <speaker rend="caps">Eugenia</speaker>
 
@@ -3832,7 +3898,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Dentro Sergio a una parte y Filipo a otra, y salen luego Filipo al lado de Cesarino y Sergio al de Aurelio, hallándose afirmados padre y hijo.</stage>
+          <stage>Dentro Sergio a una parte y Filipo a otra, y salen luego Filipo al lado de Cesarino
+            y Sergio al de Aurelio, hallándose afirmados padre y hijo.</stage>
           <sp who="#sergio">
             <speaker rend="caps">Sergio</speaker>
 
@@ -3945,7 +4012,8 @@
             <l>nuestra lid y defendamos</l>
             <l>las vidas.</l>
           </sp>
-          <stage>Quiérese poner al lado de Cesarino y él se aparta, de suerte que Aurelio quede solo.</stage>
+          <stage>Quiérese poner al lado de Cesarino y él se aparta, de suerte que Aurelio quede
+            solo.</stage>
           <sp who="#cesarino">
             <speaker rend="caps">Cesarino</speaker>
 
@@ -4108,7 +4176,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Sube a una peña y déjase caer dentro del teatro. Huye, y todos tras él entrando por una puerta y saliendo por otra. Suena toda la música y suspéndense todos en la acción que se hallan.</stage>
+          <stage>Sube a una peña y déjase caer dentro del teatro. Huye, y todos tras él entrando por
+            una puerta y saliendo por otra. Suena toda la música y suspéndense todos en la acción
+            que se hallan.</stage>
           <sp who="#filipo">
             <speaker rend="caps">Filipo</speaker>
 
@@ -4168,7 +4238,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Suenan las chirimías y, después de haber habido algunas llamas, descúbrese un peñasco con un cocodrilo y en él el ídolo, que le puede hacer el que hizo al Demonio.</stage>
+          <stage>Suenan las chirimías y, después de haber habido algunas llamas, descúbrese un
+            peñasco con un cocodrilo y en él el ídolo, que le puede hacer el que hizo al
+            Demonio.</stage>
           <sp who="#sergio">
             <speaker rend="caps">Sergio</speaker>
 
@@ -7145,7 +7217,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Suenan chirimías y descúbrese un trono, y debajo del dosel un retrato de Eugenia. Salen Cesarino, Filipo, Sergio y toda la música.</stage>
+          <stage>Suenan chirimías y descúbrese un trono, y debajo del dosel un retrato de Eugenia.
+            Salen Cesarino, Filipo, Sergio y toda la música.</stage>
           <sp who="#filipo">
             <speaker rend="caps">Filipo</speaker>
 
@@ -7534,7 +7607,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Vase, y con ella Eleno. Caen rayos y truenos y húndese el trono con dosel y retrato.</stage>
+          <stage>Vase, y con ella Eleno. Caen rayos y truenos y húndese el trono con dosel y
+            retrato.</stage>
           <sp who="#melancia">
             <speaker rend="caps">Melancia</speaker>
 
@@ -8023,7 +8097,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Descúbrese en un trono de nubes Eugenia con ángeles, y va subiendo arriba, y salen todos.</stage>
+          <stage>Descúbrese en un trono de nubes Eugenia con ángeles, y va subiendo arriba, y salen
+            todos.</stage>
           <sp who="#músicos">
             <speaker rend="caps">Músicos</speaker>
 

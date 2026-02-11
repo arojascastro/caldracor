@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000044" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Loa en metáfora de la piadosa Hermandad del Refugio discurriendo por calles y templos de Madrid</title>
+        <title>Loa en metáfora de la piadosa Hermandad del Refugio discurriendo por calles y templos
+          de Madrid</title>
         <title type="sub">Pedro Calderón de la Barca</title>
         <author>
           <persName>
@@ -22,12 +23,14 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-16">
           <time when="08:17:10"/>
         </date>
-        <idno type="quadramaX">Loa en metáfora de la piadosa Hermandad del Refugio discurriendo por calles y templos de Madrid</idno>
+        <idno type="quadramaX">Loa en metáfora de la piadosa Hermandad del Refugio discurriendo por
+          calles y templos de Madrid</idno>
         <availability>
           <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
@@ -35,9 +38,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-en-metafora-de-la-piadosa-hermandad-del-refugio--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/loa-en-metafora-de-la-piadosa-hermandad-del-refugio--0/html/</idno>
           <bibl type="originalSource">
-            <title>Calderón de la Barca, Pedro, Loa en metáfora de la piadosa Hermandad del Refugio, ed. Ignacio Arellano, Blanca Oteiza y Mª Carmen Pinillos, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1998. ISBN: 3-931887-50-2.</title>
+            <title>Calderón de la Barca, Pedro, Loa en metáfora de la piadosa Hermandad del Refugio,
+              ed. Ignacio Arellano, Blanca Oteiza y Mª Carmen Pinillos, Pamplona–Kassel, Universidad
+              de Navarra–Reichenberger, 1998. ISBN: 3-931887-50-2.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,27 +53,60 @@
         <listPerson>
           <person xml:id="caridad" sex="FEMALE">
             <persName>La Caridad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="fee" sex="FEMALE">
             <persName>La Fee</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="esperanza" sex="FEMALE">
             <persName>La Esperanza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>La Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="uno" sex="MALE">
             <persName>El Uno</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="segundo" sex="MALE">
             <persName>El Segundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tercero" sex="MALE">
             <persName>El Tercero</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cuarto" sex="MALE">
             <persName>El Cuarto</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -81,12 +120,14 @@
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -102,7 +143,8 @@
     <front>
       <docAuthor>Pedro Calderón de la Barca</docAuthor>
       <docTitle>
-        <titlePart type="main">Loa en metáfora de la piadosa Hermandad del Refugio discurriendo por calles y templos de Madrid</titlePart>
+        <titlePart type="main">Loa en metáfora de la piadosa Hermandad del Refugio discurriendo por
+          calles y templos de Madrid</titlePart>
       </docTitle>
       <castList>
         <head>Personas</head>
@@ -119,7 +161,9 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen los MÚSICOS y mientras se canta la primera copla van saliendo los más que puedan con memoriales, detrás la CARIDAD en medio de la FEE y la ESPERANZA y como los va recibiendo los va remitiendo uno a una y otro a otra.</stage>
+          <stage>Salen los MÚSICOS y mientras se canta la primera copla van saliendo los más que
+            puedan con memoriales, detrás la CARIDAD en medio de la FEE y la ESPERANZA y como los va
+            recibiendo los va remitiendo uno a una y otro a otra.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l> Venid, mortales, venid, </l>

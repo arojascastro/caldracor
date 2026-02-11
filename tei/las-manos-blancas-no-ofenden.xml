@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000127" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-26">
@@ -39,7 +40,9 @@
       <sourceDesc>
         <bibl type="URL">http://www.comedias.org/calderon/manbla.html</bibl>
         <bibl type="originalSource">
-          <title>Texto basado en la edición de Juan Jorge Keil en su COMEDIAS DE D. PEDRO CALDERON (Leipzig, 1830). Fue editado en forma electrónica en 1997 por David Hildner y luego pasado al HTML para presentación en esta colección por Vern G. Williamsen.</title>
+          <title>Texto basado en la edición de Juan Jorge Keil en su COMEDIAS DE D. PEDRO CALDERON
+            (Leipzig, 1830). Fue editado en forma electrónica en 1997 por David Hildner y luego
+            pasado al HTML para presentación en esta colección por Vern G. Williamsen.</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -51,6 +54,9 @@
             <trait source="castlist">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="césar" sex="MALE">
             <persName>César</persName>
@@ -60,11 +66,17 @@
             <trait source="rolecall">
               <desc>travestido</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="federico" sex="MALE">
             <persName>Federico</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
@@ -72,11 +84,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="teodoro" sex="MALE">
             <persName>Teodoro</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="patacón" sex="MALE">
@@ -84,11 +102,17 @@
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lidoro" sex="MALE">
             <persName>Lidoro</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lisarda" sex="FEMALE">
@@ -96,11 +120,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="serafina" sex="FEMALE">
             <persName>Serafina</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
@@ -108,11 +138,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nise" sex="FEMALE">
             <persName>Nise</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
@@ -120,17 +156,26 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="enrique" sex="MALE">
             <persName>Enrique</persName>
             <trait source="#calderondigital">
               <desc>noble</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="músicos">
@@ -143,17 +188,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -2864,7 +2912,8 @@
 
             <l>y ambos llegan a tus pies.</l>
           </sp>
-          <stage>Saca FEDERICO a LISARDA en los brazos, vestida de hombre, y CARLOS a CÉSAR, vestido de mujer</stage>
+          <stage>Saca FEDERICO a LISARDA en los brazos, vestida de hombre, y CARLOS a CÉSAR, vestido
+            de mujer</stage>
           <sp who="#federico">
             <speaker rend="caps">Federico</speaker>
 
@@ -3973,7 +4022,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Toma CÉSAR el instrumento. Salen FEDERICO, escuchando lo que se canta, y PATACÓN. Canta</stage>
+          <stage>Toma CÉSAR el instrumento. Salen FEDERICO, escuchando lo que se canta, y PATACÓN.
+            Canta</stage>
           <sp who="#césar">
             <speaker rend="caps">César</speaker>
 
@@ -7797,7 +7847,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Vase FABIO. Salen LISARDA y NISE [de hombres pero con otros vestidos que antes] y con mascarillas</stage>
+          <stage>Vase FABIO. Salen LISARDA y NISE [de hombres pero con otros vestidos que antes] y
+            con mascarillas</stage>
           <sp who="#nise">
             <speaker rend="caps">Nise</speaker>
 
@@ -7872,7 +7923,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Retíranse las dos.Salen CARLOS, SERAFINA, FEDERICO y LIDORO, y las damas, FABIO, TEODORO y PATACÓN</stage>
+          <stage>Retíranse las dos.Salen CARLOS, SERAFINA, FEDERICO y LIDORO, y las damas, FABIO,
+            TEODORO y PATACÓN</stage>
           <sp who="#carlos">
             <speaker rend="caps">Carlos</speaker>
 
@@ -8030,7 +8082,8 @@
             <l>que el que merece gozar</l>
             <l>la joya, alzará la caja.</l>
           </sp>
-          <stage>Al ir a levantar FEDERICO el guante, le detiene LISARDA, y CARLOS le toma y le da a SERAFINA</stage>
+          <stage>Al ir a levantar FEDERICO el guante, le detiene LISARDA, y CARLOS le toma y le da a
+            SERAFINA</stage>
           <sp who="#federico">
             <speaker rend="caps">Federico</speaker>
 
@@ -10030,7 +10083,8 @@
             <l>saber tu disfraz me tiene</l>
             <l>de quién es, yo he de acabarle.</l>
           </sp>
-          <sp who="#carlos #césar #enrique #federico #laura #lisarda #nise #patacón #serafina #teodoro">
+          <sp
+            who="#carlos #césar #enrique #federico #laura #lisarda #nise #patacón #serafina #teodoro">
             <speaker rend="caps">Todos</speaker>
 
 

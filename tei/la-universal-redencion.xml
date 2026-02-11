@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000189" xml:lang="es">
   <teiHeader>
@@ -37,7 +37,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/18217</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de M. Roig, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2009. ISBN: 978-3-937734-55-2.</title>
+            <title>Edición digital a partir de la edición de M. Roig, Pamplona–Kassel, Universidad
+              de Navarra–Reichenberger, 2009. ISBN: 978-3-937734-55-2.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,51 +48,97 @@
         <listPerson>
           <person sex="FEMALE" xml:id="justicia">
             <persName>Justicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="misericordia">
             <persName>Misericordia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="verdad">
             <persName>Verdad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="paz">
             <persName>Paz</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hombre">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="verbo">
             <persName>Verbo</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="amor">
             <persName>Amor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="miseria">
             <persName>Miseria</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="envidia">
             <persName>Envidia</persName>
             <trait source="castlist">
               <desc>preso</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="mundo">
             <persName>Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gula">
             <persName>Gula</persName>
             <trait source="castlist">
               <desc>preso</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Dentro</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="genero-humano">
             <persName>Género Humano</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="duda">
             <persName>Duda</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -100,17 +147,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -991,7 +1041,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Tocan, y entran por una parte la Verdad, con bandera colorada o tarjeta, y la Justicia, con bastón, y detrás el Verbo; por la otra parte la Paz, con tarjeta blanca, y la Misericordia, con bastón, y detrás el Amor Divino, y toman unos el un lado y el otro los otros.</stage>
+          <stage>Tocan, y entran por una parte la Verdad, con bandera colorada o tarjeta, y la
+            Justicia, con bastón, y detrás el Verbo; por la otra parte la Paz, con tarjeta blanca, y
+            la Misericordia, con bastón, y detrás el Amor Divino, y toman unos el un lado y el otro
+            los otros.</stage>
           <sp who="#verbo">
             <speaker>VERBO</speaker>
             <l>Amor, di: ¿cómo te atreves</l>
@@ -1756,7 +1809,11 @@
           <stage>Lee</stage>
           <sp who="#genero-humano">
             <speaker>GÉNERO HUMANO</speaker>
-            <p>«Nos, el Padre Eterno, y su divina Justicia, atento la culpa del Hombre, y que por ser tan grande no se halla en la naturaleza angélica ni humana quien pueda satisfacer, por ser criatura, la ofensa hecha al Criador, y que el Verbo, de su Amor obligado, salió a la fianza y paga: hallamos de condenar y condenamos a que muera afrentosamente. Notifícasele en vista y revista, sin embargo de apelación.» </p>
+            <p>«Nos, el Padre Eterno, y su divina Justicia, atento la culpa del Hombre, y que por
+              ser tan grande no se halla en la naturaleza angélica ni humana quien pueda satisfacer,
+              por ser criatura, la ofensa hecha al Criador, y que el Verbo, de su Amor obligado,
+              salió a la fianza y paga: hallamos de condenar y condenamos a que muera
+              afrentosamente. Notifícasele en vista y revista, sin embargo de apelación.» </p>
           </sp>
           <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
@@ -2032,7 +2089,8 @@
             <l n="975" part="F">Ya mi oliva</l>
             <l>levanta su rama al Cielo.</l>
           </sp>
-          <stage>Tocan chirimías y aparece en lo alto un altar con la insignia del Santísimo Sacramento, y el Verbo de gloria.</stage>
+          <stage>Tocan chirimías y aparece en lo alto un altar con la insignia del Santísimo
+            Sacramento, y el Verbo de gloria.</stage>
           <sp who="#verbo">
             <speaker>VERBO</speaker>
             <l>Hombre, llégate a comer,</l>

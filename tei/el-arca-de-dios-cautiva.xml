@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000155" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Catalina Buezo, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2002. ISBN: 3-935004-39-7.</title>
+            <title>Edición digital a partir de la edición de Catalina Buezo, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 2002. ISBN: 3-935004-39-7.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,11 +49,21 @@
         <listPerson>
           <person sex="FEMALE" xml:id="idolatria">
             <persName>Idolatría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="goliat">
             <persName>Goliat</persName>
+            <idno type="wikidata">Q192785</idno>
             <trait source="castlist">
               <desc>filisteo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
@@ -63,21 +74,54 @@
           </personGrp>
           <person sex="MALE" xml:id="finees">
             <persName>Fineés</persName>
+            <idno type="wikidata">Q128063</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="iran">
             <persName>Irán</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="abiud">
             <persName>Abiud</persName>
+            <idno type="wikidata">Q321170</idno>
             <trait source="castlist">
               <desc>hebreo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="turpin">
             <persName>Turpín</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="ofni">
             <persName>Ofní</persName>
+            <idno type="wikidata">Q1563312</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
@@ -87,12 +131,26 @@
           </personGrp>
           <person sex="MALE" xml:id="samuel">
             <persName>Samuel</persName>
+            <idno type="wikidata">Q6577515</idno>
             <trait source="castlist">
               <desc>sacerdote</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="miguel">
             <persName>Miguel</persName>
+            <idno type="wikidata">Q45581</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado">
             <persName>Soldado</persName>
@@ -102,9 +160,21 @@
             <trait source="castlist">
               <desc>filisteos</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado-1">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="unos">
             <persName>Unos</persName>
@@ -114,36 +184,96 @@
           </personGrp>
           <person sex="MALE" xml:id="uno">
             <persName>Uno</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="segador-1">
             <persName>Segador 1</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="segador-2">
             <persName>Segador 2</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="segador-3">
             <persName>Segador 3</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="segador-4">
             <persName>Segador 4</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="segador-5">
             <persName>Segador 5</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel">
             <persName>Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sinagoga">
             <persName>Sinagoga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="iglesia">
             <persName>Iglesia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino-1">
             <persName>Niño 1</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino-2">
             <persName>Niño 2</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -152,17 +282,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -201,7 +334,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Tocan cajas y trompetas y sale la Idolatría con corona de laurel, espada, plumas y bengala</stage>
+          <stage>Tocan cajas y trompetas y sale la Idolatría con corona de laurel, espada, plumas y
+            bengala</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l>Desusado portento,</l>
@@ -696,7 +830,10 @@
             <speaker>CORO 1</speaker>
             <l>¿Quién ha de ser contra nos</l>
             <l n="375">si está con nosotros Dios?</l>
-            <stage>Con esta repetición, en que han de sonar juntos los coros, las voces, cajas y trompetas, se van los dos, y salen cantando y bailando Irán, Abiud, Turpín y otros, y luego Ofní y Fineés, a cuyo tiempo se verá en lo bajo de un carro sobre una peña el arca, en la mejor forma que se pueda imitar según los versos Ofní</stage>
+            <stage>Con esta repetición, en que han de sonar juntos los coros, las voces, cajas y
+              trompetas, se van los dos, y salen cantando y bailando Irán, Abiud, Turpín y otros, y
+              luego Ofní y Fineés, a cuyo tiempo se verá en lo bajo de un carro sobre una peña el
+              arca, en la mejor forma que se pueda imitar según los versos Ofní</stage>
             <l>Amado pueblo del grande</l>
             <l>Adonaí, ya la sacra</l>
             <l>arca, que por tantos días</l>
@@ -796,7 +933,8 @@
             <stage>Cajas y trompetas</stage>
             <l>¿quién ha de ser contra nos?</l>
           </sp>
-          <sp who="#idolatria #coro-2 #iran #abiud #ofni #finees #coro-1 #musicos #acompanamiento #turpin">
+          <sp
+            who="#idolatria #coro-2 #iran #abiud #ofni #finees #coro-1 #musicos #acompanamiento #turpin">
             <speaker>TODOS</speaker>
             <l>¿Qué nuevo rumor es este?</l>
           </sp>
@@ -989,7 +1127,8 @@
             <stage>Dentro</stage>
             <l>A la montaña, israelitas.</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #musicos #acompanamiento #turpin #finees #ofni #iran #abiud #idolatria">
+          <sp
+            who="#coro-2 #coro-1 #musicos #acompanamiento #turpin #finees #ofni #iran #abiud #idolatria">
             <speaker>TODOS</speaker>
             <l>Hebreos, a la montaña.</l>
           </sp>
@@ -1023,7 +1162,8 @@
             <l part="I">Mueran todos.</l>
           </sp>
           <stage>Las cajas</stage>
-          <sp who="#coro-1 #musicos #acompanamiento #iran #abiud #idolatria #ofni #finees #turpin #goliat">
+          <sp
+            who="#coro-1 #musicos #acompanamiento #iran #abiud #idolatria #ofni #finees #turpin #goliat">
             <speaker>TODOS</speaker>
             <l n="560" part="F">¡Guerra, guerra!</l>
           </sp>
@@ -1031,7 +1171,8 @@
             <speaker>GOLIAT</speaker>
             <l part="I">Ninguno escape.</l>
           </sp>
-          <sp who="#coro-1 #musicos #acompanamiento #iran #abiud #idolatria #ofni #finees #turpin #goliat">
+          <sp
+            who="#coro-1 #musicos #acompanamiento #iran #abiud #idolatria #ofni #finees #turpin #goliat">
             <speaker>TODOS</speaker>
             <l part="F">¡Arma, arma!</l>
           </sp>
@@ -1232,7 +1373,9 @@
             <l>… de Dagón lleva en oblación festiva</l>
             <l>el arca del gran Dios de Israel captiva!</l>
           </sp>
-          <stage>Con esta repetición, cajas y trompetas, dan vuelta al tablado, y a este tiempo suenan en el otro carro destempladas las cajas y trompetas, y música triste, y dice Samuel representando</stage>
+          <stage>Con esta repetición, cajas y trompetas, dan vuelta al tablado, y a este tiempo
+            suenan en el otro carro destempladas las cajas y trompetas, y música triste, y dice
+            Samuel representando</stage>
           <sp who="#samuel">
             <speaker>SAMUEL</speaker>
             <l>¡Muera la gloria, muera…</l>
@@ -1341,7 +1484,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Con esta repetición en la muestra entrando por una puerta y saliendo por otra, y en los carros dando vuelta al tablado, se corre en el carro 1 una cortina que ha de cubrir toda su fachada, y verse detrás de ella un retablo de altar, bien imitado de jaspes, bronces y columnas, y en su principal nicho la estatua de Dagón como dijeron los versos, medio ninfa y medio pez</stage>
+          <stage>Con esta repetición en la muestra entrando por una puerta y saliendo por otra, y en
+            los carros dando vuelta al tablado, se corre en el carro 1 una cortina que ha de cubrir
+            toda su fachada, y verse detrás de ella un retablo de altar, bien imitado de jaspes,
+            bronces y columnas, y en su principal nicho la estatua de Dagón como dijeron los versos,
+            medio ninfa y medio pez</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l>Ya las aceradas puertas</l>
@@ -1349,7 +1496,8 @@
             <l>están a la aclamación</l>
             <l>de nuestras voces abiertas.</l>
           </sp>
-          <stage>Ha de haber en el tablado una pira de jaspes delante del altar en que pondrán el arca</stage>
+          <stage>Ha de haber en el tablado una pira de jaspes delante del altar en que pondrán el
+            arca</stage>
           <sp who="#goliat">
             <speaker>GOLIAT</speaker>
             <l>Grande dios de Filistín,</l>
@@ -1400,7 +1548,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>En un bofetón, por un lado del carro, sale sobre un nubarrón Miguel con la espada desnuda en proporción que pueda alcanzar con ella a dar en la estatua</stage>
+          <stage>En un bofetón, por un lado del carro, sale sobre un nubarrón Miguel con la espada
+            desnuda en proporción que pueda alcanzar con ella a dar en la estatua</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l>Calle el temor que me da.</l>
@@ -1570,7 +1719,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Desaparece con terremoto, suenan Voces dentro y sale Goliat como despavorido</stage>
+          <stage>Desaparece con terremoto, suenan Voces dentro y sale Goliat como
+            despavorido</stage>
           <sp who="#acompanamiento">
             <speaker>VOCES</speaker>
             <l>¡Qué pena, qué ansia, qué horror!</l>
@@ -1934,7 +2084,8 @@
             <l>desempeñando sus votos</l>
             <l part="I">con sus juicios?</l>
           </sp>
-          <sp who="#ofni #finees #musicos #coro-2 #coro-1 #soldado #soldado-1 #miguel #idolatria #goliat #acompanamiento #abiud #iran #samuel">
+          <sp
+            who="#ofni #finees #musicos #coro-2 #coro-1 #soldado #soldado-1 #miguel #idolatria #goliat #acompanamiento #abiud #iran #samuel">
             <speaker>TODOS</speaker>
             <l part="M">No.</l>
           </sp>
@@ -2091,7 +2242,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="20">
-          <stage>Salen cantando y bailando cinco segadores y entre ellos la Idolatría de segador y Turpín en medio con unas espigas</stage>
+          <stage>Salen cantando y bailando cinco segadores y entre ellos la Idolatría de segador y
+            Turpín en medio con unas espigas</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>A la siega, a la siega, zagales,</l>
@@ -2254,7 +2406,8 @@
             <l n="1260">Acompañémosle todos</l>
             <l part="I">hasta el templo.</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #soldado #soldado-1 #miguel #goliat #acompanamiento #abiud #iran #finees #segador-2 #turpin #musicos #idolatria #samuel #segador-1">
+          <sp
+            who="#coro-2 #coro-1 #soldado #soldado-1 #miguel #goliat #acompanamiento #abiud #iran #finees #segador-2 #turpin #musicos #idolatria #samuel #segador-1">
             <speaker>TODOS</speaker>
             <l part="F">Norabuena.</l>
           </sp>
@@ -2263,7 +2416,8 @@
             <l>Sí, mas diciendo otra vez,</l>
             <l>y otras mil y otras milenta:</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #soldado #soldado-1 #miguel #goliat #acompanamiento #abiud #iran #finees #segador-2 #musicos #idolatria #samuel #segador-1 #turpin">
+          <sp
+            who="#coro-2 #coro-1 #soldado #soldado-1 #miguel #goliat #acompanamiento #abiud #iran #finees #segador-2 #musicos #idolatria #samuel #segador-1 #turpin">
             <speaker>TODOS</speaker>
             <l>A la siega, a la siega, zagales,</l>
             <l n="1265">zagales venid, venid a la siega,</l>
@@ -2483,7 +2637,8 @@
             <l part="I">tonadilla.</l>
           </sp>
           <stage>Toman bieldos y hacen la acción de aventar el trigo, cantando</stage>
-          <sp who="#coro-2 #coro-1 #soldado #soldado-1 #miguel #acompanamiento #abiud #iran #finees #musicos #samuel #idolatria #goliat #segador-3 #segador-4 #segador-5 #turpin #segador-1 #segador-2">
+          <sp
+            who="#coro-2 #coro-1 #soldado #soldado-1 #miguel #acompanamiento #abiud #iran #finees #musicos #samuel #idolatria #goliat #segador-3 #segador-4 #segador-5 #turpin #segador-1 #segador-2">
             <speaker>TODOS</speaker>
             <l part="F">Norabuena.</l>
           </sp>
@@ -2528,7 +2683,8 @@
             <l>carreta de oro que al valle</l>
             <l>baja venciendo la cuesta?</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #soldado #soldado-1 #miguel #acompanamiento #abiud #iran #finees #samuel #idolatria #goliat #segador-3 #segador-4 #segador-5 #musicos #turpin #segador-1 #segador-2">
+          <sp
+            who="#coro-2 #coro-1 #soldado #soldado-1 #miguel #acompanamiento #abiud #iran #finees #samuel #idolatria #goliat #segador-3 #segador-4 #segador-5 #musicos #turpin #segador-1 #segador-2">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué será aquello?</l>
           </sp>
@@ -2667,7 +2823,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Retíranse a una parte sin dejar el tablado y sale el arca como han dicho los versos, guiada del Ángel</stage>
+          <stage>Retíranse a una parte sin dejar el tablado y sale el arca como han dicho los
+            versos, guiada del Ángel</stage>
           <sp who="#miguel">
             <speaker>MIGUEL</speaker>
             <l>Si cuando Israel salía</l>
@@ -2954,7 +3111,8 @@
             <stage>Dentro</stage>
             <l part="I">Lleguemos todos.</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #musicos #angel #miguel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #goliat #turpin #idolatria #samuel">
+          <sp
+            who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #musicos #angel #miguel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #goliat #turpin #idolatria #samuel">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l part="F">Lleguemos.</l>
@@ -2995,7 +3153,8 @@
             <l n="1640">de las huellas que os han vuelto</l>
             <l part="I">a nuestros ojos.</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #musicos #angel #miguel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #turpin #idolatria #goliat #samuel">
+          <sp
+            who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #musicos #angel #miguel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #turpin #idolatria #goliat #samuel">
             <speaker>TODOS</speaker>
             <l part="F">Y todos</l>
             <l>hacemos, Señor, lo mesmo.</l>
@@ -3016,7 +3175,8 @@
             <speaker>LOS CUATRO</speaker>
             <l part="I">¡Qué dicha!</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #musicos #angel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #turpin #idolatria #goliat #samuel #miguel">
+          <sp
+            who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #musicos #angel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #turpin #idolatria #goliat #samuel #miguel">
             <speaker>TODOS</speaker>
             <l part="M">¡Qué bien!</l>
           </sp>
@@ -3158,7 +3318,9 @@
             <l>cuando al expirar en brazos</l>
             <l n="1705">de la Iglesia esté diciendo:</l>
           </sp>
-          <stage>Ábrese un carro y vese en él la Iglesia, con tiara y báculo de tres cruces, y a sus pies la Sinagoga, entregándola unas tablas, como las que pintan en manos de Moisés</stage>
+          <stage>Ábrese un carro y vese en él la Iglesia, con tiara y báculo de tres cruces, y a sus
+            pies la Sinagoga, entregándola unas tablas, como las que pintan en manos de
+            Moisés</stage>
           <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Estas son las joyas que</l>
@@ -3343,7 +3505,8 @@
             <l>siglos que el vivo Maná</l>
             <l>hospede en su Alcázar mesmo.</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #angel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #turpin #sinagoga #iglesia #nino-1 #nino-2 #musicos #goliat #idolatria #miguel #samuel">
+          <sp
+            who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #angel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #turpin #sinagoga #iglesia #nino-1 #nino-2 #musicos #goliat #idolatria #miguel #samuel">
             <speaker>TODOS</speaker>
             <l>Acompañémosla todos.</l>
           </sp>
@@ -3353,7 +3516,8 @@
             <l>después que habíamos pedido</l>
             <l>el perdón de nuestros yerros:</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #angel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #sinagoga #iglesia #nino-1 #nino-2 #musicos #goliat #idolatria #miguel #samuel #turpin">
+          <sp
+            who="#coro-2 #coro-1 #soldado #soldado-1 #acompanamiento #abiud #iran #finees #angel #segador-3 #segador-4 #segador-2 #segador-5 #segador-1 #sinagoga #iglesia #nino-1 #nino-2 #musicos #goliat #idolatria #miguel #samuel #turpin">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Venturoso el siglo</l>
             <l>que ve el cumplimiento</l>

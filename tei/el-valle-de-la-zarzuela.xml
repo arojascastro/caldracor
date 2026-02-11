@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000177" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ignacio Arellano, Pamplona– Kassel, Universidad de Navarra–Reichenberger, 2013. ISBN: 978-3-944244-16-7.</title>
+            <title>Edición digital a partir de la edición de Ignacio Arellano, Pamplona– Kassel,
+              Universidad de Navarra–Reichenberger, 2013. ISBN: 978-3-944244-16-7.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,45 +49,89 @@
         <listPerson>
           <person sex="MALE" xml:id="leon">
             <persName>León</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fiera">
             <persName>Fiera</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="europa">
             <persName>Europa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="asia">
             <persName>Asia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="africa">
             <persName>África</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="america">
             <persName>América</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hombre">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gracia">
             <persName>Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="principe">
             <persName>Príncipe</persName>
+            <idno type="wikidata">Q302</idno>
             <trait resp="#rojas">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="aguila">
             <persName>Águila</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="lucero">
             <persName>Lucero</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="simplicidad">
             <persName>Simplicidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -95,17 +140,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -143,7 +191,9 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale el Demonio, vestido de pieles, y en la cabeza una media visera en forma de testa de león, de quien penderá un manto también de pieles, asidas de garras en los hombros; hablando con el carro,que será una montaña</stage>
+          <stage>Sale el Demonio, vestido de pieles, y en la cabeza una media visera en forma de
+            testa de león, de quien penderá un manto también de pieles, asidas de garras en los
+            hombros; hablando con el carro,que será una montaña</stage>
           <sp who="#leon">
             <speaker>LEÓN</speaker>
             <l>¡Oh tú, parda coluna</l>
@@ -203,7 +253,11 @@
           <sp who="#leon">
             <speaker>LEÓN</speaker>
             <l part="F">Que me escuches.</l>
-            <stage>Ábrese el peñasco, y vese en el primer cuerpo del tablado una hidra grande de siete cabezas, y sobre ella la Culpa , vestida de negro, con estrellas; adviértase que la represente mujer música, y que la hidra ha de estar sobre ruedas, que a su tiempo la han de mover, atravesando el tablado cantando con una copa dorada en la mano.</stage>
+            <stage>Ábrese el peñasco, y vese en el primer cuerpo del tablado una hidra grande de
+              siete cabezas, y sobre ella la Culpa , vestida de negro, con estrellas; adviértase que
+              la represente mujer música, y que la hidra ha de estar sobre ruedas, que a su tiempo
+              la han de mover, atravesando el tablado cantando con una copa dorada en la
+              mano.</stage>
             <l n="50">Ya sabes, según a todos</l>
             <l>Isaías se lo cuenta,</l>
             <l>aquella primera lid</l>
@@ -496,7 +550,8 @@
           <sp who="#fiera">
             <speaker>FIERA</speaker>
             <l part="F">Desta manera.</l>
-            <stage>Empieza a andar la hidra, atravesando el tablado y ella cantando hasta que medido el tiempo con los versos se esconde en el carro de enfrente. Canta.</stage>
+            <stage>Empieza a andar la hidra, atravesando el tablado y ella cantando hasta que medido
+              el tiempo con los versos se esconde en el carro de enfrente. Canta.</stage>
             <l n="330">¡A mi brindis, mortales, venid, que la sed</l>
             <l>satisface esta copa del oír y el ver!</l>
             <l>Cuenta Esdras que un enigma</l>
@@ -541,7 +596,9 @@
             <stage>Canta</stage>
             <l n="370">¡A mi brindis, mortales, venid, que la sed</l>
             <l>satisface esta copa del oír y el ver!</l>
-            <stage>Al irlos nombrando como dicen los versos van sa-liendo de los cuatro carros Asia vestida a lo judío,Europa a lo romano, África a lo moro, y América a lo indio, como con admiración, oyendo loque canta</stage>
+            <stage>Al irlos nombrando como dicen los versos van sa-liendo de los cuatro carros Asia
+              vestida a lo judío,Europa a lo romano, África a lo moro, y América a lo indio, como
+              con admiración, oyendo loque canta</stage>
             <l>Aquí el néctar de los dioses</l>
             <l>hallará el gentil, por quien</l>
 
@@ -746,7 +803,8 @@
           <sp who="#africa #america #asia #europa">
             <speaker>LOS CUATRO</speaker>
             <l part="F">Iré tras él.</l>
-            <stage>Dentro el instrumento, y la voz más lejos, y al ir tras ella Los Cuatro, sale la Gracia , como huyendo asustada. Fiera Canta</stage>
+            <stage>Dentro el instrumento, y la voz más lejos, y al ir tras ella Los Cuatro, sale la
+              Gracia , como huyendo asustada. Fiera Canta</stage>
             <l>¡A mi brindis, mortales, venid, que la sed…</l>
           </sp>
           <sp who="#africa #america #asia #europa">
@@ -1593,12 +1651,15 @@
             <l>reparada en la criatura,</l>
             <l part="I">porque se publique…</l>
           </sp>
-          <sp who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
+          <sp
+            who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
             <speaker>MÚSICA Y TODOS</speaker>
             <l part="F">¡A Dios en la altura</l>
             <l>la gloria, y al hombre la paz en la tierra!</l>
           </sp>
-          <stage>Esta música se oye en la nave, y dando vuelta con salva y chirimías se ven en ella el Príncipe , y el Lucero del Alba , San Juan Baptista , y el Águila del Sol , San Juan Evangelista ,la Simplicidad y los Músicos y otros marineros</stage>
+          <stage>Esta música se oye en la nave, y dando vuelta con salva y chirimías se ven en ella
+            el Príncipe , y el Lucero del Alba , San Juan Baptista , y el Águila del Sol , San Juan
+            Evangelista ,la Simplicidad y los Músicos y otros marineros</stage>
           <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Mas ¿qué voz, opuesta agora</l>
@@ -1614,7 +1675,8 @@
             <speaker>PRÍNCIPE</speaker>
             <l part="I">Celajes se ven.</l>
           </sp>
-          <sp who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
+          <sp
+            who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">¡A Dios en la altura</l>
             <l>la gloria, y al hombre la paz en la tierra!</l>
@@ -1631,7 +1693,8 @@
             <l>volverá el ansia en ventura,</l>
             <l part="I">pues viene diciendo…</l>
           </sp>
-          <sp who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
+          <sp
+            who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">¡A Dios en la altura</l>
             <l>la gloria, y al hombre la paz en la tierra!</l>
@@ -1715,14 +1778,16 @@
             <l>Vuelvan, porque tierra y cielo</l>
             <l>digan en voces diversas…</l>
           </sp>
-          <sp who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
+          <sp
+            who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Gloria a Dios en las alturas,</l>
             <l n="970">y paz al hombre en la tierra!</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Con esta repetición, música y salva, da vuelta lanave, y bajan de ella por el escutillón, sin salir altablado todos; y sale el León como asombrado</stage>
+          <stage>Con esta repetición, música y salva, da vuelta lanave, y bajan de ella por el
+            escutillón, sin salir altablado todos; y sale el León como asombrado</stage>
           <sp who="#leon">
             <speaker>LEÓN</speaker>
             <l>«¡Gloria a Dios en las alturas,</l>
@@ -2297,7 +2362,8 @@
             <speaker>OTROS</speaker>
             <l part="M">¡Al monte!</l>
           </sp>
-          <sp who="#america #africa #hombre #musicos #aguila #asia #principe #simplicidad #gracia #acompanamiento">
+          <sp
+            who="#america #africa #hombre #musicos #aguila #asia #principe #simplicidad #gracia #acompanamiento">
             <speaker>TODOS</speaker>
             <l n="1285" part="F">¡A la cumbre!</l>
           </sp>
@@ -2353,7 +2419,8 @@
             <l n="1300">infestando su ribera.</l>
             <l part="I">¡Huid, huid!</l>
           </sp>
-          <sp who="#america #africa #hombre #musicos #aguila #asia #acompanamiento #simplicidad #principe #lucero #gracia">
+          <sp
+            who="#america #africa #hombre #musicos #aguila #asia #acompanamiento #simplicidad #principe #lucero #gracia">
             <speaker>TODOS</speaker>
             <l part="F">¡Al monte! ¡Al valle!</l>
           </sp>
@@ -2986,7 +3053,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="36">
-          <stage>En el carro, que será un jardín ha de haber un árbol y una cruz entre sus ramas. Y en tanto que el príncipe hace como para subir a él salen Asia, Europa , África y América hablando entre sí como con recato</stage>
+          <stage>En el carro, que será un jardín ha de haber un árbol y una cruz entre sus ramas. Y
+            en tanto que el príncipe hace como para subir a él salen Asia, Europa , África y América
+            hablando entre sí como con recato</stage>
           <sp who="#europa #africa #america">
             <speaker>LOS TRES</speaker>
             <l part="F">Estrañas</l>
@@ -3264,7 +3333,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="40">
-          <stage>Vase. Sube como ayudado del Asia por elevación hasta ponerle en la cruz que estará en la copa del árbor y abriéndose el peñasco salen dél luchando el Hombre y la Fiera.</stage>
+          <stage>Vase. Sube como ayudado del Asia por elevación hasta ponerle en la cruz que estará
+            en la copa del árbor y abriéndose el peñasco salen dél luchando el Hombre y la
+            Fiera.</stage>
           <sp who="#principe">
             <speaker>PRÍNCIPE</speaker>
             <l part="F">Sí, verás;</l>
@@ -3319,7 +3390,8 @@
             <l>Aunque escaparte pretendas</l>
             <l part="I">mal podrás.</l>
           </sp>
-          <stage>Vuélvele a asir y cayendo él en el suelo saca la Fiera un puñal y al irle a dar con él dispara el Príncipe y es ella la que cay muerta.</stage>
+          <stage>Vuélvele a asir y cayendo él en el suelo saca la Fiera un puñal y al irle a dar con
+            él dispara el Príncipe y es ella la que cay muerta.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">Valor me falta;</l>
@@ -3357,8 +3429,10 @@
             <l>en un tronco se desangra,</l>
             <l n="1825">a cuyo fin tiembla todo.</l>
           </sp>
-          <stage>Terremoto dentro y van saliendo cada uno con susversos como despavoridos y asombrados</stage>
-          <sp who="#acompanamiento #musicos #gracia #aguila #lucero #simplicidad #leon #africa #america #europa #asia #fiera #hombre #principe">
+          <stage>Terremoto dentro y van saliendo cada uno con susversos como despavoridos y
+            asombrados</stage>
+          <sp
+            who="#acompanamiento #musicos #gracia #aguila #lucero #simplicidad #leon #africa #america #europa #asia #fiera #hombre #principe">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l>¿Quién vio confusiones tantas?</l>
@@ -3444,7 +3518,8 @@
             <speaker>OTROS</speaker>
             <l part="F">¡Qué ansia!</l>
           </sp>
-          <sp who="#gracia #principe #leon #africa #america #europa #asia #lucero #aguila #simplicidad #hombre #acompanamiento">
+          <sp
+            who="#gracia #principe #leon #africa #america #europa #asia #lucero #aguila #simplicidad #hombre #acompanamiento">
             <speaker>TODOS</speaker>
             <l>Muerta aquí yace la fiera.</l>
           </sp>
@@ -3569,7 +3644,8 @@
             <l>que son las persecuciones</l>
             <l part="I">de la Iglesia.</l>
           </sp>
-          <stage>Aparecen en la nave dando una y más vueltas el Hombre, el Águila, Europa y América, comocorriendo tormenta</stage>
+          <stage>Aparecen en la nave dando una y más vueltas el Hombre, el Águila, Europa y América,
+            comocorriendo tormenta</stage>
           <sp who="#hombre #europa #america #aguila">
             <speaker>TODOS</speaker>
             <l part="F">¡Amaina, amaina!</l>
@@ -3629,7 +3705,8 @@
             <l part="F">¿Quién esa rara</l>
             <l part="I">propuesta asegura?</l>
           </sp>
-          <stage>Las chirimías y abriéndose el cuarto carro se ve la Gracia sentada a una mesa en forma de altar con el cáliz y hostia.</stage>
+          <stage>Las chirimías y abriéndose el cuarto carro se ve la Gracia sentada a una mesa en
+            forma de altar con el cáliz y hostia.</stage>
           <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l n="1935" part="F">Yo,</l>
@@ -3679,7 +3756,8 @@
             <l>¡Amaina, amaina, que a pique</l>
             <l part="I">nos vamos!</l>
           </sp>
-          <sp who="#acompanamiento #europa #america #africa #asia #simplicidad #aguila #leon #principe #gracia #lucero #hombre">
+          <sp
+            who="#acompanamiento #europa #america #africa #asia #simplicidad #aguila #leon #principe #gracia #lucero #hombre">
             <speaker>TODOS</speaker>
             <l part="F">¡Amaina, amaina!</l>
           </sp>
@@ -3847,7 +3925,8 @@
             <l>repitiendo todos en voces altas</l>
             <l>que acudamos donde dice la gracia…</l>
           </sp>
-          <sp who="#acompanamiento #europa #america #africa #asia #aguila #lucero #hombre #fiera #leon #gracia #principe #simplicidad">
+          <sp
+            who="#acompanamiento #europa #america #africa #asia #aguila #lucero #hombre #fiera #leon #gracia #principe #simplicidad">
             <speaker>TODOS</speaker>
             <stage>Cantan</stage>
             <l>¡A mi brindis, mortales venid.</l>

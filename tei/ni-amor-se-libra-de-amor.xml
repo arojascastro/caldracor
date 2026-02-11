@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000141" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Ni Amor se libra de amor. En: Comedias, Vol. 3. Dirección de Luis Iglesias Feijoo y Don William Cruickshank. Madrid : Fundación José Antonio de Castro, 2007</title>
+          <title>Pedro Calderón de la Barca, Ni Amor se libra de amor. En: Comedias, Vol. 3.
+            Dirección de Luis Iglesias Feijoo y Don William Cruickshank. Madrid : Fundación José
+            Antonio de Castro, 2007</title>
           <idno type="ISBN">978-84-96452-32-9</idno>
         </bibl>
       </sourceDesc>
@@ -51,11 +54,17 @@
             <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lidoro" sex="MALE">
             <persName>Lidoro</persName>
             <trait source="#calderondigital">
               <desc>amigo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="arsidas" sex="MALE">
@@ -63,11 +72,17 @@
             <trait source="#calderondigital">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="friso" sex="MALE">
             <persName>Friso</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
@@ -75,11 +90,17 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libio" sex="MALE">
             <persName>Libio</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="atamas" sex="MALE">
@@ -87,17 +108,31 @@
             <trait source="#calderondigital">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cupido" sex="MALE">
             <persName>Cupido</persName>
+            <idno type="wikidata">Q5011</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="siquis" sex="FEMALE">
             <persName>Siquis</persName>
+            <idno type="wikidata">Q843382</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="astrea" sex="FEMALE">
             <persName>Astrea</persName>
             <trait source="#calderondigital">
               <desc>hermana</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="selenisa" sex="FEMALE">
@@ -105,15 +140,24 @@
             <trait source="#calderondigital">
               <desc>hermana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ninfa" sex="FEMALE">
             <persName>Ninfa</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="soldados" sex="MALE">
             <persName>Soldados</persName>
@@ -123,9 +167,15 @@
           </personGrp>
           <person sex="UNKNOWN" xml:id="música-primera">
             <persName>Música 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música-segunda">
             <persName>Música 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1</persName>
@@ -143,17 +193,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -195,7 +248,9 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale un coro de música, y detrás Selenisa, suelto el cabello y coronada de flores, y con la copla que se canta y representa, dando vuelta al tablado, yéndose a tiempo que por una parte salen Lidoro y Libio, y por otra Arsidas y Fabio.</stage>
+          <stage>Sale un coro de música, y detrás Selenisa, suelto el cabello y coronada de flores,
+            y con la copla que se canta y representa, dando vuelta al tablado, yéndose a tiempo que
+            por una parte salen Lidoro y Libio, y por otra Arsidas y Fabio.</stage>
           <sp who="#selenisa">
             <speaker rend="caps">Selenisa</speaker>
 
@@ -3565,7 +3620,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Salen Flora y Friso, y luego Atamas y Anteo, trayendo desmayada a Siquis, y gente, de marineros.</stage>
+          <stage>Salen Flora y Friso, y luego Atamas y Anteo, trayendo desmayada a Siquis, y gente,
+            de marineros.</stage>
           <sp who="#flora">
             <speaker rend="caps">Flora</speaker>
 
@@ -4831,7 +4887,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>[Por una gruta que habrá en el teatro, sale una ninfa con un velo en el rostro y una hacha encendida en la mano, y canta.]</stage>
+          <stage>[Por una gruta que habrá en el teatro, sale una ninfa con un velo en el rostro y
+            una hacha encendida en la mano, y canta.]</stage>
           <sp who="#ninfa">
             <speaker rend="caps">Ninfa</speaker>
 
@@ -5012,7 +5069,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>[Llévanle. Múdase el teatro en el de un palacio, salen los músicos, que se dividen en dos coros, y detrás, la ninfa con la hacha, Siquis y Flora.]</stage>
+          <stage>[Llévanle. Múdase el teatro en el de un palacio, salen los músicos, que se dividen
+            en dos coros, y detrás, la ninfa con la hacha, Siquis y Flora.]</stage>
           <sp who="#coro-1 #coro-2">
             <speaker rend="caps">Los Dos Coros</speaker>
 
@@ -5949,7 +6007,8 @@
       <div type="act" n="3">
         <head rend="caps">Jornada Tercera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro, a lo lejos, la música, y salen Flora, Friso, y dice a lo lejos la música:</stage>
+          <stage>Dentro, a lo lejos, la música, y salen Flora, Friso, y dice a lo lejos la
+            música:</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -6393,7 +6452,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Con hachas, salen máscaras danzando, y Astrea, Selenisa, Arsidas y Lidoro, y detrás Atamas.</stage>
+          <stage>Con hachas, salen máscaras danzando, y Astrea, Selenisa, Arsidas y Lidoro, y detrás
+            Atamas.</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -7009,7 +7069,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>[Salen del palacio las damas que puedan, las músicas, Friso y Flora, y Siquis.]</stage>
+          <stage>[Salen del palacio las damas que puedan, las músicas, Friso y Flora, y
+            Siquis.]</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -7299,7 +7360,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>[Éntranse todos en el palacio, sale Anteo de donde estaba escondido, y detiene a Friso.]</stage>
+          <stage>[Éntranse todos en el palacio, sale Anteo de donde estaba escondido, y detiene a
+            Friso.]</stage>
           <sp who="#anteo">
             <speaker rend="caps">Anteo</speaker>
 
@@ -7431,7 +7493,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>[Vanse. Vuélvese a descubrir el palacio, cuya mutación se ocultó cuando se despidió de Siquis Cupido, y salen todos en la forma que entraron.]</stage>
+          <stage>[Vanse. Vuélvese a descubrir el palacio, cuya mutación se ocultó cuando se despidió
+            de Siquis Cupido, y salen todos en la forma que entraron.]</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -8578,7 +8641,8 @@
             <l>la vida la que te pierde!</l>
             <stage>[Vase.]</stage>
           </sp>
-          <stage>Van saliendo [Flora, Friso, Atamas, Selenisa, Arsidas, Astrea, Lidoro y Anteo].</stage>
+          <stage>Van saliendo [Flora, Friso, Atamas, Selenisa, Arsidas, Astrea, Lidoro y
+            Anteo].</stage>
           <sp who="#flora">
             <speaker rend="caps">Flora</speaker>
 

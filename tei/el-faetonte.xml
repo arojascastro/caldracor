@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000013" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-29">
           <time when="09:55:19"/>
@@ -37,7 +38,10 @@
           <name>Biblioteca Virtual Miguel de Cervantes</name>
           <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-faetonte--0/html/</idno>
           <bibl type="originalSource">
-            <title> Edición digital a partir de Cuarta parte de Comedias de Don Pedro Calderón de la Barca, Madrid, Por Bernardo de Hervada. A costa de Antonio de la Fuente, 1674. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title> Edición digital a partir de Cuarta parte de Comedias de Don Pedro Calderón de la
+              Barca, Madrid, Por Bernardo de Hervada. A costa de Antonio de la Fuente, 1674.
+              Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por
+              Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,14 +51,22 @@
         <listPerson>
           <person xml:id="faetón" sex="MALE">
             <persName>Faetón</persName>
+            <idno type="wikidata">Q203480</idno>
             <trait source="#calderondigital">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="epafo" sex="MALE">
             <persName>Epafo</persName>
+            <idno type="wikidata">Q675699</idno>
             <trait source="#calderondigital">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="batillo" sex="MALE">
@@ -62,23 +74,38 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tetis" sex="FEMALE">
             <persName>Tetis</persName>
+            <idno type="wikidata">Q184437</idno>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="amaltea" sex="FEMALE">
             <persName>Amaltea</persName>
+            <idno type="wikidata">Q107785</idno>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="doris" sex="FEMALE">
             <persName>Doris</persName>
+            <idno type="wikidata">Q726279</idno>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="silvia" sex="FEMALE">
@@ -86,39 +113,66 @@
             <trait source="#calderondigital">
               <desc>graciosa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="admeto" sex="MALE">
             <persName>Admeto</persName>
+            <idno type="wikidata">Q192109</idno>
             <trait source="#calderondigital">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="eridano" sex="MALE">
             <persName>Eridano</persName>
+            <idno type="wikidata">Q1135146</idno>
             <trait source="#calderondigital">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="apolo" sex="MALE">
             <persName>Apolo</persName>
+            <idno type="wikidata">Q37340</idno>
             <trait source="#calderondigital">
               <desc>dios</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="climene" sex="FEMALE">
             <persName>Climene</persName>
+            <idno type="wikidata">Q836792</idno>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="galatea" sex="FEMALE">
             <persName>Galatea</persName>
+            <idno type="wikidata">Q241070</idno>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="iris" sex="FEMALE">
             <persName>Iris</persName>
+            <idno type="wikidata">Q184570</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <personGrp xml:id="ninfas" sex="FEMALE">
             <persName>Ninfas</persName>
@@ -137,6 +191,9 @@
           </personGrp>
           <person xml:id="música" sex="UNKNOWN">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="soldados-y-acompañamiento" sex="MALE">
             <persName>Soldados y acompañamiento</persName>
@@ -148,17 +205,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -173,7 +233,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000013" passive="http://www.wikidata.org/entity/Q69034587"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000013"
+        passive="http://www.wikidata.org/entity/Q69034587"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -426,7 +487,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Ábrese el escollo donde está TETIS sobre un pescado, y DORIS en tercero de ninfas.</stage>
+          <stage>Ábrese el escollo donde está TETIS sobre un pescado, y DORIS en tercero de
+            ninfas.</stage>
           <sp who="#faetón">
             <speaker>FAETÓN</speaker>
             <l>Pues aunque en favor estén</l>
@@ -1999,7 +2061,8 @@
             <l part="F">Que sea no ignoro</l>
             <l n="760">la letra que acompañe esos extremos.</l>
           </sp>
-          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp
+            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l>Empieza tú, que todas seguiremos.</l>
           </sp>
@@ -2008,7 +2071,8 @@
             <stage>Cante.</stage>
             <l>Los casos dificultosos.</l>
           </sp>
-          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp
+            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l>Los casos dificultosos.</l>
           </sp>
@@ -2016,7 +2080,8 @@
             <speaker>DORIS</speaker>
             <l>Con razón son envidiados.</l>
           </sp>
-          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp
+            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l n="765">Con razón son envidiados.</l>
           </sp>
@@ -2024,7 +2089,8 @@
             <speaker>DORIS</speaker>
             <l>Inténtanlos los osados.</l>
           </sp>
-          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp
+            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l>Inténtanlos los osados.</l>
           </sp>
@@ -2032,7 +2098,8 @@
             <speaker>DORIS</speaker>
             <l>Y acábanlos los dichosos.</l>
           </sp>
-          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp
+            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l>Y acábanlos los dichosos.</l>
           </sp>
@@ -4926,7 +4993,7 @@
             <l>la que nuestro asombro fue,</l>
             <l n="935">ya que desde aquí se ve</l>
             <l>templo, sacerdote y ara.</l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
@@ -5091,7 +5158,8 @@
             <speaker>MÚSICA</speaker>
             <l> Y todos [decid].</l>
           </sp>
-          <sp who="#admeto #epafo #tetis #amaltea #galatea #música #climene #eridano #coro-1 #coro-2 #coro-3">
+          <sp
+            who="#admeto #epafo #tetis #amaltea #galatea #música #climene #eridano #coro-1 #coro-2 #coro-3">
             <speaker>TODOS</speaker>
             <l> Al templo inmortal de la sacra Diana</l>
             <l> hermosa y gentil,</l>
@@ -5208,7 +5276,8 @@
             <l>¿Cómo a merendarme a mí</l>
             <l part="I">te atrevías?</l>
           </sp>
-          <sp who="#admeto #epafo #tetis #faetón #amaltea #galatea #música #eridano #coro-1 #coro-2 #coro-3">
+          <sp
+            who="#admeto #epafo #tetis #faetón #amaltea #galatea #música #eridano #coro-1 #coro-2 #coro-3">
             <speaker>TODOS</speaker>
             <l part="F">¿Cómo ahora</l>
             <l part="I">aún no respondes?</l>
@@ -5422,7 +5491,8 @@
             <l>¿No digo yo bien que es loco?</l>
             <l>Arrojadle, echadle de ahí.</l>
           </sp>
-          <sp who="#epafo #tetis #batillo #amaltea #galatea #música #climene #eridano #coro-1 #coro-2 #coro-3">
+          <sp
+            who="#epafo #tetis #batillo #amaltea #galatea #música #climene #eridano #coro-1 #coro-2 #coro-3">
             <speaker>TODOS</speaker>
             <l>Vaya el loco, vaya el loco.</l>
           </sp>
@@ -5514,7 +5584,8 @@
       <div type="act" n="3">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada III</head>
-          <stage>Dentro voces de hombres a una parte y de mujeres a otra, y salen como arrojados, cayendo por una parte FAETÓN y por otra CLIMENE.</stage>
+          <stage>Dentro voces de hombres a una parte y de mujeres a otra, y salen como arrojados,
+            cayendo por una parte FAETÓN y por otra CLIMENE.</stage>
           <sp who="#soldados-y-acompañamiento">
             <speaker>HOMBRES</speaker>
             <stage>Dentro.</stage>
@@ -6534,7 +6605,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Descúbrese el teatro de las estrellas, y en el aire CLIMENE y FAETÓN. Dentro arriba IRIS.</stage>
+          <stage>Descúbrese el teatro de las estrellas, y en el aire CLIMENE y FAETÓN. Dentro arriba
+            IRIS.</stage>
           <sp who="#iris">
             <speaker>IRIS</speaker>
             <l>Ya a las puertas os dejo</l>

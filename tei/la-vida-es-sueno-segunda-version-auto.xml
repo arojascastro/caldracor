@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000192" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/37388</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Fernando Plata Parga, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2012. ISBN: 978-3-944244-01-3.</title>
+            <title>Edición digital a partir de la edición de Fernando Plata Parga, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 2012. ISBN: 978-3-944244-01-3.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,57 +49,109 @@
         <listPerson>
           <person sex="FEMALE" xml:id="agua">
             <persName>Agua</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="aire">
             <persName>Aire</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="tierra">
             <persName>Tierra</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="fuego">
             <persName>Fuego</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="poder">
             <persName>Poder</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sabiduria">
             <persName>Sabiduría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="amor">
             <persName>Amor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sombra">
             <persName>Sombra</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="principe">
             <persName>Príncipe</persName>
+            <idno type="wikidata">Q6674</idno>
             <trait resp="#rojas">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="gracia">
             <persName>Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hombre">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="luz">
             <persName>Luz</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="entendimiento">
             <persName>Entendimiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="albedrio">
             <persName>Albedrío</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pecado">
             <persName>Pecado</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="peregrino">
             <persName>Peregrino</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -107,17 +160,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -262,7 +318,8 @@
             <speaker>FUEGO</speaker>
             <l>¡Yo con la Tierra y contigo!</l>
           </sp>
-          <stage>Dicen dentro a un mismo tiempo iguales Poder, Sabiduría y Amor los versos que repetirá la música y los cuatro se suspenden.</stage>
+          <stage>Dicen dentro a un mismo tiempo iguales Poder, Sabiduría y Amor los versos que
+            repetirá la música y los cuatro se suspenden.</stage>
           <sp who="#poder #sabiduria #amor">
             <speaker>LOS TRES</speaker>
             <l>¡Agua, Tierra, Fuego y Aire…</l>
@@ -297,7 +354,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Déjanse partiendo la corona y salen el Poder, anciano venerable, y Sabiduría y Amor de galanes.</stage>
+          <stage>Déjanse partiendo la corona y salen el Poder, anciano venerable, y Sabiduría y Amor
+            de galanes.</stage>
           <sp who="#poder">
             <speaker>PODER</speaker>
             <l n="60" part="F">El Poder,</l>
@@ -933,7 +991,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>La Sombra sale por una parte y por otra se van; y la Sombra repite lo que cantan.</stage>
+          <stage>La Sombra sale por una parte y por otra se van; y la Sombra repite lo que
+            cantan.</stage>
           <sp who="#sombra">
             <speaker>SOMBRA</speaker>
             <l>Cuanto en Fuego, Aire, Agua y Tierra…</l>
@@ -1184,7 +1243,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Descúbrese un peñasco y el Hombre vestido de pieles y la Gracia con un hacha.</stage>
+          <stage>Descúbrese un peñasco y el Hombre vestido de pieles y la Gracia con un
+            hacha.</stage>
           <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>Hombre, imagen de tu autor,</l>
@@ -1439,7 +1499,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Vanse. Salen los Elementos, cantando, con losvestidos y el Entendimiento y Albedrío, la Luz con el hacha y el Hombre detrás; y, mientras cantan, le van vistiendo como dicen los versos.</stage>
+          <stage>Vanse. Salen los Elementos, cantando, con losvestidos y el Entendimiento y
+            Albedrío, la Luz con el hacha y el Hombre detrás; y, mientras cantan, le van vistiendo
+            como dicen los versos.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l n="805">¡Venid, corred, volad, Elementos,</l>
@@ -1622,7 +1684,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Vanle vistiendo, mientras cantan, y sale la Sombra, y el Pecado, de villanos.</stage>
+          <stage>Vanle vistiendo, mientras cantan, y sale la Sombra, y el Pecado, de
+            villanos.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Sobre áspid y basilisco</l>
@@ -3544,7 +3607,8 @@
             <speaker>LOS DOS</speaker>
             <l part="I">…el Hombre en su culpa?</l>
           </sp>
-          <sp who="#pecado #luz #musicos #peregrino #entendimiento #albedrio #hombre #agua #poder #tierra #sabiduria #aire #amor #fuego #principe #sombra">
+          <sp
+            who="#pecado #luz #musicos #peregrino #entendimiento #albedrio #hombre #agua #poder #tierra #sabiduria #aire #amor #fuego #principe #sombra">
             <speaker>TODOS</speaker>
             <l part="F">Sí.</l>
           </sp>

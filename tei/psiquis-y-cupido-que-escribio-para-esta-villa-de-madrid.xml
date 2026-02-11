@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000051" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-06-17">
           <time when="16:09:35"/>
@@ -35,9 +36,14 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/psiquis-y-cupido-que-escribio-para-esta-villa-de-madrid--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/psiquis-y-cupido-que-escribio-para-esta-villa-de-madrid--0/html/</idno>
           <bibl type="originalSource">
-            <title> Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de Datos de Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros </title>
+            <title> Edición digital a partir de Autos sacramentales, alegoricos, y historiales de
+              Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y
+              Mier, Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717.
+              Localización: Base de Datos de Teatro Español del Siglo de Oro (TESO). Autorizada por
+              Evangelina Rodríguez Cuadros </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,42 +53,78 @@
         <listPerson>
           <person xml:id="odio" sex="MALE">
             <persName>El Odio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="amor" sex="MALE">
             <persName>El Amor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="mundo" sex="MALE">
             <persName>El Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="sencillez" sex="FEMALE">
             <persName>La Sencillez</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp xml:id="las-tres-edades" sex="FEMALE">
             <persName>Las Tres Edades</persName>
           </personGrp>
           <person xml:id="edad-primera" sex="FEMALE">
             <persName>Edad Primera</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="edad-segunda" sex="FEMALE">
             <persName>Edad Segunda</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="edad-tercera" sex="FEMALE">
             <persName>Edad Tercera</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="malicia" sex="FEMALE">
             <persName>La Malicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="hebraísmo" sex="MALE">
             <persName>El Hebraísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="gentilidad" sex="FEMALE">
             <persName>La Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="noche" sex="FEMALE">
             <persName>Noche</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="día" sex="MALE">
             <persName>Día</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -92,9 +134,21 @@
           </personGrp>
           <person xml:id="marinero" sex="MALE">
             <persName>Marinero</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="acompañamiento" sex="MALE">
             <persName>Acompañamiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -103,17 +157,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -131,7 +188,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000051" passive="http://www.wikidata.org/entity/Q68906979"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000051"
+        passive="http://www.wikidata.org/entity/Q68906979"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -161,7 +219,9 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Ábrese un peñasco y sale dél el ODIO en un caballo negro vestido de demonio, y en otro carro se abre un escollo y sale dél el AMOR en un delfín, representado uno y cantando otro.</stage>
+          <stage>Ábrese un peñasco y sale dél el ODIO en un caballo negro vestido de demonio, y en
+            otro carro se abre un escollo y sale dél el AMOR en un delfín, representado uno y
+            cantando otro.</stage>
           <sp who="#odio">
             <speaker>ODIO</speaker>
             <l>¡Ha de la celeste curia,</l>
@@ -552,7 +612,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale la MÚSICA y luego el GENTILISMO con la EDAD PRIMERA de la mano vestidos a lo romano, con coronas de laurel, mantos imperiales, bastoncillos dorados; y luego el HEBRAÍSMO con la EDAD SEGUNDA vestidos a lo judío; y luego el MUNDO VIEJO venerable con la TERCERA EDAD vestidos a lo español.</stage>
+          <stage>Sale la MÚSICA y luego el GENTILISMO con la EDAD PRIMERA de la mano vestidos a lo
+            romano, con coronas de laurel, mantos imperiales, bastoncillos dorados; y luego el
+            HEBRAÍSMO con la EDAD SEGUNDA vestidos a lo judío; y luego el MUNDO VIEJO venerable con
+            la TERCERA EDAD vestidos a lo español.</stage>
           <sp who="#música">
             <speaker>MÚSICOS</speaker>
             <l>Al templo de la fortuna</l>
@@ -1273,7 +1336,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Cáesele, salen a levantarle el AMOR y el ODIO, uno se queda con las flores y otro con las espinas.</stage>
+          <stage>Cáesele, salen a levantarle el AMOR y el ODIO, uno se queda con las flores y otro
+            con las espinas.</stage>
           <sp who="#amor">
             <speaker>AMOR</speaker>
             <l>Porque se le ofrezca yo.</l>
@@ -1535,7 +1599,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Vase, da vuelta la nave con el MUNDO, EDAD TERCERA, MALICIA, SENCILLEZ y Marineros.</stage>
+          <stage>Vase, da vuelta la nave con el MUNDO, EDAD TERCERA, MALICIA, SENCILLEZ y
+            Marineros.</stage>
           <sp who="#mundo #edad-tercera #malicia #sencillez #marineros">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
@@ -1635,7 +1700,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="20">
-          <stage>Salen de la nave, bajan al tablado por un escollo y entre la MALICIA y SENCILLEZ desmayada a la EDAD TERCERA.</stage>
+          <stage>Salen de la nave, bajan al tablado por un escollo y entre la MALICIA y SENCILLEZ
+            desmayada a la EDAD TERCERA.</stage>
           <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l>Si la más dura peña</l>
@@ -3041,7 +3107,8 @@
             <l>repitiendo alegres,</l>
             <l>en voces diversas.</l>
           </sp>
-          <stage>Ábrense las puertas de la torre y se ve la EDAD TERCERA en un trono con la MÚSICA y la SENCILLEZ y Acompañamiento.</stage>
+          <stage>Ábrense las puertas de la torre y se ve la EDAD TERCERA en un trono con la MÚSICA y
+            la SENCILLEZ y Acompañamiento.</stage>
           <sp who="#edad-tercera #música">
             <speaker>EDAD TERCERA y MÚSICOS</speaker>
             <l n="1490">Vengan norabuena,</l>
@@ -3241,7 +3308,8 @@
             <l>todos los suyos; qué dura.</l>
           </sp>
           <stage>Anda el ODIO como inspirando en ellos.</stage>
-          <sp who="#hebraísmo #mundo #gentilidad #sencillez #malicia #edad-primera #edad-segunda #edad-tercera">
+          <sp
+            who="#hebraísmo #mundo #gentilidad #sencillez #malicia #edad-primera #edad-segunda #edad-tercera">
             <speaker>TODOS</speaker>
             <l>Qué dura.</l>
           </sp>
@@ -3368,7 +3436,8 @@
             <speaker>HEBRAÍSMO</speaker>
             <l>Con tus palacios te queda.</l>
           </sp>
-          <sp who="#mundo #gentilidad #sencillez #malicia #edad-primera #edad-segunda #edad-tercera #odio">
+          <sp
+            who="#mundo #gentilidad #sencillez #malicia #edad-primera #edad-segunda #edad-tercera #odio">
             <speaker>TODOS</speaker>
             <l n="1625">Que nosotros no lo hemos</l>
             <l>de creer hasta que se vea.</l>
@@ -3677,7 +3746,8 @@
             <speaker>AMOR</speaker>
             <l n="1755" part="F">Mujer, ¿qué has hecho?</l>
           </sp>
-          <stage>Despierta. Hay gran terremoto desapareciendo palacios, jardines, mesas y aparadores.</stage>
+          <stage>Despierta. Hay gran terremoto desapareciendo palacios, jardines, mesas y
+            aparadores.</stage>
           <sp who="#edad-tercera">
             <speaker>EDAD TERCERA</speaker>
             <l>¡Temblar el cielo y la tierra!</l>
@@ -3788,7 +3858,8 @@
         </div>
         <div type="scene" resp="#rojas" n="37">
           <stage>Terremoto, y salen por diversas partes todos con asombro.</stage>
-          <sp who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #mundo #odio #sencillez">
+          <sp
+            who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #mundo #odio #sencillez">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l part="F">¡Qué asombro!</l>
@@ -3861,7 +3932,8 @@
             <l>pero no me desconfían,</l>
             <l>pues puedo volver a ella.</l>
           </sp>
-          <sp who="#hebraísmo #gentilidad #edad-primera #edad-segunda #malicia #mundo #odio #sencillez">
+          <sp
+            who="#hebraísmo #gentilidad #edad-primera #edad-segunda #malicia #mundo #odio #sencillez">
             <speaker>TODOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
@@ -3872,8 +3944,10 @@
             <l>de que crea lo que oiga</l>
             <l>y no lo que mire crea.</l>
           </sp>
-          <stage>Vuelven a verse palacios y jardines, aparadores y mesas y en ella el AMOR con cáliz y hostia.</stage>
-          <sp who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #mundo #odio #sencillez">
+          <stage>Vuelven a verse palacios y jardines, aparadores y mesas y en ella el AMOR con cáliz
+            y hostia.</stage>
+          <sp
+            who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #mundo #odio #sencillez">
             <speaker>TODOS</speaker>
             <l part="I">Será en vano.</l>
           </sp>
@@ -3946,7 +4020,8 @@
             <l>el dolor, cuando repitan,</l>
             <l>mudando el tono y la letra.</l>
           </sp>
-          <sp who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #amor #odio #sencillez #música">
+          <sp
+            who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #amor #odio #sencillez #música">
             <speaker>TODOS y MÚSICOS</speaker>
             <l>Venturosa de ti, Naturaleza,</l>
             <l n="1850">venturosa de ti, pues a creer llegas</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000082" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-08">
@@ -41,7 +42,10 @@
           <name>Association for Hispanic Classical Theater</name>
           <idno type="URL">http://www.comedias.org/calderon/Caslin.html</idno>
           <bibl type="originalSource">
-            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge Keil (Leipzig), 1830. Fue editado en forma electrónica por David Hildner y luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en 2000.</title>
+            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge
+              Keil (Leipzig), 1830. Fue editado en forma electrónica por David Hildner y luego
+              pasado al HTML para ser presentado en esta colección por Vern Williamsen en
+              2000.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,17 +58,26 @@
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="febo" sex="MALE">
             <persName>Febo</persName>
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rosicler" sex="MALE">
             <persName>Rosicler</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="meridián" sex="MALE">
@@ -75,17 +88,26 @@
             <trait source="castlist">
               <desc>hermano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="floriseo" sex="MALE">
             <persName>Floriseo</persName>
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fauno" sex="MALE">
             <persName>Fauno</persName>
             <trait source="#calderondigital">
               <desc>noble</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="malandrín" sex="MALE">
@@ -96,6 +118,9 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lindabridis" sex="FEMALE">
             <persName>Lindabridis</persName>
@@ -105,17 +130,26 @@
             <trait source="rolecall">
               <desc>travestido</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
             <persName>Sirene</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="arminda" sex="FEMALE">
             <persName>Arminda</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="claridiana" sex="FEMALE">
@@ -126,6 +160,9 @@
             <trait source="rolecall">
               <desc>travestido</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1</persName>
@@ -135,12 +172,21 @@
           </personGrp>
           <person xml:id="criado" sex="MALE">
             <persName>Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="caballero-1" sex="MALE">
             <persName>Caballero 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="caballero-2" sex="MALE">
             <persName>Caballero 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -149,17 +195,20 @@
           <term source="dracor" type="genreTitle">comedia novelesca</term>
           <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -242,7 +291,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale FAUNO, vestido de pieles y con un bastón grande y nudoso, lo más extraño y feroz que pueda, y tras él don ROSICLER con espada desnuda</stage>
+          <stage>Sale FAUNO, vestido de pieles y con un bastón grande y nudoso, lo más extraño y
+            feroz que pueda, y tras él don ROSICLER con espada desnuda</stage>
           <sp who="#rosicler">
             <speaker rend="caps">Rosicler</speaker>
 
@@ -357,7 +407,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Luchan los dos sobre cuál ha de entrar, suenan dentro cajas, clarines y voces, y los dos, al oírlo, se suspenden</stage>
+          <stage>Luchan los dos sobre cuál ha de entrar, suenan dentro cajas, clarines y voces, y
+            los dos, al oírlo, se suspenden</stage>
           <sp who="#voces">
             <speaker rend="caps">Voces</speaker>
 
@@ -488,7 +539,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Salen todas las damas que puedan, SIRENE, ARMINDA y LINDABRIDIS, vestidas ricamente, y traerá ARMINDA una rodela, y en ella un cartel</stage>
+          <stage>Salen todas las damas que puedan, SIRENE, ARMINDA y LINDABRIDIS, vestidas
+            ricamente, y traerá ARMINDA una rodela, y en ella un cartel</stage>
           <sp who="#lindabridis">
             <speaker rend="caps">Lindabridis</speaker>
 
@@ -2481,7 +2533,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Vase. Ábrese el castillo y salen, como a un jardín que estará fingido dentro de él, LINDABRIDIS, SIRENE, ARMINDA, y las damas, dejando abierta la cueva del FAUNO</stage>
+          <stage>Vase. Ábrese el castillo y salen, como a un jardín que estará fingido dentro de él,
+            LINDABRIDIS, SIRENE, ARMINDA, y las damas, dejando abierta la cueva del FAUNO</stage>
           <sp who="#coro-1">
             <speaker rend="caps">Coro 1</speaker>
 
@@ -3127,7 +3180,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Entra y cierra el castillo, que desaparece, y queda el teatro como antes estaba. Sale MALANDRÍN</stage>
+          <stage>Entra y cierra el castillo, que desaparece, y queda el teatro como antes estaba.
+            Sale MALANDRÍN</stage>
           <sp who="#malandrín">
             <speaker rend="caps">Malandrín</speaker>
 
@@ -3377,7 +3431,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>Escóndese con el caballo entre los bastidores. Se descubre una tienda de campaña, de donde sale MERIDIÁN armado, con acompañamiento, y por otro lado el rey LICANOR, viejo, y hacen al salir unos y otros salva de caja y clarín</stage>
+          <stage>Escóndese con el caballo entre los bastidores. Se descubre una tienda de campaña,
+            de donde sale MERIDIÁN armado, con acompañamiento, y por otro lado el rey LICANOR,
+            viejo, y hacen al salir unos y otros salva de caja y clarín</stage>
           <sp who="#meridián">
             <speaker rend="caps">Meridián</speaker>
 
@@ -4551,7 +4607,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Vanse. Suena música, ábrese el castillo, como primero, y salen LINDABRIDIS, SIRENE, ARMINDA, y las damas</stage>
+          <stage>Vanse. Suena música, ábrese el castillo, como primero, y salen LINDABRIDIS, SIRENE,
+            ARMINDA, y las damas</stage>
           <sp who="#lindabridis">
             <speaker rend="caps">Lindabridis</speaker>
 
@@ -4624,7 +4681,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="28">
-          <stage>Vanse sentando cada uno junto a una dama [FLORISEO con SIRENE, ROSICLER con ARMINDA, y FEBO con LINDABRIDIS]</stage>
+          <stage>Vanse sentando cada uno junto a una dama [FLORISEO con SIRENE, ROSICLER con
+            ARMINDA, y FEBO con LINDABRIDIS]</stage>
           <sp who="#floriseo">
             <speaker rend="caps">Floriseo</speaker>
 
@@ -4752,7 +4810,9 @@
 
             <l>¡Atención, que desde aquí</l>
             <l>empieza la otra jornada!</l>
-            <stage>Puso el autor aquí este sarao, para que, dilatándose en las mudanzas lo que pareciere, sirva de sainete, en lugar del que se estila hacer entre las dos jornadas</stage>
+            <stage>Puso el autor aquí este sarao, para que, dilatándose en las mudanzas lo que
+              pareciere, sirva de sainete, en lugar del que se estila hacer entre las dos
+              jornadas</stage>
           </sp>
         </div>
 
@@ -4761,7 +4821,8 @@
       <div type="act" n="3">
         <head rend="caps">Jornada Tercera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dividida la música en CORO 1 y CORO 2, cantan, saliendo a danzar caballeros y damas, como lo dicen los versos</stage>
+          <stage>Dividida la música en CORO 1 y CORO 2, cantan, saliendo a danzar caballeros y
+            damas, como lo dicen los versos</stage>
           <sp who="#coro-1">
             <speaker rend="caps">Coro 1</speaker>
 
@@ -4873,7 +4934,8 @@
             <l>me mostréis siempre constante</l>
             <l>dulce amor y firme fe.</l>
           </sp>
-          <stage>SIRENE le coge de la mano a FLORISEO, y vuelven a danzar CLARIDIANA y LINDABRIDIS</stage>
+          <stage>SIRENE le coge de la mano a FLORISEO, y vuelven a danzar CLARIDIANA y
+            LINDABRIDIS</stage>
           <sp who="#sirene">
             <speaker rend="caps">Sirene</speaker>
             <stage type="withText">Aparte</stage>
@@ -4980,7 +5042,9 @@
             <l>pues que solamente es ella</l>
             <l>la que me enseñó a querer.</l>
           </sp>
-          <stage>Estarán trabados los lazos, danzando en medio los más que puedan, y en las cuatro esquinas ROSICLER, FEBO, MERIDIÁN, y LICANOR en pie; y empiezan todos otra diferencia de tañido</stage>
+          <stage>Estarán trabados los lazos, danzando en medio los más que puedan, y en las cuatro
+            esquinas ROSICLER, FEBO, MERIDIÁN, y LICANOR en pie; y empiezan todos otra diferencia de
+            tañido</stage>
           <sp who="#coro-1">
             <speaker rend="caps">Coro 1</speaker>
 
@@ -5910,7 +5974,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Vanse. Salen por un lado FAUNO y MALANDRÍN, y síguenlos FEBO, MERIDIÁN, ROSICLER y FLORISEO, CABALLERO y el rey LICANOR deteniéndolos</stage>
+          <stage>Vanse. Salen por un lado FAUNO y MALANDRÍN, y síguenlos FEBO, MERIDIÁN, ROSICLER y
+            FLORISEO, CABALLERO y el rey LICANOR deteniéndolos</stage>
           <sp who="#fauno">
             <speaker rend="caps">Fauno</speaker>
 
@@ -7353,7 +7418,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="36">
-          <stage>Vase. Descúbrese el rey LICANOR en un trono; sale MERIDIÁN de su tienda, y hacen la entrada por el palenque FEBO, FLORISEO, el FAUNO, ROSICLER, CLARIDIANA y LINDABRIDIS, todos con armas, y delante CRIADOS con los escudos, como han dicho los versos; y, en llegando delante de LICANOR, hacen reverencia y ocupan sus puestos</stage>
+          <stage>Vase. Descúbrese el rey LICANOR en un trono; sale MERIDIÁN de su tienda, y hacen la
+            entrada por el palenque FEBO, FLORISEO, el FAUNO, ROSICLER, CLARIDIANA y LINDABRIDIS,
+            todos con armas, y delante CRIADOS con los escudos, como han dicho los versos; y, en
+            llegando delante de LICANOR, hacen reverencia y ocupan sus puestos</stage>
           <sp who="#licanor">
             <speaker rend="caps">Licanor</speaker>
 
@@ -7374,7 +7442,8 @@
             <l>¿Qué esperáis? Ya Meridián,</l>
             <l>aventureros, aguarda.</l>
           </sp>
-          <stage>Repártense a un lado LINDABRIDIS, CLARIDIANA y MERIDIÁN; a otro ROSICLER, FEBO y FLORISEO, y el FAUNO en medio</stage>
+          <stage>Repártense a un lado LINDABRIDIS, CLARIDIANA y MERIDIÁN; a otro ROSICLER, FEBO y
+            FLORISEO, y el FAUNO en medio</stage>
           <sp who="#fauno">
             <speaker rend="caps">Fauno</speaker>
 

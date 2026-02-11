@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000040" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-16">
           <time when="07:57:42"/>
@@ -35,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/las-visiones-de-la-muerte-mojiganga--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/las-visiones-de-la-muerte-mojiganga--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de Entremeses, jácaras y mojigangas, Madrid, Castalia, 1983, pp. 371-384. Edición, introducción y notas de Evangelina Rodríguez y Antonio Tordera</title>
+            <title>Edición digital a partir de Entremeses, jácaras y mojigangas, Madrid, Castalia,
+              1983, pp. 371-384. Edición, introducción y notas de Evangelina Rodríguez y Antonio
+              Tordera</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,36 +51,64 @@
         <listPerson>
           <person xml:id="carretero" sex="MALE">
             <persName>Un Carretero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="autor" sex="MALE">
             <persName>Un Autor</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alma" sex="MALE">
             <persName>El Alma</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="cuerpo" sex="MALE">
             <persName>El Cuerpo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp xml:id="gallegos" sex="MALE">
             <persName>Unos gallegos</persName>
           </personGrp>
           <person xml:id="caminante" sex="MALE">
             <persName>Un Caminante</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ángel" sex="MALE">
             <persName>Un Ángel</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="demonio" sex="MALE">
             <persName>El Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="muerte" sex="FEMALE">
             <persName>La Muerte</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp xml:id="gitanos" sex="MALE">
             <persName>Gitanos</persName>
           </personGrp>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -91,12 +123,14 @@
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -108,7 +142,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000040" passive="http://www.wikidata.org/entity/Q69032190"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000040"
+        passive="http://www.wikidata.org/entity/Q69032190"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -135,7 +170,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage type="unassigned">[Músicos] Dentro música, y castañetas e instrumentos, y sale el CARRETERO.</stage>
+          <stage type="unassigned">[Músicos] Dentro música, y castañetas e instrumentos, y sale el
+            CARRETERO.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l> Vaya de fiesta, vaya de gira, </l>

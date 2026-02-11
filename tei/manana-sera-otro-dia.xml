@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000136" xml:lang="es">
   <teiHeader>
@@ -51,11 +51,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-luis">
             <persName>Don Luis</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="juana">
@@ -63,11 +69,17 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="elvira">
             <persName>Elvira</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="don-juan">
@@ -75,32 +87,56 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="leonor">
             <persName>Leonor</persName>
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="capitan">
             <persName>Capitán</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="dentro">
             <persName>Dentro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-diego">
             <persName>Don Diego</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="fabio">
             <persName>Fabio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="otro">
             <persName>Otro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-fernando">
             <persName>Don Fernando</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="roque">
@@ -108,24 +144,45 @@
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="alguacil">
             <persName>Alguacil</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pedro">
             <persName>Pedro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="isabel">
             <persName>Isabel</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="escudero">
             <persName>Escudero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="ines">
             <persName>Inés</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="uno">
             <persName>Uno</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -134,17 +191,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -1389,7 +1449,8 @@
             <l n="705"> yo, que viendo esa ventaja, </l>
             <l part="I"> le defenderé. </l>
           </sp>
-          <sp who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
+          <sp
+            who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
             <speaker> TODOS </speaker>
             <l part="F"> ¿Qué es esto? </l>
           </sp>
@@ -1414,7 +1475,8 @@
             <l> ¡Vive Dios que he de morir </l>
             <l part="I"> en venganza! </l>
           </sp>
-          <sp who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
+          <sp
+            who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
             <speaker> TODOS </speaker>
             <l part="F"> Deteneos </l>
             <l part="I"> a la justicia. </l>
@@ -5841,7 +5903,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage> Vanse. Sale por una puerta Elvira con manto y por otra doña Beatriz sin él, y Juana. </stage>
+          <stage> Vanse. Sale por una puerta Elvira con manto y por otra doña Beatriz sin él, y
+            Juana. </stage>
           <sp who="#beatriz">
             <speaker> BEATRIZ </speaker>
             <l> Desde el punto que te vi, </l>
@@ -6974,7 +7037,8 @@
         </div>
         <div type="scene" resp="#rojas" n="21">
           <stage> Salen todos los que pudieren. </stage>
-          <sp who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
+          <sp
+            who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
             <speaker> TODOS </speaker>
             <l part="I"> Estos son. </l>
           </sp>

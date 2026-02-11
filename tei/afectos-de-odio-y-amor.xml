@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000003" xml:lang="es">
   <teiHeader>
@@ -21,7 +21,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-28">
           <time when="16:58:37"/>
@@ -34,9 +35,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/afectos-de-odio-y-amor--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/afectos-de-odio-y-amor--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Tercera parte de Comedias de don Pedro Calderón de la Barca, Madrid, Por Domingo García Morràs, a costa de Domingo Palacio y Villegas, 1664. Localización: Base de Datos de Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros</title>
+            <title>Edición digital a partir de la Tercera parte de Comedias de don Pedro Calderón de
+              la Barca, Madrid, Por Domingo García Morràs, a costa de Domingo Palacio y Villegas,
+              1664. Localización: Base de Datos de Teatro Español del Siglo de Oro (TESO).
+              Autorizada por Evangelina Rodríguez Cuadros</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -49,11 +54,17 @@
             <trait source="#calderondigital">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="casimiro" sex="MALE">
             <persName>Casimiro</persName>
             <trait source="#calderondigital">
               <desc>duque</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="federico" sex="MALE">
@@ -61,17 +72,26 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="roberto" sex="MALE">
             <persName>Roberto</persName>
             <trait source="#calderondigital">
               <desc>traidor</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="arnesto" sex="MALE">
             <persName>Arnesto</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="turín" sex="MALE">
@@ -82,11 +102,17 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="auristela" sex="FEMALE">
             <persName>Auristela</persName>
             <trait source="#calderondigital">
               <desc>hermana</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="cristerna" sex="FEMALE">
@@ -94,11 +120,17 @@
             <trait source="#calderondigital">
               <desc>reina</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lesbia" sex="FEMALE">
             <persName>Lesbia</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
@@ -106,21 +138,36 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nise" sex="FEMALE">
             <persName>Nise</persName>
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-3" sex="MALE">
             <persName>Soldado 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -129,17 +176,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -151,7 +201,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000003" passive="http://www.wikidata.org/entity/Q50307358"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000003"
+        passive="http://www.wikidata.org/entity/Q50307358"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -984,7 +1035,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Cajas y trompetas, y salgan las mujeres que puedan, todas con plumas y espadas, y detrás CRISTERNA, con bengala.</stage>
+          <stage>Cajas y trompetas, y salgan las mujeres que puedan, todas con plumas y espadas, y
+            detrás CRISTERNA, con bengala.</stage>
           <sp who="#cristerna">
             <speaker>CRISTERNA</speaker>
             <l>En tanto que enamorado,</l>
@@ -3249,7 +3301,8 @@
             <l>Traidor, matándote a ti</l>
             <l>y prendiendo a ella después.</l>
           </sp>
-          <stage>Dale con una daga, cae dentro; quítase la banda y se la echa a AURISTELA al rostro.</stage>
+          <stage>Dale con una daga, cae dentro; quítase la banda y se la echa a AURISTELA al
+            rostro.</stage>
           <sp who="#roberto">
             <speaker>ROBERTO</speaker>
             <l part="I">¡Muerto soy!</l>
@@ -4462,7 +4515,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="32">
-          <stage>Al entrarse cada uno por su puerta, topa AURISTELA con SIGISMUNDO, y CASIMIRO con CRISTERNA.</stage>
+          <stage>Al entrarse cada uno por su puerta, topa AURISTELA con SIGISMUNDO, y CASIMIRO con
+            CRISTERNA.</stage>
           <sp who="#cristerna">
             <speaker>CRISTERNA</speaker>
             <l n="1225" part="F">Suspende el paso.</l>
@@ -4582,7 +4636,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="33">
-          <stage>Sale FEDERICO, y con él un paje armado con una rodela, y en ella un cartel, y el otro en la mano.</stage>
+          <stage>Sale FEDERICO, y con él un paje armado con una rodela, y en ella un cartel, y el
+            otro en la mano.</stage>
           <sp who="#federico">
             <speaker>FEDERICO</speaker>
             <l part="F">Quien habiendo</l>
@@ -5750,7 +5805,7 @@
             <l n="510">le decid. Mal me reprimo,</l>
             <l>pues cuando huye lo que estimo,</l>
             <l>se acerca lo que aborrezco.</l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
@@ -6151,7 +6206,8 @@
             <speaker>AURISTELA</speaker>
             <l>Yo a ver, oír y callar.</l>
           </sp>
-          <stage>Las chirimías, cajas y clarines, y por una parte CRISTERNA, damas y FEDERICO. Por otra, CASIMIRO, ARNESTO y acompañamiento.</stage>
+          <stage>Las chirimías, cajas y clarines, y por una parte CRISTERNA, damas y FEDERICO. Por
+            otra, CASIMIRO, ARNESTO y acompañamiento.</stage>
           <sp who="#cristerna">
             <speaker>CRISTERNA</speaker>
             <stage>[Aparte.]</stage>

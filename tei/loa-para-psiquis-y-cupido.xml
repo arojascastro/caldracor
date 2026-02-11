@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000047" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-16">
           <time when="08:00:33"/>
@@ -35,9 +36,14 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-psiquis-y-cupido-que-escribio-para-esta-villa-de-madrid--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-psiquis-y-cupido-que-escribio-para-esta-villa-de-madrid--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier. Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización: Base de datos Teatro Español del Siglo de Oro (TESO), autorizada por Evangelina Rodríguez Cuadros</title>
+            <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don
+              Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier.
+              Parte Primera, Madrid, En la Imprenta de Manuel Ruiz de Murga, 1717. Localización:
+              Base de datos Teatro Español del Siglo de Oro (TESO), autorizada por Evangelina
+              Rodríguez Cuadros</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,39 +53,91 @@
         <listPerson>
           <person xml:id="fe" sex="FEMALE">
             <persName>La Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="entendimiento" sex="MALE">
             <persName>El Entendimiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="emanuel" sex="MALE">
             <persName>Emanuel</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="gentilidad" sex="FEMALE">
             <persName>La Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="judaísmo" sex="MALE">
             <persName>El Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="afecto-de-la-gentilidad" sex="MALE">
             <persName>El Afecto de La Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="afecto-del-judaísmo" sex="MALE">
             <persName>El Afecto del Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="muerte" sex="FEMALE">
             <persName>Muerte</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="ángel" sex="MALE">
             <persName>Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="mujer-1" sex="FEMALE">
             <persName>Mujer 1</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mujer-2" sex="FEMALE">
             <persName>Mujer 2</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -93,12 +151,14 @@
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -114,7 +174,8 @@
     <front>
       <docAuthor>Pedro Calderón de la Barca</docAuthor>
       <docTitle>
-        <titlePart type="main">Loa para el auto sacramental intitulado «Psiquis y Cupido»</titlePart>
+        <titlePart type="main">Loa para el auto sacramental intitulado «Psiquis y
+          Cupido»</titlePart>
       </docTitle>
       <castList>
         <head>Personas</head>
@@ -136,7 +197,9 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale EMANUEL en cuerpo, con un cáliz y hostia encima, que traerá en la mano, y la FE con un velo sobre los ojos, y en el cáliz ha de estar preso un papel en forma de memorial, de manera que se pueda quitar con facilidad.</stage>
+          <stage>Sale EMANUEL en cuerpo, con un cáliz y hostia encima, que traerá en la mano, y la
+            FE con un velo sobre los ojos, y en el cáliz ha de estar preso un papel en forma de
+            memorial, de manera que se pueda quitar con facilidad.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>En el altar, que es hoy</l>
@@ -397,7 +460,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Sale el AFECTO DEL JUDAÍSMO en su traje y traerá en una fuente algunas de las insignias de la pasión, que después se dirán.</stage>
+          <stage>Sale el AFECTO DEL JUDAÍSMO en su traje y traerá en una fuente algunas de las
+            insignias de la pasión, que después se dirán.</stage>
           <sp who="#afecto-del-judaísmo">
             <speaker>AFECTO DEL JUDAÍSMO</speaker>
             <l part="F">Y son</l>
@@ -415,7 +479,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Sale el AFECTO DE LA GENTILIDAD en su traje y traerá en otra fuente una capa de escarlata, una espada, una corona y un cetro, dorados.</stage>
+          <stage>Sale el AFECTO DE LA GENTILIDAD en su traje y traerá en otra fuente una capa de
+            escarlata, una espada, una corona y un cetro, dorados.</stage>
           <sp who="#afecto-de-la-gentilidad">
             <speaker>AFECTO DE LA GENTILIDAD</speaker>
             <l>Y son las que trae tu afecto.</l>
@@ -521,7 +586,8 @@
             <speaker>FE</speaker>
             <l>¡Hay rigores más severos!</l>
           </sp>
-          <stage>Toma la GENTILIDAD la corona de la fuente de su AFECTO y se la pone a EMANUEL.</stage>
+          <stage>Toma la GENTILIDAD la corona de la fuente de su AFECTO y se la pone a
+            EMANUEL.</stage>
           <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l>Yo le pongo esta corona</l>
@@ -530,7 +596,8 @@
             <l>porque corresponda al cetro,</l>
             <l>con que le venero rey.</l>
           </sp>
-          <stage>Saca el JUDAÍSMO el título de la fuente de su AFECTO y le lee la GENTILIDAD, ha de estar escrito con estas cuatro letras, I.N.R.I.</stage>
+          <stage>Saca el JUDAÍSMO el título de la fuente de su AFECTO y le lee la GENTILIDAD, ha de
+            estar escrito con estas cuatro letras, I.N.R.I.</stage>
           <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Pues has dado en que ha de serlo,</l>
@@ -639,7 +706,8 @@
             <l>esta vestidura real</l>
             <l>sobre sus hombros le dejo.</l>
           </sp>
-          <stage>Toma la GENTILIDAD la capa de escarlata de la fuente de su AFECTO y se la pone a EMANUEL.</stage>
+          <stage>Toma la GENTILIDAD la capa de escarlata de la fuente de su AFECTO y se la pone a
+            EMANUEL.</stage>
           <sp who="#emanuel">
             <speaker>EMANUEL</speaker>
             <l n="250">Mucho, Gentilidad mía,</l>
@@ -710,7 +778,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Sale un ÁNGEL vestido de blanco y con insignias de resurrección, y se llega donde está EMANUEL.</stage>
+          <stage>Sale un ÁNGEL vestido de blanco y con insignias de resurrección, y se llega donde
+            está EMANUEL.</stage>
           <sp who="#emanuel">
             <speaker>EMANUEL</speaker>
             <l part="F">Aliento</l>
@@ -720,7 +789,8 @@
             <speaker>GENTILIDAD</speaker>
             <l>Que al depósito del cuerpo</l>
             <l>de Emanuel franqueaste entrada,</l>
-            <stage>Échale en los brazos del ÁNGEL a EMANUEL la GENTILIDAD y le da el ÁNGEL las insignias de resurrección, y se pone en pie EMANUEL.</stage>
+            <stage>Échale en los brazos del ÁNGEL a EMANUEL la GENTILIDAD y le da el ÁNGEL las
+              insignias de resurrección, y se pone en pie EMANUEL.</stage>
             <l n="280">a tus brazos le encomiendo,</l>
             <l>pues de la resurrección</l>
             <l>representan el concepto,</l>
@@ -748,7 +818,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Pónese la FE a la mano izquierda de EMANUEL y los que pudieren van pasando y haciendo la reverencia mientras la MÚSICA canta el himno del Tantum Ergo.</stage>
+          <stage>Pónese la FE a la mano izquierda de EMANUEL y los que pudieren van pasando y
+            haciendo la reverencia mientras la MÚSICA canta el himno del Tantum Ergo.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="295">A tan grande sacramento</l>

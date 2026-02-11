@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000034" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-22">
           <time when="13:07:05"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-primer-flor-del-carmelo--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-primer-flor-del-carmelo--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por Fernando Plata Parga procedente de la edición Calderón de la Barca, Pedro, La primer flor del Carmelo, ed. Fernando Plata Parga, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1998. ISBN: 3-931887-46-4.</title>
+            <title>Texto crítico preparado por Fernando Plata Parga procedente de la edición
+              Calderón de la Barca, Pedro, La primer flor del Carmelo, ed. Fernando Plata Parga,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1998. ISBN:
+              3-931887-46-4.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,48 +52,132 @@
         <listPerson>
           <person xml:id="abigail" sex="FEMALE">
             <persName>Abigail</persName>
+            <idno type="wikidata">Q4416778</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="david" sex="MALE">
             <persName>David</persName>
+            <idno type="wikidata">Q41370</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="luzbel" sex="FEMALE">
             <persName>Luzbel</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="simplicio" sex="MALE">
             <persName>Simplicio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="saúl" sex="MALE">
             <persName>Saúl</persName>
+            <idno type="wikidata">Q28730</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="jorán" sex="MALE">
             <persName>Jorán</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lascivia" sex="FEMALE">
             <persName>Lascivia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="liberalidad" sex="FEMALE">
             <persName>Liberalidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="castidad" sex="FEMALE">
             <persName>Castidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="goliat" sex="MALE">
             <persName>Goliat</persName>
+            <idno type="wikidata">Q192785</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="nabal" sex="MALE">
             <persName>Nabal</persName>
+            <idno type="wikidata">Q1709507</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1°</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 2°</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="avaricia" sex="MALE">
             <persName>Avaricia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -97,17 +186,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -146,7 +238,8 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen LUZBEL, trayendo asidas de las manos a la AVARICIA y la LASCIVIA, como por fuerza.</stage>
+          <stage>Salen LUZBEL, trayendo asidas de las manos a la AVARICIA y la LASCIVIA, como por
+            fuerza.</stage>
           <sp who="#avaricia">
             <speaker>AVARICIA</speaker>
             <l>¿Dónde me llevas, Luzbel?</l>
@@ -385,7 +478,8 @@
             <l>a mil! ¡Lo menos se cuenta</l>
             <l>para mí de la vitoria!</l>
             <l n="110">Allí está, a mis manos muera.</l>
-            <stage>Tocan, mira adentro del carro, y al ir a arrojar la lanza, suena un arpa y queda suspenso.</stage>
+            <stage>Tocan, mira adentro del carro, y al ir a arrojar la lanza, suena un arpa y queda
+              suspenso.</stage>
             <l>Mas, ¡ay de mí!, que esta dulce</l>
             <l>música, que a mi oido suena,</l>
             <l>de mi cólera y mi ira</l>
@@ -493,7 +587,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Dentro grita de villanos y salen la LIBERALIDAD y la CASTIDAD de villanas, bailando con otros pastores, los músicos y NABAL, vestido de mayoral, y ABIGAIL, de villana.</stage>
+          <stage>Dentro grita de villanos y salen la LIBERALIDAD y la CASTIDAD de villanas, bailando
+            con otros pastores, los músicos y NABAL, vestido de mayoral, y ABIGAIL, de
+            villana.</stage>
           <sp who="#avaricia">
             <speaker>AVARICIA</speaker>
             <l>Voces de música y fiesta.</l>
@@ -1091,7 +1187,8 @@
           <sp who="#simplicio">
             <speaker>SIMPLICIO</speaker>
             <l part="M">¿Se burla?</l>
-            <stage>Aprieta a correr y como llamando le dan el vestido y él le va reconociendo.</stage>
+            <stage>Aprieta a correr y como llamando le dan el vestido y él le va
+              reconociendo.</stage>
           </sp>
           <sp who="#jorán">
             <speaker>JORÁN</speaker>
@@ -1291,7 +1388,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Vase y vestida de villana, salen la AVARICIA y NABAL, como hablando en secreto.</stage>
+          <stage>Vase y vestida de villana, salen la AVARICIA y NABAL, como hablando en
+            secreto.</stage>
           <sp who="#avaricia">
             <speaker>AVARICIA</speaker>
             <l>Esto te digo, movida</l>
@@ -1827,7 +1925,9 @@
             <l>Yo entraré, por si la pierdo</l>
             <l n="845">el temor que la he cobrado.</l>
           </sp>
-          <stage>Siéntanse SIMPLICIO en medio; ABIGAIL, a mano derecha; luego la CASTIDAD, luego la LIBERALIDAD; al otro lado, la AVARICIA, luego la LASCIVIA, luego LUZBEL y los Músicos.</stage>
+          <stage>Siéntanse SIMPLICIO en medio; ABIGAIL, a mano derecha; luego la CASTIDAD, luego la
+            LIBERALIDAD; al otro lado, la AVARICIA, luego la LASCIVIA, luego LUZBEL y los
+            Músicos.</stage>
           <sp who="#simplicio">
             <speaker>SIMPLICIO</speaker>
             <l>¡Ea, en rueda nos sentemos!</l>
@@ -2808,7 +2908,14 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="31">
-          <stage>La Música en un lado y las cajas en otro, suenan a un mismo tiempo, y salen ABIGAIL, ricamente vestida; la CASTIDAD, con un canastillo y en él unos panes; la LIBERALIDAD, con una salva y en ella una redoma de vino y la LASCIVIA y la AVARICIA toman a la puerta unas fuentes de fruta y flores y se introducen en su acompañamiento; SIMPLICIO trae un cordero, y todos con toallas en los hombros, y los músicos cantando. Salen de otro lado los que pudieren con DAVID y JORÁN; LUZBEL se introduce con ellos y los unos y los otros dan vuelta al tablado, sin mezclarse con los otros, y representan, como no viéndose, cada uno aparte con su bando.</stage>
+          <stage>La Música en un lado y las cajas en otro, suenan a un mismo tiempo, y salen
+            ABIGAIL, ricamente vestida; la CASTIDAD, con un canastillo y en él unos panes; la
+            LIBERALIDAD, con una salva y en ella una redoma de vino y la LASCIVIA y la AVARICIA
+            toman a la puerta unas fuentes de fruta y flores y se introducen en su acompañamiento;
+            SIMPLICIO trae un cordero, y todos con toallas en los hombros, y los músicos cantando.
+            Salen de otro lado los que pudieren con DAVID y JORÁN; LUZBEL se introduce con ellos y
+            los unos y los otros dan vuelta al tablado, sin mezclarse con los otros, y representan,
+            como no viéndose, cada uno aparte con su bando.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="1240">¡Venid, venid sin recelo,</l>
@@ -2927,7 +3034,8 @@
             <speaker>ABIGAIL Y MÚSICA</speaker>
             <l part="F">¡David viva!</l>
           </sp>
-          <stage>Acercándose con estos versos, representando cada uno los suyos, se miden de manera que vuelve DAVID y halla a ABIGAIL de rodillas, y el soneto le dice, suspenso.</stage>
+          <stage>Acercándose con estos versos, representando cada uno los suyos, se miden de manera
+            que vuelve DAVID y halla a ABIGAIL de rodillas, y el soneto le dice, suspenso.</stage>
           <sp who="#david">
             <speaker>DAVID</speaker>
             <l>¿Quién eres, ¡oh mujer!, que aunque rendida</l>
@@ -3061,7 +3169,8 @@
             <l>la madre de la alegría.</l>
             <l part="I">Toma tú este pan.</l>
           </sp>
-          <stage>Va tomando los platos y dándoselos a los soldados; el postrero es el pan, y vásele a dar a LUZBEL, y él se retira.</stage>
+          <stage>Va tomando los platos y dándoselos a los soldados; el postrero es el pan, y vásele
+            a dar a LUZBEL, y él se retira.</stage>
           <sp who="#luzbel">
             <speaker>LUZBEL</speaker>
             <l part="F">¿Yo el pan?</l>
@@ -3307,7 +3416,8 @@
             <l>¡Subid, subid, destruidla!</l>
             <l part="I">¡Muera, pues muero!</l>
           </sp>
-          <stage>Abrese la peña, vese la fuente y ABIGAIL, con corona y cetro, en medio de la LIBERALIDAD y la CASTIDAD.</stage>
+          <stage>Abrese la peña, vese la fuente y ABIGAIL, con corona y cetro, en medio de la
+            LIBERALIDAD y la CASTIDAD.</stage>
           <sp who="#abigail">
             <speaker>ABIGAIL</speaker>
             <l part="F">Tened</l>
@@ -3340,7 +3450,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="34">
-          <stage>Ábrese la tienda, vese SAÚL y un sacrificio de leña, da la vuelta y sale una cruz y en el brazo de ella una arpa; a la otra parte, GOLIAT, y una mesa con una tramoya en que parezca el Sacramento; al otro lado, DAVID, echado al pie del árbol.</stage>
+          <stage>Ábrese la tienda, vese SAÚL y un sacrificio de leña, da la vuelta y sale una cruz y
+            en el brazo de ella una arpa; a la otra parte, GOLIAT, y una mesa con una tramoya en que
+            parezca el Sacramento; al otro lado, DAVID, echado al pie del árbol.</stage>
           <sp who="#lascivia">
             <speaker>LASCIVIA</speaker>
             <l>David en su monte acabe</l>

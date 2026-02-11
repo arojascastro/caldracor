@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000028" xml:lang="es">
   <teiHeader>
@@ -21,7 +21,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-29">
           <time when="15:46:57"/>
@@ -34,9 +35,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-fiera-el-rayo-y-la-piedra--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-fiera-el-rayo-y-la-piedra--0/html/</idno>
           <bibl type="originalSource">
-            <title> Edición digital a partir de Tercera parte de comedias de D. Pedro Calderón de la Barca, Madrid, Por Domingo García Morràs. A costa de Domingo Palacio y Villegas, 1664. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title> Edición digital a partir de Tercera parte de comedias de D. Pedro Calderón de la
+              Barca, Madrid, Por Domingo García Morràs. A costa de Domingo Palacio y Villegas, 1664.
+              Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por
+              Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -46,38 +51,62 @@
         <listPerson>
           <person xml:id="pigmaleón" sex="MALE">
             <persName>Pigmaleón</persName>
+            <idno type="wikidata">Q192343</idno>
             <trait source="#calderondigital">
               <desc>escultor</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="cupido" sex="MALE">
             <persName>Cupido</persName>
+            <idno type="wikidata">Q5011</idno>
             <trait source="#calderondigital">
               <desc>dios</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="céfiro" sex="MALE">
             <persName>Céfiro</persName>
+            <idno type="wikidata">Q467515</idno>
             <trait source="#calderondigital">
               <desc>hijo</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="venus" sex="FEMALE">
             <persName>Venus</persName>
+            <idno type="wikidata">Q47652</idno>
             <trait source="#calderondigital">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="anteo" sex="MALE">
             <persName>Anteo</persName>
+            <idno type="wikidata">Q272006</idno>
             <trait source="#calderondigital">
               <desc>padre</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="anajarte" sex="FEMALE">
             <persName>Anajarte</persName>
+            <idno type="wikidata">Q488621</idno>
             <trait source="#calderondigital">
               <desc>princesa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="brunel" sex="MALE">
@@ -85,11 +114,18 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ifis" sex="FEMALE">
             <persName>Ifis</persName>
+            <idno type="wikidata">Q1611657</idno>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="pasquín" sex="MALE">
@@ -97,14 +133,23 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="irífile" sex="FEMALE">
             <persName>Irífile</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lebrón" sex="MALE">
             <persName>Lebrón</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lisi" sex="FEMALE">
@@ -112,11 +157,18 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="laquesis" sex="FEMALE">
             <persName>Laquesis</persName>
+            <idno type="wikidata">Q898947</idno>
             <trait source="#calderondigital">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
@@ -124,11 +176,18 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cloto" sex="MALE">
             <persName>Cloto</persName>
+            <idno type="wikidata">Q829669</idno>
             <trait source="#calderondigital">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
@@ -136,11 +195,18 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="atropos" sex="MALE">
             <persName>Atropos</persName>
+            <idno type="wikidata">Q753294</idno>
             <trait source="#calderondigital">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="isbella" sex="FEMALE">
@@ -148,29 +214,49 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="anteros" sex="MALE">
             <persName>Anteros</persName>
+            <idno type="wikidata">Q572133</idno>
             <trait source="#calderondigital">
               <desc>dios</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="fortuna" sex="FEMALE">
             <persName>Fortuna</persName>
+            <idno type="wikidata">Q4654</idno>
             <trait source="#calderondigital">
               <desc>personaje alegórico</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="sirena" sex="FEMALE">
             <persName>Sirena</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="jardinero" sex="MALE">
             <persName>Jardinero</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp xml:id="hombres" sex="MALE">
@@ -186,17 +272,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -211,7 +300,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000028" passive="http://www.wikidata.org/entity/Q5966696"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000028"
+        passive="http://www.wikidata.org/entity/Q5966696"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -219,7 +309,8 @@
       <docAuthor>Pedro Calderón de la Barca</docAuthor>
       <docTitle>
         <titlePart type="main">La fiera, el rayo y la piedra</titlePart>
-        <titlePart type="sub">Fiesta Real que se hizo a sus Majestades en el Palacio del Buen Retiro</titlePart>
+        <titlePart type="sub">Fiesta Real que se hizo a sus Majestades en el Palacio del Buen
+          Retiro</titlePart>
       </docTitle>
       <castList>
         <head>Personas que hablan en ella</head>
@@ -252,7 +343,8 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
-          <stage>Obscurécese el tablado, y mientras se dicen los primeros versos, se descubre la perspectiva del mar, con truenos y relámpagos.</stage>
+          <stage>Obscurécese el tablado, y mientras se dicen los primeros versos, se descubre la
+            perspectiva del mar, con truenos y relámpagos.</stage>
           <sp who="#pasquín">
             <speaker>PASQUÍN</speaker>
             <stage>Dentro.</stage>
@@ -479,7 +571,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Cúbrese el rostro con el cabello, y al irse a entrar, salen CÉFIRO y PASQUÍN.</stage>
+          <stage>Cúbrese el rostro con el cabello, y al irse a entrar, salen CÉFIRO y
+            PASQUÍN.</stage>
           <sp who="#céfiro">
             <speaker>CÉFIRO</speaker>
             <l part="F">Humano monstruo, espera;</l>
@@ -751,7 +844,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Vanse los tres y vuelven a salir por partes diferentes PIGMALEÓN, IFIS y CÉFIRO; cúbrese el mar y descúbrese el bosque.</stage>
+          <stage>Vanse los tres y vuelven a salir por partes diferentes PIGMALEÓN, IFIS y CÉFIRO;
+            cúbrese el mar y descúbrese el bosque.</stage>
           <sp who="#ifis #pigmaleón #céfiro">
             <speaker>LOS TRES</speaker>
             <l n="220" part="F">Monstruo, espera.</l>
@@ -945,7 +1039,9 @@
             <l>terminar a poca luz</l>
             <l>las tres deidades severas.</l>
           </sp>
-          <stage>Ábrese la gruta, y vense en lo más lejos della las tres Parcas, como las pintan: la primera con una rueca, cuyo hilo va a dar a la tercera que le devana, dejando en medio a la segunda con unas tijeras en la mano.</stage>
+          <stage>Ábrese la gruta, y vense en lo más lejos della las tres Parcas, como las pintan: la
+            primera con una rueca, cuyo hilo va a dar a la tercera que le devana, dejando en medio a
+            la segunda con unas tijeras en la mano.</stage>
           <sp who="#pasquín">
             <speaker>PASQUÍN</speaker>
             <l n="315">¡Qué miedo pone el mirarlas!</l>
@@ -1557,7 +1653,9 @@
         </div>
         <div type="scene" resp="#rojas" n="18">
           <stage>Vase.</stage>
-          <stage>Salen LISI, CLORI, LAURA y ISBELLA por una parte, con arco y flechas, y varios instrumentos en las manos; y por otra ANAJARTE, vestida de cazadora, con venablo.</stage>
+          <stage>Salen LISI, CLORI, LAURA y ISBELLA por una parte, con arco y flechas, y varios
+            instrumentos en las manos; y por otra ANAJARTE, vestida de cazadora, con
+            venablo.</stage>
           <sp who="#lisi #clori #laura #isbella">
             <speaker>LAS CUATRO</speaker>
             <l>A todas nos da a besar</l>
@@ -1808,7 +1906,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Pónense las cuatro a las cuatro puntas del tablado; retírase ANAJARTE y mientras cantan, sale IRÍFILE.</stage>
+          <stage>Pónense las cuatro a las cuatro puntas del tablado; retírase ANAJARTE y mientras
+            cantan, sale IRÍFILE.</stage>
           <sp who="#clori">
             <speaker>CLORI</speaker>
             <l>¿Cuál es la dicha mayor</l>
@@ -2088,7 +2187,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Al embestirse las dos, sale IFIS por un lado, y abrázase con ANAJARTE, y CÉFIRO por otra, y abrázase con IRÍFILE.</stage>
+          <stage>Al embestirse las dos, sale IFIS por un lado, y abrázase con ANAJARTE, y CÉFIRO por
+            otra, y abrázase con IRÍFILE.</stage>
           <sp who="#ifis">
             <speaker>IFIS</speaker>
             <l part="I">Deidad, tente.</l>
@@ -7279,7 +7379,8 @@
             <l>sala habiendo de justicia</l>
             <l n="720">en los orbes celestiales.</l>
           </sp>
-          <stage>Vense en lo alto VENUS a un lado, ANTEROS con un coro de música, y a otro, CUPIDO con arco caro, y todo esto cantado.</stage>
+          <stage>Vense en lo alto VENUS a un lado, ANTEROS con un coro de música, y a otro, CUPIDO
+            con arco caro, y todo esto cantado.</stage>
           <sp who="#venus">
             <speaker>VENUS</speaker>
             <l>Pues que todo en los cielos es armonía.</l>
@@ -7520,7 +7621,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Al irse esta apariencia, se descubre el teatro regio. Salen LEBRÓN, PASQUÍN y BRUNEL.</stage>
+          <stage>Al irse esta apariencia, se descubre el teatro regio. Salen LEBRÓN, PASQUÍN y
+            BRUNEL.</stage>
           <sp who="#lebrón">
             <speaker>LEBRÓN</speaker>
             <l>Aquí la habéis de poner.</l>
@@ -7622,7 +7724,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Salen los que pueden, vestidos de villanos, mujeres y hombres, cantando y bailando, con instrumentos diferentes; detrás en un carro la estatua, y a su lado PIGMALEÓN.</stage>
+          <stage>Salen los que pueden, vestidos de villanos, mujeres y hombres, cantando y bailando,
+            con instrumentos diferentes; detrás en un carro la estatua, y a su lado
+            PIGMALEÓN.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Si es lo hermoso el objeto</l>
@@ -8046,7 +8150,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Sale todo el acompañamiento que pudiere. Detrás CÉFIRO, IRÍFILE, ANTEO, IFIS y PIGMALEÓN.</stage>
+          <stage>Sale todo el acompañamiento que pudiere. Detrás CÉFIRO, IRÍFILE, ANTEO, IFIS y
+            PIGMALEÓN.</stage>
           <sp who="#ifis">
             <speaker>IFIS</speaker>
             <l>En albricias de tu vida</l>
@@ -8471,7 +8576,8 @@
         </div>
         <div type="scene" resp="#rojas" n="26">
           <stage>Vanse las dos.</stage>
-          <sp who="#anajarte #anteros #cupido #pasquín #céfiro #pigmaleón #irífile #ifis #anteo #música">
+          <sp
+            who="#anajarte #anteros #cupido #pasquín #céfiro #pigmaleón #irífile #ifis #anteo #música">
             <speaker>TODOS</speaker>
             <l>Retirémosle de aquí.</l>
           </sp>
@@ -8505,8 +8611,11 @@
             <l>la fortuna del amor,</l>
             <l>cantando segunda vez...</l>
           </sp>
-          <stage>Aquí se descubre la máscara, repartida en dos coros de música de siete voces cada uno; cada uno cuatro mujeres y tres hombres, y en una tropa de doce mujeres que son las que han de danzar, y en lo alto la FORTUNA.</stage>
-          <sp who="#anajarte #anteros #cupido #pasquín #céfiro #pigmaleón #lebrón #irífile #ifis #anteo #música #hombres #mujeres">
+          <stage>Aquí se descubre la máscara, repartida en dos coros de música de siete voces cada
+            uno; cada uno cuatro mujeres y tres hombres, y en una tropa de doce mujeres que son las
+            que han de danzar, y en lo alto la FORTUNA.</stage>
+          <sp
+            who="#anajarte #anteros #cupido #pasquín #céfiro #pigmaleón #lebrón #irífile #ifis #anteo #música #hombres #mujeres">
             <speaker>TODOS</speaker>
             <l n="1305">¡Muera, muera el Amor vendado y ciego!</l>
             <l>¡Viva el correspondido Amor perfecto!</l>

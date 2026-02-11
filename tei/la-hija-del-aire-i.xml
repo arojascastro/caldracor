@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000117" xml:lang="es">
   <teiHeader>
@@ -33,9 +33,20 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-hija-del-aire--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-hija-del-aire--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Tercera parte de Comedias de D. Pedro Calderón de la Barca. En Madrid, por Domingo García Morrás, 1664 y cotejada con la edición crítica de Francisco Ruiz Ramón (Madrid, Cátedra, 1987, pp. 67-195). En esta última edición, cuya consulta recomendamos para la correcta apreciación crítica de la obra, se incorporan variantes procedentes de la edición preparada por Juan de Vera Tassís y Villarroel (En Madrid, por Francisco Sanz, 1678). Hemos asumido algunas de ellas, al mismo tiempo que, con respecto a la edición de Francisco Ruiz Ramón, hemos modificado un total de cuarenta y siete versos para corregir erratas y modificar la puntuación, fundamentalmente. Asimismo, hemos utilizado distintos criterios en algunos de los apartes. Modernizamos la ortografía, la acentuación y la puntuación. Las acotaciones que no figuran en las ediciones de 1664 y 1678 van entre corchetes.</title>
+            <title>Edición digital a partir de la Tercera parte de Comedias de D. Pedro Calderón de
+              la Barca. En Madrid, por Domingo García Morrás, 1664 y cotejada con la edición crítica
+              de Francisco Ruiz Ramón (Madrid, Cátedra, 1987, pp. 67-195). En esta última edición,
+              cuya consulta recomendamos para la correcta apreciación crítica de la obra, se
+              incorporan variantes procedentes de la edición preparada por Juan de Vera Tassís y
+              Villarroel (En Madrid, por Francisco Sanz, 1678). Hemos asumido algunas de ellas, al
+              mismo tiempo que, con respecto a la edición de Francisco Ruiz Ramón, hemos modificado
+              un total de cuarenta y siete versos para corregir erratas y modificar la puntuación,
+              fundamentalmente. Asimismo, hemos utilizado distintos criterios en algunos de los
+              apartes. Modernizamos la ortografía, la acentuación y la puntuación. Las acotaciones
+              que no figuran en las ediciones de 1664 y 1678 van entre corchetes.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,23 +59,37 @@
             <trait source="#calderondigital">
               <desc>general</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisías" sex="MALE">
             <persName>Lisías</persName>
             <trait source="#calderondigital">
               <desc>gobernador</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tiresias" sex="MALE">
             <persName>Tiresias</persName>
+            <idno type="wikidata">Q656881</idno>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="nino" sex="MALE">
             <persName>Nino</persName>
+            <idno type="wikidata">Q1152356</idno>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="arsidas" sex="MALE">
@@ -72,11 +97,17 @@
             <trait source="#calderondigital">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="floro" sex="MALE">
             <persName>Floro</persName>
             <trait source="#calderondigital">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="chato" sex="MALE">
@@ -84,11 +115,18 @@
             <trait source="#calderondigital">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="semíramis" sex="FEMALE">
             <persName>Semíramis</persName>
+            <idno type="wikidata">Q103960</idno>
             <trait source="#calderondigital">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="irene" sex="FEMALE">
@@ -96,11 +134,17 @@
             <trait source="#calderondigital">
               <desc>hermana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="silvia" sex="FEMALE">
             <persName>Silvia</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
@@ -108,21 +152,33 @@
             <trait source="#calderondigital">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libio" sex="MALE">
             <persName>Libio</persName>
             <trait source="#calderondigital">
               <desc>amigo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Un Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="músicos">
             <persName>Músicos</persName>
           </personGrp>
           <person xml:id="acompañamiento" sex="MALE">
             <persName>Acompañamiento</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -131,17 +187,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -206,7 +265,8 @@
             <l> vuelva el valeroso Nino </l>
             <l> a los montes de Ascalón. </l>
           </sp>
-          <stage>Ha de haber una puerta de una gruta al lado izquierdo, y dentro den golpes, y dice SEMÍRAMIS dentro.</stage>
+          <stage>Ha de haber una puerta de una gruta al lado izquierdo, y dentro den golpes, y dice
+            SEMÍRAMIS dentro.</stage>
           <sp who="#semíramis">
             <speaker>SEMÍRAMIS</speaker>
             <l> Tiresias, abre esta puerta, </l>
@@ -216,7 +276,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale TIRESIAS, viejo, vestido de pieles largas, como sacerdote antiguo y dice los versos siguientes, con admiración.</stage>
+          <stage>Sale TIRESIAS, viejo, vestido de pieles largas, como sacerdote antiguo y dice los
+            versos siguientes, con admiración.</stage>
           <sp who="#tiresias">
             <speaker>TIRESIAS</speaker>
             <l> Allí trompetas y cajas, </l>
@@ -514,7 +575,8 @@
             <l> Venus, prevenido en este </l>
             <l n="200"> raro prodigio de amor. </l>
           </sp>
-          <stage>Las cajas y soldados por una puerta; NINO, REY, y MENÓN, GENERAL, e IRENE con espada y plumas; MÚSICOS vestidos de villanos; LISÍAS, CHATO y SIRENE.</stage>
+          <stage>Las cajas y soldados por una puerta; NINO, REY, y MENÓN, GENERAL, e IRENE con
+            espada y plumas; MÚSICOS vestidos de villanos; LISÍAS, CHATO y SIRENE.</stage>
           <sp who="#lisías">
             <speaker>LISÍAS</speaker>
             <l> Vuelvas felizmente, </l>
@@ -6377,7 +6439,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Descúbrese un trono y en él, sentados, NINO y SEMÍRAMIS; IRENE, ARSIDAS y gente.</stage>
+          <stage>Descúbrese un trono y en él, sentados, NINO y SEMÍRAMIS; IRENE, ARSIDAS y
+            gente.</stage>
           <sp who="#nino">
             <speaker>NINO</speaker>
             <l> ¡Viva! Y de aqueste eminente </l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000176" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/37389</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de A. Robert Lauer, Pamplona– Kassel, Universidad de Navarra–Reichenberger, 2012. ISBN: 978-3-937734-95-8.</title>
+            <title>Edición digital a partir de la edición de A. Robert Lauer, Pamplona– Kassel,
+              Universidad de Navarra–Reichenberger, 2012. ISBN: 978-3-937734-95-8.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,60 +49,123 @@
         <listPerson>
           <person sex="MALE" xml:id="gentilismo">
             <persName>Gentilismo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="FEMALE" xml:id="inspiracion">
             <persName>Inspiración</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="idolatria">
             <persName>Idolatría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Voces</persName>
           </personGrp>
           <person sex="MALE" xml:id="hebraismo">
             <persName>Hebraísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sinagoga">
             <persName>Sinagoga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pesar">
             <persName>Pesar</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="placer">
             <persName>Placer</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="naturaleza">
             <persName>Naturaleza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="villano-1">
             <persName>Villano 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="villano-2">
             <persName>Villano 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pastor-1">
             <persName>Pastor 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pastor-2">
             <persName>Pastor 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="villana-1">
             <persName>Villana 1.ª</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="arabia">
             <persName>Arabia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="tarsis">
             <persName>Tarsis</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="saba">
             <persName>Sabá</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="zagal">
             <persName>Zagal</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -110,17 +174,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -158,7 +225,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Ábrese un carro, y vese pintada una librería, y enmedio un bufete, y sentado a él como leyendo el Gentilismo vestido a lo indio</stage>
+          <stage>Ábrese un carro, y vese pintada una librería, y enmedio un bufete, y sentado a él
+            como leyendo el Gentilismo vestido a lo indio</stage>
           <sp who="#gentilismo">
             <speaker>GENTILISMO</speaker>
             <l>¡Oh nunca el natural instinto hubiera</l>
@@ -323,7 +391,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vase Al entrarse con esta repetición, sale la Idolatría, vestida a lo indio, y despertando el Gentilismo como despavorido, baja al tablado, con que dando a entender que va tras la una y se halla abrazado con la otra</stage>
+          <stage>Vase Al entrarse con esta repetición, sale la Idolatría, vestida a lo indio, y
+            despertando el Gentilismo como despavorido, baja al tablado, con que dando a entender
+            que va tras la una y se halla abrazado con la otra</stage>
           <sp who="#gentilismo">
             <speaker>GENTILISMO</speaker>
             <l>Divina iluminación,</l>
@@ -709,7 +779,9 @@
             <l n="435">Llega y lo que confieren</l>
             <l>en esto Sinagoga y pueblo escucha.</l>
           </sp>
-          <stage>Ábrese otro carro que será un peñasco, y vese dentro otra librería, y en otro bufete y con otros libros, sentados Sinagoga y Hebraísmo vestidos a lo judío. El terremoto.</stage>
+          <stage>Ábrese otro carro que será un peñasco, y vese dentro otra librería, y en otro
+            bufete y con otros libros, sentados Sinagoga y Hebraísmo vestidos a lo judío. El
+            terremoto.</stage>
           <sp who="#hebraismo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Una sacra autoridad,</l>
@@ -1169,7 +1241,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Vase Con esta repetición salen en tropa Villanos y VILLANAS, y entre ellos la NATURALEZA, el PESAR y el PLACER, cantando y bailando</stage>
+          <stage>Vase Con esta repetición salen en tropa Villanos y VILLANAS, y entre ellos la
+            NATURALEZA, el PESAR y el PLACER, cantando y bailando</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Ven, oh peregrino, ven,</l>
@@ -1525,7 +1598,8 @@
             <l n="885" part="F">Sea</l>
             <l>repitiendo en voces altas…</l>
           </sp>
-          <sp who="#inspiracion #idolatria #gentilismo #villano-1 #villano-2 #placer #pesar #musicos #naturaleza #sinagoga #hebraismo #pastor-1 #pastor-2">
+          <sp
+            who="#inspiracion #idolatria #gentilismo #villano-1 #villano-2 #placer #pesar #musicos #naturaleza #sinagoga #hebraismo #pastor-1 #pastor-2">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>A la reina del pueblo escogido,</l>
             <l>deidad soberana,…</l>
@@ -1660,7 +1734,8 @@
             <l>en unido maridaje</l>
             <l>trenzas de oro y lazos de ámbar!</l>
           </sp>
-          <sp who="#inspiracion #idolatria #gentilismo #villano-1 #villano-2 #acompanamiento #musicos #pastor-1 #pastor-2 #sinagoga #hebraismo #pesar #naturaleza #placer #villana-1">
+          <sp
+            who="#inspiracion #idolatria #gentilismo #villano-1 #villano-2 #acompanamiento #musicos #pastor-1 #pastor-2 #sinagoga #hebraismo #pesar #naturaleza #placer #villana-1">
             <speaker>TODOS</speaker>
             <l>A todos pone en respecto</l>
             <l n="930">de humillarnos a sus plantas.</l>
@@ -1787,7 +1862,8 @@
             <l n="1000">Dice bien; otra y mil veces</l>
             <l>diga el eco en voces varias:</l>
           </sp>
-          <sp who="#inspiracion #idolatria #villano-1 #villano-2 #acompanamiento #pastor-1 #pastor-2 #sinagoga #hebraismo #placer #pesar #musicos #gentilismo #villana-1 #naturaleza">
+          <sp
+            who="#inspiracion #idolatria #villano-1 #villano-2 #acompanamiento #pastor-1 #pastor-2 #sinagoga #hebraismo #placer #pesar #musicos #gentilismo #villana-1 #naturaleza">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Pues en virgen tierra adoro</l>
             <l>el tesoro que en sí encierra,</l>
@@ -2635,7 +2711,8 @@
             <l>Vamos, diciendo contigo,</l>
             <l>pues oyes tú sus acentos…</l>
           </sp>
-          <sp who="#musicos #villano-1 #villano-2 #acompanamiento #pastor-1 #pastor-2 #sinagoga #hebraismo #placer #pesar #villana-1 #naturaleza #idolatria #inspiracion #arabia #tarsis #saba #gentilismo">
+          <sp
+            who="#musicos #villano-1 #villano-2 #acompanamiento #pastor-1 #pastor-2 #sinagoga #hebraismo #placer #pesar #villana-1 #naturaleza #idolatria #inspiracion #arabia #tarsis #saba #gentilismo">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Venid, mortales, venid,</l>
             <l>venid en mi seguimiento;</l>
@@ -2771,7 +2848,8 @@
             <l>pues ya en nuestros corazones</l>
             <l>suenan sin su voz sus ecos,…</l>
           </sp>
-          <sp who="#musicos #villano-1 #villano-2 #acompanamiento #pastor-1 #pastor-2 #sinagoga #hebraismo #placer #pesar #villana-1 #naturaleza #arabia #tarsis #saba #inspiracion #idolatria #gentilismo">
+          <sp
+            who="#musicos #villano-1 #villano-2 #acompanamiento #pastor-1 #pastor-2 #sinagoga #hebraismo #placer #pesar #villana-1 #naturaleza #arabia #tarsis #saba #inspiracion #idolatria #gentilismo">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Venid, mortales, venid,</l>
             <l n="1555">venid en mi seguimiento,</l>
@@ -2784,7 +2862,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Ciérrase el carro de la estrella; y cantando y representando se entran todos y queda la Idolatría representando, sin cesar la Música, como quien se aleja</stage>
+          <stage>Ciérrase el carro de la estrella; y cantando y representando se entran todos y
+            queda la Idolatría representando, sin cesar la Música, como quien se aleja</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l>¿Cómo, dioses, permitís</l>
@@ -2812,7 +2891,8 @@
             <l>vuelvan tristes los que agora</l>
             <l n="1585">alegres van repitiendo…</l>
           </sp>
-          <sp who="#musicos #villano-1 #villano-2 #acompanamiento #pastor-1 #pastor-2 #sinagoga #hebraismo #placer #pesar #villana-1 #naturaleza #arabia #tarsis #saba #inspiracion #gentilismo #idolatria">
+          <sp
+            who="#musicos #villano-1 #villano-2 #acompanamiento #pastor-1 #pastor-2 #sinagoga #hebraismo #placer #pesar #villana-1 #naturaleza #arabia #tarsis #saba #inspiracion #gentilismo #idolatria">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Venid, mortales, venid,</l>
             <stage>Dentro y ella</stage>
@@ -2826,7 +2906,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Con esta repetición se han de medir música y versos, de suerte que acaben juntos la escena; y salen Sinagoga y Hebraísmo como admirados cada uno por su parte</stage>
+          <stage>Con esta repetición se han de medir música y versos, de suerte que acaben juntos la
+            escena; y salen Sinagoga y Hebraísmo como admirados cada uno por su parte</stage>
           <sp who="#sinagoga #hebraismo">
             <speaker>LOS DOS</speaker>
             <l>Sobre noche tan fría,</l>
@@ -2998,7 +3079,8 @@
             <l part="F">¿Pues qué es esto</l>
             <l n="1655">que mezcla a un tiempo susto y alegría?</l>
           </sp>
-          <sp who="#musicos #villano-1 #villano-2 #pastor-1 #pastor-2 #placer #pesar #villana-1 #naturaleza #arabia #tarsis #saba #inspiracion #gentilismo #idolatria #hebraismo #sinagoga #acompanamiento">
+          <sp
+            who="#musicos #villano-1 #villano-2 #pastor-1 #pastor-2 #placer #pesar #villana-1 #naturaleza #arabia #tarsis #saba #inspiracion #gentilismo #idolatria #hebraismo #sinagoga #acompanamiento">
             <speaker>TODOS</speaker>
             <l>¿Qué más que estrellas ver al mediodía?</l>
           </sp>
@@ -3009,7 +3091,8 @@
             <speaker>LOS DOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
-          <sp who="#musicos #villano-1 #villano-2 #pastor-1 #pastor-2 #placer #pesar #villana-1 #naturaleza #arabia #tarsis #saba #inspiracion #gentilismo #idolatria #hebraismo #sinagoga #acompanamiento">
+          <sp
+            who="#musicos #villano-1 #villano-2 #pastor-1 #pastor-2 #placer #pesar #villana-1 #naturaleza #arabia #tarsis #saba #inspiracion #gentilismo #idolatria #hebraismo #sinagoga #acompanamiento">
             <speaker>TODOS</speaker>
             <l part="F">Dígalo el Placer</l>
             <l part="I">de todos.</l>
@@ -3164,7 +3247,8 @@
             <l n="1725">lo extraño de nuestros trajes</l>
             <l>a la fuga o la defensa.</l>
           </sp>
-          <sp who="#musicos #villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #naturaleza #inspiracion #idolatria #acompanamiento #placer #arabia #saba #tarsis #hebraismo #sinagoga #pesar #gentilismo">
+          <sp
+            who="#musicos #villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #naturaleza #inspiracion #idolatria #acompanamiento #placer #arabia #saba #tarsis #hebraismo #sinagoga #pesar #gentilismo">
             <speaker>TODOS</speaker>
             <l>Nuestro seguro sagrado</l>
             <l>el portal de Belén sea.</l>
@@ -3687,7 +3771,8 @@
             <speaker>LOS TRES</speaker>
             <l part="I">¿Quién causa este asombro?</l>
           </sp>
-          <stage>Ábrese el carro de la estrella, y la Inspiración encendida la hacha, baja al tablado</stage>
+          <stage>Ábrese el carro de la estrella, y la Inspiración encendida la hacha, baja al
+            tablado</stage>
           <sp who="#inspiracion">
             <speaker>INSPIRACIÓN</speaker>
             <l part="F">Yo,</l>
@@ -3973,7 +4058,8 @@
             <l n="2160">maravilla tan inmensa</l>
             <l>a luz de la Inspiración.</l>
           </sp>
-          <sp who="#villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #acompanamiento #saba #arabia #tarsis #naturaleza #musicos #zagal #sinagoga #hebraismo #gentilismo #pesar #placer #idolatria #inspiracion">
+          <sp
+            who="#villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #acompanamiento #saba #arabia #tarsis #naturaleza #musicos #zagal #sinagoga #hebraismo #gentilismo #pesar #placer #idolatria #inspiracion">
             <speaker>TODOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
@@ -4003,7 +4089,8 @@
             <l>la Humana Naturaleza,</l>
             <l>que es el arca del tesoro.</l>
           </sp>
-          <sp who="#villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #acompanamiento #saba #arabia #tarsis #naturaleza #musicos #zagal #sinagoga #hebraismo #gentilismo #pesar #placer #idolatria #inspiracion">
+          <sp
+            who="#villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #acompanamiento #saba #arabia #tarsis #naturaleza #musicos #zagal #sinagoga #hebraismo #gentilismo #pesar #placer #idolatria #inspiracion">
             <speaker>TODOS</speaker>
             <l>¿Quién afirma esa propuesta?</l>
           </sp>
@@ -4032,7 +4119,8 @@
             <speaker>GENTILISMO</speaker>
             <l>¿Qué haré yo, si tú lo crees?</l>
           </sp>
-          <sp who="#villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #acompanamiento #saba #arabia #tarsis #naturaleza #musicos #sinagoga #hebraismo #pesar #placer #inspiracion #zagal #idolatria #gentilismo">
+          <sp
+            who="#villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #acompanamiento #saba #arabia #tarsis #naturaleza #musicos #sinagoga #hebraismo #pesar #placer #inspiracion #zagal #idolatria #gentilismo">
             <speaker>TODOS</speaker>
             <l>Todos en su consecuencia</l>
             <l part="I">lo creemos.</l>
@@ -4102,14 +4190,16 @@
             <l>que perdió la Sinagoga</l>
             <l n="2230">halló la Gentilidad.</l>
           </sp>
-          <sp who="#villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #acompanamiento #musicos #sinagoga #hebraismo #zagal #idolatria #arabia #tarsis #saba #placer #pesar #naturaleza #gentilismo #inspiracion">
+          <sp
+            who="#villano-1 #villano-2 #pastor-1 #pastor-2 #villana-1 #acompanamiento #musicos #sinagoga #hebraismo #zagal #idolatria #arabia #tarsis #saba #placer #pesar #naturaleza #gentilismo #inspiracion">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>En fe de su buena estrella,</l>
             <l>el tesoro celestial</l>
             <l>que perdió la Sinagoga</l>
             <l>halló la Gentilidad.</l>
           </sp>
-          <stage>Si quid dictum contra fidem aut bonos mores quasi non dictum et omnia sub correctione Don P.º Calderón Dela Barca</stage>
+          <stage>Si quid dictum contra fidem aut bonos mores quasi non dictum et omnia sub
+            correctione Don P.º Calderón Dela Barca</stage>
         </div>
       </div>
     </body>

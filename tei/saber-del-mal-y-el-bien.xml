@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000149" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-17">
@@ -38,7 +39,10 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Saber del mal y el bien. Edición crítica de Victoriano Roncero. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano. Universidad de Navarra / Iberoamericana / Vervuert 2019 Biblioteca Áurea Hispánica 127, Comedias completas de Calderón 21</title>
+          <title>Pedro Calderón de la Barca, Saber del mal y el bien. Edición crítica de Victoriano
+            Roncero. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano. Universidad de
+            Navarra / Iberoamericana / Vervuert 2019 Biblioteca Áurea Hispánica 127, Comedias
+            completas de Calderón 21</title>
           <idno type="URL">https://doi.org/10.31819/9783964568342</idno>
         </bibl>
       </sourceDesc>
@@ -51,11 +55,17 @@
             <trait source="#calderondigital">
               <desc>enamorada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="jacinta" sex="FEMALE">
             <persName>Doña Jacinta</persName>
             <trait source="#calderondigital">
               <desc>amiga</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="hipólita" sex="FEMALE">
@@ -63,20 +73,32 @@
             <trait source="#calderondigital">
               <desc>hermana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="conde" sex="MALE">
             <persName>El Conde Don Pedro de Lara</persName>
             <trait source="#calderondigital">
               <desc>privado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="álvaro" sex="MALE">
             <persName>Don Álvaro de Ataide</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="garcía" sex="MALE">
             <persName>García</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="rey" sex="MALE">
@@ -84,11 +106,17 @@
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ordoño" sex="MALE">
             <persName>Ordoño</persName>
             <trait source="#calderondigital">
               <desc>cortesano</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="íñigo" sex="MALE">
@@ -96,11 +124,17 @@
             <trait source="#calderondigital">
               <desc>cortesano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="julio" sex="MALE">
             <persName>Julio</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
@@ -108,17 +142,26 @@
             <trait source="castlist">
               <desc>criados</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lucindo" sex="MALE">
             <persName>Lucindo</persName>
             <trait source="castlist">
               <desc>criados</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="licia" sex="FEMALE">
             <persName>Licia</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
         </listPerson>
@@ -128,17 +171,20 @@
           <term source="dracor" type="genreTitle">comedia famosa</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -179,7 +225,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage type="withText">Salen doña Hipólita, Laura y Jacinta de caza, con galas y plumas.</stage>
+          <stage type="withText">Salen doña Hipólita, Laura y Jacinta de caza, con galas y
+            plumas.</stage>
           <sp who="#laura">
             <speaker rend="caps">Laura</speaker>
 
@@ -294,7 +341,8 @@
 
             <l>¡Muera! ¡Matalde!</l>
           </sp>
-          <stage>Don Álvaro Viseo, muy herido y ensangrentado, baja despeñándose de un monte a los pies de las damas y con un pan en las manos y la espada desnuda.</stage>
+          <stage>Don Álvaro Viseo, muy herido y ensangrentado, baja despeñándose de un monte a los
+            pies de las damas y con un pan en las manos y la espada desnuda.</stage>
           <sp who="#álvaro">
             <speaker rend="caps">Álvaro</speaker>
 
@@ -666,7 +714,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vanse las damas y salen Íñigo y Ordoño, que traen preso a García, lacayo de don Álvaro.</stage>
+          <stage>Vanse las damas y salen Íñigo y Ordoño, que traen preso a García, lacayo de don
+            Álvaro.</stage>
           <sp who="#íñigo">
             <speaker rend="caps">Íñigo</speaker>
 
@@ -4831,7 +4880,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Escóndese y sale don Álvaro por una parte y Hipólita por otra [cada uno a su lado del tablado].</stage>
+          <stage>Escóndese y sale don Álvaro por una parte y Hipólita por otra [cada uno a su lado
+            del tablado].</stage>
           <sp who="#álvaro">
             <speaker rend="caps">Álvaro</speaker>
             <stage type="withText">[Aparte]</stage>
@@ -5064,7 +5114,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Al tiempo que él va a volver el rostro para hablar al rey, sale el Conde y túrbase si quiere y, si no, no.</stage>
+          <stage>Al tiempo que él va a volver el rostro para hablar al rey, sale el Conde y túrbase
+            si quiere y, si no, no.</stage>
           <sp who="#conde">
             <speaker rend="caps">Conde</speaker>
 
