@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000090" xml:lang="es">
   <teiHeader>
@@ -27,7 +27,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-08">
@@ -39,7 +40,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, El laurel de Apolo. En: Comedias, Vol. 3. Dirección de Luis Iglesias Feijoo y Don William Cruickshank. Madrid : Fundación José Antonio de Castro, 2007</title>
+          <title>Pedro Calderón de la Barca, El laurel de Apolo. En: Comedias, Vol. 3. Dirección de
+            Luis Iglesias Feijoo y Don William Cruickshank. Madrid : Fundación José Antonio de
+            Castro, 2007</title>
           <idno type="ISBN">978-84-96452-32-9</idno>
         </bibl>
       </sourceDesc>
@@ -49,11 +52,15 @@
         <listPerson>
           <person xml:id="iris" sex="FEMALE">
             <persName>Iris</persName>
+            <idno type="wikidata">Q184570</idno>
             <trait source="castlist">
               <desc>ninfa</desc>
             </trait>
             <trait source="castlist">
               <desc>música</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="rústico" sex="MALE">
@@ -64,23 +71,34 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="eco" sex="FEMALE">
             <persName>Eco</persName>
+            <idno type="wikidata">Q207368</idno>
             <trait source="castlist">
               <desc>ninfa</desc>
             </trait>
             <trait source="castlist">
               <desc>música</desc>
             </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="apolo" sex="MALE">
             <persName>Apolo</persName>
+            <idno type="wikidata">Q37340</idno>
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
             <trait source="castlist">
               <desc>músico</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="zarzuela" sex="FEMALE">
@@ -91,29 +109,44 @@
             <trait source="castlist">
               <desc>música</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="amor" sex="MALE">
             <persName>Amor</persName>
+            <idno type="wikidata">Q5011</idno>
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
             <trait source="castlist">
               <desc>músico</desc>
             </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="dafne" sex="FEMALE">
             <persName>Dafne</persName>
+            <idno type="wikidata">Q194015</idno>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
             <persName>Libia</persName>
+            <idno type="wikidata">Q1129914</idno>
             <trait source="castlist">
               <desc>ninfa</desc>
             </trait>
             <trait source="castlist">
               <desc>segunda dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="silvio" sex="MALE">
@@ -121,32 +154,50 @@
             <trait source="castlist">
               <desc>pastor</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="seis-ninfas" sex="FEMALE">
             <persName>Seis ninfas marinas</persName>
           </personGrp>
           <person xml:id="céfalo" sex="MALE">
             <persName>Céfalo</persName>
+            <idno type="wikidata">Q643504</idno>
             <trait source="castlist">
               <desc>pastor</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="anteo" sex="MALE">
             <persName>Anteo</persName>
+            <idno type="wikidata">Q272006</idno>
             <trait source="castlist">
               <desc>pastor</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
+            <idno type="wikidata">Q209644</idno>
             <trait source="castlist">
               <desc>labradora</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="lauro" sex="MALE">
             <persName>Lauro</persName>
             <trait source="castlist">
               <desc>pastor</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
@@ -157,30 +208,54 @@
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="uno-1" sex="MALE">
             <persName>Hombre 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="uno-2" sex="MALE">
             <persName>Hombre 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="uno-3" sex="MALE">
             <persName>Hombre 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="uno-4" sex="MALE">
             <persName>Hombre 4</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="uno-5" sex="MALE">
             <persName>Hombre 5</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="uno-6" sex="MALE">
             <persName>Hombre 6</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="hombres" sex="MALE">
             <persName>Hombres</persName>
           </personGrp>
           <person xml:id="un-mujer" sex="FEMALE">
             <persName>Un Mujer</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="mujeres" sex="FEMALE">
             <persName>Mujeres</persName>
@@ -204,17 +279,20 @@
           <term source="dracor" type="genreTitle">comedia famosa</term>
           <term source="#kroll" type="main">zarzuela</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q148163</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q148163</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -230,7 +308,8 @@
     <front>
       <docTitle>
         <titlePart type="main">El Laurel De Apolo</titlePart>
-        <titlePart type="sub">Fiesta de la Zarzuela, transferida al Real Palacio del Buen Retiro</titlePart>
+        <titlePart type="sub">Fiesta de la Zarzuela, transferida al Real Palacio del Buen
+          Retiro</titlePart>
         <titlePart type="sub">Famosa Comedia</titlePart>
       </docTitle>
       <castList>
@@ -429,7 +508,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Salen dos damas y dos galanes, de máscara, con unas tarjetas en las manos, y en ellas la cifra del nombre de Felipe, cantando y danzando, vestidos a lo judío.</stage>
+          <stage>Salen dos damas y dos galanes, de máscara, con unas tarjetas en las manos, y en
+            ellas la cifra del nombre de Felipe, cantando y danzando, vestidos a lo judío.</stage>
           <sp who="#coro-1">
             <speaker rend="caps">Coro 1</speaker>
 
@@ -445,7 +525,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>En habiendo hecho su entrada, se apartan, y salen cantando también, y danzando, otras dos damas y galanes, con mascarillas negras, y hachas en las manos, vestidos a lo moro.</stage>
+          <stage>En habiendo hecho su entrada, se apartan, y salen cantando también, y danzando,
+            otras dos damas y galanes, con mascarillas negras, y hachas en las manos, vestidos a lo
+            moro.</stage>
           <sp who="#eco">
             <speaker rend="caps">Eco</speaker>
 
@@ -470,7 +552,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Apártanse, y sale otra cuadrilla con ramos en las manos, vestidos de indios, cantando también, y danzando.</stage>
+          <stage>Apártanse, y sale otra cuadrilla con ramos en las manos, vestidos de indios,
+            cantando también, y danzando.</stage>
           <sp who="#iris">
             <speaker rend="caps">Iris</speaker>
 
@@ -495,7 +578,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Apártanse, y suenan dentro cajas y trompetas, y sale otra cuadrilla de españoles.</stage>
+          <stage>Apártanse, y suenan dentro cajas y trompetas, y sale otra cuadrilla de
+            españoles.</stage>
           <sp who="#eco">
             <speaker rend="caps">Eco</speaker>
 
@@ -530,7 +614,8 @@
             <l>diciendo unos y otros en voces festivas:</l>
             <l>el que, siendo infante, es príncipe, ¡viva!</l>
           </sp>
-          <stage>Con grita de villanos, suenan dentro instrumentos rústicos, y todos se barajan en la acción que se hallaren.</stage>
+          <stage>Con grita de villanos, suenan dentro instrumentos rústicos, y todos se barajan en
+            la acción que se hallaren.</stage>
           <sp who="#dentro">
             <speaker rend="caps">Dentro</speaker>
 
@@ -1020,7 +1105,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Salen Silvio y Céfalo, pastores galanes, trayendo entre los dos a Dafne desmayada.</stage>
+          <stage>Salen Silvio y Céfalo, pastores galanes, trayendo entre los dos a Dafne
+            desmayada.</stage>
           <sp who="#céfalo">
             <speaker rend="caps">Céfalo</speaker>
 
@@ -1625,7 +1711,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Salen por una parte Flora y villanas, y baja por otra Lauro y Rústico y labradores, todos con instrumentos, cantando y bailando.</stage>
+          <stage>Salen por una parte Flora y villanas, y baja por otra Lauro y Rústico y labradores,
+            todos con instrumentos, cantando y bailando.</stage>
           <sp who="#mujeres">
             <speaker rend="caps">1 Coro</speaker>
             <stage type="withText">MUJERES</stage>
@@ -2263,7 +2350,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Desásese de ella, y al entrarse cada uno por su puerta, sale por la de Bata Amor, vestido de pastor, y Apolo de cazador por la otra, cantando todo lo que representan</stage>
+          <stage>Desásese de ella, y al entrarse cada uno por su puerta, sale por la de Bata Amor,
+            vestido de pastor, y Apolo de cazador por la otra, cantando todo lo que
+            representan</stage>
           <sp who="#apolo">
             <speaker rend="caps">Apolo</speaker>
 
@@ -2760,7 +2849,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Salen seis ninfas, vestidas de escamas y tocadas de corales y perlas, y Dafne, y por otra parte, Rústico.</stage>
+          <stage>Salen seis ninfas, vestidas de escamas y tocadas de corales y perlas, y Dafne, y
+            por otra parte, Rústico.</stage>
           <sp who="#seis-ninfas #dafne #rústico #libia">
             <speaker rend="caps">Todas</speaker>
             <stage type="withText">cantan</stage>
@@ -3534,7 +3624,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Vase Iris, y salen, como oyendo la música, Silvio por la parte del Olvido, y Céfalo por la del Amor.</stage>
+          <stage>Vase Iris, y salen, como oyendo la música, Silvio por la parte del Olvido, y Céfalo
+            por la del Amor.</stage>
           <sp who="#céfalo">
             <speaker rend="caps">Céfalo</speaker>
 
@@ -5068,7 +5159,8 @@
             <l>en este tronco mi olvido</l>
             <l>quien mi mudanza te acuerde.</l>
           </sp>
-          <stage>Va a escribir; vuélvese Rústico, y escribe en la otra parte de las espaldas.</stage>
+          <stage>Va a escribir; vuélvese Rústico, y escribe en la otra parte de las
+            espaldas.</stage>
           <sp who="#rústico">
             <speaker rend="caps">Rústico</speaker>
 
@@ -5395,7 +5487,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage>Vase huyendo, y él tras ella, y vuelven por otra parte, sin cesar la representación.</stage>
+          <stage>Vase huyendo, y él tras ella, y vuelven por otra parte, sin cesar la
+            representación.</stage>
           <sp who="#apolo">
             <speaker rend="caps">Apolo</speaker>
 
@@ -5551,7 +5644,8 @@
 
             <l>…montes, mares, prados, fuentes,…</l>
           </sp>
-          <stage>Todo esto se ha de representar huyendo ella, y desasiéndose de él siempre que la alcance, sin llegar a lucha.</stage>
+          <stage>Todo esto se ha de representar huyendo ella, y desasiéndose de él siempre que la
+            alcance, sin llegar a lucha.</stage>
           <sp who="#dafne">
             <speaker rend="caps">Dafne</speaker>
 
@@ -5719,7 +5813,8 @@
 
             <l>No verá.</l>
           </sp>
-          <stage>Da vuelta un peñasco con Dafne, y queda a sus espaldas un laurel, con quien se abraza Apolo.</stage>
+          <stage>Da vuelta un peñasco con Dafne, y queda a sus espaldas un laurel, con quien se
+            abraza Apolo.</stage>
           <sp who="#apolo">
             <speaker rend="caps">Apolo</speaker>
 
@@ -5895,7 +5990,8 @@
             <l>de aceitunas y escabeches</l>
             <l>será general.</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5927,7 +6023,8 @@
             <l>que, en loor suyo, de sus ramas</l>
             <l>llevemos.</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5941,7 +6038,8 @@
             <l>a todos se les concede</l>
             <l>ese honor.</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -5962,7 +6060,8 @@
             <l>y por su persona amable,</l>
             <l>le merezca solamente.</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6005,7 +6104,8 @@
             <l>de sus hojas a ofrecerle</l>
             <l>llegue la triunfal guirnalda.</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6046,7 +6146,8 @@
             <stage>Canta</stage>
             <l>Señor, amor en sombras…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6058,7 +6159,8 @@
 
             <l>…de fabulosos dioses…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6071,7 +6173,8 @@
 
             <l>…y del Amor vencido,…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6083,7 +6186,8 @@
 
             <l>…el césar de los orbes,…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6096,7 +6200,8 @@
 
             <l>…el arco de la paz…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6108,7 +6213,8 @@
 
             <l>…que vuestro imperio logre,…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6121,7 +6227,8 @@
 
             <l>…el eco que le esparza…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6133,14 +6240,16 @@
 
             <l>…en siempre heroicas voces,…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
             <l>…en siempre heroicas voces,…</l>
           </sp>
           <stage>Representan todos.</stage>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6152,7 +6261,8 @@
 
             <l>…todos humildemente…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6164,7 +6274,8 @@
 
             <l>…a vuestras plantas ponen…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6179,7 +6290,8 @@
 
             <l>Y pues hoy es el día…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6191,7 +6303,8 @@
 
             <l>…que Amor sus triunfos goce,…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6203,7 +6316,8 @@
 
             <l>…dénos la que ha de ser…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6215,7 +6329,8 @@
 
             <l>…amor de los amores.</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #música #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -6276,7 +6391,8 @@
 
             <l>…y todo en vos blasones,…</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6290,7 +6406,8 @@
             <l>…bandera de los aires,</l>
             <l>garzota de las flores.</l>
           </sp>
-          <sp who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
+          <sp
+            who="#amor #anteo #apolo #bata #céfalo #eco #iris #lauro #libia #rústico #seis-ninfas #silvio">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -6313,7 +6430,10 @@
             <l>flores.</l>
           </sp>
           <stage>FIN</stage>
-          <stage>Repitióse esta fiesta en el día del nombre del rey nuestro señor don Carlos segundo, en cuya ocasión corrigió don Pedro los errores con que corría impresa la primera jornada, y escribió la segunda con la novedad que se advierte en esta edición.</stage>
+          <stage>Repitióse esta fiesta en el día del nombre del rey nuestro señor don Carlos
+            segundo, en cuya ocasión corrigió don Pedro los errores con que corría impresa la
+            primera jornada, y escribió la segunda con la novedad que se advierte en esta
+            edición.</stage>
         </div>
 
       </div>

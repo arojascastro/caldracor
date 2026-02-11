@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000048" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-01">
           <time when="10:02:03"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/los-encantos-de-la-culpa--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/los-encantos-de-la-culpa--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la de Pedro del Pando y Mier, Autos Sacramentales, alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 455-478.</title>
+            <title>Edición digital a partir de la de Pedro del Pando y Mier, Autos Sacramentales,
+              alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la
+              edición de Nicolás González Ruiz, Piezas maestras del teatro teológico español, 4ª
+              ed., Madrid, Biblioteca de Autores Cristianos, 1997, t. I, pp. 455-478.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,51 +52,99 @@
         <listPerson>
           <person xml:id="gula" sex="FEMALE">
             <persName>La Gula</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="hombre" sex="MALE">
             <persName>El Hombre</persName>
             <trait source="castlist">
               <desc>ulises</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="entendimiento" sex="MALE">
             <persName>El Entendimiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="gusto" sex="MALE">
             <persName>El Gusto</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="tacto" sex="MALE">
             <persName>El Tacto</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="olfato" sex="MALE">
             <persName>El Olfato</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="vista" sex="FEMALE">
             <persName>La Vista</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="oído" sex="MALE">
             <persName>El Oído</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="lisonja" sex="FEMALE">
             <persName>La Lisonja</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="penitencia" sex="FEMALE">
             <persName>La Penitencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="culpa" sex="FEMALE">
             <persName>La Culpa</persName>
             <trait source="castlist">
               <desc>circe</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="lascivia" sex="FEMALE">
             <persName>La Lascivia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="acompañamiento" sex="MALE">
             <persName>Acompañamiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -100,17 +153,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -125,7 +181,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000048" passive="http://www.wikidata.org/entity/Q30899717"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000048"
+        passive="http://www.wikidata.org/entity/Q30899717"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -155,7 +212,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suena un clarín y descúbrese una nave, y en ella el HOMBRE, el ENTENDIMIENTO, el GUSTO, el OLFATO, la VISTA, el OÍDO, y dicen todos dentro de ella.</stage>
+          <stage>Suena un clarín y descúbrese una nave, y en ella el HOMBRE, el ENTENDIMIENTO, el
+            GUSTO, el OLFATO, la VISTA, el OÍDO, y dicen todos dentro de ella.</stage>
           <sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>En la anchurosa plaza</l>
@@ -1044,7 +1102,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Salen la LASCIVIA, la CULPA, detrás de todos; trae una salvilla, un vaso de plata, y otra una toalla al hombro.</stage>
+          <stage>Salen la LASCIVIA, la CULPA, detrás de todos; trae una salvilla, un vaso de plata,
+            y otra una toalla al hombro.</stage>
           <sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <l>No tienes que ir a buscarla,</l>
@@ -1498,7 +1557,8 @@
             <l>gustos, regalos, contentos,</l>
             <l>placeres, dichas, favores,</l>
             <l n="875">músicas, bailes y juegos.</l>
-            <stage>Aparte.Aparte.Aparte.Aparte.El HOMBRE va dejando caer algunas flores del ramillete, mientras oye a la CULPA.</stage>
+            <stage>Aparte.Aparte.Aparte.Aparte.El HOMBRE va dejando caer algunas flores del
+              ramillete, mientras oye a la CULPA.</stage>
           </sp>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
@@ -1559,7 +1619,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Entran el HOMBRE y la CULPA asidos de las manos, y los demás tras ellos, y sale el ENTENDIMIENTO y dice desde lejos.</stage>
+          <stage>Entran el HOMBRE y la CULPA asidos de las manos, y los demás tras ellos, y sale el
+            ENTENDIMIENTO y dice desde lejos.</stage>
           <stage>Sale.</stage>
           <sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
@@ -1786,7 +1847,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="20">
-          <stage>Sale la mesa por debajo del tablado con muchas viandas; siéntanse la CULPA y el HOMBRE y los demás sirven, y los sentidos se sientan en el suelo.</stage>
+          <stage>Sale la mesa por debajo del tablado con muchas viandas; siéntanse la CULPA y el
+            HOMBRE y los demás sirven, y los sentidos se sientan en el suelo.</stage>
           <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Siéntate, Ulises, y todos</l>
@@ -1842,7 +1904,8 @@
             <l>No cantéis más, que atrevida</l>
             <l>voz nuestros gustos advierte.</l>
           </sp>
-          <stage>En cantando tocan cajas dentro y alborótanse todos, y dice el ENTENDIMIENTO.</stage>
+          <stage>En cantando tocan cajas dentro y alborótanse todos, y dice el
+            ENTENDIMIENTO.</stage>
           <sp who="#entendimiento">
             <speaker>ENTENDIMIENTO</speaker>
             <stage>Dentro.</stage>
@@ -2289,7 +2352,8 @@
             <l>Dices bien, Entendimiento;</l>
             <l>de aquí mis sentidos saca.</l>
           </sp>
-          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          <sp
+            who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <l n="1275">Vamos al bajel, que aquí</l>
             <l>todo es sombras y fantasmas.</l>
@@ -2308,7 +2372,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Tocan clarines y descúbrese otra vez la Nave. Llega al tablado y entran todos en ella.</stage>
+          <stage>Tocan clarines y descúbrese otra vez la Nave. Llega al tablado y entran todos en
+            ella.</stage>
           <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>¿Tribulaciones no son</l>
@@ -2321,7 +2386,8 @@
             <l>Sí; pero éstos son regalos</l>
             <l>con que más mérito alcanza.</l>
           </sp>
-          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          <sp
+            who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l>¡Buen viaje! ¡Buen viaje!</l>
@@ -2385,7 +2451,8 @@
             <l>encrespando las espumas</l>
             <l n="1320">vidrios de nieve y de plata.</l>
           </sp>
-          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          <sp
+            who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <l>Buen viaje, buen viaje,</l>
             <l>que vientos y ondas se amansan.</l>
@@ -2433,7 +2500,8 @@
             <l>manjar que da por vianda.</l>
             <stage>Ruido de terremoto y húndense los palacios.</stage>
           </sp>
-          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          <sp
+            who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <l n="1355">A cuyo grande milagro</l>
             <l>el mundo mil fiestas haga,</l>

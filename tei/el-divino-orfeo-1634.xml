@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000161" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de J. Enrique Duarte, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 1999. ISBN: 3-931887-51-0.</title>
+            <title>Edición digital a partir de la edición de J. Enrique Duarte, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 1999. ISBN: 3-931887-51-0.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,24 +49,45 @@
         <listPerson>
           <person sex="MALE" xml:id="aristeo">
             <persName>Aristeo</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="orfeo">
             <persName>Orfeo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="amor">
             <persName>Amor</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="euridice">
             <persName>Eurídice</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="albedrio">
             <persName>Albedrío</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gracia">
             <persName>Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="aqueronte">
             <persName>Aqueronte</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -74,17 +96,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -117,7 +142,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suenan cajas destempladas y sordinas y cae despeñado ARISTEO, vestido de demonio galán</stage>
+          <stage>Suenan cajas destempladas y sordinas y cae despeñado ARISTEO, vestido de demonio
+            galán</stage>
           <sp who="#aristeo">
             <speaker>ARISTEO</speaker>
             <l>Fiera soberbia mía,</l>
@@ -164,7 +190,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale por lo alto, al otro lado de donde cayó ARISTEO, ORFEO de pastor galán con un instrumento cantando</stage>
+          <stage>Sale por lo alto, al otro lado de donde cayó ARISTEO, ORFEO de pastor galán con un
+            instrumento cantando</stage>
           <sp who="#orfeo">
             <speaker>ORFEO</speaker>
             <stage>Canta</stage>
@@ -268,7 +295,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Sale EURÍDICE, vestida de labradora, y a los lados el AMOR y la GRACIA, también de pastores, y detrás el ALBEDRÍO de villano</stage>
+          <stage>Sale EURÍDICE, vestida de labradora, y a los lados el AMOR y la GRACIA, también de
+            pastores, y detrás el ALBEDRÍO de villano</stage>
           <sp who="#amor">
             <speaker>AMOR</speaker>
             <l>Gran imperio es el que tiene</l>
@@ -1873,7 +1901,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>Pasa la barca por el tablado cantando ORFEO y se van y salen ARISTEO y EURÍDICE del hueco de una serpiente</stage>
+          <stage>Pasa la barca por el tablado cantando ORFEO y se van y salen ARISTEO y EURÍDICE del
+            hueco de una serpiente</stage>
           <sp who="#aristeo">
             <speaker>ARISTEO</speaker>
             <l>Este, Eurídice, triste que en el centro</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000130" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-09">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Los dos amantes del cielo. En: Comedias, Vol. 5. Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, Los dos amantes del cielo. En: Comedias, Vol. 5.
+            Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza. Madrid : Fundación José
+            Antonio de Castro, 2010</title>
           <idno type="ISBN">978-84-96452-94-7</idno>
         </bibl>
       </sourceDesc>
@@ -48,8 +51,12 @@
         <listPerson>
           <person xml:id="crisanto" sex="MALE">
             <persName>Crisanto</persName>
+            <idno type="wikidata">Q18563170</idno>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="claudio" sex="MALE">
@@ -57,11 +64,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="polemio" sex="MALE">
             <persName>Polemio</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="escarpín" sex="MALE">
@@ -69,11 +82,17 @@
             <trait source="name">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="carpoforo" sex="MALE">
             <persName>Carpoforo</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="aurelio" sex="MALE">
@@ -81,11 +100,18 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="daría" sex="FEMALE">
             <persName>Daría</persName>
+            <idno type="wikidata">Q2528196</idno>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="cintia" sex="FEMALE">
@@ -93,11 +119,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nísida" sex="FEMALE">
             <persName>Nísida</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
@@ -105,21 +137,36 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado" sex="MALE">
             <persName>Un Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ángel" sex="MALE">
             <persName>Un Ángel</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="UNKNOWN" xml:id="voz-1">
             <persName>Voz 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-2">
             <persName>Voz 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -128,17 +175,20 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -179,7 +229,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Córrese una cortina y está Crisanto sentado en una silla con un bufete delante; y en él, algunos libros y lee en uno.</stage>
+          <stage>Córrese una cortina y está Crisanto sentado en una silla con un bufete delante; y
+            en él, algunos libros y lee en uno.</stage>
           <sp who="#crisanto">
             <speaker rend="caps">Crisanto</speaker>
 
@@ -6162,7 +6213,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Salen Polemio, Escarpín y otros y descubren a Carpoforo en una mesa degollado, cubierta la cara con un tafetán.</stage>
+          <stage>Salen Polemio, Escarpín y otros y descubren a Carpoforo en una mesa degollado,
+            cubierta la cara con un tafetán.</stage>
           <sp who="#polemio">
             <speaker rend="caps">Polemio</speaker>
 
@@ -7295,7 +7347,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Salen Polemio y Cintia, Nísida, Escarpín y soldados y todos los que pudieren.</stage>
+          <stage>Salen Polemio y Cintia, Nísida, Escarpín y soldados y todos los que
+            pudieren.</stage>
           <sp who="#polemio">
             <speaker rend="caps">Polemio</speaker>
 

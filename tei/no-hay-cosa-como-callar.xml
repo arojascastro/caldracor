@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000143" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -39,9 +40,11 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/no-hay-cosa-como-callar--2/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/no-hay-cosa-como-callar--2/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de Parte diez y siete de comedias nuevas y escogidas de los mejores ingenios de España, Madrid, Melchor Sánchez, 1662.</title>
+            <title>Edición digital a partir de Parte diez y siete de comedias nuevas y escogidas de
+              los mejores ingenios de España, Madrid, Melchor Sánchez, 1662.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,11 +54,17 @@
         <listPerson>
           <person xml:id="don-juan" sex="MALE">
             <persName>Don Juan</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="álvarez" sex="MALE">
             <persName>Álvarez</persName>
             <trait source="castlist">
               <desc>escudero</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="barzoque" sex="MALE">
@@ -63,20 +72,35 @@
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-pedro" sex="MALE">
             <persName>Don Pedro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="marcela" sex="FEMALE">
             <persName>Doña Marcela</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-diego" sex="MALE">
             <persName>Don Diego</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="inés" sex="FEMALE">
             <persName>Inés</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="enrique" sex="MALE">
@@ -84,17 +108,29 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
             <persName>Doña Leonor</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-luis" sex="MALE">
             <persName>Don Luis</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juana" sex="FEMALE">
             <persName>Juana</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="celio" sex="MALE">
@@ -102,18 +138,33 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alguacil-1" sex="MALE">
             <persName>Alguacil 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alguacil-2" sex="MALE">
             <persName>Alguacil 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="escribano" sex="MALE">
             <persName>Un Escribano</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voces-dentro">
             <persName>Voces dentro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -122,17 +173,20 @@
           <term source="dracor" type="genreTitle">tragedia de capa y espada</term>
           <term source="#kroll" type="main">tragedia y drama de honor</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -176,7 +230,8 @@
         <div type="scene" resp="#rojas" n="1">
           <stage>La escena, en Madrid y en un camino.</stage>
           <stage>[Calle]</stage>
-          <stage>Salen DON JUAN, con hábito de Santiago, en la capa y con venera, vestido de negro, y BARZOQUE de camino.</stage>
+          <stage>Salen DON JUAN, con hábito de Santiago, en la capa y con venera, vestido de negro,
+            y BARZOQUE de camino.</stage>
           <sp who="#barzoque">
             <speaker rend="caps">Barzoque</speaker>
 
@@ -3908,7 +3963,8 @@
             <l>Honor,</l>
             <l>treguas a mi llanto ofrece.</l>
             <stage>[Vanse.]  </stage>
-            <stage>[Inmediaciones de una venta o posada en el camino de Madrid a las provincias del Norte, a media jornada de dicha capital.] </stage>
+            <stage>[Inmediaciones de una venta o posada en el camino de Madrid a las provincias del
+              Norte, a media jornada de dicha capital.] </stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">

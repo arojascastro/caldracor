@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000094" xml:lang="es">
   <teiHeader>
@@ -33,9 +33,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-mayor-monstruo-del-mundo--1/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-mayor-monstruo-del-mundo--1/html/</idno>
           <bibl type="originalSource">
-            <title>Edición original en Biblioteca de la Universidad de Alicante. Revisada por el editor para la Biblioteca Virtual Miguel de Cervantes. Edición digital a partir de la 10º ed. de José María Ruano de la Haza, Madrid, Espasa-Calpe, 1989 (Colección Austral ; 81) </title>
+            <title>Edición original en Biblioteca de la Universidad de Alicante. Revisada por el
+              editor para la Biblioteca Virtual Miguel de Cervantes. Edición digital a partir de la
+              10º ed. de José María Ruano de la Haza, Madrid, Espasa-Calpe, 1989 (Colección Austral
+              ; 81) </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -45,20 +49,32 @@
         <listPerson>
           <person xml:id="tetrarca" sex="MALE">
             <persName>El Tetrarca de Jerusalén</persName>
+            <idno type="wikidata">Q192950</idno>
             <trait source="#calderondigital">
               <desc>gobernador</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="octaviano" sex="MALE">
             <persName>Octaviano</persName>
+            <idno type="wikidata">Q1048</idno>
             <trait source="castlist">
               <desc>emperador</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="aristóbolo" sex="MALE">
             <persName>Aristóbolo</persName>
+            <idno type="wikidata">Q716075</idno>
             <trait source="castlist">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="filipo" sex="MALE">
@@ -66,11 +82,17 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tolomeo" sex="MALE">
             <persName>Tolomeo</persName>
             <trait source="castlist">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="capitán" sex="MALE">
@@ -78,17 +100,27 @@
             <trait source="castlist">
               <desc>capitán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="polidoro" sex="MALE">
             <persName>Polidoro</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mariene" sex="FEMALE">
             <persName>Mariene</persName>
+            <idno type="wikidata">Q266601</idno>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
@@ -96,17 +128,26 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
             <persName>Sirene</persName>
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="arminda" sex="FEMALE">
             <persName>Arminda</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
@@ -125,17 +166,20 @@
           <term source="dracor" type="genreTitle">comedia</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -576,7 +620,8 @@
 
           </sp>
           <stage>Vanse.</stage>
-          <stage>Salen el TETRARCA y FILIPO trayendo a TOLOMEO entre los dos, desnudo y herido, con el puñal en el hombro.</stage>
+          <stage>Salen el TETRARCA y FILIPO trayendo a TOLOMEO entre los dos, desnudo y herido, con
+            el puñal en el hombro.</stage>
           <sp who="#filipo">
             <speaker>FILIPO</speaker>
             <l n="305"> Ya del mar estáis seguro, </l>
@@ -857,7 +902,9 @@
         <div type="scene" n="2">
           <stage>Vanse.</stage>
           <stage>Cuadro II</stage>
-          <stage>Cajas y trompetas dentro y salen OCTAVIANO con bastón y corona de laurel, y como presos ARISTÓBOLO vestido pobremente, y POLIDORO con gala, desaliñadamente vestido PATRICIO, CAPITÁN y SOLDADOS.</stage>
+          <stage>Cajas y trompetas dentro y salen OCTAVIANO con bastón y corona de laurel, y como
+            presos ARISTÓBOLO vestido pobremente, y POLIDORO con gala, desaliñadamente vestido
+            PATRICIO, CAPITÁN y SOLDADOS.</stage>
           <sp who="#unos">
             <speaker>UNOS</speaker>
             <stage>Dentro.</stage>
@@ -1916,7 +1963,9 @@
         <head>Jornada II</head>
         <div type="scene" n="1">
           <stage>Cuadro I</stage>
-          <stage>Córrese una cortina, y vese a un lado del tablado el SOLDADO 1º, como sustentando de la parte de abajo un retrato entero de MARIENE; y el SOLDADO 2º de la parte de arriba, como que le está colgando sobre una puerta que habrá en el vestuario.</stage>
+          <stage>Córrese una cortina, y vese a un lado del tablado el SOLDADO 1º, como sustentando
+            de la parte de abajo un retrato entero de MARIENE; y el SOLDADO 2º de la parte de
+            arriba, como que le está colgando sobre una puerta que habrá en el vestuario.</stage>
           <sp who="#soldado-1">
             <speaker>SOLDADO 1º</speaker>
             <l> Ya que en sus melancolías </l>
@@ -2112,7 +2161,8 @@
             <l> puede, a sí mismo se afrenta, </l>
             <l> pues quita a la voluntad </l>
             <l> lo que le añade a la fuerza. </l>
-            <stage>Alarga otra mano, en que no tiene el retrato, y el TETRARCA, al besar la una, mira a la otra.</stage>
+            <stage>Alarga otra mano, en que no tiene el retrato, y el TETRARCA, al besar la una,
+              mira a la otra.</stage>
             <stage>Aparte.</stage>
             <l n="1345"> Dame tu mano. (Mas, cielos </l>
             <l> divinos, al besar ésta, </l>
@@ -2212,7 +2262,8 @@
             <l> tan grande no es bien se venda </l>
             <l part="I"> a menor precio. </l>
           </sp>
-          <stage>Al entrarse OCTAVIO, va a darle el TETRARCA. Cae el retrato, clava en él el puñal, y vuelve.</stage>
+          <stage>Al entrarse OCTAVIO, va a darle el TETRARCA. Cae el retrato, clava en él el puñal,
+            y vuelve.</stage>
           <sp who="#octaviano">
             <speaker>OCTAVIANO</speaker>
             <l part="F">¿Qué es esto? </l>
@@ -2279,7 +2330,8 @@
         <div type="scene" n="2">
           <stage>Vase.</stage>
           <stage>Cuadro II</stage>
-          <stage>Vuelve a cubrir la cortina el retrato, y salen dos SOLDADOS, y POLIDORO paseándose.</stage>
+          <stage>Vuelve a cubrir la cortina el retrato, y salen dos SOLDADOS, y POLIDORO
+            paseándose.</stage>
           <sp who="#soldado-1">
             <speaker>SOLDADO 1º</speaker>
             <l> Grande es tu melancolía. </l>
@@ -2506,7 +2558,8 @@
           <sp who="#polidoro">
             <speaker>POLIDORO</speaker>
             <l n="1525"> ¿Quién vio príncipe aporreado? </l>
-            <stage>A la puerta el CAPITÁN y TETRARCA y los dos le vuelven a poner capa y sombrero como que le sirven.</stage>
+            <stage>A la puerta el CAPITÁN y TETRARCA y los dos le vuelven a poner capa y sombrero
+              como que le sirven.</stage>
           </sp>
           <sp who="#capitán">
             <speaker>CAPITÁN</speaker>
@@ -3182,7 +3235,8 @@
         <div type="scene" resp="#rojas" n="3">
           <stage>Vanse.</stage>
           <stage>Cuadro III</stage>
-          <stage>Las cajas y salgan por una parte ARISTÓBOLO y SOLDADOS y por otra MARIENE y DAMAS.</stage>
+          <stage>Las cajas y salgan por una parte ARISTÓBOLO y SOLDADOS y por otra MARIENE y
+            DAMAS.</stage>
           <sp who="#aristóbolo">
             <speaker>ARISTÓBOLO</speaker>
             <l> Dame otra vez los brazos, </l>
@@ -4051,7 +4105,10 @@
         <head>Jornada III</head>
         <div type="scene" n="1">
           <stage>Cuadro I</stage>
-          <stage>Suenan instrumentos músicos en una parte y, en habiendo representado y cantado sus versos, suenan en otra cajas destempladas y dice dentro MARIENE los suyos. Y luego, en medio, suenan algunos tiros y chirimías y salen al tablado OCTAVIANO, CAPITÁN y SOLDADOS.</stage>
+          <stage>Suenan instrumentos músicos en una parte y, en habiendo representado y cantado sus
+            versos, suenan en otra cajas destempladas y dice dentro MARIENE los suyos. Y luego, en
+            medio, suenan algunos tiros y chirimías y salen al tablado OCTAVIANO, CAPITÁN y
+            SOLDADOS.</stage>
           <sp who="#voces">
             <speaker>VOCES</speaker>
             <l part="I"> ¡Viva Octaviano! </l>
@@ -4186,7 +4243,8 @@
             <l> en ambos coros uno y otro estruendo... </l>
             <stage>Música.</stage>
           </sp>
-          <sp who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
+          <sp
+            who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>¡Viva Octaviano, viva!</l>
             <l>Y en los campos de Oriente</l>
@@ -4202,7 +4260,10 @@
             <l> diga de otra manera </l>
             <l n="2510"> que muera yo donde mi esposo muera. </l>
           </sp>
-          <stage>Con esta repetición salen al tablado, por una parte los MÚSICOS, y TOLOMEO con una fuente, y en ella unas llaves, y FILIPO con otra, y en ella un laurel; y por la otra parte, MARIENE, vestida de luto, con un velo en el rostro, y las MUJERES que puedan.</stage>
+          <stage>Con esta repetición salen al tablado, por una parte los MÚSICOS, y TOLOMEO con una
+            fuente, y en ella unas llaves, y FILIPO con otra, y en ella un laurel; y por la otra
+            parte, MARIENE, vestida de luto, con un velo en el rostro, y las MUJERES que
+            puedan.</stage>
           <sp who="#tolomeo">
             <speaker>TOLOMEO</speaker>
             <l> Pues más defensa la ciudad no tiene </l>
@@ -4228,7 +4289,8 @@
             <speaker>LOS DOS</speaker>
             <l part="I"> Diciendo a voces... </l>
           </sp>
-          <sp who="#capitán #filipo #mariene #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
+          <sp
+            who="#capitán #filipo #mariene #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
             <speaker>TODOS</speaker>
             <l part="F"> ¡Octaviano viva! </l>
           </sp>
@@ -4610,7 +4672,8 @@
             <l part="F"> Sea diciendo: </l>
             <l part="I"> ¡Viva Octaviano! </l>
           </sp>
-          <sp who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
+          <sp
+            who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">¡Viva!</l>
             <l>Y en los campos de Oriente</l>
@@ -5068,7 +5131,8 @@
             <l> que, estando más retirada, </l>
             <l n="3090"> con más secreto es forzoso </l>
             <l> que pueda sin ruido abrirla. </l>
-            <stage>Llega a la otra puerta que estará como dicen los versos y él hace las acciones que significan.</stage>
+            <stage>Llega a la otra puerta que estará como dicen los versos y él hace las acciones
+              que significan.</stage>
             <l> Mas no haré si reconozco </l>
             <l> cuánto defendida está </l>
             <l> de candados y cerrojos </l>
@@ -5357,7 +5421,8 @@
             <speaker>FILIPO</speaker>
             <l part="I"> ¡Tente, señor! </l>
           </sp>
-          <stage>Ponése en medio FILIPO. Vase huyendo TOLOMEO, el TETRARCA tras él y vuelven por la otra parte.</stage>
+          <stage>Ponése en medio FILIPO. Vase huyendo TOLOMEO, el TETRARCA tras él y vuelven por la
+            otra parte.</stage>
           <sp who="#tetrarca">
             <speaker>TETRARCA</speaker>
             <l part="F">...tan tirano </l>
@@ -5413,7 +5478,8 @@
         <div type="scene" n="3">
           <stage>Vase.</stage>
           <stage>Cuadro III</stage>
-          <stage>Vuelve TOLOMEO a salir por otra parte, retirándose de OCTAVIANO. Sale OCTAVIANO.</stage>
+          <stage>Vuelve TOLOMEO a salir por otra parte, retirándose de OCTAVIANO. Sale
+            OCTAVIANO.</stage>
           <sp who="#octaviano">
             <speaker>OCTAVIANO</speaker>
             <l> Hombre que tan atrevido, </l>
@@ -5891,7 +5957,8 @@
             <l> si en ella el menor impulso </l>
             <l n="3495"> reconociera de que </l>
             <l> para volvérosle tuvo. </l>
-            <stage>Va a poner la mano en la luz. Él se la toma y ella, retirándola, le saca el puñal de la cinta.</stage>
+            <stage>Va a poner la mano en la luz. Él se la toma y ella, retirándola, le saca el puñal
+              de la cinta.</stage>
           </sp>
           <sp who="#octaviano">
             <speaker>OCTAVIANO</speaker>
@@ -5940,7 +6007,8 @@
           <sp who="#mariene">
             <speaker>MARIENE</speaker>
             <l part="M"> ¿Suelta? </l>
-            <stage>Deja caer el puñal y vase y OCTAVIANO tras ella y sale el TETRARCA por otra parte.</stage>
+            <stage>Deja caer el puñal y vase y OCTAVIANO tras ella y sale el TETRARCA por otra
+              parte.</stage>
           </sp>
           <sp who="#tetrarca">
             <speaker>TETRARCA</speaker>
@@ -6004,7 +6072,8 @@
             <speaker>TETRARCA</speaker>
             <l part="F">¿Qué escucho? </l>
           </sp>
-          <stage>Vuelven huyendo MARIENE y OCTAVIANO tras ella y da en brazos del TETRARCA tropezando.</stage>
+          <stage>Vuelven huyendo MARIENE y OCTAVIANO tras ella y da en brazos del TETRARCA
+            tropezando.</stage>
           <sp who="#octaviano">
             <speaker>OCTAVIANO</speaker>
             <l part="I"> Bello prodigio. </l>

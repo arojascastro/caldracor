@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000063" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Auristela y Lisidante</title>
-        <title type="sub">La Gran Comedia. Fiesta Que Se Representó A Sus Majestades En El Coliseo De Buen Retiro</title>
+        <title type="sub">La Gran Comedia. Fiesta Que Se Representó A Sus Majestades En El Coliseo
+          De Buen Retiro</title>
         <author>
           <persName>
             <forename>Pedro</forename>
@@ -26,7 +27,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-17">
@@ -38,7 +40,10 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Auristela y Lisidante. Edición crítica de Rocío Arana. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano. Universidad de Navarra / Iberoamericana / Vervuert 2012 Biblioteca Áurea Hispánica 74, Comedias completas de Calderón 7</title>
+          <title>Pedro Calderón de la Barca, Auristela y Lisidante. Edición crítica de Rocío Arana.
+            Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano. Universidad de Navarra /
+            Iberoamericana / Vervuert 2012 Biblioteca Áurea Hispánica 74, Comedias completas de
+            Calderón 7</title>
           <idno type="URL">https://doi.org/10.31819/9783865279842</idno>
         </bibl>
       </sourceDesc>
@@ -51,11 +56,18 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="merlín" sex="MALE">
             <persName>Merlín</persName>
+            <idno type="wikidata">Q188044</idno>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="auristela" sex="FEMALE">
@@ -63,11 +75,17 @@
             <trait source="#calderondigital">
               <desc>princesa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="estela" sex="FEMALE">
             <persName>Estela</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="arsidas" sex="MALE">
@@ -75,11 +93,17 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="celio" sex="MALE">
             <persName>Celio</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clariana" sex="FEMALE">
@@ -87,11 +111,17 @@
             <trait source="#calderondigital">
               <desc>princesa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flérida" sex="FEMALE">
             <persName>Flérida</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="licanoro" sex="MALE">
@@ -99,11 +129,17 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="brunel" sex="MALE">
             <persName>Brunel</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="aurora" sex="FEMALE">
@@ -111,14 +147,23 @@
             <trait source="#calderondigital">
               <desc>princesa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sargento" sex="MALE">
             <persName>Un Sargento</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="milor" sex="MALE">
             <persName>Milor</persName>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="timantes" sex="MALE">
@@ -129,18 +174,30 @@
             <trait source="#calderondigital">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cintia" sex="FEMALE">
             <persName>Cintia</persName>
             <trait source="#calderondigital">
               <desc>princesa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -152,17 +209,20 @@
           <term source="dracor" type="genreTitle">comedia novelesca</term>
           <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -178,7 +238,8 @@
     <front>
       <docTitle>
         <titlePart type="main">Auristela Y Lisidante</titlePart>
-        <titlePart type="sub">La Gran Comedia. Fiesta Que Se Representó A Sus Majestades En El Coliseo De Buen Retiro</titlePart>
+        <titlePart type="sub">La Gran Comedia. Fiesta Que Se Representó A Sus Majestades En El
+          Coliseo De Buen Retiro</titlePart>
       </docTitle>
       <castList>
         <head>Personas que hablan en ella:</head>
@@ -204,7 +265,10 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage type="withText">Dentro cajas y trompetas, y sale Celio, Timantes y soldados, acuchillando a Lisidante, que sale armado, y Licanoro y Milor, armados también, se ponen a su lado con bandas los dos en los rostros, y las armas de Lisidante han de traer en el peto, pintadas con trabazones dellas, una estrella y una lis con letras en medio. </stage>
+          <stage type="withText">Dentro cajas y trompetas, y sale Celio, Timantes y soldados,
+            acuchillando a Lisidante, que sale armado, y Licanoro y Milor, armados también, se ponen
+            a su lado con bandas los dos en los rostros, y las armas de Lisidante han de traer en el
+            peto, pintadas con trabazones dellas, una estrella y una lis con letras en medio. </stage>
           <sp who="#unos">
             <speaker rend="caps">Unos</speaker>
             <stage type="withText">(Dentro.)</stage>
@@ -2486,7 +2550,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Sacan los soldados a Arsidas y a Brunel, cubiertos los rostros, y sale Celio.</stage>
+          <stage>Sacan los soldados a Arsidas y a Brunel, cubiertos los rostros, y sale
+            Celio.</stage>
           <sp who="#celio">
             <speaker rend="caps">Celio</speaker>
 
@@ -3790,7 +3855,8 @@
             <l>con tal recato que no</l>
             <l>nos escuche ni nos sienta.</l>
           </sp>
-          <stage>Abre una puerta y vese una reja grande, y detrás de ella Arsidas con cadena al pie, sentado en una silla, y Brunel arrimado a ella</stage>
+          <stage>Abre una puerta y vese una reja grande, y detrás de ella Arsidas con cadena al pie,
+            sentado en una silla, y Brunel arrimado a ella</stage>
           <sp who="#clariana">
             <speaker rend="caps">Clariana</speaker>
 
@@ -5627,7 +5693,8 @@
             <l>de un libro, nunca más que hoy,</l>
             <l>de memoria.</l>
           </sp>
-          <stage>Lee como a hurto y Lisidante se pone en medio y los dos criados delante del soldado.</stage>
+          <stage>Lee como a hurto y Lisidante se pone en medio y los dos criados delante del
+            soldado.</stage>
           <sp who="#lisidante">
             <speaker rend="caps">Lisidante</speaker>
             <stage>[A Merlín.]</stage>
@@ -6366,7 +6433,8 @@
             <l>que yo una joya ofrecí,</l>
             <l>de sus ansias lastimada,</l>
             <l>a quien la vida le dé.</l>
-            <stage>Quítase una joya, y al dársela, él tira de la cinta. Quedándose ella con la joya en la mano, la arroja.</stage>
+            <stage>Quítase una joya, y al dársela, él tira de la cinta. Quedándose ella con la joya
+              en la mano, la arroja.</stage>
             <l>Tomad pues, en fe de que</l>
             <l>no quiero deberos nada.</l>
           </sp>
@@ -6783,7 +6851,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Escóndese a un lado, y salen por otro Clariana y Milor, Estela y tras ella Arsidas, Brunel, y quédanse al paño.</stage>
+          <stage>Escóndese a un lado, y salen por otro Clariana y Milor, Estela y tras ella Arsidas,
+            Brunel, y quédanse al paño.</stage>
           <sp who="#clariana">
             <speaker rend="caps">Clariana</speaker>
 
@@ -7460,7 +7529,8 @@
             <l>que es no menos que... Mas oye,</l>
             <l>que vuelve el sonoro acento.</l>
           </sp>
-          <stage>Cantan a un lado, dan voces a otro, y representan los dos, todo a un tiempo.</stage>
+          <stage>Cantan a un lado, dan voces a otro, y representan los dos, todo a un
+            tiempo.</stage>
           <sp who="#unos">
             <speaker rend="caps">Unos</speaker>
             <stage type="withText">(Dentro.)</stage>
@@ -9279,7 +9349,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Vanse. Sale Clariana, Auristela, Timantes, Milor, Licanoro y acompañamiento.</stage>
+          <stage>Vanse. Sale Clariana, Auristela, Timantes, Milor, Licanoro y
+            acompañamiento.</stage>
           <sp who="#timantes">
             <speaker rend="caps">Timantes</speaker>
 
@@ -9377,7 +9448,8 @@
             <l>aunque mejor fuera hacia ese</l>
             <l>confuso rumor que dice</l>
             <l>otra vez y otras mil veces:</l>
-            <stage>Vanse, y salen Cintia y Aurora, y acompañamiento, y por otra Clariana, Auristela, Licanoro, criados y músicos</stage>
+            <stage>Vanse, y salen Cintia y Aurora, y acompañamiento, y por otra Clariana, Auristela,
+              Licanoro, criados y músicos</stage>
           </sp>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
@@ -10294,7 +10366,8 @@
 
             <l>¿Cómo tu valor ultrajas?</l>
           </sp>
-          <sp who="#arsidas #auristela #aurora #celio #cintia #clariana #licanoro #lisidante #merlín #milor #timantes">
+          <sp
+            who="#arsidas #auristela #aurora #celio #cintia #clariana #licanoro #lisidante #merlín #milor #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10711,7 +10784,8 @@
             <l>Falta</l>
             <l>que yo me dé por vencido.</l>
           </sp>
-          <sp who="#arsidas #auristela #aurora #celio #cintia #clariana #licanoro #lisidante #merlín #milor #timantes">
+          <sp
+            who="#arsidas #auristela #aurora #celio #cintia #clariana #licanoro #lisidante #merlín #milor #timantes">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -10938,7 +11012,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="25">
-          <stage>Descúbrese un dosel, y debajo sentado Timantes, y a un lado Lisidante armado; luego por dos palenques salen Milor, Arsidas y Licanoro con padrinos, y Aurora, Clariana, Flérida y Estela, todos armados. Al verse unos a otros toman puestos en el tablado, y prosiguen.</stage>
+          <stage>Descúbrese un dosel, y debajo sentado Timantes, y a un lado Lisidante armado; luego
+            por dos palenques salen Milor, Arsidas y Licanoro con padrinos, y Aurora, Clariana,
+            Flérida y Estela, todos armados. Al verse unos a otros toman puestos en el tablado, y
+            prosiguen.</stage>
           <sp who="#merlín">
             <speaker rend="caps">Merlín</speaker>
 
@@ -11166,7 +11243,8 @@
             <l>Iguales las armas son,</l>
             <l>toca al arma.</l>
           </sp>
-          <sp who="#arsidas #auristela #aurora #brunel #cintia #clariana #licanoro #lisidante #merlín #milor #timantes">
+          <sp
+            who="#arsidas #auristela #aurora #brunel #cintia #clariana #licanoro #lisidante #merlín #milor #timantes">
             <speaker rend="caps">Todos</speaker>
 
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000080" xml:lang="es">
   <teiHeader>
@@ -33,9 +33,13 @@
       <sourceDesc>
         <bibl type="sourceText">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-alcalde-de-zalamea-0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-alcalde-de-zalamea-0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto base: Comedia famosa / El alcalde de Zalamea, en El mejor de los mejores libros que ha salido de comedias, impreso en Alcalá de Henares por María Fernández en 1651. Edición a cargo de Ignacio Arellano. Grupo de investigación GRISO. Proyecto TC/12.</title>
+            <title>Texto base: Comedia famosa / El alcalde de Zalamea, en El mejor de los mejores
+              libros que ha salido de comedias, impreso en Alcalá de Henares por María Fernández en
+              1651. Edición a cargo de Ignacio Arellano. Grupo de investigación GRISO. Proyecto
+              TC/12.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -45,8 +49,12 @@
         <listPerson>
           <person xml:id="rey" sex="MALE">
             <persName>El Rey Felipe Segundo</persName>
+            <idno type="wikidata">Q34417</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="crespo" sex="MALE">
@@ -54,14 +62,24 @@
             <trait source="castlist">
               <desc>labrador</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-lope" sex="MALE">
             <persName>Don Lope de Figueroa</persName>
+            <idno type="wikidata">Q3259293</idno>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="juan" sex="MALE">
             <persName>Juan</persName>
             <trait source="castlist">
               <desc>hijo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="capitán" sex="MALE">
@@ -69,45 +87,78 @@
             <trait source="castlist">
               <desc>capitán</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="isabel" sex="FEMALE">
             <persName>Isabel</persName>
             <trait source="castlist">
               <desc>hija</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sargento" sex="MALE">
             <persName>Un Sargento</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="inés" sex="FEMALE">
             <persName>Inés</persName>
             <trait source="castlist">
               <desc>prima</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado_1" sex="MALE">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado_2" sex="MALE">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mendo" sex="MALE">
             <persName>Don Mendo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rebolledo" sex="MALE">
             <persName>Rebolledo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="chispa" sex="FEMALE">
             <persName>Chispa</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nuño" sex="MALE">
             <persName>Nuño</persName>
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="escribano" sex="MALE">
             <persName>Un Escribano</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="labradores" sex="MALE">
             <persName>Labradores</persName>
@@ -119,17 +170,20 @@
           <term source="dracor" type="genreTitle">drama de honor</term>
           <term source="#kroll" type="main">tragedia y drama de honor</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -141,7 +195,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000080" passive="http://www.wikidata.org/entity/Q686158"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000080"
+        passive="http://www.wikidata.org/entity/Q686158"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -2923,7 +2978,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Vanse. Sale el CAPITÁN, SARGENTO, CHISPA, REBOLLEDO, con guitarras y SOLDADOS.</stage>
+          <stage>Vanse. Sale el CAPITÁN, SARGENTO, CHISPA, REBOLLEDO, con guitarras y
+            SOLDADOS.</stage>
           <sp who="#rebolledo">
             <speaker>REBOLLEDO</speaker>
             <l>Mejor estamos aquí.</l>

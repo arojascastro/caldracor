@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000197" xml:lang="es">
   <teiHeader>
@@ -36,9 +36,11 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra/los-alimentos-del-hombre-auto/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra/los-alimentos-del-hombre-auto/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Miguel Zugasti, Pamplona / Kassel, Universidad de Navarra / Reichenberger, 2009. ISBN: 978-3-937734-75-0.</title>
+            <title>Edición digital a partir de la edición de Miguel Zugasti, Pamplona / Kassel,
+              Universidad de Navarra / Reichenberger, 2009. ISBN: 978-3-937734-75-0.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,54 +50,119 @@
         <listPerson>
           <person sex="MALE" xml:id="padre">
             <persName>Padre</persName>
+            <idno type="wikidata">Q186350</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="adamo">
             <persName>Adamo</persName>
+            <idno type="wikidata">Q70899</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="emanuel">
             <persName>Emanuel</persName>
+            <idno type="wikidata">Q302</idno>
             <trait source="castlist">
               <desc>hijo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="primavera">
             <persName>Primavera</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="estio">
             <persName>Estío</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="otono">
             <persName>Otoño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="invierno">
             <persName>Invierno</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="demonio">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel">
             <persName>Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="apetito">
             <persName>Apetito</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="razon">
             <persName>Razón</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="lucero">
             <persName>Lucero</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="aurora">
             <persName>Aurora</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Voces</persName>
           </personGrp>
           <person sex="FEMALE" xml:id="justicia">
             <persName>Justicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1.º</persName>
@@ -110,17 +177,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -162,7 +232,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale el PADRE DE FAMILIAS, viejo venerable, vestido de mayoral, como arrojando de sí a ADAMO, vestido de pieles, y deteniéndole EMANUEL, vestido de zagal</stage>
+          <stage>Sale el PADRE DE FAMILIAS, viejo venerable, vestido de mayoral, como arrojando de
+            sí a ADAMO, vestido de pieles, y deteniéndole EMANUEL, vestido de zagal</stage>
           <sp who="#padre">
             <speaker>PADRE</speaker>
             <l>Sal de mi casa, villano.</l>
@@ -270,7 +341,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale la PRIMAVERA con un azafate de flores, el ESTÍO con un haz de espigas, el OTOÑO con otro azafate de frutas, y el INVIERNO, viejo cano</stage>
+          <stage>Sale la PRIMAVERA con un azafate de flores, el ESTÍO con un haz de espigas, el
+            OTOÑO con otro azafate de frutas, y el INVIERNO, viejo cano</stage>
           <sp who="#primavera #estio">
             <speaker>PRIMAVERA Y ESTÍO</speaker>
             <stage>Cantado</stage>
@@ -606,7 +678,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Con esta repetición se entran el PADRE con la mano sobre el hombro de EMANUEL, y los cuatro tras ellos cantando, y sale en lo alto de una montaña ADAMO, repitiendo con despecho lo que cantan</stage>
+          <stage>Con esta repetición se entran el PADRE con la mano sobre el hombro de EMANUEL, y
+            los cuatro tras ellos cantando, y sale en lo alto de una montaña ADAMO, repitiendo con
+            despecho lo que cantan</stage>
           <sp who="#adamo">
             <speaker>ADAMO</speaker>
             <l>«El que ingrato a su Padre</l>
@@ -670,7 +744,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Cay despeñado y al mismo tiempo salen el ÁNGEL por una parte y el DEMONIO por otra, y cay en los brazos de ambos</stage>
+          <stage>Cay despeñado y al mismo tiempo salen el ÁNGEL por una parte y el DEMONIO por otra,
+            y cay en los brazos de ambos</stage>
           <sp who="#musicos #adamo">
             <speaker>LOS DOS</speaker>
             <l part="F">En mis brazos.</l>
@@ -1246,7 +1321,8 @@
             <l part="F">Cuando diga</l>
             <l>alado espíritu fiel...</l>
           </sp>
-          <stage>Aparece el ÁNGEL en el primer nicho de una devanadera que ha de dar vueltas, con los demás que han de seguirse</stage>
+          <stage>Aparece el ÁNGEL en el primer nicho de una devanadera que ha de dar vueltas, con
+            los demás que han de seguirse</stage>
           <sp who="#angel">
             <speaker>ÁNGEL</speaker>
             <stage>Cantado</stage>
@@ -1308,7 +1384,8 @@
             <l>y tú oye la norabuena</l>
             <l n="700">de unirse en él...</l>
           </sp>
-          <sp who="#padre #emanuel #estio #otono #demonio #razon #apetito #adamo #primavera #musicos #angel">
+          <sp
+            who="#padre #emanuel #estio #otono #demonio #razon #apetito #adamo #primavera #musicos #angel">
             <speaker>TODOS</speaker>
             <l>... al candor de la azucena,</l>
             <l>lo encarnado del clavel.</l>
@@ -1332,7 +1409,8 @@
             <l>dar más no puedo a tu pena</l>
             <l>que esa azada. Une tú en él…</l>
           </sp>
-          <sp who="#padre #emanuel #estio #otono #demonio #razon #apetito #musicos #angel #adamo #primavera">
+          <sp
+            who="#padre #emanuel #estio #otono #demonio #razon #apetito #musicos #angel #adamo #primavera">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>… al candor de la azucena,</l>
             <l n="715">lo encarnado del clavel.</l>
@@ -1466,7 +1544,8 @@
             <l>Cuando diga alguna voz</l>
             <l>que ha de clamar en desierto:</l>
           </sp>
-          <stage>En uno de cuatro nichos que ha de tener una devanadera (en uno de los carros), aparece el LUCERO, de pieles, como pintan al Baptista</stage>
+          <stage>En uno de cuatro nichos que ha de tener una devanadera (en uno de los carros),
+            aparece el LUCERO, de pieles, como pintan al Baptista</stage>
           <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <stage>Cantado</stage>
@@ -1747,7 +1826,8 @@
             <l>… gloria a Dios en las alturas</l>
             <l n="955">y paz al hombre en el suelo.</l>
           </sp>
-          <sp who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #adamo #invierno #musicos">
+          <sp
+            who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #adamo #invierno #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
@@ -1766,7 +1846,8 @@
             <l>¿a qué efecto es repetida</l>
             <l part="I">de todos?</l>
           </sp>
-          <sp who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo #invierno">
+          <sp
+            who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo #invierno">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l part="F">A la venida</l>
@@ -1787,7 +1868,8 @@
             <l>el primero, cuyo celo</l>
             <l>de entre esotras voces puras…</l>
           </sp>
-          <sp who="#invierno #emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo">
+          <sp
+            who="#invierno #emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo">
             <speaker>ÉL Y TODOS</speaker>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
@@ -1835,7 +1917,8 @@
             <l>dará con festivo anhelo,</l>
             <l n="1005">celebrando sus venturas…</l>
           </sp>
-          <sp who="#invierno #demonio #razon #angel #primavera #lucero #estio #aurora #otono #musicos #adamo #apetito #emanuel #acompanamiento">
+          <sp
+            who="#invierno #demonio #razon #angel #primavera #lucero #estio #aurora #otono #musicos #adamo #apetito #emanuel #acompanamiento">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
@@ -2513,7 +2596,8 @@
             <speaker>LOS TRES</speaker>
             <l>Por más que repita el viento…</l>
           </sp>
-          <sp who="#musicos #invierno #demonio #primavera #lucero #estio #aurora #otono #emanuel #acompanamiento #apetito #razon #angel #adamo">
+          <sp
+            who="#musicos #invierno #demonio #primavera #lucero #estio #aurora #otono #emanuel #acompanamiento #apetito #razon #angel #adamo">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Todos en su venida</l>
             <l>nos alegremos,</l>
@@ -2522,7 +2606,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Con esta repetición se entran los tres por una parte, y salen por otra cantando y bailando los demás, delante de EMANUEL. Y adviértase que cada tiempo canta su copla de por sí, y todos el estribillo, sin cesar el baile ni los instrumentos, aunque represente EMANUEL sus versos entre copla y copla</stage>
+          <stage>Con esta repetición se entran los tres por una parte, y salen por otra cantando y
+            bailando los demás, delante de EMANUEL. Y adviértase que cada tiempo canta su copla de
+            por sí, y todos el estribillo, sin cesar el baile ni los instrumentos, aunque represente
+            EMANUEL sus versos entre copla y copla</stage>
           <sp who="#primavera">
             <speaker>PRIMAVERA</speaker>
             <stage>Trae una guirnalda</stage>
@@ -2615,7 +2702,8 @@
             <l>que cordero inmolado</l>
             <l>dice misterios.</l>
           </sp>
-          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #angel #adamo #primavera #estio #otono #invierno #musicos #emanuel">
+          <sp
+            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #angel #adamo #primavera #estio #otono #invierno #musicos #emanuel">
             <speaker>TODOS</speaker>
             <stage>Cantado</stage>
             <l n="1480">Pües también tu agrado</l>
@@ -2875,7 +2963,8 @@
             <l>se ha de componer el himno</l>
             <l>que tras ti cantando iremos.</l>
           </sp>
-          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
+          <sp
+            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué himno?</l>
           </sp>
@@ -2889,8 +2978,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Cantando la PRIMAVERA y respondiendo la mujer. Sale el DEMONIO como oyendo a lo lejos. (Cantado)</stage>
-          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
+          <stage>Cantando la PRIMAVERA y respondiendo la mujer. Sale el DEMONIO como oyendo a lo
+            lejos. (Cantado)</stage>
+          <sp
+            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
             <speaker>TODOS</speaker>
             <l>«Pues desheredado el hombre,</l>
             <l n="1650">humilde pide alimentos».</l>
@@ -2901,7 +2992,8 @@
             <l>Contestando su demanda</l>
             <l>en el oficio del rezo.</l>
           </sp>
-          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
+          <sp
+            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
             <speaker>TODOS</speaker>
             <l>«Contestando su demanda</l>
             <l>en el oficio del rezo».</l>
@@ -2919,7 +3011,8 @@
             <l>Dices bien, y así con todos</l>
             <l n="1660">iré yo también diciendo…</l>
           </sp>
-          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #primavera #emanuel">
+          <sp
+            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #primavera #emanuel">
             <speaker>TODOS</speaker>
             <l>¿Quién duda, si él pone el llanto,</l>
             <l>si custudio pone el ruego</l>
@@ -2928,7 +3021,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Con esta repetición, cantando y representando, se entran todos; y sale el DEMONIO</stage>
+          <stage>Con esta repetición, cantando y representando, se entran todos; y sale el
+            DEMONIO</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l n="1665">Yo lo dudo, pues antes en justicia</l>
@@ -2966,7 +3060,8 @@
             <l>y así, aunque soy quien soy, tú eres quien eres</l>
             <l part="I">y debes escucharme.</l>
           </sp>
-          <stage>Las chirimías. Ábrese un carro y vese en él la JUSTICIA, dama bizarra, con una vara dorada en una mano y en otra un peso, sentada en un trono</stage>
+          <stage>Las chirimías. Ábrese un carro y vese en él la JUSTICIA, dama bizarra, con una vara
+            dorada en una mano y en otra un peso, sentada en un trono</stage>
           <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l part="F">¿Qué me quieres?,</l>
@@ -3026,7 +3121,8 @@
             <l n="1740">de cuánto contra paz y verdad yerra,</l>
             <l>prevaricando el centro de la tierra.</l>
           </sp>
-          <stage>Cúbrese el carro Van saliendo los tiempos con sus versos, dando vueltas alrededor</stage>
+          <stage>Cúbrese el carro Van saliendo los tiempos con sus versos, dando vueltas
+            alrededor</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Al tiempo me remite.</l>
@@ -3163,12 +3259,14 @@
             <l>repitiendo los ecos que veloces</l>
             <l>en ese patio están diciendo a voces…</l>
           </sp>
-          <sp who="#lucero #aurora #acompanamiento #apetito #razon #adamo #angel #emanuel #justicia #invierno #musicos #demonio #primavera #estio #otono">
+          <sp
+            who="#lucero #aurora #acompanamiento #apetito #razon #adamo #angel #emanuel #justicia #invierno #musicos #demonio #primavera #estio #otono">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1790">Vengan las partes, vengan,</l>
             <l>del pleito de alimentos a oír sentencia.</l>
           </sp>
-          <stage>Las chirimías, y vuélvese a ver el trono de la JUSTICIA, y en él sentada. Baja hasta el tablado, llega la RAZÓN a la grada y dándola la mano se abrazan los dos</stage>
+          <stage>Las chirimías, y vuélvese a ver el trono de la JUSTICIA, y en él sentada. Baja
+            hasta el tablado, llega la RAZÓN a la grada y dándola la mano se abrazan los dos</stage>
           <sp who="#primavera">
             <speaker>PRIMAVERA</speaker>
             <l>Ya del trono desciende</l>
@@ -3298,7 +3396,9 @@
             <l>Vengan las partes, vengan</l>
             <l n="1855">del pleito de alimentos a oír sentencia.</l>
           </sp>
-          <stage>Siéntase la JUSTICIA en su trono, y ponen delante dél un bufete con escribanía y campanilla, y ábrese otro carro en que estará sentado en otro trono el PADRE DE FAMILIAS</stage>
+          <stage>Siéntase la JUSTICIA en su trono, y ponen delante dél un bufete con escribanía y
+            campanilla, y ábrese otro carro en que estará sentado en otro trono el PADRE DE
+            FAMILIAS</stage>
           <sp who="#padre">
             <speaker>PADRE</speaker>
             <l>En una de las escuchas</l>
@@ -3474,7 +3574,8 @@
             <speaker>MÚSICA</speaker>
             <l part="F">Silencio.</l>
           </sp>
-          <sp who="#aurora #acompanamiento #invierno #otono #estio #primavera #razon #emanuel #adamo #apetito #padre #angel #demonio #coro-1 #coro-2 #justicia #musicos">
+          <sp
+            who="#aurora #acompanamiento #invierno #otono #estio #primavera #razon #emanuel #adamo #apetito #padre #angel #demonio #coro-1 #coro-2 #justicia #musicos">
             <speaker>TODOS</speaker>
             <l n="1975">Justicia, clemencia.</l>
           </sp>
@@ -3767,7 +3868,8 @@
             <l>¿Pan y vino, carne y sangre?</l>
             <l>Sepa yo de qué manera.</l>
           </sp>
-          <stage>Ábrese el cuarto carro y vese la AURORA sentada a una mesa en que habrá hostia y cáliz</stage>
+          <stage>Ábrese el cuarto carro y vese la AURORA sentada a una mesa en que habrá hostia y
+            cáliz</stage>
           <sp who="#aurora">
             <speaker>AURORA</speaker>
             <l>Eso diré yo, que habiendo</l>
@@ -3869,7 +3971,8 @@
             <l>Pues todo ha parado en dicha,</l>
             <l>acabe también en fiesta.</l>
           </sp>
-          <sp who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
+          <sp
+            who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
             <speaker>TODOS</speaker>
             <l part="I">¿De qué suerte?</l>
           </sp>
@@ -3878,7 +3981,8 @@
             <l part="F">¿Qué dijimos</l>
             <l>al convocar esta audiencia?</l>
           </sp>
-          <sp who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
+          <sp
+            who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="2240">Vengan las partes, vengan</l>
             <l>al pleito de alimentos a oír sentencia.</l>
@@ -3894,7 +3998,8 @@
             <l>que empieza en justicia</l>
             <l>y acaba en clemencia.</l>
           </sp>
-          <sp who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
+          <sp
+            who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="2250">Vengan todos, todos vengan</l>
             <l>a tan piadosa audiencia,</l>

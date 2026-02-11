@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000199" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,9 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/19078</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de F. Gilbert y K. Uppendahl, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2011. ISBN: 978-3-937734-87-3.</title>
+            <title>Edición digital a partir de la edición de F. Gilbert y K. Uppendahl,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2011. ISBN:
+              978-3-937734-87-3.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,41 +50,68 @@
         <listPerson>
           <person sex="MALE" xml:id="nabuco">
             <persName>Nabuco</persName>
+            <idno type="wikidata">Q12591</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="habacu">
             <persName>Habacú</persName>
+            <idno type="wikidata">Q135106</idno>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="zabulon">
             <persName>Zabulón</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="azarias">
             <persName>Azarías</persName>
+            <idno type="wikidata">Q8183887</idno>
             <trait source="castlist">
               <desc>hebreo</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="ananias">
             <persName>Ananías</persName>
+            <idno type="wikidata">Q5891723</idno>
             <trait source="castlist">
               <desc>hebreo</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="misael">
             <persName>Misael</persName>
+            <idno type="wikidata">Q11343582</idno>
             <trait source="castlist">
               <desc>hebreo</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="daniel">
             <persName>Daniel</persName>
+            <idno type="wikidata">Q171724</idno>
             <trait source="castlist">
               <desc>hebreo</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="arfajat">
@@ -90,26 +119,45 @@
             <trait source="castlist">
               <desc>sacerdote</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado-1">
             <persName>Soldado 1.º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado-2">
             <persName>Soldado 2.º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="idolatria">
             <persName>Idolatría</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="donosor">
             <persName>Donosor</persName>
             <trait source="castlist">
               <desc>hijo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="gabriel">
             <persName>Gabriel</persName>
+            <idno type="wikidata">Q81989</idno>
             <trait source="castlist">
               <desc>ángel</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
         </listPerson>
@@ -119,17 +167,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -169,7 +220,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro cajas y trompetas a una parte, y a otra instrumentos, músicos y voces, y sale HABACÚ, viejo venerable, atendiendo como con sentimiento a todo</stage>
+          <stage>Dentro cajas y trompetas a una parte, y a otra instrumentos, músicos y voces, y
+            sale HABACÚ, viejo venerable, atendiendo como con sentimiento a todo</stage>
           <sp who="#nabuco">
             <speaker>NABUCO</speaker>
             <l>La vuelta de Babilonia</l>
@@ -393,7 +445,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Retíranse HABACÚ y ZABULÓN, y al compás de las cajas y trompetas salen marchando DANIEL, AZARÍAS, MISAEL, ANANÍAS, y soldados y músicos. Los cuatro, que han de ser tres mujeres músicas, y DANIEL, joven galán, vestidos a lo judío con cadenas en los pies, y los demás, a lo gentil. Dan vuelta al ta-blado, cantando unos y llorando otros</stage>
+          <stage>Retíranse HABACÚ y ZABULÓN, y al compás de las cajas y trompetas salen marchando
+            DANIEL, AZARÍAS, MISAEL, ANANÍAS, y soldados y músicos. Los cuatro, que han de ser tres
+            mujeres músicas, y DANIEL, joven galán, vestidos a lo judío con cadenas en los pies, y
+            los demás, a lo gentil. Dan vuelta al ta-blado, cantando unos y llorando otros</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>A los Campos de Senar,...</l>
@@ -997,7 +1052,8 @@
             <l>Oye, Santa Sïón,</l>
             <l n="480">oye las quejas…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
             <speaker>TODOS</speaker>
             <l>Oye, Santa Sïón,</l>
             <l>oye las quejas…</l>
@@ -1008,7 +1064,8 @@
             <l>de quien cautivo vive</l>
             <l>en tierra ajena,…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
             <speaker>TODOS</speaker>
             <l n="485">de quien cautivo vive</l>
             <l>en tierra ajena,…</l>
@@ -1017,7 +1074,8 @@
             <speaker>AZARÍAS</speaker>
             <l>y verás cómo gime,…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
             <speaker>TODOS</speaker>
             <l>y verás cómo gime,…</l>
           </sp>
@@ -1025,7 +1083,8 @@
             <speaker>AZARÍAS</speaker>
             <l>y verás cómo suena,…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
             <speaker>TODOS</speaker>
             <l n="490">y verás cómo suena,…</l>
           </sp>
@@ -1033,7 +1092,8 @@
             <speaker>AZARÍAS</speaker>
             <l>llorando la alegría,…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
             <speaker>TODOS</speaker>
             <l>llorando la alegría,…</l>
           </sp>
@@ -1041,7 +1101,8 @@
             <speaker>AZARÍAS</speaker>
             <l>cantando la tristeza,…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
             <speaker>TODOS</speaker>
             <l>cantando la tristeza,…</l>
           </sp>
@@ -1049,7 +1110,8 @@
             <speaker>AZARÍAS</speaker>
             <l n="495">puesta una vez en música la pena.</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #nabuco #daniel #misael #ananias #zabulon #azarias">
             <speaker>TODOS</speaker>
             <l>puesta una vez en música la pena.</l>
           </sp>
@@ -1087,7 +1149,8 @@
             <l>y pues de tus memorias</l>
             <l>componen sus violencias…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #daniel #nabuco #zabulon #azarias #misael #ananias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #daniel #nabuco #zabulon #azarias #misael #ananias">
             <speaker>TODOS</speaker>
             <l>Oye, Santa Sïón,</l>
             <l>oye las quejas</l>
@@ -1129,7 +1192,8 @@
             <stage>Cantado</stage>
             <l>cuando desdicha muera…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #daniel #nabuco #zabulon #azarias #misael #ananias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #daniel #nabuco #zabulon #azarias #misael #ananias">
             <speaker>TODOS</speaker>
             <l>Oye, Santa Sïón,</l>
             <stage>[Cantado]</stage>
@@ -1174,7 +1238,8 @@
             <stage>[Cantado]</stage>
             <l>su pompa a su grandeza!</l>
           </sp>
-          <sp who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #daniel #zabulon #nabuco #azarias #misael #ananias">
+          <sp
+            who="#acompanamiento #musicos #arfajat #habacu #soldado-2 #soldado-1 #daniel #zabulon #nabuco #azarias #misael #ananias">
             <speaker>TODOS</speaker>
             <l n="555">Oye, Santa Sïón…</l>
           </sp>
@@ -1202,8 +1267,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Vanse cantando en tono bajo, y sale la IDOLATRÍA, vestida de negro, con estrellas, manto, espada, bengala y plumas</stage>
-          <sp who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel">
+          <stage>Vanse cantando en tono bajo, y sale la IDOLATRÍA, vestida de negro, con estrellas,
+            manto, espada, bengala y plumas</stage>
+          <sp
+            who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel">
             <speaker>TODOS</speaker>
             <l>Ya que sobre los ríos</l>
             <stage>Cantado</stage>
@@ -1218,7 +1285,8 @@
             <l>Oye, Santa Sïón,</l>
             <l>oye las quejas…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel #idolatria">
+          <sp
+            who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel #idolatria">
             <speaker>TODOS</speaker>
             <l>de quien cautivo vive</l>
             <l n="580">en tierra ajena,…</l>
@@ -1228,7 +1296,8 @@
             <l>de quien cautivo vive</l>
             <l>en tierra ajena,…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel #idolatria">
+          <sp
+            who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel #idolatria">
             <speaker>TODOS</speaker>
             <l>y verás cómo gime,</l>
             <l>y verás cómo suena,…</l>
@@ -1238,7 +1307,8 @@
             <l n="585">y verás cómo gime,</l>
             <l>y verás cómo suena,…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel #idolatria">
+          <sp
+            who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel #idolatria">
             <speaker>TODOS</speaker>
             <l>llorando la alegría,</l>
             <l>cantando la tristeza,…</l>
@@ -1248,7 +1318,8 @@
             <l>llorando la alegría,</l>
             <l n="590">cantando la tristeza,…</l>
           </sp>
-          <sp who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel #idolatria">
+          <sp
+            who="#acompanamiento #musicos #habacu #soldado-2 #soldado-1 #zabulon #nabuco #azarias #misael #ananias #arfajat #daniel #idolatria">
             <speaker>TODOS</speaker>
             <l>puesta una vez en música la pena.</l>
           </sp>
@@ -1510,7 +1581,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Con DONOSOR salen algunos soldados, cúbrese el rostro la IDOLATRÍA, y él no la ve</stage>
+          <stage>Con DONOSOR salen algunos soldados, cúbrese el rostro la IDOLATRÍA, y él no la
+            ve</stage>
           <sp who="#soldados">
             <speaker>SOLDADOS</speaker>
             <l part="F">¿Qué mandas?</l>
@@ -1695,7 +1767,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Salen GABRIEL, ángel, DANIEL, AZARÍAS, MISAEL, ANANÍAS, ZABULÓN, y DONOSOR con ellos</stage>
+          <stage>Salen GABRIEL, ángel, DANIEL, AZARÍAS, MISAEL, ANANÍAS, ZABULÓN, y DONOSOR con
+            ellos</stage>
           <sp who="#gabriel">
             <speaker>GABRIEL</speaker>
             <l part="F">No todos,</l>
@@ -2091,7 +2164,8 @@
             <l>decid, el rey Baltasar nuevo!</l>
           </sp>
           <stage>Las cajas</stage>
-          <sp who="#habacu #misael #ananias #soldado-1 #soldado-2 #musicos #acompanamiento #gabriel #idolatria #azarias #zabulon #daniel #donosor #nabuco #arfajat">
+          <sp
+            who="#habacu #misael #ananias #soldado-1 #soldado-2 #musicos #acompanamiento #gabriel #idolatria #azarias #zabulon #daniel #donosor #nabuco #arfajat">
             <speaker>TODOS</speaker>
             <l n="1025">¡Viva el nuevo Baltasar!</l>
           </sp>
@@ -2148,7 +2222,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>Con esta repetición y cajas y trompetas, habiendo dado vueltas al tablado NABUCO, con la mano sobre el hombro de DANIEL, se entran todos y ARFAJAD detiene a los otros y a ZABULÓN</stage>
+          <stage>Con esta repetición y cajas y trompetas, habiendo dado vueltas al tablado NABUCO,
+            con la mano sobre el hombro de DANIEL, se entran todos y ARFAJAD detiene a los otros y a
+            ZABULÓN</stage>
           <sp who="#arfajat">
             <speaker>ARFAJAT</speaker>
             <l n="1055">Dejad que el Rey se adelante,</l>
@@ -2418,7 +2494,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Éntranse por una parte cantando, y salen por otra al son de cajas y trompetas NABUCO, DANIEL, DONOSOR y Soldados</stage>
+          <stage>Éntranse por una parte cantando, y salen por otra al son de cajas y trompetas
+            NABUCO, DANIEL, DONOSOR y Soldados</stage>
           <sp who="#nabuco">
             <speaker>NABUCO</speaker>
             <l n="1160">Ya desde aquí los pensiles</l>
@@ -2466,7 +2543,9 @@
             <l>¡Qué bien se avienen veloces</l>
             <l>trompetas, cajas y voces!</l>
             <l>Mas, ¿qué fábrica es aquella</l>
-            <stage>Ábrese un carro en que se verá un arco triunfal con una estatua de NABUCO imitada de bronce, y salen de máscara la IDOLATRÍA y otros con hachas y mascarillas, danzando y cantando entre él y la estatua</stage>
+            <stage>Ábrese un carro en que se verá un arco triunfal con una estatua de NABUCO imitada
+              de bronce, y salen de máscara la IDOLATRÍA y otros con hachas y mascarillas, danzando
+              y cantando entre él y la estatua</stage>
             <l n="1185">que, haciéndome novedad,</l>
             <l>pues no la dejé, guarnece</l>
             <l>los muros de la ciudad?</l>
@@ -2695,7 +2774,8 @@
             <l>que haciendo yo el ejemplar,</l>
             <l>el primero he de adorarla.</l>
           </sp>
-          <sp who="#habacu #soldado-1 #soldado-2 #gabriel #arfajat #misael #ananias #zabulon #azarias #acompanamiento #idolatria #musicos #daniel #nabuco #donosor">
+          <sp
+            who="#habacu #soldado-1 #soldado-2 #gabriel #arfajat #misael #ananias #zabulon #azarias #acompanamiento #idolatria #musicos #daniel #nabuco #donosor">
             <speaker>TODOS</speaker>
             <l>Y todos te seguiremos.</l>
           </sp>
@@ -2733,7 +2813,8 @@
             <speaker>MÚSICA</speaker>
             <l>dios de las almas.</l>
           </sp>
-          <sp who="#habacu #soldado-1 #soldado-2 #gabriel #arfajat #misael #ananias #zabulon #azarias #acompanamiento #daniel #nabuco #donosor #idolatria #musicos">
+          <sp
+            who="#habacu #soldado-1 #soldado-2 #gabriel #arfajat #misael #ananias #zabulon #azarias #acompanamiento #daniel #nabuco #donosor #idolatria #musicos">
             <speaker>TODOS</speaker>
             <l>A Nabuco demos</l>
             <stage>Bailando</stage>
@@ -2962,7 +3043,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Con estas dos músicas que vuelven a repetirse juntas, los unos a lo lejos y los otros fuera, se entran bailando delante de NABUCO. Ciérrase el carro, y la IDOLATRÍA se quita la máscara</stage>
+          <stage>Con estas dos músicas que vuelven a repetirse juntas, los unos a lo lejos y los
+            otros fuera, se entran bailando delante de NABUCO. Ciérrase el carro, y la IDOLATRÍA se
+            quita la máscara</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l>No en vano de mis astucias</l>
@@ -3015,7 +3098,8 @@
             <l n="1515">hoy ensalzáis en los tres</l>
             <l>la honra de vuestro Criador…</l>
           </sp>
-          <sp who="#habacu #gabriel #acompanamiento #daniel #donosor #arfajat #soldado-1 #soldado-2 #azarias #ananias #misael #nabuco #zabulon #musicos #idolatria">
+          <sp
+            who="#habacu #gabriel #acompanamiento #daniel #donosor #arfajat #soldado-1 #soldado-2 #azarias #ananias #misael #nabuco #zabulon #musicos #idolatria">
             <speaker>TODO[S], LA MÚSICA</speaker>
             <l>¡bendecid al Señor!</l>
           </sp>
@@ -3057,7 +3141,9 @@
             <l>inspirando vuestro amor,</l>
             <l>¡bendecid al Señor!</l>
           </sp>
-          <stage>Con esta música y chirimías se abre un carro y en la parte inferior se ve, lo más bien imitado que se pueda, un horno de fuego y en él los tres, paseándose; y en la superior se abre una nube, y baja de ella GABRIEL y se mezcla con ellos</stage>
+          <stage>Con esta música y chirimías se abre un carro y en la parte inferior se ve, lo más
+            bien imitado que se pueda, un horno de fuego y en él los tres, paseándose; y en la
+            superior se abre una nube, y baja de ella GABRIEL y se mezcla con ellos</stage>
           <sp who="#gabriel">
             <speaker>GABRIEL</speaker>
             <l>Sí bendecirán, ¡oh bellos</l>
@@ -3102,7 +3188,8 @@
             <l>Aun para gemir, ¡oh abismos!,</l>
             <l n="1575">aliento a mi aliento falta.</l>
           </sp>
-          <stage>GABRIEL representa como echando el compás y LOS TRES cantan, paseándose todos</stage>
+          <stage>GABRIEL representa como echando el compás y LOS TRES cantan, paseándose
+            todos</stage>
           <sp who="#musicos #gabriel #idolatria">
             <speaker>LOS TRES</speaker>
             <l>Ángeles y plenitudes</l>
@@ -3152,7 +3239,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Salen DONOSOR y ARFAJAD, deteniendo a NABUCO, y apartándolos, él topa con la IDOLATRÍA</stage>
+          <stage>Salen DONOSOR y ARFAJAD, deteniendo a NABUCO, y apartándolos, él topa con la
+            IDOLATRÍA</stage>
           <sp who="#idolatria #gabriel">
             <speaker>LOS DOS</speaker>
             <l part="I">¿Dónde vuelves?</l>
@@ -3204,7 +3292,8 @@
             <l n="1610">su fin, sino como dicha</l>
             <l>a asistirla y envidiarla.</l>
           </sp>
-          <stage>Llegan a la boca del horno; baja por una parte desasido de la IDOLATRÍA, NABUCO y por otra DANIEL de ZABULÓN</stage>
+          <stage>Llegan a la boca del horno; baja por una parte desasido de la IDOLATRÍA, NABUCO y
+            por otra DANIEL de ZABULÓN</stage>
           <sp who="#nabuco">
             <speaker>NABUCO</speaker>
             <l part="I">Mas ¡qué miro!</l>
@@ -3345,7 +3434,8 @@
             <l>Pues sea, al cántico volviendo,</l>
             <l n="1665">de mi partida la salva:</l>
           </sp>
-          <stage>Vuelve GABRIEL a ponerse en la nube y desaparece, cerrándose el horno con la música y chirimías</stage>
+          <stage>Vuelve GABRIEL a ponerse en la nube y desaparece, cerrándose el horno con la música
+            y chirimías</stage>
           <sp who="#gabriel #musicos">
             <speaker>GABRIEL Y MÚSICA</speaker>
             <l>Grandes obras de Dios, pues</l>
@@ -3734,7 +3824,8 @@
           <sp who="#gabriel">
             <speaker>GABRIEL</speaker>
             <l part="F">Desta suerte,</l>
-            <stage>Suben los dos en un bofetón, asiendo GABRIEL a HABACÚ de los cabellos, y sin dar vuelta se paran en el aire</stage>
+            <stage>Suben los dos en un bofetón, asiendo GABRIEL a HABACÚ de los cabellos, y sin dar
+              vuelta se paran en el aire</stage>
             <l>manifestándose, al vello,</l>
             <l n="1855">no tan sólo que quien da</l>
             <l>de gana limosna irá</l>
@@ -3748,7 +3839,8 @@
             <l>que es cuando el género humano</l>
             <l n="1865">diga, explicado en Daniel:</l>
           </sp>
-          <stage>Ábrese el carro que estará cercano al del bofetón y vese DANIEL de rodillas entre cuatro leones</stage>
+          <stage>Ábrese el carro que estará cercano al del bofetón y vese DANIEL de rodillas entre
+            cuatro leones</stage>
           <sp who="#daniel">
             <speaker>DANIEL</speaker>
             <l>Ni el rigor de la prisión,</l>
@@ -3795,7 +3887,8 @@
             <l>y profeta de Dios eres,</l>
             <l>ministrársele te toca.</l>
           </sp>
-          <stage>Da vuelta el bofetón de suerte que, llegando de un carro a otro, pueda HABACÚ dar la cesta a DANIEL</stage>
+          <stage>Da vuelta el bofetón de suerte que, llegando de un carro a otro, pueda HABACÚ dar
+            la cesta a DANIEL</stage>
           <sp who="#habacu">
             <speaker>HABACÚ</speaker>
             <l n="1905">Varón de Dios que mereces</l>
@@ -3867,7 +3960,8 @@
             <speaker>ARFAJAT</speaker>
             <l part="F">Esas puertas abre.</l>
           </sp>
-          <sp who="#acompanamiento #soldado-1 #soldado-2 #musicos #nabuco #gabriel #habacu #daniel #azarias #misael #ananias #idolatria #donosor #zabulon #arfajat">
+          <sp
+            who="#acompanamiento #soldado-1 #soldado-2 #musicos #nabuco #gabriel #habacu #daniel #azarias #misael #ananias #idolatria #donosor #zabulon #arfajat">
             <speaker>TODOS</speaker>
             <l>Cielos! ¿Qué prodigio es éste!</l>
           </sp>
@@ -3889,7 +3983,8 @@
             <l>¡Ay infeliz, que aun en sombras</l>
             <l>me asusta y me pasma el verle!</l>
           </sp>
-          <sp who="#acompanamiento #soldado-1 #soldado-2 #musicos #nabuco #gabriel #habacu #azarias #misael #ananias #donosor #zabulon #arfajat #daniel #idolatria">
+          <sp
+            who="#acompanamiento #soldado-1 #soldado-2 #musicos #nabuco #gabriel #habacu #azarias #misael #ananias #donosor #zabulon #arfajat #daniel #idolatria">
             <speaker>TODOS</speaker>
             <l>¡Gran Dios es el de Israel!</l>
           </sp>
@@ -3925,7 +4020,8 @@
             <l>repetid todos alegres:</l>
             <l>Nadie desconfíe…</l>
           </sp>
-          <sp who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
+          <sp
+            who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Nadie desconfíe…</l>
           </sp>
@@ -3933,7 +4029,8 @@
             <speaker>NABUCO</speaker>
             <l>Nadie desespere…</l>
           </sp>
-          <sp who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
+          <sp
+            who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
             <speaker>MÚSICA Y TODOS</speaker>
             <l n="1955">Nadie desespere…</l>
           </sp>
@@ -3941,7 +4038,8 @@
             <speaker>NABUCO</speaker>
             <l>Que con este pan y este vino…</l>
           </sp>
-          <sp who="#nabuco #musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael">
+          <sp
+            who="#nabuco #musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael">
             <speaker>ÉL Y TODOS</speaker>
             <l>Que con este pan y este vino…</l>
           </sp>
@@ -3949,7 +4047,8 @@
             <speaker>NABUCO</speaker>
             <l>Las llamas se apagan…</l>
           </sp>
-          <sp who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
+          <sp
+            who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Las llamas se apagan…</l>
           </sp>
@@ -3957,7 +4056,8 @@
             <speaker>NABUCO</speaker>
             <l n="1960">Las fieras se vencen…</l>
           </sp>
-          <sp who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
+          <sp
+            who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Las fieras se vencen…</l>
           </sp>
@@ -3965,7 +4065,8 @@
             <speaker>NABUCO</speaker>
             <l>Las penas se abrevian…</l>
           </sp>
-          <sp who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
+          <sp
+            who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Las penas se abrevian…</l>
           </sp>
@@ -3973,7 +4074,8 @@
             <speaker>NABUCO</speaker>
             <l>y las culpas se absuelven.</l>
           </sp>
-          <sp who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
+          <sp
+            who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #daniel #azarias #ananias #misael #nabuco">
             <speaker>MÚSICA Y TODOS</speaker>
             <l n="1965">y las culpas se absuelven.</l>
           </sp>
@@ -3986,7 +4088,8 @@
             <l n="1970">diciendo todos, por que</l>
             <l>todos sus penas alienten:</l>
           </sp>
-          <sp who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #azarias #ananias #misael #nabuco #daniel">
+          <sp
+            who="#musicos #acompanamiento #soldado-1 #soldado-2 #gabriel #habacu #donosor #zabulon #arfajat #idolatria #azarias #ananias #misael #nabuco #daniel">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Nadie desconfíe,</l>
             <l>nadie desespere.</l>

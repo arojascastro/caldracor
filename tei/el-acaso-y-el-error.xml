@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000077" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-08">
@@ -38,7 +39,13 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Edición digital a partir de la Segunda parte de Obras Completas de Don Pedro Calderón de la Barca. Textos íntegros según las primeras ediciones y los manuscritos autógrafos, edición, prólogo y notas por el Dr. Ángel Valbuena Prat, Tomo II: Comedias. Madrid: Aguilar 1956. La primera édicion de esta comedia se imprimio en: Biblioteca de Autores Españoles, Tomo Noveno, Comedias de Don Pedro Calderón de la Barca, hecha é ilustrada pro Don Juan Eugenio Hartzenbusch, Tomo Segundo, Madrid: Rivadeneyra 1849.</title>
+          <title>Edición digital a partir de la Segunda parte de Obras Completas de Don Pedro
+            Calderón de la Barca. Textos íntegros según las primeras ediciones y los manuscritos
+            autógrafos, edición, prólogo y notas por el Dr. Ángel Valbuena Prat, Tomo II: Comedias.
+            Madrid: Aguilar 1956. La primera édicion de esta comedia se imprimio en: Biblioteca de
+            Autores Españoles, Tomo Noveno, Comedias de Don Pedro Calderón de la Barca, hecha é
+            ilustrada pro Don Juan Eugenio Hartzenbusch, Tomo Segundo, Madrid: Rivadeneyra
+            1849.</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -50,6 +57,9 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
             <persName>Fabio</persName>
@@ -59,11 +69,17 @@
             <trait source="castlist">
               <desc>vejete</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cárlos" sex="MALE">
             <persName>Cárlos</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lisardo" sex="MALE">
@@ -71,11 +87,17 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="clotaldo" sex="MALE">
             <persName>Clotaldo</persName>
             <trait source="castlist">
               <desc>duque</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="flor" sex="FEMALE">
@@ -83,11 +105,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="silvia" sex="FEMALE">
             <persName>Silvia</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="diana" sex="FEMALE">
@@ -95,11 +123,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
             <persName>Laura</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="gileta" sex="FEMALE">
@@ -107,14 +141,23 @@
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="duque" sex="MALE">
             <persName>El Duque de Mantua</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="perote" sex="MALE">
             <persName>Perote</persName>
             <trait source="castlist">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="celio" sex="MALE">
@@ -122,12 +165,21 @@
             <trait source="castlist">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="jardinero" sex="MALE">
             <persName>Un Jardinero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alcaide" sex="MALE">
             <persName>Un Alcaide</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="criados" sex="MALE">
             <persName>Criados</persName>
@@ -137,6 +189,9 @@
           </personGrp>
           <person sex="UNKNOWN" xml:id="músicos">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -145,17 +200,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -999,7 +1057,8 @@
             <l>Sí, pues</l>
             <l>Pusiera al dueño en peligro.</l>
           </sp>
-          <stage>(Sacan los lienzos dama y galan, y al sacar Cárlos el suyo, se le cae un retrato.)</stage>
+          <stage>(Sacan los lienzos dama y galan, y al sacar Cárlos el suyo, se le cae un
+            retrato.)</stage>
           <sp who="#flor">
             <speaker rend="caps">Flor</speaker>
 
@@ -5648,7 +5707,8 @@
             <l>Que se llevan a Diana.</l>
             <stage>(Vanse.)</stage>
           </sp>
-          <stage>Inmediaciones de un castillo, situadó en la linea divisoria det territorio de Móden y Mantua.</stage>
+          <stage>Inmediaciones de un castillo, situadó en la linea divisoria det territorio de Móden
+            y Mantua.</stage>
           <stage>Salen Flor y Silvia, vestidas de casa.</stage>
           <sp who="#flor">
             <speaker rend="caps">Flor</speaker>

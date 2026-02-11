@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000085" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-08">
@@ -39,9 +40,13 @@
       <sourceDesc>
         <bibl type="sourceText">
           <name>Association for Hispanic Classical Theater</name>
-          <idno type="URL">http://www.wordpress.comedias.org/wp-content/uploads/2016/08/ESCONDIDO-Y-LA-TAPADA.pdf</idno>
+          <idno type="URL"
+            >http://www.wordpress.comedias.org/wp-content/uploads/2016/08/ESCONDIDO-Y-LA-TAPADA.pdf</idno>
           <bibl type="originalSource">
-            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en 2000 (revisado 2007).</title>
+            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge
+              Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y
+              luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en 2000
+              (revisado 2007).</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,11 +59,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="félix" sex="MALE">
             <persName>Don Félix</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="juan" sex="MALE">
@@ -66,11 +77,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="diego" sex="MALE">
             <persName>Don Diego</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="octavio" sex="MALE">
@@ -78,11 +95,17 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="otáñez" sex="MALE">
             <persName>Otáñez</persName>
             <trait source="castlist">
               <desc>escudero</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="mosquito" sex="MALE">
@@ -90,11 +113,17 @@
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="castaño" sex="MALE">
             <persName>Castaño</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="gonzalo" sex="MALE">
@@ -102,11 +131,17 @@
             <trait source="castlist">
               <desc>cochero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisarda" sex="FEMALE">
             <persName>Lisarda</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="celia" sex="FEMALE">
@@ -114,11 +149,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="beatriz" sex="FEMALE">
             <persName>Beatriz</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="inés" sex="FEMALE">
@@ -126,24 +167,45 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alguacil-1" sex="MALE">
             <persName>Alguacil 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alguacil-2" sex="MALE">
             <persName>Alguacil 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="escribano" sex="MALE">
             <persName>Escribano</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado-1" sex="MALE">
             <persName>Criado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado-2" sex="MALE">
             <persName>Criado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado-3" sex="MALE">
             <persName>Criado 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -152,17 +214,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -204,7 +269,8 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen haciendo algún ruido don CÉSAR y MOSQUITO, vestidos de camino, con botas y espuelas</stage>
+          <stage>Salen haciendo algún ruido don CÉSAR y MOSQUITO, vestidos de camino, con botas y
+            espuelas</stage>
           <sp who="#césar">
             <speaker rend="caps">César</speaker>
 
@@ -2234,7 +2300,8 @@
             <l>abajo, y no quede aquí</l>
             <l>sólo un clavo en la pared.</l>
           </sp>
-          <stage>Quitan las colgaduras, y queda debajo una pared blanca, con dos puertas a los lados, y en medio una blanqueada disimulada</stage>
+          <stage>Quitan las colgaduras, y queda debajo una pared blanca, con dos puertas a los
+            lados, y en medio una blanqueada disimulada</stage>
           <sp who="#félix">
             <speaker rend="caps">Félix</speaker>
 
@@ -5331,7 +5398,8 @@
 
             <l>Así.</l>
           </sp>
-          <stage>Mata CELIA la luz, y sacan don CÉSAR y don JUAN las espadas y riñen. Habla dentro BEATRIZ</stage>
+          <stage>Mata CELIA la luz, y sacan don CÉSAR y don JUAN las espadas y riñen. Habla dentro
+            BEATRIZ</stage>
           <sp who="#beatriz">
             <speaker rend="caps">Beatriz</speaker>
 
@@ -5404,7 +5472,8 @@
 
             <l>Entra, Celia,</l>
             <l>y en la escalera te esconde.</l>
-            <stage>Éntranse LISARDA y don JUAN por las puertas de los lados, y don CÉSAR y CELIA por la de la escalera</stage>
+            <stage>Éntranse LISARDA y don JUAN por las puertas de los lados, y don CÉSAR y CELIA por
+              la de la escalera</stage>
           </sp>
         </div>
 
@@ -5413,7 +5482,8 @@
       <div type="act" n="3">
         <head rend="caps">Jornada Tercera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen don CÉSAR de la escalera, como acabó la jornada segunda, y saca a CELIA desmayada</stage>
+          <stage>Salen don CÉSAR de la escalera, como acabó la jornada segunda, y saca a CELIA
+            desmayada</stage>
           <sp who="#césar">
             <speaker rend="caps">César</speaker>
 
@@ -5531,7 +5601,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Éntrase en la escalera. Salen LISARDA, BEATRIZ, don JUAN y CASTAÑO, por las puertas de los lados</stage>
+          <stage>Éntrase en la escalera. Salen LISARDA, BEATRIZ, don JUAN y CASTAÑO, por las puertas
+            de los lados</stage>
           <sp who="#lisarda">
             <speaker rend="caps">Lisarda</speaker>
 
@@ -6126,7 +6197,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Tiene puesto el manto, siéntase en una silla y quédase suspensa. Sale don CÉSAR</stage>
+          <stage>Tiene puesto el manto, siéntase en una silla y quédase suspensa. Sale don
+            CÉSAR</stage>
           <sp who="#césar">
             <speaker rend="caps">César</speaker>
 
@@ -6497,7 +6569,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Vase con BEATRIZ don CÉSAR. Salen OTÁÑEZ y CASTAÑO, que traen agarrado a MOSQUITO, y don JUAN</stage>
+          <stage>Vase con BEATRIZ don CÉSAR. Salen OTÁÑEZ y CASTAÑO, que traen agarrado a MOSQUITO,
+            y don JUAN</stage>
           <sp who="#juan">
             <speaker rend="caps">Juan</speaker>
 
@@ -7584,7 +7657,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Se acerca don DIEGO a la puerta donde está escondida CELIA. Don JUAN y don FÉLIX lo detienen. Por la otra puerta salen LISARDA y BEATRIZ y se quedan cerca de la puerta</stage>
+          <stage>Se acerca don DIEGO a la puerta donde está escondida CELIA. Don JUAN y don FÉLIX lo
+            detienen. Por la otra puerta salen LISARDA y BEATRIZ y se quedan cerca de la
+            puerta</stage>
           <sp who="#lisarda">
             <speaker rend="caps">Lisarda</speaker>
 

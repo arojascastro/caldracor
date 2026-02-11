@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000016" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-20">
           <time when="13:28:02"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-indulto-general--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-indulto-general--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por Ignacio Arellano y Juan Manuel Escudero procedente de la edición Calderón de la Barca, Pedro, El indulto general , ed. Ignacio Arellano y Juan Manuel Escudero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1996. ISBN: 3-930700-64-6.</title>
+            <title>Texto crítico preparado por Ignacio Arellano y Juan Manuel Escudero procedente de
+              la edición Calderón de la Barca, Pedro, El indulto general , ed. Ignacio Arellano y
+              Juan Manuel Escudero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1996.
+              ISBN: 3-930700-64-6.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,57 +52,145 @@
         <listPerson>
           <person xml:id="culpa" sex="FEMALE">
             <persName>La Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="mundo" sex="MALE">
             <persName>El Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="adán" sex="MALE">
             <persName>Adán</persName>
+            <idno type="alternative_wikidata">,,</idno>
+            <idno type="wikidata">Q70899</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="caín" sex="MALE">
             <persName>Caín</persName>
+            <idno type="wikidata">Q205365</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="abel" sex="MALE">
             <persName>Abel</persName>
+            <idno type="wikidata">Q313421</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="david" sex="MALE">
             <persName>David</persName>
+            <idno type="wikidata">Q41370</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="salomón" sex="MALE">
             <persName>Salomón</persName>
+            <idno type="wikidata">Q37085</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="abraham" sex="MALE">
             <persName>Abraham</persName>
+            <idno type="wikidata">Q9181</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="dimas" sex="MALE">
             <persName>Dimas</persName>
+            <idno type="wikidata">Q355121</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="gestas" sex="FEMALE">
             <persName>Gestas</persName>
+            <idno type="wikidata">Q284623</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="ángel" sex="MALE">
             <persName>Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="justicia" sex="FEMALE">
             <persName>La Justicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="misericordia" sex="FEMALE">
             <persName>La Misericordia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="príncipe" sex="MALE">
             <persName>El Príncipe</persName>
+            <idno type="wikidata">Q302</idno>
             <trait resp="#rojas">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="esposa" sex="FEMALE">
             <persName>La Esposa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="acompañamiento" sex="MALE">
             <persName>Acompañamiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -106,17 +199,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -1281,7 +1377,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Con esta repetición se van los cuatro, y sale el ÁNGEL, cantando en un bofetón, que dé vuelta al carro.</stage>
+          <stage>Con esta repetición se van los cuatro, y sale el ÁNGEL, cantando en un bofetón, que
+            dé vuelta al carro.</stage>
           <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <stage>Canta.</stage>
@@ -1315,7 +1412,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Con esta repetición pasa el ÁNGEL, y salen el PRÍNCIPE, mirando un retrato, la JUSTICIA, dama, con espada, y la MISERICORDIA, con un ramo de oliva.</stage>
+          <stage>Con esta repetición pasa el ÁNGEL, y salen el PRÍNCIPE, mirando un retrato, la
+            JUSTICIA, dama, con espada, y la MISERICORDIA, con un ramo de oliva.</stage>
           <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Bella imagen que copié</l>
@@ -2023,7 +2121,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Con esta repetición salen por una parte JUSTICIA, MISERICORDIA y el PRÍNCIPE; y por otra, el ÁNGEL y la ESPOSA, con todo el acompañamiento que puedan, sonando a un tiempo música, chirimías y atabalillos.</stage>
+          <stage>Con esta repetición salen por una parte JUSTICIA, MISERICORDIA y el PRÍNCIPE; y por
+            otra, el ÁNGEL y la ESPOSA, con todo el acompañamiento que puedan, sonando a un tiempo
+            música, chirimías y atabalillos.</stage>
           <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l>Feliz, alegre y venturoso el día,</l>
@@ -2121,7 +2221,8 @@
             <l>y ella de triunfante oliva,</l>
             <l>reine, goce, triunfe y viva.</l>
           </sp>
-          <stage>Con esta repetición, atabalillos y chirimías, se van todos, y queda solo el MUNDO.</stage>
+          <stage>Con esta repetición, atabalillos y chirimías, se van todos, y queda solo el
+            MUNDO.</stage>
           <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l n="1155">¿Qué nuevo afecto, qué nuevo</l>
@@ -2532,7 +2633,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Sale la JUSTICIA, con una espada desnuda al hombro, y la MISERICORDIA, con un ramo de oliva, y el ÁNGEL con una cruz dorada, y acompañamiento, y siéntanse los dos, la MISERICORDIA a mano derecha, el ÁNGEL, a un lado del bufete en pie, y el MUNDO al otro lado.</stage>
+          <stage>Sale la JUSTICIA, con una espada desnuda al hombro, y la MISERICORDIA, con un ramo
+            de oliva, y el ÁNGEL con una cruz dorada, y acompañamiento, y siéntanse los dos, la
+            MISERICORDIA a mano derecha, el ÁNGEL, a un lado del bufete en pie, y el MUNDO al otro
+            lado.</stage>
           <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>Aquél es, Misericordia,</l>
@@ -3378,7 +3482,8 @@
             <l>y ella de triunfante oliva,</l>
             <l>reine, goce, triunfe y viva.</l>
           </sp>
-          <sp who="#música #culpa #ángel #justicia #misericordia #gestas #dimas #esposa #mundo #abraham #david #adán">
+          <sp
+            who="#música #culpa #ángel #justicia #misericordia #gestas #dimas #esposa #mundo #abraham #david #adán">
             <speaker>MÚSICA y TODOS</speaker>
             <l n="1775">El príncipe, que deseado</l>
             <l>del cielo por apellido,</l>
@@ -3388,7 +3493,8 @@
             <l n="1780">y ella de triunfante oliva,</l>
             <l>reine, goce, triunfe y viva.</l>
           </sp>
-          <stage>Con esta repetición de TODOS y la MÚSICA se cierran los carros, y entrándose dentro, y tocando las chirimías, se da fin al auto de El Indulto General.</stage>
+          <stage>Con esta repetición de TODOS y la MÚSICA se cierran los carros, y entrándose
+            dentro, y tocando las chirimías, se da fin al auto de El Indulto General.</stage>
           <stage>FIN</stage>
         </div>
 

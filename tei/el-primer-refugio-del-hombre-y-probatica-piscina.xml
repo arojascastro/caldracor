@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000172" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Rafael Zafra, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN:978-3-944244-66-2.</title>
+            <title>Edición digital a partir de la edición de Rafael Zafra, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 1997. ISBN:978-3-944244-66-2.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,18 +49,31 @@
         <listPerson>
           <person sex="MALE" xml:id="demonio">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="soberbia">
             <persName>Soberbia</persName>
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="afecto-1">
             <persName>Afecto 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="afecto-4">
             <persName>Afecto 4.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
@@ -69,17 +83,29 @@
             <trait source="castlist">
               <desc>samaritana</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="afecto-2">
             <persName>Afecto 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="afecto-3">
             <persName>Afecto 3.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gula">
             <persName>Gula</persName>
             <trait source="castlist">
               <desc>hostalera</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="genero-humano">
@@ -87,11 +113,17 @@
             <trait source="castlist">
               <desc>pobre</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="apetito">
             <persName>Apetito</persName>
             <trait source="castlist">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="mendigo">
@@ -99,14 +131,30 @@
             <trait source="castlist">
               <desc>lázaro llagado</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel">
             <persName>Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="peregrino">
             <persName>Peregrino</persName>
+            <idno type="wikidata">Q302</idno>
             <trait source="castlist">
               <desc>peregrino</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="simplicidad">
@@ -114,12 +162,21 @@
             <trait source="castlist">
               <desc>peregrino</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino">
             <persName>Niño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino-2">
             <persName>Niño 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -128,17 +185,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -857,7 +917,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Sale el Afecto tercero vestido de bandolero oyendo la voz y siguiendo al AFECTO 2.º</stage>
+          <stage>Sale el Afecto tercero vestido de bandolero oyendo la voz y siguiendo al AFECTO
+            2.º</stage>
           <sp who="#afecto-3">
             <speaker>AFECTO 3.º</speaker>
             <l n="540">Aunque la voz de la que amo</l>
@@ -1077,7 +1138,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Descúbrese en un carretón el GÉNERO HUMANO, viejo y pobre, y el Apetito, de pobre también, durmiendo junto a él.</stage>
+          <stage>Descúbrese en un carretón el GÉNERO HUMANO, viejo y pobre, y el Apetito, de pobre
+            también, durmiendo junto a él.</stage>
           <sp who="#genero-humano">
             <speaker>GÉNERO HUMANO</speaker>
             <l>Perezca, Señor, el día</l>
@@ -1329,11 +1391,14 @@
             <l>y, pues ya de aquí se ven,</l>
             <l>decir con todos es bien…</l>
           </sp>
-          <sp who="#afecto-4 #afecto-2 #afecto-3 #afecto-1 #afecto-5 #lascivia #gula #demonio #soberbia #musicos #apetito #genero-humano">
+          <sp
+            who="#afecto-4 #afecto-2 #afecto-3 #afecto-1 #afecto-5 #lascivia #gula #demonio #soberbia #musicos #apetito #genero-humano">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="795">… misericordia, Señor.</l>
           </sp>
-          <stage>Ábrese el carro y, en lo bajo del que estará pintado como pórtico, se ven recostados el Demonio de pobre, la Soberbia, la Lascivia y la Gula, y los cuatro Afectos y los músicos, de mendigos todos</stage>
+          <stage>Ábrese el carro y, en lo bajo del que estará pintado como pórtico, se ven
+            recostados el Demonio de pobre, la Soberbia, la Lascivia y la Gula, y los cuatro Afectos
+            y los músicos, de mendigos todos</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¿Quién creerá que mi rencor</l>
@@ -1402,7 +1467,8 @@
             <l>en cuerpo y alma esperamos</l>
             <l>la salud, todos digamos.…</l>
           </sp>
-          <sp who="#musicos #demonio #afecto-1 #soberbia #afecto-4 #lascivia #afecto-3 #afecto-2 #afecto-5 #gula #apetito #mendigo #genero-humano">
+          <sp
+            who="#musicos #demonio #afecto-1 #soberbia #afecto-4 #lascivia #afecto-3 #afecto-2 #afecto-5 #gula #apetito #mendigo #genero-humano">
             <speaker>TODOS</speaker>
             <l n="830">…misericordia, Señor.</l>
           </sp>
@@ -1450,7 +1516,10 @@
             <l>…bendito sea el que viene</l>
             <l n="850">en el nombre del Señor.</l>
           </sp>
-          <stage>Suenan las chirimías y ábrese el otro carro, y vese en lo bajo de él un estanque, pintadas las ondas sin moverse, y en lo alto una nube, abriéndose, y baja cantando el ángel con una vara en la mano de oro. Y como canta se van durmiendo los afectos menos el Demonio, el mendigo, el Género humano y el Apetito, que se suspenden a la voz</stage>
+          <stage>Suenan las chirimías y ábrese el otro carro, y vese en lo bajo de él un estanque,
+            pintadas las ondas sin moverse, y en lo alto una nube, abriéndose, y baja cantando el
+            ángel con una vara en la mano de oro. Y como canta se van durmiendo los afectos menos el
+            Demonio, el mendigo, el Género humano y el Apetito, que se suspenden a la voz</stage>
           <sp who="#angel">
             <speaker>ÁNGEL</speaker>
             <stage>Canta</stage>
@@ -1506,7 +1575,11 @@
             <l>¡Despertad, que no se da el premio</l>
             <l>al perezoso, al próvido sí!</l>
           </sp>
-          <stage>Vuelve a subir la nube con esta repetición, y quédanse moviendo las aguas y desaparece el ángel. El Demonio quiere esforzarse y no puede, y el mendigo se adelanta. Va a detenerle el Demonio y, no pudiendo asirle, despierta el segundo Afecto y hállase abrazado con el Demonio; y el mendigo pasando al carro del estanque pasa por las ondas, yéndose por encima de ellas</stage>
+          <stage>Vuelve a subir la nube con esta repetición, y quédanse moviendo las aguas y
+            desaparece el ángel. El Demonio quiere esforzarse y no puede, y el mendigo se adelanta.
+            Va a detenerle el Demonio y, no pudiendo asirle, despierta el segundo Afecto y hállase
+            abrazado con el Demonio; y el mendigo pasando al carro del estanque pasa por las ondas,
+            yéndose por encima de ellas</stage>
           <sp who="#genero-humano">
             <speaker>GÉNERO HUMANO</speaker>
             <l>Las aguas mover se miran,</l>
@@ -1536,7 +1609,8 @@
             <l>cumplió la lucha, mas yo</l>
             <l part="I">buscaré de qué.</l>
           </sp>
-          <stage>[…despierta el segundo Afecto y hállase abrazado con él. Y el mendigo pasando al carro del estanque, pasa por las ondas, yéndose por encima de ellas]</stage>
+          <stage>[…despierta el segundo Afecto y hállase abrazado con él. Y el mendigo pasando al
+            carro del estanque, pasa por las ondas, yéndose por encima de ellas]</stage>
           <sp who="#afecto-2">
             <speaker>AFECTO 2.º</speaker>
             <l part="F">¿Qué es esto?</l>
@@ -1549,7 +1623,8 @@
             <l>y dar con un avariento.</l>
           </sp>
           <stage>[Despiertan todos y levántanse, y ciérranse los carros]</stage>
-          <sp who="#afecto-1 #soberbia #afecto-4 #lascivia #afecto-3 #gula #apetito #musicos #angel #genero-humano #mendigo #afecto-2 #demonio #afecto-5">
+          <sp
+            who="#afecto-1 #soberbia #afecto-4 #lascivia #afecto-3 #gula #apetito #musicos #angel #genero-humano #mendigo #afecto-2 #demonio #afecto-5">
             <speaker>TODOS</speaker>
             <l>Hanse movido las ondas.</l>
           </sp>
@@ -1559,7 +1634,8 @@
             <l n="915">vosotros por flojedad</l>
             <l>y yo por impedimento.</l>
           </sp>
-          <sp who="#afecto-1 #soberbia #afecto-4 #lascivia #afecto-3 #gula #apetito #musicos #angel #mendigo #afecto-2 #demonio #genero-humano #afecto-5">
+          <sp
+            who="#afecto-1 #soberbia #afecto-4 #lascivia #afecto-3 #gula #apetito #musicos #angel #mendigo #afecto-2 #demonio #genero-humano #afecto-5">
             <speaker>TODOS</speaker>
             <l part="I">¿Quién fue el dichoso?</l>
           </sp>
@@ -1658,7 +1734,8 @@
             <speaker>DEMONIO</speaker>
             <l>oprobio, en fin, de sí mesmo…</l>
           </sp>
-          <sp who="#musicos #angel #mendigo #apetito #genero-humano #soberbia #afecto-1 #lascivia #afecto-2 #gula #afecto-3 #afecto-4 #afecto-5 #demonio">
+          <sp
+            who="#musicos #angel #mendigo #apetito #genero-humano #soberbia #afecto-1 #lascivia #afecto-2 #gula #afecto-3 #afecto-4 #afecto-5 #demonio">
             <speaker>TODOS</speaker>
             <l part="I">…y de todos!,…</l>
           </sp>
@@ -1733,7 +1810,8 @@
             <speaker>AFECTO 4.º</speaker>
             <l part="F">…tormentos,…</l>
           </sp>
-          <sp who="#musicos #angel #mendigo #demonio #apetito #genero-humano #soberbia #afecto-1 #lascivia #afecto-2 #gula #afecto-3 #afecto-4 #afecto-5">
+          <sp
+            who="#musicos #angel #mendigo #demonio #apetito #genero-humano #soberbia #afecto-1 #lascivia #afecto-2 #gula #afecto-3 #afecto-4 #afecto-5">
             <speaker>TODOS</speaker>
             <l n="965">…como, al fin, tronco y raíz</l>
             <l>de todos los daños nuestros.</l>
@@ -2286,7 +2364,8 @@
             <speaker>MÚSICA</speaker>
             <l n="1200">…aclamad, todos diciendo…</l>
           </sp>
-          <sp who="#mendigo #soberbia #afecto-1 #lascivia #afecto-2 #gula #afecto-3 #afecto-4 #afecto-5 #apetito #simplicidad #demonio #peregrino #angel #genero-humano #musicos">
+          <sp
+            who="#mendigo #soberbia #afecto-1 #lascivia #afecto-2 #gula #afecto-3 #afecto-4 #afecto-5 #apetito #simplicidad #demonio #peregrino #angel #genero-humano #musicos">
             <speaker>TODOS</speaker>
             <l>…que el Hombre que tiene el hombre,</l>
             <l>después de hecho carne el Verbo,</l>
@@ -2427,7 +2506,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Salen, por una parte, oyendo con suspensión, la Soberbia, y por otra el Afecto primero</stage>
+          <stage>Salen, por una parte, oyendo con suspensión, la Soberbia, y por otra el Afecto
+            primero</stage>
           <sp who="#afecto-1">
             <speaker>AFECTO 1.º</speaker>
             <l>…¿que el Hombre que tiene el hombre,</l>
@@ -2949,7 +3029,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Vanse la Soberbia y el Ángel, y salen el Afecto primero y segundo, forcejeando sobre una bolsa de dinero</stage>
+          <stage>Vanse la Soberbia y el Ángel, y salen el Afecto primero y segundo, forcejeando
+            sobre una bolsa de dinero</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¡De rabia y cólera tiemblo!</l>
@@ -3285,7 +3366,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Sale el Afecto primero, trayendo entre dos a la Gula maniatada, atrás las manos</stage>
+          <stage>Sale el Afecto primero, trayendo entre dos a la Gula maniatada, atrás las
+            manos</stage>
           <sp who="#gula">
             <speaker>GULA</speaker>
             <l>¿Dónde me lleváis? ¡Ay triste!</l>
@@ -3330,7 +3412,8 @@
             <speaker>AFECTO 1.º</speaker>
             <l>Vencido está. Mas ¿qué hace?</l>
           </sp>
-          <stage>Hinca la rodilla en tierra el Peregrino y con el dedo escribe en ella, y Demonio y Judaísmo leen lo que escribe por detrás dél</stage>
+          <stage>Hinca la rodilla en tierra el Peregrino y con el dedo escribe en ella, y Demonio y
+            Judaísmo leen lo que escribe por detrás dél</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>La rodilla inclina al suelo,…</l>
@@ -3402,8 +3485,11 @@
         </div>
         <div type="scene" resp="#rojas" n="29">
           <stage>Vase</stage>
-          <stage>Dentro voces y vuelven, con el Judaísmo, los mesmos acuchillando al tercer Afecto, que sale vestido como antes de bandolero, ensangrentada la cara, y cay herido a los pies del Peregrino.</stage>
-          <sp who="#mendigo #afecto-3 #genero-humano #afecto-5 #musicos #soberbia #simplicidad #afecto-2 #afecto-4 #lascivia #angel #apetito #demonio #afecto-1 #peregrino #gula">
+          <stage>Dentro voces y vuelven, con el Judaísmo, los mesmos acuchillando al tercer Afecto,
+            que sale vestido como antes de bandolero, ensangrentada la cara, y cay herido a los pies
+            del Peregrino.</stage>
+          <sp
+            who="#mendigo #afecto-3 #genero-humano #afecto-5 #musicos #soberbia #simplicidad #afecto-2 #afecto-4 #lascivia #angel #apetito #demonio #afecto-1 #peregrino #gula">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l part="F">¡Muera</l>
@@ -3445,7 +3531,9 @@
             <speaker>PEREGRINO</speaker>
             <l n="1685">Tente, pues de mí se ampara.</l>
           </sp>
-          <stage>Quiérele matar el primer Afecto, y amparando al uno con la mano derecha detiene con la izquierda el golpe al otro, de modo que queda entre los dos en forma de † [cruz]</stage>
+          <stage>Quiérele matar el primer Afecto, y amparando al uno con la mano derecha detiene con
+            la izquierda el golpe al otro, de modo que queda entre los dos en forma de †
+            [cruz]</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Parece que en cruz se ha puesto,</l>
@@ -3491,7 +3579,8 @@
             <l part="F">Yo ofrezco</l>
             <l n="1705">que mi refugio te valga.</l>
           </sp>
-          <sp who="#demonio #mendigo #genero-humano #afecto-5 #musicos #soberbia #afecto-2 #afecto-4 #lascivia #gula #afecto-1 #apetito #simplicidad #angel #afecto-3 #peregrino">
+          <sp
+            who="#demonio #mendigo #genero-humano #afecto-5 #musicos #soberbia #afecto-2 #afecto-4 #lascivia #gula #afecto-1 #apetito #simplicidad #angel #afecto-3 #peregrino">
             <speaker>DEMONIO Y TODOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
@@ -3553,8 +3642,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="31">
-          <stage>Descúbrese el carro del hospicio y en él todos los que se nombran, y va saliendo cada uno y pasando con sus versos</stage>
-          <sp who="#musicos #mendigo #soberbia #afecto-2 #afecto-4 #afecto-5 #lascivia #gula #apetito #simplicidad #afecto-3 #genero-humano #peregrino #afecto-1 #demonio #angel">
+          <stage>Descúbrese el carro del hospicio y en él todos los que se nombran, y va saliendo
+            cada uno y pasando con sus versos</stage>
+          <sp
+            who="#musicos #mendigo #soberbia #afecto-2 #afecto-4 #afecto-5 #lascivia #gula #apetito #simplicidad #afecto-3 #genero-humano #peregrino #afecto-1 #demonio #angel">
             <speaker>MÚSICA Y TODOS</speaker>
             <l n="1735">Salud, vida, fama y nombre</l>
             <l>todos cobrando a tus pies,</l>
@@ -3829,7 +3920,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="32">
-          <stage>Ábrese un carro y vese el arca y sale de ella un niño con la tabla de la ley en una mano, en otra una vara con un vaso en ella.</stage>
+          <stage>Ábrese un carro y vese el arca y sale de ella un niño con la tabla de la ley en una
+            mano, en otra una vara con un vaso en ella.</stage>
           <sp who="#peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">¿Qué incluye en sí?</l>
@@ -3861,7 +3953,8 @@
           <sp who="#nino-2">
             <speaker>NIÑO 2.º</speaker>
             <l part="F">En esta…</l>
-            <stage>Ábrese el carro de enfrente y vese en una fuente de taza un niño de cuyo costado salen siete cintas carmesíes, con cruz en una mano y en otra hostia y cáliz.</stage>
+            <stage>Ábrese el carro de enfrente y vese en una fuente de taza un niño de cuyo costado
+              salen siete cintas carmesíes, con cruz en una mano y en otra hostia y cáliz.</stage>
             <l>…fuente en que, por siete caños,</l>
             <l n="1865">perennemente la Iglesia</l>
             <l>corre en siete sacramentos,</l>
@@ -3939,7 +4032,8 @@
             <speaker>SIMPLICIDAD</speaker>
             <l n="1895">…diciendo a las plantas vuestras:</l>
           </sp>
-          <sp who="#mendigo #musicos #nino #peregrino #nino-2 #afecto-1 #demonio #soberbia #afecto-2 #afecto-4 #lascivia #gula #afecto-3 #afecto-5 #genero-humano #angel #apetito #simplicidad">
+          <sp
+            who="#mendigo #musicos #nino #peregrino #nino-2 #afecto-1 #demonio #soberbia #afecto-2 #afecto-4 #lascivia #gula #afecto-3 #afecto-5 #genero-humano #angel #apetito #simplicidad">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Salud, vida, fama y nombre</l>
             <l>todos logrando a esos pies,</l>

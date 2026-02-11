@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000025" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-27">
           <time when="20:41:55"/>
@@ -35,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-dama-duende-comedia-famosa/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-dama-duende-comedia-famosa/html/</idno>
           <bibl type="originalSource">
-            <title>Edición de Luis Iglesias Feijoo. Esta obra pertenece a la Colección Teatro clásico español. Canon 60. La colección esencial del TC/12. Grupo de investigación Calderón</title>
+            <title>Edición de Luis Iglesias Feijoo. Esta obra pertenece a la Colección Teatro
+              clásico español. Canon 60. La colección esencial del TC/12. Grupo de investigación
+              Calderón</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -50,11 +54,17 @@
             <trait source="#calderondigital">
               <desc>caballero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cosme" sex="MALE">
             <persName>Cosme</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="doña-ángela" sex="FEMALE">
@@ -62,11 +72,17 @@
             <trait source="#calderondigital">
               <desc>hermana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="isabel" sex="FEMALE">
             <persName>Isabel</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="rodrigo" sex="MALE">
@@ -74,11 +90,17 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-luis" sex="MALE">
             <persName>Don Luis</persName>
             <trait source="#calderondigital">
               <desc>enamorado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="don-juan" sex="MALE">
@@ -86,17 +108,26 @@
             <trait source="#calderondigital">
               <desc>hermano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="doña-beatriz" sex="FEMALE">
             <persName>Doña Beatriz</persName>
             <trait source="#calderondigital">
               <desc>enamorada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="clara" sex="FEMALE">
             <persName>Clara</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
         </listPerson>
@@ -106,17 +137,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -131,7 +165,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000025" passive="http://www.wikidata.org/entity/Q4154359"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000025"
+        passive="http://www.wikidata.org/entity/Q4154359"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -1303,7 +1338,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Sale DON LUIS y un criado con un azafate cubierto y en él un aderezo de espada.</stage>
+          <stage>Sale DON LUIS y un criado con un azafate cubierto y en él un aderezo de
+            espada.</stage>
           <sp who="#don-luis">
             <speaker>LUIS</speaker>
             <l>Yo, señor, lo soy vuestro,</l>
@@ -1514,7 +1550,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Vase. Por una alacena que estará hecha con anaqueles y vidrios en ella, quitándose con goznes como que se desencaja, salen DOÑA ÁNGELA y ISABEL.</stage>
+          <stage>Vase. Por una alacena que estará hecha con anaqueles y vidrios en ella, quitándose
+            con goznes como que se desencaja, salen DOÑA ÁNGELA y ISABEL.</stage>
           <sp who="#isabel">
             <speaker>ISABEL</speaker>
             <l n="780">Que está el cuarto solo dijo</l>
@@ -2001,7 +2038,11 @@
             <l n="1000">es la novedad, no el miedo,</l>
             <l>que quien admira no teme.</l>
             <stage>Lee.</stage>
-            <p>«Con cuidado me tiene vuestra salud, como a quien fue la causa de su riesgo. Y así, agradecida y lastimada, os suplico me aviséis della y os sirváis de mí, que para lo uno y lo otro habrá ocasión, dejando la respuesta donde hallasteis esta, advertido que el secreto importa, porque el día que lo sepa alguno de los amigos perderé yo el honor y la vida».</p>
+            <p>«Con cuidado me tiene vuestra salud, como a quien fue la causa de su riesgo. Y así,
+              agradecida y lastimada, os suplico me aviséis della y os sirváis de mí, que para lo
+              uno y lo otro habrá ocasión, dejando la respuesta donde hallasteis esta, advertido que
+              el secreto importa, porque el día que lo sepa alguno de los amigos perderé yo el honor
+              y la vida».</p>
           </sp>
           <sp who="#cosme">
             <speaker>COSME</speaker>
@@ -2321,7 +2362,13 @@
             <l n="1120">El papel, Beatriz, es este.</l>
             <l>Holgareme que te agrade.</l>
             <stage>Lee ÁNGELA.</stage>
-            <p>«Fermosa dueña, cualquier que vos seáis la condolida deste afanado caballero, y assaz piadosa minoráis sus cuitas, ruégovos me queráis facer sabidor del follón mezquino o pagano malandrín que en este encanto vos amancilla, para que segunda vegada en vueso nombre, sano ya de las pasadas feridas, entre en descomunal batalla, maguer que finque en ella, que non es la vida de más pro que la muerte, tenudo a su deber un caballero. El dador de la luz vos mampare e a mí non olvide. <lb/>El caballero de la Dama Duende».</p>
+            <p>«Fermosa dueña, cualquier que vos seáis la condolida deste afanado caballero, y assaz
+              piadosa minoráis sus cuitas, ruégovos me queráis facer sabidor del follón mezquino o
+              pagano malandrín que en este encanto vos amancilla, para que segunda vegada en vueso
+              nombre, sano ya de las pasadas feridas, entre en descomunal batalla, maguer que finque
+              en ella, que non es la vida de más pro que la muerte, tenudo a su deber un caballero.
+              El dador de la luz vos mampare e a mí non olvide. <lb/>El caballero de la Dama
+              Duende».</p>
           </sp>
           <sp who="#doña-beatriz">
             <speaker>BEATRIZ</speaker>
@@ -3318,7 +3365,10 @@
             <l n="1650">Ropa blanca es y un papel.</l>
             <l>Veamos si el fraile es discreto.</l>
             <stage>Lee.</stage>
-            <p>«En el poco tiempo que ha que vivís en esta casa no se ha podido hacer más ropa; como se fuere haciendo, se irá llevando. A lo que decís del amigo, persuadido a que soy dama de don Luis, os aseguro que no sólo no lo soy, pero que no puedo serlo; y esto dejo para la vista, que será presto. Dios os guarde».</p>
+            <p>«En el poco tiempo que ha que vivís en esta casa no se ha podido hacer más ropa; como
+              se fuere haciendo, se irá llevando. A lo que decís del amigo, persuadido a que soy
+              dama de don Luis, os aseguro que no sólo no lo soy, pero que no puedo serlo; y esto
+              dejo para la vista, que será presto. Dios os guarde».</p>
             <l>Bautizado está este duende,</l>
             <l part="I"> pues de Dios se acuerda. </l>
           </sp>
@@ -3949,7 +3999,8 @@
             <l>no se viese, es tiempo ya</l>
             <l part="I"> de descubrir.</l>
           </sp>
-          <stage>Ellos están apartados y ella saca una luz de una linterna que trae cubierta.</stage>
+          <stage>Ellos están apartados y ella saca una luz de una linterna que trae
+            cubierta.</stage>
           <sp who="#cosme">
             <speaker>COSME</speaker>
             <l n="2005" part="F"> Nunca ha andado </l>
@@ -4002,7 +4053,8 @@
             <l>a lo que vamos buscando</l>
             <l>sin que veamos quién la lleva?</l>
           </sp>
-          <stage>Saca la luz de la linterna, pónela en un candelero que habrá en la mesa y toma una silla y siéntase de espaldas a los dos.</stage>
+          <stage>Saca la luz de la linterna, pónela en un candelero que habrá en la mesa y toma una
+            silla y siéntase de espaldas a los dos.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l>Pongo aquí la luz y agora</l>
@@ -4491,7 +4543,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Salen todas las mujeres con toallas y conservas y agua y haciendo reverencia todas. Sale DOÑA ÁNGELA ricamente vestida.</stage>
+          <stage>Salen todas las mujeres con toallas y conservas y agua y haciendo reverencia todas.
+            Sale DOÑA ÁNGELA ricamente vestida.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l>(Pues presumen que eres ida</l>
@@ -5117,7 +5170,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Vase y salen todas las mujeres, una con luces y otra con algunas cajas y otra con un vidrio de agua.</stage>
+          <stage>Vase y salen todas las mujeres, una con luces y otra con algunas cajas y otra con
+            un vidrio de agua.</stage>
           <sp who="#doña-ángela">
             <speaker>ÁNGELA</speaker>
             <l>Pues a buscarte ha salido</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000171" xml:lang="es">
   <teiHeader>
@@ -28,7 +28,8 @@
         <date when="2022-01-25">
           <time when="10:41:38"/>
         </date>
-        <idno type="quadramaX">Loa sacramental de El primer refugio del hombre o la probática piscina</idno>
+        <idno type="quadramaX">Loa sacramental de El primer refugio del hombre o la probática
+          piscina</idno>
         <availability>
           <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
         </availability>
@@ -38,7 +39,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Rafael Zafra, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN:978-3-944244-66-2</title>
+            <title>Edición digital a partir de la edición de Rafael Zafra, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 1997. ISBN:978-3-944244-66-2</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,48 +53,97 @@
           </personGrp>
           <person sex="FEMALE" xml:id="soberbia">
             <persName>Soberbia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="afecto-1">
             <persName>Afecto 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="avaricia">
             <persName>Avaricia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="afecto-2">
             <persName>Afecto 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="envidia">
             <persName>Envidia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="afecto-3">
             <persName>Afecto 3.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="lascivia">
             <persName>Lascivia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="afecto-4">
             <persName>Afecto 4.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="ira">
             <persName>Ira</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="afecto-5">
             <persName>Afecto 5.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gula">
             <persName>Gula</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="apetito">
             <persName>Apetito</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="demonio">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="genero-humano">
             <persName>Género Humano</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="peregrino">
             <persName>Peregrino</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -101,17 +152,20 @@
           <term source="dracor" type="genreTitle">loa</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -151,7 +205,11 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen cantando y bailando cada vicio con su afecto. La SOBERBIA trae en una fuente un manto rojo, la AVARICIA en una salva una cadena de oro y de ella pendiente un corazón. La LASCIVIA en una fuente, todo género de rosas y demás flores, y una banda al brazo. La IRA con otra fuente y en ella un peto, y la GULA con un cestillo o fuente de frutas. Y detrás de todos el GÉNERO HUMANO de gala, y el APETITO villano.</stage>
+          <stage>Salen cantando y bailando cada vicio con su afecto. La SOBERBIA trae en una fuente
+            un manto rojo, la AVARICIA en una salva una cadena de oro y de ella pendiente un
+            corazón. La LASCIVIA en una fuente, todo género de rosas y demás flores, y una banda al
+            brazo. La IRA con otra fuente y en ella un peto, y la GULA con un cestillo o fuente de
+            frutas. Y detrás de todos el GÉNERO HUMANO de gala, y el APETITO villano.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Todos los afectos</l>
@@ -228,7 +286,8 @@
             <l n="35">…repitiendo el eco</l>
             <l>en voces diversas:</l>
           </sp>
-          <sp who="#soberbia #afecto-1 #avaricia #afecto-2 #envidia #afecto-3 #lascivia #afecto-4 #ira #afecto-5 #gula #apetito #musicos">
+          <sp
+            who="#soberbia #afecto-1 #avaricia #afecto-2 #envidia #afecto-3 #lascivia #afecto-4 #ira #afecto-5 #gula #apetito #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Todos los afectos</l>
             <l>alegres ofrezcan</l>
@@ -245,7 +304,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Mientras ellos con esta repetición cantan y bailan, sale en lo alto de una montaña el DEMONIO vestido de pastor. Representa los primeros versos sin que le escuchen</stage>
+          <stage>Mientras ellos con esta repetición cantan y bailan, sale en lo alto de una montaña
+            el DEMONIO vestido de pastor. Representa los primeros versos sin que le escuchen</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>¡Ah de la esfera inferior</l>
@@ -253,7 +313,8 @@
             <l>superior del cielo, a dichas</l>
             <l>criada, es átomo apenas!</l>
           </sp>
-          <sp who="#afecto-1 #avaricia #afecto-2 #envidia #afecto-3 #lascivia #afecto-4 #ira #afecto-5 #gula #apetito #musicos #demonio">
+          <sp
+            who="#afecto-1 #avaricia #afecto-2 #envidia #afecto-3 #lascivia #afecto-4 #ira #afecto-5 #gula #apetito #musicos #demonio">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Todos los afectos</l>
             <l>alegres ofrezcan…</l>
@@ -265,7 +326,8 @@
             <l>que alimentado del fuego</l>
             <l>sobre el aire se sustenta!</l>
           </sp>
-          <sp who="#afecto-1 #avaricia #afecto-2 #envidia #afecto-3 #lascivia #afecto-4 #ira #afecto-5 #gula #apetito #musicos #demonio">
+          <sp
+            who="#afecto-1 #avaricia #afecto-2 #envidia #afecto-3 #lascivia #afecto-4 #ira #afecto-5 #gula #apetito #musicos #demonio">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>…al Género humano</l>
             <l n="60">músicas y fiestas,…</l>
@@ -283,7 +345,8 @@
             <l>repetid la letra:</l>
             <l>porque en mi destierro…</l>
           </sp>
-          <sp who="#musicos #afecto-1 #avaricia #afecto-2 #envidia #afecto-3 #lascivia #afecto-4 #ira #afecto-5 #gula #apetito #demonio #genero-humano">
+          <sp
+            who="#musicos #afecto-1 #avaricia #afecto-2 #envidia #afecto-3 #lascivia #afecto-4 #ira #afecto-5 #gula #apetito #demonio #genero-humano">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>…porque en su destierro</l>
             <l>templen y diviertan</l>
@@ -360,7 +423,8 @@
             <l>decir con todos es fuerza…</l>
           </sp>
           <stage>Todos cantando y representando</stage>
-          <sp who="#ira #afecto-5 #demonio #soberbia #avaricia #lascivia #envidia #gula #afecto-1 #afecto-2 #afecto-3 #afecto-4 #apetito #genero-humano #musicos">
+          <sp
+            who="#ira #afecto-5 #demonio #soberbia #avaricia #lascivia #envidia #gula #afecto-1 #afecto-2 #afecto-3 #afecto-4 #apetito #genero-humano #musicos">
             <speaker>ÉL, TODOS Y MÚSICA</speaker>
             <l>¿Quién llama? ¿Quién es?</l>
             <l>¿Quién viene? ¿Quién llega</l>
@@ -815,7 +879,8 @@
             <speaker>AFECTO 2.º</speaker>
             <l part="F">¡Qué miseria!</l>
           </sp>
-          <sp who="#envidia #musicos #afecto-3 #lascivia #afecto-5 #afecto-4 #ira #gula #genero-humano #demonio #apetito #soberbia #afecto-1 #avaricia #afecto-2">
+          <sp
+            who="#envidia #musicos #afecto-3 #lascivia #afecto-5 #afecto-4 #ira #gula #genero-humano #demonio #apetito #soberbia #afecto-1 #avaricia #afecto-2">
             <speaker>TODOS</speaker>
             <l n="370">¿No habrá quién de aquesta lid</l>
             <l>que rendidos nos confiesa</l>
@@ -990,7 +1055,8 @@
             <l>de humanos afectos entras.</l>
           </sp>
           <stage>Cantan unos y representan otros</stage>
-          <sp who="#envidia #musicos #afecto-3 #lascivia #afecto-5 #afecto-4 #ira #gula #genero-humano #apetito #soberbia #afecto-1 #avaricia #afecto-2 #demonio #peregrino">
+          <sp
+            who="#envidia #musicos #afecto-3 #lascivia #afecto-5 #afecto-4 #ira #gula #genero-humano #apetito #soberbia #afecto-1 #avaricia #afecto-2 #demonio #peregrino">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="450">Atiende, mortal, mortal considera</l>
             <l>que en las lides del Demonio</l>
@@ -1055,7 +1121,8 @@
             <speaker>DEMONIO</speaker>
             <l part="F">¡Qué pena!</l>
           </sp>
-          <sp who="#envidia #musicos #afecto-3 #lascivia #afecto-5 #afecto-4 #ira #gula #genero-humano #apetito #soberbia #afecto-1 #avaricia #afecto-2 #peregrino #demonio">
+          <sp
+            who="#envidia #musicos #afecto-3 #lascivia #afecto-5 #afecto-4 #ira #gula #genero-humano #apetito #soberbia #afecto-1 #avaricia #afecto-2 #peregrino #demonio">
             <speaker>TODOS</speaker>
             <l>¿Y dónde hacerle pretendes?</l>
           </sp>
@@ -1087,7 +1154,8 @@
             <l>con gustos, con dichas,</l>
             <l>que España desea:</l>
           </sp>
-          <sp who="#envidia #musicos #afecto-3 #lascivia #afecto-5 #afecto-4 #ira #gula #genero-humano #apetito #soberbia #afecto-1 #avaricia #afecto-2 #demonio #peregrino">
+          <sp
+            who="#envidia #musicos #afecto-3 #lascivia #afecto-5 #afecto-4 #ira #gula #genero-humano #apetito #soberbia #afecto-1 #avaricia #afecto-2 #demonio #peregrino">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Que viva, que reine,</l>
             <l n="510">que goce y que vea</l>
@@ -1098,7 +1166,8 @@
             <l n="515">con gustos, con dichas,</l>
             <l>que España desea.</l>
           </sp>
-          <stage>Repitiendo todos y la Música los versos últimos del Peregrino, se da fin a la loa.</stage>
+          <stage>Repitiendo todos y la Música los versos últimos del Peregrino, se da fin a la
+            loa.</stage>
         </div>
       </div>
     </body>

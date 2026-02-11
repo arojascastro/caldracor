@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000092" xml:lang="es">
   <teiHeader>
@@ -33,9 +33,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-magico-prodigioso/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-magico-prodigioso/html/</idno>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la Sexta parte de Comedias de don Pedro Calderón de la Barca que nuevamente corregidas por sus originales publica don Juan de Vera Tassis y Villarroel, Madrid, Por Francisco Sanz, 1683. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros. </title>
+            <title> Edición digital a partir de la Sexta parte de Comedias de don Pedro Calderón de
+              la Barca que nuevamente corregidas por sus originales publica don Juan de Vera Tassis
+              y Villarroel, Madrid, Por Francisco Sanz, 1683. Localización: Base de Datos Teatro
+              Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros. </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -45,17 +49,28 @@
         <listPerson>
           <person xml:id="cipriano" sex="MALE">
             <persName>Cipriano</persName>
+            <idno type="wikidata">Q16663501</idno>
             <trait source="#calderondigital">
               <desc>estudiante</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="demonio" sex="MALE">
             <persName>El Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="floro" sex="MALE">
             <persName>Floro</persName>
             <trait source="#calderondigital">
               <desc>enamorado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lelio" sex="MALE">
@@ -63,17 +78,27 @@
             <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="moscón" sex="MALE">
             <persName>Moscón</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="justina" sex="FEMALE">
             <persName>Justina</persName>
+            <idno type="wikidata">Q3190543</idno>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
@@ -81,14 +106,23 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="gobernador" sex="MALE">
             <persName>El Gobernador de Antioquía</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisandro" sex="MALE">
             <persName>Lisandro</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clarín" sex="MALE">
@@ -96,18 +130,30 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
             <persName>Fabio</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="esqueleto" sex="MALE">
             <persName>El Esqueleto</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Un Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -119,17 +165,20 @@
           <term source="dracor" type="genreTitle">comedia</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -144,7 +193,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000092" passive="http://www.wikidata.org/entity/Q5825879"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000092"
+        passive="http://www.wikidata.org/entity/Q5825879"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -167,7 +217,8 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
-          <stage>Salen CIPRIANO, vestido de estudiante, CLARÍN y MOSCÓN, de gorrones, con unos libros.</stage>
+          <stage>Salen CIPRIANO, vestido de estudiante, CLARÍN y MOSCÓN, de gorrones, con unos
+            libros.</stage>
           <sp who="#cipriano">
             <speaker>CIPRIANO</speaker>
             <l> En la amena soledad </l>
@@ -1612,7 +1663,7 @@
             <speaker>CLARÍN</speaker>
             <l n="885"> Porque sepa que no es suya, </l>
             <l> así como den las doce. </l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
@@ -1697,7 +1748,8 @@
             <l> y averiguar de una vez </l>
             <l> quién logra el bien que yo pierdo. </l>
           </sp>
-          <stage>Llegan los dos con las espadas desnudas a reconocer quién bajó; el DEMONIO, habiendo bajado, se hunde, y los dos quedan afirmados, queriendo reconocerse.</stage>
+          <stage>Llegan los dos con las espadas desnudas a reconocer quién bajó; el DEMONIO,
+            habiendo bajado, se hunde, y los dos quedan afirmados, queriendo reconocerse.</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <stage>[Aparte.]</stage>
@@ -2153,7 +2205,8 @@
           <sp who="#cipriano">
             <speaker>CIPRIANO</speaker>
             <l part="F"> ¡Ay de mí! </l>
-            <stage>Al irse acercando cada uno por su lado, CIPRIANO con la acción los da a entrambos.</stage>
+            <stage>Al irse acercando cada uno por su lado, CIPRIANO con la acción los da a
+              entrambos.</stage>
             <l n="125"> ¡Que tanto, amor, desconfíes! </l>
           </sp>
           <sp who="#clarín">
@@ -2728,7 +2781,7 @@
           <sp who="#moscón">
             <speaker>MOSCÓN</speaker>
             <l part="F"> En ello has dado. </l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
@@ -2894,7 +2947,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Hace como que va a salir, y en viéndole LELIO, se reboza y vuelve a entrarse.</stage>
+          <stage>Hace como que va a salir, y en viéndole LELIO, se reboza y vuelve a
+            entrarse.</stage>
           <sp who="#justina">
             <speaker>JUSTINA</speaker>
             <l> Hombre, ¿vienes a matarme? </l>
@@ -4146,7 +4200,8 @@
             <l n="125"> porque, en fin, no te he hecho </l>
             <l> cédula con la sangre de mi pecho, </l>
             <l> en este lienzo ahora </l>
-            <stage>Saca un lienzo sucio y escribe en él con el dedo, habiéndose hecho sangre.</stage>
+            <stage>Saca un lienzo sucio y escribe en él con el dedo, habiéndose hecho
+              sangre.</stage>
             <l> (nunca le trae más limpio quien bien llora) </l>
             <l> la haré, para que más te escandalices, </l>
             <l n="130"> dándome un mojicón en las narices; </l>
@@ -4209,7 +4264,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Mientras esta copla se canta, se va entrando por una puerta el DEMONIO y sale por otra JUSTINA, huyendo.</stage>
+          <stage>Mientras esta copla se canta, se va entrando por una puerta el DEMONIO y sale por
+            otra JUSTINA, huyendo.</stage>
           <sp who="#uno">
             <speaker>UNO</speaker>
             <stage>Canta.</stage>
@@ -4752,7 +4808,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Sale la que hace a JUSTINA con manto, como turbada, por una puerta, y se entra huyendo por la otra y va tras ella CIPRIANO, turbado, y CLARÍN, turbado, dando vueltas con miedo.</stage>
+          <stage>Sale la que hace a JUSTINA con manto, como turbada, por una puerta, y se entra
+            huyendo por la otra y va tras ella CIPRIANO, turbado, y CLARÍN, turbado, dando vueltas
+            con miedo.</stage>
           <sp who="#justina">
             <speaker>JUSTINA</speaker>
             <l part="F">Ya escucho; </l>
@@ -4855,7 +4913,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Escóndese, y sale CIPRIANO, trayendo abrazada una persona cubierta con manto y con vestido parecido al de JUSTINA, que es fácil siendo negro el manto y vestidos; y han de venir de suerte que con facilidad se quite todo y quede un esqueleto que ha de volar y hundirse, como mejor pareciere, como se haga con velocidad; si bien será mejor desaparecer por el viento.</stage>
+          <stage>Escóndese, y sale CIPRIANO, trayendo abrazada una persona cubierta con manto y con
+            vestido parecido al de JUSTINA, que es fácil siendo negro el manto y vestidos; y han de
+            venir de suerte que con facilidad se quite todo y quede un esqueleto que ha de volar y
+            hundirse, como mejor pareciere, como se haga con velocidad; si bien será mejor
+            desaparecer por el viento.</stage>
           <sp who="#cipriano">
             <speaker>CIPRIANO</speaker>
             <l> Ya, bellísima Justina, </l>
@@ -6074,7 +6136,8 @@
             <l> sobre el cadahalso, parece </l>
             <l> que nos llama a su silencio. </l>
           </sp>
-          <stage>Esto se haga como mejor pareciere; el cadahalso se descubrirá con las cabezas y cuerpos, y el DEMONIO en lo alto, sobre una sierpe.</stage>
+          <stage>Esto se haga como mejor pareciere; el cadahalso se descubrirá con las cabezas y
+            cuerpos, y el DEMONIO en lo alto, sobre una sierpe.</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l> Oíd, mortales, oíd </l>

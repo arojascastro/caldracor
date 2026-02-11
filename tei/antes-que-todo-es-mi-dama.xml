@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000060" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Antes que todo es mi dama</title>
-        <title type="sub">Fiesta que se representó a sus Majestades en el Coliseo del Buen Retiro.</title>
+        <title type="sub">Fiesta que se representó a sus Majestades en el Coliseo del Buen
+          Retiro.</title>
         <author>
           <persName>
             <forename>Pedro</forename>
@@ -26,7 +27,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-30">
@@ -39,9 +41,13 @@
       <sourceDesc>
         <bibl type="sourceText">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra/antes-que-todo-es-mi-dama--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra/antes-que-todo-es-mi-dama--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Octava parte de Comedias de Don Pedro Calderón de la Barca que corregidas por sus originales, publica Don Juan de Vera Tassis y Villarroel, Madrid, Por Francisco Sanz, 1684. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title>Edición digital a partir de la Octava parte de Comedias de Don Pedro Calderón de
+              la Barca que corregidas por sus originales, publica Don Juan de Vera Tassis y
+              Villarroel, Madrid, Por Francisco Sanz, 1684. Localización: Base de Datos Teatro
+              Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,11 +60,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisardo" sex="MALE">
             <persName>Lisardo</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="don-antonio" sex="MALE">
@@ -66,11 +78,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-íñigo" sex="MALE">
             <persName>Don Íñigo</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="hernando" sex="MALE">
@@ -78,11 +96,17 @@
             <trait source="castlist">
               <desc>lacayo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
             <persName>Laura</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clara" sex="FEMALE">
@@ -90,11 +114,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="beatriz" sex="FEMALE">
             <persName>Beatriz</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
@@ -102,11 +132,17 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mendoza" sex="MALE">
             <persName>Mendoza</persName>
             <trait source="castlist">
               <desc>lacayo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp xml:id="algunos" sex="MALE">
@@ -119,17 +155,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -145,7 +184,8 @@
     <front>
       <docTitle>
         <titlePart type="main">Antes que todo es mi dama</titlePart>
-        <titlePart type="sub">Fiesta que se representó a sus Majestades en el Coliseo del Buen Retiro.</titlePart>
+        <titlePart type="sub">Fiesta que se representó a sus Majestades en el Coliseo del Buen
+          Retiro.</titlePart>
       </docTitle>
       <castList>
         <head>Personas que hablan en ella.</head>
@@ -876,7 +916,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>(Sale HERNANDO por una puerta y por otra MENDOZA con un azafate, y en él una banda y un tocado.)</stage>
+          <stage>(Sale HERNANDO por una puerta y por otra MENDOZA con un azafate, y en él una banda
+            y un tocado.)</stage>
           <sp who="#hernando">
             <speaker rend="caps">Hernando</speaker>
 
@@ -5640,7 +5681,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>(Escóndese donde estaba DON FÉLIX y salen DON ÍÑIGO con la espada desnuda, LAURA deteniéndole y criados con luces y espadas desnudas.)</stage>
+          <stage>(Escóndese donde estaba DON FÉLIX y salen DON ÍÑIGO con la espada desnuda, LAURA
+            deteniéndole y criados con luces y espadas desnudas.)</stage>
           <sp who="#laura">
             <speaker rend="caps">Laura</speaker>
 

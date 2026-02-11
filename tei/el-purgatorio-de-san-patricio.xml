@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000099" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-29">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, El purgatorio de san Patricio. En: Comedias, Vol. 1. Dirección de Luis Iglesias Feijoo. Madrid : Fundación José Antonio de Castro, 2006</title>
+          <title>Pedro Calderón de la Barca, El purgatorio de san Patricio. En: Comedias, Vol. 1.
+            Dirección de Luis Iglesias Feijoo. Madrid : Fundación José Antonio de Castro,
+            2006</title>
           <idno type="ISBN">978-84-96452-28-2</idno>
         </bibl>
       </sourceDesc>
@@ -51,38 +54,63 @@
             <trait source="castlist">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leogario" sex="MALE">
             <persName>Leogario</persName>
             <trait source="#calderondigital">
               <desc>cortesano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="capitán" sex="MALE">
             <persName>Un Capitán</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="polonia" sex="FEMALE">
             <persName>Polonia</persName>
             <trait source="#calderondigital">
               <desc>enamorada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="patricio" sex="MALE">
             <persName>Patricio</persName>
+            <idno type="wikidata">Q165479</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="lesbia" sex="FEMALE">
             <persName>Lesbia</persName>
             <trait source="#calderondigital">
               <desc>hija</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ludovico" sex="MALE">
             <persName>Ludovico</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="filipo" sex="MALE">
             <persName>Filipo</persName>
             <trait source="#calderondigital">
               <desc>capitán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="paulín" sex="MALE">
@@ -90,32 +118,56 @@
             <trait source="castlist">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="locía" sex="FEMALE">
             <persName>Locía</persName>
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="embozado" sex="MALE">
             <persName>Un Hombre Embozado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ángel-bueno" sex="MALE">
             <persName>Un Ángel Bueno</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="canónigo-1" sex="MALE">
             <persName>Canónigo Reglar 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="canónigo-2" sex="MALE">
             <persName>Canónigos Reglar 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ángel-malo" sex="MALE">
             <persName>Un Ángel Malo</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="viejo" sex="MALE">
             <persName>Un Viejo</persName>
             <trait source="castlist">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
         </listPerson>
@@ -125,17 +177,20 @@
           <term source="dracor" type="genreTitle">comedia famosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -180,7 +235,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen Egerio Rey de Irlanda, vestido de pieles, Leogario, un Capitán, Polonia, y Lesbia defendiéndole.</stage>
+          <stage>Salen Egerio Rey de Irlanda, vestido de pieles, Leogario, un Capitán, Polonia, y
+            Lesbia defendiéndole.</stage>
           <sp who="#rey">
             <speaker rend="caps">Rey</speaker>
 
@@ -479,7 +535,8 @@
             <l>si me escuchas, pues solo</l>
             <l>por animarte hablo:</l>
             <l>llegad.</l>
-            <stage>Salen mojados Patricio y Ludovico, abrazados los dos, y caen saliendo cada uno a su parte.</stage>
+            <stage>Salen mojados Patricio y Ludovico, abrazados los dos, y caen saliendo cada uno a
+              su parte.</stage>
           </sp>
           <sp who="#patricio">
             <speaker rend="caps">Patricio</speaker>
@@ -2203,7 +2260,8 @@
             <l>no tomo satisfación,</l>
             <l>cuando mis entrañas son</l>
             <l>Volcanes y Mongibelos?</l>
-            <stage>Sacan las espadas. Salen Egerio, rey, y soldados, y todos se ponen de la parte de Filipo.</stage>
+            <stage>Sacan las espadas. Salen Egerio, rey, y soldados, y todos se ponen de la parte de
+              Filipo.</stage>
           </sp>
           <sp who="#rey">
             <speaker rend="caps">Rey</speaker>
@@ -3679,7 +3737,9 @@
             <l>dislustre de un cristiano, un hechicero.</l>
             <l>Mirad en mí con tan valiente estremo</l>
             <l>que ni temo su horror ni a su Dios temo.</l>
-            <stage>Aquí se ha descubierto una boca de una cueva, lo más horrible que se pueda imitar, y dentro della está un escotillón y, en poniéndose en él Egerio, se hunde con mucho ruido y suben llamas de abajo oyéndose muchas voces.</stage>
+            <stage>Aquí se ha descubierto una boca de una cueva, lo más horrible que se pueda
+              imitar, y dentro della está un escotillón y, en poniéndose en él Egerio, se hunde con
+              mucho ruido y suben llamas de abajo oyéndose muchas voces.</stage>
           </sp>
           <sp who="#polonia">
             <speaker rend="caps">Polonia</speaker>
@@ -5076,7 +5136,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Aquí entra en la cueva, que será como se pudiere hacer más horrible, y cierren con un bastidor.</stage>
+          <stage>Aquí entra en la cueva, que será como se pudiere hacer más horrible, y cierren con
+            un bastidor.</stage>
           <sp who="#canónigo-1">
             <speaker rend="caps">Canónigo 1</speaker>
 
@@ -5211,7 +5272,8 @@
             <l>con silencio a la cueva van guiados</l>
             <l>para abrirle la puerta.</l>
           </sp>
-          <stage>Salen los más que pudieren y llegan a la cueva, de donde sale Ludovico como asombrado.</stage>
+          <stage>Salen los más que pudieren y llegan a la cueva, de donde sale Ludovico como
+            asombrado.</stage>
         </div>
         <div type="scene" resp="#rojas" n="16">
           <sp who="#canónigo-1">

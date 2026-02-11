@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000169" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/18196</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Fernando Plata Parga, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2003. ISBN: 3-935004-60-5.</title>
+            <title>Edición digital a partir de la edición de Fernando Plata Parga, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 2003. ISBN: 3-935004-60-5.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,45 +49,101 @@
         <listPerson>
           <person sex="MALE" xml:id="luzbel">
             <persName>Luzbel</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="culpa">
             <persName>Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gracia">
             <persName>Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="FEMALE" xml:id="naturaleza">
             <persName>Naturaleza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="voluntad">
             <persName>Voluntad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="deseo">
             <persName>Deseo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="obediencia">
             <persName>Obediencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="apetito">
             <persName>Apetito</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="mundo">
             <persName>Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pastor">
             <persName>Pastor</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="abel">
             <persName>Abel</persName>
+            <idno type="wikidata">Q313421</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="moises">
             <persName>Moisés</persName>
+            <idno type="wikidata">Q9077</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="san-juan">
             <persName>San Juan</persName>
+            <idno type="wikidata">Q44015</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -95,17 +152,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -511,7 +571,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Con esta repetición salen en tropa los Músicos, la Voluntad, la Obediencia, el Deseo y el Apetito, todos de villanos; y después la Gracia y la Naturaleza, de damas, atravesando el tablado lo que duren los versos</stage>
+          <stage>Con esta repetición salen en tropa los Músicos, la Voluntad, la Obediencia, el
+            Deseo y el Apetito, todos de villanos; y después la Gracia y la Naturaleza, de damas,
+            atravesando el tablado lo que duren los versos</stage>
           <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>Por ti, bellísima Gracia,</l>
@@ -680,7 +742,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Con esta repetición, se entra la tropa, quedando como suspensos la Culpa y Luzbel</stage>
+          <stage>Con esta repetición, se entra la tropa, quedando como suspensos la Culpa y
+            Luzbel</stage>
           <sp who="#luzbel">
             <speaker>LUZBEL</speaker>
             <l>¡Ay, Culpa! De esto, ¿qué dices?</l>
@@ -948,7 +1011,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>El terremoto. Yéndose los dos con las voces de dentro, sale al tablado por una parte la Naturaleza, y los demás; y por otra el Pastor Fido, con el Mundo en brazos, y, cayendo en el suelo el Mundo, no le mira</stage>
+          <stage>El terremoto. Yéndose los dos con las voces de dentro, sale al tablado por una
+            parte la Naturaleza, y los demás; y por otra el Pastor Fido, con el Mundo en brazos, y,
+            cayendo en el suelo el Mundo, no le mira</stage>
           <sp who="#pastor">
             <speaker>PASTOR</speaker>
             <l n="515" part="F">Pierde el recelo,</l>
@@ -962,7 +1027,8 @@
             <l n="520">No me es posible, ¡ay de mí,</l>
             <l part="I">infeliz!</l>
           </sp>
-          <sp who="#deseo #obediencia #apetito #naturaleza #gracia #musicos #luzbel #culpa #acompanamiento #pastor #mundo">
+          <sp
+            who="#deseo #obediencia #apetito #naturaleza #gracia #musicos #luzbel #culpa #acompanamiento #pastor #mundo">
             <speaker>TODOS</speaker>
             <l part="F">Mundo, ¿qué es esto?</l>
           </sp>
@@ -1988,7 +2054,8 @@
             <speaker>OBEDIENCIA</speaker>
             <l part="F">Vaya, pues, el baile.</l>
           </sp>
-          <sp who="#acompanamiento #culpa #gracia #naturaleza #mundo #musicos #luzbel #pastor #apetito #voluntad #deseo #obediencia">
+          <sp
+            who="#acompanamiento #culpa #gracia #naturaleza #mundo #musicos #luzbel #pastor #apetito #voluntad #deseo #obediencia">
             <speaker>TODOS</speaker>
             <l part="I">¡Vaya!</l>
           </sp>
@@ -1998,7 +2065,8 @@
             <l n="1165">hablando ellos y nosotros</l>
             <l>bailando, decir y hacer.</l>
           </sp>
-          <stage>Hombres por de fuera, música por de dentro, sin dejar de bailar, representando los dos. Suenan siempre los instrumentos</stage>
+          <stage>Hombres por de fuera, música por de dentro, sin dejar de bailar, representando los
+            dos. Suenan siempre los instrumentos</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Sea para bien.</l>
@@ -2107,7 +2175,8 @@
             <l>la voz, que adoración solo</l>
             <l part="I">se debe a Dios.</l>
           </sp>
-          <sp who="#acompanamiento #culpa #gracia #naturaleza #mundo #voluntad #deseo #obediencia #apetito #musicos #luzbel #pastor">
+          <sp
+            who="#acompanamiento #culpa #gracia #naturaleza #mundo #voluntad #deseo #obediencia #apetito #musicos #luzbel #pastor">
             <speaker>TODOS</speaker>
             <l part="F">Dice bien.</l>
           </sp>
@@ -2190,7 +2259,8 @@
             <l part="F">¡Id todos a hacer</l>
             <l>que salga de mis ejidos!</l>
           </sp>
-          <sp who="#mundo #voluntad #deseo #obediencia #apetito #musicos #acompanamiento #pastor #luzbel #gracia #naturaleza">
+          <sp
+            who="#mundo #voluntad #deseo #obediencia #apetito #musicos #acompanamiento #pastor #luzbel #gracia #naturaleza">
             <speaker>TODOS</speaker>
             <l>En vano será, porqué,</l>
             <l>emboscado en la aspereza</l>
@@ -2296,7 +2366,8 @@
             <speaker>GRACIA Y NATURALEZA</speaker>
             <l>¿Qué es esto, humanos afectos?</l>
           </sp>
-          <sp who="#musicos #luzbel #pastor #acompanamiento #mundo #obediencia #voluntad #deseo #apetito #gracia #naturaleza">
+          <sp
+            who="#musicos #luzbel #pastor #acompanamiento #mundo #obediencia #voluntad #deseo #apetito #gracia #naturaleza">
             <speaker>TODOS</speaker>
             <l part="I">Ser humanos.</l>
           </sp>
@@ -2481,7 +2552,8 @@
             <l>vamos diciendo tras él:</l>
             <l part="I">¡viva el Pastor Fido!</l>
           </sp>
-          <sp who="#musicos #luzbel #acompanamiento #deseo #voluntad #pastor #naturaleza #gracia #mundo #obediencia #apetito">
+          <sp
+            who="#musicos #luzbel #acompanamiento #deseo #voluntad #pastor #naturaleza #gracia #mundo #obediencia #apetito">
             <speaker>TODOS</speaker>
             <l part="F">¡Viva!</l>
           </sp>
@@ -2565,7 +2637,8 @@
             <l part="I">¡Viva el Fido Pastor!</l>
           </sp>
           <stage>Dentro instrumentos, grita y voces</stage>
-          <sp who="#deseo #voluntad #pastor #naturaleza #gracia #mundo #obediencia #apetito #culpa #luzbel #acompanamiento">
+          <sp
+            who="#deseo #voluntad #pastor #naturaleza #gracia #mundo #obediencia #apetito #culpa #luzbel #acompanamiento">
             <speaker>TODOS</speaker>
             <l part="F">¡Viva!</l>
           </sp>
@@ -2608,7 +2681,9 @@
             <l>en el corazón, te doy</l>
             <l>para rémora a su pie.</l>
           </sp>
-          <stage>Saca del pecho una culebrilla de alambre en un listón plateado de escamas y se la da a la Culpa y él se esconde en la gruta y la Culpa estará detrás del árbol y quita dél una manzana</stage>
+          <stage>Saca del pecho una culebrilla de alambre en un listón plateado de escamas y se la
+            da a la Culpa y él se esconde en la gruta y la Culpa estará detrás del árbol y quita dél
+            una manzana</stage>
           <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l n="1435">Muestra, que yo le pondré</l>
@@ -2621,7 +2696,8 @@
             <l>por más que ahora, indiscretos,</l>
             <l>falsos digan sus afectos...</l>
           </sp>
-          <sp who="     #deseo #voluntad #pastor #naturaleza #gracia #mundo #obediencia #apetito #acompanamiento #luzbel #culpa #musicos">
+          <sp
+            who="     #deseo #voluntad #pastor #naturaleza #gracia #mundo #obediencia #apetito #acompanamiento #luzbel #culpa #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>¡Viva el Fido Pastor, viva!</l>
           </sp>
@@ -2715,7 +2791,8 @@
             <speaker>CULPA</speaker>
             <l>Come y como Dios serás.</l>
           </sp>
-          <stage>Arroja la manzana, prendida del áspid y asida del listón, que le tendrá en la mano</stage>
+          <stage>Arroja la manzana, prendida del áspid y asida del listón, que le tendrá en la
+            mano</stage>
           <sp who="#naturaleza">
             <speaker>NATURALEZA</speaker>
             <l>¿Qué ciega imaginación,</l>
@@ -2913,7 +2990,8 @@
             <l>vienes a ser en el suelo</l>
             <l n="1565">arco de paz para mí,</l>
             <l>gustaré tu suavidad.</l>
-            <stage>Va la Culpa retirando la manzana y ella tras ella y, al echarla mano, huye, hasta dar en la cueva, que será la boca de una culebra</stage>
+            <stage>Va la Culpa retirando la manzana y ella tras ella y, al echarla mano, huye, hasta
+              dar en la cueva, que será la boca de una culebra</stage>
             <l>Mas ¿qué es esto? ¿Te retiras?</l>
             <l>Si es que no digna me miras,</l>
             <l>sin duda hay en ti deidad</l>
@@ -3343,8 +3421,12 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="33">
-          <stage>Con esta repetición, salen todos con ramos y guirnaldas de ciprés y, tras ellos, la Voluntad, el Apetito y el Deseo, como trayendo a la Naturaleza, cubierto el rostro con un cendal negro, ligadas las manos con tres colonias, tirando cada afecto de la suya. Caja y sordinas destempladas</stage>
-          <sp who="#acompanamiento #gracia #naturaleza #deseo #apetito #obediencia #voluntad #mundo #culpa #pastor #luzbel #musicos">
+          <stage>Con esta repetición, salen todos con ramos y guirnaldas de ciprés y, tras ellos, la
+            Voluntad, el Apetito y el Deseo, como trayendo a la Naturaleza, cubierto el rostro con
+            un cendal negro, ligadas las manos con tres colonias, tirando cada afecto de la suya.
+            Caja y sordinas destempladas</stage>
+          <sp
+            who="#acompanamiento #gracia #naturaleza #deseo #apetito #obediencia #voluntad #mundo #culpa #pastor #luzbel #musicos">
             <speaker>TODOS</speaker>
             <l n="1800">¡Ay mísera belleza,</l>
             <l>que apenas nace cuando muere a penas!</l>
@@ -3420,7 +3502,8 @@
             <l>un solo instante siquiera,</l>
             <l>que vale mucho un instante.</l>
           </sp>
-          <sp who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #pastor #luzbel #naturaleza #musicos #culpa #mundo">
+          <sp
+            who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #pastor #luzbel #naturaleza #musicos #culpa #mundo">
             <speaker>TODOS</speaker>
             <l>¿Quién quieres que no se mueva</l>
             <l n="1840">perezosamente triste</l>
@@ -3430,7 +3513,8 @@
             <speaker>LUZBEL</speaker>
             <l part="F">Quien sepa...</l>
           </sp>
-          <sp who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #pastor #naturaleza #musicos #culpa #mundo #luzbel">
+          <sp
+            who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #pastor #naturaleza #musicos #culpa #mundo #luzbel">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué?</l>
           </sp>
@@ -3466,7 +3550,8 @@
             <l>¡Ay mísera belleza,</l>
             <l>que apenas nace cuando muere a penas!</l>
           </sp>
-          <sp who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #pastor #naturaleza #musicos #mundo #luzbel #culpa">
+          <sp
+            who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #pastor #naturaleza #musicos #mundo #luzbel #culpa">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1860">¡Ay mísera belleza,</l>
             <l>que apenas nace cuando muere a penas!</l>
@@ -3545,7 +3630,8 @@
         </div>
         <div type="scene" resp="#rojas" n="36">
           <stage>Vase</stage>
-          <sp who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #naturaleza #musicos #mundo #culpa #luzbel #pastor">
+          <sp
+            who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #naturaleza #musicos #mundo #culpa #luzbel #pastor">
             <speaker>TODOS</speaker>
             <l>¡Notable afecto de amor!</l>
           </sp>
@@ -3561,7 +3647,8 @@
             <speaker>CULPA</speaker>
             <l>...que igual pasión gima y tema.</l>
           </sp>
-          <sp who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #naturaleza #musicos #mundo #pastor #luzbel #culpa">
+          <sp
+            who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #naturaleza #musicos #mundo #pastor #luzbel #culpa">
             <speaker>TODOS</speaker>
             <l n="1905">¿Qué corazón a su vista</l>
             <l>habrá que no se suspenda?</l>
@@ -3593,7 +3680,8 @@
             <l>mi Espíritu se encomienda.</l>
           </sp>
           <stage>Terremoto</stage>
-          <sp who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #musicos #luzbel #culpa #naturaleza #mundo #pastor">
+          <sp
+            who="#acompanamiento #gracia #deseo #apetito #obediencia #voluntad #musicos #luzbel #culpa #naturaleza #mundo #pastor">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué es esto, cielos?</l>
           </sp>
@@ -3652,7 +3740,8 @@
             <speaker>OTROS</speaker>
             <l n="1945" part="F">¡Que confusión!</l>
           </sp>
-          <sp who="#acompanamiento #gracia #obediencia #musicos #naturaleza #pastor #voluntad #deseo #apetito #mundo #luzbel #culpa">
+          <sp
+            who="#acompanamiento #gracia #obediencia #musicos #naturaleza #pastor #voluntad #deseo #apetito #mundo #luzbel #culpa">
             <speaker>TODOS</speaker>
             <l>¡O espira en tanta tragedia</l>
             <l>su gran hacedor, o espira</l>
@@ -3740,7 +3829,8 @@
             <speaker>OBEDIENCIA</speaker>
             <l>Él te dará la respuesta:</l>
           </sp>
-          <stage>En el primer carro se descubre un sacrificio de leña, con un cordero y un niño, que ha de hacer a Abel</stage>
+          <stage>En el primer carro se descubre un sacrificio de leña, con un cordero y un niño, que
+            ha de hacer a Abel</stage>
           <sp who="#abel">
             <speaker>ABEL</speaker>
             <l>Este cordero, Señor,</l>
@@ -3782,7 +3872,8 @@
             <l part="F">En otro cordero</l>
             <l>te dé Moisés la respuesta.</l>
           </sp>
-          <stage>En el segundo carro, una mesa con viandas y en un plato, un cordero y Moisés en pie</stage>
+          <stage>En el segundo carro, una mesa con viandas y en un plato, un cordero y Moisés en
+            pie</stage>
           <sp who="#moises">
             <speaker>MOISÉS</speaker>
             <l>Este cordero legal</l>
@@ -3816,7 +3907,8 @@
             <speaker>GRACIA</speaker>
             <l part="F">Dé Juan la respuesta.</l>
           </sp>
-          <stage>En el tercero carro, un trono con un cordero sobre el libro de Siete Sellos y San Juan Evangelista</stage>
+          <stage>En el tercero carro, un trono con un cordero sobre el libro de Siete Sellos y San
+            Juan Evangelista</stage>
           <sp who="#san-juan">
             <speaker>SAN JUAN</speaker>
             <l>Este inmolado cordero</l>
@@ -3847,7 +3939,8 @@
             <speaker>CULPA</speaker>
             <l part="M">¿Quién?</l>
           </sp>
-          <stage>En el cuarto carro, un altar con un cordero y sobre él, Hostia y Cáliz, y el Pastor sube en elevación, vestido de gala, con manto encarnado y banderilla</stage>
+          <stage>En el cuarto carro, un altar con un cordero y sobre él, Hostia y Cáliz, y el Pastor
+            sube en elevación, vestido de gala, con manto encarnado y banderilla</stage>
           <sp who="#pastor">
             <speaker>PASTOR</speaker>
             <l part="F">Yo,</l>
@@ -3882,7 +3975,8 @@
             <l n="2065" part="F">A tanto</l>
             <l part="I">asombro...</l>
           </sp>
-          <sp who="#acompanamiento #musicos #voluntad #deseo #apetito #mundo #naturaleza #obediencia #abel #moises #gracia #san-juan #pastor #luzbel #culpa">
+          <sp
+            who="#acompanamiento #musicos #voluntad #deseo #apetito #mundo #naturaleza #obediencia #abel #moises #gracia #san-juan #pastor #luzbel #culpa">
             <speaker>TODOS</speaker>
             <l part="F">A tanta fineza...</l>
           </sp>
@@ -3898,13 +3992,15 @@
             <speaker>NATURALEZA</speaker>
             <l>...vivan mis felicidades.</l>
           </sp>
-          <sp who="#acompanamiento #musicos #voluntad #deseo #apetito #mundo #obediencia #abel #moises #gracia #san-juan #pastor #luzbel #culpa #naturaleza">
+          <sp
+            who="#acompanamiento #musicos #voluntad #deseo #apetito #mundo #obediencia #abel #moises #gracia #san-juan #pastor #luzbel #culpa #naturaleza">
             <speaker>TODOS</speaker>
             <l n="2070">Y las de todos con ellas,</l>
             <l>humildemente diciendo</l>
             <l>a las reales plantas vuestras:</l>
           </sp>
-          <sp who="#musicos #acompanamiento #voluntad #deseo #apetito #mundo #obediencia #abel #moises #gracia #san-juan #pastor #luzbel #culpa #naturaleza">
+          <sp
+            who="#musicos #acompanamiento #voluntad #deseo #apetito #mundo #obediencia #abel #moises #gracia #san-juan #pastor #luzbel #culpa #naturaleza">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Que, supuesto que es día</l>
             <l>de hacer finezas,</l>

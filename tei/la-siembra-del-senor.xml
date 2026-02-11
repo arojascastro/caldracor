@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000187" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,9 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Mariela Insúa y Carlos Mata Induráin, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2013. ISBN: 978-3-944244-12-9.</title>
+            <title>Edición digital a partir de la edición de Mariela Insúa y Carlos Mata Induráin,
+              Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2013. ISBN:
+              978-3-944244-12-9.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,57 +50,140 @@
         <listPerson>
           <person sex="MALE" xml:id="padre">
             <persName>Padre</persName>
+            <idno type="wikidata">Q186350</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="adan">
             <persName>Adán</persName>
+            <idno type="wikidata">Q70899</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="emanuel">
             <persName>Emanuel</persName>
+            <idno type="wikidata">Q302</idno>
             <trait source="castlist">
               <desc>hijo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="sueno">
             <persName>Sueño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="gabriel">
             <persName>Gabriel</persName>
+            <idno type="wikidata">Q81989</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="labrador-1">
             <persName>Labrador 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="labrador-2">
             <persName>Labrador 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="labrador-3">
             <persName>Labrador 3.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="labrador-4">
             <persName>Labrador 4.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="culpa">
             <persName>Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Una Voz</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="judaismo">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="idolatria">
             <persName>Idolatría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="apostasia">
             <persName>Apostasía</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="maria">
             <persName>María</persName>
+            <idno type="wikidata">Q345</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -107,17 +192,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -157,7 +245,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen el Padre de familias, viejo venerable, vestido de mayoral, y Emanuel, su hijo, de galán.</stage>
+          <stage>Salen el Padre de familias, viejo venerable, vestido de mayoral, y Emanuel, su
+            hijo, de galán.</stage>
           <sp who="#padre">
             <speaker>PADRE</speaker>
             <l>Mortales hijos de Adán</l>
@@ -356,7 +445,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vase y sale Adán vestido de pieles, y Labradores de la misma manera, y todos con azadones.</stage>
+          <stage>Vase y sale Adán vestido de pieles, y Labradores de la misma manera, y todos con
+            azadones.</stage>
           <sp who="#adan #labrador-1 #labrador-2 #labrador-3 #labrador-4">
             <speaker>TODOS</speaker>
             <l part="F">Danos tus plantas.</l>
@@ -1746,7 +1836,8 @@
             <speaker>APOSTASÍA</speaker>
             <l>¿Quién vio tal luz en el viento?</l>
           </sp>
-          <sp who="#labrador-1 #labrador-2 #labrador-3 #labrador-4 #adan #gabriel #sueno #musicos #judaismo #idolatria #culpa #apostasia">
+          <sp
+            who="#labrador-1 #labrador-2 #labrador-3 #labrador-4 #adan #gabriel #sueno #musicos #judaismo #idolatria #culpa #apostasia">
             <speaker>TODOS</speaker>
             <l part="I">¿Quién causa este efecto?</l>
           </sp>
@@ -2885,7 +2976,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="40">
-          <stage>Descúbrese la segunda nube, y en ella una María con un Niño en los brazos entre unas manadas de trigo.</stage>
+          <stage>Descúbrese la segunda nube, y en ella una María con un Niño en los brazos entre
+            unas manadas de trigo.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>¡Gloria a Dios en las alturas</l>

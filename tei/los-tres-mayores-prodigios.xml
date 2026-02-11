@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000134" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Los tres mayores prodigios. En: Comedias, Vol. 2. Dirección de Luis Iglesias Feijoo y Santiago Fernández Mosquera. Madrid : Fundación José Antonio de Castro, 2007</title>
+          <title>Pedro Calderón de la Barca, Los tres mayores prodigios. En: Comedias, Vol. 2.
+            Dirección de Luis Iglesias Feijoo y Santiago Fernández Mosquera. Madrid : Fundación José
+            Antonio de Castro, 2007</title>
           <idno type="ISBN">978-84-96452-36-7</idno>
         </bibl>
       </sourceDesc>
@@ -48,71 +51,146 @@
         <listPerson>
           <person xml:id="medea" sex="FEMALE">
             <persName>Medea</persName>
+            <idno type="wikidata">Q174278</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="astrea" sex="FEMALE">
             <persName>Astrea</persName>
+            <idno type="wikidata">Q742680</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
             <persName>Sirene</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
             <persName>Libia</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="jasón" sex="MALE">
             <persName>Jasón</persName>
+            <idno type="wikidata">Q176758</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="friso" sex="MALE">
             <persName>Friso</persName>
+            <idno type="wikidata">Q743482</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="teseo" sex="MALE">
             <persName>Teseo</persName>
+            <idno type="wikidata">Q1320718</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="lidoro" sex="MALE">
             <persName>Lidoro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fedra" sex="FEMALE">
             <persName>Fedra</persName>
+            <idno type="wikidata">Q212818</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="ariadna" sex="FEMALE">
             <persName>Ariadna</persName>
+            <idno type="wikidata">Q184874</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="minos" sex="MALE">
             <persName>Minos</persName>
+            <idno type="wikidata">Q23168</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="libio" sex="MALE">
             <persName>Libio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pantuflo" sex="MALE">
             <persName>Pantuflo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flavio" sex="MALE">
             <persName>Flavio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dédalo" sex="MALE">
             <persName>Dédalo</persName>
+            <idno type="wikidata">Q134756</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Un Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Otro Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="absinto" sex="MALE">
             <persName>Absinto</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sabañón" sex="MALE">
             <persName>Sabañón</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="salvaje" sex="MALE">
             <persName>Un Salvaje</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>El Rey</persName>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp xml:id="músicos" sex="MALE">
@@ -120,39 +198,79 @@
           </personGrp>
           <person xml:id="deyanira" sex="FEMALE">
             <persName>Deyanira</persName>
+            <idno type="wikidata">Q272000</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="neso" sex="MALE">
             <persName>Neso</persName>
+            <idno type="wikidata">Q466866</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="floro" sex="MALE">
             <persName>Floro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="licas" sex="MALE">
             <persName>Licas</persName>
+            <idno type="wikidata">Q922330</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="hércules" sex="MALE">
             <persName>Hércules</persName>
+            <idno type="wikidata">Q240679</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="anfriso" sex="MALE">
             <persName>Anfriso</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="danteo" sex="MALE">
             <persName>Danteo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="clarín" sex="MALE">
             <persName>Clarín</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="narcisa" sex="FEMALE">
             <persName>Narcisa</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nise" sex="FEMALE">
             <persName>Nise</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="clorinda" sex="FEMALE">
             <persName>Clorinda</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
             <persName>Laura</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -161,17 +279,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -237,7 +358,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Cantan dentro, y sale Medea como escuchando y con ella Astrea, Sirene y Libia.</stage>
+          <stage>Cantan dentro, y sale Medea como escuchando y con ella Astrea, Sirene y
+            Libia.</stage>
           <sp who="#músicos">
             <speaker rend="caps">Músicos</speaker>
 
@@ -289,7 +411,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Suenan chirimías y sale todo el acompañamiento, y detrás el Rey y Absinto, príncipe de Colcos, y luego Friso, galán, y delante de él trae una en una fuente el vellón de oro.</stage>
+          <stage>Suenan chirimías y sale todo el acompañamiento, y detrás el Rey y Absinto, príncipe
+            de Colcos, y luego Friso, galán, y delante de él trae una en una fuente el vellón de
+            oro.</stage>
           <sp who="#rey">
             <speaker rend="caps">Rey</speaker>
 
@@ -1004,7 +1128,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Pónense ellas con arcos y ellos con las espadas, y sale Jasón y gente. Dentro</stage>
+          <stage>Pónense ellas con arcos y ellos con las espadas, y sale Jasón y gente.
+            Dentro</stage>
           <sp who="#jasón">
             <speaker rend="caps">Jasón</speaker>
 
@@ -2838,7 +2963,8 @@
       <div type="act" n="2">
         <head rend="caps">Segunda Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen en el tablado de mano izquierda, huyendo, Fedra y Ariadna y Flora, y detrás, envainando la espada, Teseo y Pantuflo, gracioso.</stage>
+          <stage>Salen en el tablado de mano izquierda, huyendo, Fedra y Ariadna y Flora, y detrás,
+            envainando la espada, Teseo y Pantuflo, gracioso.</stage>
           <sp who="#ariadna">
             <speaker rend="caps">Ariadna</speaker>
 
@@ -3601,7 +3727,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Llévanlos y sale Minos, viejo, y Dédalo y soldados, marchando por otra parte.</stage>
+          <stage>Llévanlos y sale Minos, viejo, y Dédalo y soldados, marchando por otra
+            parte.</stage>
           <sp who="#minos">
             <speaker rend="caps">Minos</speaker>
 
@@ -4855,7 +4982,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Vase. Vuelven a salir a escuras, siguiéndose por el hilo de oro Teseo y Pantuflo.</stage>
+          <stage>Vase. Vuelven a salir a escuras, siguiéndose por el hilo de oro Teseo y
+            Pantuflo.</stage>
           <sp who="#teseo">
             <speaker rend="caps">Teseo</speaker>
 
@@ -5198,7 +5326,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="27">
-          <stage>Dentro y sale luego Libio; Teseo y Pantuflo entran por una puerta y salen por otra.</stage>
+          <stage>Dentro y sale luego Libio; Teseo y Pantuflo entran por una puerta y salen por
+            otra.</stage>
           <sp who="#libio">
             <speaker rend="caps">Libio</speaker>
 
@@ -6109,7 +6238,8 @@
       <div type="act" n="3">
         <head rend="caps">Tercera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro voces y salen huyendo Anfriso, Licas, Danteo, Narcisa, Laura, Nise, Clarín y Clorinda, villanos, y tras ellos Hércules.</stage>
+          <stage>Dentro voces y salen huyendo Anfriso, Licas, Danteo, Narcisa, Laura, Nise, Clarín y
+            Clorinda, villanos, y tras ellos Hércules.</stage>
           <sp who="#danteo">
             <speaker rend="caps">Danteo</speaker>
 
@@ -7313,7 +7443,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Neso coge a Deyanira en brazos y se entra y, al seguillos Hércules, salen el príncipe Floro y Licas y criados.</stage>
+          <stage>Neso coge a Deyanira en brazos y se entra y, al seguillos Hércules, salen el
+            príncipe Floro y Licas y criados.</stage>
           <sp who="#floro">
             <speaker rend="caps">Floro</speaker>
 
@@ -8254,7 +8385,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>Sale toda la compañía con guirnaldas y ramas y con instrumentos, y detrás Floro y Hércules, y trae vestido las pieles de Neso.</stage>
+          <stage>Sale toda la compañía con guirnaldas y ramas y con instrumentos, y detrás Floro y
+            Hércules, y trae vestido las pieles de Neso.</stage>
           <sp who="#músicos">
             <speaker rend="caps">Músicos</speaker>
 
@@ -8342,7 +8474,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Suene, mientras cantan, un clarín en el tablado del mar y cajas en el de la tierra.</stage>
+          <stage>Suene, mientras cantan, un clarín en el tablado del mar y cajas en el de la
+            tierra.</stage>
           <sp who="#floro">
             <speaker rend="caps">Floro</speaker>
 
@@ -8407,7 +8540,9 @@
             <l>Pues con salva nos saludan,</l>
             <l>respondámoslos con salva.</l>
           </sp>
-          <stage>Cantan en el tablado de en medio, y por los otros dos van saliendo en orden las dos compañías, hombre y mujer, cada una en el tablado donde representó, al son de cajas y trompetas.</stage>
+          <stage>Cantan en el tablado de en medio, y por los otros dos van saliendo en orden las dos
+            compañías, hombre y mujer, cada una en el tablado donde representó, al son de cajas y
+            trompetas.</stage>
           <sp who="#músicos">
             <speaker rend="caps">Músicos</speaker>
 
@@ -8675,7 +8810,8 @@
 
             <l>Toca y marcha.</l>
           </sp>
-          <stage>Aquí se juntan los tres tablados, y pasan marchando al son de trompetas y cajas, y al mismo tiempo cantan.</stage>
+          <stage>Aquí se juntan los tres tablados, y pasan marchando al son de trompetas y cajas, y
+            al mismo tiempo cantan.</stage>
           <sp who="#floro">
             <speaker rend="caps">Floro</speaker>
 

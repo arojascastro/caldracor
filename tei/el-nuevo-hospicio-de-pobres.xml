@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000020" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-15">
           <time when="20:19:45"/>
@@ -35,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-nuevo-hospicio-de-pobres--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-nuevo-hospicio-de-pobres--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de la Barca, Pedro, El nuevo hospicio de pobres, ed. Ignacio Arellano, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1995. ISBN: 3-930700-34-4.</title>
+            <title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de
+              la Barca, Pedro, El nuevo hospicio de pobres, ed. Ignacio Arellano, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 1995. ISBN: 3-930700-34-4.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,23 +51,41 @@
         <listPerson>
           <person xml:id="sabiduría" sex="FEMALE">
             <persName>La Sabiduría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="fe" sex="FEMALE">
             <persName>La Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="esperanza" sex="FEMALE">
             <persName>La Esperanza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="caridad" sex="FEMALE">
             <persName>La Caridad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="misericordia" sex="FEMALE">
             <persName>La Misericordia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="fortaleza" sex="FEMALE">
             <persName>La Fortaleza</persName>
             <trait source="castlist">
               <desc>ángel</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
             </trait>
           </person>
           <person xml:id="apostasía" sex="MALE">
@@ -71,11 +93,17 @@
             <trait source="castlist">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="apetito" sex="MALE">
             <persName>El Apetito</persName>
             <trait source="castlist">
               <desc>ciego</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
             </trait>
           </person>
           <person xml:id="pereza" sex="FEMALE">
@@ -83,9 +111,18 @@
             <trait source="castlist">
               <desc>leproso</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="sulamitis" sex="FEMALE">
             <persName>La Sulamitis</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>El Rey</persName>
@@ -94,6 +131,9 @@
             </trait>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
             </trait>
           </person>
           <person xml:id="príncipe" sex="MALE">
@@ -104,21 +144,33 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="hebraísmo" sex="MALE">
             <persName>El Hebraísmo</persName>
             <trait source="castlist">
               <desc>judío</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="ateísmo" sex="MALE">
             <persName>El Ateísmo</persName>
             <trait source="castlist"/>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="idolatría" sex="MALE">
             <persName>La Idolatría</persName>
             <trait source="castlist">
               <desc>indio</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
             </trait>
           </person>
           <person xml:id="lascivia" sex="FEMALE">
@@ -126,16 +178,25 @@
             <trait source="castlist">
               <desc>mendigo</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="avaricia" sex="FEMALE">
             <persName>La Avaricia</persName>
             <trait source="castlist"/>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
           </personGrp>
           <person xml:id="gentilismo" sex="MALE">
             <persName>El Gentilismo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -144,17 +205,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -245,7 +309,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale la FE con una cruz, la ESPERANZA con una áncora, la CARIDAD con un ramo de espigas, la MISERICORDIA con otro de oliva y detrás la SABIDURÍA con corona y cetro.</stage>
+          <stage>Sale la FE con una cruz, la ESPERANZA con una áncora, la CARIDAD con un ramo de
+            espigas, la MISERICORDIA con otro de oliva y detrás la SABIDURÍA con corona y
+            cetro.</stage>
           <sp who="#fe">
             <speaker>FE</speaker>
             <l>Ya al nuevo sol que en ti amanece abiertas</l>
@@ -749,7 +815,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Con esta repetición se entran las cuatro y salen, cada uno de su carro, el ATEÍSMO vestido de pieles, el HEBRAÍSMO de judío, la IDOLATRÍA de indio y la APOSTASÍA de soldado, y todos como oyendo a lo lejos la música.</stage>
+          <stage>Con esta repetición se entran las cuatro y salen, cada uno de su carro, el ATEÍSMO
+            vestido de pieles, el HEBRAÍSMO de judío, la IDOLATRÍA de indio y la APOSTASÍA de
+            soldado, y todos como oyendo a lo lejos la música.</stage>
           <sp who="#ateísmo #idolatría #apostasía #hebraísmo">
             <speaker>LOS 4</speaker>
             <l>¿«De que ya la esclava</l>
@@ -1677,7 +1745,8 @@
         </div>
         <div type="scene" resp="#rojas" n="14">
           <stage>Vase.</stage>
-          <stage>Cantan dentro, midiendo la repetición con la MÚSICA, de suerte que acaben todos juntos.</stage>
+          <stage>Cantan dentro, midiendo la repetición con la MÚSICA, de suerte que acaben todos
+            juntos.</stage>
           <sp who="#hebraísmo">
             <speaker>HEBRAÍSMO</speaker>
             <l>Lloren, y ven tú conmigo.</l>
@@ -1714,7 +1783,13 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Vanse los dos. Las chirimías, y ábrese un carro cuya fachada será una escala que caiga sobre el tablado y vese dentro un trono en cuya eminencia estará sentada SULAMITIS como dormida, y en sus gradas el APETITO, de villano ciego; la LASCIVIA, de pobre mendigo; la PEREZA, de leproso llagado y la CODICIA, de hidrópico galán. Y adviértase que al respaldo del trono ha de haber compartimiento que sirva de vestuario para entrar y salir estas personas, y una nube en que a su tiempo ha de venir en bofetón un ángel.</stage>
+          <stage>Vanse los dos. Las chirimías, y ábrese un carro cuya fachada será una escala que
+            caiga sobre el tablado y vese dentro un trono en cuya eminencia estará sentada SULAMITIS
+            como dormida, y en sus gradas el APETITO, de villano ciego; la LASCIVIA, de pobre
+            mendigo; la PEREZA, de leproso llagado y la CODICIA, de hidrópico galán. Y adviértase
+            que al respaldo del trono ha de haber compartimiento que sirva de vestuario para entrar
+            y salir estas personas, y una nube en que a su tiempo ha de venir en bofetón un
+            ángel.</stage>
           <sp who="#sulamitis">
             <speaker>SULAMITIS</speaker>
             <l>Qué mal descansa el dolor;</l>
@@ -2563,7 +2638,8 @@
             <l>pues quien llega a posesión</l>
             <l>no ha menester esperanza.</l>
           </sp>
-          <stage>Con esta repetición, cantando ella y respondiendo toda la MÚSICA, se van, quedando solo el PRÍNCIPE.</stage>
+          <stage>Con esta repetición, cantando ella y respondiendo toda la MÚSICA, se van, quedando
+            solo el PRÍNCIPE.</stage>
           <sp who="#príncipe">
             <speaker>PRÍNCIPE</speaker>
             <l n="1480">¡Oh amor! ¿A qué no me obligas,</l>
@@ -3372,8 +3448,11 @@
             <l>ya que en vuestra santa palabra nos vemos</l>
             <l>sanos, perdonados, salvos y contentos.</l>
           </sp>
-          <stage>Las chirimías, y ábrese un carro en que estará una mesa y en su cabecera el PRÍNCIPE y SULAMITIS, y a una banda y otra las tres VIRTUDES y los cuatro pobres con ropas de velillo y la APOSTASÍA sin ella.</stage>
-          <sp who="#apostasía #idolatría #gentilismo #hebraísmo #príncipe #sulamitis #caridad #esperanza #misericordia #fortaleza #música">
+          <stage>Las chirimías, y ábrese un carro en que estará una mesa y en su cabecera el
+            PRÍNCIPE y SULAMITIS, y a una banda y otra las tres VIRTUDES y los cuatro pobres con
+            ropas de velillo y la APOSTASÍA sin ella.</stage>
+          <sp
+            who="#apostasía #idolatría #gentilismo #hebraísmo #príncipe #sulamitis #caridad #esperanza #misericordia #fortaleza #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Aunque no somos, Señor,</l>
             <l>por nuestros merecimientos</l>
@@ -3416,12 +3495,14 @@
             <l>solo a costa de decir</l>
             <l n="1955">en el cántico con ellos:</l>
           </sp>
-          <sp who="#apostasía #idolatría #gentilismo #hebraísmo #príncipe #sulamitis #caridad #esperanza #misericordia #fortaleza">
+          <sp
+            who="#apostasía #idolatría #gentilismo #hebraísmo #príncipe #sulamitis #caridad #esperanza #misericordia #fortaleza">
             <speaker>TODOS</speaker>
             <l>Ya que en vuestra santa palabra nos vemos</l>
             <l>salvos, perdonados, sanos y contentos.</l>
           </sp>
-          <stage>Las chirimías, y ábrese otro carro con aparadores y en él el REY y la SABIDURÍA.</stage>
+          <stage>Las chirimías, y ábrese otro carro con aparadores y en él el REY y la
+            SABIDURÍA.</stage>
           <sp who="#sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l>Desde estos aparadores</l>
@@ -3444,7 +3525,8 @@
             <l>que sin nupcial ornamento</l>
             <l>mete la mano en el plato?</l>
           </sp>
-          <stage>Baja de su carro y tras él la SABIDURÍA, y sube al otro carro en cuya punta estará el apóstata sentado.</stage>
+          <stage>Baja de su carro y tras él la SABIDURÍA, y sube al otro carro en cuya punta estará
+            el apóstata sentado.</stage>
           <sp who="#sabiduría">
             <speaker>SABIDURÍA</speaker>
             <l part="I">¿Dónde vas?</l>

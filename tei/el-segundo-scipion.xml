@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000101" xml:lang="es">
   <teiHeader>
@@ -39,7 +39,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar). </title>
+            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar).
+            </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -55,8 +56,12 @@
           </personGrp>
           <person sex="MALE" xml:id="magon">
             <persName>Magón</persName>
+            <idno type="wikidata">Q335604</idno>
             <trait source="castlist">
               <desc>gobernador</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="flavia">
@@ -64,11 +69,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="turpin">
             <persName>Turpín</persName>
             <trait source="castlist">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="brunel">
@@ -76,11 +87,18 @@
             <trait source="castlist">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="scipion">
             <persName>Scipión</persName>
+            <idno type="wikidata">Q2253</idno>
             <trait source="castlist">
               <desc>joven</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="fabio">
@@ -88,29 +106,51 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="mujer-2">
             <persName>Mujer 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="livia">
             <persName>Livia</persName>
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="mujer-3">
             <persName>Mujer 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado-1">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado-2">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="lelio">
             <persName>Lelio</persName>
+            <idno type="wikidata">Q706305</idno>
             <trait source="castlist">
               <desc>general</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="egidio">
@@ -118,11 +158,17 @@
             <trait source="castlist">
               <desc>general</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="luceyo">
             <persName>Luceyo</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="arminda">
@@ -130,48 +176,84 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="dentro">
             <persName>Dentro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="FEMALE" xml:id="mujer">
             <persName>Mujer</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="FEMALE" xml:id="otras">
             <persName>Otras</persName>
           </personGrp>
           <person sex="MALE" xml:id="soldado-3">
             <persName>Soldado 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado-4">
             <persName>Soldado 4</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado-6">
             <persName>Soldado 6</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado-7">
             <persName>Soldado 7</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="maximo">
             <persName>Máximo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="celio">
             <persName>Celio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="soldado">
             <persName>Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="flora">
             <persName>Flora</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="MALE" xml:id="hombres">
             <persName>Hombres</persName>
           </personGrp>
           <person sex="MALE" xml:id="curcio">
             <persName>Curcio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -180,17 +262,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -231,7 +316,9 @@
       <div n="1" type="act">
         <div type="scene" resp="#rojas" n="1">
           <head> Jornada I </head>
-          <stage> Transmútase el teatro de la Loa, que será la fábrica de un suntuoso templo, y se ve la perspectiva de una campaña rústica, poblada de chozas, cabañas y villajes, y al son de cajas y trompetas, dicen dentro. </stage>
+          <stage> Transmútase el teatro de la Loa, que será la fábrica de un suntuoso templo, y se
+            ve la perspectiva de una campaña rústica, poblada de chozas, cabañas y villajes, y al
+            son de cajas y trompetas, dicen dentro. </stage>
           <sp who="#unos">
             <speaker> UNOS </speaker>
             <l part="I"> ¡Arma, arma! </l>
@@ -293,7 +380,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage> Ahora salen todas las mujeres, trayendo cada una algunas alhajas como ropa o joyas y por otra parte soldados, y entre ellos Turpín y Brunel. </stage>
+          <stage> Ahora salen todas las mujeres, trayendo cada una algunas alhajas como ropa o joyas
+            y por otra parte soldados, y entre ellos Turpín y Brunel. </stage>
           <sp who="#turpin">
             <speaker> TURPÍN </speaker>
             <l part="F"> En vano, </l>
@@ -303,7 +391,8 @@
             <l> el infelice lugar </l>
             <l> donde su hado no le encuentre. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l part="I"> Daos a prisión. </l>
           </sp>
@@ -349,7 +438,8 @@
             <l> contentarla con lo menos </l>
             <l> quien cargar con todo puede. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l n="55"> Venid, pues, adonde esclavas </l>
             <l part="I"> nuestras viváis. </l>
@@ -373,7 +463,8 @@
             <l> nuestro pundonor, la vida </l>
             <l> sabrá entregarse a la muerte. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l n="65"> ¿Cómo habéis de defenderos? </l>
           </sp>
@@ -382,7 +473,8 @@
             <l> ¡Socorro, dioses clementes! </l>
           </sp>
           <stage> Quieren llevarlas y ellas se defienden. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l part="I"> No hay socorro. </l>
           </sp>
@@ -390,7 +482,8 @@
             <speaker> TODAS </speaker>
             <l part="F"> ¡Piedad, cielos! </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l part="I"> No hay piedad. </l>
           </sp>
@@ -399,7 +492,8 @@
             <l part="F"> ¡Hados crüeles, </l>
             <l part="I"> favor! </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l part="M"> No hay favor. </l>
           </sp>
@@ -807,7 +901,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage> A una parte suenan faenas marítimas y a otra cajas y trompetas, y salen por la una Egidio con Arminda, y por la otra Lelio con Luceyo. </stage>
+          <stage> A una parte suenan faenas marítimas y a otra cajas y trompetas, y salen por la una
+            Egidio con Arminda, y por la otra Lelio con Luceyo. </stage>
           <sp who="#unos">
             <speaker> UNOS </speaker>
             <stage> Dentro. </stage>
@@ -848,7 +943,8 @@
             <l part="F"> Otra, y mil veces </l>
             <l> vuelva a repetir la salva. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l> ¡Scipión viva, Scipión reine! </l>
           </sp>
@@ -1574,7 +1670,8 @@
             <l> que diga en nuestra desgracia... </l>
           </sp>
           <stage> Dentro cajas y trompetas. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l n="710"> ¡Vitoria por Scipión! </l>
@@ -1655,7 +1752,8 @@
             <l n="745"> también diga en su alabanza... </l>
           </sp>
           <stage> Música, clarines y cajas. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l> ¡Viva Scipión, </l>
             <l> y entre voces varias, </l>
@@ -1666,7 +1764,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage> Con esta repetición, se entran los cuatro y sale como de una cueva Turpín con un lío de ropa. </stage>
+          <stage> Con esta repetición, se entran los cuatro y sale como de una cueva Turpín con un
+            lío de ropa. </stage>
           <sp who="#turpin">
             <speaker> TURPÍN </speaker>
             <l> Vitoria por Scipión </l>
@@ -1739,7 +1838,8 @@
             <l> por si en mí repara... </l>
           </sp>
           <stage> Cajas, clarines, y música. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> ÉL Y TODOS </speaker>
             <l> ¡Viva Scipión, </l>
             <l> y entre voces varias, </l>
@@ -1750,7 +1850,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage> Vase. Con esta repetición van saliendo todas las mujeres cantando y bailando, y todos los soldados, Arminda, Luceyo, Egidio y Lelio, y Scipión detrás de todos. </stage>
+          <stage> Vase. Con esta repetición van saliendo todas las mujeres cantando y bailando, y
+            todos los soldados, Arminda, Luceyo, Egidio y Lelio, y Scipión detrás de todos. </stage>
           <sp who="#scipion">
             <speaker> SCIPIÓN </speaker>
             <l> No prosigáis, que aunque estimo </l>
@@ -2173,7 +2274,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage> Con esta repetición, cajas y trompetas, se entran todos por una parte y salen por otra, en cuyo intermedio, sin cesar la música y baile, se mudan los bastidores de villajes en los de tiendas de campaña, cuyo foro será una tienda mayor, con puertas que descubran algunos adornos a lo lejos como sillas, bufetes y escritorios, y a su tiempo entrarán por ella Arminda y las mujeres, quedándose los demás en el tablado. </stage>
+          <stage> Con esta repetición, cajas y trompetas, se entran todos por una parte y salen por
+            otra, en cuyo intermedio, sin cesar la música y baile, se mudan los bastidores de
+            villajes en los de tiendas de campaña, cuyo foro será una tienda mayor, con puertas que
+            descubran algunos adornos a lo lejos como sillas, bufetes y escritorios, y a su tiempo
+            entrarán por ella Arminda y las mujeres, quedándose los demás en el tablado. </stage>
           <sp who="#egidio">
             <speaker> EGIDIO </speaker>
             <l> Ya desde aquí se descubre </l>
@@ -2294,7 +2399,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="20">
-          <stage> Con esta repetición, se entran las mujeres en la tienda principal y se cierran las puertas. </stage>
+          <stage> Con esta repetición, se entran las mujeres en la tienda principal y se cierran las
+            puertas. </stage>
           <sp who="#fabio">
             <speaker> FABIO </speaker>
             <l> ¡Qué digna de tu valor </l>
@@ -2894,8 +3000,10 @@
       <div n="2" type="act">
         <div type="scene" resp="#rojas" n="1">
           <head> Jornada II </head>
-          <stage> Múdase el teatro de las tiendas en el de fuego y salgan las mujeres con las voces siguientes, atravesando el tablado por diferentes partes. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <stage> Múdase el teatro de las tiendas en el de fuego y salgan las mujeres con las voces
+            siguientes, atravesando el tablado por diferentes partes. </stage>
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l part="I"> ¡Fuego, fuego! </l>
@@ -2954,7 +3062,8 @@
         </div>
         <div type="scene" resp="#rojas" n="4">
           <stage> Vase. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l part="I"> ¡Fuego, fuego! </l>
@@ -3039,7 +3148,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage> Salen por una parte Luceyo con Arminda en los brazos, y por otra Egidio que saca a Lelio. </stage>
+          <stage> Salen por una parte Luceyo con Arminda en los brazos, y por otra Egidio que saca a
+            Lelio. </stage>
           <sp who="#luceyo">
             <speaker> LUCEYO </speaker>
             <l> Alienta, Arminda, y respira... </l>
@@ -3989,7 +4099,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage> Vase. Córrese el teatro del fuego y vuelve a verse el de las tiendas de campaña, y salen Fabio, Luceyo y Arminda. </stage>
+          <stage> Vase. Córrese el teatro del fuego y vuelve a verse el de las tiendas de campaña, y
+            salen Fabio, Luceyo y Arminda. </stage>
           <sp who="#fabio">
             <speaker> FABIO </speaker>
             <l> Ya que cobrada quedáis </l>
@@ -4612,7 +4723,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="27">
-          <stage> Arroja la caja y salen della los trastos que ha dicho y otros vidrios y riñen los dos, pisándolo todo. </stage>
+          <stage> Arroja la caja y salen della los trastos que ha dicho y otros vidrios y riñen los
+            dos, pisándolo todo. </stage>
           <sp who="#livia">
             <speaker> LIVIA </speaker>
             <l> En que es mi cara (¡ay de mí!) </l>
@@ -4640,7 +4752,8 @@
             <l> ¡Ay pisoteada hermosura! </l>
           </sp>
           <stage> Tocan cajas. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l n="2365"> ¡Arma, arma, guerra, guerra! </l>
           </sp>
@@ -4666,14 +4779,16 @@
             <l> diciendo, al veros ajadas, </l>
             <l> ¡ay dulces prendas por mi mal halladas! </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l> ¡Arma, arma, guerra, guerra! </l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="30">
-          <stage> Vase Livia recogiendo sus trastos y córrese el teatro de tiendas, descubriendo el de murallas, y en sus almenas Magón y otros soldados. </stage>
+          <stage> Vase Livia recogiendo sus trastos y córrese el teatro de tiendas, descubriendo el
+            de murallas, y en sus almenas Magón y otros soldados. </stage>
           <sp who="#magon">
             <speaker> MAGÓN </speaker>
             <l> Heroicos cartagineses, </l>
@@ -4837,7 +4952,8 @@
             <l> si por el muro no entro. </l>
           </sp>
           <stage> Dan la escalada unos y otros y suben Lelio y Egidio los primeros, y tocan cajas. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l part="I"> ¡Arma, arma, guerra! </l>
           </sp>
@@ -4908,7 +5024,8 @@
         </div>
         <div type="scene" resp="#rojas" n="35">
           <stage> Vanse. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l part="F"> ¡Muera </l>
             <l> Cartago y viva el imperio! </l>
@@ -4985,7 +5102,8 @@
             <speaker> LIVIA </speaker>
             <l part="F"> ¡Flavia, a ellos! </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l part="I"> ¡Vitoria por Scipión! </l>
           </sp>
@@ -5042,7 +5160,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="39">
-          <stage> Salen por una parte Lelio con Egidio en los brazos como desmayado, y por otra las mujeres con Magón y soldados rendidos. </stage>
+          <stage> Salen por una parte Lelio con Egidio en los brazos como desmayado, y por otra las
+            mujeres con Magón y soldados rendidos. </stage>
           <sp who="#egidio">
             <speaker> EGIDIO </speaker>
             <l part="F"> ¡Valedme, cielos! </l>
@@ -5144,7 +5263,8 @@
             <l> mientras se previene el triunfo </l>
             <l> para tu recibimiento... </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l n="2615"> ¡Viva el grande Scipión, </l>
             <l> que a honor del romano imperio </l>
@@ -5157,7 +5277,8 @@
             <l n="2620"> que no venzo a mi enemigo </l>
             <l> si a mí mismo no me venzo. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l> ¡Viva el grande Scipión, </l>
             <l> que a honor del romano imperio </l>
@@ -5169,7 +5290,8 @@
       <div n="3" type="act">
         <div type="scene" resp="#rojas" n="1">
           <head> Jornada III </head>
-          <stage> Cajas y trompetas, y salen por una parte Brunel, y por otra Turpín, cada uno con su bujaca al hombro. </stage>
+          <stage> Cajas y trompetas, y salen por una parte Brunel, y por otra Turpín, cada uno con
+            su bujaca al hombro. </stage>
           <sp who="#dentro">
             <speaker> DENTRO </speaker>
             <l n="2625"> ¡Viva el grande Scipión, </l>
@@ -5182,7 +5304,8 @@
             <l> Pase la palabra, y cesen </l>
             <l> lo saqueado y lo sangriento. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l n="2630"> Pase la palabra, y cesen </l>
@@ -5256,7 +5379,8 @@
             <l> que no he de brindar con agua </l>
             <l> al huésped que tiene dentro. </l>
           </sp>
-          <stage> Quítase la bujaca, y pónela detrás de sí, haciendo que bebe y Turpín se la quita, poniéndole la suya en su lugar. </stage>
+          <stage> Quítase la bujaca, y pónela detrás de sí, haciendo que bebe y Turpín se la quita,
+            poniéndole la suya en su lugar. </stage>
           <sp who="#turpin">
             <speaker> TURPÍN </speaker>
             <l n="2680"> La bujaca se ha quitado, </l>
@@ -5303,7 +5427,8 @@
             <l> debe de ser, según dicen </l>
             <l n="2705"> repetidos los acentos? </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l> ¡Viva el grande Scipión, </l>
@@ -5398,7 +5523,8 @@
             <l> que se despiden las tropas, </l>
             <l> una y otra vez diciendo... </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <stage> Dentro. </stage>
             <l n="2745"> ¡Viva el grande Scipión, </l>
@@ -5649,7 +5775,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage> Salen en dos bandos los soldados y Egidio deteniendo a los unos, y Lelio a los otros. </stage>
+          <stage> Salen en dos bandos los soldados y Egidio deteniendo a los unos, y Lelio a los
+            otros. </stage>
           <sp who="#lelio">
             <speaker> LELIO </speaker>
             <l part="I"> Teneos, amigos,... </l>
@@ -5752,7 +5879,8 @@
             <l> ...no son dueños desta acción, </l>
             <l> que todos somos sus dueños... </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l> ...el día que en su valor </l>
             <l> está interesado el nuestro. </l>
@@ -6195,7 +6323,8 @@
         </div>
         <div type="scene" resp="#rojas" n="13">
           <stage> Salen Scipión, Fabio, Máximo, y después Luceyo. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l part="F"> ¿Qué es esto? </l>
           </sp>
@@ -6598,7 +6727,8 @@
             <l> Sí, que hoy delincuente sois, </l>
             <l> y ayer erais prisionero. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l part="I"> Venid, pues. </l>
           </sp>
@@ -6649,7 +6779,8 @@
             <l> decir con la voz del pueblo... </l>
           </sp>
           <stage> Todos dentro y los dos. </stage>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l> ¡Viva el grande Scipión, </l>
             <l n="3350"> que a honor del romano imperio </l>
@@ -6674,7 +6805,8 @@
             <l n="3360"> justo es que de nuestra fiesta </l>
             <l> la aclamación oiga altiva. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l> ¡Scipión reine, triunfe y viva! </l>
           </sp>
@@ -6728,7 +6860,8 @@
             <l> Ven, pues, su posesión toma, </l>
             <l> sea aplauso el que fue estrago. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l> Y ensáyate hoy en Cartago </l>
             <l n="3395"> para los triunfos de Roma. </l>
@@ -6742,7 +6875,8 @@
             <l n="3400"> yo le acepto, y presto iré </l>
             <l> donde su aplauso reciba. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l> ¡Scipión reine, triunfe y viva! </l>
           </sp>
@@ -6953,7 +7087,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage> Suena dentro a un lado música y a otro voces de marineros y chirimías, y salen Máximo y Fabio, por distintos lados. </stage>
+          <stage> Suena dentro a un lado música y a otro voces de marineros y chirimías, y salen
+            Máximo y Fabio, por distintos lados. </stage>
           <sp who="#fabio">
             <speaker> FABIO </speaker>
             <l> El triunfo que ha prevenido, </l>
@@ -7003,7 +7138,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage> Vanse y córrese el teatro de muralla y se descubre el de la marina, sin dejarse ver más que la proa del bajel grande, que estará Curcio en ella, y tocan a este tiempo chirimías. </stage>
+          <stage> Vanse y córrese el teatro de muralla y se descubre el de la marina, sin dejarse
+            ver más que la proa del bajel grande, que estará Curcio en ella, y tocan a este tiempo
+            chirimías. </stage>
           <sp who="#curcio">
             <speaker> CURCIO </speaker>
             <l n="3560"> Amáinese la vela, </l>
@@ -7049,7 +7186,8 @@
             <speaker> CURCIO </speaker>
             <l part="I"> Pues nos han respondido, a tierra. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l n="3580" part="F"> A tierra. </l>
           </sp>
@@ -7463,7 +7601,11 @@
             <l> el sol con reflejos </l>
             <l> y el aire con visos!. </l>
           </sp>
-          <stage> Con esta repetición se cierra la marina y se descubre el teatro de la calle, en cuyo foro estará Scipión sentado en el carro triunfal, y a sus lados Lelio y Egidio, y delante Magón con una fuente, y en ella una corona de laurel doradas las hojas, y algunos de cautivos en acción de tirar el carro, delante todas las mujeres cantando y bailando, y se introduce Arminda con ellas, y los dos con Fabio y los demás. </stage>
+          <stage> Con esta repetición se cierra la marina y se descubre el teatro de la calle, en
+            cuyo foro estará Scipión sentado en el carro triunfal, y a sus lados Lelio y Egidio, y
+            delante Magón con una fuente, y en ella una corona de laurel doradas las hojas, y
+            algunos de cautivos en acción de tirar el carro, delante todas las mujeres cantando y
+            bailando, y se introduce Arminda con ellas, y los dos con Fabio y los demás. </stage>
           <sp who="#scipion">
             <speaker> SCIPIÓN </speaker>
             <l> Oíd, esperad, suspended </l>
@@ -7578,7 +7720,8 @@
             <l n="3890"> viendo laureados sus cabos, </l>
             <l> que vivan Lelio y Egidio. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l> ¡Viva Lelio y viva Egidio! </l>
           </sp>
@@ -7680,7 +7823,8 @@
             <l> ¿Quién pudo, sino tu fama, </l>
             <l> hacer al rigor benigno? </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> TODOS </speaker>
             <l n="3945"> ¿Quién, sino tu ingenio, a todos </l>
             <l> dejarnos agradecidos? </l>
@@ -7744,7 +7888,8 @@
             <l part="F"> Todos </l>
             <l> será repitiendo a gritos. </l>
           </sp>
-          <sp who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
+          <sp
+            who="#otros #magon #flavia #turpin #brunel #scipion #fabio #mujer-2 #livia #mujer-3 #soldado-1 #soldado-2 #lelio #egidio #luceyo #arminda #dentro #musicos #mujer #otras #soldado-3 #soldado-4 #soldado-6 #soldado-7 #maximo #celio #soldado #flora #hombres #curcio">
             <speaker> MÚSICA Y TODOS </speaker>
             <l n="3985"> ¡Viva Scipión, </l>
             <l> de cuyos floridos </l>

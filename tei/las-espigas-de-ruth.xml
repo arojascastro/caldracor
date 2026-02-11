@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000194" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de C. Buezo, Pamplona– Kassel, Universidad de Navarra–Reichenberger, 2006. ISBN: 3937734325.</title>
+            <title>Edición digital a partir de la edición de C. Buezo, Pamplona– Kassel, Universidad
+              de Navarra–Reichenberger, 2006. ISBN: 3937734325.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,90 +52,229 @@
           </personGrp>
           <person sex="MALE" xml:id="lucero">
             <persName>Lucero</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="discordia">
             <persName>Discordia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="sembrador">
             <persName>Sembrador</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="MALE" xml:id="labradores">
             <persName>Labradores</persName>
           </personGrp>
           <person sex="MALE" xml:id="sacerdote">
             <persName>Sacerdote</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="voces">
             <persName>Voces</persName>
           </personGrp>
           <person sex="MALE" xml:id="joseph">
             <persName>Joseph</persName>
+            <idno type="wikidata">Q145746</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="melchisedech">
             <persName>Melchisedech</persName>
+            <idno type="wikidata">Q219395</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="abraham">
             <persName>Abraham</persName>
+            <idno type="wikidata">Q9181</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="levi">
             <persName>Levi</persName>
+            <idno type="wikidata">Q215512</idno>
             <trait source="castlist">
               <desc>mayoral</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="simeon">
             <persName>Simeón</persName>
+            <idno type="wikidata">Q1773005</idno>
             <trait source="castlist">
               <desc>pastor</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="segador-1.">
             <persName>Segador 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="celfa">
             <persName>Celfa</persName>
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="segador-2">
             <persName>Segador 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="segador-3">
             <persName>Segador 3.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="zafio">
             <persName>Zafio</persName>
             <trait source="castlist">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="ruth">
             <persName>Ruth</persName>
+            <idno type="wikidata">Q1774982</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="noemi">
             <persName>Noemí</persName>
+            <idno type="wikidata">Q2596433</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="segador-4">
             <persName>Segador 4.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="booz">
             <persName>Booz</persName>
+            <idno type="wikidata">Q212253</idno>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="mayoral">
             <persName>Mayoral</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel">
             <persName>Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="nina">
             <persName>Niña</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino">
             <persName>Niño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1.º</persName>
@@ -150,6 +290,12 @@
           </personGrp>
           <person sex="MALE" xml:id="casio">
             <persName>Casio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -158,17 +304,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -408,7 +557,9 @@
             <l>un divino sembrador</l>
             <l>le arroja al aire, diciendo:</l>
           </sp>
-          <stage>Ábrese el medio carro primero, y vese el SEMBRADOR, vestido de villano, con una cestilla, y como va cantando va como sembrando el trigo que traerá en ella; la pintura deste carro son parvas y mieses.</stage>
+          <stage>Ábrese el medio carro primero, y vese el SEMBRADOR, vestido de villano, con una
+            cestilla, y como va cantando va como sembrando el trigo que traerá en ella; la pintura
+            deste carro son parvas y mieses.</stage>
           <sp who="#sembrador">
             <speaker>SEMBRADOR</speaker>
             <l>Fértil tierra, que el blando rocío</l>
@@ -474,7 +625,9 @@
             <l>de la ofrenda, ceremonia</l>
             <l>que aumenta mis sentimientos.</l>
           </sp>
-          <stage>Ábrese el segundo carro y vense, como han dicho los versos, a las puertas de un templo un SACERDOTE anciano, abrazando a dos labradores que estarán de rodillas con un haz de espigas de trigo, cada uno en la mano. Y dicen cantando.</stage>
+          <stage>Ábrese el segundo carro y vense, como han dicho los versos, a las puertas de un
+            templo un SACERDOTE anciano, abrazando a dos labradores que estarán de rodillas con un
+            haz de espigas de trigo, cada uno en la mano. Y dicen cantando.</stage>
           <sp who="#labradores">
             <speaker>LABRADORES</speaker>
             <l>Estas tempranas primicias que ha dado</l>
@@ -486,7 +639,8 @@
             <l>mas porque es sacrificio segundo</l>
             <l n="200">seguir a la ley voluntario el afecto.</l>
           </sp>
-          <stage>Toma el SACERDOTE los dos haces y levanta con ellos las manos al cielo con la acción y reverencia que el sacerdote levanta la hostia</stage>
+          <stage>Toma el SACERDOTE los dos haces y levanta con ellos las manos al cielo con la
+            acción y reverencia que el sacerdote levanta la hostia</stage>
           <sp who="#sacerdote">
             <speaker>SACERDOTE</speaker>
             <stage>Representando</stage>
@@ -590,7 +744,8 @@
             <speaker>DISCORDIA</speaker>
             <l n="250">Reparte el trigo, diciendo:</l>
           </sp>
-          <stage>Ábrese el tercer carro y vese en él la fábrica de un palacio a cuya puerta estará JOSEPH vestido de galán, y dice cantando</stage>
+          <stage>Ábrese el tercer carro y vese en él la fábrica de un palacio a cuya puerta estará
+            JOSEPH vestido de galán, y dice cantando</stage>
           <sp who="#joseph">
             <speaker>JOSEPH</speaker>
             <stage>Cantando.</stage>
@@ -691,7 +846,9 @@
             <l>y, aunque todo es sombras, esa</l>
             <l>es la sombra que más temo.</l>
           </sp>
-          <stage>Cajas y trompetas. Y ábrese el cuarto carro y vese en él un altar con unos panes y redomas de vino, y a un lado MELCHISEDECH, vestido de sacerdote, con corona y cetro, y al otro ABRAHAM con bastón de general.</stage>
+          <stage>Cajas y trompetas. Y ábrese el cuarto carro y vese en él un altar con unos panes y
+            redomas de vino, y a un lado MELCHISEDECH, vestido de sacerdote, con corona y cetro, y
+            al otro ABRAHAM con bastón de general.</stage>
           <sp who="#acompanamiento">
             <speaker>VOCES</speaker>
             <l n="305">¡Melchisedech y Abrahám</l>
@@ -1057,8 +1214,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Representando los unos y cantando los otros. Se van LUCERO y DISCORDIA y salen vestidos de segadores todos los MÚSICOS y MÚSICAS que puedan, y con ellos LEVI viejo, rústico mayoral, y SIMEÓN, segador galán, y CELFA, villana.</stage>
-          <sp who="#sembrador #labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #levi #simeon #celfa">
+          <stage>Representando los unos y cantando los otros. Se van LUCERO y DISCORDIA y salen
+            vestidos de segadores todos los MÚSICOS y MÚSICAS que puedan, y con ellos LEVI viejo,
+            rústico mayoral, y SIMEÓN, segador galán, y CELFA, villana.</stage>
+          <sp
+            who="#sembrador #labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #levi #simeon #celfa">
             <speaker>TODOS</speaker>
             <l>¡Ven, hermosa aurora, en quien</l>
             <l>se alivian nuestras fatigas,</l>
@@ -1123,7 +1283,8 @@
             <l>le descubro cargado</l>
             <l part="I">de olla y banasta.</l>
           </sp>
-          <sp who="#sembrador #labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #levi #segador-2 #celfa #simeon">
+          <sp
+            who="#sembrador #labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #levi #segador-2 #celfa #simeon">
             <speaker>TODOS</speaker>
             <l part="F">El sea bien llegado.</l>
           </sp>
@@ -1200,13 +1361,15 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Sale ZAFIO, villano rústico, con una cesta y en ella una olla, bota y horteras, y todos le reciben bailando alrededor dél.</stage>
+          <stage>Sale ZAFIO, villano rústico, con una cesta y en ella una olla, bota y horteras, y
+            todos le reciben bailando alrededor dél.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l n="615">Es venir Zafio presto tal maravilla</l>
             <l>que en él vemos estrellas a mediodía.</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #segador-2 #simeon #segador-3 #levi #celfa #musicos">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #segador-2 #simeon #segador-3 #levi #celfa #musicos">
             <speaker>TODOS</speaker>
             <l>Seas, Zafio, bien venido.</l>
           </sp>
@@ -1243,7 +1406,8 @@
             <l n="630">por hoy, amigos, paciencia</l>
             <l>y sorber y no mascar.</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #segador-2 #simeon #segador-3 #levi #celfa #musicos #zafio">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #segador-2 #simeon #segador-3 #levi #celfa #musicos #zafio">
             <speaker>TODOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
@@ -1491,7 +1655,8 @@
             <l>con algo cansancio y sol,</l>
             <l>el tono en vaya se vuelva.</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #segador-2 #segador-3 #levi #zafio #musicos #lucero #simeon #celfa">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #segador-2 #segador-3 #levi #zafio #musicos #lucero #simeon #celfa">
             <speaker>TODOS</speaker>
             <l>¿Dónde van las peregrinas?</l>
           </sp>
@@ -1528,7 +1693,8 @@
             <l>con que sustentarte pueda</l>
             <l>hasta llegar a tu patria.</l>
           </sp>
-          <stage>Pasan por delante de los segadores arrimándose sobre el hombro de RUTH NOEMÍ</stage>
+          <stage>Pasan por delante de los segadores arrimándose sobre el hombro de RUTH
+            NOEMÍ</stage>
           <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l>¡Qué mal la esperiencia empieza</l>
@@ -1560,7 +1726,8 @@
             <l>de la vida, sin hacer</l>
             <l>de achaques del mundo cuenta.</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #segador-2 #segador-3 #levi #musicos #simeon #noemi #celfa #zafio #lucero #ruth">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #segador-2 #segador-3 #levi #musicos #simeon #noemi #celfa #zafio #lucero #ruth">
             <speaker>TODOS</speaker>
             <l>Deja la vieja caduca,</l>
             <l part="I">hermosa beldad.</l>
@@ -1706,7 +1873,8 @@
         </div>
         <div type="scene" resp="#rojas" n="8">
           <stage>Vase.</stage>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #levi #musicos #segador-2 #segador-3 #celfa #zafio #ruth #lucero #noemi #simeon">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #levi #musicos #segador-2 #segador-3 #celfa #zafio #ruth #lucero #noemi #simeon">
             <speaker>TODOS</speaker>
             <l part="F">¡Dios os ampare!</l>
           </sp>
@@ -1782,7 +1950,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Va RUTH cogiendo unas espigas que habrá en el tablado; velo el LUCERO y, llegando a quitárselas, sale BOOZ, viejo venerable vestido a lo judío, y hállalos como luchando. Defendiéndolas ella salen con él todos los SEGADORES</stage>
+          <stage>Va RUTH cogiendo unas espigas que habrá en el tablado; velo el LUCERO y, llegando a
+            quitárselas, sale BOOZ, viejo venerable vestido a lo judío, y hállalos como luchando.
+            Defendiéndolas ella salen con él todos los SEGADORES</stage>
           <sp who="#ruth">
             <speaker>RUTH</speaker>
             <l>¿Por qué impides la clemencia</l>
@@ -2071,7 +2241,8 @@
             <l>prevengámosle algún baile</l>
             <l>para cuando al valle vuelva.</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #celfa #noemi #levi #lucero #booz #ruth #zafio">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #celfa #noemi #levi #lucero #booz #ruth #zafio">
             <speaker>TODOS</speaker>
             <l part="I">Dices bien.</l>
           </sp>
@@ -2097,7 +2268,8 @@
             <speaker>CELFA</speaker>
             <l>¡Ay, que me quiere morir!</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #noemi #levi #lucero #booz #ruth #zafio #celfa">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #noemi #levi #lucero #booz #ruth #zafio #celfa">
             <speaker>TODOS</speaker>
             <l part="I">Teneos.</l>
           </sp>
@@ -2109,7 +2281,8 @@
             <l n="1045">que no he de quedarme así</l>
             <l part="I">toda la vida.</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #noemi #levi #lucero #booz #ruth #celfa #zafio">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #noemi #levi #lucero #booz #ruth #celfa #zafio">
             <speaker>TODOS</speaker>
             <l part="F">Huye, Celfa.</l>
           </sp>
@@ -2343,7 +2516,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Salen todos los segadores y segadoras que puedan bailando y entre ellos SIMEÓN, LEVI, CELFA y ZAFIO. Detrás de todos BOOZ, LUCERO y DISCORDIA se mezclan con ellos guiando una banda y RUTH y NOEMÍ otra</stage>
+          <stage>Salen todos los segadores y segadoras que puedan bailando y entre ellos SIMEÓN,
+            LEVI, CELFA y ZAFIO. Detrás de todos BOOZ, LUCERO y DISCORDIA se mezclan con ellos
+            guiando una banda y RUTH y NOEMÍ otra</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Norabuena el padre</l>
@@ -2386,7 +2561,8 @@
             <l>si mi caída primera</l>
             <l>fue el lazo de la discordia?</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #celfa #zafio #ruth #noemi #booz #musicos #discordia #lucero">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #celfa #zafio #ruth #noemi #booz #musicos #discordia #lucero">
             <speaker>TODOS</speaker>
             <l part="I">Levantaos.</l>
           </sp>
@@ -2403,7 +2579,8 @@
             <l>fuera del corro estropeado,</l>
             <l part="I">sin él vuelva el baile.</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #celfa #ruth #noemi #booz #musicos #discordia #lucero #zafio">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #celfa #ruth #noemi #booz #musicos #discordia #lucero #zafio">
             <speaker>TODOS</speaker>
             <l part="F">Vuelva.</l>
           </sp>
@@ -2442,7 +2619,8 @@
             <speaker>CELFA</speaker>
             <l part="M">Vuelva el baile.</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #ruth #booz #musicos #noemi #zafio #discordia #lucero #celfa">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #ruth #booz #musicos #noemi #zafio #discordia #lucero #celfa">
             <speaker>TODOS</speaker>
             <l part="F">Vuelva.</l>
           </sp>
@@ -2471,7 +2649,8 @@
             <speaker>LOS DOS</speaker>
             <l part="I">Nada es. Vuelva al baile.</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #ruth #booz #discordia #lucero #musicos #celfa #zafio #noemi">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #ruth #booz #discordia #lucero #musicos #celfa #zafio #noemi">
             <speaker>TODOS</speaker>
             <l part="F">Vuelva.</l>
           </sp>
@@ -2502,7 +2681,8 @@
             <l>Donde a poner el pie agora</l>
             <l>va, hay lazo que caiga es fuerza.</l>
           </sp>
-          <stage>Proguiendo los lazos del baile con esta última copla, va a caer RUTH y BOOZ ataja la música a tiempo que ella sin caer queda puesto el pie sobre LUCERO</stage>
+          <stage>Proguiendo los lazos del baile con esta última copla, va a caer RUTH y BOOZ ataja
+            la música a tiempo que ella sin caer queda puesto el pie sobre LUCERO</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l n="1230">Al ver limpio el grano,</l>
@@ -2912,7 +3092,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Empieza RUTH a coger algunas espigas y sale LEVI con un haz de ellas y por detrás de RUTH la va arrojando y ella va cogiendo las que arroja sin verle</stage>
+          <stage>Empieza RUTH a coger algunas espigas y sale LEVI con un haz de ellas y por detrás
+            de RUTH la va arrojando y ella va cogiendo las que arroja sin verle</stage>
           <sp who="#mayoral">
             <speaker>MAYORAL</speaker>
             <l>Mandome Booz que, si viera</l>
@@ -2960,7 +3141,8 @@
             <l n="1455">Que no tiene que llegar</l>
             <l part="I">adonde está la...</l>
           </sp>
-          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #celfa #simeon #noemi #zafio #booz #levi #musicos #mayoral #ruth #discordia #lucero">
+          <sp
+            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #celfa #simeon #noemi #zafio #booz #levi #musicos #mayoral #ruth #discordia #lucero">
             <speaker>TODOS</speaker>
             <l part="F">¡Cizaña</l>
             <l>en los trigos ha nacido!</l>
@@ -2988,7 +3170,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Sale BOOZ, alborotado por una parte, y por otra SIMEÓN y los demás segadores</stage>
+          <stage>Sale BOOZ, alborotado por una parte, y por otra SIMEÓN y los demás
+            segadores</stage>
           <sp who="#booz">
             <speaker>BOOZ</speaker>
             <l>¿Qué voces aquestas son?</l>
@@ -3151,7 +3334,8 @@
             <speaker>RUTH</speaker>
             <l part="F">Sabré defenderlas.</l>
           </sp>
-          <stage>Abrázase con el haz de las espigas, cruzando los brazos, y retírase la DISCORDIA</stage>
+          <stage>Abrázase con el haz de las espigas, cruzando los brazos, y retírase la
+            DISCORDIA</stage>
           <sp who="#discordia">
             <speaker>DISCORDIA</speaker>
             <l>Sí sabrás, pues que me matas</l>
@@ -3233,7 +3417,10 @@
             <l>no a la tierra que señalas</l>
             <l part="I">fecunda y virgen.</l>
           </sp>
-          <stage>Ábrese el primero medio carro y vese el SEMBRADOR en la misma acción que se vio al principio, y dando vuelta, como dicen los versos, se ven en el reverso del otro medio carro una NIÑA, con manto azul, y un ÁNGEL de rodillas, figurando lo mejor que se pueda un cuadro de encarnación.</stage>
+          <stage>Ábrese el primero medio carro y vese el SEMBRADOR en la misma acción que se vio al
+            principio, y dando vuelta, como dicen los versos, se ven en el reverso del otro medio
+            carro una NIÑA, con manto azul, y un ÁNGEL de rodillas, figurando lo mejor que se pueda
+            un cuadro de encarnación.</stage>
           <sp who="#sembrador">
             <speaker>SEMBRADOR</speaker>
             <l part="F">Sí ves</l>
@@ -3332,7 +3519,9 @@
             <l>el grano y, deshecho, nada</l>
             <l>me puede dar que temer.</l>
           </sp>
-          <stage>Ábrese el segundo medio carro y vese en él los VILLANOS y el SACERDOTE en la acción que primero, levantando las espigas, y con los versos da vuelta el carro y vese en el otro medio un NIÑO en una cruz</stage>
+          <stage>Ábrese el segundo medio carro y vese en él los VILLANOS y el SACERDOTE en la acción
+            que primero, levantando las espigas, y con los versos da vuelta el carro y vese en el
+            otro medio un NIÑO en una cruz</stage>
           <sp who="#sacerdote">
             <speaker>SACERDOTE</speaker>
             <l>Tú lo verás, si reparas</l>
@@ -3407,7 +3596,8 @@
             <speaker>LOS DOS</speaker>
             <l>Veremos lo que dél sacas.</l>
           </sp>
-          <stage>Ábrese el tercero medio carro y vese en él JOSEPH como primero, y dando vuelta se ve en el otro medio carro una fuente en un jardín con siete caños</stage>
+          <stage>Ábrese el tercero medio carro y vese en él JOSEPH como primero, y dando vuelta se
+            ve en el otro medio carro una fuente en un jardín con siete caños</stage>
           <sp who="#joseph">
             <speaker>JOSEPH</speaker>
             <l>Para hambre de siete años,</l>
@@ -3459,7 +3649,8 @@
             <speaker>LOS DOS</speaker>
             <l part="I">¿Dónde?</l>
           </sp>
-          <stage>Vense los dos en el cuarto medio carro y dando vuelta se ve en el otro medio un altar con sacramento debajo de araceli</stage>
+          <stage>Vense los dos en el cuarto medio carro y dando vuelta se ve en el otro medio un
+            altar con sacramento debajo de araceli</stage>
           <sp who="#abraham">
             <speaker>ABRAHAM</speaker>
             <l part="F">Yo, en esta campaña,</l>
@@ -3538,7 +3729,8 @@
             <l>y su pan en sacramento</l>
             <l>repitiendo voces varias:</l>
           </sp>
-          <stage>Los de cada carro con la MÚSICA repiten los versos que les tocan, dando todos vuelta</stage>
+          <stage>Los de cada carro con la MÚSICA repiten los versos que les tocan, dando todos
+            vuelta</stage>
           <sp who="#coro-1">
             <speaker>CORO 1.º</speaker>
             <l>«Ave María, llena de gracia».</l>
@@ -3637,7 +3829,8 @@
             <l>de Ruth esas voces altas</l>
             <l part="I">repitan</l>
           </sp>
-          <sp who="#acompanamiento #segador-1 #segador-2 #segador-3 #celfa #zafio #mayoral #levi #sembrador #angel #nina #sacerdote #nino #joseph #melchisedech #abraham #musicos #discordia #coro-1 #coro-2 #coro-3 #coro-4 #noemi #simeon #booz #ruth #lucero #casio">
+          <sp
+            who="#acompanamiento #segador-1 #segador-2 #segador-3 #celfa #zafio #mayoral #levi #sembrador #angel #nina #sacerdote #nino #joseph #melchisedech #abraham #musicos #discordia #coro-1 #coro-2 #coro-3 #coro-4 #noemi #simeon #booz #ruth #lucero #casio">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">Diciendo todos,</l>
             <l>humildes a vuestras plantas:</l>
@@ -3647,7 +3840,9 @@
             <l>Ave pan vivo y hostia sagrada,</l>
             <l>gracia de Dios y aumento de gracia».</l>
           </sp>
-          <stage>Con esta repetición dan vuelta los cuatro carros viéndose a un tiempo sembrador y encarnación, sacerdote y cruz, erario y fuente, sacrificio y sacramento y cerrándose las apariencias acaban el auto los que están en el tablado.</stage>
+          <stage>Con esta repetición dan vuelta los cuatro carros viéndose a un tiempo sembrador y
+            encarnación, sacerdote y cruz, erario y fuente, sacrificio y sacramento y cerrándose las
+            apariencias acaban el auto los que están en el tablado.</stage>
         </div>
       </div>
     </body>

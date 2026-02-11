@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000168" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,9 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/18208</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de I. Pérez Ibáñez, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-02-3.</title> /&gt; </bibl>
+            <title>Edición digital a partir de la edición de I. Pérez Ibáñez, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-02-3.</title> /&gt;
+          </bibl>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -50,42 +52,113 @@
           </personGrp>
           <person sex="MALE" xml:id="judaismo">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sinagoga">
             <persName>Sinagoga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="abel">
             <persName>Abel</persName>
+            <idno type="wikidata">Q313421</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="isaac">
             <persName>Isaac</persName>
+            <idno type="wikidata">Q671872</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="josef">
             <persName>Josef</persName>
+            <idno type="wikidata">Q145746</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="melquisedec">
             <persName>Melquisedec</persName>
+            <idno type="wikidata">Q219395</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="san-juan">
             <persName>San Juan</persName>
+            <idno type="wikidata">Q44015</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="pablo">
             <persName>Pablo</persName>
+            <idno type="wikidata">Q9200</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="simplicidad">
             <persName>Simplicidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="emanuel">
             <persName>Emanuel</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="baptista">
             <persName>Baptista</persName>
+            <idno type="wikidata">Q40662</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gentilidad">
             <persName>Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -94,17 +167,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -142,7 +218,10 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale la MÚSICA, y luego la FE, con venda en los ojos, una cruz dorada en la mano derecha, y en la izquierda una tarjeta, pintado en ella el sacramento, y alrededor esta letra: SECUNDUM ORDINEM MELCHISIDECH. Y mientras cantan, dan vuelta al tablado, y salen el JUDAÍSMO y la SINAGOGA cada uno por su puerta, vestidos a lo judío</stage>
+          <stage>Sale la MÚSICA, y luego la FE, con venda en los ojos, una cruz dorada en la mano
+            derecha, y en la izquierda una tarjeta, pintado en ella el sacramento, y alrededor esta
+            letra: SECUNDUM ORDINEM MELCHISIDECH. Y mientras cantan, dan vuelta al tablado, y salen
+            el JUDAÍSMO y la SINAGOGA cada uno por su puerta, vestidos a lo judío</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Venid, venid al examen,</l>
@@ -768,7 +847,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Descúbrese un nicho donde se aparece ABEL vestido de blanco pastor con el sacrificio sobre una peña. Canta</stage>
+          <stage>Descúbrese un nicho donde se aparece ABEL vestido de blanco pastor con el
+            sacrificio sobre una peña. Canta</stage>
           <sp who="#abel">
             <speaker>ABEL</speaker>
             <l n="315">El primer sacrificio</l>
@@ -813,7 +893,8 @@
             <speaker>SINAGOGA</speaker>
             <l>Veamos qué sacamos de él.</l>
           </sp>
-          <stage>En otro nicho aparecerá un sacrificio de leña, ISAAC de rodillas, y vendados los ojos Canta</stage>
+          <stage>En otro nicho aparecerá un sacrificio de leña, ISAAC de rodillas, y vendados los
+            ojos Canta</stage>
           <sp who="#isaac">
             <speaker>ISAAC</speaker>
             <l n="345">Esta leña que al hombro</l>
@@ -899,7 +980,8 @@
             <l>que más preeminencias que estas</l>
             <l>estotra podrá tener.</l>
           </sp>
-          <stage>En otro nicho se aparecerá una mesa, unos panes, y unos vasos, todo dorado, y MELQUISEDEC. Canta</stage>
+          <stage>En otro nicho se aparecerá una mesa, unos panes, y unos vasos, todo dorado, y
+            MELQUISEDEC. Canta</stage>
           <sp who="#melquisedec">
             <speaker>MELQUISEDEC</speaker>
             <l n="405">Pan y vino os consagro,</l>
@@ -1221,7 +1303,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Vanse y salen por diferentes partes el BAPTISTA y SAN JUAN, cada uno por sí y SAN PABLO vestido a lo romano</stage>
+          <stage>Vanse y salen por diferentes partes el BAPTISTA y SAN JUAN, cada uno por sí y SAN
+            PABLO vestido a lo romano</stage>
           <sp who="#baptista">
             <speaker>BAPTISTA</speaker>
             <l>Llegad, llegad veloces,</l>
@@ -1544,7 +1627,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Vanse. Al irse los dos, sale EMANUEL por una parte de peregrino y por la otra la SINAGOGA</stage>
+          <stage>Vanse. Al irse los dos, sale EMANUEL por una parte de peregrino y por la otra la
+            SINAGOGA</stage>
           <sp who="#emanuel">
             <speaker>EMANUEL</speaker>
             <l n="695">…quien con Melquisedec gozar espera…</l>
@@ -2984,7 +3068,8 @@
             <speaker>SINAGOGA</speaker>
             <l part="I">¡Romped las puertas!</l>
           </sp>
-          <sp who="#isaac #josef #melquisedec #acompanamiento #san-juan #baptista #musicos #pablo #fe #simplicidad #gentilidad #emanuel #judaismo #sinagoga">
+          <sp
+            who="#isaac #josef #melquisedec #acompanamiento #san-juan #baptista #musicos #pablo #fe #simplicidad #gentilidad #emanuel #judaismo #sinagoga">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué es esto?</l>
           </sp>
@@ -3603,7 +3688,8 @@
             <speaker>LOS DOS</speaker>
             <l part="I">¿De qué suerte?</l>
           </sp>
-          <stage>Aparece EMANUEL de gala en el carro donde estuvo Melquisedec con el sacrificio de pan y vino con una hostia</stage>
+          <stage>Aparece EMANUEL de gala en el carro donde estuvo Melquisedec con el sacrificio de
+            pan y vino con una hostia</stage>
           <sp who="#emanuel">
             <speaker>EMANUEL</speaker>
             <l part="F">De esta suerte:</l>

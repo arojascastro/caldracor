@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000153" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de I. Arellano y C. Mata, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-18-X.</title>
+            <title>Edición digital a partir de la edición de I. Arellano y C. Mata, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-18-X.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,45 +49,84 @@
         <listPerson>
           <person sex="MALE" xml:id="pecado">
             <persName>Pecado</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gracia">
             <persName>Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="hombre">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="albedrio">
             <persName>Albedrío</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="lascivia">
             <persName>Lascivia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="soberbia">
             <persName>Soberbia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="avaricia">
             <persName>Avaricia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gula">
             <persName>Gula</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="envidia">
             <persName>Envidia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="pereza">
             <persName>Pereza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="ira">
             <persName>Ira</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="oido">
             <persName>Oído</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="iglesia">
             <persName>Iglesia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Voces</persName>
@@ -101,17 +141,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -525,7 +568,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale el HOMBRE, vistiéndole el ALBEDRÍO, y después cantando salen la SOBERBIA, con el sombrero de plumas; la AVARICIA, con un azafate y en él cadena y joyas; la LASCIVIA, con el espejo; la IRA, con la espada; la GULA, con un azafate de frutas; la ENVIDIA, con la capa en una fuente, y la PEREZA, viejo, con bastón o báculo</stage>
+          <stage>Sale el HOMBRE, vistiéndole el ALBEDRÍO, y después cantando salen la SOBERBIA, con
+            el sombrero de plumas; la AVARICIA, con un azafate y en él cadena y joyas; la LASCIVIA,
+            con el espejo; la IRA, con la espada; la GULA, con un azafate de frutas; la ENVIDIA, con
+            la capa en una fuente, y la PEREZA, viejo, con bastón o báculo</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Aunque la esclavina trueque</l>
@@ -1230,7 +1276,8 @@
             <l part="F">No has de oírlos.</l>
           </sp>
           <stage>Cantando y representando</stage>
-          <sp who="#soberbia #avaricia #gula #envidia #ira #albedrio #pereza #lascivia #hombre #pecado #gracia">
+          <sp
+            who="#soberbia #avaricia #gula #envidia #ira #albedrio #pereza #lascivia #hombre #pecado #gracia">
             <speaker>TODOS</speaker>
             <l n="725">A la corte has venido:</l>
             <l>goza su aplauso y deja los retiros.</l>
@@ -1309,7 +1356,8 @@
             <l>el conocer que son grillos.</l>
           </sp>
           <stage>Cantado y representado</stage>
-          <sp who="#albedrio #hombre #pecado #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
+          <sp
+            who="#albedrio #hombre #pecado #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
             <speaker>TODOS</speaker>
             <l n="755">A la corte has venido:</l>
             <l>goza su aplauso y deja los retiros.</l>
@@ -1359,7 +1407,8 @@
             <l n="770">Y sin mí, a vivir perdido.</l>
           </sp>
           <stage>GRACIA y ellos a un tiempo juntos todos representando y cantando</stage>
-          <sp who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
+          <sp
+            who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
             <speaker>TODOS</speaker>
             <l>A la corte has venido…</l>
           </sp>
@@ -1367,7 +1416,8 @@
             <speaker>GRACIA</speaker>
             <l>A la corte has venido…</l>
           </sp>
-          <sp who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
+          <sp
+            who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
             <speaker>TODOS</speaker>
             <l>Goza su aplauso, y deja los retiros.</l>
           </sp>
@@ -1375,7 +1425,8 @@
             <speaker>GRACIA</speaker>
             <l>Mas no por eso no eres peregrino.</l>
           </sp>
-          <sp who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
+          <sp
+            who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
             <speaker>TODOS</speaker>
             <l part="I">¿A qué te resuelves?</l>
           </sp>
@@ -1399,7 +1450,8 @@
             <l n="785">vivamos hoy alegres y festivos.</l>
           </sp>
           <stage>Cantan y bailan llevándosele de en medio</stage>
-          <sp who="#pecado #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #albedrio #musicos">
+          <sp
+            who="#pecado #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #albedrio #musicos">
             <speaker>TODOS Y MÚSICA Y HOMBRE</speaker>
             <l>Vivamos hoy alegres y festivos.</l>
           </sp>
@@ -1407,7 +1459,8 @@
             <speaker>ALBEDRÍO</speaker>
             <l>Mañana moriremos, y es delirio…</l>
           </sp>
-          <sp who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #musicos #albedrio">
+          <sp
+            who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #musicos #albedrio">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Mañana moriremos, y es delirio…</l>
           </sp>
@@ -1416,7 +1469,8 @@
             <l>… que tristes y afligidos</l>
             <l n="790">nos matemos porque hemos de morirnos.</l>
           </sp>
-          <sp who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #musicos #albedrio">
+          <sp
+            who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #musicos #albedrio">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>… que tristes y afligidos</l>
             <l>nos matemos porque hemos de morirnos.</l>
@@ -1476,7 +1530,8 @@
             <l>entre aquestos cortesanos</l>
             <l n="810">afectos, con quien repito.</l>
           </sp>
-          <sp who="#hombre #musicos #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #albedrio #gracia">
+          <sp
+            who="#hombre #musicos #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #albedrio #gracia">
             <speaker>ÉL, MÚSICA Y TODOS</speaker>
             <l>Vivamos hoy alegres y festivos;</l>
             <l>mañana moriremos, y es delirio</l>
@@ -1506,7 +1561,8 @@
             <l n="830">de las flores que él deshizo,</l>
             <l>los áspides que enroscados</l>
             <l>dentro de mi pecho abrigo,</l>
-            <stage>Levanta de entre las flores que el HOMBRE deshizo unas culebrillas de alambre y méteselas en el pecho</stage>
+            <stage>Levanta de entre las flores que el HOMBRE deshizo unas culebrillas de alambre y
+              méteselas en el pecho</stage>
             <l>para que significando</l>
             <l>ellos, también de sus vicios</l>
             <l n="835">los grados, yo le corone</l>
@@ -1644,7 +1700,10 @@
             <speaker>MÚSICA</speaker>
             <l n="920">… que llama la Gracia y la Fe da la voz.</l>
           </sp>
-          <stage>Las chirimías. Ábrese un carro y vese en un trono, el más majestuoso que se pueda imitar, sentada la IGLESIA, significada en una dama con manto imperial y tiara en la cabeza, en una mano el báculo de tres cruces y en otra las llaves. El trono ha de tener gradas hasta el tablado por donde pueda subir la GRACIA</stage>
+          <stage>Las chirimías. Ábrese un carro y vese en un trono, el más majestuoso que se pueda
+            imitar, sentada la IGLESIA, significada en una dama con manto imperial y tiara en la
+            cabeza, en una mano el báculo de tres cruces y en otra las llaves. El trono ha de tener
+            gradas hasta el tablado por donde pueda subir la GRACIA</stage>
           <sp who="#iglesia">
             <speaker>IGLESIA</speaker>
             <l>¿Qué es, Gracia, lo que me quieres?</l>
@@ -1777,14 +1836,17 @@
             <l n="1005">en su dulce música el eco</l>
             <l>a repetirle, diciendo veloz:</l>
           </sp>
-          <sp who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #albedrio #pecado #oido #musicos #iglesia #gracia">
+          <sp
+            who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #albedrio #pecado #oido #musicos #iglesia #gracia">
             <speaker>TODOS</speaker>
             <l>Abrid, abrid las Puertas del Perdón,</l>
             <l>que llama la Gracia y la Fe da la voz.</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Con esta repetición, juntándose voces y chirimías, se va el OÍDO cantando, la GRACIA sube, y abrazándose las dos se cierra la apariencia y sale el PECADO como oyendo lo que se canta</stage>
+          <stage>Con esta repetición, juntándose voces y chirimías, se va el OÍDO cantando, la
+            GRACIA sube, y abrazándose las dos se cierra la apariencia y sale el PECADO como oyendo
+            lo que se canta</stage>
           <sp who="#pecado">
             <speaker>PECADO</speaker>
             <l>¿«Abrid, abrid las Puertas del Perdón,</l>
@@ -1805,7 +1867,8 @@
             <l>al Hombre, pues obstinado,</l>
             <l n="1025">mal perdido y bien hallado,</l>
             <l>todo es delicias y amores.</l>
-            <stage>Dentro instrumentos y bailes, y salen cantando y bailando los VICIOS, el HOMBRE y el ALBEDRÍO</stage>
+            <stage>Dentro instrumentos y bailes, y salen cantando y bailando los VICIOS, el HOMBRE y
+              el ALBEDRÍO</stage>
             <l>Y pues oigo allí otro canto,</l>
             <l>¿qué le importa a mi furor,</l>
             <l>siendo el Hombre el pecador,</l>
@@ -1864,7 +1927,8 @@
             <speaker>PECADO</speaker>
             <l part="I">Buenas tardes.</l>
           </sp>
-          <sp who="#avaricia #ira #gula #envidia #pereza #oido #iglesia #gracia #musicos #hombre #lascivia #albedrio #pecado">
+          <sp
+            who="#avaricia #ira #gula #envidia #pereza #oido #iglesia #gracia #musicos #hombre #lascivia #albedrio #pecado">
             <speaker>TODOS</speaker>
             <l part="F">Bien venido.</l>
           </sp>
@@ -2055,7 +2119,8 @@
             <speaker>HOMBRE</speaker>
             <l part="I">¿Es pendencia aquella?</l>
           </sp>
-          <sp who="#iglesia #gracia #musicos #pecado #envidia #ira #pereza #avaricia #gula #soberbia #albedrio #lascivia #hombre">
+          <sp
+            who="#iglesia #gracia #musicos #pecado #envidia #ira #pereza #avaricia #gula #soberbia #albedrio #lascivia #hombre">
             <speaker>TODOS</speaker>
             <l part="F">Sí.</l>
           </sp>
@@ -2115,7 +2180,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Las chirimías y sale el OÍDO con instrumento, y algunos pliegos impresos en la mano</stage>
+          <stage>Las chirimías y sale el OÍDO con instrumento, y algunos pliegos impresos en la
+            mano</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Segunda vez el rumor</l>
@@ -2141,7 +2207,8 @@
             <l>nuevamente concedido</l>
             <l>del pontífice Inocencio.</l>
           </sp>
-          <sp who="#gracia #musicos #envidia #pereza #avaricia #gula #soberbia #ira #lascivia #pecado #albedrio #hombre #oido">
+          <sp
+            who="#gracia #musicos #envidia #pereza #avaricia #gula #soberbia #ira #lascivia #pecado #albedrio #hombre #oido">
             <speaker>TODOS</speaker>
             <l n="1165">Con linda cosa se viene.</l>
           </sp>
@@ -2372,7 +2439,8 @@
             <l>buen propósito que rompa.</l>
           </sp>
           <stage>Rompe el papel</stage>
-          <sp who="#gracia #musicos #soberbia #avaricia #ira #envidia #gula #pereza #oido #pecado #hombre #albedrio #lascivia">
+          <sp
+            who="#gracia #musicos #soberbia #avaricia #ira #envidia #gula #pereza #oido #pecado #hombre #albedrio #lascivia">
             <speaker>TODOS</speaker>
             <l>A alentar y vivir vuelvo.</l>
           </sp>
@@ -2396,7 +2464,8 @@
             <l>Pues por esta calle echemos:</l>
             <l part="I">venid todos.</l>
           </sp>
-          <sp who="#gracia #musicos #soberbia #avaricia #ira #envidia #gula #pereza #oido #pecado #albedrio #hombre #lascivia">
+          <sp
+            who="#gracia #musicos #soberbia #avaricia #ira #envidia #gula #pereza #oido #pecado #albedrio #hombre #lascivia">
             <speaker>TODOS</speaker>
             <l n="1255" part="F">Yendo tú,</l>
             <l>claro es que todos iremos.</l>
@@ -2573,7 +2642,8 @@
             <l part="F">Ira y Pereza,</l>
             <l>a estar con los dos me vengo.</l>
           </sp>
-          <sp who="#gracia #musicos #soberbia #gula #oido #pereza #envidia #ira #pecado #lascivia #albedrio #hombre #avaricia">
+          <sp
+            who="#gracia #musicos #soberbia #gula #oido #pereza #envidia #ira #pecado #lascivia #albedrio #hombre #avaricia">
             <speaker>TODOS</speaker>
             <l part="I">¿Por qué, Avaricia?</l>
           </sp>
@@ -2659,7 +2729,8 @@
             <speaker>VOCES</speaker>
             <l part="I">¡Plaza, plaza!</l>
           </sp>
-          <sp who="#gracia #musicos #soberbia #oido #pereza #ira #avaricia #lascivia #envidia #pecado #albedrio #hombre #gula #acompanamiento">
+          <sp
+            who="#gracia #musicos #soberbia #oido #pereza #ira #avaricia #lascivia #envidia #pecado #albedrio #hombre #gula #acompanamiento">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué es aquello?</l>
           </sp>
@@ -2826,7 +2897,8 @@
             <l>Ya tu repugnancia siento,</l>
             <l>pero no te ha de valer.</l>
           </sp>
-          <stage>Tira dél y él de la LASCIVIA y ella de los demás, cada uno con sus versos encadenándose unos de otros</stage>
+          <stage>Tira dél y él de la LASCIVIA y ella de los demás, cada uno con sus versos
+            encadenándose unos de otros</stage>
           <sp who="#albedrio">
             <speaker>ALBEDRÍO</speaker>
             <l>Que me hace fuerza protesto;</l>
@@ -2901,7 +2973,8 @@
             <l>por más que un vicio a otro vicio</l>
             <l part="I">dé la mano.</l>
           </sp>
-          <sp who="#gracia #musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre">
+          <sp
+            who="#gracia #musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre">
             <speaker>TODOS</speaker>
             <l part="F">Es vano intento,</l>
             <l n="1525">pues yendo uno vamos todos.</l>
@@ -2914,7 +2987,8 @@
         </div>
         <div type="scene" resp="#rojas" n="9">
           <stage>Cay como haciendo fuerza y sale la GRACIA a levantarle</stage>
-          <sp who="#gracia #musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre">
+          <sp
+            who="#gracia #musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre">
             <speaker>TODOS</speaker>
             <l part="F">No harás.</l>
           </sp>
@@ -2930,7 +3004,8 @@
             <l>haciendo lo que en sí es,</l>
             <l part="I">Dios se la ha negado.</l>
           </sp>
-          <sp who="#musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre #gracia">
+          <sp
+            who="#musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre #gracia">
             <speaker>TODOS</speaker>
             <l part="F">¡Cielos,</l>
             <l>el auxilio de la Gracia</l>
@@ -2943,7 +3018,8 @@
             <l>podré, bien que a su despecho,</l>
             <l>desasir el Albedrío,</l>
             <l>y pues que libre le tengo,</l>
-            <stage>Queda el ALBEDRÍO libre con él y vase desnudando de lo que dieron los VICIOS</stage>
+            <stage>Queda el ALBEDRÍO libre con él y vase desnudando de lo que dieron los
+              VICIOS</stage>
             <l>toma, Soberbia, esas plumas,</l>
             <l n="1540">que ya tus alas no quiero;</l>
             <l>toma, Avaricia, tus joyas;</l>
@@ -2966,7 +3042,8 @@
         </div>
         <div type="scene" resp="#rojas" n="10">
           <stage>Vase</stage>
-          <sp who="#musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #gracia #hombre">
+          <sp
+            who="#musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #gracia #hombre">
             <speaker>TODOS</speaker>
             <l>Oye, aguarda, escucha, espera.</l>
           </sp>
@@ -3432,7 +3509,10 @@
             <l>para mayor sentimiento</l>
             <l n="1765">de sus opuestas Virtudes,</l>
             <l>los estandartes al viento.</l>
-            <stage>Vuélvese a abrir el primer carro, y vese como primero la IGLESIA en su trono, y a sus pies la IRA con el estandarte del Refugio, que es una imagen de la Concepción, y la AVARICIA con otro, y en él las cinco llagas con los brazos, que son las armas de los terceros de San Francisco</stage>
+            <stage>Vuélvese a abrir el primer carro, y vese como primero la IGLESIA en su trono, y a
+              sus pies la IRA con el estandarte del Refugio, que es una imagen de la Concepción, y
+              la AVARICIA con otro, y en él las cinco llagas con los brazos, que son las armas de
+              los terceros de San Francisco</stage>
             <l>Y así, mira allí a la Iglesia,</l>
             <l>en cuyas torres ha puesto</l>
             <l>la Avaricia el de Francisco,</l>
@@ -3441,7 +3521,9 @@
             <l>ofrece el blasón supremo</l>
             <l>de la piedad del Refugio</l>
             <l>a la que es refugio nuestro.</l>
-            <stage>Ábrese el segundo carro y en él un altar con una imagen imitada la de la Almudena, y a sus pies la LASCIVIA con un estandarte pintado un JHS, y la SOBERBIA con otro y las armas reales</stage>
+            <stage>Ábrese el segundo carro y en él un altar con una imagen imitada la de la
+              Almudena, y a sus pies la LASCIVIA con un estandarte pintado un JHS, y la SOBERBIA con
+              otro y las armas reales</stage>
             <l n="1775">Allí en la Casa del Pan,</l>
             <l>que es almudén de los Cielos,</l>
             <l>de María a la pureza</l>
@@ -3466,7 +3548,9 @@
             <l>almudén, siga el intento</l>
             <l>del trigo en que Jesús nace</l>
             <l>el verse allí en sacramento.</l>
-            <stage>Ábrese el tercero carro y vese un altar con Hostia y Cáliz, y a sus pies el OÍDO con el estandarte de las armas de la Inquisición, cruz, espada y oliva, y la GULA pintado en otro un cetro pastoral coronado de un capelo</stage>
+            <stage>Ábrese el tercero carro y vese un altar con Hostia y Cáliz, y a sus pies el OÍDO
+              con el estandarte de las armas de la Inquisición, cruz, espada y oliva, y la GULA
+              pintado en otro un cetro pastoral coronado de un capelo</stage>
             <l>A quien el Oído ofrece,</l>
             <l n="1800">por la propiedad de serlo,</l>
             <l>bien que no es vicio vencido,</l>
@@ -3483,7 +3567,10 @@
             <l>el cayado y el capelo</l>
             <l>que los sustenta pagando,</l>
             <l>bien que hacen para sí mesmos.</l>
-            <stage>Ábrese el cuarto carro y vese en él el HOMBRE coronado con la corona de la GRACIA, y a sus pies su ALBEDRÍO, y a sus lados la PEREZA con el estandarte de las armas del Salvador, que son un crucifijo, y la ENVIDIA, pintadas en el suyo las tres cruces militares</stage>
+            <stage>Ábrese el cuarto carro y vese en él el HOMBRE coronado con la corona de la
+              GRACIA, y a sus pies su ALBEDRÍO, y a sus lados la PEREZA con el estandarte de las
+              armas del Salvador, que son un crucifijo, y la ENVIDIA, pintadas en el suyo las tres
+              cruces militares</stage>
             <l n="1815">Y por remate de todo</l>
             <l>pues de todo esto es dueño</l>
             <l>el Hombre en gracia, está el Hombre,</l>
@@ -3511,7 +3598,8 @@
             <l>del Año Santo en Madrid,</l>
             <l n="1840">todos a una voz diciendo:</l>
           </sp>
-          <sp who="#musicos #oido #acompanamiento #albedrio #hombre #lascivia #soberbia #avaricia #ira #envidia #gula #pereza #pecado #gracia">
+          <sp
+            who="#musicos #oido #acompanamiento #albedrio #hombre #lascivia #soberbia #avaricia #ira #envidia #gula #pereza #pecado #gracia">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Venid, mortales, venid,</l>
             <l>al triunfo donde se ve</l>
@@ -3571,7 +3659,8 @@
             <l n="1875">a vista de otros perdones</l>
             <l>yo pida el perdón diciendo:</l>
           </sp>
-          <sp who="#oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #envidia #gula #pereza #vicios #pecado #iglesia #hombre #gracia #musicos">
+          <sp
+            who="#oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #envidia #gula #pereza #vicios #pecado #iglesia #hombre #gracia #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Venid, mortales, venid,</l>
             <l>al triunfo donde se ve</l>

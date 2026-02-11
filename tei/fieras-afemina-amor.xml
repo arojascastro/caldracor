@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000104" xml:lang="es">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Fieras afemina amor</title>
-        <title type="sub">Fiesta que se representó a los siempre felices años de la Serenísima Católica Majestad doña María-ana de Austria. En el Real Coliseo de Buen Retiro.</title>
+        <title type="sub">Fiesta que se representó a los siempre felices años de la Serenísima
+          Católica Majestad doña María-ana de Austria. En el Real Coliseo de Buen Retiro.</title>
         <author>
           <persName>
             <forename>Pedro</forename>
@@ -26,7 +27,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-29">
@@ -39,9 +41,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/fieras-afemina-amor--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/fieras-afemina-amor--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Quinta parte de las Comedias de Don Pedro Calderón de la Barca, Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros</title>
+            <title>Edición digital a partir de la Quinta parte de las Comedias de Don Pedro Calderón
+              de la Barca, Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos
+              Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez
+              Cuadros</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,11 +60,17 @@
             <trait source="#calderondigital">
               <desc>ninfa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="verusa" sex="FEMALE">
             <persName>Verusa</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="hesperia" sex="FEMALE">
@@ -66,44 +78,75 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="hércules" sex="MALE">
             <persName>Hércules</persName>
+            <idno type="wikidata">Q240679</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="licas" sex="MALE">
             <persName>Licas</persName>
+            <idno type="wikidata">Q922330</idno>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="yole" sex="FEMALE">
             <persName>Yole</persName>
+            <idno type="wikidata">Q744147</idno>
             <trait source="castlist">
               <desc>infanta</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>Euristio</persName>
+            <idno type="wikidata">Q212087</idno>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="anteo" sex="MALE">
             <persName>Anteo</persName>
+            <idno type="wikidata">Q272006</idno>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="cupido" sex="MALE">
             <persName>Cupido</persName>
+            <idno type="wikidata">Q5011</idno>
             <trait source="#calderondigital">
               <desc>dios</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="venus" sex="FEMALE">
             <persName>Venus</persName>
+            <idno type="wikidata">Q47652</idno>
             <trait source="#calderondigital">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="dama-1" sex="FEMALE">
@@ -111,17 +154,26 @@
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dama-2" sex="FEMALE">
             <persName>Dama 2</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dama-3" sex="FEMALE">
             <persName>Dama 3</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp xml:id="soldado" sex="MALE">
@@ -132,20 +184,32 @@
           </personGrp>
           <person xml:id="aristeo" sex="MALE">
             <persName>Aristeo</persName>
+            <idno type="wikidata">Q392435</idno>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="cibele" sex="FEMALE">
             <persName>Cibele</persName>
+            <idno type="wikidata">Q188236</idno>
             <trait source="castlist">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="calíope" sex="FEMALE">
             <persName>Calíope</persName>
+            <idno type="wikidata">Q103975</idno>
             <trait source="castlist">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <personGrp xml:id="ninfas" sex="FEMALE">
@@ -162,18 +226,33 @@
           </personGrp>
           <person sex="UNKNOWN" xml:id="voz-primera">
             <persName>Voz Primera</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-segunda">
             <persName>Voz Segunda</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-tercera">
             <persName>Voz Tercera</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="hombre" sex="MALE">
             <persName>Un Hombre</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mujer" sex="FEMALE">
             <persName>Una Mujer</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -182,17 +261,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -208,7 +290,8 @@
     <front>
       <docTitle>
         <titlePart type="main">Fieras afemina amor</titlePart>
-        <titlePart type="sub">Fiesta que se representó a los siempre felices años de la Serenísima Católica Majestad doña María-ana de Austria</titlePart>
+        <titlePart type="sub">Fiesta que se representó a los siempre felices años de la Serenísima
+          Católica Majestad doña María-ana de Austria</titlePart>
       </docTitle>
       <castList>
         <head>Personas</head>
@@ -236,7 +319,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro VOCES, y salen atravesando el tablado por diversas partes VERUSA, EGLE y HESPERIA, seguidas de otras ninfas.</stage>
+          <stage>Dentro VOCES, y salen atravesando el tablado por diversas partes VERUSA, EGLE y
+            HESPERIA, seguidas de otras ninfas.</stage>
           <sp who="#voz-primera #voz-segunda #voz-tercera">
             <speaker rend="caps">Voces</speaker>
 
@@ -478,7 +562,9 @@
 
             <l>Ya de aquí se descubre.</l>
           </sp>
-          <stage>(Corriose el foro del bosque y descubriose la fachada de un palacio ricamente adornado de jaspes y bronces y, como dicen los versos, coronada de un pensil cuyas hojas eran doradas y sus frutas de oro.)</stage>
+          <stage>(Corriose el foro del bosque y descubriose la fachada de un palacio ricamente
+            adornado de jaspes y bronces y, como dicen los versos, coronada de un pensil cuyas hojas
+            eran doradas y sus frutas de oro.)</stage>
           <sp who="#hércules">
             <speaker rend="caps">Hércules</speaker>
 
@@ -1376,7 +1462,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>(Éntrase cerrando la puerta y cubriéndose el palacio con los mismos bastidores del bosque. Vuelven por otra parte HÉRCULES y LICAS.)</stage>
+          <stage>(Éntrase cerrando la puerta y cubriéndose el palacio con los mismos bastidores del
+            bosque. Vuelven por otra parte HÉRCULES y LICAS.)</stage>
           <sp who="#hércules">
             <speaker rend="caps">Hércules</speaker>
 
@@ -1453,7 +1540,10 @@
             <l>si no es hoy por no escuchar</l>
             <l>que a decir sus ecos vuelvan.</l>
           </sp>
-          <stage>(Quedándose dormido, aparecieron cantando en el aire a un lado CUPIDO y a otro VENUS, pendientes, en igual correspondencia, de dos resplandores que a manera de pirámide bajaban en diminución desde lo más alto a rematar en un tronillo en que venían sentados.)</stage>
+          <stage>(Quedándose dormido, aparecieron cantando en el aire a un lado CUPIDO y a otro
+            VENUS, pendientes, en igual correspondencia, de dos resplandores que a manera de
+            pirámide bajaban en diminución desde lo más alto a rematar en un tronillo en que venían
+            sentados.)</stage>
           <sp who="#cupido">
             <speaker rend="caps">Cupido</speaker>
 
@@ -1496,7 +1586,8 @@
 
             <l>... a quejas de Amor cuantos lloran sus quejas.</l>
           </sp>
-          <sp who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
+          <sp
+            who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -1585,7 +1676,8 @@
             <l>la rara hermosura de Yole, que es bien,</l>
             <l>pues niega esplendores, que sombras le venzan.</l>
           </sp>
-          <sp who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
+          <sp
+            who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -1605,14 +1697,17 @@
 
             <l>Sí haré, porque todos repitan...</l>
           </sp>
-          <sp who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
+          <sp
+            who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
             <l>Atiendan</l>
             <l>a quejas de Amor cuantos lloran sus quejas.</l>
           </sp>
-          <stage>(Con esta repetición desaparecieron los dos y empezó a levantarse de la tierra un pequeño vapor que, lentamente creciendo, llegó a transformarse en horrible gruta.)</stage>
+          <stage>(Con esta repetición desaparecieron los dos y empezó a levantarse de la tierra un
+            pequeño vapor que, lentamente creciendo, llegó a transformarse en horrible
+            gruta.)</stage>
           <sp who="#hércules">
             <speaker rend="caps">Hércules</speaker>
 
@@ -1629,7 +1724,8 @@
             <l>a la Hespéride, me ciega</l>
             <l>la vista, el paso me impide,</l>
             <l>y a mí creciendo se acerca.</l>
-            <stage>(Dividiose la gruta en dos mitades, dejando ver como que dentro de sí la contenía a YOLE, dama bizarra, elevada en el aire.)</stage>
+            <stage>(Dividiose la gruta en dos mitades, dejando ver como que dentro de sí la contenía
+              a YOLE, dama bizarra, elevada en el aire.)</stage>
             <l>Las entrañas rasga... pero</l>
             <l>mejor dijera la esfera</l>
             <l>del sol. ¿Quién eres, deidad?</l>
@@ -1676,7 +1772,8 @@
             <l>a la coronada cumbre</l>
             <l>del Atlante.</l>
           </sp>
-          <stage>(Con este estruendo de cajas y trompetas desapareció todo y despertó HÉRCULES despavorido.)</stage>
+          <stage>(Con este estruendo de cajas y trompetas desapareció todo y despertó HÉRCULES
+            despavorido.)</stage>
           <sp who="#hércules">
             <speaker rend="caps">Hércules</speaker>
 
@@ -2246,7 +2343,12 @@
             <l>Y yo sin mí, pues no sé</l>
             <l>de mí si vivo o si muero.</l>
           </sp>
-          <stage>(Al tiempo que, suspensos los dos, manifestaba cada uno su contrario afecto, aparecieron en lo más alto de la scena VENUS y CUPIDO, volando sobre dos blancos cisnes que moviendo las alas sustentaban en ellas dos pequeños tronos, revestidos de sobrepuestas bichas y florones de oro, en que venían sentados; de suerte que, representando unos en el tablado y cantando otros en el aire, se correspondían el odio y el amor que sentían aquellos con las flechas y dardos que estotros disparaban.)</stage>
+          <stage>(Al tiempo que, suspensos los dos, manifestaba cada uno su contrario afecto,
+            aparecieron en lo más alto de la scena VENUS y CUPIDO, volando sobre dos blancos cisnes
+            que moviendo las alas sustentaban en ellas dos pequeños tronos, revestidos de
+            sobrepuestas bichas y florones de oro, en que venían sentados; de suerte que,
+            representando unos en el tablado y cantando otros en el aire, se correspondían el odio y
+            el amor que sentían aquellos con las flechas y dardos que estotros disparaban.)</stage>
           <sp who="#venus">
             <speaker rend="caps">Venus</speaker>
 
@@ -2452,7 +2554,9 @@
             <l>Mal podrá el tiempo,</l>
             <l>que aún le queda en la aljaba</l>
             <l>flecha de celos.</l>
-            <stage>(Con esta última repetición, que acompañó toda la MÚSICA, llegaron a juntarse los dos cisnes; y cuando pareció que el uno al otro impedirían el paso, tomaron desimaginado vuelo por otra parte, con que dio fin la primera jornada.)</stage>
+            <stage>(Con esta última repetición, que acompañó toda la MÚSICA, llegaron a juntarse los
+              dos cisnes; y cuando pareció que el uno al otro impedirían el paso, tomaron
+              desimaginado vuelo por otra parte, con que dio fin la primera jornada.)</stage>
           </sp>
         </div>
 
@@ -2462,7 +2566,16 @@
       <div type="act" n="2">
         <head rend="caps">Segunda Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Habiendo hecho blanco los instrumentos, empezó la segunda jornada con cajas y trompetas; y transmutándose la scena en populosa ciudad murada, se vio en el pequeño recinto de un teatro tan gran fortificación que, a merced del arte, cupo en ella la inmensa fábrica de altos muros, dilatadas cortinas, irregulares baluartes, a quien no poco hermoseaban, asomados como a caso por diferentes claraboyas, militares instrumentos de picas, alabardas y banderas. La principal fachada era la puerta guarnecida de pilastras, frisos y dinteles, desde cuyo torreón corrían compartidas almenas que coronaban todo el edificio. Con esta vista, y con el toque de la marcha, salieron al tablado, en formado escuadrón, algunos soldados y, detrás, HÉRCULES y ARISTEO, rey de Tesalia.</stage>
+          <stage>Habiendo hecho blanco los instrumentos, empezó la segunda jornada con cajas y
+            trompetas; y transmutándose la scena en populosa ciudad murada, se vio en el pequeño
+            recinto de un teatro tan gran fortificación que, a merced del arte, cupo en ella la
+            inmensa fábrica de altos muros, dilatadas cortinas, irregulares baluartes, a quien no
+            poco hermoseaban, asomados como a caso por diferentes claraboyas, militares instrumentos
+            de picas, alabardas y banderas. La principal fachada era la puerta guarnecida de
+            pilastras, frisos y dinteles, desde cuyo torreón corrían compartidas almenas que
+            coronaban todo el edificio. Con esta vista, y con el toque de la marcha, salieron al
+            tablado, en formado escuadrón, algunos soldados y, detrás, HÉRCULES y ARISTEO, rey de
+            Tesalia.</stage>
           <sp who="#hércules">
             <speaker rend="caps">Hércules</speaker>
 
@@ -3025,7 +3138,9 @@
             <l>mostrando que no hay tan soberana</l>
             <l>mujer que de el hombre a serlo no nazca.</l>
           </sp>
-          <stage>(Prosiguiendo con la MÚSICA que habían cantado primero, se abrieron las puertas de la muralla y, viéndose a lo lejos mal divisadas señas de población y templo, salieron al tablado músicos y DAMAS, y detrás EURISTIO, YOLE y ANTEO.)</stage>
+          <stage>(Prosiguiendo con la MÚSICA que habían cantado primero, se abrieron las puertas de
+            la muralla y, viéndose a lo lejos mal divisadas señas de población y templo, salieron al
+            tablado músicos y DAMAS, y detrás EURISTIO, YOLE y ANTEO.)</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -3476,7 +3591,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>(Fíngese dentro la batalla y, cubriéndose el muro con el teatro del primero bosque, salen como asustados, oyendo a lo lejos el estruendo de las armas EGLE y VERUSA, teniendo a HESPERIA.)</stage>
+          <stage>(Fíngese dentro la batalla y, cubriéndose el muro con el teatro del primero bosque,
+            salen como asustados, oyendo a lo lejos el estruendo de las armas EGLE y VERUSA,
+            teniendo a HESPERIA.)</stage>
           <sp who="#egle #verusa">
             <speaker rend="caps">Las Dos</speaker>
 
@@ -3742,7 +3859,9 @@
 
             <l>¡Ay infelice de mí!</l>
           </sp>
-          <stage>(Al decir YOLE este verso, desde no poca altura cayeron abrazados al tablado ella y CUPIDO y dejándola desmayada entre las tres, volvió arrebatadamente a desaparecer representando en el aire los siguientes versos.)</stage>
+          <stage>(Al decir YOLE este verso, desde no poca altura cayeron abrazados al tablado ella y
+            CUPIDO y dejándola desmayada entre las tres, volvió arrebatadamente a desaparecer
+            representando en el aire los siguientes versos.)</stage>
           <sp who="#cupido">
             <speaker rend="caps">Cupido</speaker>
 
@@ -4008,7 +4127,14 @@
             <l>¡oh, iguálese a su hermosura</l>
             <l>la dulzura de su voz!</l>
           </sp>
-          <stage>(Rasgándose las nubes que eran cielo del bosque, apareció en lo más alto de la frente del teatro CIBELE, diosa de la tierra, en un trono de flores que a manera de guirnalda iluminaba el aire con ocultas luces. Traía en una mano la copia de Amaltea derramando flores y en la otra la rienda de encarnadas colonias con que al parecer gobernaba, uncida, la ferocidad de cuatro leones que tiraban desde la tierra el trono; a cuyo tiempo aparecieron, por entre unos y otros bastidores, diversos animales como en acompañamiento de su diosa; la cual, en blando movimiento, bajó hasta la punta del tablado en recitativo estilo, cantando ella y respondiendo el coro.)</stage>
+          <stage>(Rasgándose las nubes que eran cielo del bosque, apareció en lo más alto de la
+            frente del teatro CIBELE, diosa de la tierra, en un trono de flores que a manera de
+            guirnalda iluminaba el aire con ocultas luces. Traía en una mano la copia de Amaltea
+            derramando flores y en la otra la rienda de encarnadas colonias con que al parecer
+            gobernaba, uncida, la ferocidad de cuatro leones que tiraban desde la tierra el trono; a
+            cuyo tiempo aparecieron, por entre unos y otros bastidores, diversos animales como en
+            acompañamiento de su diosa; la cual, en blando movimiento, bajó hasta la punta del
+            tablado en recitativo estilo, cantando ella y respondiendo el coro.)</stage>
           <sp who="#cibele">
             <speaker rend="caps">Cibele</speaker>
             <stage type="withText">(Cantando.) </stage>
@@ -4280,7 +4406,12 @@
 
             <l>Así.</l>
           </sp>
-          <stage>(Apenas desde lo alto pronunció CIBELE este medio verso, cuando se oyeron en el aire truenos y en la tierra temblores; y abriéndose en ella un volcán que atravesaba todo el tablado, arrojó de sí tan condensados humos que obscurecieron el teatro, bien que sin molestia del auditorio porque estaban compuestos de olorosas gomas, de suerte que lo que pudiera ser fastidio de la vista, se convirtió en lisonja del olfato.)</stage>
+          <stage>(Apenas desde lo alto pronunció CIBELE este medio verso, cuando se oyeron en el
+            aire truenos y en la tierra temblores; y abriéndose en ella un volcán que atravesaba
+            todo el tablado, arrojó de sí tan condensados humos que obscurecieron el teatro, bien
+            que sin molestia del auditorio porque estaban compuestos de olorosas gomas, de suerte
+            que lo que pudiera ser fastidio de la vista, se convirtió en lisonja del
+            olfato.)</stage>
           <sp who="#hércules">
             <speaker rend="caps">Hércules</speaker>
 
@@ -4557,7 +4688,22 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>(Al entrarse los dos, empezó a descubrirse un monte cuya eminencia, casi de improviso, frisó las nubes con la cumbre y los bastidores con la falda; de suerte que no dejó más foso el teatro que su mismo foro y un pedazo de nuevo cielo que a espaldas suyas, por entre tremoladas bandolinas y quebradas peñas, fingía lejanos horizontes. Ocupaba su cima el Pegaso, extendidas las alas como haciendo sombra al risco de CALÍOPE, principal musa de las nueve, desde cuyo superior asiento derribaban los peñascos sus últimos perfiles. Estaban todos coronados de frondosa arboleda y, entre uno y otro tronco, una y otra ninfa: Urania y Polonia a la diestra mano, y Tersícore y Clío a la siniestra. Debajo de las cuatro, en segundo descanso que hacía con adelantadas proyeturas más corpulento el monte, estaban a un lado Melpómene, Erato y a otro Euterpe y Talía. Eran sus ropajes como los de los signos y los meses, diferenciándose solo en haber trocado el campo azul al nácar, confrontando matices aquí con las flores si allá con las estrellas. En el corazón de el monte corría tan artificiosa fuente que, sin agua ni sonido de agua, no se echaba menos ni el agua ni el sonido. Estaban, pues, las nueve como divertidas en sus siempre festivos solaces, cantando, desasida de la fábula, esta letra.)</stage>
+          <stage>(Al entrarse los dos, empezó a descubrirse un monte cuya eminencia, casi de
+            improviso, frisó las nubes con la cumbre y los bastidores con la falda; de suerte que no
+            dejó más foso el teatro que su mismo foro y un pedazo de nuevo cielo que a espaldas
+            suyas, por entre tremoladas bandolinas y quebradas peñas, fingía lejanos horizontes.
+            Ocupaba su cima el Pegaso, extendidas las alas como haciendo sombra al risco de CALÍOPE,
+            principal musa de las nueve, desde cuyo superior asiento derribaban los peñascos sus
+            últimos perfiles. Estaban todos coronados de frondosa arboleda y, entre uno y otro
+            tronco, una y otra ninfa: Urania y Polonia a la diestra mano, y Tersícore y Clío a la
+            siniestra. Debajo de las cuatro, en segundo descanso que hacía con adelantadas
+            proyeturas más corpulento el monte, estaban a un lado Melpómene, Erato y a otro Euterpe
+            y Talía. Eran sus ropajes como los de los signos y los meses, diferenciándose solo en
+            haber trocado el campo azul al nácar, confrontando matices aquí con las flores si allá
+            con las estrellas. En el corazón de el monte corría tan artificiosa fuente que, sin agua
+            ni sonido de agua, no se echaba menos ni el agua ni el sonido. Estaban, pues, las nueve
+            como divertidas en sus siempre festivos solaces, cantando, desasida de la fábula, esta
+            letra.)</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -4828,7 +4974,11 @@
             <l>¡Ay de ti!</l>
             <l>¡Que vencer a las fieras</l>
             <l>no es vencerse a sí!</l>
-            <stage>(Cantar las musas este estrebillo, repetirle el coro, volar el Pegaso a la nubes, CALÍOPE al centro y las ocho a distantes partes llevándose consigo a pedazos el monte, fue tan uno que, al verle deshecho, apenas pudo percibir la vista el cómo; conque, causando más novedad en todos lo que dejaron ver que lo que vieron, acabó la segunda jornada.)</stage>
+            <stage>(Cantar las musas este estrebillo, repetirle el coro, volar el Pegaso a la nubes,
+              CALÍOPE al centro y las ocho a distantes partes llevándose consigo a pedazos el monte,
+              fue tan uno que, al verle deshecho, apenas pudo percibir la vista el cómo; conque,
+              causando más novedad en todos lo que dejaron ver que lo que vieron, acabó la segunda
+              jornada.)</stage>
           </sp>
         </div>
 
@@ -4837,7 +4987,29 @@
       <div type="act" n="3">
         <head rend="caps">Tercera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Para empezar la tercera jornada, no solo se contuvo el coliseo, como hasta aquí, en limitados foros; pero abriéndose el seno se dilató hasta topar con el último centro de su muro y, con ser tan grande la distancia, aún la hizo mayor la prespectiva: era un hermoso jardín cuyas calles tenían, por guarda de sus emparrados, dobladas pilastras de mármol blanco con remates de lo mismo; al pie de cada pilastra había un tiesto de porcelana con sus más usados frutos; lo que se descubría de ellas eran unos enrejados, a manera de glorietas, cubertadas de hojas y flores; de suerte que, mirando por cualquiera parte, cualquiera entrecalle era una dilatada galería; la principal estaba tan sujeta al arte que le obedecía desde su primero término al postrero, disminuyendo sus tamaños con tan ajustada regla que, huyendo los unos de los otros, cuanto iban a menos en la cantidad, iban a más en la apariencia; remataban sus líneas en un cenador y en él una fuente de varios jaspes, de cuyo surtidor se derramaban otros caños -no digo con ruido y sin agua, por no encarecer segunda vez el artificio-; en medio desta, al parecer, suma distancia, estaba un árbol natural, doradas sus hojas, cuajadas de manzanas de oro, sobre cuya copa apareció HÉRCULES en un blanco caballo alado a imitación del que se vio primero en el Parnaso. A este tiempo se levantó de la tierra batiendo también las alas y moviendo las garras y las presas un escamado dragón; conque, subiendo el uno y descendiendo el otro, partido el aire, se salieron al encuentro. Trabada la batalla, gozaban ambos de cuatro movimientos pues, elevándose el uno al tiempo que el otro se abatía y, al contrario, abatiéndose el uno cuando el otro se elevaba, se buscaban y se huían, trocando no solo las alturas, mas también los costados, pues se embestían ya por un lado y ya por otro; de cuya boreal lid duró la contienda lo que duraron estos versos.</stage>
+          <stage>Para empezar la tercera jornada, no solo se contuvo el coliseo, como hasta aquí, en
+            limitados foros; pero abriéndose el seno se dilató hasta topar con el último centro de
+            su muro y, con ser tan grande la distancia, aún la hizo mayor la prespectiva: era un
+            hermoso jardín cuyas calles tenían, por guarda de sus emparrados, dobladas pilastras de
+            mármol blanco con remates de lo mismo; al pie de cada pilastra había un tiesto de
+            porcelana con sus más usados frutos; lo que se descubría de ellas eran unos enrejados, a
+            manera de glorietas, cubertadas de hojas y flores; de suerte que, mirando por cualquiera
+            parte, cualquiera entrecalle era una dilatada galería; la principal estaba tan sujeta al
+            arte que le obedecía desde su primero término al postrero, disminuyendo sus tamaños con
+            tan ajustada regla que, huyendo los unos de los otros, cuanto iban a menos en la
+            cantidad, iban a más en la apariencia; remataban sus líneas en un cenador y en él una
+            fuente de varios jaspes, de cuyo surtidor se derramaban otros caños -no digo con ruido y
+            sin agua, por no encarecer segunda vez el artificio-; en medio desta, al parecer, suma
+            distancia, estaba un árbol natural, doradas sus hojas, cuajadas de manzanas de oro,
+            sobre cuya copa apareció HÉRCULES en un blanco caballo alado a imitación del que se vio
+            primero en el Parnaso. A este tiempo se levantó de la tierra batiendo también las alas y
+            moviendo las garras y las presas un escamado dragón; conque, subiendo el uno y
+            descendiendo el otro, partido el aire, se salieron al encuentro. Trabada la batalla,
+            gozaban ambos de cuatro movimientos pues, elevándose el uno al tiempo que el otro se
+            abatía y, al contrario, abatiéndose el uno cuando el otro se elevaba, se buscaban y se
+            huían, trocando no solo las alturas, mas también los costados, pues se embestían ya por
+            un lado y ya por otro; de cuya boreal lid duró la contienda lo que duraron estos
+            versos.</stage>
           <sp who="#hércules">
             <speaker rend="caps">Hércules</speaker>
 
@@ -4915,7 +5087,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>(Dentro golpes, y salen por una parte ARISTEO, LICAS, soldados y, por otra, HESPERIA, EGLE, VERUSA y YOLE y ANTEO a lo largo.)</stage>
+          <stage>(Dentro golpes, y salen por una parte ARISTEO, LICAS, soldados y, por otra,
+            HESPERIA, EGLE, VERUSA y YOLE y ANTEO a lo largo.)</stage>
           <sp who="#aristeo">
             <speaker rend="caps">Aristeo</speaker>
             <stage type="withText">(Dentro.) </stage>
@@ -5786,7 +5959,13 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>(En esta última lucha, levantó de la tierra HÉRCULES a ANTEO y, significando que en vez de arrojarle a ella le arrojaba al aire, le despidió de sí con tan arrebatado ímpetu que no se dio término entre salir de sus brazos y verle, sin verle, de la otra parte de las nubes; conque al entrarse HÉRCULES victorioso, se abrió la tierra y salió de ella CIBELE en una eminente pirámide de mármol, como construido monumento al cadáver de su hijo; la cual, mezclando ya lo furioso y ya lo compasivo, desaparecida la pirámide en recitativo estilo, cantó llorando lo siguiente.)</stage>
+          <stage>(En esta última lucha, levantó de la tierra HÉRCULES a ANTEO y, significando que en
+            vez de arrojarle a ella le arrojaba al aire, le despidió de sí con tan arrebatado ímpetu
+            que no se dio término entre salir de sus brazos y verle, sin verle, de la otra parte de
+            las nubes; conque al entrarse HÉRCULES victorioso, se abrió la tierra y salió de ella
+            CIBELE en una eminente pirámide de mármol, como construido monumento al cadáver de su
+            hijo; la cual, mezclando ya lo furioso y ya lo compasivo, desaparecida la pirámide en
+            recitativo estilo, cantó llorando lo siguiente.)</stage>
           <sp who="#cibele">
             <speaker rend="caps">Cibele</speaker>
 
@@ -6950,7 +7129,23 @@
             <l>... si es verdad que cautelas de Amor</l>
             <l>tal vez son piedad y castigo tal vez.</l>
           </sp>
-          <stage>(Al irse las NINFAS en seguimiento de CUPIDO, transmutado el pasado jardín en real salón, volvió a desabrochar todo su fondo el coliseo; de suerte que, repetidas las verdaderas elegancias del pincel en los mentidos lejos del noble engaño de sus prespectivas, se vio en igual distancia lo deleitable de un vergel convertido en lo majestuoso de un palacio. Era toda su fábrica de variados jaspes a colores, cuanto más distantes, más unidos. Estribaban sus colunas en agobiados leones de bronce, a quien correspondían de bronce también los capiteles. Sobre sus cornisas enlazaba su arquitrabe un dorado artesón, dosel de todo su edificio. Tan bien avenidos desde su embasamiento a su techumbre y desde su portada a su retrete se hallaban en él pinceles y buriles, que se dudaba si todo de una pieza le hubiese el buril pintado o el pincel esculpido. Este era el cuerpo de la sala; pero el alma della: hermosa tropa de bizarras damas ocupadas en laboriosos ejercicios. Unas hilaban copos de oro que otras devanaban y otras, en bastidores y almohadillas, daban a entender que aprovechaban sus tareas. Solazado HÉRCULES entre Hespérides y damas, y sobre rica alfombra al lado de YOLE, en una almohada recostado gozaba absorto ambas delicias así en lo que vía como en lo que escuchaba cuando las damas, al mudo compás de sus labores, cantaban, no fuera del propósito, esta letra.)</stage>
+          <stage>(Al irse las NINFAS en seguimiento de CUPIDO, transmutado el pasado jardín en real
+            salón, volvió a desabrochar todo su fondo el coliseo; de suerte que, repetidas las
+            verdaderas elegancias del pincel en los mentidos lejos del noble engaño de sus
+            prespectivas, se vio en igual distancia lo deleitable de un vergel convertido en lo
+            majestuoso de un palacio. Era toda su fábrica de variados jaspes a colores, cuanto más
+            distantes, más unidos. Estribaban sus colunas en agobiados leones de bronce, a quien
+            correspondían de bronce también los capiteles. Sobre sus cornisas enlazaba su arquitrabe
+            un dorado artesón, dosel de todo su edificio. Tan bien avenidos desde su embasamiento a
+            su techumbre y desde su portada a su retrete se hallaban en él pinceles y buriles, que
+            se dudaba si todo de una pieza le hubiese el buril pintado o el pincel esculpido. Este
+            era el cuerpo de la sala; pero el alma della: hermosa tropa de bizarras damas ocupadas
+            en laboriosos ejercicios. Unas hilaban copos de oro que otras devanaban y otras, en
+            bastidores y almohadillas, daban a entender que aprovechaban sus tareas. Solazado
+            HÉRCULES entre Hespérides y damas, y sobre rica alfombra al lado de YOLE, en una
+            almohada recostado gozaba absorto ambas delicias así en lo que vía como en lo que
+            escuchaba cuando las damas, al mudo compás de sus labores, cantaban, no fuera del
+            propósito, esta letra.)</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
 
@@ -7298,7 +7493,8 @@
             <l>y entrad todos.</l>
           </sp>
           <stage>(ARISTEO, LICAS y soldados.)</stage>
-          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp
+            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7361,7 +7557,8 @@
             <l>ni oye ni mira ni alienta:</l>
             <l>no forcéis su libertad.</l>
           </sp>
-          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp
+            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7398,7 +7595,8 @@
 
             <l>¡Seguidle!</l>
           </sp>
-          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp
+            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7458,7 +7656,8 @@
             <l>bien como le representa</l>
             <l>ya pinceles y ya plumas.</l>
           </sp>
-          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp
+            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7514,7 +7713,18 @@
             <l>que si él domestica fieras,</l>
             <l>fieras afemina Amor.»</l>
           </sp>
-          <stage>(A la invocación de CALÍOPE respondieron VENUS y CUPIDO, no solo en voz, pero en efecto; pues dando a entender que en fantástica apariencia se gozaban en dejarse ver triunfantes, con la repetición de la pasada copla salieron al tablado, en festiva tropa, primero las musas, delante del carro, cantándoles la gala, y después, coronados de laurel, algunos cautivos en acción que forcejaban al movimiento de sus ruedas. Era su diseño imitación de aquellos que, ya en pinturas o ya en historias, nos acuerdan los romanos triunfos. Su altura se medía con el tercer cuerpo de las primeras colunas y su longitud con el tercer término del tránsito. Desde las cartelas de proa hasta los cartelones de la popa resplandecía recamado de cogollos y follajes de oro, y en sus faldones bosquejudos algunos héroes, como atropellados de su huella. En su eminencia venían VENUS y CUPIDO con HÉRCULES a las plantas; y, habiendo repetido la MÚSICA la aclamación, prosiguió la representación la suya.)</stage>
+          <stage>(A la invocación de CALÍOPE respondieron VENUS y CUPIDO, no solo en voz, pero en
+            efecto; pues dando a entender que en fantástica apariencia se gozaban en dejarse ver
+            triunfantes, con la repetición de la pasada copla salieron al tablado, en festiva tropa,
+            primero las musas, delante del carro, cantándoles la gala, y después, coronados de
+            laurel, algunos cautivos en acción que forcejaban al movimiento de sus ruedas. Era su
+            diseño imitación de aquellos que, ya en pinturas o ya en historias, nos acuerdan los
+            romanos triunfos. Su altura se medía con el tercer cuerpo de las primeras colunas y su
+            longitud con el tercer término del tránsito. Desde las cartelas de proa hasta los
+            cartelones de la popa resplandecía recamado de cogollos y follajes de oro, y en sus
+            faldones bosquejudos algunos héroes, como atropellados de su huella. En su eminencia
+            venían VENUS y CUPIDO con HÉRCULES a las plantas; y, habiendo repetido la MÚSICA la
+            aclamación, prosiguió la representación la suya.)</stage>
           <sp who="#cautivos">
             <speaker rend="caps">Los Cautivos</speaker>
 
@@ -7564,7 +7774,8 @@
             <l>... que si él afemina fieras,</l>
             <l>fieras afemina Amor.</l>
           </sp>
-          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp
+            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7576,7 +7787,8 @@
 
             <l>Pues otra mayor le resta.</l>
           </sp>
-          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp
+            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7612,7 +7824,8 @@
             <l>el perdón, diciendo todos,</l>
             <l>puestos a las plantas vuestras...</l>
           </sp>
-          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #música #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp
+            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #música #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -7621,7 +7834,8 @@
             <l>de las damas en favor:</l>
             <l>que si él domestica fieras,</l>
             <l>fieras afemina Amor.</l>
-            <stage>(Con este aparato, majestad y pompa, cantando unos y representando otros, se escondió el carro, se desplegó la cortina y dio fin la comedia.)</stage>
+            <stage>(Con este aparato, majestad y pompa, cantando unos y representando otros, se
+              escondió el carro, se desplegó la cortina y dio fin la comedia.)</stage>
           </sp>
         </div>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000135" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -41,7 +42,10 @@
           <name>Association for Hispanic Classical Theater</name>
           <idno type="URL">http://www.comedias.org/calderon/Luispe.html</idno>
           <bibl type="originalSource">
-            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en 2000.</title>
+            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge
+              Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y
+              luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en
+              2000.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,11 +58,17 @@
             <trait source="#calderondigital">
               <desc>hermano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="manuel" sex="MALE">
             <persName>Manuel Méndez</persName>
             <trait source="#calderondigital">
               <desc>caballero</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="alonso" sex="MALE">
@@ -66,11 +76,17 @@
             <trait source="#calderondigital">
               <desc>caballero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juan" sex="MALE">
             <persName>Juan Bautista</persName>
             <trait source="#calderondigital">
               <desc>labrador</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="pedro" sex="MALE">
@@ -78,11 +94,17 @@
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="almirante" sex="MALE">
             <persName>Almirante de Portugal</persName>
             <trait source="#calderondigital">
               <desc>tío</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="leonardo" sex="MALE">
@@ -90,17 +112,29 @@
             <trait source="#calderondigital">
               <desc>vecino</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="corregidor" sex="MALE">
             <persName>Corregidor</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juez" sex="MALE">
             <persName>Juez Pesquisidor</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="isabel" sex="FEMALE">
             <persName>Isabel</persName>
             <trait source="castlist">
               <desc>hermana</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="juana" sex="FEMALE">
@@ -108,11 +142,17 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
             <persName>Doña Leonor</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="casilda" sex="FEMALE">
@@ -120,42 +160,81 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alguacil-1" sex="MALE">
             <persName>Alguacil 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alguacil-2" sex="MALE">
             <persName>Alguacil 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alguacil-3" sex="MALE">
             <persName>Alguacil 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alguacil-4" sex="MALE">
             <persName>Alguacil 4</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="villano-1" sex="MALE">
             <persName>Villano 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="villano-2" sex="MALE">
             <persName>Villano 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-1" sex="MALE">
             <persName>Soldado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado-2" sex="MALE">
             <persName>Soldado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado-1" sex="MALE">
             <persName>Criado 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado-2" sex="MALE">
             <persName>Criado 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz">
             <persName>Voz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-2">
             <persName>Otro Voz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -164,17 +243,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -225,7 +307,8 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen LUIS Pérez, con la daga desnuda detrás de PEDRO, e ISABEL y CASILDA, deteniéndole</stage>
+          <stage>Salen LUIS Pérez, con la daga desnuda detrás de PEDRO, e ISABEL y CASILDA,
+            deteniéndole</stage>
           <sp who="#isabel">
             <speaker rend="caps">Isabel</speaker>
 
@@ -1393,7 +1476,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Coge LUIS Pérez a don ALONSO y éntrase con él, como arrojándose al río.Hablan dentro</stage>
+          <stage>Coge LUIS Pérez a don ALONSO y éntrase con él, como arrojándose al río.Hablan
+            dentro</stage>
           <sp who="#luis">
             <speaker rend="caps">Luis</speaker>
 
@@ -4299,7 +4383,8 @@
             <l>¡Canalla, viles, aleves!</l>
             <l>¡Nombre ha de quedar famoso</l>
             <l>hoy del gallego Luis Pérez!</l>
-            <stage>Pónense LUIS y MANUEL a un lado, la justicia y los ALGUACILES a otro, y métenlos a cuchilladas</stage>
+            <stage>Pónense LUIS y MANUEL a un lado, la justicia y los ALGUACILES a otro, y métenlos
+              a cuchilladas</stage>
           </sp>
         </div>
 
@@ -5204,7 +5289,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Échanse LUIS Pérez y MANUEL en el suelo, quedando encubiertos con algunas ramas.Salen doña LEONOR, JUAN Bautista y criados</stage>
+          <stage>Échanse LUIS Pérez y MANUEL en el suelo, quedando encubiertos con algunas
+            ramas.Salen doña LEONOR, JUAN Bautista y criados</stage>
           <sp who="#juan">
             <speaker rend="caps">Juan</speaker>
 
@@ -5762,7 +5848,8 @@
             <l>para que en mi triste muerte</l>
             <l>esta deuda satisfaga.</l>
           </sp>
-          <stage>Muere. Vuelven a salir ALGUACIL 1, ALGUACIL 2 y los otros que llevaban preso a PEDRO, y él resistiéndose</stage>
+          <stage>Muere. Vuelven a salir ALGUACIL 1, ALGUACIL 2 y los otros que llevaban preso a
+            PEDRO, y él resistiéndose</stage>
           <sp who="#alguacil-1">
             <speaker rend="caps">Alguacil 1</speaker>
 
@@ -5815,7 +5902,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Vanse el JUEZ, PEDRO, ALGUACIL 1, ALGUACIL 2, y todos los hombres, llevándose el cadáver de JUAN Bautista</stage>
+          <stage>Vanse el JUEZ, PEDRO, ALGUACIL 1, ALGUACIL 2, y todos los hombres, llevándose el
+            cadáver de JUAN Bautista</stage>
           <sp who="#leonor">
             <speaker rend="caps">Leonor</speaker>
 
@@ -5886,7 +5974,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage>Salen el JUEZ y todos los que pudieren, pónense los dos de espaldas y andan alrededor riñendo, y procuran apartarlos</stage>
+          <stage>Salen el JUEZ y todos los que pudieren, pónense los dos de espaldas y andan
+            alrededor riñendo, y procuran apartarlos</stage>
           <sp who="#juez">
             <speaker rend="caps">Juez</speaker>
 
@@ -6492,7 +6581,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="28">
-          <stage>Éntranlos a cuchilladas, y sale por otra puerta libre LUIS Pérez con don ALONSO</stage>
+          <stage>Éntranlos a cuchilladas, y sale por otra puerta libre LUIS Pérez con don
+            ALONSO</stage>
           <sp who="#alonso">
             <speaker rend="caps">Alonso</speaker>
 

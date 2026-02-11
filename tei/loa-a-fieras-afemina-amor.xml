@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000043" xml:lang="es">
   <teiHeader>
@@ -21,7 +21,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-06">
           <time when="14:14:50"/>
@@ -34,9 +35,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-a-fieras-afemina-amor--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/loa-a-fieras-afemina-amor--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Quinta parte de las Comedias de Don Pedro Calderón de la Barca, Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros</title>
+            <title>Edición digital a partir de la Quinta parte de las Comedias de Don Pedro Calderón
+              de la Barca, Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos
+              Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez
+              Cuadros</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -46,84 +51,165 @@
         <listPerson>
           <person xml:id="el-águila" sex="MALE">
             <persName>El Águila</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-fénix" sex="MALE">
             <persName>El Fénix</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-pavón" sex="MALE">
             <persName>El Pavón</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="enero" sex="MALE">
             <persName>Enero</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="febrero" sex="MALE">
             <persName>Febrero</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="marzo" sex="MALE">
             <persName>Marzo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="abril" sex="MALE">
             <persName>Abril</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="mayo" sex="MALE">
             <persName>Mayo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="junio" sex="MALE">
             <persName>Junio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="julio" sex="MALE">
             <persName>Julio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="agosto" sex="MALE">
             <persName>Agosto</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="setiembre" sex="MALE">
             <persName>Setiembre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="octubre" sex="MALE">
             <persName>Octubre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="noviembre" sex="MALE">
             <persName>Noviembre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="diciembre" sex="MALE">
             <persName>Diciembre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="acuario" sex="MALE">
             <persName>Acuario</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="piscis" sex="MALE">
             <persName>Piscis</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="ariete" sex="MALE">
             <persName>Ariete</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="tauro" sex="MALE">
             <persName>Tauro</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="géminis" sex="MALE">
             <persName>Géminis</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="cancro" sex="MALE">
             <persName>Cancro</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="león" sex="MALE">
             <persName>León</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="libra" sex="MALE">
             <persName>Libra</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="capricornio" sex="MALE">
             <persName>Capricornio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="sagitario" sex="MALE">
             <persName>Sagitario</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="virgo" sex="MALE">
             <persName>Virgo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="escorpión" sex="MALE">
             <persName>Escorpión</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -135,17 +221,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -176,7 +265,35 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Fundose el pórtico del teatro, de orden compuesta sobre cuatro colunas, de bien imitada piedra lázuli, cuyas cañas estaban adornadas a trechos de resaltados bollos de oro y, en su correspondencia, dorados sus capiteles y sus basas. Conque, siguiendo la orden, corría la cornisa enriquecida a partes de los mismos bollos, mascarones y cornucopias; en ella descansaban unas volutas, de quien pedían varios festones que, dando vuelta a los modillones, recibían el cerramiento del frontis, de quien era clave una medalla de relieve guarnecida de hojas de laurel con cuatro mascarones y otros adornos que la dividían en igual compartimiento. Dentro della estaba un caballo con alas cuya velocidad enfrenaba galán joven, no sin algunas señas de Mercurio, dios del ingenio, así en el caduco como en las plumas de capacete y los talares, hieroglíflico del que, osadamente vano, intenta sofrenar al vulgo. A los lados del pórtico, entre coluna y coluna, estaban en sus ninchos dos estatuas, al parecer de bronce, que, haciendo viso al héroe de la fábula, halagando una a un león y otra a un tigre, significaban el valor y la osadía. Todo este frontispicio cerraba una cortina en cuyo primer término, robustamente airoso, se vía Hércules, la clava en la mano, la piel al hombro y a las plantas monstruosas fieras, como despojos de sus ya vencidas luchas, pero no tan vencidas que no volase sobre él, en el segundo término, Cupido flechando el dardo, que en el asumpto de la fiesta había de ser desdoro de sus triunfos. Bien desde luego lo explicaba la inscripción, cuando en rotulados rasgos que partían entre los dos el aire, decía a un lado el castellano mote «Fieras afemina amor», y a otro el latino «Omnia vincit amor». Lo demás del campo que restaba a la cortina ocupaban pendientes festones de trofeos de guerra que, enlazados unos de otros, orlaban todo el lienzo sin perdonar pequeño espacio que no llenasen de hermosa variedad la arquitectura en sus diseños y la pintura en sus dibujos. En habiendo logrado la vista, por breve rato, ambos primores, empezó a lograr los suyos el oído, primero en sonoras chirimías y después en templados instrumentos, a cuyo compás, desde lo más alto del frontis, por detrás de la medalla, empezó a descubrirse, hecha una ascua de oro, una águila caudal con imperial corona, sobre cuyas batidas alas venía una ninfa que, rompiendo la cortina sin romperla, dio principio a la loa, como en voz del ÁGUILA, cantando.</stage>
+          <stage>Fundose el pórtico del teatro, de orden compuesta sobre cuatro colunas, de bien
+            imitada piedra lázuli, cuyas cañas estaban adornadas a trechos de resaltados bollos de
+            oro y, en su correspondencia, dorados sus capiteles y sus basas. Conque, siguiendo la
+            orden, corría la cornisa enriquecida a partes de los mismos bollos, mascarones y
+            cornucopias; en ella descansaban unas volutas, de quien pedían varios festones que,
+            dando vuelta a los modillones, recibían el cerramiento del frontis, de quien era clave
+            una medalla de relieve guarnecida de hojas de laurel con cuatro mascarones y otros
+            adornos que la dividían en igual compartimiento. Dentro della estaba un caballo con alas
+            cuya velocidad enfrenaba galán joven, no sin algunas señas de Mercurio, dios del
+            ingenio, así en el caduco como en las plumas de capacete y los talares, hieroglíflico
+            del que, osadamente vano, intenta sofrenar al vulgo. A los lados del pórtico, entre
+            coluna y coluna, estaban en sus ninchos dos estatuas, al parecer de bronce, que,
+            haciendo viso al héroe de la fábula, halagando una a un león y otra a un tigre,
+            significaban el valor y la osadía. Todo este frontispicio cerraba una cortina en cuyo
+            primer término, robustamente airoso, se vía Hércules, la clava en la mano, la piel al
+            hombro y a las plantas monstruosas fieras, como despojos de sus ya vencidas luchas, pero
+            no tan vencidas que no volase sobre él, en el segundo término, Cupido flechando el
+            dardo, que en el asumpto de la fiesta había de ser desdoro de sus triunfos. Bien desde
+            luego lo explicaba la inscripción, cuando en rotulados rasgos que partían entre los dos
+            el aire, decía a un lado el castellano mote «Fieras afemina amor», y a otro el latino
+            «Omnia vincit amor». Lo demás del campo que restaba a la cortina ocupaban pendientes
+            festones de trofeos de guerra que, enlazados unos de otros, orlaban todo el lienzo sin
+            perdonar pequeño espacio que no llenasen de hermosa variedad la arquitectura en sus
+            diseños y la pintura en sus dibujos. En habiendo logrado la vista, por breve rato, ambos
+            primores, empezó a lograr los suyos el oído, primero en sonoras chirimías y después en
+            templados instrumentos, a cuyo compás, desde lo más alto del frontis, por detrás de la
+            medalla, empezó a descubrirse, hecha una ascua de oro, una águila caudal con imperial
+            corona, sobre cuyas batidas alas venía una ninfa que, rompiendo la cortina sin romperla,
+            dio principio a la loa, como en voz del ÁGUILA, cantando.</stage>
           <sp who="#el-águila">
             <speaker>ÁGUILA</speaker>
             <l>A los felices años</l>
@@ -231,7 +348,11 @@
             <l>Que en festejos de años de quien gobierna,</l>
             <l>ave que toda es ojos, que asista es fuerza.</l>
           </sp>
-          <stage>Con estos versos por la entrecalle, que delante de la cortina formaban las colunas, salieron de ambos otras dos ninfas, una en un FÉNIX y otra en un PAVÓN, y moviéndose iguales, este sobre su nido y aquel sobre su hoguera, con los matices de sus plumas salpicadas de oro, se fueron acercando donde, suspensa el ÁGUILA en el aire, prosiguieron cantando.</stage>
+          <stage>Con estos versos por la entrecalle, que delante de la cortina formaban las colunas,
+            salieron de ambos otras dos ninfas, una en un FÉNIX y otra en un PAVÓN, y moviéndose
+            iguales, este sobre su nido y aquel sobre su hoguera, con los matices de sus plumas
+            salpicadas de oro, se fueron acercando donde, suspensa el ÁGUILA en el aire,
+            prosiguieron cantando.</stage>
           <sp who="#el-fénix">
             <speaker>FÉNIX</speaker>
             <l n="35">Símbolo del amor es</l>
@@ -414,7 +535,8 @@
             <l>que cumplan y gocen edades eternas.</l>
           </sp>
           <stage>Todos y MÚSICA dentro.</stage>
-          <sp who="#el-águila #el-fénix #el-pavón #música #enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #octubre #noviembre #diciembre">
+          <sp
+            who="#el-águila #el-fénix #el-pavón #música #enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #octubre #noviembre #diciembre">
             <speaker>TODOS</speaker>
             <l>Pues todos digamos, en voces diversas,</l>
             <l>que Carlos Segundo ofrece a su madre,</l>
@@ -423,7 +545,25 @@
             <l>que gocen y cumplan edades eternas;</l>
             <l>cumplan y gocen edades eternas.</l>
           </sp>
-          <stage>Con esta repitición, superior el ÁGUILA a las dos, y elevadas las tres, midieron con la MÚSICA la distancia que había desde el tablado a la cornisa, llevándose tras sí, en arrugados pabellones, la cortina que, no sin cuidadoso desaliño, se escondió con ellas dejando descubierta la primera scena del teatro. Era su prespectiva de color de cielo hermoseado de nubes y celajes, y desde su primer bastidor hasta su foro, cuajadas de caladas estrellas que al movimiento de artificiales luces, obscureciendo unas y brillando otras, en luciente trovesura campeaban alternadas; sobre cuya vistosa inquietud de sombras y reflejos, estaban en el aire los doce signos, significados en doce hermosas ninfas: tenía cada una en la una mano, dibujado en trasparente escudo, su carácter, y en la otra una antorcha de cuya llama descendía un rayo de velillo de plata que, como influjo que inspiraba en ellos, le admitían los doce meses, significados también en doce airosos jóvenes que, al pie cada uno de su signo, formaban entre todos, en dos bandas, cuatro diagonales líneas, tiradas al centro con tan regular medida en su declinación las estatuas que, desmentidas unas de otras, dejaban verse todas. No fue menor adorno desta vistosa planta lo ataviado della, pues así las tres que corrieron la cortina, como los signos, los meses y los músicos que también acompañan a lo lejos, estaban todos uniformemente vestidos de azul y plata, con rizados penachos de plumas, blancas y azules, a cuyo aparato, después de haber repetido toda la MÚSICA los pasados versos, empezó la representación en esta forma.</stage>
+          <stage>Con esta repitición, superior el ÁGUILA a las dos, y elevadas las tres, midieron
+            con la MÚSICA la distancia que había desde el tablado a la cornisa, llevándose tras sí,
+            en arrugados pabellones, la cortina que, no sin cuidadoso desaliño, se escondió con
+            ellas dejando descubierta la primera scena del teatro. Era su prespectiva de color de
+            cielo hermoseado de nubes y celajes, y desde su primer bastidor hasta su foro, cuajadas
+            de caladas estrellas que al movimiento de artificiales luces, obscureciendo unas y
+            brillando otras, en luciente trovesura campeaban alternadas; sobre cuya vistosa
+            inquietud de sombras y reflejos, estaban en el aire los doce signos, significados en
+            doce hermosas ninfas: tenía cada una en la una mano, dibujado en trasparente escudo, su
+            carácter, y en la otra una antorcha de cuya llama descendía un rayo de velillo de plata
+            que, como influjo que inspiraba en ellos, le admitían los doce meses, significados
+            también en doce airosos jóvenes que, al pie cada uno de su signo, formaban entre todos,
+            en dos bandas, cuatro diagonales líneas, tiradas al centro con tan regular medida en su
+            declinación las estatuas que, desmentidas unas de otras, dejaban verse todas. No fue
+            menor adorno desta vistosa planta lo ataviado della, pues así las tres que corrieron la
+            cortina, como los signos, los meses y los músicos que también acompañan a lo lejos,
+            estaban todos uniformemente vestidos de azul y plata, con rizados penachos de plumas,
+            blancas y azules, a cuyo aparato, después de haber repetido toda la MÚSICA los pasados
+            versos, empezó la representación en esta forma.</stage>
           <sp who="#enero">
             <speaker>ENERO</speaker>
             <l>Yo que consagrado a Jano</l>
@@ -650,7 +790,8 @@
             <l>yo mi mayor excelencia,</l>
             <l n="295">con que he de exceder a todos.</l>
           </sp>
-          <sp who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #diciembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo">
+          <sp
+            who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #diciembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo">
             <speaker>TODOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
@@ -686,7 +827,8 @@
             <l>que a mí llegara, tuviera</l>
             <l n="315">merecida la guirnalda.</l>
           </sp>
-          <sp who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #octubre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #escorpión #capricornio #sagitario #virgo">
+          <sp
+            who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #octubre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #escorpión #capricornio #sagitario #virgo">
             <speaker>TODOS</speaker>
             <l>¿Qué razón puede ser esa?</l>
           </sp>
@@ -789,7 +931,8 @@
             <l>del sol, es de todo el año</l>
             <l part="I">el menor...</l>
           </sp>
-          <sp who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
+          <sp
+            who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
             <speaker>TODOS</speaker>
             <l part="F">... vencer intentas</l>
             <l part="I">a todos?</l>
@@ -798,7 +941,8 @@
             <speaker>DICIEMBRE</speaker>
             <l part="F">Como hay razón.</l>
           </sp>
-          <sp who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
+          <sp
+            who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué razón puede ser?</l>
           </sp>
@@ -872,7 +1016,8 @@
             <l part="I">descendamos.</l>
           </sp>
           <stage>Todos los SIGNOS.</stage>
-          <sp who="#acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
+          <sp
+            who="#acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
             <speaker>[SIGNOS]</speaker>
             <l part="F">Descendamos,</l>
             <l>diciendo en voces diversas...</l>
@@ -883,7 +1028,8 @@
             <l>Diciembre en mejor esfera,</l>
             <l n="415">que viva, que reine, que triunfe y que venza.</l>
           </sp>
-          <stage>Bajaron los signos al tablado y, mezclados con los meses, compusieran una máscara, con varios lazos, al compás desta letra.</stage>
+          <stage>Bajaron los signos al tablado y, mezclados con los meses, compusieran una máscara,
+            con varios lazos, al compás desta letra.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l>Ya que la águila plumas</l>
@@ -903,7 +1049,12 @@
             <l n="430">que en paces se convierta.</l>
             <l>¡Arma, arma! ¡Guerra, guerra!</l>
           </sp>
-          <stage>A esta batalla música, respondió la militar de cajas y trompetas; conque, sonando a un tiempo clarines y instrumentos y voces, y trocando lugares meses y signos, desaparecieron unos por el aire y otros por la tierra, en cuya confusa disonancia festiva dio fin la loa, transformándose la scena en un ameno bosque en cuya frondosa variedad, ya de vestidos troncos y ya de desnudas peñas, empezó su primera jornada la comedia.</stage>
+          <stage>A esta batalla música, respondió la militar de cajas y trompetas; conque, sonando a
+            un tiempo clarines y instrumentos y voces, y trocando lugares meses y signos,
+            desaparecieron unos por el aire y otros por la tierra, en cuya confusa disonancia
+            festiva dio fin la loa, transformándose la scena en un ameno bosque en cuya frondosa
+            variedad, ya de vestidos troncos y ya de desnudas peñas, empezó su primera jornada la
+            comedia.</stage>
         </div>
 
       </div>

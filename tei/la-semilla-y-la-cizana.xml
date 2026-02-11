@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000185" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/37449</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Davinia Rodríguez, Pamplona– Kassel, Universidad de Navarra–Reichenberger, 2014. ISBN: 978-3-944244-20-4.</title>
+            <title>Edición digital a partir de la edición de Davinia Rodríguez, Pamplona– Kassel,
+              Universidad de Navarra–Reichenberger, 2014. ISBN: 978-3-944244-20-4.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,51 +49,104 @@
         <listPerson>
           <person sex="FEMALE" xml:id="cizana">
             <persName>Cizaña</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="cierzo">
             <persName>Cierzo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="ira">
             <persName>Ira</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="niebla">
             <persName>Niebla</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Voces en la nave</persName>
           </personGrp>
           <person sex="MALE" xml:id="sembrador">
             <persName>Sembrador</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="inocencia">
             <persName>Inocencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="lucero">
             <persName>Lucero</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="asia">
             <persName>Asia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="africa">
             <persName>África</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="europa">
             <persName>Europa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="america">
             <persName>América</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="judaismo">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="paganismo">
             <persName>Paganismo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gentilidad">
             <persName>Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="idolatria">
             <persName>Idolatría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
@@ -104,17 +158,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -158,7 +215,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Tócase una caja de guerra y sale del primer carro la Cizaña, vestida de demonio, con bengala y espada.</stage>
+          <stage>Tócase una caja de guerra y sale del primer carro la Cizaña, vestida de demonio,
+            con bengala y espada.</stage>
           <sp who="#cizana">
             <speaker>CIZAÑA</speaker>
             <l>Abra horrible la boca</l>
@@ -658,7 +716,8 @@
             <l part="F">¡Amaina, y vira</l>
             <l part="I">al puerto!</l>
           </sp>
-          <stage>Aparece una nave, y viene en ella el Sembrador de galán labrador, la Inocencia de villano, y el Lucero vestido de pieles.</stage>
+          <stage>Aparece una nave, y viene en ella el Sembrador de galán labrador, la Inocencia de
+            villano, y el Lucero vestido de pieles.</stage>
           <sp who="#cizana">
             <speaker>CIZAÑA</speaker>
             <l part="F">¿Y eso es acaso?</l>
@@ -792,7 +851,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Sale del primer carro el Asia, vestida a lo judío, enun elefante, y responde cantando</stage>
+          <stage>Sale del primer carro el Asia, vestida a lo judío, enun elefante, y responde
+            cantando</stage>
           <sp who="#asia">
             <speaker>ASIA</speaker>
             <l part="F">¿Quién llama?</l>
@@ -1036,7 +1096,8 @@
             <l>amanece con el día</l>
             <l>a ser en trigo y palabra…</l>
           </sp>
-          <sp who="#ira #cierzo #sembrador #niebla #cizana #inocencia #asia #africa #europa #america">
+          <sp
+            who="#ira #cierzo #sembrador #niebla #cizana #inocencia #asia #africa #europa #america">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué?</l>
           </sp>
@@ -1046,7 +1107,8 @@
             <l>Albricias, mortales,</l>
             <l>albricias, albricias.</l>
           </sp>
-          <sp who="#ira #cierzo #sembrador #niebla #cizana #inocencia #asia #africa #europa #america">
+          <sp
+            who="#ira #cierzo #sembrador #niebla #cizana #inocencia #asia #africa #europa #america">
             <speaker>TODOS</speaker>
             <l>Que viene el Lucero</l>
             <l>del Sol de Justicia,</l>
@@ -1073,7 +1135,8 @@
             <l>solo me ha de pagar de él</l>
             <l part="I">diezmos y primicias?</l>
           </sp>
-          <sp who="#ira #cierzo #niebla #cizana #inocencia #africa #europa #america #asia #sembrador">
+          <sp
+            who="#ira #cierzo #niebla #cizana #inocencia #africa #europa #america #asia #sembrador">
             <speaker>TODOS</speaker>
             <l n="620" part="F">Sí.</l>
           </sp>
@@ -1171,7 +1234,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Sale del tercer carro la Gentilidad, a lo romano,con bastón y corona de laurel</stage>
+          <stage>Sale del tercer carro la Gentilidad, a lo romano,con bastón y corona de
+            laurel</stage>
           <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l n="680" part="F">La Gentilidad.</l>
@@ -1246,7 +1310,8 @@
             <l>primero misterio encierra,</l>
             <l>digan todas las criaturas…</l>
           </sp>
-          <sp who="#ira #cierzo #niebla #cizana #inocencia #lucero #africa #paganismo #europa #gentilidad #america #sembrador #judaismo #asia">
+          <sp
+            who="#ira #cierzo #niebla #cizana #inocencia #lucero #africa #paganismo #europa #gentilidad #america #sembrador #judaismo #asia">
             <speaker>TODOS</speaker>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en la tierra.</l>
@@ -1305,7 +1370,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Dentro grita de villanos, y salen con instrumentos,cantando y bailando, la Cizaña, la Ira, la Niebla y el Cierzo, y Músicos, y Asia y las demás se van introduciendo en el baile a su tiempo</stage>
+          <stage>Dentro grita de villanos, y salen con instrumentos,cantando y bailando, la Cizaña,
+            la Ira, la Niebla y el Cierzo, y Músicos, y Asia y las demás se van introduciendo en el
+            baile a su tiempo</stage>
           <sp who="#ira">
             <speaker>IRA</speaker>
             <l>Venid, labradores,</l>
@@ -1313,7 +1380,8 @@
             <l n="755">que ciento por uno</l>
             <l>ofrece la tierra.</l>
           </sp>
-          <sp who="#cierzo #niebla #cizana #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #judaismo #ira">
+          <sp
+            who="#cierzo #niebla #cizana #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #judaismo #ira">
             <speaker>TODOS</speaker>
             <l>Venid, venid,</l>
             <l>venid a la siembra,</l>
@@ -1327,7 +1395,8 @@
             <l>sale con el día</l>
             <l>a hacer su cosecha.</l>
           </sp>
-          <sp who="#cierzo #niebla #cizana #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #judaismo #ira">
+          <sp
+            who="#cierzo #niebla #cizana #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #judaismo #ira">
             <speaker>TODOS</speaker>
             <l n="765">Venid, venid,</l>
             <l>venid a la siembra.</l>
@@ -1342,7 +1411,8 @@
             <l>pues que su venida</l>
             <l n="770">empezó por ella.</l>
           </sp>
-          <sp who="#cierzo #niebla #cizana #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #judaismo #ira">
+          <sp
+            who="#cierzo #niebla #cizana #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #judaismo #ira">
             <speaker>TODOS</speaker>
             <l>Venid, venid,</l>
             <l>venid a la siembra,</l>
@@ -1367,7 +1437,8 @@
             <l n="785">digan, repitiendo</l>
             <l>en tonos y letras…</l>
           </sp>
-          <sp who="#cierzo #niebla #cizana #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #judaismo #ira">
+          <sp
+            who="#cierzo #niebla #cizana #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #judaismo #ira">
             <speaker>TODOS</speaker>
             <l>Venid, labradores,</l>
             <l>venid a la siembra,</l>
@@ -1430,12 +1501,14 @@
             <l>a nuestros campos, que dice</l>
             <l>que ha de dar por uno ciento.</l>
           </sp>
-          <sp who="#niebla #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #ira #cizana #cierzo #judaismo">
+          <sp
+            who="#niebla #lucero #africa #paganismo #europa #america #asia #gentilidad #inocencia #sembrador #ira #cizana #cierzo #judaismo">
             <speaker>TODOS</speaker>
             <l>Dices bien, vamos tomando</l>
             <l>por las arenas asiento.</l>
           </sp>
-          <stage>Siéntanse, y el Sembrador queda aparte y en pie,y detrás de él la Inocencia y el Lucero</stage>
+          <stage>Siéntanse, y el Sembrador queda aparte y en pie,y detrás de él la Inocencia y el
+            Lucero</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l n="835">¡Qué hermosa es la labradora!</l>
@@ -1485,7 +1558,8 @@
             <speaker>SEMBRADOR</speaker>
             <l part="I">Sí haré, silencio.</l>
           </sp>
-          <sp who="#niebla #lucero #africa #paganismo #europa #america #asia #gentilidad #ira #cizana #idolatria #cierzo #inocencia #judaismo #sembrador">
+          <sp
+            who="#niebla #lucero #africa #paganismo #europa #america #asia #gentilidad #ira #cizana #idolatria #cierzo #inocencia #judaismo #sembrador">
             <speaker>TODOS</speaker>
             <l part="F">Silencio.</l>
           </sp>
@@ -1542,7 +1616,8 @@
             <speaker>SEMBRADOR</speaker>
             <l part="I">Sí haré, silencio.</l>
           </sp>
-          <sp who="#niebla #lucero #africa #europa #america #asia #gentilidad #ira #cierzo #inocencia #cizana #idolatria #judaismo #paganismo">
+          <sp
+            who="#niebla #lucero #africa #europa #america #asia #gentilidad #ira #cierzo #inocencia #cizana #idolatria #judaismo #paganismo">
             <speaker>TODOS</speaker>
             <l n="880" part="F">Silencio.</l>
           </sp>
@@ -1616,7 +1691,8 @@
             <speaker>SEMBRADOR</speaker>
             <l part="M">Silencio.</l>
           </sp>
-          <sp who="#niebla #lucero #africa #europa #america #asia #ira #cierzo #inocencia #cizana #gentilidad #judaismo #paganismo #idolatria">
+          <sp
+            who="#niebla #lucero #africa #europa #america #asia #ira #cierzo #inocencia #cizana #gentilidad #judaismo #paganismo #idolatria">
             <speaker>TODOS</speaker>
             <l n="930" part="F">Silencio.</l>
           </sp>
@@ -1689,7 +1765,8 @@
             <speaker>AMÉRICA E IDOLATRÍA</speaker>
             <l n="975" part="F">Espera…</l>
           </sp>
-          <stage>Los dos primeros con furor, los dos segundos despertando asustados, los dos terceros con admiración y los otros dos con blandura</stage>
+          <stage>Los dos primeros con furor, los dos segundos despertando asustados, los dos
+            terceros con admiración y los otros dos con blandura</stage>
           <sp who="#judaismo">
             <speaker>JUDAÍSMO</speaker>
             <l part="I">… que mi cólera…</l>
@@ -1742,7 +1819,8 @@
             <l>Deteneos, deteneos.</l>
           </sp>
           <stage>Cada uno con su afecto</stage>
-          <sp who="#niebla #lucero #ira #cierzo #cizana #gentilidad #judaismo #asia #paganismo #africa #idolatria #america #europa #acompanamiento #inocencia">
+          <sp
+            who="#niebla #lucero #ira #cierzo #cizana #gentilidad #judaismo #asia #paganismo #africa #idolatria #america #europa #acompanamiento #inocencia">
             <speaker>TODOS</speaker>
             <l>… tan nuevas proposiciones.</l>
           </sp>
@@ -2858,7 +2936,8 @@
             <l>para que de él nos libremos</l>
             <l part="I">es…</l>
           </sp>
-          <sp who="#lucero #gentilidad #acompanamiento #inocencia #cierzo #ira #paganismo #niebla #judaismo #asia #africa #europa #america #idolatria #cizana">
+          <sp
+            who="#lucero #gentilidad #acompanamiento #inocencia #cierzo #ira #paganismo #niebla #judaismo #asia #africa #europa #america #idolatria #cizana">
             <speaker>TODOS</speaker>
             <l part="M">Di cuál.</l>
           </sp>
@@ -3345,7 +3424,8 @@
             <l part="F">Porque a su lado</l>
             <l part="I">estamos.</l>
           </sp>
-          <stage>Pónense a los dos lados, el Paganismo al izquierdo y el Gentilismo al derecho</stage>
+          <stage>Pónense a los dos lados, el Paganismo al izquierdo y el Gentilismo al
+            derecho</stage>
           <sp who="#judaismo">
             <speaker>JUDAÍSMO</speaker>
             <l part="F">Fuerza no me hace</l>
@@ -3402,7 +3482,8 @@
             <speaker>EUROPA</speaker>
             <l part="I">¡Qué penas!</l>
           </sp>
-          <sp who="#lucero #acompanamiento #inocencia #ira #niebla #cierzo #cizana #gentilidad #paganismo #idolatria #judaismo #asia #africa #america #europa">
+          <sp
+            who="#lucero #acompanamiento #inocencia #ira #niebla #cierzo #cizana #gentilidad #paganismo #idolatria #judaismo #asia #africa #america #europa">
             <speaker>TODOS</speaker>
             <l part="F">En un instante</l>
             <l n="1770">mortal delirio padecen</l>
@@ -3441,7 +3522,8 @@
         </div>
         <div type="scene" resp="#rojas" n="37">
           <stage>Terremoto y vanse, llevándole en medio</stage>
-          <sp who="#lucero #acompanamiento #inocencia #ira #niebla #cierzo #cizana #paganismo #idolatria #judaismo #asia #africa #america #europa #gentilidad">
+          <sp
+            who="#lucero #acompanamiento #inocencia #ira #niebla #cierzo #cizana #paganismo #idolatria #judaismo #asia #africa #america #europa #gentilidad">
             <speaker>TODOS</speaker>
             <l n="1790">Segunda vez en batalla</l>
             <l>los elementos se arden.</l>
@@ -3499,7 +3581,8 @@
             <l>confundiendo nuestro asombro</l>
             <l>con sus acentos süaves.</l>
           </sp>
-          <stage>Tocan chirimías, y se ven en la nave al Sembrador con la cruz en medio de Europa y la Gentilidad, y en el fanal hostia y cáliz</stage>
+          <stage>Tocan chirimías, y se ven en la nave al Sembrador con la cruz en medio de Europa y
+            la Gentilidad, y en el fanal hostia y cáliz</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Si el trigo es palabra,</l>
@@ -3645,7 +3728,8 @@
             <l n="1890">trigo, porque hay Almudena,</l>
             <l>que es casa donde se guarde.</l>
           </sp>
-          <sp who="#lucero #acompanamiento #inocencia #gentilidad #cierzo #ira #niebla #europa #asia #africa #paganismo #america #idolatria #judaismo #musicos #cizana">
+          <sp
+            who="#lucero #acompanamiento #inocencia #gentilidad #cierzo #ira #niebla #europa #asia #africa #paganismo #america #idolatria #judaismo #musicos #cizana">
             <speaker>TODOS</speaker>
             <l part="I">¿De qué suerte ha de ser?</l>
           </sp>
@@ -3660,7 +3744,8 @@
             <l>volved a cantar vosotros</l>
             <l>en dulces voces süaves.</l>
           </sp>
-          <sp who="#lucero #acompanamiento #inocencia #gentilidad #cierzo #ira #niebla #europa #asia #africa #paganismo #america #idolatria #judaismo #musicos #cizana">
+          <sp
+            who="#lucero #acompanamiento #inocencia #gentilidad #cierzo #ira #niebla #europa #asia #africa #paganismo #america #idolatria #judaismo #musicos #cizana">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1900">Si es palabra el trigo,</l>
             <l>no se admire nadie,</l>

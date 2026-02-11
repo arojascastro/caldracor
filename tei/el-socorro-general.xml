@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000022" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-03">
           <time when="10:44:20"/>
@@ -35,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-socorro-general--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-socorro-general--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de la Barca, Pedro, El socorro general, ed. Ignacio Are-llano, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2001. ISBN: 3-935004-40-0.</title>
+            <title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de
+              la Barca, Pedro, El socorro general, ed. Ignacio Are-llano, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 2001. ISBN: 3-935004-40-0.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,45 +51,91 @@
         <listPerson>
           <person xml:id="sinagoga" sex="FEMALE">
             <persName>La Sinagoga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="orden" sex="MALE">
             <persName>El Orden</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="gentilidad" sex="FEMALE">
             <persName>La Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="san-pedro" sex="MALE">
             <persName>San Pedro</persName>
+            <idno type="wikidata">Q33923</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="apostasía" sex="FEMALE">
             <persName>La Apostasía</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="zabulón" sex="MALE">
             <persName>Zabulón</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="iglesia" sex="FEMALE">
             <persName>La Iglesia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp xml:id="soldados" sex="MALE">
             <persName>Soldados</persName>
           </personGrp>
           <person xml:id="penitencia" sex="FEMALE">
             <persName>La Penitencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp xml:id="marineros" sex="MALE">
             <persName>Marineros</persName>
           </personGrp>
           <person xml:id="oración" sex="FEMALE">
             <persName>La Oración</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="bautismo" sex="MALE">
             <persName>El Bautismo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="acompañamiento" sex="MALE">
             <persName>Acompañamiento</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -94,17 +144,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -119,7 +172,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000022" passive="http://www.wikidata.org/entity/Q69034179"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000022"
+        passive="http://www.wikidata.org/entity/Q69034179"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -150,7 +204,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suenan cajas y trompetas, y salen marchando SOLDADOS, y detrás la SINAGOGA, vestida a lo judío, con bastón de general.</stage>
+          <stage>Suenan cajas y trompetas, y salen marchando SOLDADOS, y detrás la SINAGOGA, vestida
+            a lo judío, con bastón de general.</stage>
           <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Hebrea milicia, cuyo</l>
@@ -692,7 +747,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Suenan chirimías; salen la ORACIÓN, la PENITENCIA, DAMAS, la ORDEN SACERDOTAL, VIEJO; y detrás la IGLESIA con corona de oro, manto imperial y bastón, y la PENITENCIA trae un estandarte con un Cristo crucificado y todos con espadas ceñidas y plumas.</stage>
+          <stage>Suenan chirimías; salen la ORACIÓN, la PENITENCIA, DAMAS, la ORDEN SACERDOTAL,
+            VIEJO; y detrás la IGLESIA con corona de oro, manto imperial y bastón, y la PENITENCIA
+            trae un estandarte con un Cristo crucificado y todos con espadas ceñidas y
+            plumas.</stage>
           <sp who="#iglesia">
             <speaker>IGLESIA</speaker>
             <l part="I">¿Qué me quieres?</l>
@@ -984,7 +1042,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Al irse a entrar la IGLESIA y el BAUTISMO, sale la APOSTASÍA huyendo como asombrada.</stage>
+          <stage>Al irse a entrar la IGLESIA y el BAUTISMO, sale la APOSTASÍA huyendo como
+            asombrada.</stage>
           <sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Bella Iglesia, ¿dónde vas?</l>
@@ -1090,7 +1149,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Vanse todos sacando las espadas, quiere la APOSTASÍA seguirlos y no puede. Las cajas y trompetas están siempre tocando a tiempos y la batalla se finge dentro.</stage>
+          <stage>Vanse todos sacando las espadas, quiere la APOSTASÍA seguirlos y no puede. Las
+            cajas y trompetas están siempre tocando a tiempos y la batalla se finge dentro.</stage>
           <sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>¿Qué es aquesto? ¿Cuando veo</l>
@@ -1117,7 +1177,8 @@
             <l>¡Soldado de la fe soy!</l>
             <l n="625">¡Qué cobarde a pelear voy!</l>
           </sp>
-          <sp who="#acompañamiento #gentilidad #iglesia #bautismo #marineros #oración #orden #penitencia #san-pedro #soldados #zabulón">
+          <sp
+            who="#acompañamiento #gentilidad #iglesia #bautismo #marineros #oración #orden #penitencia #san-pedro #soldados #zabulón">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l>¡Arma, arma; guerra, guerra!</l>
@@ -1166,7 +1227,8 @@
             <l>y lo segundo por si</l>
             <l>se ofrece la fugitiva.</l>
           </sp>
-          <sp who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
+          <sp
+            who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
             <speaker>TODOS</speaker>
             <l part="I">¡Victoria!</l>
           </sp>
@@ -1174,7 +1236,8 @@
             <speaker>UNO</speaker>
             <l part="F">¡La Iglesia viva!</l>
           </sp>
-          <sp who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
+          <sp
+            who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
             <speaker>TODOS</speaker>
             <l part="I">¡Viva!</l>
           </sp>
@@ -1297,7 +1360,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Salen los MÚSICOS cantando, el BAUTISMO, la ORACIÓN, la PENITENCIA, y ORDEN SACERDOTAL, todos con ramos y flores, arrojándolos a sus pies y bailando.</stage>
+          <stage>Salen los MÚSICOS cantando, el BAUTISMO, la ORACIÓN, la PENITENCIA, y ORDEN
+            SACERDOTAL, todos con ramos y flores, arrojándolos a sus pies y bailando.</stage>
           <sp who="#música">
             <speaker>MÚSICOS</speaker>
             <l>¡Viva la militante</l>
@@ -1609,7 +1673,8 @@
             <l>pan y vino, de quien constan</l>
             <l>sus .sus .Socorros generales</l>
           </sp>
-          <stage>En un vuelo de elevación sube la ORACIÓN poco a poco cantando, y en llegando arriba se deshace de la canal y en bofetón da vuelta a la otra parte.</stage>
+          <stage>En un vuelo de elevación sube la ORACIÓN poco a poco cantando, y en llegando arriba
+            se deshace de la canal y en bofetón da vuelta a la otra parte.</stage>
           <sp who="#oración">
             <speaker>ORACIÓN</speaker>
             <l>Ya mi fervorosa instancia</l>
@@ -1624,14 +1689,16 @@
             <l n="930">al rey que el empíreo asiste</l>
             <l>sobre tronos de diamantes.</l>
           </sp>
-          <sp who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
+          <sp
+            who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
             <speaker>TODOS</speaker>
             <l>Dios inmenso,</l>
             <l>Dios grande,</l>
             <l>escucha el llanto</l>
             <l n="935">que los fieles hacen.</l>
           </sp>
-          <stage>La MÚSICA cantando y la IGLESIA y los demás representando dicen estos versos de arriba, y canta sola la ORACIÓN.</stage>
+          <stage>La MÚSICA cantando y la IGLESIA y los demás representando dicen estos versos de
+            arriba, y canta sola la ORACIÓN.</stage>
           <sp who="#oración">
             <speaker>ORACIÓN</speaker>
             <l>Sitiada vive en los montes</l>
@@ -1639,7 +1706,8 @@
             <l>los enemigos la embisten,</l>
             <l>los contrarios la combaten.</l>
           </sp>
-          <sp who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
+          <sp
+            who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
             <speaker>TODOS</speaker>
             <l n="940">Dios inmenso,</l>
             <l>Dios grande,</l>
@@ -1984,7 +2052,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Vase y dice el primer verso dentro el BAUTISMO, y disparando sale por una puerta y la IGLESIA por otra.</stage>
+          <stage>Vase y dice el primer verso dentro el BAUTISMO, y disparando sale por una puerta y
+            la IGLESIA por otra.</stage>
           <sp who="#bautismo">
             <speaker>BAUTISMO</speaker>
             <l>Tiralde, tiralde digo.</l>
@@ -2101,7 +2170,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Vanse. Descúbrese la APOSTASÍA en un caballo, que da vuelta al teatro, y llegue donde pueda apearse de él y bajar al tablado.</stage>
+          <stage>Vanse. Descúbrese la APOSTASÍA en un caballo, que da vuelta al teatro, y llegue
+            donde pueda apearse de él y bajar al tablado.</stage>
           <sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Caballo desbocado</l>
@@ -2118,7 +2188,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Sale la SINAGOGA por una parte, vestida de negro, con bastón; la GENTILIDAD por otra, con corona de laurel y bastoncillo a lo romano.</stage>
+          <stage>Sale la SINAGOGA por una parte, vestida de negro, con bastón; la GENTILIDAD por
+            otra, con corona de laurel y bastoncillo a lo romano.</stage>
           <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l part="I">¿Quién pronuncia mis señas?</l>
@@ -2231,7 +2302,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="20">
-          <stage>Van LOS TRES tomando la vuelta al tablado, y salen por la otra parte el SACERDOCIO, el BAUTISMO y la PENITENCIA con armas de fuego.</stage>
+          <stage>Van LOS TRES tomando la vuelta al tablado, y salen por la otra parte el SACERDOCIO,
+            el BAUTISMO y la PENITENCIA con armas de fuego.</stage>
           <sp who="#bautismo">
             <speaker>BAUTISMO</speaker>
             <l>Este puesto primero</l>
@@ -2247,7 +2319,8 @@
             <l part="F">A mi cuidado</l>
             <l n="1320">la vela de esta noche está fiada.</l>
           </sp>
-          <stage>Pónense en orden, el BAUTISMO el primero, la PENITENCIA el segundo y el SACERDOCIO el tercero.</stage>
+          <stage>Pónense en orden, el BAUTISMO el primero, la PENITENCIA el segundo y el SACERDOCIO
+            el tercero.</stage>
           <sp who="#apostasía">
             <speaker>APOSTASÍA</speaker>
             <l>Parece que la posta está doblada.</l>
@@ -2585,7 +2658,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Éntranse las postas y los otros tras ellas peleando, y hácese dentro la batalla y sale ZABULÓN como aturdido.</stage>
+          <stage>Éntranse las postas y los otros tras ellas peleando, y hácese dentro la batalla y
+            sale ZABULÓN como aturdido.</stage>
           <sp who="#zabulón">
             <speaker>ZABULÓN</speaker>
             <l>Con la grande confusión</l>
@@ -2914,7 +2988,13 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Salen por las dos puertas del tablado los que pudieren marchando, y detrás de unos la GENTILIDAD, y de otros la SINAGOGA. Descúbrense en dos bofetones dos naves disparando; en la una está la APOSTASÍA, la cual tendrá las ondas de fuego y banderas negras y todo el vaso negro; en la otra PEDRO, la cual será pintada de colores alegres, por fanal un cáliz grande con su hostia y todas las banderas blancas, con el sacramento pintado, y en los remates de las gavias en cada una un cáliz y alguna gente vestidos de MARINEROS. Prosigue la ORACIÓN.</stage>
+          <stage>Salen por las dos puertas del tablado los que pudieren marchando, y detrás de unos
+            la GENTILIDAD, y de otros la SINAGOGA. Descúbrense en dos bofetones dos naves
+            disparando; en la una está la APOSTASÍA, la cual tendrá las ondas de fuego y banderas
+            negras y todo el vaso negro; en la otra PEDRO, la cual será pintada de colores alegres,
+            por fanal un cáliz grande con su hostia y todas las banderas blancas, con el sacramento
+            pintado, y en los remates de las gavias en cada una un cáliz y alguna gente vestidos de
+            MARINEROS. Prosigue la ORACIÓN.</stage>
           <sp who="#oración">
             <speaker>ORACIÓN</speaker>
             <l>Ya se embisten, ya pelean;</l>
@@ -3133,7 +3213,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="28">
-          <stage>Vase. Descúbrese en lo alto SAN PEDRO con un cáliz con su hostia en la mano, y los que pudieren con él, y la nave se vuelve.</stage>
+          <stage>Vase. Descúbrese en lo alto SAN PEDRO con un cáliz con su hostia en la mano, y los
+            que pudieren con él, y la nave se vuelve.</stage>
           <sp who="#san-pedro">
             <speaker>PEDRO</speaker>
             <l>Ya el mar te ha desocupado</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000122" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -39,9 +40,15 @@
       <sourceDesc>
         <bibl type="sourceText">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/descargaPdf/la-senora-y-la-criada-2/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/descargaPdf/la-senora-y-la-criada-2/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Primavera numerosa de muchas armonias luzientes, en doce comedias fragantes : parte quarenta y seis..., En Madrid : a costa de Francisco Sanz impressor..., 1679, h. 128v-149r. La modernización de la ortografía, la acentuación y la puntuación se ha realizado mediante el modelo de transcripción desarrollado por Álvaro Cuéllar, “Spanish Golden Age Theatre Prints (Spelling Modernization) 1.0”. Transkribus, 2021.</title>
+            <title>Edición digital a partir de la Primavera numerosa de muchas armonias luzientes,
+              en doce comedias fragantes : parte quarenta y seis..., En Madrid : a costa de
+              Francisco Sanz impressor..., 1679, h. 128v-149r. La modernización de la ortografía, la
+              acentuación y la puntuación se ha realizado mediante el modelo de transcripción
+              desarrollado por Álvaro Cuéllar, “Spanish Golden Age Theatre Prints (Spelling
+              Modernization) 1.0”. Transkribus, 2021.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,11 +61,17 @@
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="crotaldo" sex="MALE">
             <persName>Crotaldo</persName>
             <trait source="#calderondigital">
               <desc>hijo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lisardo" sex="MALE">
@@ -66,11 +79,17 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="floro" sex="MALE">
             <persName>Floro</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="flor" sex="FEMALE">
@@ -78,11 +97,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="duque-parma" sex="MALE">
             <persName>Duque de Parma</persName>
             <trait source="#calderondigital">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="perote" sex="MALE">
@@ -90,11 +115,17 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fisberto" sex="MALE">
             <persName>Fisberto</persName>
             <trait source="#calderondigital">
               <desc>hijo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="gileta" sex="FEMALE">
@@ -102,14 +133,23 @@
             <trait source="#calderondigital">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alcalde" sex="MALE">
             <persName>Alcalde</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
             <persName>Fabio</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="duque-mantua" sex="MALE">
@@ -117,11 +157,17 @@
             <trait source="#calderondigital">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="celio" sex="MALE">
             <persName>Celio</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="diana" sex="FEMALE">
@@ -129,15 +175,24 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
             <persName>Laura</persName>
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -146,17 +201,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -683,7 +741,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Vase, y salen por una parte sin verse Gileta villana, muy rusticamente vestida, y Perote.</stage>
+          <stage>Vase, y salen por una parte sin verse Gileta villana, muy rusticamente vestida, y
+            Perote.</stage>
           <sp who="#perote">
             <speaker rend="caps">Perote</speaker>
 
@@ -3649,7 +3708,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Salen todos vestidos de villanos, con espadas, y pistolas, Lisardo, y Crotaldo.</stage>
+          <stage>Salen todos vestidos de villanos, con espadas, y pistolas, Lisardo, y
+            Crotaldo.</stage>
           <sp who="#lisardo">
             <speaker rend="caps">Lisardo</speaker>
 
@@ -6797,7 +6857,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Salen todas las damas que pudieren, vistiendo a Gileta, con espejo y recado de tocar.</stage>
+          <stage>Salen todas las damas que pudieren, vistiendo a Gileta, con espejo y recado de
+            tocar.</stage>
           <sp who="#diana">
             <speaker rend="caps">Diana</speaker>
 

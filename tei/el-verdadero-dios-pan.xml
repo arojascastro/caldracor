@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000178" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de F. Antonucci, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-01-5.</title>
+            <title>Edición digital a partir de la edición de F. Antonucci, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 2005. ISBN: 3-937734-01-5.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,45 +49,92 @@
         <listPerson>
           <person sex="MALE" xml:id="pan">
             <persName>Pan</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="noche">
             <persName>Noche</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="mundo">
             <persName>Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="judaismo">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sinagoga">
             <persName>Sinagoga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="gentilismo">
             <persName>Gentilismo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="apostasia">
             <persName>Apostasía</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="idolatria">
             <persName>Idolatría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="simplicidad">
             <persName>Simplicidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="malicia">
             <persName>Malicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="luna">
             <persName>Luna</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="demonio">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="zagal-1">
             <persName>Zagal 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1.º</persName>
@@ -96,9 +144,15 @@
           </personGrp>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino">
             <persName>Niño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -107,17 +161,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -665,7 +722,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Vase, y salen el Mundo de mayoral, Gentilismo, Judaísmo y Apostasía de pastores, cantando los Músicos, Simplicidad y Malicia de villanos rústicos, y la Sinagoga y la Idolatría</stage>
+          <stage>Vase, y salen el Mundo de mayoral, Gentilismo, Judaísmo y Apostasía de pastores,
+            cantando los Músicos, Simplicidad y Malicia de villanos rústicos, y la Sinagoga y la
+            Idolatría</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Deidad de las selvas,</l>
@@ -913,7 +972,8 @@
             <l>atiende a las voces</l>
             <l n="530">que humildes te aclaman.</l>
           </sp>
-          <stage>Chirimías, ábrese el carro que será una nube, y vese debajo de una media luna la Luna, vestida de cazadora, con arco y flechas, y una luna en el tocado</stage>
+          <stage>Chirimías, ábrese el carro que será una nube, y vese debajo de una media luna la
+            Luna, vestida de cazadora, con arco y flechas, y una luna en el tocado</stage>
           <sp who="#gentilismo">
             <speaker>GENTILISMO</speaker>
             <l>No, no ceséis, que parece,</l>
@@ -968,7 +1028,8 @@
             <l>volved todos a la salva.</l>
           </sp>
           <stage>Bajando</stage>
-          <sp who="#musicos #pan #sinagoga #judaismo #apostasia #mundo #idolatria #malicia #simplicidad #luna #gentilismo">
+          <sp
+            who="#musicos #pan #sinagoga #judaismo #apostasia #mundo #idolatria #malicia #simplicidad #luna #gentilismo">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Deidad de las selvas,</l>
             <l n="570">hermosa Dïana,</l>
@@ -1006,7 +1067,8 @@
             <l n="590">que de repente se haga;</l>
             <l part="I">mas buen remedio...</l>
           </sp>
-          <sp who="#musicos #pan #sinagoga #judaismo #apostasia #luna #gentilismo #malicia #idolatria">
+          <sp
+            who="#musicos #pan #sinagoga #judaismo #apostasia #luna #gentilismo #malicia #idolatria">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué es?</l>
           </sp>
@@ -1019,7 +1081,8 @@
             <l>será moza la mudanza.</l>
             <l part="I">Síganme todos.</l>
           </sp>
-          <sp who="#musicos #pan #sinagoga #judaismo #apostasia #luna #gentilismo #malicia #idolatria">
+          <sp
+            who="#musicos #pan #sinagoga #judaismo #apostasia #luna #gentilismo #malicia #idolatria">
             <speaker>TODOS</speaker>
             <l part="F">Sí haremos.</l>
           </sp>
@@ -1027,7 +1090,8 @@
             <speaker>SIMPLICIDAD</speaker>
             <l part="I">Pues vaya de baile.</l>
           </sp>
-          <sp who="#musicos #pan #sinagoga #judaismo #apostasia #luna #gentilismo #malicia #idolatria">
+          <sp
+            who="#musicos #pan #sinagoga #judaismo #apostasia #luna #gentilismo #malicia #idolatria">
             <speaker>TODOS</speaker>
             <l part="F">Vaya.</l>
           </sp>
@@ -1114,7 +1178,8 @@
             <l>¡Pastores, a la montaña!</l>
             <l>¡Al monte! ¡Al valle! ¡A la selva!</l>
           </sp>
-          <sp who="#pan #sinagoga #luna #gentilismo #malicia #idolatria #musicos #simplicidad #apostasia #judaismo #acompanamiento">
+          <sp
+            who="#pan #sinagoga #luna #gentilismo #malicia #idolatria #musicos #simplicidad #apostasia #judaismo #acompanamiento">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué es esto?</l>
           </sp>
@@ -1125,7 +1190,8 @@
             <speaker>MUNDO</speaker>
             <l part="F">¡El Cielo me valga!</l>
           </sp>
-          <sp who="#pan #sinagoga #luna #gentilismo #malicia #idolatria #musicos #simplicidad #apostasia #judaismo #acompanamiento">
+          <sp
+            who="#pan #sinagoga #luna #gentilismo #malicia #idolatria #musicos #simplicidad #apostasia #judaismo #acompanamiento">
             <speaker>TODOS</speaker>
             <l n="635">Asombrado el Mundo vuelve.</l>
           </sp>
@@ -1180,7 +1246,8 @@
             <l>Y díganlo aquesas voces</l>
             <l part="I">repitiendo...</l>
           </sp>
-          <sp who="#pan #sinagoga #malicia #idolatria #musicos #simplicidad #apostasia #judaismo #luna #gentilismo #acompanamiento">
+          <sp
+            who="#pan #sinagoga #malicia #idolatria #musicos #simplicidad #apostasia #judaismo #luna #gentilismo #acompanamiento">
             <speaker>TODOS</speaker>
             <stage>(Dentro)</stage>
             <l part="F">¡A la montaña!</l>
@@ -1235,7 +1302,8 @@
         </div>
         <div type="scene" resp="#rojas" n="10">
           <stage>Vanse los dos</stage>
-          <sp who="#pan #sinagoga #idolatria #musicos #luna #gentilismo #mundo #demonio #gentilismo #apostasia #judaismo #simplicidad #malicia #acompanamiento">
+          <sp
+            who="#pan #sinagoga #idolatria #musicos #luna #gentilismo #mundo #demonio #gentilismo #apostasia #judaismo #simplicidad #malicia #acompanamiento">
             <speaker>TODOS</speaker>
             <l part="I">¡Al monte, al valle!</l>
           </sp>
@@ -1639,7 +1707,8 @@
             <l n="855">vencido el monstruo, podéis</l>
             <l part="I">volver.</l>
           </sp>
-          <sp who="#sinagoga #musicos #gentilismo #simplicidad #malicia #apostasia #judaismo #idolatria #mundo #gentilismo #pan">
+          <sp
+            who="#sinagoga #musicos #gentilismo #simplicidad #malicia #apostasia #judaismo #idolatria #mundo #gentilismo #pan">
             <speaker>TODOS</speaker>
             <l part="F">Primero a tus plantas.</l>
           </sp>
@@ -1738,7 +1807,8 @@
             <l n="905">remitiendo al regocijo</l>
             <l>la contienda de los tres.</l>
           </sp>
-          <sp who="#sinagoga #musicos #gentilismo #malicia #idolatria #pan #mundo #judaismo #apostasia #gentilismo #luna">
+          <sp
+            who="#sinagoga #musicos #gentilismo #malicia #idolatria #pan #mundo #judaismo #apostasia #gentilismo #luna">
             <speaker>TODOS</speaker>
             <l part="I">Bien dijo.</l>
           </sp>
@@ -2840,7 +2910,13 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="33">
-          <stage>De los carros, que han de ser dos jardines, salen divididos en dos coros los Músicos, y del uno una Pastora, trayendo en una fuente un vellón blanco y negro, y detrás la Apostasía; y tras él la Sinagoga con otra fuente, y un vellón en ella blanco, y tras ella el Judaísmo. Del otro carro sale la Idolatría con otra fuente, y otro vellón cuajado de oro, y tras ella la Gentilidad; después la Simpleza con otra fuente y otro vellón cuajado de flores, y detrás Pan; y canta la Música mientras bajan todos al tablado</stage>
+          <stage>De los carros, que han de ser dos jardines, salen divididos en dos coros los
+            Músicos, y del uno una Pastora, trayendo en una fuente un vellón blanco y negro, y
+            detrás la Apostasía; y tras él la Sinagoga con otra fuente, y un vellón en ella blanco,
+            y tras ella el Judaísmo. Del otro carro sale la Idolatría con otra fuente, y otro vellón
+            cuajado de oro, y tras ella la Gentilidad; después la Simpleza con otra fuente y otro
+            vellón cuajado de flores, y detrás Pan; y canta la Música mientras bajan todos al
+            tablado</stage>
           <sp who="#coro-1">
             <speaker>CORO 1.º</speaker>
             <l>En parabién de que triunfe dichosa</l>
@@ -2869,7 +2945,8 @@
             <l n="1445">y todos contentos, ufanos y alegres</l>
             <l>la traen sus ofrendas.</l>
           </sp>
-          <sp who="#musicos #gentilismo #idolatria #zagal-1 #malicia #apostasia #gentilismo #judaismo #demonio #simplicidad #noche #acompanamiento #pan #luna #mundo #coro-1 #coro-2">
+          <sp
+            who="#musicos #gentilismo #idolatria #zagal-1 #malicia #apostasia #gentilismo #judaismo #demonio #simplicidad #noche #acompanamiento #pan #luna #mundo #coro-1 #coro-2">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Y en parabién de que triunfe dichosa</l>
             <l>repiten que viva, que reine y que venza.</l>
@@ -3126,7 +3203,8 @@
             <l n="1640">No abandono, que antes creo</l>
             <l>que en uno a los tres ilustro.</l>
           </sp>
-          <sp who="#musicos #idolatria #zagal-1 #simplicidad #noche #acompanamiento #coro-1 #coro-2 #gentilismo #pan #apostasia #judaismo #mundo">
+          <sp
+            who="#musicos #idolatria #zagal-1 #simplicidad #noche #acompanamiento #coro-1 #coro-2 #gentilismo #pan #apostasia #judaismo #mundo">
             <speaker>TODOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
@@ -3275,7 +3353,8 @@
             <speaker>OTROS</speaker>
             <l part="I">¡Al monte, al valle!</l>
           </sp>
-          <sp who="#luna #idolatria #zagal-1 #noche #coro-1 #coro-2 #gentilismo #apostasia #judaismo #mundo #pan #musicos #simplicidad #acompanamiento">
+          <sp
+            who="#luna #idolatria #zagal-1 #noche #coro-1 #coro-2 #gentilismo #apostasia #judaismo #mundo #pan #musicos #simplicidad #acompanamiento">
             <speaker>LUNA Y TODOS</speaker>
             <l part="F">¿Qué es esto?</l>
           </sp>
@@ -3312,7 +3391,8 @@
             <speaker>GENTILISMO</speaker>
             <l part="M">¡Al monte!</l>
           </sp>
-          <sp who="#idolatria #zagal-1 #noche #coro-1 #coro-2 #mundo #pan #musicos #simplicidad #acompanamiento #malicia #demonio #judaismo #apostasia #gentilismo">
+          <sp
+            who="#idolatria #zagal-1 #noche #coro-1 #coro-2 #mundo #pan #musicos #simplicidad #acompanamiento #malicia #demonio #judaismo #apostasia #gentilismo">
             <speaker>TODOS</speaker>
             <l n="1715" part="F">¡Al valle!</l>
           </sp>
@@ -3326,7 +3406,8 @@
             <l>pues ya el ganado es de otro,</l>
             <l>que sea el peligro nuestro.</l>
           </sp>
-          <sp who="#idolatria #zagal-1 #noche #coro-1 #coro-2 #gentilismo #pan #musicos #simplicidad #acompanamiento #malicia #demonio #apostasia #mundo #judaismo">
+          <sp
+            who="#idolatria #zagal-1 #noche #coro-1 #coro-2 #gentilismo #pan #musicos #simplicidad #acompanamiento #malicia #demonio #apostasia #mundo #judaismo">
             <speaker>TODOS</speaker>
             <l part="I">Muera él por ella.</l>
           </sp>
@@ -3674,7 +3755,8 @@
             <l>habrá de ser de tu muerte</l>
             <l>el más penoso instrumento.</l>
           </sp>
-          <stage>Levanta el golpe para él y da a la Sinagoga, que estará detrás, y caen ambos</stage>
+          <stage>Levanta el golpe para él y da a la Sinagoga, que estará detrás, y caen
+            ambos</stage>
           <sp who="#pan">
             <speaker>PAN</speaker>
             <l>En tus manos, Padre mío,</l>
@@ -3837,7 +3919,8 @@
             <l>al pasar segunda vez,</l>
             <l n="1930">se van mostrando los cielos.</l>
           </sp>
-          <sp who="#coro-1 #coro-2 #musicos #sinagoga #idolatria #apostasia #simplicidad #malicia #acompanamiento #gentilismo #demonio #judaismo #noche #luna #mundo">
+          <sp
+            who="#coro-1 #coro-2 #musicos #sinagoga #idolatria #apostasia #simplicidad #malicia #acompanamiento #gentilismo #demonio #judaismo #noche #luna #mundo">
             <speaker>TODOS</speaker>
             <l>Dulces músicas lo digan…</l>
           </sp>
@@ -3943,7 +4026,8 @@
             <speaker>PAN</speaker>
             <l n="1985" part="F">Ahora mira</l>
             <l>la nube que trujo al suelo,</l>
-            <stage type="object">Descúbrese en la nube que bajó la Luna la cordera blanca entre flores</stage>
+            <stage type="object">Descúbrese en la nube que bajó la Luna la cordera blanca entre
+              flores</stage>
             <l>en metáfora de Luna,</l>
             <l>al Alma: ¿qué miras dentro?</l>
           </sp>
@@ -3959,7 +4043,8 @@
             <l>y aquella cordera luego</l>
             <l>la que el Levítico manda</l>
             <l>llevar sin manchas al Templo,</l>
-            <stage>Vuélvense los sacrificios, y vese en el de la cordera la imagen de la Concepción y en el del cordero un cáliz y hostia</stage>
+            <stage>Vuélvense los sacrificios, y vese en el de la cordera la imagen de la Concepción
+              y en el del cordero un cáliz y hostia</stage>
             <l n="1995">mira lo que significan,</l>
             <l>siendo en vino y pan yo mesmo</l>
             <l>cordero sacrificado,</l>
@@ -4011,7 +4096,8 @@
             <l>Y sea pidiendo perdón,</l>
             <l>diciendo todos a un tiempo...</l>
           </sp>
-          <sp who="#coro-1 #coro-2 #musicos #gentilismo #sinagoga #idolatria #malicia #acompanamiento #demonio #judaismo #noche #fe #nino #apostasia #pan #luna #mundo #simplicidad">
+          <sp
+            who="#coro-1 #coro-2 #musicos #gentilismo #sinagoga #idolatria #malicia #acompanamiento #demonio #judaismo #noche #fe #nino #apostasia #pan #luna #mundo #simplicidad">
             <speaker>TODOS</speaker>
             <l n="2025">…divinas y humanas letras</l>
             <l>desengañen el concepto</l>

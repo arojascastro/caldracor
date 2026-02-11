@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000032" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-30">
           <time when="19:39:43"/>
@@ -35,9 +36,14 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-nave-del-mercader--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-nave-del-mercader--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de la Barca, Pedro, La nave del mercader, ed. Ignacio Arellano, con la colaboración de Blanca Oteiza, Mª Carmen Pinillos, Juan Manuel Escudero y Ana Armendáriz, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1996. ISBN: 3-930700-58-1.</title>
+            <title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de
+              la Barca, Pedro, La nave del mercader, ed. Ignacio Arellano, con la colaboración de
+              Blanca Oteiza, Mª Carmen Pinillos, Juan Manuel Escudero y Ana Armendáriz,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1996. ISBN:
+              3-930700-58-1.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,51 +53,98 @@
         <listPerson>
           <person xml:id="culpa" sex="FEMALE">
             <persName>La Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="mundo" sex="MALE">
             <persName>El Mundo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="demonio" sex="MALE">
             <persName>El Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="lascivia" sex="FEMALE">
             <persName>La Lascivia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="hombre" sex="MALE">
             <persName>El Hombre</persName>
             <trait source="castlist">
               <desc>adán</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="mercader" sex="MALE">
             <persName>El Mercader</persName>
+            <idno type="wikidata">Q302</idno>
             <trait source="castlist">
               <desc>adán</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="memoria" sex="FEMALE">
             <persName>La Memoria</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="voluntad" sex="FEMALE">
             <persName>La Voluntad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="entendimiento" sex="MALE">
             <persName>El Entendimiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp xml:id="los-cinco-sentidos" sex="MALE">
             <persName>Los Cinco Sentidos</persName>
           </personGrp>
           <person xml:id="primera" sex="MALE">
             <persName>Primera [vista]</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="deseo" sex="MALE">
             <persName>El Deseo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="amor" sex="MALE">
             <persName>El Amor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="tiempo" sex="MALE">
             <persName>El Tiempo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -104,17 +157,20 @@
           <term source="#kroll" type="main">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -126,7 +182,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000032" passive="http://www.wikidata.org/entity/Q69033759"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000032"
+        passive="http://www.wikidata.org/entity/Q69033759"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -156,7 +213,8 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suena un clarín en la nave negra, y dando vuelta se ve en la proa la CULPA con espada, plumas y bengala, y algunos de marineros.</stage>
+          <stage>Suena un clarín en la nave negra, y dando vuelta se ve en la proa la CULPA con
+            espada, plumas y bengala, y algunos de marineros.</stage>
           <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Suene el clarín y corte</l>
@@ -375,7 +433,8 @@
             <l>que a mi voz se despedaza</l>
             <l part="I">yace?</l>
           </sp>
-          <stage>Ábrese el peñasco y vese en él el HOMBRE vestido de pieles, dormido, y el DESEO, despierto.</stage>
+          <stage>Ábrese el peñasco y vese en él el HOMBRE vestido de pieles, dormido, y el DESEO,
+            despierto.</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l n="155" part="F">Un hombre, que rendido</l>
@@ -454,7 +513,8 @@
             <l>pedazo es de cielo. ¿Quién</l>
             <l part="I">en él está?</l>
           </sp>
-          <stage>Ábrese la nube y vese en ella el MERCADER vestido de armenio, dormido, y el AMOR, despierto.</stage>
+          <stage>Ábrese la nube y vese en ella el MERCADER vestido de armenio, dormido, y el AMOR,
+            despierto.</stage>
           <sp who="#mundo">
             <speaker>MUNDO</speaker>
             <l part="F">A lo que miro</l>
@@ -1232,7 +1292,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Salen los cinco SENTIDOS, que han de hacer los músicos, y trae la primera una salvilla con un bolso en ella.</stage>
+          <stage>Salen los cinco SENTIDOS, que han de hacer los músicos, y trae la primera una
+            salvilla con un bolso en ella.</stage>
           <sp who="#música">
             <speaker>MÚSICOS</speaker>
             <l n="655">Responde,Vista, por todos,</l>
@@ -1426,7 +1487,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Sale la MEMORIA con una salvilla y en ella un anillo; la VOLUNTAD con otra, y en ella un corazón; el ENTENDIMIENTO con otra, y en ella un cintillo.</stage>
+          <stage>Sale la MEMORIA con una salvilla y en ella un anillo; la VOLUNTAD con otra, y en
+            ella un corazón; el ENTENDIMIENTO con otra, y en ella un cintillo.</stage>
           <sp who="#voluntad">
             <speaker>VOLUNTAD</speaker>
             <l n="745">Entrando sobre ese aviso</l>
@@ -1614,7 +1676,8 @@
             <l>que están en su mano virtudes y vicios,</l>
             <l>y vale un talento los tres y los cinco.</l>
           </sp>
-          <stage>Suena en la nave blanca un clarín, y dando vuelta se ven en ella el MERCADER, y otros de marineros, y el AMOR.</stage>
+          <stage>Suena en la nave blanca un clarín, y dando vuelta se ven en ella el MERCADER, y
+            otros de marineros, y el AMOR.</stage>
           <sp who="#mercader">
             <speaker>MERCADER</speaker>
             <l n="835">Suene el clarín y al aliento</l>
@@ -1976,7 +2039,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Reclínase en sus brazos y mientras él está representando, ella le quita el corazón del pecho.</stage>
+          <stage>Reclínase en sus brazos y mientras él está representando, ella le quita el corazón
+            del pecho.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Muerta beldad a quien llego</l>
@@ -2531,7 +2595,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Salen los MÚSICOS y, entre ellos, el DEMONIO, y luego la LASCIVIA, hablando los dos aparte.</stage>
+          <stage>Salen los MÚSICOS y, entre ellos, el DEMONIO, y luego la LASCIVIA, hablando los dos
+            aparte.</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l part="I">Lascivia.</l>
@@ -2914,7 +2979,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Al entrarse salen el DEMONIO con una copa dorada y el MUNDO de villano con un azafate de frutas.</stage>
+          <stage>Al entrarse salen el DEMONIO con una copa dorada y el MUNDO de villano con un
+            azafate de frutas.</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Aquí</l>
@@ -3055,7 +3121,8 @@
             <l>pero ídolo inmóvil, que ni hable, ni escuche,</l>
             <l>ni vea, ni toque, ni huela, ni guste.</l>
           </sp>
-          <stage>El terremoto y las voces todo junto, yéndose todos, y saliendo el TIEMPO como asustado.</stage>
+          <stage>El terremoto y las voces todo junto, yéndose todos, y saliendo el TIEMPO como
+            asustado.</stage>
           <sp who="#tiempo">
             <speaker>TIEMPO</speaker>
             <l n="1675">¿«Hombre en pecado no solo</l>
@@ -3434,7 +3501,8 @@
             <stage>Dentro.</stage>
             <l part="F">Tierra, tierra.</l>
           </sp>
-          <stage>Dan vuelta ambas naves a un tiempo y vese en la una la CULPA y otros y en la otra el MERCADER y el AMOR.</stage>
+          <stage>Dan vuelta ambas naves a un tiempo y vese en la una la CULPA y otros y en la otra
+            el MERCADER y el AMOR.</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Las voces del calabozo</l>
@@ -4160,7 +4228,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="35">
-          <stage>Vanse los dos y salen en tropa SENTIDOS y POTENCIAS, y el TIEMPO los detiene.</stage>
+          <stage>Vanse los dos y salen en tropa SENTIDOS y POTENCIAS, y el TIEMPO los
+            detiene.</stage>
           <sp who="#amor #los-cinco-sentidos #memoria #voluntad #entendimiento">
             <speaker>TODOS</speaker>
             <l>Sigámosle, que sin duda</l>
@@ -4383,7 +4452,8 @@
             <l>ya en vuestras consonancias</l>
             <l>ha llegado la hora</l>
             <l>de consumar la paga.</l>
-            <stage>Con voz más entera sale arrojando la cadena y abriendo la cárcel con manto encarnado.</stage>
+            <stage>Con voz más entera sale arrojando la cadena y abriendo la cárcel con manto
+              encarnado.</stage>
             <l>Y así deste sepulcro</l>
             <l n="2295">abriendo yo la estancia</l>
             <l>y rompiendo cadenas,</l>
@@ -4497,7 +4567,8 @@
             <l>esas perdidas alhajas</l>
             <l>viendo pagadas tus deudas.</l>
           </sp>
-          <sp who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #lascivia #mundo #demonio #hombre">
+          <sp
+            who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #lascivia #mundo #demonio #hombre">
             <speaker>TODOS</speaker>
             <l>Hasta ahora no están pagadas.</l>
           </sp>
@@ -4594,7 +4665,8 @@
             <l>rinda el Mundo vida y alma.</l>
             <stage>Dale la sortija.</stage>
           </sp>
-          <sp who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #mundo #mercader #hombre">
+          <sp
+            who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #mundo #mercader #hombre">
             <speaker>TODOS</speaker>
             <l n="2420">¿Qué esperamos, cuando todo</l>
             <l>el mundo se ve a sus plantas?</l>
@@ -4620,7 +4692,8 @@
             <l>Pues en tanto repitamos</l>
             <l>todos en sus alabanzas...</l>
           </sp>
-          <sp who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #mundo #mercader #hombre #música">
+          <sp
+            who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #mundo #mercader #hombre #música">
             <speaker>TODOS Y MÚSICOS</speaker>
             <l>La nave del mercader,</l>
             <l n="2435">que de su trigo cargada</l>

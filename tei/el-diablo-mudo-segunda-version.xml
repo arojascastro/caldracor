@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000010" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-06">
           <time when="15:25:17"/>
@@ -35,9 +36,11 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-diablo-mudo-segunda-version--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-diablo-mudo-segunda-version--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de C.C. García Valdés, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1999.</title>
+            <title>Edición digital a partir de la edición de C.C. García Valdés, Pamplona,
+              Universidad de Navarra ; Kassel, Reichenberger, 1999.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,27 +50,52 @@
         <listPerson>
           <person xml:id="hombre" sex="MALE">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="demonio" sex="MALE">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="apetito" sex="MALE">
             <persName>Apetito</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="conocimiento" sex="MALE">
             <persName>Conocimiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="amor" sex="MALE">
             <persName>Amor</persName>
             <trait source="castlist">
               <desc>peregrino</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="judaísmo" sex="MALE">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="ángeles" sex="MALE">
             <persName>Ángeles</persName>
@@ -77,21 +105,39 @@
             <trait source="castlist">
               <desc>peregrino</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="naturaleza-humana" sex="FEMALE">
             <persName>Naturaleza Humana</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="penitencia" sex="FEMALE">
             <persName>Penitencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="fee" sex="FEMALE">
             <persName>La Fee</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="naturaleza-divina" sex="FEMALE">
             <persName>Naturaleza Divina</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="gentilidad" sex="FEMALE">
             <persName>Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -100,17 +146,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -247,7 +296,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Apártanse los dos a un lado atendiendo a la NATURALEZA HUMANA, que sale suelto el cabello, a medio vestir y desaliñada, representando como con llanto y lástima.</stage>
+          <stage>Apártanse los dos a un lado atendiendo a la NATURALEZA HUMANA, que sale suelto el
+            cabello, a medio vestir y desaliñada, representando como con llanto y lástima.</stage>
           <sp who="#naturaleza-humana">
             <speaker>NATURALEZA HUMANA</speaker>
             <l>Hermosa fábrica altiva,</l>
@@ -674,7 +724,8 @@
             <l>Tu imagen, Hombre, es aquesta:</l>
             <l part="I">mírate en ella.</l>
           </sp>
-          <stage>Quita la banda y vese una muerte en el espejo, y, al irse a ver, el HOMBRE representa como ciego.</stage>
+          <stage>Quita la banda y vese una muerte en el espejo, y, al irse a ver, el HOMBRE
+            representa como ciego.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l part="F">No puedo.</l>
@@ -862,7 +913,8 @@
             <l>y si a andar, es tan a ciegas</l>
             <l>que tropezando en su sombra</l>
             <l>es su sombra cuanto encuentra.</l>
-            <stage> Haciendo las acciones que dicen los versos, pasa tropezando del CONOCIMIENTO sin tocar en él. </stage>
+            <stage> Haciendo las acciones que dicen los versos, pasa tropezando del CONOCIMIENTO sin
+              tocar en él. </stage>
           </sp>
           <sp who="#conocimiento">
             <speaker>CONOCIMIENTO</speaker>
@@ -1044,7 +1096,11 @@
             <l>Bendígante, Señor, tus obras mesmas.</l>
             <l n="500">Ten del Hombre piedad, de mí clemencia.</l>
           </sp>
-          <stage>A esta última repetición suenan las chirimías, y después, cuando lo dicen los versos, se abre un globo celeste, que será uno de los carros, arrojando de sí hasta el tablado una escala con Ángeles en acción de bajar por ella, y en lo alto se ve, en un trono de resplandores, la NATURALEZA DIVINA la cual por las canales de elevación ha de bajar al tablado cuando lo dicen los versos.</stage>
+          <stage>A esta última repetición suenan las chirimías, y después, cuando lo dicen los
+            versos, se abre un globo celeste, que será uno de los carros, arrojando de sí hasta el
+            tablado una escala con Ángeles en acción de bajar por ella, y en lo alto se ve, en un
+            trono de resplandores, la NATURALEZA DIVINA la cual por las canales de elevación ha de
+            bajar al tablado cuando lo dicen los versos.</stage>
           <sp who="#fee">
             <speaker>FEE</speaker>
             <l>Oye, que a la aclamación,</l>
@@ -1173,7 +1229,10 @@
             <l>el oro engendra del mejor Ofir.</l>
             <stage> Cantado. </stage>
           </sp>
-          <stage>Ábrese el otro carro, que será un globo terrestre, y vese en él sentado en otro trono de flores el AMOR, de PEREGRINO, la mano en la mejilla, como dormido; y, en elevación también de canales, baja a su tiempo por otra escala, cuyos Ángeles estarán en acción de subir.</stage>
+          <stage>Ábrese el otro carro, que será un globo terrestre, y vese en él sentado en otro
+            trono de flores el AMOR, de PEREGRINO, la mano en la mejilla, como dormido; y, en
+            elevación también de canales, baja a su tiempo por otra escala, cuyos Ángeles estarán en
+            acción de subir.</stage>
           <sp who="#naturaleza-humana">
             <speaker>NATURALEZA HUMANA</speaker>
             <l>Ya veo que un Peregrino,</l>
@@ -1246,7 +1305,9 @@
             <l n="650">que Peregrino Amor dispuso a unir.</l>
             <stage> Cantado. </stage>
           </sp>
-          <stage>Tocan las chirimías y llegan los dos al tablado, y tomando el PEREGRINO de la mano a la NATURALEZA DIVINA se acerca a la HUMANA; ella se retira con temor y reverencia, y los tres aparte están a la mira.</stage>
+          <stage>Tocan las chirimías y llegan los dos al tablado, y tomando el PEREGRINO de la mano
+            a la NATURALEZA DIVINA se acerca a la HUMANA; ella se retira con temor y reverencia, y
+            los tres aparte están a la mira.</stage>
           <sp who="#conocimiento">
             <speaker>CONOCIMIENTO</speaker>
             <l part="I">Penitencia, ¿qué ves?</l>
@@ -1374,7 +1435,8 @@
             <l>y todos diciendo sea</l>
             <l>en la hipostática unión</l>
             <l n="720">de entrambas Naturalezas:</l>
-            <stage> En medio de las dos, abrazando a entrambas.  A la DIVINA.  A la HUMANA.  A la DIVINA.   A la HUMANA. </stage>
+            <stage> En medio de las dos, abrazando a entrambas.  A la DIVINA.  A la HUMANA.  A la
+              DIVINA.   A la HUMANA. </stage>
           </sp>
           <sp who="#peregrino #música">
             <speaker>ÉL Y MÚSICA</speaker>
@@ -1391,7 +1453,8 @@
             <l>no bien informados de ellas,</l>
             <l>unos a poner calumnias,</l>
             <l n="730">otros a dar obediencias.</l>
-            <stage> Quítala unos volantes que habrá traído por manto la NATURALEZA HUMANA y póneselo en el rostro la DIVINA. </stage>
+            <stage> Quítala unos volantes que habrá traído por manto la NATURALEZA HUMANA y póneselo
+              en el rostro la DIVINA. </stage>
           </sp>
           <sp who="#naturaleza-divina">
             <speaker>NATURALEZA DIVINA</speaker>
@@ -1493,7 +1556,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Salen oyendo esta repetición de un carro el JUDAÍSMO y de otro la GENTILIDAD.</stage>
+          <stage>Salen oyendo esta repetición de un carro el JUDAÍSMO y de otro la
+            GENTILIDAD.</stage>
           <sp who="#judaísmo">
             <speaker>JUDAÍSMO</speaker>
             <l>Sea a Dios gloria en el cielo.</l>
@@ -1740,7 +1804,8 @@
             <l>de su peligro previene</l>
             <l>avisar; llegar conviene</l>
             <l>a socorrerle; ya estás</l>
-            <stage>Sale el HOMBRE como despeñándose y da en sus brazos haciendo los estremos que dicen los versos.</stage>
+            <stage>Sale el HOMBRE como despeñándose y da en sus brazos haciendo los estremos que
+              dicen los versos.</stage>
             <l n="905">en mis brazos, ya podrás</l>
             <l>asegurar la caída;</l>
             <l>hombre no he visto en mi vida</l>
@@ -2190,7 +2255,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Con estos versos salen el PEREGRINO, la NATURALEZA DIVINA con el velo, a mano derecha, y la HUMANA, a la izquierda; la FEE y la PENITENCIA y algunos MÚSICOS.</stage>
+          <stage>Con estos versos salen el PEREGRINO, la NATURALEZA DIVINA con el velo, a mano
+            derecha, y la HUMANA, a la izquierda; la FEE y la PENITENCIA y algunos MÚSICOS.</stage>
           <sp who="#peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Id en paz y por ahora</l>
@@ -2401,7 +2467,8 @@
             <l n="1265">recebirle y festejarle</l>
             <l>como a tal; de aquesos güertos</l>
             <l>arrancad palmas y olivas</l>
-            <stage>Hacen él y todos lo que dicen los versos, y el PEREGRINO pasa pisando los mantos y ramos con las dos NATURALEZAS a sus lados.</stage>
+            <stage>Hacen él y todos lo que dicen los versos, y el PEREGRINO pasa pisando los mantos
+              y ramos con las dos NATURALEZAS a sus lados.</stage>
             <l>y todos a sus pies puestos</l>
             <l>alfombras haced los mantos,</l>
             <l n="1270">y su venida aplaudiendo</l>
@@ -2455,7 +2522,8 @@
             <l>Bendito sea el que viene</l>
             <l n="1290">en el nombre del Señor.</l>
           </sp>
-          <stage>Con esta repetición se van el PEREGRINO y las dos NATURALEZAS y su CORO, con majestad y aparato de música y chirimías.</stage>
+          <stage>Con esta repetición se van el PEREGRINO y las dos NATURALEZAS y su CORO, con
+            majestad y aparato de música y chirimías.</stage>
           <sp who="#conocimiento">
             <speaker>CONOCIMIENTO</speaker>
             <l>Mientras la aclamación sigue,</l>
@@ -2910,7 +2978,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="27">
-          <stage>Sale el APETITO y otros huyendo del HOMBRE, que viene haciendo los estremos que primero.</stage>
+          <stage>Sale el APETITO y otros huyendo del HOMBRE, que viene haciendo los estremos que
+            primero.</stage>
           <sp who="#ángeles #amor #conocimiento #fee #penitencia">
             <speaker>TODOS</speaker>
             <l n="1475">Huid todos de sus iras.</l>
@@ -3131,7 +3200,8 @@
             <l>que no hay cristal puro y terso</l>
             <l>que al Hombre mejor retrate.</l>
           </sp>
-          <stage>Hace que le da con el polvo en los ojos y él los abre y, retirándose con admiración, da con la PENITENCIA.</stage>
+          <stage>Hace que le da con el polvo en los ojos y él los abre y, retirándose con
+            admiración, da con la PENITENCIA.</stage>
           <sp who="#conocimiento">
             <speaker>CONOCIMIENTO</speaker>
             <l>Hombre, quién eres te acuerdo;</l>
@@ -3308,7 +3378,8 @@
             <l n="1655" part="F">Baste</l>
             <l>que ella lo dijese, ¡ay triste!</l>
           </sp>
-          <sp who="#hombre #fee #naturaleza-humana #demonio #judaísmo #gentilidad #apetito #peregrino #música">
+          <sp
+            who="#hombre #fee #naturaleza-humana #demonio #judaísmo #gentilidad #apetito #peregrino #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Beato el vientre en que anduviste</l>
             <l>y los pechos que mamaste.</l>
@@ -3425,7 +3496,14 @@
             <l part="I">lo sea.</l>
             <stage> Empuña la espada.  </stage>
           </sp>
-          <stage>Quítale el báculo y al arbolarle forma una cruz en el aire; la NATURALEZA HUMANA se pone en medio, con que ejecutando en ella el golpe cai en brazos del PEREGRINO desmayada, y él arrodilla con ella ensangrentándose rostro y manos en su herida; la NATURALEZA DIVINA, a todo esto, se está suspensa y elevada; y el PEREGRINO, como con ansias de muerte, cayendo y levantando, toma una punta del velo con que la NATURALEZA DIVINA tiene cubierto el rostro y se va desplegando el velo a tiempo que la NATURALEZA HUMANA toma la otra punta, de suerte que se vea la DIVINA entre los dos, pendiente de ambos, descubierto el rostro.</stage>
+          <stage>Quítale el báculo y al arbolarle forma una cruz en el aire; la NATURALEZA HUMANA se
+            pone en medio, con que ejecutando en ella el golpe cai en brazos del PEREGRINO
+            desmayada, y él arrodilla con ella ensangrentándose rostro y manos en su herida; la
+            NATURALEZA DIVINA, a todo esto, se está suspensa y elevada; y el PEREGRINO, como con
+            ansias de muerte, cayendo y levantando, toma una punta del velo con que la NATURALEZA
+            DIVINA tiene cubierto el rostro y se va desplegando el velo a tiempo que la NATURALEZA
+            HUMANA toma la otra punta, de suerte que se vea la DIVINA entre los dos, pendiente de
+            ambos, descubierto el rostro.</stage>
           <sp who="#naturaleza-humana">
             <speaker>NATURALEZA HUMANA</speaker>
             <l part="F">¿Qué haces, monstruo fiero?</l>
@@ -3623,7 +3701,8 @@
             <l>que para actuales culpas</l>
             <l>no le ha llegado el remedio.</l>
           </sp>
-          <stage>Ábrese un peñasco y vese en él el PEREGRINO, de gala, con manto encarnado y bandera de Resurrección.</stage>
+          <stage>Ábrese un peñasco y vese en él el PEREGRINO, de gala, con manto encarnado y bandera
+            de Resurrección.</stage>
           <sp who="#peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Sí ha llegado, pues le quedan</l>
@@ -3639,7 +3718,8 @@
             <speaker>DEMONIO</speaker>
             <l>¿Qué tesoros esos son?</l>
           </sp>
-          <stage>Ábrese otro peñasco y vese en él la NATURALEZA DIVINA con la cruz que formó el bordón en una mano y en otra Cáliz y Hostia.</stage>
+          <stage>Ábrese otro peñasco y vese en él la NATURALEZA DIVINA con la cruz que formó el
+            bordón en una mano y en otra Cáliz y Hostia.</stage>
           <sp who="#naturaleza-divina">
             <speaker>NATURALEZA DIVINA</speaker>
             <l>Los de siete sacramentos,</l>
@@ -3732,7 +3812,8 @@
             <l>todos a sus plantas puestos:</l>
             <l n="1865">A tan alto Sacramento.</l>
           </sp>
-          <sp who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
+          <sp
+            who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>A tan alto Sacramento.</l>
           </sp>
@@ -3740,7 +3821,8 @@
             <speaker>FEE</speaker>
             <l>Venere el mundo rendido.</l>
           </sp>
-          <sp who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
+          <sp
+            who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Venere el mundo rendido.</l>
           </sp>
@@ -3748,7 +3830,8 @@
             <speaker>FEE</speaker>
             <l>Y el Antiguo Documento.</l>
           </sp>
-          <sp who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
+          <sp
+            who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
             <speaker>MÚSICA Y TODOS</speaker>
             <l n="1870">Y el Antiguo Documento.</l>
           </sp>
@@ -3756,7 +3839,8 @@
             <speaker>FEE</speaker>
             <l>Ceda al Nuevo Testamento.</l>
           </sp>
-          <sp who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
+          <sp
+            who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Ceda al Nuevo Testamento.</l>
           </sp>
@@ -3764,7 +3848,8 @@
             <speaker>FEE</speaker>
             <l>Supliendo la Fee al sentido.</l>
           </sp>
-          <sp who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
+          <sp
+            who="#música #hombre #naturaleza-humana #apetito #gentilidad #penitencia #conocimiento">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Supliendo la Fee al Sentido.</l>
           </sp>

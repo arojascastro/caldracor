@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000061" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-30">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Apolo y Climene. En: Comedias, Vol. 4. Dirección de Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, Apolo y Climene. En: Comedias, Vol. 4. Dirección de
+            Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José Antonio de Castro,
+            2010</title>
           <idno type="ISBN">978-84-96452-89-3</idno>
         </bibl>
       </sourceDesc>
@@ -48,26 +51,42 @@
         <listPerson>
           <person xml:id="apolo" sex="MALE">
             <persName>Apolo</persName>
+            <idno type="wikidata">Q37340</idno>
             <trait source="#calderondigital">
               <desc>dios</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="climene" sex="FEMALE">
             <persName>Climene</persName>
+            <idno type="wikidata">Q836792</idno>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="céfiro" sex="MALE">
             <persName>Céfiro</persName>
+            <idno type="wikidata">Q467515</idno>
             <trait source="#calderondigital">
               <desc>enamorado</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="sátiro" sex="MALE">
             <persName>Sátiro</persName>
+            <idno type="wikidata">Q163709</idno>
             <trait source="#calderondigital">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="admeto" sex="MALE">
@@ -75,11 +94,17 @@
             <trait source="#calderondigital">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cintia" sex="FEMALE">
             <persName>Cintia</persName>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="lesbia" sex="FEMALE">
@@ -87,17 +112,27 @@
             <trait source="#calderondigital">
               <desc>ninfa</desc>
             </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
             </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="clicie" sex="FEMALE">
             <persName>Clicie</persName>
+            <idno type="wikidata">Q866674</idno>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="erídano" sex="MALE">
@@ -105,23 +140,37 @@
             <trait source="#calderondigital">
               <desc>mayoral</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fitón" sex="MALE">
             <persName>Fitón</persName>
             <trait source="#calderondigital">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mercurio" sex="MALE">
             <persName>Mercurio</persName>
+            <idno type="wikidata">Q1150</idno>
             <trait source="#calderondigital">
               <desc>dios</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="iris" sex="FEMALE">
             <persName>Iris</persName>
+            <idno type="wikidata">Q184570</idno>
             <trait source="#calderondigital">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-primero">
@@ -132,6 +181,9 @@
           </personGrp>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -140,17 +192,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -191,7 +246,11 @@
     <body>
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
-        <stage>A los primeros versos que se dicen dentro sale Céfiro galán y atravesando el tablado como a obscuras, se entra por la boca de una gruta, llevandose tras sí un bastidor de yerba, con que quedará cerrada, uniéndose con lo demás del teatro; y salen después por una parte Climene, y por otra Lesbia, Cintia, Clicie, y Flora, con arcos y flechas y luces.</stage>
+        <stage>A los primeros versos que se dicen dentro sale Céfiro galán y atravesando el tablado
+          como a obscuras, se entra por la boca de una gruta, llevandose tras sí un bastidor de
+          yerba, con que quedará cerrada, uniéndose con lo demás del teatro; y salen después por una
+          parte Climene, y por otra Lesbia, Cintia, Clicie, y Flora, con arcos y flechas y
+          luces.</stage>
         <div type="scene" resp="#rojas" n="1">
           <sp who="#climene">
             <speaker rend="caps">Climene</speaker>
@@ -513,7 +572,8 @@
 
             <l>¡A la gruta!</l>
             <l>¡A la fuente!</l>
-            <stage>Con esta repetición se entran todos y sale Sátiro, villano, armado ridículamente.</stage>
+            <stage>Con esta repetición se entran todos y sale Sátiro, villano, armado
+              ridículamente.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
@@ -561,7 +621,8 @@
             <l>con que dé todo el secreto</l>
             <l>al traste, si en él le encuentran,</l>
             <l>y es él por quien todos dicen…</l>
-            <stage>Dentro Céfiro, y sale después por un escotillón que estará abierto en el tablado a la parte contraria de la gruta.</stage>
+            <stage>Dentro Céfiro, y sale después por un escotillón que estará abierto en el tablado
+              a la parte contraria de la gruta.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
@@ -659,7 +720,8 @@
             <l>que yo manejo enmudezca</l>
             <l>y que enseñada a mis mañas</l>
             <l>a voces no diga…</l>
-            <stage>Al ir a levantar una como losa, disparan en lo alto un arcabuz, suena terremoto de truenos y caen los dos como asustados.</stage>
+            <stage>Al ir a levantar una como losa, disparan en lo alto un arcabuz, suena terremoto
+              de truenos y caen los dos como asustados.</stage>
           </sp>
           <sp who="#voz">
             <speaker rend="caps">Voz</speaker>
@@ -865,7 +927,8 @@
             <l>¿Qué region, qué patria, qué</l>
             <l>monte será el que en sus breñas</l>
             <l>me admita? Mas ¡ay de mí!,</l>
-            <stage>Cae en la boca de la mina y dice los últimos versos en lo bajo, a cuyo tiempo sale Climene y damas.</stage>
+            <stage>Cae en la boca de la mina y dice los últimos versos en lo bajo, a cuyo tiempo
+              sale Climene y damas.</stage>
             <l>que no sólo mis tragedias</l>
             <l>quieren que el cielo me falte,</l>
             <l>mas que me falte la tierra,</l>
@@ -1268,7 +1331,8 @@
             <l>y salir a ver adónde</l>
             <l>vine a dar?</l>
           </sp>
-          <stage>Sale al tablado. Climene aparta el lienzo y vuelve a cubrirse otra vez los ojos.</stage>
+          <stage>Sale al tablado. Climene aparta el lienzo y vuelve a cubrirse otra vez los
+            ojos.</stage>
           <sp who="#climene">
             <speaker rend="caps">Climene</speaker>
 
@@ -1507,7 +1571,7 @@
             <l>¿qué ha de temer a tus flechas?</l>
             <l>Dispara, pues.</l>
           </sp>
-            <stage>Al disparar se le cae el arco de la mano.</stage>
+          <stage>Al disparar se le cae el arco de la mano.</stage>
           <sp who="#climene">
             <speaker rend="caps">Climene</speaker>
 
@@ -2618,7 +2682,8 @@
       <div type="act" n="2">
         <head rend="caps">Jornada Segunda</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro [dicen] las primeras voces y salen luego los que pudieren con Climene, y damas por una parte, y por otra Admeto.</stage>
+          <stage>Dentro [dicen] las primeras voces y salen luego los que pudieren con Climene, y
+            damas por una parte, y por otra Admeto.</stage>
           <sp who="#todos">
             <speaker rend="caps">Todos</speaker>
             <stage type="withText">[dentro.]</stage>
@@ -2958,7 +3023,8 @@
             <l>que a estas montañas</l>
             <l>mejor sol amanece</l>
             <l>con mejor alba.</l>
-            <stage>Vanse bailando y cantando delante de Climene y sale Céfiro deteniendo a Flora.</stage>
+            <stage>Vanse bailando y cantando delante de Climene y sale Céfiro deteniendo a
+              Flora.</stage>
           </sp>
           <sp who="#céfiro">
             <speaker rend="caps">Céfiro</speaker>
@@ -3272,7 +3338,8 @@
             <l>Vaya.</l>
             <l>Veamos, como en baile, a un tiempo</l>
             <l>se representa y se canta.</l>
-            <stage>Representa Apolo, repite la música y bailan todos, haciendo compás entre copla y copla.</stage>
+            <stage>Representa Apolo, repite la música y bailan todos, haciendo compás entre copla y
+              copla.</stage>
           </sp>
           <sp who="#apolo">
             <speaker rend="caps">Apolo</speaker>
@@ -4853,7 +4920,8 @@
 
             <l>No en vano</l>
             <l>el cielo previno…</l>
-            <stage>Al irse a entrar, suenan allí unas voces y, volviendo a otra parte, otras.</stage>
+            <stage>Al irse a entrar, suenan allí unas voces y, volviendo a otra parte,
+              otras.</stage>
           </sp>
           <sp who="#unos">
             <speaker rend="caps">Unos</speaker>
@@ -6256,7 +6324,8 @@
             <l>¿A quién creeré, ¡ay, infelice!,</l>
             <l>si a un tiempo repiten todos,</l>
             <l>confundiendo tierra y cielo:</l>
-            <stage>Esta repetición se ha de decir cantando unos y representando otros, todo a un tiempo.</stage>
+            <stage>Esta repetición se ha de decir cantando unos y representando otros, todo a un
+              tiempo.</stage>
           </sp>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
@@ -6318,7 +6387,8 @@
             <l>librarla de tan penoso</l>
             <l>trance como es el dejarla</l>
             <l>o el llevarla?</l>
-            <stage>Da vuelta el peñasco y sale a las espaldas de él Fitón, viejo venerable, vestido de pieles, y vuelve la música a cantar.</stage>
+            <stage>Da vuelta el peñasco y sale a las espaldas de él Fitón, viejo venerable, vestido
+              de pieles, y vuelve la música a cantar.</stage>
           </sp>
           <sp who="#fitón">
             <speaker rend="caps">Fitón</speaker>
@@ -6424,7 +6494,8 @@
 
 
             <l>¡A tierra, a tierra!</l>
-            <stage>Escóndese Apolo y salen Admeto, Erídano, Sátiro, Céfiro, Flora y Clicie y pastores.</stage>
+            <stage>Escóndese Apolo y salen Admeto, Erídano, Sátiro, Céfiro, Flora y Clicie y
+              pastores.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
@@ -6969,7 +7040,8 @@
             <l>que, árbitro del sol hermoso,</l>
             <l>si te ve un golfo morir,</l>
             <l>te ve nacer otro golfo.</l>
-            <stage>Múdase el teatro y vese un palacio y en él Climene, como cayó desmayada, en uno como trono.</stage>
+            <stage>Múdase el teatro y vese un palacio y en él Climene, como cayó desmayada, en uno
+              como trono.</stage>
           </sp>
           <sp who="#apolo">
             <speaker rend="caps">Apolo</speaker>
@@ -7899,7 +7971,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Ábrese otra vez el peñasco y vese un jardín y en él Climene sentada y Apolo en su regazo y música.</stage>
+          <stage>Ábrese otra vez el peñasco y vese un jardín y en él Climene sentada y Apolo en su
+            regazo y música.</stage>
           <sp who="#apolo">
             <speaker rend="caps">Apolo</speaker>
 

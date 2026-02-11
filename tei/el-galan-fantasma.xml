@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000014" xml:lang="es">
   <teiHeader>
@@ -21,7 +21,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-20">
           <time when="14:37:25"/>
@@ -34,9 +35,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-galan-fantasma--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-galan-fantasma--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Segunda parte de Comedias de Don Pedro Calderón de la Barca, Madrid, Por María de Quiñónez, 1637. Localización: : Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title>Edición digital a partir de la Segunda parte de Comedias de Don Pedro Calderón de
+              la Barca, Madrid, Por María de Quiñónez, 1637. Localización: : Base de Datos Teatro
+              Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -49,11 +53,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="carlos" sex="MALE">
             <persName>Carlos</persName>
             <trait source="#calderondigital">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="duque" sex="MALE">
@@ -61,21 +71,33 @@
             <trait source="#calderondigital">
               <desc>duque</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="julia" sex="FEMALE">
             <persName>Julia</persName>
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="enrique" sex="MALE">
             <persName>Enrique</persName>
             <trait source="castlist"/>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="candil" sex="MALE">
             <persName>Candil</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
@@ -83,11 +105,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonelo" sex="MALE">
             <persName>Leonelo</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="otavio" sex="MALE">
@@ -95,11 +123,17 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="porcia" sex="FEMALE">
             <persName>Porcia</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lucrecia" sex="FEMALE">
@@ -107,9 +141,15 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -118,17 +158,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -143,7 +186,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000014" passive="http://www.wikidata.org/entity/Q16492315"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000014"
+        passive="http://www.wikidata.org/entity/Q16492315"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -1017,7 +1061,8 @@
             <speaker>ENRIQUE</speaker>
             <l> Pues oye, Laura, el papel: </l>
             <stage>Lee.</stage>
-            <p>Importa que esta noche con prudencia estorbéis a Astolfo que no salga de casa, porque le va no menos que la vida.</p>
+            <p>Importa que esta noche con prudencia estorbéis a Astolfo que no salga de casa, porque
+              le va no menos que la vida.</p>
           </sp>
           <sp who="#laura">
             <speaker>LAURA</speaker>
@@ -4693,7 +4738,7 @@
             <l> lo que hay en este jardín, </l>
             <l> hallándose Julia y Laura, </l>
             <l> Leonelo, el Duque y Candil. </l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
@@ -5289,7 +5334,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Va a entrar y al entrar sale CANDIL y encuéntranse, y vuelven los dos al tablado.</stage>
+          <stage>Va a entrar y al entrar sale CANDIL y encuéntranse, y vuelven los dos al
+            tablado.</stage>
           <sp who="#candil">
             <speaker>CANDIL</speaker>
             <l> Mejor fuera decirme mal llegado. </l>

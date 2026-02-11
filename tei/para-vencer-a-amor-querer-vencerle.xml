@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000146" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Para vencer a amor, querer vencerle. En: Comedias, Vol. 6. Dirección de Luis Iglesias Feijoo y José María Viña Liste. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, Para vencer a amor, querer vencerle. En: Comedias, Vol.
+            6. Dirección de Luis Iglesias Feijoo y José María Viña Liste. Madrid : Fundación José
+            Antonio de Castro, 2010</title>
           <idno type="ISBN">978-84-96452-96-1</idno>
         </bibl>
       </sourceDesc>
@@ -51,24 +54,39 @@
             <trait source="#calderondigital">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="carlos" sex="MALE">
             <persName>Don Carlos</persName>
             <trait source="#calderondigital">
               <desc>amigo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="emperador" sex="MALE">
             <persName>El Emperador</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ludovico" sex="MALE">
             <persName>Ludovico</persName>
             <trait source="castlist"/>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisardo" sex="MALE">
             <persName>Lisardo</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="celio" sex="MALE">
@@ -76,20 +94,32 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="espolón" sex="MALE">
             <persName>Espolón</persName>
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="barón" sex="MALE">
             <persName>Barón de Brisac</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="margarita" sex="FEMALE">
             <persName>Margarita</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="matilde" sex="FEMALE">
@@ -97,17 +127,26 @@
             <trait source="#calderondigital">
               <desc>enamorada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
             <persName>Leonor</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp xml:id="soldados" sex="MALE">
@@ -118,9 +157,15 @@
           </personGrp>
           <person xml:id="gente" sex="MALE">
             <persName>Gente</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -129,17 +174,20 @@
           <term source="dracor" type="genreTitle">comedia palatina</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -185,7 +233,8 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale César divertido, hablando consigo muy alegre; Carlos, Espolón, Celio y Lisardo, tras de él.</stage>
+          <stage>Sale César divertido, hablando consigo muy alegre; Carlos, Espolón, Celio y
+            Lisardo, tras de él.</stage>
           <sp who="#césar">
             <speaker rend="caps">César</speaker>
 
@@ -1349,7 +1398,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Suenan cajas y trompetas, y salen los soldados que pudieren; detrás, el barón de Brisac y el Emperador.</stage>
+          <stage>Suenan cajas y trompetas, y salen los soldados que pudieren; detrás, el barón de
+            Brisac y el Emperador.</stage>
           <sp who="#emperador">
             <speaker rend="caps">Emperador</speaker>
 
@@ -1593,7 +1643,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Tocan al arma, y salen don César, Espolón, Celio y Lisardo, vestidos de soldados.</stage>
+          <stage>Tocan al arma, y salen don César, Espolón, Celio y Lisardo, vestidos de
+            soldados.</stage>
           <sp who="#césar">
             <speaker rend="caps">César</speaker>
 
@@ -6199,7 +6250,8 @@
             <l>Con sólo la reverencia</l>
             <l>que te hizo, te ha pagado.</l>
           </sp>
-          <stage>Acaba de pasar, y él con la reverencia a la otra esquina, y ella vuelve la cara.</stage>
+          <stage>Acaba de pasar, y él con la reverencia a la otra esquina, y ella vuelve la
+            cara.</stage>
           <sp who="#margarita">
             <speaker rend="caps">Margarita</speaker>
 
@@ -6267,7 +6319,8 @@
             <l>que he de morir del remedio,</l>
             <l>más quiero morir del mal.</l>
             <l>Tras ella iré; pero al vella...</l>
-            <stage>Hace el acometimiento como que va; levanta Margarita el paño, y él se detiene viéndola. Y esto ha de ser por la puerta que entró.</stage>
+            <stage>Hace el acometimiento como que va; levanta Margarita el paño, y él se detiene
+              viéndola. Y esto ha de ser por la puerta que entró.</stage>
             <l>...otra vez me suspendí.</l>
             <l>¡Oh, quién pudiera, ay de mí,</l>
             <l>amalla y aborrecella!</l>
@@ -6312,7 +6365,8 @@
             <l>Mucho, penas, intentáis.</l>
             <l>Pero ello ha de ser).</l>
           </sp>
-          <stage>Quiere irse, y el gracioso puede ponerse delante de manera que quiera embarazar que la mire, y cuando llama vuelve él muy aprisa, y el gracioso hace que le pesa.</stage>
+          <stage>Quiere irse, y el gracioso puede ponerse delante de manera que quiera embarazar que
+            la mire, y cuando llama vuelve él muy aprisa, y el gracioso hace que le pesa.</stage>
           <sp who="#margarita">
             <speaker rend="caps">Margarita</speaker>
 
@@ -6983,7 +7037,8 @@
             <l>Con ducal mesura</l>
             <l>tu reverencia, no más.</l>
           </sp>
-          <stage>Van pasando, como hizo antes ella, que ha de estar a la punta del tablado, como estuvo él, y sea grande la reverencia.</stage>
+          <stage>Van pasando, como hizo antes ella, que ha de estar a la punta del tablado, como
+            estuvo él, y sea grande la reverencia.</stage>
           <sp who="#césar">
             <speaker rend="caps">César</speaker>
 
@@ -7080,7 +7135,8 @@
             <l>Con la princesa</l>
             <l>de Sustambergue.</l>
           </sp>
-          <stage>Hácele señas Espolón que diga que sí y, mirándole ella, se queda mesurado, y César no lo entiende.</stage>
+          <stage>Hácele señas Espolón que diga que sí y, mirándole ella, se queda mesurado, y César
+            no lo entiende.</stage>
           <sp who="#césar">
             <speaker rend="caps">César</speaker>
 
@@ -7813,7 +7869,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="28">
-          <stage>Salen Carlos, Matilde, Margarita, el Barón, el Emperador, Espolón y criados.</stage>
+          <stage>Salen Carlos, Matilde, Margarita, el Barón, el Emperador, Espolón y
+            criados.</stage>
           <sp who="#carlos">
             <speaker rend="caps">Carlos</speaker>
 

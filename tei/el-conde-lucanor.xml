@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000083" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-08">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, El conde Lucanor. En: Comedias, Vol. 4. Dirección de Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, El conde Lucanor. En: Comedias, Vol. 4. Dirección de
+            Luis Iglesias Feijoo y Sebastian Neumeister. Madrid : Fundación José Antonio de Castro,
+            2010</title>
           <idno type="ISBN">978-84-96452-89-3</idno>
         </bibl>
       </sourceDesc>
@@ -51,11 +54,17 @@
             <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ptolomeo" sex="MALE">
             <persName>Ptolomeo</persName>
             <trait source="castlist">
               <desc>soldán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="federico" sex="MALE">
@@ -63,11 +72,17 @@
             <trait source="#calderondigital">
               <desc>duque</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="roberto" sex="MALE">
             <persName>Roberto</persName>
             <trait source="#calderondigital">
               <desc>noble</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="astolfo" sex="MALE">
@@ -75,11 +90,17 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="casimiro" sex="MALE">
             <persName>Casimiro</persName>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="pasquín" sex="MALE">
@@ -87,11 +108,17 @@
             <trait source="#calderondigital">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rosimunda" sex="FEMALE">
             <persName>Rosimunda</persName>
             <trait source="#calderondigital">
               <desc>duquesa</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="clori" sex="FEMALE">
@@ -99,11 +126,17 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="irifela" sex="FEMALE">
             <persName>Irifela</persName>
             <trait source="#calderondigital">
               <desc>maga</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="estela" sex="FEMALE">
@@ -111,11 +144,17 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
             <persName>Flora</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
@@ -123,15 +162,24 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
             <persName>Libia</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldán" sex="MALE">
             <persName>Soldán</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="voces">
             <persName>Voces</persName>
@@ -144,6 +192,9 @@
           </personGrp>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -152,17 +203,20 @@
           <term source="dracor" type="genreTitle">comedia novelesca</term>
           <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -204,7 +258,8 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>dentro ruido de caza y sale después, como cayendo, Ptolomeo, soldán de Egipto, vestido a lo gitano.</stage>
+          <stage>dentro ruido de caza y sale después, como cayendo, Ptolomeo, soldán de Egipto,
+            vestido a lo gitano.</stage>
           <sp who="#uno">
             <speaker rend="caps">Uno</speaker>
             <stage type="withText">dentro.</stage>
@@ -487,7 +542,8 @@
             <l>siendo el que amparar procuras</l>
             <l>en traje y lengua toscano.</l>
           </sp>
-          <stage>Vuélvese contra él empuñando un puñal, y Roberto le detiene con la rodilla hincada en el suelo.</stage>
+          <stage>Vuélvese contra él empuñando un puñal, y Roberto le detiene con la rodilla hincada
+            en el suelo.</stage>
           <sp who="#soldán">
             <speaker rend="caps">Soldán</speaker>
 
@@ -649,7 +705,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Por una parte sale un guarda con Federico, viejo venerable, y por otra el otro con Irifela, vestida de pieles.</stage>
+          <stage>Por una parte sale un guarda con Federico, viejo venerable, y por otra el otro con
+            Irifela, vestida de pieles.</stage>
           <sp who="#uno">
             <speaker rend="caps">Uno</speaker>
 
@@ -1085,7 +1142,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Vanse los demás y los dos entran por una puerta, y sale por otra Irifela con una hacha.</stage>
+          <stage>Vanse los demás y los dos entran por una puerta, y sale por otra Irifela con una
+            hacha.</stage>
           <sp who="#soldán">
             <speaker rend="caps">Soldán</speaker>
 
@@ -1298,7 +1356,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Sale Casimiro vestido a lo húngaro mirándose a un espejo que traerá un paje, y los músicos descubiertos, cantando.</stage>
+          <stage>Sale Casimiro vestido a lo húngaro mirándose a un espejo que traerá un paje, y los
+            músicos descubiertos, cantando.</stage>
           <sp who="#casimiro">
             <speaker rend="caps">Casimiro</speaker>
 
@@ -1425,7 +1484,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Sale Astolfo vestido estrañamente a lo polaco y armado con la espada desnuda y un escudo y algunos retirándose de él.</stage>
+          <stage>Sale Astolfo vestido estrañamente a lo polaco y armado con la espada desnuda y un
+            escudo y algunos retirándose de él.</stage>
           <sp who="#astolfo">
             <speaker rend="caps">Astolfo</speaker>
 
@@ -1833,7 +1893,9 @@
             <l>renovando la memoria,</l>
             <l>digan las tres sombras juntas:</l>
           </sp>
-          <stage>Esto todo se ha de representar y cantar junto, sin cesar cajas, trompetas e instrumentos, hasta que acabe la escena, advirtiendo, que se oiga o no, nadie ha de durar más que lo que durare uno.</stage>
+          <stage>Esto todo se ha de representar y cantar junto, sin cesar cajas, trompetas e
+            instrumentos, hasta que acabe la escena, advirtiendo, que se oiga o no, nadie ha de
+            durar más que lo que durare uno.</stage>
           <sp who="#astolfo">
             <speaker rend="caps">Astolfo</speaker>
 
@@ -1886,7 +1948,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Vanse, y salen Sirene con una salvilla y en ella un reloj, Clori con otra y en ella una cadena con una medalla, y con otra Estela y en ella un chapín tapado con un tafetán; y Rosimunda y Clori con instrumentos.</stage>
+          <stage>Vanse, y salen Sirene con una salvilla y en ella un reloj, Clori con otra y en ella
+            una cadena con una medalla, y con otra Estela y en ella un chapín tapado con un tafetán;
+            y Rosimunda y Clori con instrumentos.</stage>
           <sp who="#estela">
             <speaker rend="caps">Estela</speaker>
 
@@ -3365,7 +3429,9 @@
             <l>airoso con mi asistencia,</l>
             <l>sin que sepa quién su humildad alienta;</l>
             <l>que no hay bien si se hace por que se agradezca.</l>
-            <stage>En medio se corre una cortina y vese una fuente con una estatua pequeña de mármol y, si no se pudiere ejecutar en el salón, se represente dentro. Pone en ella un libro de memoria dorado y una cadena.</stage>
+            <stage>En medio se corre una cortina y vese una fuente con una estatua pequeña de mármol
+              y, si no se pudiere ejecutar en el salón, se represente dentro. Pone en ella un libro
+              de memoria dorado y una cadena.</stage>
             <l>Y pues el primer papel</l>
             <l>dijo que a esta Venus venga,</l>
             <l>donde hallará entre estas murtas</l>
@@ -3752,7 +3818,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Pónese Pasquín la cadena, mientras lee Lucanor y siempre que vuelve se reboza por que no la vea.</stage>
+          <stage>Pónese Pasquín la cadena, mientras lee Lucanor y siempre que vuelve se reboza por
+            que no la vea.</stage>
           <sp who="#lucanor">
             <speaker rend="caps">Lucanor Lee</speaker>
 
@@ -4009,7 +4076,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Tocan las chirimías y salen por una parte, con acompañamiento, Astolfo y por otra Casimiro y por en medio las damas y detrás Rosimunda.</stage>
+          <stage>Tocan las chirimías y salen por una parte, con acompañamiento, Astolfo y por otra
+            Casimiro y por en medio las damas y detrás Rosimunda.</stage>
           <sp who="#casimiro">
             <speaker rend="caps">Casimiro</speaker>
 
@@ -4174,7 +4242,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Sale Lucanor con la cadena, repara Rosimunda en ella y cáesele el abanico de la mano.</stage>
+          <stage>Sale Lucanor con la cadena, repara Rosimunda en ella y cáesele el abanico de la
+            mano.</stage>
           <sp who="#lucanor">
             <speaker rend="caps">Lucanor</speaker>
 
@@ -7747,7 +7816,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Escóndese y salen Lucanor y Pasquín, vestidos de cazadores con dos halcones.</stage>
+          <stage>Escóndese y salen Lucanor y Pasquín, vestidos de cazadores con dos
+            halcones.</stage>
           <sp who="#lucanor">
             <speaker rend="caps">Lucanor</speaker>
 

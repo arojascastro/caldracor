@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000091" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-16">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Comedias. El maestro de danzar. Edición de Luis Iglesias Feijoo. Tercera Parte de comedias. Dirección de Don William Cruickshank y Luis Iglesias Feijoo. Madrid: Fundación José Antonio de Castro, 2007.</title>
+          <title>Pedro Calderón de la Barca, Comedias. El maestro de danzar. Edición de Luis
+            Iglesias Feijoo. Tercera Parte de comedias. Dirección de Don William Cruickshank y Luis
+            Iglesias Feijoo. Madrid: Fundación José Antonio de Castro, 2007.</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -47,45 +50,84 @@
         <listPerson>
           <person xml:id="don-enrique" sex="MALE">
             <persName>Don Enrique</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="chacón" sex="MALE">
             <persName>Chacón</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-juan" sex="MALE">
             <persName>Don Juan</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-félix" sex="MALE">
             <persName>Don Félix</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-diego" sex="MALE">
             <persName>Don Diego</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="celio" sex="MALE">
             <persName>Celio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="don-fernando" sex="MALE">
             <persName>Don Fernando</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="beatriz" sex="FEMALE">
             <persName>Beatriz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
             <persName>Leonor</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="inés" sex="FEMALE">
             <persName>Inés</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="isabel" sex="FEMALE">
             <persName>Isabel</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juana" sex="FEMALE">
             <persName>Juana</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="alguaciles" sex="MALE">
             <persName>Alguaciles</persName>
           </personGrp>
           <person xml:id="gente" sex="MALE">
             <persName>Gente</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -94,17 +136,20 @@
           <term source="dracor" type="genreTitle">comedia</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -538,7 +583,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vanse los tres, y de la puerta por donde salió Beatriz, salen riñendo, las espaldas al tablado don Félix, y don Juan de cara, y por otra parte don Diego y Celio, gente, y luz.</stage>
+          <stage>Vanse los tres, y de la puerta por donde salió Beatriz, salen riñendo, las espaldas
+            al tablado don Félix, y don Juan de cara, y por otra parte don Diego y Celio, gente, y
+            luz.</stage>
           <sp who="#don-diego #don-félix">
             <speaker rend="caps">Todos</speaker>
 
@@ -3012,7 +3059,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Don Enrique y Chacón, y hablan quedo, y al pasar el tablado, sale por otra parte don Diego, y ellos se retiran adonde salieron.</stage>
+          <stage>Don Enrique y Chacón, y hablan quedo, y al pasar el tablado, sale por otra parte
+            don Diego, y ellos se retiran adonde salieron.</stage>
           <sp who="#chacón">
             <speaker rend="caps">Chacón</speaker>
 
@@ -3308,7 +3356,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Éntranse los dos por una parte, y salen por la otra Leonor y Inés, y ellos vuelven a salir por la que ellas salieron.</stage>
+          <stage>Éntranse los dos por una parte, y salen por la otra Leonor y Inés, y ellos vuelven
+            a salir por la que ellas salieron.</stage>
           <sp who="#leonor">
             <speaker rend="caps">Leonor</speaker>
 
@@ -3337,7 +3386,9 @@
             <l>amor a lo que no ve,</l>
             <l>el riesgo al cuidado iguala.</l>
           </sp>
-          <stage>Canta Inés, y sin dejar nunca de cantar ella y representar ellos, advirtiendo que en las repeticiones del tono, acaben iguales los versos de cantado y representado.</stage>
+          <stage>Canta Inés, y sin dejar nunca de cantar ella y representar ellos, advirtiendo que
+            en las repeticiones del tono, acaben iguales los versos de cantado y
+            representado.</stage>
           <sp who="#inés">
             <speaker rend="caps">Inés</speaker>
 
@@ -3517,7 +3568,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Toma la guitarra don Enrique y, estándola templando, sale don Diego, y hállale con ella en la mano.</stage>
+          <stage>Toma la guitarra don Enrique y, estándola templando, sale don Diego, y hállale con
+            ella en la mano.</stage>
           <sp who="#inés">
             <speaker rend="caps">Inés</speaker>
 
@@ -4798,7 +4850,8 @@
             <l>Y sea presto,</l>
             <l>que entra ya.</l>
           </sp>
-          <stage>Tocando, y con el sombrero en la espada, haciendo la reverencia, los halla don Diego.</stage>
+          <stage>Tocando, y con el sombrero en la espada, haciendo la reverencia, los halla don
+            Diego.</stage>
           <sp who="#don-enrique">
             <speaker rend="caps">Don Enrique</speaker>
 
@@ -5742,7 +5795,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Escóndense los dos en la puerta de en medio, y por la del lado salen Félix y Beatriz.</stage>
+          <stage>Escóndense los dos en la puerta de en medio, y por la del lado salen Félix y
+            Beatriz.</stage>
           <sp who="#inés">
             <speaker rend="caps">Inés</speaker>
 
@@ -7008,7 +7062,8 @@
             <l>Los brazos una y mil veces</l>
             <l>me dad.</l>
           </sp>
-          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
+          <sp
+            who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7100,7 +7155,8 @@
             <l>que estos señores darán</l>
             <l>licencia, Inés.</l>
           </sp>
-          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
+          <sp
+            who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7187,7 +7243,8 @@
             <l>Ya no es tiempo de eso. Quien,</l>
             <l>a pesar de todos, salga.</l>
           </sp>
-          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
+          <sp
+            who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7432,7 +7489,8 @@
             <l>don Diego con igual yerno,</l>
             <l>Fernando con tal venganza!</l>
           </sp>
-          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
+          <sp
+            who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7454,14 +7512,15 @@
             <l>No nos quitarás, por eso,</l>
             <l>que nuestras voces añadan:…</l>
           </sp>
-          <sp who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
+          <sp
+            who="#beatriz #chacón #don-diego #don-enrique #don-fernando #don-félix #don-juan #inés #leonor">
             <speaker rend="caps">Todos</speaker>
 
 
             <l>…pidiendo a esos reales pies</l>
             <l>el perdón de nuestras faltas.</l>
           </sp>
-        <trailer>FIN</trailer>
+          <trailer>FIN</trailer>
         </div>
       </div>
     </body>

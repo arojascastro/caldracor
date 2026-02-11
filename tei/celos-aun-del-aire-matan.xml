@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000068" xml:lang="es">
   <teiHeader>
@@ -32,9 +32,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/celos-aun-del-aire-matan--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/celos-aun-del-aire-matan--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Séptima parte de comedias de Don Pedro Calderón de la Barca que corregidas por sus originales, publica Don Juan de Vera Tassis y Villarroel, Madrid, Por Francisco Sanz, 1683. Localización: Base de Datos de Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros. </title>
+            <title>Edición digital a partir de la Séptima parte de comedias de Don Pedro Calderón de
+              la Barca que corregidas por sus originales, publica Don Juan de Vera Tassis y
+              Villarroel, Madrid, Por Francisco Sanz, 1683. Localización: Base de Datos de Teatro
+              Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros. </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -44,42 +48,86 @@
         <listPerson>
           <person xml:id="diana" sex="FEMALE">
             <persName>Diana</persName>
+            <idno type="wikidata">Q132543</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="pocris" sex="MALE">
             <persName>Pocris</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="floreta" sex="FEMALE">
             <persName>Floreta</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="megera" sex="FEMALE">
             <persName>Megera</persName>
+            <idno type="wikidata">Q371545</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="alecto" sex="FEMALE">
             <persName>Alecto</persName>
+            <idno type="wikidata">Q1643451</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="tesífone" sex="FEMALE">
             <persName>Tesífone</persName>
+            <idno type="wikidata">Q3991817</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="céfalo" sex="FEMALE">
             <persName>Céfalo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="eróstrato" sex="MALE">
             <persName>Eróstrato</persName>
+            <idno type="wikidata">Q244944</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="clarín" sex="MALE">
             <persName>Clarín</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rústico" sex="MALE">
             <persName>Rústico</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-1" sex="FEMALE">
             <persName>Ninfa 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-2" sex="FEMALE">
             <persName>Ninfa 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-3" sex="FEMALE">
             <persName>Ninfa 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="zagales" sex="MALE">
             <persName>Coro de Zagales</persName>
@@ -92,21 +140,39 @@
           </personGrp>
           <person xml:id="aura" sex="FEMALE">
             <persName>Aura</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-1">
             <persName>Voz 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-2">
             <persName>Voz 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-3">
             <persName>Voz 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz-4">
             <persName>Voz 4</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -115,17 +181,20 @@
           <term source="dracor" type="genreTitle">zarzuela</term>
           <term source="#kroll" type="main">zarzuela</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q148163</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q148163</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -163,7 +232,9 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
-          <stage>Sale por una parte un CORO DE NINFAS, y POCRIS, trayendo en medio de todas a AURA, cubierto el rostro, y por otra parte DIANA, con venablo, y las demás, con flechas.</stage>
+          <stage>Sale por una parte un CORO DE NINFAS, y POCRIS, trayendo en medio de todas a AURA,
+            cubierto el rostro, y por otra parte DIANA, con venablo, y las demás, con
+            flechas.</stage>
           <sp who="#pocris">
             <speaker>POCRIS</speaker>
             <l>Esta, hermosa Diana,</l>
@@ -642,7 +713,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vanse DIANA y las ninfas, dejándose el venablo; cógele CÉFALO, y POCRIS se le quiere quitar, y luchan los dos.</stage>
+          <stage>Vanse DIANA y las ninfas, dejándose el venablo; cógele CÉFALO, y POCRIS se le
+            quiere quitar, y luchan los dos.</stage>
           <sp who="#céfalo">
             <speaker>CÉFALO</speaker>
             <l>De tanto misterioso</l>
@@ -1122,7 +1194,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Sale RÚSTICO del bastidor, con una cabeza de cuatro caras diferentes, y vestido de pieles.</stage>
+          <stage>Sale RÚSTICO del bastidor, con una cabeza de cuatro caras diferentes, y vestido de
+            pieles.</stage>
           <sp who="#rústico">
             <speaker>RÚSTICO</speaker>
             <l>Ya que Diana se fue,</l>
@@ -1617,7 +1690,9 @@
       <div type="act" n="2">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada II</head>
-          <stage>Dentro grita de pastores, y salen cantando todos los músicos, y detrás dellos CÉFALO, ERÓSTRATO y CLARÍN, de villanos, con dones en las manos, excepto CLARÍN, que no le trae.</stage>
+          <stage>Dentro grita de pastores, y salen cantando todos los músicos, y detrás dellos
+            CÉFALO, ERÓSTRATO y CLARÍN, de villanos, con dones en las manos, excepto CLARÍN, que no
+            le trae.</stage>
           <sp who="#música">
             <speaker>CORO DE HOMBRES</speaker>
             <l>Venid, moradores de Lidia, venid,</l>
@@ -1880,8 +1955,10 @@
           <stage>Vanse.</stage>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Descúbrese el templo; salen por una puerta los hombres y por otra las mujeres, DIANA está en el trono, y sale ERÓSTRATO, CÉFALO, CLARÍN y RÚSTICO.</stage>
-          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
+          <stage>Descúbrese el templo; salen por una puerta los hombres y por otra las mujeres,
+            DIANA está en el trono, y sale ERÓSTRATO, CÉFALO, CLARÍN y RÚSTICO.</stage>
+          <sp
+            who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l n="175">Venid, moradores de Lidia, venid,</l>
             <l>venid, que hoy de marzo la luna se cumple,</l>
@@ -1895,7 +1972,8 @@
             <l>las unas sus rizos coronen guirnaldas,</l>
             <l>las otras sus aras adornen perfumes.</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
+          <sp
+            who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l>Venid, que hoy de marzo la luna se cumple.</l>
           </sp>
@@ -1984,7 +2062,8 @@
             <l>dice, en púrpura teñido:</l>
             <l n="240">¡Muera el amor y viva el olvido!</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
+          <sp
+            who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l>¡Viva el olvido y muera el amor!</l>
           </sp>
@@ -2011,7 +2090,8 @@
             <l>de haber de decir rendido:</l>
             <l>¡Muera el amor y viva el olvido!</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
+          <sp
+            who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l>¡Viva el olvido y muera amor!</l>
           </sp>
@@ -2044,7 +2124,8 @@
             <speaker>CLARÍN</speaker>
             <l>¡Muera el amor y viva el olvido!</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
+          <sp
+            who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l n="265">¡Viva el olvido y muera el amor!</l>
           </sp>
@@ -2080,7 +2161,8 @@
             <l n="280">en los coros de Diana</l>
             <l>cláusula de Venus es.</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
+          <sp
+            who="#aura #clarín #céfalo #diana #eróstrato #floreta #hombres #mujeres #pocris #rústico">
             <speaker>TODOS</speaker>
             <l>A nadie vemos, y solo</l>
             <l>sentimos, al parecer,</l>
@@ -2094,7 +2176,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Vase AURA en el aire, en un carro tirado de dos camaleones, y cantando baja al tablado, atravesándole por delante de todos, y vuelve a subir por la otra parte, con el último verso.</stage>
+          <stage>Vase AURA en el aire, en un carro tirado de dos camaleones, y cantando baja al
+            tablado, atravesándole por delante de todos, y vuelve a subir por la otra parte, con el
+            último verso.</stage>
           <sp who="#aura">
             <speaker>AURA</speaker>
             <l part="F">¿Quién,</l>
@@ -2962,7 +3046,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Vanse los dos, y descúbrese la perspectiva del incendio, y AURA volando sobre el fuego, y van pasando las ninfas, y se entran, como van diciendo los versos.</stage>
+          <stage>Vanse los dos, y descúbrese la perspectiva del incendio, y AURA volando sobre el
+            fuego, y van pasando las ninfas, y se entran, como van diciendo los versos.</stage>
           <sp who="#ninfa-1">
             <speaker>NINFA 1.ª</speaker>
             <l>Moradores destos riscos...</l>
@@ -3200,7 +3285,10 @@
       <div type="act" n="3">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada III</head>
-          <stage>Estando puesto el teatro del bosque, que fue con el que se cubrió el incendio, sube el peñasco con cuatro personas, DIANA en lugar eminente, MEGERA en un lado, TESÍFONE en otro, y ALECTO a los pies, vestidas de velillo negro, el de DIANA con estrellas de oro y el de las tres con algunas llamas de oro.</stage>
+          <stage>Estando puesto el teatro del bosque, que fue con el que se cubrió el incendio, sube
+            el peñasco con cuatro personas, DIANA en lugar eminente, MEGERA en un lado, TESÍFONE en
+            otro, y ALECTO a los pies, vestidas de velillo negro, el de DIANA con estrellas de oro y
+            el de las tres con algunas llamas de oro.</stage>
           <sp who="#diana">
             <speaker>DIANA</speaker>
             <l>Ya que aqueste peñasco</l>
@@ -3306,7 +3394,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Divídese el peñasco en cuatro partes, desapareciéndose las cuatro, y descúbrese a este tiempo el salón regio, con los fondos de retretes y jardines, y salen CÉFALO con el venablo y POCRIS deteniéndole, y CLARÍN y FLORETA.</stage>
+          <stage>Divídese el peñasco en cuatro partes, desapareciéndose las cuatro, y descúbrese a
+            este tiempo el salón regio, con los fondos de retretes y jardines, y salen CÉFALO con el
+            venablo y POCRIS deteniéndole, y CLARÍN y FLORETA.</stage>
           <sp who="#pocris">
             <speaker>POCRIS</speaker>
             <l>Mi bien, mi señor, mi esposo, mi dueño,</l>
@@ -3533,7 +3623,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Sale ALECTO con mascarilla en la cara y pone a POCRIS la mano en los pechos.</stage>
+          <stage>Sale ALECTO con mascarilla en la cara y pone a POCRIS la mano en los
+            pechos.</stage>
           <sp who="#alecto">
             <speaker>ALECTO</speaker>
             <l>Ya es tiempo que de los celos</l>
@@ -3564,7 +3655,9 @@
             <l>Como si voy a apurarlas,</l>
             <l part="I">hallo...</l>
           </sp>
-          <stage>ALECTO canta bajo, al oído, y ella repite con despecho lo mismo, de modo que para la música son dos, y para la representación no es más que uno, porque lo uno ha de ser repetición de lo otro.</stage>
+          <stage>ALECTO canta bajo, al oído, y ella repite con despecho lo mismo, de modo que para
+            la música son dos, y para la representación no es más que uno, porque lo uno ha de ser
+            repetición de lo otro.</stage>
           <sp who="#alecto">
             <speaker>ALECTO</speaker>
             <l part="F">Que Céfalo ya</l>
@@ -4845,7 +4938,7 @@
           <sp who="#diana">
             <speaker>DIANA</speaker>
             <l>Aquesos son mis tres nombres.</l>
-          <stage>Salen las cuatro.</stage>
+            <stage>Salen las cuatro.</stage>
             <l n="915">Ya sé lo que me queréis;</l>
             <l>y así, atended a mis voces.</l>
             <l>¡Ninfas, que de aquella ruina</l>
@@ -4881,7 +4974,8 @@
             <l>diciendo en ecos acordes:</l>
             <l>Viva la deidad...</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
+          <sp
+            who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l n="930">Viva la deidad...</l>
           </sp>
@@ -4889,7 +4983,8 @@
             <speaker>DIANA</speaker>
             <l>Que a los corazones...</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
+          <sp
+            who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l>Que a los corazones...</l>
           </sp>
@@ -4897,7 +4992,8 @@
             <speaker>DIANA</speaker>
             <l>Que prende el amor...</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
+          <sp
+            who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l>Que prende el amor...</l>
           </sp>
@@ -4905,7 +5001,8 @@
             <speaker>DIANA</speaker>
             <l n="935">Los grillos les rompe...</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
+          <sp
+            who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l>Los grillos les rompe...</l>
           </sp>
@@ -4982,7 +5079,8 @@
             <l>poco importa que blasones</l>
             <l part="I">de estrella y aire.</l>
           </sp>
-          <sp who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
+          <sp
+            who="#aura #clarín #céfalo #diana #ninfa-1 #ninfa-2 #ninfa-3 #pocris #rústico #zagales">
             <speaker>TODOS</speaker>
             <l part="F">Con que</l>
             <l n="990">diremos todos conformes:</l>

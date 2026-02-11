@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000042" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-01">
           <time when="10:30:37"/>
@@ -35,9 +36,11 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-a-el-divino-orfeo--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/loa-a-el-divino-orfeo--0/html/</idno>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la edición de E. Duarte, Pamplona, Universidad de Navarra ; Kassel, Reichenberger, 1999.</title>
+            <title> Edición digital a partir de la edición de E. Duarte, Pamplona, Universidad de
+              Navarra ; Kassel, Reichenberger, 1999.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -50,26 +53,47 @@
             <trait source="castlist">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="galán-1" sex="MALE">
             <persName>Galán 1º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="galán-2" sex="MALE">
             <persName>Galán 2º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="galán-3" sex="MALE">
             <persName>Galán 3º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="galán-4" sex="MALE">
             <persName>Galán 4º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="galán-5" sex="MALE">
             <persName>Galán 5º</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dama-1" sex="FEMALE">
             <persName>Dama 1ª</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="dama-2" sex="FEMALE">
@@ -77,11 +101,17 @@
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dama-3" sex="FEMALE">
             <persName>Dama 3ª</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="dama-4" sex="FEMALE">
@@ -89,15 +119,24 @@
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dama-5" sex="FEMALE">
             <persName>Dama 5ª</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="viejo-venerable" sex="MALE">
             <persName>Un Viejo Venerable</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -109,17 +148,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -589,11 +631,14 @@
             <l>de la R el atributo</l>
             <l part="I">celebremos.</l>
           </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
+          <sp
+            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="F">Norabuena.</l>
           </sp>
-          <stage>Canta la MÚSICA y a su compás bailando todos hacen una mudanza, de cuyo lazo resulte que al impedirlos el PLACER queden en ala, en tal orden que juntos los escudos formen un renglón que diga EUCHARISTIA.</stage>
+          <stage>Canta la MÚSICA y a su compás bailando todos hacen una mudanza, de cuyo lazo
+            resulte que al impedirlos el PLACER queden en ala, en tal orden que juntos los escudos
+            formen un renglón que diga EUCHARISTIA.</stage>
           <sp who="#música">
             <speaker>MÚSICA</speaker>
             <l n="240">Ya que el día del Señor</l>
@@ -607,7 +652,8 @@
             <speaker>PLACER</speaker>
             <l part="I">Oíd, esperad.</l>
           </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          <sp
+            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué pretendes?</l>
           </sp>
@@ -635,7 +681,8 @@
             <speaker>PLACER</speaker>
             <l part="F">Llego a leerlas.</l>
           </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          <sp
+            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué dicen?</l>
           </sp>
@@ -698,13 +745,15 @@
             <l>¡Viva la que de ellas</l>
             <l n="275">incluye feliz su mayor excelencia!</l>
           </sp>
-          <stage>Con esta repetición vuelven a bailar y trocándose de lugares hacen segundo renglón que diga al impedirlos el PLACER: CITHARA IESU.</stage>
+          <stage>Con esta repetición vuelven a bailar y trocándose de lugares hacen segundo renglón
+            que diga al impedirlos el PLACER: CITHARA IESU.</stage>
           <sp who="#placer">
             <speaker>PLACER</speaker>
             <l>No, no prosigáis, oíd</l>
             <l>que aún otra duda me queda.</l>
           </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          <sp
+            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué es la duda?</l>
           </sp>
@@ -744,7 +793,8 @@
             <speaker>VIEJO</speaker>
             <l>Volviendo otra vez a leerlas.</l>
           </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          <sp
+            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué lees?</l>
           </sp>
@@ -873,7 +923,8 @@
             <speaker>MÚSICA</speaker>
             <l>En vez de perdón, aplauso y licencia.</l>
           </sp>
-          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
+          <sp
+            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
             <speaker>TODOS</speaker>
             <l>Pues vaya de baile, vaya de fiesta,</l>
             <l>en vez de perdón, aplauso y licencia.</l>

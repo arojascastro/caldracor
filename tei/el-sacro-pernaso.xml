@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000173" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,9 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de de A. Cortijo, ed. A. Rodríguez Rípodas, Pamplona– Kassel, Universidad de Navarra– Reichenberger, 2006. ISBN: 3937734309.</title>
+            <title>Edición digital a partir de la edición de de A. Cortijo, ed. A. Rodríguez
+              Rípodas, Pamplona– Kassel, Universidad de Navarra– Reichenberger, 2006. ISBN:
+              3937734309.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,48 +53,129 @@
           </personGrp>
           <person sex="MALE" xml:id="judaismo">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gentilidad">
             <persName>Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="jeronimo">
             <persName>Jerónimo</persName>
+            <idno type="wikidata">Q44248</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="ambrosio">
             <persName>Ambrosio</persName>
+            <idno type="wikidata">Q43689</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="agustin">
             <persName>Agustín</persName>
+            <idno type="wikidata">Q8018</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="tomas">
             <persName>Tomás</persName>
+            <idno type="wikidata">Q9438</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="gregorio">
             <persName>Gregorio</persName>
+            <idno type="wikidata">Q42827</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="delfica">
             <persName>Délfica</persName>
+            <idno type="wikidata">Q12737222</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="persica">
             <persName>Pérsica</persName>
+            <idno type="wikidata">Q539123</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="cumana">
             <persName>Cumana</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="tiburtina">
             <persName>Tiburtina</persName>
+            <idno type="wikidata">Q2062262</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="augustin">
             <persName>Augustín</persName>
+            <idno type="wikidata">Q8018</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="regocijo">
             <persName>Regocijo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Voz</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
             <persName>Coro 1.º</persName>
@@ -102,9 +185,18 @@
           </personGrp>
           <person sex="FEMALE" xml:id="sibilas">
             <persName>Sibilas</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino">
             <persName>Niño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -113,17 +205,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -157,7 +252,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suena dentro la Música y salen por dos partes leyendo en dos libros el JUDAÍSMO y la GENTILIDAD, vestido uno a lo judío y otro a lo romano</stage>
+          <stage>Suena dentro la Música y salen por dos partes leyendo en dos libros el JUDAÍSMO y
+            la GENTILIDAD, vestido uno a lo judío y otro a lo romano</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Venid, mortales, venid,</l>
@@ -1060,7 +1156,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Al irse a entrar van saliendo por diferentes partes SAN JERÓNIMO, viejo venerable con manto carmesí, SAN GREGORIO con báculo de tres cruces, SAN AMBROSIO con báculo pastoral, SAN AUGUSTÍN de galán, y SANTO TOMÁS vestido de blanco con manto negro y una vara con cruz de la Inquisición en el remate</stage>
+          <stage>Al irse a entrar van saliendo por diferentes partes SAN JERÓNIMO, viejo venerable
+            con manto carmesí, SAN GREGORIO con báculo de tres cruces, SAN AMBROSIO con báculo
+            pastoral, SAN AUGUSTÍN de galán, y SANTO TOMÁS vestido de blanco con manto negro y una
+            vara con cruz de la Inquisición en el remate</stage>
           <sp who="#jeronimo">
             <speaker>JERÓNIMO</speaker>
             <l>¡Ciudadanos destos valles…!</l>
@@ -1126,7 +1225,11 @@
             <speaker>JUDAÍSMO</speaker>
             <l n="520">¡Tanto la dirán que cansen!</l>
           </sp>
-          <stage>Ábrese el carro y vese una montaña y en su cumbre un sol con hostia y cáliz, y debajo del sol la FE con un cartel en las manos y entre otras ninfas, que estarán imitadas en varios nichos, las sibilas DÉLFICA, PÉRSICA, CUMANA y TIBURTINA, todas así estatuas como vi-vas con sus tarjetas y vestidas todas en diversos trajes y tocados como las pintan</stage>
+          <stage>Ábrese el carro y vese una montaña y en su cumbre un sol con hostia y cáliz, y
+            debajo del sol la FE con un cartel en las manos y entre otras ninfas, que estarán
+            imitadas en varios nichos, las sibilas DÉLFICA, PÉRSICA, CUMANA y TIBURTINA, todas así
+            estatuas como vi-vas con sus tarjetas y vestidas todas en diversos trajes y tocados como
+            las pintan</stage>
           <sp who="#fe">
             <speaker>FE</speaker>
             <l>Venid, mortales, venid,</l>
@@ -1591,7 +1694,8 @@
             <speaker>JUDAÍSMO</speaker>
             <l n="800">Sí, que aquí no hay graduación.</l>
           </sp>
-          <sp who="#persica #delfica #cumana #tiburtina #fe #musicos #gregorio #regocijo #jeronimo #ambrosio #augustin #tomas #gentilidad #judaismo">
+          <sp
+            who="#persica #delfica #cumana #tiburtina #fe #musicos #gregorio #regocijo #jeronimo #ambrosio #augustin #tomas #gentilidad #judaismo">
             <speaker>TODOS</speaker>
             <l part="I">¡Mío ha de ser!</l>
           </sp>
@@ -1600,7 +1704,8 @@
             <speaker>REGOCIJO</speaker>
             <l part="F">¿Qué habéis hecho?</l>
           </sp>
-          <sp who="#persica #delfica #cumana #tiburtina #fe #musicos #gregorio #jeronimo #ambrosio #augustin #tomas #gentilidad #judaismo #regocijo">
+          <sp
+            who="#persica #delfica #cumana #tiburtina #fe #musicos #gregorio #jeronimo #ambrosio #augustin #tomas #gentilidad #judaismo #regocijo">
             <speaker>TODOS</speaker>
             <l>Dividídole entre todos.</l>
           </sp>
@@ -1990,7 +2095,8 @@
             <l>líbranos, Señor,</l>
             <l>y todo a un tïempo.</l>
           </sp>
-          <sp who="#persica #delfica #cumana #tiburtina #fe #jeronimo #gregorio #tomas #ambrosio #gentilidad #judaismo #regocijo #coro-2 #coro-1 #voz #augustin #musicos">
+          <sp
+            who="#persica #delfica #cumana #tiburtina #fe #jeronimo #gregorio #tomas #ambrosio #gentilidad #judaismo #regocijo #coro-2 #coro-1 #voz #augustin #musicos">
             <speaker>TODOS</speaker>
             <l>Muévaos el llanto,</l>
             <l>oblígueos el lamento.</l>
@@ -2207,7 +2313,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>La TIBURTINA con un manto de velillo en una fuente, la DÉLFICA con un mazapán en otra fuente, la CUMANA con un salero en otra fuente, el REGOCIJO con una toalla al hombro.</stage>
+          <stage>La TIBURTINA con un manto de velillo en una fuente, la DÉLFICA con un mazapán en
+            otra fuente, la CUMANA con un salero en otra fuente, el REGOCIJO con una toalla al
+            hombro.</stage>
           <sp who="#tiburtina">
             <speaker>TIBURTINA</speaker>
             <l n="1145">Yo la blanca estola traigo</l>
@@ -2236,7 +2344,8 @@
             <l>que pedir, aunque me veo</l>
             <l part="I">en tan grande honor…</l>
           </sp>
-          <sp who="#gregorio #tomas #gentilidad #judaismo #coro-2 #coro-1 #voz #musicos #agustin #ambrosio #fe #persica #tiburtina #delfica #cumana #regocijo #augustin">
+          <sp
+            who="#gregorio #tomas #gentilidad #judaismo #coro-2 #coro-1 #voz #musicos #agustin #ambrosio #fe #persica #tiburtina #delfica #cumana #regocijo #augustin">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué pides?</l>
           </sp>
@@ -2244,7 +2353,8 @@
             <speaker>AUGUSTÍN</speaker>
             <l part="I">Fe.</l>
           </sp>
-          <sp who="#gregorio #tomas #gentilidad #judaismo #coro-2 #coro-1 #voz #musicos #agustin #ambrosio #fe #persica #tiburtina #delfica #cumana #regocijo #augustin">
+          <sp
+            who="#gregorio #tomas #gentilidad #judaismo #coro-2 #coro-1 #voz #musicos #agustin #ambrosio #fe #persica #tiburtina #delfica #cumana #regocijo #augustin">
             <speaker>TODOS</speaker>
             <l part="F">No digas más que eso.</l>
           </sp>
@@ -2292,7 +2402,9 @@
             <l part="F">«Te Deum laudamus,</l>
             <l>Te, Dominum, confitemur…»</l>
           </sp>
-          <stage>Todo lo que dura el himno da vuelta al tablado el acom-pañamiento con las sibilas y músicos y la FE en medio de AMBROSIO y AUGUSTÍN, representando unos y cantando otros</stage>
+          <stage>Todo lo que dura el himno da vuelta al tablado el acom-pañamiento con las sibilas y
+            músicos y la FE en medio de AMBROSIO y AUGUSTÍN, representando unos y cantando
+            otros</stage>
           <sp who="#augustin">
             <speaker>AUGUSTÍN</speaker>
             <l>Si eso han de decir, Ambrosio,</l>
@@ -2483,14 +2595,16 @@
             <l>In te, Domine, speravi,</l>
             <l>non confundar in eternum.</l>
           </sp>
-          <sp who="#gregorio #tomas #gentilidad #judaismo #coro-2 #coro-1 #voz #agustin #persica #tiburtina #delfica #cumana #regocijo #musicos #fe #ambrosio #augustin">
+          <sp
+            who="#gregorio #tomas #gentilidad #judaismo #coro-2 #coro-1 #voz #agustin #persica #tiburtina #delfica #cumana #regocijo #musicos #fe #ambrosio #augustin">
             <speaker>TODOS</speaker>
             <l>Te, Deum, laudamus,</l>
             <l n="1240">Te, Dominum, confitemur.</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Con esta repetición se entran habiendo dado vuelta al tablado y queda el REGOCIJO solo</stage>
+          <stage>Con esta repetición se entran habiendo dado vuelta al tablado y queda el REGOCIJO
+            solo</stage>
           <sp who="#regocijo">
             <speaker>REGOCIJO</speaker>
             <l>En tanto que Augustín va</l>
@@ -2698,7 +2812,13 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Suenan las chirimías y saliendo delante músicos y acompañamiento. Salen luego de dos en dos SANTO TOMÁS y la sibila DÉLFICA, SAN AMBROSIO y la PÉRSICA, SAN JERÓNIMO y la CUMANA, SAN GREGORIO y la TIBURTINA, y SAN AUGUSTÍN detrás. Y a este tiempo se abre un carro y se ve en él un trono que baja desde lo alto con la FE sentada debajo de un dosel con bufete delante, y en él campanilla y escribanía, y en fuentes los premios que dirán los versos. Siéntanse las sibilas al pie del trono y los cinco a los dos lados en bancos de respaldo</stage>
+          <stage>Suenan las chirimías y saliendo delante músicos y acompañamiento. Salen luego de
+            dos en dos SANTO TOMÁS y la sibila DÉLFICA, SAN AMBROSIO y la PÉRSICA, SAN JERÓNIMO y la
+            CUMANA, SAN GREGORIO y la TIBURTINA, y SAN AUGUSTÍN detrás. Y a este tiempo se abre un
+            carro y se ve en él un trono que baja desde lo alto con la FE sentada debajo de un dosel
+            con bufete delante, y en él campanilla y escribanía, y en fuentes los premios que dirán
+            los versos. Siéntanse las sibilas al pie del trono y los cinco a los dos lados en bancos
+            de respaldo</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l n="1325">Quien premios de Fe codicia</l>
@@ -3227,7 +3347,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Sale el REGOCIJO con borla y capirote, de dotor en una peña que haga güeco como cátedra</stage>
+          <stage>Sale el REGOCIJO con borla y capirote, de dotor en una peña que haga güeco como
+            cátedra</stage>
           <sp who="#regocijo">
             <speaker>REGOCIJO</speaker>
             <l>Adsum, y pues es decente</l>
@@ -3308,7 +3429,8 @@
             <l>llévele atravesado</l>
             <l>con flechas de amor.»</l>
           </sp>
-          <stage>Con esta repetición se levanta AUGUSTINO y, llegando con reverencia a la mesa, la FE le da un corazón con flechas. Vuelve a su lugar sonando las chirimías</stage>
+          <stage>Con esta repetición se levanta AUGUSTINO y, llegando con reverencia a la mesa, la
+            FE le da un corazón con flechas. Vuelve a su lugar sonando las chirimías</stage>
           <sp who="#regocijo">
             <speaker>REGOCIJO</speaker>
             <l>¡Qué contento que ha quedado!</l>
@@ -3347,7 +3469,8 @@
             <l>el que es padre de pobres</l>
             <l n="1730">jamás es rico. »</l>
           </sp>
-          <stage>Con esta repetición, música y chirimías, se levanta la DÉLFICA y tomando de la FE un báculo pastoral se le da a AMBROSIO que le recibe con reverencia</stage>
+          <stage>Con esta repetición, música y chirimías, se levanta la DÉLFICA y tomando de la FE
+            un báculo pastoral se le da a AMBROSIO que le recibe con reverencia</stage>
           <sp who="#regocijo">
             <speaker>REGOCIJO</speaker>
             <l>De lo que dije de Hipona</l>
@@ -3390,7 +3513,8 @@
             <l n="1765">tal que aun piedras bezares</l>
             <l>son piedra lumbre.»</l>
           </sp>
-          <stage>Música y chirimías, y dale con la misma ceremonia la FE una piedra a la DÉLFICA y ella a JERÓNIMO</stage>
+          <stage>Música y chirimías, y dale con la misma ceremonia la FE una piedra a la DÉLFICA y
+            ella a JERÓNIMO</stage>
           <sp who="#regocijo">
             <speaker>REGOCIJO</speaker>
             <l>No quiero decirle más,</l>
@@ -3478,7 +3602,8 @@
             <l>ni otro ninguno esos premios.»</l>
           </sp>
           <stage>Todos levantándose alborotados</stage>
-          <sp who="#coro-1 #voz #agustin #augustin #persica #ambrosio #delfica #jeronimo #cumana #gregorio #tomas #fe #regocijo #tiburtina #musicos #judaismo #gentilidad">
+          <sp
+            who="#coro-1 #voz #agustin #augustin #persica #ambrosio #delfica #jeronimo #cumana #gregorio #tomas #fe #regocijo #tiburtina #musicos #judaismo #gentilidad">
             <speaker>TODOS</speaker>
             <l part="I">¿Quién habla así?</l>
           </sp>
@@ -3631,7 +3756,8 @@
             <l>a los piadosos albergues</l>
             <l>de vuestras patrias y siglos.</l>
           </sp>
-          <sp who="#coro-2 #coro-1 #voz #agustin #augustin #persica #ambrosio #delfica #jeronimo #cumana #gregorio #tiburtina #musicos #regocijo #judaismo #tomas #sibilas #gentilidad #fe">
+          <sp
+            who="#coro-2 #coro-1 #voz #agustin #augustin #persica #ambrosio #delfica #jeronimo #cumana #gregorio #tiburtina #musicos #regocijo #judaismo #tomas #sibilas #gentilidad #fe">
             <speaker>LOS CINCO</speaker>
             <l>¡A tu orden estamos siempre!</l>
           </sp>
@@ -3695,7 +3821,11 @@
             <speaker>FE</speaker>
             <l>En tanto que para ti</l>
             <l n="1920">mi luz se desaparece,</l>
-            <stage>Empieza a subir el trono con la FE como bajo primero y, al mismo tiempo, vuelve a abrirse el monte con las sibilas y la GENTILIDAD con ellas. En el lugar eminente y en otro carro sube un orbe celeste, los hombros de los cinco dotores como que ellos le sustentan y, a su tiempo, abriéndose el globo, se ve en él un niño con una cruz y hostia y cáliz</stage>
+            <stage>Empieza a subir el trono con la FE como bajo primero y, al mismo tiempo, vuelve a
+              abrirse el monte con las sibilas y la GENTILIDAD con ellas. En el lugar eminente y en
+              otro carro sube un orbe celeste, los hombros de los cinco dotores como que ellos le
+              sustentan y, a su tiempo, abriéndose el globo, se ve en él un niño con una cruz y
+              hostia y cáliz</stage>
             <l>vuelve los ojos, verás</l>
             <l>que el monte a tu vista vuelve</l>
             <l>donde la Gentilidad</l>
@@ -3770,7 +3900,8 @@
             <speaker>JUDAÍSMO</speaker>
             <l part="I">¿De qué suerte?</l>
           </sp>
-          <sp who="#coro-1 #voz #agustin #persica #delfica #cumana #tiburtina #musicos #sibilas #gentilidad #gregorio #jeronimo #ambrosio #augustin #tomas #regocijo #fe #judaismo">
+          <sp
+            who="#coro-1 #voz #agustin #persica #delfica #cumana #tiburtina #musicos #sibilas #gentilidad #gregorio #jeronimo #ambrosio #augustin #tomas #regocijo #fe #judaismo">
             <speaker>TODOS</speaker>
             <l part="F">¡Desta suerte!</l>
           </sp>
@@ -3867,7 +3998,8 @@
             <l>«Aunque aqueste certamen</l>
             <l n="1980">hoy cinco premie…</l>
           </sp>
-          <sp who="#coro-1 #voz #agustin #musicos #sibilas #regocijo #nino #gentilidad #tiburtina #gregorio #delfica #jeronimo #persica #augustin #ambrosio #tomas #cumana #judaismo #fe">
+          <sp
+            who="#coro-1 #voz #agustin #musicos #sibilas #regocijo #nino #gentilidad #tiburtina #gregorio #delfica #jeronimo #persica #augustin #ambrosio #tomas #cumana #judaismo #fe">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>«Aunque aqueste certamen</l>
             <l>hoy cinco premie…</l>
@@ -3877,7 +4009,8 @@
             <l>… premios hay para todos;</l>
             <l>todos se acerquen…</l>
           </sp>
-          <sp who="#coro-1 #voz #agustin #musicos #sibilas #regocijo #nino #gentilidad #tiburtina #gregorio #delfica #jeronimo #persica #augustin #ambrosio #tomas #cumana #judaismo #fe">
+          <sp
+            who="#coro-1 #voz #agustin #musicos #sibilas #regocijo #nino #gentilidad #tiburtina #gregorio #delfica #jeronimo #persica #augustin #ambrosio #tomas #cumana #judaismo #fe">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1985">… premios hay para todos;</l>
             <l>todos se acerquen…</l>
@@ -3887,7 +4020,8 @@
             <l>… a este nuevo Pernaso,</l>
             <l>pues es constante…</l>
           </sp>
-          <sp who="#coro-1 #voz #agustin #musicos #sibilas #regocijo #nino #gentilidad #tiburtina #gregorio #delfica #jeronimo #persica #augustin #ambrosio #tomas #cumana #judaismo #fe">
+          <sp
+            who="#coro-1 #voz #agustin #musicos #sibilas #regocijo #nino #gentilidad #tiburtina #gregorio #delfica #jeronimo #persica #augustin #ambrosio #tomas #cumana #judaismo #fe">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>… a este nuevo Pernaso,</l>
             <l n="1990">pues es constante…</l>
@@ -3897,7 +4031,8 @@
             <l>… que quien llama a todos</l>
             <l>no exceta a nadie.»</l>
           </sp>
-          <sp who="#coro-1 #voz #agustin #musicos #sibilas #regocijo #nino #gentilidad #tiburtina #gregorio #delfica #jeronimo #persica #augustin #ambrosio #tomas #cumana #judaismo #fe">
+          <sp
+            who="#coro-1 #voz #agustin #musicos #sibilas #regocijo #nino #gentilidad #tiburtina #gregorio #delfica #jeronimo #persica #augustin #ambrosio #tomas #cumana #judaismo #fe">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>… que quien llama a todos</l>
             <l>no exceta a nadie.»</l>

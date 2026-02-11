@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000027" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-06-12">
           <time when="20:36:35"/>
@@ -35,9 +36,12 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-devocion-de-la-misa--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-devocion-de-la-misa--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por J. Enrique Duarte procedente de la edición Calderón de la Barca, Pedro, La devoción de la misa, ed. J. Enrique Duarte, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2001. ISBN: 3-935004-41-9.</title>
+            <title>Texto crítico preparado por J. Enrique Duarte procedente de la edición Calderón
+              de la Barca, Pedro, La devoción de la misa, ed. J. Enrique Duarte, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 2001. ISBN: 3-935004-41-9.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,23 +51,41 @@
         <listPerson>
           <person xml:id="garcía" sex="MALE">
             <persName>El Conde Garci Fernández de Castilla</persName>
+            <idno type="wikidata">Q439138</idno>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="almanzor" sex="MALE">
             <persName>Almanzor</persName>
+            <idno type="wikidata">Q334861</idno>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="seta" sex="FEMALE">
             <persName>La Seta de Mahoma</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="ángel" sex="MALE">
             <persName>Un Ángel</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="demonio-pascual-vivas" sex="MALE">
             <persName>El Demonio Pascual Vivas</persName>
+            <idno type="wikidata">Q6674</idno>
             <trait source="castlist">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="pascual" sex="MALE">
@@ -71,11 +93,17 @@
             <trait source="name">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pernil" sex="MALE">
             <persName>Pernil</persName>
             <trait source="castlist">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lelio" sex="MALE">
@@ -83,11 +111,17 @@
             <trait source="castlist">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="aminta" sex="FEMALE">
             <persName>Aminta</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp xml:id="soldados-montañeses" sex="MALE">
@@ -106,17 +140,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -153,7 +190,8 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Dentro cajas y trompetas a una parte y a otra música y, después de las primeras voces, salen luchando EL ÁNGEL y LA SETA DE MAHOMA</stage>
+          <stage>Dentro cajas y trompetas a una parte y a otra música y, después de las primeras
+            voces, salen luchando EL ÁNGEL y LA SETA DE MAHOMA</stage>
           <sp who="#almanzor">
             <speaker>ALMANZOR</speaker>
             <stage>Dentro.</stage>
@@ -701,7 +739,9 @@
             <l>Grande Almanzor africano,</l>
             <l>Alcides de la ley nuestra.</l>
           </sp>
-          <stage>Ábrense los dos carros que serán dos tiendas de campaña y vese en el uno el CONDE GARCI FERNÁNDEZ, viejo venerable, armado de todas armas, sentado durmiendo y en el otro ALMANZOR durmiendo también sentado en otra silla.</stage>
+          <stage>Ábrense los dos carros que serán dos tiendas de campaña y vese en el uno el CONDE
+            GARCI FERNÁNDEZ, viejo venerable, armado de todas armas, sentado durmiendo y en el otro
+            ALMANZOR durmiendo también sentado en otra silla.</stage>
           <stage>En sueños.</stage>
           <sp who="#garcía">
             <speaker>GARCÍA</speaker>
@@ -907,7 +947,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Con la música, cajas y trompetas, se cierran las dos tiendas y sale por una parte PERNIL, soldado ridículo, y por otra, PASCUAL, soldado galán.</stage>
+          <stage>Con la música, cajas y trompetas, se cierran las dos tiendas y sale por una parte
+            PERNIL, soldado ridículo, y por otra, PASCUAL, soldado galán.</stage>
           <sp who="#pernil">
             <speaker>PERNIL</speaker>
             <l part="I">¿Pascual Vivas?</l>
@@ -1416,7 +1457,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="6">
-          <stage>Retírase AMINTA a un lado, tocan las cajas y sale el CONDE y SOLDADOS y mirando a PASCUAL y a ella da a entender que la ha visto con la acción quedando PASCUAL entre los dos como turbado.</stage>
+          <stage>Retírase AMINTA a un lado, tocan las cajas y sale el CONDE y SOLDADOS y mirando a
+            PASCUAL y a ella da a entender que la ha visto con la acción quedando PASCUAL entre los
+            dos como turbado.</stage>
           <sp who="#pernil">
             <speaker>PERNIL</speaker>
             <l part="F">¡Cuál se ha quedado!</l>
@@ -1655,7 +1698,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Vanse cada uno por su parte y salen, como que acechando han oído lo que han hablado, LELIO y el DEMONIO, vestidos de soldados.</stage>
+          <stage>Vanse cada uno por su parte y salen, como que acechando han oído lo que han
+            hablado, LELIO y el DEMONIO, vestidos de soldados.</stage>
           <sp who="#demonio-pascual-vivas">
             <speaker>DEMONIO</speaker>
             <l part="I">¿Haslo oído todo?</l>
@@ -1810,7 +1854,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Dentro la música y sale el ÁNGEL cantando y responde la música dentro a sus finales.</stage>
+          <stage>Dentro la música y sale el ÁNGEL cantando y responde la música dentro a sus
+            finales.</stage>
           <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l n="1100">Pues, vela Pascual.</l>
@@ -1957,7 +2002,8 @@
             <l n="1165">que no hace a traiciones nombre</l>
             <l>que está hecho a favores solo.</l>
           </sp>
-          <stage>El DEMONIO se retira como asombrado. Queda LELIO descubierto y al disparar quita el ÁNGEL el arpón de la ballesta, yéndose con él.</stage>
+          <stage>El DEMONIO se retira como asombrado. Queda LELIO descubierto y al disparar quita el
+            ÁNGEL el arpón de la ballesta, yéndose con él.</stage>
           <sp who="#lelio">
             <speaker>LELIO</speaker>
             <l>¿Agora tiemblas y huyes?</l>
@@ -2281,7 +2327,8 @@
             <l n="1295">Ya aquí caballo y pavés</l>
             <l part="I">están.</l>
           </sp>
-          <stage>Vuelve PERNIL con un pavés y unas riendas en la mano, arrimado al carro como que tiene el caballo.</stage>
+          <stage>Vuelve PERNIL con un pavés y unas riendas en la mano, arrimado al carro como que
+            tiene el caballo.</stage>
           <sp who="#pascual">
             <speaker>PASCUAL</speaker>
             <l part="F">Muestra. ¿Mas qué oigo?</l>
@@ -2333,7 +2380,8 @@
             <l>no sepa vengar mi oprobio.</l>
             <l>Llega pues. ¿Pero, qué es esto?</l>
           </sp>
-          <stage>Tocan la campana en el carro del templo y ábrese la escala que caerá sobre el tablado quedando lo demás cubierto de una cortina.</stage>
+          <stage>Tocan la campana en el carro del templo y ábrese la escala que caerá sobre el
+            tablado quedando lo demás cubierto de una cortina.</stage>
           <sp who="#pernil">
             <speaker>PERNIL</speaker>
             <l>¿Qué ha de ser? Los religiosos</l>
@@ -2422,7 +2470,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Subiendo la escala, se entra. Éntrase en el carro del templo, dejando a PERNIL con pavés, lanza y rienda.</stage>
+          <stage>Subiendo la escala, se entra. Éntrase en el carro del templo, dejando a PERNIL con
+            pavés, lanza y rienda.</stage>
           <sp who="#pernil">
             <speaker>PERNIL</speaker>
             <l>«Dame el caballo. Verás</l>
@@ -2528,7 +2577,8 @@
             <l n="1430">mostrar cómo su valor</l>
             <l part="I">desde aquí lidia.</l>
           </sp>
-          <stage>Corre el ÁNGEL la cortina y vese PASCUAL VIVAS hincado de rodillas delante de un altar que estará pintado con su retablo en el foro del carro.</stage>
+          <stage>Corre el ÁNGEL la cortina y vese PASCUAL VIVAS hincado de rodillas delante de un
+            altar que estará pintado con su retablo en el foro del carro.</stage>
           <sp who="#pascual">
             <speaker>PASCUAL</speaker>
             <l part="F">Señor,</l>
@@ -2622,7 +2672,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Vase, dejando el pavés y lanza en el suelo. Suena dentro las cajas y ruido de batalla.</stage>
+          <stage>Vase, dejando el pavés y lanza en el suelo. Suena dentro las cajas y ruido de
+            batalla.</stage>
           <sp who="#soldados-moros #soldados-montañeses">
             <stage>Dentro.</stage>
             <l n="1495">¡Vitoria por Almanzor!</l>
@@ -2715,7 +2766,9 @@
             <speaker>LELIO</speaker>
             <l part="F">Ya le veo.</l>
           </sp>
-          <stage>Corre el DEMONIO la cortina y vese hincado de rodillas en la ación que se vio PASCUAL primero, una estatua que sea retrato de bulto suyo con el mismo vestido lo más semejante que se pueda.</stage>
+          <stage>Corre el DEMONIO la cortina y vese hincado de rodillas en la ación que se vio
+            PASCUAL primero, una estatua que sea retrato de bulto suyo con el mismo vestido lo más
+            semejante que se pueda.</stage>
           <sp who="#demonio-pascual-vivas">
             <speaker>DEMONIO</speaker>
             <l n="1535">¿Pues, qué esperas? ¿Pues, qué aguardas?</l>
@@ -2795,7 +2848,9 @@
             <l>ni la libertad, ni vida</l>
             <l n="1570">que yo una y otra defiendo.</l>
           </sp>
-          <stage>Con estos versos que dice dentro el ÁNGEL, baja en un caballo PASCUAL y apeándose dél como dicen los versos, sube en él el CONDE y desaparece. Todos embisten con PASCUAL y él los retira huyendo de su vista.</stage>
+          <stage>Con estos versos que dice dentro el ÁNGEL, baja en un caballo PASCUAL y apeándose
+            dél como dicen los versos, sube en él el CONDE y desaparece. Todos embisten con PASCUAL
+            y él los retira huyendo de su vista.</stage>
           <sp who="#pascual">
             <speaker>PASCUAL</speaker>
             <l>Sube, Conde, en mi caballo</l>
@@ -2943,7 +2998,9 @@
             <l>entre mis brazos pretendo</l>
             <l part="I">hacerte pedazos.</l>
           </sp>
-          <stage>Arroja la espada y al irse a abrazar con él se pone en la peana de un torno que dando vuelta tendrá a las espaldas al ÁNGEL de suerte que yendo a abrazarse con PASCUAL se halle abrazada luchando con el ÁNGEL.</stage>
+          <stage>Arroja la espada y al irse a abrazar con él se pone en la peana de un torno que
+            dando vuelta tendrá a las espaldas al ÁNGEL de suerte que yendo a abrazarse con PASCUAL
+            se halle abrazada luchando con el ÁNGEL.</stage>
           <sp who="#pascual">
             <speaker>PASCUAL</speaker>
             <l part="F">Pues</l>
@@ -3026,7 +3083,8 @@
         </div>
         <div type="scene" resp="#rojas" n="31">
           <stage>Vase.</stage>
-          <stage>Tocan las cajas y trompetas y salen por lo bajo del tablado PERNIL y por lo alto PASCUAL VIVAS después de las voces que dirán dentro.</stage>
+          <stage>Tocan las cajas y trompetas y salen por lo bajo del tablado PERNIL y por lo alto
+            PASCUAL VIVAS después de las voces que dirán dentro.</stage>
           <sp who="#pernil #soldados-montañeses #soldados-moros">
             <speaker>TODOS</speaker>
             <l n="1675">¡Viva el Conde don García!</l>
@@ -3133,8 +3191,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="34">
-          <stage>Al irse como huyendo, salen al encuentro don GARCÍA, ALMANZOR, prisionero, y otros MOROS, AMINTA y SOLDADOS y entre ellos LELIO y el DEMONIO.</stage>
-          <sp who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas">
+          <stage>Al irse como huyendo, salen al encuentro don GARCÍA, ALMANZOR, prisionero, y otros
+            MOROS, AMINTA y SOLDADOS y entre ellos LELIO y el DEMONIO.</stage>
+          <sp
+            who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas">
             <speaker>TODOS</speaker>
             <l part="I">Aquí está.</l>
           </sp>
@@ -3287,7 +3347,8 @@
             <speaker>GARCÍA</speaker>
             <l part="I">¿No le vistis todos?</l>
           </sp>
-          <sp who="#soldados-montañeses #soldados-moros #almanzor #aminta #lelio #demonio-pascual-vivas">
+          <sp
+            who="#soldados-montañeses #soldados-moros #almanzor #aminta #lelio #demonio-pascual-vivas">
             <speaker>TODOS</speaker>
             <l part="F">Sí.</l>
           </sp>
@@ -3319,7 +3380,9 @@
           <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <l n="1790" part="F">Yo responderé a eso,</l>
-            <stage>Las chirimías y en el carro primero donde en lo bajo se vio la tienda de campaña del Conde, se abre en lo alto una nube donde aparece el ÁNGEL con una pirámide en que sube el sacramento en su remate.</stage>
+            <stage>Las chirimías y en el carro primero donde en lo bajo se vio la tienda de campaña
+              del Conde, se abre en lo alto una nube donde aparece el ÁNGEL con una pirámide en que
+              sube el sacramento en su remate.</stage>
             <l>pues quiere el cielo que quede</l>
             <l>público al mundo este ejemplo.</l>
             <l>Yo fui quien en su lugar</l>
@@ -3351,7 +3414,8 @@
             <speaker>MÚSICA</speaker>
             <l n="1810">Como uno era su imagen que no era él mismo.</l>
           </sp>
-          <sp who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel">
+          <sp
+            who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel">
             <speaker>TODOS</speaker>
             <l>Porque el cielo quiso premiar su valor</l>
             <l>con vislumbres y rasgos de su devoción.</l>
@@ -3406,7 +3470,9 @@
             <l>hollar de esa injusta fiera</l>
             <l part="I">la cerviz.</l>
           </sp>
-          <stage>Las chirimías y ábrese otra nube en el carro donde se vio primero ALMANZOR en su tienda, y vese en ella retratado en estatua Felipe tercero a caballo y a sus pies la SETA.</stage>
+          <stage>Las chirimías y ábrese otra nube en el carro donde se vio primero ALMANZOR en su
+            tienda, y vese en ella retratado en estatua Felipe tercero a caballo y a sus pies la
+            SETA.</stage>
           <sp who="#seta">
             <speaker>SETA</speaker>
             <l part="F">Yo diré eso,</l>
@@ -3489,7 +3555,8 @@
             <l>los unos para castigo,</l>
             <l>los otros para consuelo....</l>
           </sp>
-          <sp who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel #música">
+          <sp
+            who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>¿Cómo puede en dos partes estar un cuerpo?</l>
             <l n="1900">Solo Dios en la Hostia del sacramento.</l>

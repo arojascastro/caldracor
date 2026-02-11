@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000162" xml:lang="es">
   <teiHeader>
@@ -37,7 +37,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/18225</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de I. Arellano, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 2010. ISBN: 978-3-937734-79-8.</title>
+            <title>Edición digital a partir de la edición de I. Arellano, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 2010. ISBN: 978-3-937734-79-8.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,39 +48,76 @@
         <listPerson>
           <person sex="FEMALE" xml:id="vanidad">
             <persName>Vanidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="demonio">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="paraiso">
             <persName>Paraíso</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hombre">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="primavera">
             <persName>Primavera</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="otono">
             <persName>Otoño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="estio">
             <persName>Estío</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="naturaleza">
             <persName>Naturaleza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="MALE" xml:id="invierno">
             <persName>Invierno</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="tierra">
             <persName>Tierra</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="religion">
             <persName>Religión</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -93,12 +131,14 @@
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -392,7 +432,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Vase y sale la Naturaleza huyendo como espantada, y sálenla deteniendo Primavera, Otoño, Invierno, Estío, el Hombre y el Paraíso.</stage>
+          <stage>Vase y sale la Naturaleza huyendo como espantada, y sálenla deteniendo Primavera,
+            Otoño, Invierno, Estío, el Hombre y el Paraíso.</stage>
           <sp who="#paraiso">
             <speaker>PARAÍSO</speaker>
             <l n="225">¿Dónde vas de esta suerte?</l>
@@ -1380,7 +1421,8 @@
             <stage>Canta.</stage>
             <l>¡Albricias, albricias pido!</l>
           </sp>
-          <sp who="#naturaleza #musicos #estio #invierno #vanidad #hombre #otono #demonio #primavera">
+          <sp
+            who="#naturaleza #musicos #estio #invierno #vanidad #hombre #otono #demonio #primavera">
             <speaker>TODOS</speaker>
             <l n="805">¿De qué, porque te las den?</l>
           </sp>
@@ -1389,7 +1431,8 @@
             <l>De que a aumentar nuestro bien</l>
             <l>la emperatriz ha salido.</l>
           </sp>
-          <sp who="#naturaleza #musicos #estio #invierno #vanidad #hombre #otono #demonio #primavera">
+          <sp
+            who="#naturaleza #musicos #estio #invierno #vanidad #hombre #otono #demonio #primavera">
             <speaker>TODOS</speaker>
             <l part="I">¿Quién lo dice?</l>
           </sp>
@@ -1399,7 +1442,8 @@
             <l>quien su beldad adoré,</l>
             <l n="810">que estrella del campo fue.</l>
           </sp>
-          <sp who="#naturaleza #musicos #estio #invierno #vanidad #hombre #otono #demonio #primavera">
+          <sp
+            who="#naturaleza #musicos #estio #invierno #vanidad #hombre #otono #demonio #primavera">
             <speaker>TODOS</speaker>
             <stage>Bailan.</stage>
             <l>Pues hagamos alegrías</l>
@@ -1791,7 +1835,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Escóndese la Primavera, vanse los demás y sale el Hombre con un ataúd a cuestas.</stage>
+          <stage>Escóndese la Primavera, vanse los demás y sale el Hombre con un ataúd a
+            cuestas.</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l>Venid en mi compañía,</l>

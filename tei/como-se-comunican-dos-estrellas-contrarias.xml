@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000203" xml:lang="es">
   <teiHeader>
@@ -42,7 +42,8 @@
           <idno type="URL"/>
         </bibl>
         <bibl type="originalSource">
-          <title>Edición digital a partir de la edición de Erik Coenen, Alicante : Biblioteca Virtual Miguel de Cervantes, 2014.</title>
+          <title>Edición digital a partir de la edición de Erik Coenen, Alicante : Biblioteca
+            Virtual Miguel de Cervantes, 2014.</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -51,48 +52,90 @@
         <listPerson>
           <person sex="MALE" xml:id="celandio">
             <persName>Celandio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="lisardo">
             <persName>Lisardo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="FEMALE" xml:id="dominga">
             <persName>Dominga</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="dona-sol">
             <persName>Doña Sol</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="belardo">
             <persName>Belardo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="mendo">
             <persName>Mendo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="jaques">
             <persName>Jaques</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-garcia">
             <persName>Don García</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="don-vela">
             <persName>Don Vela</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="ramiro">
             <persName>Ramiro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="dona-elvira">
             <persName>Doña Elvira</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nuno">
             <persName>Nuño</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="uno">
             <persName>Uno</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="don-arias">
             <persName>Don Arias</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -101,23 +144,27 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
     <revisionDesc>
       <listChange>
-        <change when="2022-06-07T17:07:18">Converted with txt2tei&lt;https://github.com/fsanzl/txt2tei&gt;</change>
+        <change when="2022-06-07T17:07:18">Converted with
+          txt2tei&lt;https://github.com/fsanzl/txt2tei&gt;</change>
       </listChange>
     </revisionDesc>
   </teiHeader>
@@ -136,7 +183,8 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen Celandio, y Lisipo, que sacan a García vestido de peregrino, ensangrentado, como muerto.</stage>
+          <stage>Salen Celandio, y Lisipo, que sacan a García vestido de peregrino, ensangrentado,
+            como muerto.</stage>
           <sp who="#celandio">
             <speaker>CELANDIO</speaker>
             <l>Démosle sepultura</l>
@@ -157,7 +205,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Vanse, dejando cubierto con ramos el cuerpo junto al paño, y suena dentro ruido de música de labradores, y salen cantando Dominga, Belardo, Mendo, y doña Sol vestida de caza.</stage>
+          <stage>Vanse, dejando cubierto con ramos el cuerpo junto al paño, y suena dentro ruido de
+            música de labradores, y salen cantando Dominga, Belardo, Mendo, y doña Sol vestida de
+            caza.</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>A la sombra de los sauces</l>

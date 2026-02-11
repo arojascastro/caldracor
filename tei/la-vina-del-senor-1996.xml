@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000193" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,9 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ignacio Arellano, Ángel L. Cilveti, Blanca Oteiza y María Carmen Pinillos, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1996. ISBN: 3-930700-87-5.</title>
+            <title>Edición digital a partir de la edición de Ignacio Arellano, Ángel L. Cilveti,
+              Blanca Oteiza y María Carmen Pinillos, Pamplona–Kassel, Universidad de
+              Navarra–Reichenberger, 1996. ISBN: 3-930700-87-5.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,54 +50,138 @@
         <listPerson>
           <person sex="MALE" xml:id="lucero-del-dia">
             <persName>Lucero del Día</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="FEMALE" xml:id="malicia">
             <persName>Malicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="lucero-de-la-noche">
             <persName>Lucero de La Noche</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="padre">
             <persName>Padre</persName>
+            <idno type="wikidata">Q186350</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hijo">
             <persName>Hijo</persName>
+            <idno type="wikidata">Q302</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="jeremias">
             <persName>Jeremías</persName>
+            <idno type="wikidata">Q158825</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="isaias">
             <persName>Isaías</persName>
+            <idno type="wikidata">Q188794</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hebraismo">
             <persName>Hebraísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="gentilidad">
             <persName>Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="inocencia">
             <persName>Inocencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="zagal-1">
             <persName>Zagal 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="zagal-2">
             <persName>Zagal 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="sinagoga">
             <persName>Sinagoga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino-1">
             <persName>Niño 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino-2">
             <persName>Niño 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -104,17 +190,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -158,7 +247,9 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Cantando dentro el LUCERO DEL DÍA, y respondiendo toda la MÚSICA, salen por una parte el LUCERO DE LA NOCHE, y por otra la MALICIA como oyendo a lo lejos lo que se canta</stage>
+          <stage>Cantando dentro el LUCERO DEL DÍA, y respondiendo toda la MÚSICA, salen por una
+            parte el LUCERO DE LA NOCHE, y por otra la MALICIA como oyendo a lo lejos lo que se
+            canta</stage>
           <sp who="#lucero-del-dia">
             <speaker>LUCERO DEL DÍA</speaker>
             <l>Jornaleros de la vida,</l>
@@ -783,7 +874,10 @@
             <l>el sueldo que os dio el señor de la mies.</l>
           </sp>
           <stage>Repítese</stage>
-          <stage>Con esta repetición salen los MÚSICOS de villanos; ISAÍAS, y JEREMÍAS de profetas; el LUCERO del día de pieles. Luego el PADRE DE FAMILIAS, viejo venerable, de mayoral, con la mano en el hombro del hijo, vestido de zagal. Representan dando vuelta al tablado, y tras ellos el LUCERO y la MALICIA como en acecho de ellos</stage>
+          <stage>Con esta repetición salen los MÚSICOS de villanos; ISAÍAS, y JEREMÍAS de profetas;
+            el LUCERO del día de pieles. Luego el PADRE DE FAMILIAS, viejo venerable, de mayoral,
+            con la mano en el hombro del hijo, vestido de zagal. Representan dando vuelta al
+            tablado, y tras ellos el LUCERO y la MALICIA como en acecho de ellos</stage>
           <sp who="#padre">
             <speaker>PADRE</speaker>
             <l>Aunque con lástima advierto,</l>
@@ -1029,7 +1123,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vanse los dos y con la misma repetición salen por una parte la GENTILIDAD y por otra el HEBRAÍSMO</stage>
+          <stage>Vanse los dos y con la misma repetición salen por una parte la GENTILIDAD y por
+            otra el HEBRAÍSMO</stage>
           <sp who="#hebraismo">
             <speaker>HEBRAÍSMO</speaker>
             <l part="I">¡Ah del valle!</l>
@@ -1380,7 +1475,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Vase la GENTILIDAD y al entrarse el HEBRAÍSMO suena en aquella parte la MÚSICA y él se detiene</stage>
+          <stage>Vase la GENTILIDAD y al entrarse el HEBRAÍSMO suena en aquella parte la MÚSICA y él
+            se detiene</stage>
           <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">Pues a Dios.</l>
@@ -2282,8 +2378,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Salen de villanos y villanas todos los que puedan y entre ellos el LUCERO 2 y detrás la SINAGOGA</stage>
-          <sp who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
+          <stage>Salen de villanos y villanas todos los que puedan y entre ellos el LUCERO 2 y
+            detrás la SINAGOGA</stage>
+          <sp
+            who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1190">¡A la viña, a la viña, zagales,</l>
             <l>zagales venid, venid a la viña!</l>
@@ -2296,7 +2394,8 @@
             <l n="1195">la deja con su venida</l>
             <l>dos veces fecunda y mil veces florida.</l>
           </sp>
-          <sp who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
+          <sp
+            who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
             <speaker>TODOS</speaker>
             <l>¡Zagales venid, venid a la viña!</l>
           </sp>
@@ -2308,7 +2407,8 @@
             <l>de flor y fruto vestida</l>
             <l>dos veces fecunda y mil veces florida.</l>
           </sp>
-          <sp who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
+          <sp
+            who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
             <speaker>TODOS</speaker>
             <l>¡Zagales venid, venid a la viña!</l>
           </sp>
@@ -3117,7 +3217,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Las chirimías, y ábrese un carro en que habrá una mesa bien adornada de viandas, y aparadores, y en ella la SINAGOGA. Sube el HEBRAÍSMO y, sentados los dos comiendo en lo alto, sale al tablado la MALICIA con algunos de máscara y danzando los unos y comiendo los otros dice la MÚSICA</stage>
+          <stage>Las chirimías, y ábrese un carro en que habrá una mesa bien adornada de viandas, y
+            aparadores, y en ella la SINAGOGA. Sube el HEBRAÍSMO y, sentados los dos comiendo en lo
+            alto, sale al tablado la MALICIA con algunos de máscara y danzando los unos y comiendo
+            los otros dice la MÚSICA</stage>
           <sp who="#sinagoga">
             <speaker>SINAGOGA</speaker>
             <l>Sube, Hebraísmo, a la mesa</l>
@@ -3469,7 +3572,9 @@
             <l>más precioso que el vino, que excede</l>
             <l>al ámbar y al néctar.</l>
           </sp>
-          <stage>Repítese la máscara el tiempo que fuere menester para la tramoya, y trayendo en una fuente una cabeza de pasta cubierta, la ponen en la mesa sobre un escotillón, en que escondiéndose la una, saldrá en otra fuente la del mismo LUCERO</stage>
+          <stage>Repítese la máscara el tiempo que fuere menester para la tramoya, y trayendo en una
+            fuente una cabeza de pasta cubierta, la ponen en la mesa sobre un escotillón, en que
+            escondiéndose la una, saldrá en otra fuente la del mismo LUCERO</stage>
           <sp who="#zagal-2">
             <speaker>ZAGAL 2.º</speaker>
             <l>Este es el plato que mandas</l>
@@ -3509,7 +3614,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Cantando unos y representando otros se cierra la tramoya, tasando los versos de manera que vengan a acabar juntos, y con el último sale la MALICIA</stage>
+          <stage>Cantando unos y representando otros se cierra la tramoya, tasando los versos de
+            manera que vengan a acabar juntos, y con el último sale la MALICIA</stage>
           <sp who="#malicia">
             <speaker>MALICIA</speaker>
             <l>Ya ¿qué hay que temer, Lucero,</l>
@@ -3879,7 +3985,8 @@
         </div>
         <div type="scene" resp="#rojas" n="30">
           <stage>Salen todos y el LUCERO 2 y la MALICIA</stage>
-          <sp who="#isaias #jeremias #zagal-1 #zagal-2 #lucero-del-dia #sinagoga #inocencia #musicos">
+          <sp
+            who="#isaias #jeremias #zagal-1 #zagal-2 #lucero-del-dia #sinagoga #inocencia #musicos">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué nos mandas?</l>
           </sp>
@@ -3922,7 +4029,8 @@
             <l n="2055">que a excederos: como igual</l>
             <l part="I">me tratad.</l>
           </sp>
-          <sp who="#isaias #jeremias #zagal-1 #zagal-2 #lucero-del-dia #sinagoga #inocencia #musicos">
+          <sp
+            who="#isaias #jeremias #zagal-1 #zagal-2 #lucero-del-dia #sinagoga #inocencia #musicos">
             <speaker>TODOS</speaker>
             <l part="F">Pues tan humano</l>
             <l>se nos muestra, otra y mil veces</l>
@@ -4230,7 +4338,8 @@
             <l n="2200">toda un fúnebre teatro</l>
             <l part="I">de cadáveres.</l>
           </sp>
-          <sp who="#isaias #jeremias #lucero-del-dia #musicos #inocencia #lucero-de-la-noche #malicia #hebraismo #sinagoga #zagal-1 #zagal-2">
+          <sp
+            who="#isaias #jeremias #lucero-del-dia #musicos #inocencia #lucero-de-la-noche #malicia #hebraismo #sinagoga #zagal-1 #zagal-2">
             <speaker>TODOS</speaker>
             <l part="F">¡Qué asombro!</l>
           </sp>
@@ -4257,7 +4366,8 @@
             <l part="F">Sus candados</l>
             <l>abra para mí el abismo.</l>
           </sp>
-          <sp who="#isaias #jeremias #lucero-del-dia #musicos #inocencia #malicia #zagal-1 #zagal-2 #hebraismo #sinagoga #lucero-de-la-noche">
+          <sp
+            who="#isaias #jeremias #lucero-del-dia #musicos #inocencia #malicia #zagal-1 #zagal-2 #hebraismo #sinagoga #lucero-de-la-noche">
             <speaker>TODOS</speaker>
             <l>¡Qué horror! ¡Qué susto! ¡Qué espanto!</l>
           </sp>
@@ -4622,7 +4732,8 @@
             <l n="2405">en la prensa del martirio</l>
             <l>se vertió por siete caños.</l>
           </sp>
-          <stage>En el cuarto carro la FE en la mesa quitados los manjares y puesto en ella un cáliz con hostia</stage>
+          <stage>En el cuarto carro la FE en la mesa quitados los manjares y puesto en ella un cáliz
+            con hostia</stage>
           <sp who="#fe">
             <speaker>FE</speaker>
             <l>El tercer tesoro, que es</l>
@@ -4704,7 +4815,8 @@
             <l>besen tus plantas porque</l>
             <l>no estén ociosos mis labios.</l>
           </sp>
-          <sp who="#jeremias #lucero-del-dia #musicos #zagal-1 #zagal-2 #inocencia #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad">
+          <sp
+            who="#jeremias #lucero-del-dia #musicos #zagal-1 #zagal-2 #inocencia #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad">
             <speaker>TODOS</speaker>
             <l n="2445">Todos hacemos lo mismo</l>
             <l>pues descubierta miramos</l>
@@ -4715,7 +4827,8 @@
             <l part="F">Llegad,</l>
             <l>llegad todos a mis brazos.</l>
           </sp>
-          <sp who="#jeremias #lucero-del-dia #musicos #zagal-1 #zagal-2 #inocencia #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad">
+          <sp
+            who="#jeremias #lucero-del-dia #musicos #zagal-1 #zagal-2 #inocencia #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad">
             <speaker>TODOS</speaker>
             <l>Eso es obligar que todos</l>
             <l n="2450">digamos en ecos altos...</l>
@@ -4734,7 +4847,8 @@
             <l>porque a vuestros pies gozosos</l>
             <l>una y mil veces digamos...</l>
           </sp>
-          <sp who="#musicos #jeremias #lucero-del-dia #zagal-1 #zagal-2 #hijo #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad #padre #inocencia">
+          <sp
+            who="#musicos #jeremias #lucero-del-dia #zagal-1 #zagal-2 #hijo #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad #padre #inocencia">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>A tan alto sacramento</l>
             <l n="2460">venere el mundo postrado,</l>

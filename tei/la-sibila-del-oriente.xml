@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000123" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-09">
@@ -38,7 +39,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, La sibila del Oriente y gran reina de Sabá. En: Comedias, Vol. 5. Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza. Madrid : Fundación José Antonio de Castro, 2010</title>
+          <title>Pedro Calderón de la Barca, La sibila del Oriente y gran reina de Sabá. En:
+            Comedias, Vol. 5. Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza.
+            Madrid : Fundación José Antonio de Castro, 2010</title>
           <idno type="ISBN">978-84-96452-94-7</idno>
         </bibl>
       </sourceDesc>
@@ -48,14 +51,22 @@
         <listPerson>
           <person xml:id="salomón" sex="MALE">
             <persName>Salomón</persName>
+            <idno type="wikidata">Q37085</idno>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="hirán" sex="MALE">
             <persName>Hirán</persName>
+            <idno type="wikidata">Q467115</idno>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="candaces" sex="MALE">
@@ -63,20 +74,33 @@
             <trait source="castlist">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="eliud" sex="MALE">
             <persName>Eliud</persName>
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="visión" sex="FEMALE">
             <persName>Una Visión</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="sabá" sex="FEMALE">
             <persName>Sabá</persName>
+            <idno type="wikidata">Q159888</idno>
             <trait source="castlist">
               <desc>reina</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="irífile" sex="FEMALE">
@@ -84,11 +108,17 @@
             <trait source="castlist">
               <desc>negra</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="casimira" sex="FEMALE">
             <persName>Casimira</persName>
             <trait source="castlist">
               <desc>negra</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="irene" sex="FEMALE">
@@ -96,11 +126,17 @@
             <trait source="castlist">
               <desc>negra</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="mandinga" sex="FEMALE">
             <persName>Mandinga</persName>
             <trait source="#calderondigital">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="libio" sex="MALE">
@@ -111,27 +147,47 @@
             <trait source="castlist">
               <desc>indio</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="semeí" sex="MALE">
             <persName>Semeí</persName>
+            <idno type="wikidata">Q6978950</idno>
             <trait source="#calderondigital">
               <desc>joven</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="joab" sex="MALE">
             <persName>Joab</persName>
+            <idno type="wikidata">Q1141064</idno>
             <trait source="#calderondigital">
               <desc>capitán</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="hebreo" sex="MALE">
             <persName>Un Hebreo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="músico-1" sex="MALE">
             <persName>Músico 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="músico-2" sex="MALE">
             <persName>Músico 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -143,17 +199,20 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -195,7 +254,9 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Suena música, córrese una cortina y debajo de un dosel aparece Salomón durmiendo, vestido a lo romano; y por lo alto, en una apariencia, sale una Visión cantando, cubierto el rostro.</stage>
+          <stage>Suena música, córrese una cortina y debajo de un dosel aparece Salomón durmiendo,
+            vestido a lo romano; y por lo alto, en una apariencia, sale una Visión cantando,
+            cubierto el rostro.</stage>
           <sp who="#salomón">
             <speaker rend="caps">Salomón</speaker>
 
@@ -3200,7 +3261,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Van entrando los que pudieren, negros, Sabá en el carro, Joab y Semeí. Llegan los reyes al carro, hincan la rodilla y descúbrese el trono de Salomón.</stage>
+          <stage>Van entrando los que pudieren, negros, Sabá en el carro, Joab y Semeí. Llegan los
+            reyes al carro, hincan la rodilla y descúbrese el trono de Salomón.</stage>
           <sp who="#hirán">
             <speaker rend="caps">Hirán</speaker>
 
@@ -3837,7 +3899,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Vanse. Suenan destempladas cajas. Aparécese una mujer vestida de luto, con una espada de fuego.</stage>
+          <stage>Vanse. Suenan destempladas cajas. Aparécese una mujer vestida de luto, con una
+            espada de fuego.</stage>
           <sp who="#visión">
             <speaker rend="caps">Visión</speaker>
 

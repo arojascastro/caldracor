@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000110" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-17">
@@ -38,7 +39,10 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Judas Macabeo. Edición crítica de Fernando Rodríguez-Gallego. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano. Universidad de Navarra / Iberoamericana / Vervuert 2012 Biblioteca Áurea Hispánica 80, Comedias completas de Calderón 8</title>
+          <title>Pedro Calderón de la Barca, Judas Macabeo. Edición crítica de Fernando
+            Rodríguez-Gallego. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano.
+            Universidad de Navarra / Iberoamericana / Vervuert 2012 Biblioteca Áurea Hispánica 80,
+            Comedias completas de Calderón 8</title>
           <idno type="URL">https://doi.org/10.31819/9783954870844</idno>
         </bibl>
       </sourceDesc>
@@ -48,29 +52,48 @@
         <listPerson>
           <person xml:id="judas" sex="MALE">
             <persName>Judas</persName>
+            <idno type="wikidata">Q111559</idno>
             <trait source="#calderondigital">
               <desc>hermano</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="capitán" sex="MALE">
             <persName>Un Capitán</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="simeón" sex="MALE">
             <persName>Simeón</persName>
+            <idno type="wikidata">Q359711</idno>
             <trait source="#calderondigital">
               <desc>hermano</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="gorgias" sex="MALE">
             <persName>Gorgias</persName>
+            <idno type="wikidata">Q1092175</idno>
             <trait source="#calderondigital">
               <desc>general</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="jonatás" sex="MALE">
             <persName>Jonatás</persName>
+            <idno type="wikidata">Q75043</idno>
             <trait source="#calderondigital">
               <desc>hermano</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="chato" sex="MALE">
@@ -78,11 +101,18 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisías" sex="MALE">
             <persName>Lisías</persName>
+            <idno type="wikidata">Q1370594</idno>
             <trait source="#calderondigital">
               <desc>gobernador</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="zarés" sex="MALE">
@@ -93,11 +123,17 @@
             <trait source="rolecall">
               <desc>travestido</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="tolomeo" sex="MALE">
             <persName>Tolomeo</persName>
             <trait source="#calderondigital">
               <desc>soldado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="cloriquea" sex="FEMALE">
@@ -105,11 +141,18 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="matatías" sex="MALE">
             <persName>Matatías</persName>
+            <idno type="wikidata">Q75048</idno>
             <trait source="#calderondigital">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="josef" sex="MALE">
@@ -117,9 +160,15 @@
             <trait source="castlist">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldado" sex="MALE">
             <persName>Un Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
             <persName>Músicos</persName>
@@ -131,17 +180,20 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -184,7 +236,8 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage type="withText">Salen por una puerta, habiendo tocado cajas y trompetas, Jonatás, Simeón y Judas, y por otra Matatías, viejo, Zarés y músicos.</stage>
+          <stage type="withText">Salen por una puerta, habiendo tocado cajas y trompetas, Jonatás,
+            Simeón y Judas, y por otra Matatías, viejo, Zarés y músicos.</stage>
           <sp who="#música">
             <speaker rend="caps">Músicos</speaker>
 
@@ -1078,7 +1131,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Vanse, y salen al son de cajas destempladas Lisías y soldados, y por otra puerta Gorgias con bastón y corona de ciprés.</stage>
+          <stage>Vanse, y salen al son de cajas destempladas Lisías y soldados, y por otra puerta
+            Gorgias con bastón y corona de ciprés.</stage>
           <sp who="#gorgias">
             <speaker rend="caps">Gorgias</speaker>
 
@@ -1765,7 +1819,8 @@
       </div>
       <div type="act" n="2">
         <head rend="caps">Segunda Jornada</head>
-        <stage type="withText">Salen Lisías con el manto de Jonatás y un soldado llamado Josef.</stage>
+        <stage type="withText">Salen Lisías con el manto de Jonatás y un soldado llamado
+          Josef.</stage>
         <div type="scene" resp="#rojas" n="1">
           <sp who="#lisías">
             <speaker rend="caps">Lisías</speaker>
@@ -1817,7 +1872,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Toca una caja a marchar y sale Zarés armada, con una bandera al hombro, al son de la caja.</stage>
+          <stage>Toca una caja a marchar y sale Zarés armada, con una bandera al hombro, al son de
+            la caja.</stage>
           <sp who="#josef">
             <speaker rend="caps">Josef</speaker>
 
@@ -2388,7 +2444,8 @@
             <l>la alabanza que pretendes;</l>
             <l>yo, el decoro que me debo.</l>
             <l>Álzala del suelo y vete.</l>
-            <stage>Echa la banda en el suelo y llega Jonatás y Simeón y asen todos de la banda</stage>
+            <stage>Echa la banda en el suelo y llega Jonatás y Simeón y asen todos de la
+              banda</stage>
           </sp>
           <sp who="#jonatás">
             <speaker rend="caps">Jonatás</speaker>
@@ -3365,7 +3422,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Duérmese y salen el capitán y soldados con las espadas desnudas y Judas embozado.</stage>
+          <stage>Duérmese y salen el capitán y soldados con las espadas desnudas y Judas
+            embozado.</stage>
           <sp who="#capitán">
             <speaker rend="caps">Capitán</speaker>
 
@@ -3788,7 +3846,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Lisías mete a los suyos a cuchilladas y los dos hermanos se van, y salen Zarés con un papel y Tolomeo</stage>
+          <stage>Lisías mete a los suyos a cuchilladas y los dos hermanos se van, y salen Zarés con
+            un papel y Tolomeo</stage>
           <sp who="#tolomeo">
             <speaker rend="caps">Tolomeo</speaker>
 
@@ -3985,7 +4044,8 @@
       </div>
       <div type="act" n="3">
         <head rend="caps">Tercera Jornada</head>
-        <stage type="withText">Salen Jonatás y Tolomeo, y saca Jonatás un bastón y un escudo pequeño.</stage>
+        <stage type="withText">Salen Jonatás y Tolomeo, y saca Jonatás un bastón y un escudo
+          pequeño.</stage>
         <div type="scene" resp="#rojas" n="1">
           <sp who="#tolomeo">
             <speaker rend="caps">Tolomeo</speaker>
@@ -4701,7 +4761,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Salen Judas, Simeón y Jonatás y Tolomeo al son de cajas destempladas y traen otros en hombros un ataúd, y por lo alto del muro salen Lisías y soldados.</stage>
+          <stage>Salen Judas, Simeón y Jonatás y Tolomeo al son de cajas destempladas y traen otros
+            en hombros un ataúd, y por lo alto del muro salen Lisías y soldados.</stage>
           <sp who="#capitán">
             <speaker rend="caps">Capitán</speaker>
 
@@ -5492,7 +5553,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Tocan cajas y salen marchando, cada uno por su puerta, Simeón y Jonatás y acompañamiento.</stage>
+          <stage>Tocan cajas y salen marchando, cada uno por su puerta, Simeón y Jonatás y
+            acompañamiento.</stage>
           <sp who="#simeón">
             <speaker rend="caps">Simeón</speaker>
 

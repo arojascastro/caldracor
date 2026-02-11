@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000029" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-14">
           <time when="09:15:59"/>
@@ -35,9 +36,14 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-hidalga-del-valle--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/la-hidalga-del-valle--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la de Pedro del Pando y Mier, Autos Sacramentales, alegóricos y historiales ... Tercera Parte, Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la edición de Nicolás González Ruiz (Piezas maestras del teatro teológico español, Madrid, Biblioteca de Autores Cristianos, 1997, 4ª ed., t. I, pp. 403-425; 1ª ed. 1946).</title>
+            <title>Edición digital a partir de la de Pedro del Pando y Mier, Autos Sacramentales,
+              alegóricos y historiales ... Tercera Parte, Madrid, Manuel Ruiz de Murga, 1717 y
+              cotejada con la edición de Nicolás González Ruiz (Piezas maestras del teatro teológico
+              español, Madrid, Biblioteca de Autores Cristianos, 1997, 4ª ed., t. I, pp. 403-425; 1ª
+              ed. 1946).</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,39 +53,89 @@
         <listPerson>
           <person xml:id="culpa" sex="FEMALE">
             <persName>La Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="naturaleza" sex="FEMALE">
             <persName>La Naturaleza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="gracia" sex="FEMALE">
             <persName>La Gracia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="hidalga" sex="FEMALE">
             <persName>La Hidalga</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="contento" sex="MALE">
             <persName>El Contento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="furor" sex="MALE">
             <persName>El Furor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="amor-divino" sex="MALE">
             <persName>Amor Divino</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="job" sex="MALE">
             <persName>Job</persName>
+            <idno type="wikidata">Q179962</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="david" sex="MALE">
             <persName>David</persName>
+            <idno type="wikidata">Q41370</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="placer" sex="MALE">
             <persName>Placer</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="niña" sex="FEMALE">
             <persName>Una Niña</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -88,17 +144,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -110,7 +169,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000029" passive="http://www.wikidata.org/entity/Q69034004"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000029"
+        passive="http://www.wikidata.org/entity/Q69034004"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -132,7 +192,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Sale LA CULPA con bastón y saca a LA NATURALEZA herrada con clavos, como esclava.</stage>
+          <stage>Sale LA CULPA con bastón y saca a LA NATURALEZA herrada con clavos, como
+            esclava.</stage>
           <sp who="#culpa">
             <speaker>CULPA</speaker>
             <l>Villanos, hijos de Adán,</l>
@@ -348,7 +409,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>En lo alto de la torre está una fábrica de tres puertas, las dos abiertas y la una cerrada, y JOB sale por una y dice sin bajar.</stage>
+          <stage>En lo alto de la torre está una fábrica de tres puertas, las dos abiertas y la una
+            cerrada, y JOB sale por una y dice sin bajar.</stage>
           <sp who="#job">
             <speaker>JOB</speaker>
             <l>¿Quién con míseros gemidos</l>
@@ -1123,7 +1185,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Salen LA GRACIA y EL DIVINO AMOR por una parte; y por la otra, LA CULPA, y EL FUROR y LA NATURALEZA un poco más adelante, y van andando como hacia la casa de Joaquín.</stage>
+          <stage>Salen LA GRACIA y EL DIVINO AMOR por una parte; y por la otra, LA CULPA, y EL FUROR
+            y LA NATURALEZA un poco más adelante, y van andando como hacia la casa de
+            Joaquín.</stage>
           <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l>De una música llamada,</l>
@@ -1273,7 +1337,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Al dar la mano LA NATURALEZA a LA CULPA, tómala LA GRACIA y se entra, cerrándose una puerta que ha de haber.</stage>
+          <stage>Al dar la mano LA NATURALEZA a LA CULPA, tómala LA GRACIA y se entra, cerrándose
+            una puerta que ha de haber.</stage>
           <sp who="#gracia">
             <speaker>GRACIA</speaker>
             <l part="I">Sí haré.</l>
@@ -2184,7 +2249,9 @@
             <l>cae, que estas esferas altas</l>
             <l>todas sobre mí parece</l>
             <l>que se trastornan y bajan,</l>
-            <stage>Va a subir por una escalera, y ábrese la apariencia y baja por una tramoya LA HIDALGA, que lo hará UNA NIÑA, hasta ponerse encima de LA CULPA, como se pinta.</stage>
+            <stage>Va a subir por una escalera, y ábrese la apariencia y baja por una tramoya LA
+              HIDALGA, que lo hará UNA NIÑA, hasta ponerse encima de LA CULPA, como se
+              pinta.</stage>
             <l n="1365">desasidas de sus polos,</l>
             <l>de sus ejes desquiciadas</l>
             <l>se deshacen, se desploman,</l>

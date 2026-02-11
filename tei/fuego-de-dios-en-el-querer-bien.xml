@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000107" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar). </title>
+            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar).
+            </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,11 +49,17 @@
         <listPerson>
           <person sex="MALE" xml:id="don-alvaro">
             <persName>Don Álvaro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="angela">
             <persName>Ángela</persName>
             <trait source="castlist">
               <desc>hermana</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="luisa">
@@ -60,44 +67,77 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="beatriz">
             <persName>Beatriz</persName>
             <trait source="castlist">
               <desc>hija</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-diego">
             <persName>Don Diego</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="alvaro">
             <persName>Álvaro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-pedro">
             <persName>Don Pedro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-juan">
             <persName>Don Juan</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="dentro">
             <persName>Dentro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hernando">
             <persName>Hernando</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="escribano">
             <persName>Escribano</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="alguacil">
             <persName>Alguacil</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="ines">
             <persName>Inés</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
         </listPerson>
@@ -107,17 +147,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -1255,7 +1298,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage> Al ir a entrar donde está el escondido, llaman a la puerta, sale don Pedro viejo, y él no entra. </stage>
+          <stage> Al ir a entrar donde está el escondido, llaman a la puerta, sale don Pedro viejo,
+            y él no entra. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
             <l n="555"> Señor don Álvaro, yo </l>
@@ -5143,7 +5187,8 @@
             <speaker> ÁNGELA </speaker>
             <l part="F"> ¿Esto querer? </l>
           </sp>
-          <sp who="#angela #luisa #beatriz #don-diego #alvaro #don-pedro #don-juan #dentro #hernando #escribano #alguacil #ines">
+          <sp
+            who="#angela #luisa #beatriz #don-diego #alvaro #don-pedro #don-juan #dentro #hernando #escribano #alguacil #ines">
             <speaker> TODOS </speaker>
             <l> Fuego de Dios en el querer bien. </l>
             <l> Amén, amén. </l>
@@ -7341,7 +7386,8 @@
             <speaker> ÁNGELA </speaker>
             <l> ¿Esto, cielos, es querer? </l>
           </sp>
-          <sp who="#angela #luisa #beatriz #don-diego #alvaro #don-pedro #don-juan #dentro #hernando #escribano #alguacil #ines">
+          <sp
+            who="#angela #luisa #beatriz #don-diego #alvaro #don-pedro #don-juan #dentro #hernando #escribano #alguacil #ines">
             <speaker> TODOS </speaker>
             <l> ¡Fuego de Dios en el querer bien! </l>
           </sp>
@@ -7598,7 +7644,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage> Éntranse por la puerta donde están escondidos don Juan y Hernando, y hallándolos dentro, riñen. </stage>
+          <stage> Éntranse por la puerta donde están escondidos don Juan y Hernando, y hallándolos
+            dentro, riñen. </stage>
           <sp who="#don-pedro">
             <speaker> DON PEDRO </speaker>
             <stage> Dentro. </stage>
@@ -7800,7 +7847,8 @@
             <l> escarmentando en mis penas: </l>
             <l> ¡Fuego de Dios en el querer bien! </l>
           </sp>
-          <sp who="#angela #luisa #beatriz #don-diego #alvaro #don-pedro #don-juan #dentro #hernando #escribano #alguacil #ines">
+          <sp
+            who="#angela #luisa #beatriz #don-diego #alvaro #don-pedro #don-juan #dentro #hernando #escribano #alguacil #ines">
             <speaker> TODOS </speaker>
             <l> ¡Amén, amén, amén, amén! </l>
           </sp>

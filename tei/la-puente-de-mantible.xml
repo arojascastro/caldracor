@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000120" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-17">
@@ -38,7 +39,10 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, La puente de Mantible. Edición crítica de Fernando Rodríguez-Gallego y Adrián J. Sáez. Biblioteca Áurea Hispánica. Dirección de Ignacio Arellano. Universidad de Navarra / Iberoamericana / Vervuert 2016 Biblioteca Áurea Hispánica 106, Comedias completas de Calderón 15</title>
+          <title>Pedro Calderón de la Barca, La puente de Mantible. Edición crítica de Fernando
+            Rodríguez-Gallego y Adrián J. Sáez. Biblioteca Áurea Hispánica. Dirección de Ignacio
+            Arellano. Universidad de Navarra / Iberoamericana / Vervuert 2016 Biblioteca Áurea
+            Hispánica 106, Comedias completas de Calderón 15</title>
           <idno type="URL">https://doi.org/10.31819/9783954878765</idno>
         </bibl>
       </sourceDesc>
@@ -48,12 +52,22 @@
         <listPerson>
           <person xml:id="fierabrás" sex="MALE">
             <persName>Fierabrás</persName>
+            <idno type="wikidata">Q123438473</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="irene" sex="FEMALE">
             <persName>Irene</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="brutamonte" sex="MALE">
             <persName>Brutamonte</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="moros" sex="MALE">
             <persName>Moros</persName>
@@ -63,42 +77,78 @@
           </personGrp>
           <person xml:id="oliveros" sex="MALE">
             <persName>Oliveros</persName>
+            <idno type="wikidata">Q2962999</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="ricarte" sex="MALE">
             <persName>Ricarte de Normandía</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="emperador" sex="MALE">
             <persName>Carlo Magno</persName>
+            <idno type="wikidata">Q3044</idno>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="floripes" sex="MALE">
             <persName>Floripes</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="arminda" sex="FEMALE">
             <persName>Arminda</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="galafre" sex="MALE">
             <persName>Galafre</persName>
             <trait source="castlist">
               <desc>gigante</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="guido" sex="MALE">
             <persName>Guido de Borgoña</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="roldán" sex="MALE">
             <persName>Roldán</persName>
+            <idno type="wikidata">Q207535</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="infante" sex="MALE">
             <persName>El Infante Guarinos</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="guarín" sex="MALE">
             <persName>Guarín</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="músicos">
             <persName>Músicos</persName>
@@ -110,17 +160,20 @@
           <term source="dracor" type="genreTitle">comedia novelesca</term>
           <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -132,7 +185,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000120" passive="http://www.wikidata.org/entity/Q5967930"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000120"
+        passive="http://www.wikidata.org/entity/Q5967930"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -163,7 +217,9 @@
       <div type="act" n="1">
         <head rend="caps">Primera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage type="withText">Salen Guido y Oliveros de franceses galanes, con bandas en los rostros; Fierabrás y moros, deteniéndole; Floripes, Irene y Arminda, turcas. Suenan cajas y trompetas.</stage>
+          <stage type="withText">Salen Guido y Oliveros de franceses galanes, con bandas en los
+            rostros; Fierabrás y moros, deteniéndole; Floripes, Irene y Arminda, turcas. Suenan
+            cajas y trompetas.</stage>
           <sp who="#guido">
             <speaker rend="caps">Guido</speaker>
 
@@ -3435,7 +3491,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Vanse. Ciérrase el puente. Suenan cajas y trompetas. Sale Fierabrás y soldados.</stage>
+          <stage>Vanse. Ciérrase el puente. Suenan cajas y trompetas. Sale Fierabrás y
+            soldados.</stage>
           <sp who="#fierabrás">
             <speaker rend="caps">Fierabrás</speaker>
 
@@ -3911,7 +3968,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Dase la batalla y toma cada uno lo que puede de la mesa. Éntranse peleando y sale Floripes.</stage>
+          <stage>Dase la batalla y toma cada uno lo que puede de la mesa. Éntranse peleando y sale
+            Floripes.</stage>
           <sp who="#floripes">
             <speaker rend="caps">Floripes</speaker>
 
@@ -4505,7 +4563,8 @@
       <div type="act" n="3">
         <head rend="caps">Tercera Jornada</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage type="withText">Suenan trompetas bastardas y cajas destempladas y sale Floripes arriba en la torre.</stage>
+          <stage type="withText">Suenan trompetas bastardas y cajas destempladas y sale Floripes
+            arriba en la torre.</stage>
           <sp who="#floripes">
             <speaker rend="caps">Floripes</speaker>
 
@@ -4537,7 +4596,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Tocan cajas destempladas y salen, arrastrando banderas, sol- dados moros en orden y luego Guido de Borgoña, atadas atrás las manos, cubiertos los ojos con una banda negra, y a la postre Fierabrás.</stage>
+          <stage>Tocan cajas destempladas y salen, arrastrando banderas, sol- dados moros en orden y
+            luego Guido de Borgoña, atadas atrás las manos, cubiertos los ojos con una banda negra,
+            y a la postre Fierabrás.</stage>
           <sp who="#fierabrás">
             <speaker rend="caps">Fierabrás</speaker>
 
@@ -6099,7 +6160,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Vanse. Suena música, ábrese el puente y vese arriba sentado Fierabrás y dos gigantes a sus pies.</stage>
+          <stage>Vanse. Suena música, ábrese el puente y vese arriba sentado Fierabrás y dos
+            gigantes a sus pies.</stage>
           <sp who="#fierabrás">
             <speaker rend="caps">Fierabrás</speaker>
 
@@ -6130,7 +6192,8 @@
             <l>divididas las dos tropas;</l>
             <l>bien podré hablar desde aquí,</l>
             <l>porque dos campos me oigan.</l>
-            <stage>Cajas. Salen por una parte el emperador, Guido y soldados, y por la otra los caballeros y las damas y Guarín.</stage>
+            <stage>Cajas. Salen por una parte el emperador, Guido y soldados, y por la otra los
+              caballeros y las damas y Guarín.</stage>
             <l>Generosos paladines,</l>
             <l>los de la Tabla Redonda,</l>
             <l>cuya fama de dos polos</l>
@@ -6211,7 +6274,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Suben unos por una parte y otros por otra. Dase la batalla muy reñida en lo alto y éntranse todos por arriba.</stage>
+          <stage>Suben unos por una parte y otros por otra. Dase la batalla muy reñida en lo alto y
+            éntranse todos por arriba.</stage>
           <sp who="#floripes">
             <speaker rend="caps">Floripes</speaker>
 

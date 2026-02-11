@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000200" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ignacio Arellano, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2013. ISBN: 978-3-944244-05-1.</title>
+            <title>Edición digital a partir de la edición de Ignacio Arellano, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 2013. ISBN: 978-3-944244-05-1.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,36 +49,73 @@
         <listPerson>
           <person sex="MALE" xml:id="demonio">
             <persName>Demonio</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="malicia">
             <persName>Malicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="justicia">
             <persName>Justicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="poder">
             <persName>Poder</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="labranza">
             <persName>Labranza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="hermosura">
             <persName>Hermosura</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="discrecion">
             <persName>Discreción</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="milicia">
             <persName>Milicia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="pobreza">
             <persName>Pobreza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="bien">
             <persName>Bien</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="mal">
             <persName>Mal</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
@@ -93,6 +131,9 @@
           </personGrp>
           <person sex="MALE" xml:id="esqueleto">
             <persName>Esqueleto</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="acompanamiento">
             <persName>Otros</persName>
@@ -104,17 +145,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -151,7 +195,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Ábrese un carro, y vese dentro un peñasco bruto, yen medio dél un árbol, de cuyo tronco sale el Demonio con un puñal en la mano</stage>
+          <stage>Ábrese un carro, y vese dentro un peñasco bruto, yen medio dél un árbol, de cuyo
+            tronco sale el Demonio con un puñal en la mano</stage>
           <sp who="#demonio">
             <speaker>DEMONIO</speaker>
             <l>Rásguese de este tronco</l>
@@ -421,7 +466,13 @@
             <l>que hay más Fortuna que Dios,</l>
             <l>pues donde hay Dios no hay Fortuna.</l>
           </sp>
-          <stage>Ábrese otro peñasco, en que ha de verse otro árbol,de cuyas ramas han de estar pendientes una coronade laurel y un cetro, un espejo y un libro, una es-pada y bastón, una azada, un báculo y una cruz, yal pie del árbol, debajo de cada insinia, dormidos, el Poder, la Labranza, la Hermosura, la Discreción, la Milicia y la Pobreza; por detrásdel árbol sube en elevación la Justicia distributiva, con una vara en la mano, y al sacudir las ra-mas con ella, cuando lo digan los versos, cay sobrecada uno la insignia que le toca</stage>
+          <stage>Ábrese otro peñasco, en que ha de verse otro árbol,de cuyas ramas han de estar
+            pendientes una coronade laurel y un cetro, un espejo y un libro, una es-pada y bastón,
+            una azada, un báculo y una cruz, yal pie del árbol, debajo de cada insinia, dormidos, el
+            Poder, la Labranza, la Hermosura, la Discreción, la Milicia y la Pobreza; por detrásdel
+            árbol sube en elevación la Justicia distributiva, con una vara en la mano, y al sacudir
+            las ra-mas con ella, cuando lo digan los versos, cay sobrecada uno la insignia que le
+            toca</stage>
           <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <stage>Cantando</stage>
@@ -474,7 +525,10 @@
             <l>y nadie al nacer se aflija o alegre,</l>
             <l n="275">porque hasta la muerte no hay dicha o desdicha.</l>
           </sp>
-          <stage>Con esta repetición sacude las ramas y cayn las in-signias, hallándose cada uno con la que le toca sinver quién se la ha dado, porque la Justicia desapa-rece por la misma elevación con los últimos versos.Despierta el Poder de galán con el laurel y cetro</stage>
+          <stage>Con esta repetición sacude las ramas y cayn las in-signias, hallándose cada uno con
+            la que le toca sinver quién se la ha dado, porque la Justicia desapa-rece por la misma
+            elevación con los últimos versos.Despierta el Poder de galán con el laurel y
+            cetro</stage>
           <sp who="#poder">
             <speaker>PODER</speaker>
             <l>¿Qué es lo que cay sobre mí,</l>
@@ -647,7 +701,8 @@
             <speaker>TODOS</speaker>
             <l n="345" part="F">Vamos.</l>
           </sp>
-          <stage>La cruz cuando cayn las demás insignias, cay tam-bién en medio arrimada al árbol</stage>
+          <stage>La cruz cuando cayn las demás insignias, cay tam-bién en medio arrimada al
+            árbol</stage>
           <sp who="#discrecion">
             <speaker>DISCRECIÓN</speaker>
             <l>Esperad, que hay aquí un don</l>
@@ -664,7 +719,8 @@
             <l n="350" part="F">Si mi atención</l>
             <l>bien lo advierte, una cruz es.</l>
           </sp>
-          <stage>Cada uno con su verso van bajando todos al tablado por escala que tendrá el peñasco</stage>
+          <stage>Cada uno con su verso van bajando todos al tablado por escala que tendrá el
+            peñasco</stage>
           <sp who="#poder">
             <speaker>PODER</speaker>
             <l>Para mí no viene, pues</l>
@@ -1309,7 +1365,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="14">
-          <stage>Luchan los dos arrojando las capas para llegar aabrazarse y sale la Malicia a esparcirlos con lavoz de que viene la justicia y al querer retirar deella los dos les trueca la Malicia las capas</stage>
+          <stage>Luchan los dos arrojando las capas para llegar aabrazarse y sale la Malicia a
+            esparcirlos con lavoz de que viene la justicia y al querer retirar deella los dos les
+            trueca la Malicia las capas</stage>
           <sp who="#mal">
             <speaker>MAL</speaker>
             <l>Aunque blasones de fuerte</l>
@@ -1486,7 +1544,9 @@
             <l>del Hombre llegan primero</l>
             <l>noticias del bien que el mal.</l>
           </sp>
-          <stage>Llega con él al carro, donde en el primer cuerpo, araíz del tablado, corriendo una cortina, se veránestantes de libros, en medio un bufete con papelesy aderezo de escribir, y la Discreción sentada leyendo</stage>
+          <stage>Llega con él al carro, donde en el primer cuerpo, araíz del tablado, corriendo una
+            cortina, se veránestantes de libros, en medio un bufete con papelesy aderezo de
+            escribir, y la Discreción sentada leyendo</stage>
           <sp who="#bien">
             <speaker>BIEN</speaker>
             <l>Esta es la estancia, este el centro</l>
@@ -1650,7 +1710,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="19">
-          <stage>Vase. Ábrese el carro del jardín y vese en él la Hermosura en un tocador, mirándose al espejo,como que se está tocando, con algunas que la sirven, y Músicos detrás, y la Malicia a un lado.</stage>
+          <stage>Vase. Ábrese el carro del jardín y vese en él la Hermosura en un tocador, mirándose
+            al espejo,como que se está tocando, con algunas que la sirven, y Músicos detrás, y la
+            Malicia a un lado.</stage>
           <sp who="#mal">
             <speaker>MAL</speaker>
             <l>Aquel el vistoso albergue</l>
@@ -2065,7 +2127,9 @@
             <l>una con el dueño yace</l>
             <l>y otra yace sin el dueño.</l>
           </sp>
-          <stage>Cantan a un mismo tiempo los dos coros cada uno su copla debajo de un compás confundiendo los sentidos de la una con la otra y antes que acaben suenan cajas y trompetas</stage>
+          <stage>Cantan a un mismo tiempo los dos coros cada uno su copla debajo de un compás
+            confundiendo los sentidos de la una con la otra y antes que acaben suenan cajas y
+            trompetas</stage>
           <sp who="#hermosura">
             <speaker>HERMOSURA</speaker>
             <l n="1160">Oíd, ¿qué tercero rumor</l>
@@ -2232,7 +2296,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="22">
-          <stage>Con esta copla, repetida de la música, bailan todos en rueda y el Bien se queda aparte sin entrar en el baile</stage>
+          <stage>Con esta copla, repetida de la música, bailan todos en rueda y el Bien se queda
+            aparte sin entrar en el baile</stage>
           <sp who="#poder">
             <speaker>PODER</speaker>
             <l>Esperad, porque he notado</l>
@@ -2306,7 +2371,8 @@
             <l>que el Bien con capa de Mal</l>
             <l n="1275">no está en el conocimiento.</l>
           </sp>
-          <sp who="#justicia #demonio #discrecion #coro-2 #coro-1 #coro #mal #musicos #poder #hermosura #milicia #labranza #malicia">
+          <sp
+            who="#justicia #demonio #discrecion #coro-2 #coro-1 #coro #mal #musicos #poder #hermosura #milicia #labranza #malicia">
             <speaker>TODOS</speaker>
             <l part="I">¿En fin, tú eres el Bien?</l>
           </sp>
@@ -2314,7 +2380,8 @@
             <speaker>BIEN</speaker>
             <l part="F">Sí.</l>
           </sp>
-          <sp who="#justicia #demonio #discrecion #coro-2 #coro-1 #coro #mal #musicos #poder #hermosura #milicia #labranza #malicia #bien">
+          <sp
+            who="#justicia #demonio #discrecion #coro-2 #coro-1 #coro #mal #musicos #poder #hermosura #milicia #labranza #malicia #bien">
             <speaker>TODOS</speaker>
             <l>¿Pues en qué podremos verlo?</l>
           </sp>
@@ -2358,7 +2425,8 @@
             <speaker>MILICIA</speaker>
             <l part="F">Vil y grosero.</l>
           </sp>
-          <sp who="#justicia #demonio #discrecion #coro-2 #coro-1 #coro #mal #musicos #bien #poder #hermosura #labranza #malicia #milicia">
+          <sp
+            who="#justicia #demonio #discrecion #coro-2 #coro-1 #coro #mal #musicos #bien #poder #hermosura #labranza #malicia #milicia">
             <speaker>TODOS</speaker>
             <l>¿Cómo aquí entras a decirnos</l>
             <l part="I">pesadumbres?</l>
@@ -2393,7 +2461,8 @@
             <l>o haréis que desta manera</l>
             <l part="I">os eche.</l>
           </sp>
-          <stage>Arrójale la Milicia y él tropezando cay en losbrazos de la Pobreza que saldrá a este tiempo ylos otros hablan aparte</stage>
+          <stage>Arrójale la Milicia y él tropezando cay en losbrazos de la Pobreza que saldrá a
+            este tiempo ylos otros hablan aparte</stage>
           <sp who="#bien">
             <speaker>BIEN</speaker>
             <l part="F">¡Valedme, cielos!</l>
@@ -2499,7 +2568,8 @@
             <l>Tú sí que eres el Bien mío,</l>
             <l n="1345">pues tratas de dar contento.</l>
           </sp>
-          <sp who="#demonio #discrecion #coro-2 #coro-1 #coro #musicos #labranza #malicia #hermosura #milicia #pobreza #bien #mal #poder">
+          <sp
+            who="#demonio #discrecion #coro-2 #coro-1 #coro #musicos #labranza #malicia #hermosura #milicia #pobreza #bien #mal #poder">
             <speaker>TODOS</speaker>
             <l part="I">Vuelva el baile.</l>
           </sp>
@@ -2508,14 +2578,17 @@
             <l part="F">Vuelva y vuelvan</l>
             <l>con él a decir mis versos…</l>
           </sp>
-          <sp who="#demonio #discrecion #coro-2 #coro-1 #coro #musicos #labranza #hermosura #milicia #pobreza #bien #mal #poder #malicia">
+          <sp
+            who="#demonio #discrecion #coro-2 #coro-1 #coro #musicos #labranza #hermosura #milicia #pobreza #bien #mal #poder #malicia">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Pues de nuestras fortunas</l>
             <l>el Bien tenemos,</l>
             <l n="1350">dure lo que durare</l>
             <l>de ellas gocemos.</l>
           </sp>
-          <stage>Con esta repetición hacen todos un corro, y sin de-jar de cantar y bailar, llega la Pobreza a cada uno de por sí, y yéndose cada uno con su verso le vandespidiendo, siguiendo su baile sin cesar nunca larepetición</stage>
+          <stage>Con esta repetición hacen todos un corro, y sin de-jar de cantar y bailar, llega la
+            Pobreza a cada uno de por sí, y yéndose cada uno con su verso le vandespidiendo,
+            siguiendo su baile sin cesar nunca larepetición</stage>
           <sp who="#pobreza">
             <speaker>POBREZA</speaker>
             <l>Señor, dadme una limosna.</l>
@@ -2715,7 +2788,8 @@
             <l>y así, con todos podrá</l>
             <l n="1425">decir con verdad mi aliento…</l>
           </sp>
-          <sp who="#demonio #coro-2 #coro-1 #coro #poder #hermosura #milicia #labranza #malicia #musicos #pobreza #mal #bien #discrecion">
+          <sp
+            who="#demonio #coro-2 #coro-1 #coro #poder #hermosura #milicia #labranza #malicia #musicos #pobreza #mal #bien #discrecion">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Pues de nuestras fortunas</l>
             <l>el bien tenemos,</l>
@@ -2729,7 +2803,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="31">
-          <stage>Vase. Éntrase la Discreción cantando con todosy salen el Demonio y la Justicia cada uno porsu parte como que ven el baile dentro Demonio</stage>
+          <stage>Vase. Éntrase la Discreción cantando con todosy salen el Demonio y la Justicia cada
+            uno porsu parte como que ven el baile dentro Demonio</stage>
           <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l>¡Cuánto de mirar que al son</l>
@@ -2782,7 +2857,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="32">
-          <stage>Salen todos bailando como se entraron, y con ellosla Discreción, y el Bien y el Mal, destrocadaslas capas, y al dar vuelta en corro, se hunde la Hermosura en un escutillón, y quédanse todossuspensos en la acción que coge a cada uno</stage>
+          <stage>Salen todos bailando como se entraron, y con ellosla Discreción, y el Bien y el
+            Mal, destrocadaslas capas, y al dar vuelta en corro, se hunde la Hermosura en un
+            escutillón, y quédanse todossuspensos en la acción que coge a cada uno</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Pues de nuestras fortunas</l>
@@ -2896,14 +2973,16 @@
             <l>que del báculo también</l>
             <l part="I">se han valido.</l>
           </sp>
-          <sp who="#coro-1 #coro #musicos #justicia #demonio #hermosura #mal #bien #discrecion #malicia #labranza #poder #milicia #pobreza">
+          <sp
+            who="#coro-1 #coro #musicos #justicia #demonio #hermosura #mal #bien #discrecion #malicia #labranza #poder #milicia #pobreza">
             <speaker>TODOS</speaker>
             <l part="F">Pues tiremos</l>
             <l>todos a ver que sacamos.</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="33">
-          <stage>Sale del escutillón un Esqueleto asido con ambas manos de cetro, azada, bastón y báculo y los doscabos de las capas</stage>
+          <stage>Sale del escutillón un Esqueleto asido con ambas manos de cetro, azada, bastón y
+            báculo y los doscabos de las capas</stage>
           <sp who="#esqueleto">
             <speaker>ESQUELETO</speaker>
             <l n="1495">Humo, polvo, nada y viento.</l>
@@ -2924,7 +3003,8 @@
             <speaker>LABRANZA</speaker>
             <l part="I">¡Qué angustia!</l>
           </sp>
-          <sp who="#coro-1 #coro #musicos #justicia #demonio #hermosura #mal #bien #discrecion #malicia #esqueleto #poder #milicia #pobreza #labranza">
+          <sp
+            who="#coro-1 #coro #musicos #justicia #demonio #hermosura #mal #bien #discrecion #malicia #esqueleto #poder #milicia #pobreza #labranza">
             <speaker>TODOS</speaker>
             <l part="F">¡Cielos! ¿Qué es esto?</l>
           </sp>
@@ -3229,7 +3309,8 @@
             <l>En fin, ¿que ninguno quiere</l>
             <l part="I">ser más de lo que es?</l>
           </sp>
-          <sp who="#coro-1 #coro #musicos #hermosura #bien #esqueleto #acompanamiento #demonio #mal #malicia #justicia #discrecion #milicia #labranza #pobreza #poder">
+          <sp
+            who="#coro-1 #coro #musicos #hermosura #bien #esqueleto #acompanamiento #demonio #mal #malicia #justicia #discrecion #milicia #labranza #pobreza #poder">
             <speaker>TODOS</speaker>
             <l part="F">Es cierto.</l>
           </sp>
@@ -3261,7 +3342,8 @@
             <l n="1655">con la pluma deste acero</l>
             <l part="I">su sentencia?</l>
           </sp>
-          <sp who="#coro-1 #coro #musicos #hermosura #bien #esqueleto #acompanamiento #mal #malicia #justicia #milicia #labranza #pobreza #poder #discrecion #demonio">
+          <sp
+            who="#coro-1 #coro #musicos #hermosura #bien #esqueleto #acompanamiento #mal #malicia #justicia #milicia #labranza #pobreza #poder #discrecion #demonio">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué sentencia?</l>
           </sp>
@@ -3293,7 +3375,8 @@
             <l part="F">«Aquí</l>
             <l n="1665">vive todo el universo».</l>
           </sp>
-          <sp who="#coro-1 #coro #musicos #hermosura #esqueleto #acompanamiento #mal #justicia #milicia #labranza #pobreza #poder #demonio #malicia #discrecion #bien">
+          <sp
+            who="#coro-1 #coro #musicos #hermosura #esqueleto #acompanamiento #mal #justicia #milicia #labranza #pobreza #poder #demonio #malicia #discrecion #bien">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué árbol de la vida?</l>
           </sp>
@@ -3305,7 +3388,8 @@
             <l>a determinado dueño</l>
             <l n="1670">sino al que quiera tomarle.</l>
           </sp>
-          <sp who="#coro-1 #coro #musicos #hermosura #esqueleto #acompanamiento #mal #justicia #milicia #labranza #pobreza #poder #demonio #malicia #discrecion #bien">
+          <sp
+            who="#coro-1 #coro #musicos #hermosura #esqueleto #acompanamiento #mal #justicia #milicia #labranza #pobreza #poder #demonio #malicia #discrecion #bien">
             <speaker>TODOS</speaker>
             <l>Ve aquí que todos queremos.</l>
             <l>¿Por dónde hemos de subir</l>
@@ -3313,7 +3397,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="40">
-          <stage>Descúbrese en un carro la Justicia, con cáliz en la mano y bajando al tablado, sentada en él, le atraviesa cantando hasta llegar al carro de enfrente, donde con otra elevación desaparece, midiendo el espacio con los versos que siempre irá cantando</stage>
+          <stage>Descúbrese en un carro la Justicia, con cáliz en la mano y bajando al tablado,
+            sentada en él, le atraviesa cantando hasta llegar al carro de enfrente, donde con otra
+            elevación desaparece, midiendo el espacio con los versos que siempre irá
+            cantando</stage>
           <sp who="#justicia">
             <speaker>JUSTICIA</speaker>
             <l part="F">Por inmensos</l>
@@ -3417,7 +3504,8 @@
             <l>dichoso soy desde aquí</l>
             <l part="I">por tal tesoro.</l>
           </sp>
-          <sp who="#coro-1 #coro #musicos #hermosura #esqueleto #acompanamiento #mal #milicia #labranza #pobreza #demonio #malicia #discrecion #bien #justicia #poder">
+          <sp
+            who="#coro-1 #coro #musicos #hermosura #esqueleto #acompanamiento #mal #milicia #labranza #pobreza #demonio #malicia #discrecion #bien #justicia #poder">
             <speaker>TODOS</speaker>
             <l part="F">Pues todos</l>
             <l>le podemos conseguir</l>
@@ -3429,7 +3517,8 @@
             <l>para siempre temblará</l>
             <l>oyendo a todos decir…</l>
           </sp>
-          <sp who="#coro-1 #coro #musicos #hermosura #esqueleto #acompanamiento #mal #milicia #labranza #pobreza #malicia #discrecion #bien #justicia #poder #demonio">
+          <sp
+            who="#coro-1 #coro #musicos #hermosura #esqueleto #acompanamiento #mal #milicia #labranza #pobreza #malicia #discrecion #bien #justicia #poder #demonio">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Ama a un Dios que te que ama,</l>
             <l n="1775">que hermosa y gentil</l>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000182" xml:lang="es">
   <teiHeader>
@@ -37,7 +37,8 @@
           <name>DADUN Depositorio académico digital Universidad de Navarra</name>
           <idno type="URL">https://dadun.unav.edu/handle/10171/18223</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de B. Baczynska, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2009. ISBN: 978-3-937734-76-7.</title>
+            <title>Edición digital a partir de la edición de B. Baczynska, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 2009. ISBN: 978-3-937734-76-7.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,36 +48,72 @@
         <listPerson>
           <person sex="FEMALE" xml:id="gentilidad">
             <persName>Gentilidad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="secta">
             <persName>Secta</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="judaismo">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="herejia">
             <persName>Herejía</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="iglesia">
             <persName>Iglesia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="acompanamiento">
             <persName>Uno</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
           </personGrp>
           <person sex="FEMALE" xml:id="discordia">
             <persName>Discordia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="atrevimiento">
             <persName>Atrevimiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino">
             <persName>Niño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -85,17 +122,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -525,7 +565,8 @@
             <speaker>HEREJÍA</speaker>
             <l part="F">Sentemos.</l>
           </sp>
-          <stage>Siéntanse y se descubre en lo alto sentada la Iglesia en un trono y la Fe a sus pies</stage>
+          <stage>Siéntanse y se descubre en lo alto sentada la Iglesia en un trono y la Fe a sus
+            pies</stage>
           <sp who="#iglesia">
             <speaker>IGLESIA</speaker>
             <l>Buen oído tienes, Fe,</l>
@@ -1304,7 +1345,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Vase la Herejía y sale la Gentilidad y pelea con la Iglesia, y ella se va retirando</stage>
+          <stage>Vase la Herejía y sale la Gentilidad y pelea con la Iglesia, y ella se va
+            retirando</stage>
           <sp who="#gentilidad">
             <speaker>GENTILIDAD</speaker>
             <l part="F">Yo intento</l>
@@ -1979,7 +2021,8 @@
             <stage>Canta</stage>
             <l>Que humilles enemigos de tu Iglesia.</l>
           </sp>
-          <sp who="#secta #discordia #atrevimiento #fe #gentilidad #herejia #iglesia #musicos #acompanamiento">
+          <sp
+            who="#secta #discordia #atrevimiento #fe #gentilidad #herejia #iglesia #musicos #acompanamiento">
             <speaker>TODOS</speaker>
             <l>Te rogamos, audi nos.</l>
           </sp>
@@ -1988,7 +2031,8 @@
             <stage>Canta</stage>
             <l n="1070">Que des paz a los príncipes cristianos.</l>
           </sp>
-          <sp who="#secta #discordia #atrevimiento #fe #gentilidad #herejia #iglesia #musicos #acompanamiento">
+          <sp
+            who="#secta #discordia #atrevimiento #fe #gentilidad #herejia #iglesia #musicos #acompanamiento">
             <speaker>TODOS</speaker>
             <l>Te rogamos, audi nos.</l>
           </sp>
@@ -1997,7 +2041,8 @@
             <stage>Canta</stage>
             <l>Cordero que nos quitas los pecados.</l>
           </sp>
-          <sp who="#secta #discordia #atrevimiento #fe #gentilidad #herejia #iglesia #musicos #acompanamiento">
+          <sp
+            who="#secta #discordia #atrevimiento #fe #gentilidad #herejia #iglesia #musicos #acompanamiento">
             <speaker>TODOS</speaker>
             <l>Parce nobis, Domine.</l>
           </sp>
@@ -2184,7 +2229,9 @@
             <l>Atended, mísera gente,</l>
             <l n="1235">suenen voces e instrumentos.</l>
           </sp>
-          <stage>Suenan chirimías, y siéntase la Iglesia en la silla que estará arrimada a la Cruz, y aparece un Niño Jesús que habrá estado detrás de la Hostia y venga a estar como encima de la cabeza de la Iglesia</stage>
+          <stage>Suenan chirimías, y siéntase la Iglesia en la silla que estará arrimada a la Cruz,
+            y aparece un Niño Jesús que habrá estado detrás de la Hostia y venga a estar como encima
+            de la cabeza de la Iglesia</stage>
           <sp who="#nino">
             <speaker>NIÑO</speaker>
             <l>Herejes, ved cómo ha habido</l>
@@ -2205,7 +2252,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Descúbrese la Herejía medio desnuda y ensangrentada, y dos serpientes a los lados mordiéndola</stage>
+          <stage>Descúbrese la Herejía medio desnuda y ensangrentada, y dos serpientes a los lados
+            mordiéndola</stage>
           <sp who="#herejia">
             <speaker>HEREJÍA</speaker>
             <l>Iglesia, que perseguida</l>
@@ -2450,7 +2498,8 @@
             <l>Y don Pedro Calderón</l>
             <l>pide perdón de sus yerros.</l>
           </sp>
-          <stage>Tocan las chirimías, ciérranse las apariencias y se da fin al auto de «La iglesia sitiada o perseguida»</stage>
+          <stage>Tocan las chirimías, ciérranse las apariencias y se da fin al auto de «La iglesia
+            sitiada o perseguida»</stage>
         </div>
       </div>
     </body>

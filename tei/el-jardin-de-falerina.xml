@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000017" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-20">
           <time when="21:56:08"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-jardin-de-falerina-2/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-jardin-de-falerina-2/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Quinta parte de Comedias de don Pedro Calderón de la Barca , Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title>Edición digital a partir de la Quinta parte de Comedias de don Pedro Calderón de
+              la Barca , Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos
+              Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez
+              Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -50,20 +55,38 @@
             <trait source="#calderondigital">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="reinaldos" sex="MALE">
             <persName>Reinaldos</persName>
+            <idno type="wikidata">Q727316</idno>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="oliveros" sex="MALE">
             <persName>Oliveros</persName>
+            <idno type="wikidata">Q2962999</idno>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="marfisa" sex="FEMALE">
             <persName>Marfisa</persName>
+            <idno type="wikidata">Q3846836</idno>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dama-1" sex="FEMALE">
             <persName>Dama 1ª</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="flor-de-lis" sex="FEMALE">
@@ -71,11 +94,18 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="falerina" sex="FEMALE">
             <persName>Falerina</persName>
+            <idno type="wikidata">Q5445398</idno>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="dama-2" sex="FEMALE">
@@ -83,23 +113,43 @@
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="jaques" sex="MALE">
             <persName>Jaques</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rugero" sex="MALE">
             <persName>Rugero</persName>
+            <idno type="wikidata">Q1163476</idno>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="carlomagno" sex="MALE">
             <persName>Carlomagno</persName>
+            <idno type="wikidata">Q3044</idno>
+            <trait type="role">
+              <desc>historical</desc>
+            </trait>
           </person>
           <person xml:id="dama-3" sex="FEMALE">
             <persName>Dama 3ª</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="dama-4" sex="FEMALE">
@@ -107,33 +157,66 @@
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="bradamante" sex="FEMALE">
             <persName>Bradamante</persName>
+            <idno type="wikidata">Q1163427</idno>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="roldán" sex="MALE">
             <persName>Roldán</persName>
+            <idno type="wikidata">Q207535</idno>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="delfín" sex="MALE">
             <persName>El Delfín</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="zulemilla" sex="FEMALE">
             <persName>Zulemilla</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="salvaje" sex="MALE">
             <persName>Salvaje</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="argalía" sex="FEMALE">
             <persName>Argalía</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="durandarte" sex="MALE">
             <persName>Durandarte</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="marsilio" sex="MALE">
             <persName>Marsilio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="merlín" sex="MALE">
             <persName>Merlìn</persName>
+            <idno type="wikidata">Q188044</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -142,17 +225,20 @@
           <term source="dracor" type="genreTitle">comedia</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -164,7 +250,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000017" passive="http://www.wikidata.org/entity/Q69034392"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000017"
+        passive="http://www.wikidata.org/entity/Q69034392"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -202,7 +289,8 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
-          <stage>Sale por una puerta MARFISA, vestida de mora, y por otra LISIDANTE, ambos con plumas y bengalas, y representando cada uno aparte sin ver al otro.</stage>
+          <stage>Sale por una puerta MARFISA, vestida de mora, y por otra LISIDANTE, ambos con
+            plumas y bengalas, y representando cada uno aparte sin ver al otro.</stage>
           <sp who="#lisidante">
             <speaker>LISIDANTE</speaker>
             <l> ¡Oh tú, de aquestos montes </l>
@@ -748,7 +836,10 @@
             <speaker>MARFISA</speaker>
             <l part="F"> ¡Qué confusión! </l>
           </sp>
-          <stage>Con terremoto dentro se corre la cortina, y queda con segunda colgadura el teatro; se ven en él sentados en sillas CARLOS y FLOR DE LIS. Luego, por una banda y otra, Damas y Caballeros en ellas sentadas en almohadas, y ellos hincada la rodilla. La primera, al lado derecho, es BRADAMANTE con RUGERO, y los Músicos, en ala, detrás de todos.</stage>
+          <stage>Con terremoto dentro se corre la cortina, y queda con segunda colgadura el teatro;
+            se ven en él sentados en sillas CARLOS y FLOR DE LIS. Luego, por una banda y otra, Damas
+            y Caballeros en ellas sentadas en almohadas, y ellos hincada la rodilla. La primera, al
+            lado derecho, es BRADAMANTE con RUGERO, y los Músicos, en ala, detrás de todos.</stage>
           <sp who="#falerina">
             <speaker>FALERINA</speaker>
             <l part="I"> ¿Qué veis? </l>
@@ -1310,11 +1401,12 @@
             <l> sabe turbar a portentos, </l>
             <l> el amor de Bradamante, </l>
             <l n="725"> de Marfisa y de Rugero. </l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Tocan arma, y sale por una parte ZULEMILLA moro, y por otra JAQUES francés, armados redículamente.</stage>
+          <stage>Tocan arma, y sale por una parte ZULEMILLA moro, y por otra JAQUES francés, armados
+            redículamente.</stage>
           <sp who="#dama-4">
             <speaker>VOZ</speaker>
             <stage>Dentro.</stage>
@@ -1506,7 +1598,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Salen CARLOS, ROLDÁN, OLIVEROS, DURANDARTE, REINALDOS y RUGERO, deteniéndolos CARLOS.</stage>
+          <stage>Salen CARLOS, ROLDÁN, OLIVEROS, DURANDARTE, REINALDOS y RUGERO, deteniéndolos
+            CARLOS.</stage>
           <sp who="#carlomagno">
             <speaker>CARLOS</speaker>
             <l> No le sigáis el alcance </l>
@@ -1972,7 +2065,9 @@
       <div type="act" n="2">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada II</head>
-          <stage>Salen por una puerta mirando a lo lejos algunos moros, y detrás MARSILIO, MARFISA y ARGALÍA. Y por la otra CARLOSEL DELFÍN y FLOR DE LIS, BRADAMANTE, LISIDANTE, RUGERO y los cuatro paladines.</stage>
+          <stage>Salen por una puerta mirando a lo lejos algunos moros, y detrás MARSILIO, MARFISA y
+            ARGALÍA. Y por la otra CARLOSEL DELFÍN y FLOR DE LIS, BRADAMANTE, LISIDANTE, RUGERO y
+            los cuatro paladines.</stage>
           <sp who="#argalía">
             <speaker>ARGALÍA</speaker>
             <l> Ya que la primera luz </l>
@@ -2188,7 +2283,7 @@
             <l part="F"> Ser tú </l>
             <l> el más vil, el más infame </l>
             <l> de los hombres, más traidor </l>
-          <stage>Sale BRADAMANTE.</stage>
+            <stage>Sale BRADAMANTE.</stage>
             <l> a ti, tu patria y tu sangre. </l>
           </sp>
         </div>
@@ -2369,7 +2464,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Estando riñendo las dos, y él en medio, salen JAQUES y ZULEMA de leones y cargan con él, y suena un terremoto.</stage>
+          <stage>Estando riñendo las dos, y él en medio, salen JAQUES y ZULEMA de leones y cargan
+            con él, y suena un terremoto.</stage>
           <sp who="#bradamante">
             <speaker>BRADAMANTE</speaker>
             <l part="I"> Quita. </l>
@@ -2529,7 +2625,7 @@
             <l n="220"> será la cueva en que yace </l>
             <l> hasta que abrasado vuele </l>
             <l> en cenizas su cadáver. </l>
-          <stage>Vase.</stage>
+            <stage>Vase.</stage>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
@@ -2553,7 +2649,9 @@
             <l> firmen blandas treguas, ya que no paces, </l>
             <l> luna, sol, agua, fuego, tierra y aire. </l>
           </sp>
-          <stage>Con esta música se descubre el teatro de los jardines, y en un cenador o nicho se ve FALERINA vestida de ninfa en acción de estatua de una fuente, y sacan dos leones a RUGERO haciendo canciones lo que dicen los versos.</stage>
+          <stage>Con esta música se descubre el teatro de los jardines, y en un cenador o nicho se
+            ve FALERINA vestida de ninfa en acción de estatua de una fuente, y sacan dos leones a
+            RUGERO haciendo canciones lo que dicen los versos.</stage>
           <sp who="#rugero">
             <speaker>RUGERO</speaker>
             <l> Pues que desde las primeras </l>
@@ -2689,7 +2787,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Salen todas las músicas que puedan, vestidas de ninfas, con cendales en los rostros, y mientras ella representa y ellas cantan, él está suspenso.</stage>
+          <stage>Salen todas las músicas que puedan, vestidas de ninfas, con cendales en los
+            rostros, y mientras ella representa y ellas cantan, él está suspenso.</stage>
           <sp who="#música">
             <speaker>LA MÚSICA</speaker>
             <l> Deste hermoso jardín </l>
@@ -3226,7 +3325,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage>Vuélvese a cerrar la cortina, y sale por una parte ROLDÁN y DURANDARTE, deteniendo a MARFISA. Y por otra LISIDANTE, OLIVEROS y REINALDOS, deteniendo a BRADAMANTE.</stage>
+          <stage>Vuélvese a cerrar la cortina, y sale por una parte ROLDÁN y DURANDARTE, deteniendo
+            a MARFISA. Y por otra LISIDANTE, OLIVEROS y REINALDOS, deteniendo a BRADAMANTE.</stage>
           <sp who="#roldán #durandarte">
             <speaker>UNOS</speaker>
             <l part="I"> Tente, Bradamante. </l>
@@ -3628,7 +3728,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage>Entran todos por una puerta, y sale por otra FALERINA, descubriéndose otra vez los jardines con RUGERO, y los leones a sus pies.</stage>
+          <stage>Entran todos por una puerta, y sale por otra FALERINA, descubriéndose otra vez los
+            jardines con RUGERO, y los leones a sus pies.</stage>
           <sp who="#falerina">
             <speaker>FALERINA</speaker>
             <l part="F"> Ea, ministros, </l>
@@ -3874,7 +3975,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="31">
-          <stage>Entra por una puerta y sale por otra, y FALERINA huyendo, y ROLDÁN en su seguimiento.</stage>
+          <stage>Entra por una puerta y sale por otra, y FALERINA huyendo, y ROLDÁN en su
+            seguimiento.</stage>
           <sp who="#bradamante #marfisa #lisidante #argalía #durandarte #oliveros #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l n="950"> En esta galería, </l>

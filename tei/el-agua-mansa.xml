@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000078" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar). </title>
+            <title> Edición digital a partir de la edición de Ignacio Arellano, (sin publicar).
+            </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,23 +52,38 @@
             <trait source="castlist">
               <desc>escudero</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-alonso">
             <persName>Don Alonso</persName>
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="dona-clara">
             <persName>Doña Clara</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="dona-eugenia">
             <persName>Doña Eugenia</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="brigida">
             <persName>Brígida</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="mari-nuno">
@@ -75,24 +91,42 @@
             <trait source="castlist">
               <desc>dueña</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hernando">
             <persName>Hernando</persName>
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-felix">
             <persName>Don Félix</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-juan">
             <persName>Don Juan</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-pedro">
             <persName>Don Pedro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-toribio">
             <persName>Don Toribio</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -101,17 +135,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -3571,7 +3608,8 @@
         </div>
         <div type="scene" resp="#rojas" n="27">
           <stage> Salen todos. </stage>
-          <sp who="#hernando #otanez #don-juan #don-pedro #mari-nuno #brigida #don-toribio #don-alonso">
+          <sp
+            who="#hernando #otanez #don-juan #don-pedro #mari-nuno #brigida #don-toribio #don-alonso">
             <speaker> TODOS </speaker>
             <l part="I"> ¿Qué es esto? </l>
           </sp>
@@ -4879,7 +4917,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage> Dentro y salen luego clara y Eugenia detiniendo a don Alonso y a don Toribio y ellas se quedan al paño. </stage>
+          <stage> Dentro y salen luego clara y Eugenia detiniendo a don Alonso y a don Toribio y
+            ellas se quedan al paño. </stage>
           <sp who="#don-alonso">
             <speaker> DON ALONSO </speaker>
             <l n="2245"> ¿Espadas a la puerta de mi casa? </l>

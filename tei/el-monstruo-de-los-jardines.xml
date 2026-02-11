@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000019" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-27">
           <time when="16:38:24"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-monstruo-de-los-jardines--7/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/el-monstruo-de-los-jardines--7/html/</idno>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la Cuarta parte de las Comedias de Don Pedro Calderón de la Barca, Madrid, Por Bernardo de Hervada. A costa de Antonio de la Fuente, 1674. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros.</title>
+            <title> Edición digital a partir de la Cuarta parte de las Comedias de Don Pedro
+              Calderón de la Barca, Madrid, Por Bernardo de Hervada. A costa de Antonio de la
+              Fuente, 1674. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO).
+              Autorizada por Evangelina Rodríguez Cuadros.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,20 +52,32 @@
         <listPerson>
           <person xml:id="aquiles" sex="MALE">
             <persName>Aquiles</persName>
+            <idno type="wikidata">Q12152</idno>
             <trait source="#calderondigital">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="deidamia" sex="FEMALE">
             <persName>Deidamia</persName>
+            <idno type="wikidata">Q216344</idno>
             <trait source="#calderondigital">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="tetis" sex="MALE">
             <persName>Tetis</persName>
+            <idno type="wikidata">Q184437</idno>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="cintia" sex="FEMALE">
@@ -68,11 +85,17 @@
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
             <persName>Sirene</persName>
             <trait source="#calderondigital">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="lidoro" sex="MALE">
@@ -80,17 +103,27 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="danteo" sex="MALE">
             <persName>Danteo</persName>
             <trait source="#calderondigital">
               <desc>vasallo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ulises" sex="MALE">
             <persName>Ulises</persName>
+            <idno type="wikidata">Q47231</idno>
             <trait source="#calderondigital">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="el-rey" sex="MALE">
@@ -98,15 +131,24 @@
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libio" sex="MALE">
             <persName>Libio</persName>
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="criados" sex="MALE">
             <persName>Criados</persName>
@@ -116,21 +158,39 @@
           </personGrp>
           <person xml:id="armindo" sex="MALE">
             <persName>Armindo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="acompañamiento" sex="MALE">
             <persName>Acompañamiento</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-1" sex="FEMALE">
             <persName>Ninfa 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-2" sex="FEMALE">
             <persName>Ninfa 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-3" sex="FEMALE">
             <persName>Ninfa 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ninfa-4" sex="FEMALE">
             <persName>Ninfa 4</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -139,17 +199,20 @@
           <term source="dracor" type="genreTitle">drama</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -191,7 +254,8 @@
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
           <stage>Dentro voces.</stage>
-          <sp who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo">
+          <sp
+            who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo">
             <speaker>TODOS</speaker>
             <l part="I">Vira al mar. </l>
           </sp>
@@ -2257,7 +2321,8 @@
       <div type="act" n="2">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada II</head>
-          <stage>Vuelve a abrirse el peñasco y vese en él a AQUILES y TETIS luchando, y con los primeros versos salen al tablado y el peñasco se cierra.</stage>
+          <stage>Vuelve a abrirse el peñasco y vese en él a AQUILES y TETIS luchando, y con los
+            primeros versos salen al tablado y el peñasco se cierra.</stage>
           <sp who="#aquiles">
             <speaker>AQUILES</speaker>
             <l part="I"> ¿Esta es piedad? </l>
@@ -3486,7 +3551,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Tocan chirimías; sale AQUILES de dama y TETIS con acompañamiento por una parte, y por otra DEIDAMIA y las damas.</stage>
+          <stage>Tocan chirimías; sale AQUILES de dama y TETIS con acompañamiento por una parte, y
+            por otra DEIDAMIA y las damas.</stage>
           <sp who="#aquiles">
             <speaker>AQUILES</speaker>
             <l> Apenas vi del palacio </l>
@@ -5448,7 +5514,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Sale ULISES y LIBIO, vestido como extranjero, y trae un cofrecillo, lo que después dirán los versos, y en las manos un sombrero con plumas, una espada de plata y un escudo dorado.</stage>
+          <stage>Sale ULISES y LIBIO, vestido como extranjero, y trae un cofrecillo, lo que después
+            dirán los versos, y en las manos un sombrero con plumas, una espada de plata y un escudo
+            dorado.</stage>
           <sp who="#ulises">
             <speaker>ULISES</speaker>
             <l> Dichoso yo, que esa esfera </l>
@@ -6733,7 +6801,8 @@
             <speaker>AQUILES</speaker>
             <l n="1050" part="F">¡Y qué bien dice! </l>
             <l> Viva, y viva en nuestros pechos. </l>
-            <stage>Clarín y caja al irse; ella le detiene. Al otro lado cantan y suspéndense.</stage>
+            <stage>Clarín y caja al irse; ella le detiene. Al otro lado cantan y
+              suspéndense.</stage>
             <l> a pesar de la fortuna, </l>
             <stage>Caja y clarín.</stage>
             <l> mas, ¿qué digo, cuando veo </l>
@@ -6825,7 +6894,8 @@
         </div>
         <div type="scene" resp="#rojas" n="25">
           <stage>Salen todos y dos CRIADOS con hachas.</stage>
-          <sp who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo #criados">
+          <sp
+            who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo #criados">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué es esto? </l>
           </sp>
@@ -6891,7 +6961,8 @@
             <l part="F">Esto </l>
             <l part="I"> a todos importa. </l>
           </sp>
-          <sp who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #el-rey #libio #armindo #criados">
+          <sp
+            who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #el-rey #libio #armindo #criados">
             <speaker>TODOS</speaker>
             <l n="1105" part="F">¿Cómo? </l>
           </sp>
@@ -6915,7 +6986,8 @@
             <l n="1120"> que dél esperáis viviendo. </l>
           </sp>
           <stage>Vuela a la cazuela.</stage>
-          <sp who="#deidamia #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo #criados">
+          <sp
+            who="#deidamia #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo #criados">
             <speaker>TODOS</speaker>
             <l> Vive Aquiles, viva Aquiles. </l>
           </sp>

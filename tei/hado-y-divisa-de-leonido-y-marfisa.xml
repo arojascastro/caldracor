@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000109" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2021-12-22">
@@ -35,7 +36,10 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <title>Pedro Calderón de la Barca, Hado y divisa de Leonido y Marfisa. Edición crítica de José María Ruano de la Haza. En: Comedias, Vol. 5. Dirección de Luis Iglesias Feijoo y José María Ruano de la Haza. Madrid : Fundación José Antonio de Castro, 2010, pp. 85-231.</title>
+          <title>Pedro Calderón de la Barca, Hado y divisa de Leonido y Marfisa. Edición crítica de
+            José María Ruano de la Haza. En: Comedias, Vol. 5. Dirección de Luis Iglesias Feijoo y
+            José María Ruano de la Haza. Madrid : Fundación José Antonio de Castro, 2010, pp.
+            85-231.</title>
           <idno type="ISBN">978-84-96452-94-7</idno>
         </bibl>
       </sourceDesc>
@@ -48,11 +52,17 @@
             <trait source="#calderondigital">
               <desc>enamorado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="adolfo">
             <persName>Adolfo</persName>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="florante">
@@ -60,11 +70,17 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="polidoro">
             <persName>Polidoro</persName>
             <trait source="#calderondigital">
               <desc>amigo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="argante">
@@ -72,29 +88,48 @@
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="aurelio">
             <persName>Aurelio</persName>
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="merlin">
             <persName>Merlín</persName>
+            <idno type="wikidata">Q188044</idno>
             <trait source="castlist">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="soldado">
             <persName>Soldado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="musico">
             <persName>Músico</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="marfisa">
             <persName>Marfisa</persName>
             <trait source="#calderondigital">
               <desc>joven</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="arminda">
@@ -102,11 +137,17 @@
             <trait source="#calderondigital">
               <desc>princesa</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="mitilene">
             <persName>Mitilene</persName>
             <trait source="#calderondigital">
               <desc>princesa</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="alfreda">
@@ -114,11 +155,17 @@
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="casimiro">
             <persName>Casimiro</persName>
             <trait source="#calderondigital">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="flavio">
@@ -126,27 +173,46 @@
             <trait source="#calderondigital">
               <desc>soldado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="flerida">
             <persName>Flérida</persName>
             <trait source="#calderondigital">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="megera">
             <persName>Megera</persName>
+            <idno type="wikidata">Q371545</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fama">
             <persName>Fama</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="dama">
             <persName>Dama</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="acompanamiento">
             <persName>Acompañamiento</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -155,17 +221,20 @@
           <term source="dracor" type="genreTitle">comedia novelesca</term>
           <term source="#kroll" type="main">comedia novelesca y caballeresca</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -209,7 +278,9 @@
       <div n="1" type="act">
         <div type="scene" resp="#rojas" n="1">
           <head> Jornada I </head>
-          <stage> Transmútase el teatro en una selva. Suenan caja y clarín y aparece en lo alto de un risco Leonido, a caballo, armado, con un escudo, pintado en él un león, y dice dentro Arminda. </stage>
+          <stage> Transmútase el teatro en una selva. Suenan caja y clarín y aparece en lo alto de
+            un risco Leonido, a caballo, armado, con un escudo, pintado en él un león, y dice dentro
+            Arminda. </stage>
           <sp who="#arminda">
             <speaker> ARMINDA </speaker>
             <stage> Dentro. </stage>
@@ -895,7 +966,11 @@
             <speaker> FLORANTE </speaker>
             <l n="405"> Y viva, en fin, el que venza. </l>
           </sp>
-          <stage> Transmútase el teatro de la selva en el de marina y será su escena toda de peñascos ásperos, lóbregos y incultos, fundados sobre ondas, que finjan, lo más que puedan ser, escollos del mar. De una de sus cumbres se ha de desatar una ría que atraviese el tablado y bajar por ella un barco con Leonido y Polidoro; y en llegando a saltar en tierra, desaparece el barco, como llevado de la corriente. </stage>
+          <stage> Transmútase el teatro de la selva en el de marina y será su escena toda de
+            peñascos ásperos, lóbregos y incultos, fundados sobre ondas, que finjan, lo más que
+            puedan ser, escollos del mar. De una de sus cumbres se ha de desatar una ría que
+            atraviese el tablado y bajar por ella un barco con Leonido y Polidoro; y en llegando a
+            saltar en tierra, desaparece el barco, como llevado de la corriente. </stage>
           <sp who="#leonido">
             <speaker> LEONIDO </speaker>
             <stage> Dentro. </stage>
@@ -990,7 +1065,9 @@
             <l> Y así, para encubrillas, </l>
             <l n="465"> desenlazando ve pernos y hebillas. </l>
           </sp>
-          <stage> En el foro deste teatro ha de haber una gruta, cuya puerta, pintada de peñascos, pueda a su tiempo abrirse en dos bastidores; y sobre ellos, fingida la natural de una como rotura de la misma peña, por donde caigan las armas dentro de la cueva. </stage>
+          <stage> En el foro deste teatro ha de haber una gruta, cuya puerta, pintada de peñascos,
+            pueda a su tiempo abrirse en dos bastidores; y sobre ellos, fingida la natural de una
+            como rotura de la misma peña, por donde caigan las armas dentro de la cueva. </stage>
           <sp who="#polidoro">
             <speaker> POLIDORO </speaker>
             <l> Ya celada y escudo </l>
@@ -1203,7 +1280,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage> Entreabriéndose la puerta de la cueva, sale a ella Marfisa, vestida de pieles, como absorta, repitiendo los versos que la Música canta a lo lejos; y vense en la cueva las armas. </stage>
+          <stage> Entreabriéndose la puerta de la cueva, sale a ella Marfisa, vestida de pieles,
+            como absorta, repitiendo los versos que la Música canta a lo lejos; y vense en la cueva
+            las armas. </stage>
           <sp who="#marfisa">
             <speaker> MARFISA </speaker>
             <stage> Canta. </stage>
@@ -1522,7 +1601,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage> Llevándose como por fuerza a Marfisa, cierra Argante la gruta; y salen cantando Mitilene y damas y villanos. </stage>
+          <stage> Llevándose como por fuerza a Marfisa, cierra Argante la gruta; y salen cantando
+            Mitilene y damas y villanos. </stage>
           <sp who="#mitilene">
             <speaker> MITILENE </speaker>
             <l> No prosigáis; pues, habiendo </l>
@@ -2754,7 +2834,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage> Abren entre los dos el peñasco y vese dentro un gabinete de cristales y en un estrado Marfisa, vestida de gala, con cuatro damas, como en acción de que la están tocando; y mientras cantan, sale Argante y, hincada la rodilla, la habla como en secreto; y Leonido y Polidoro se quedan suspensos fuera de los bastidores. </stage>
+          <stage> Abren entre los dos el peñasco y vese dentro un gabinete de cristales y en un
+            estrado Marfisa, vestida de gala, con cuatro damas, como en acción de que la están
+            tocando; y mientras cantan, sale Argante y, hincada la rodilla, la habla como en
+            secreto; y Leonido y Polidoro se quedan suspensos fuera de los bastidores. </stage>
           <sp who="#acompanamiento">
             <speaker> CORO 1 </speaker>
             <l> Si yo gobernara el mar,... </l>
@@ -3350,7 +3433,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage> Vase. Vuelve a abrirse el monte y vese la fachada de un palacio suntuoso &gt;con cuatro balcones en que han de estar cuatro damas; y en medio, Arminda escribiendo y Aurelio a un lado sentado en un taburete. </stage>
+          <stage> Vase. Vuelve a abrirse el monte y vese la fachada de un palacio suntuoso &gt;con
+            cuatro balcones en que han de estar cuatro damas; y en medio, Arminda escribiendo y
+            Aurelio a un lado sentado en un taburete. </stage>
           <sp who="#arminda">
             <speaker> ARMINDA </speaker>
             <l> Ya que habéis vuelto segunda </l>
@@ -4088,7 +4173,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage> Vanse los dos y, con esta repetición, vuelve a verse el mismo palacio con las mismas personas en la misma acción que estaban cuando desapareció. </stage>
+          <stage> Vanse los dos y, con esta repetición, vuelve a verse el mismo palacio con las
+            mismas personas en la misma acción que estaban cuando desapareció. </stage>
           <sp who="#adolfo">
             <speaker> ADOLFO </speaker>
             <l> Ya he dicho que lo mejor </l>
@@ -4515,7 +4601,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage> Transmútase el palacio en el teatro de la primera selva; con esta diferencia, que su foro ha de ser un monte ceniciento, lo más eminente que se pueda, cuya cumbre ha de estar a ratos exhalando humo y fuego; y salen a tierra Mitilene y damas, todas con plumas y espadines; y Aurelio y soldados, habiendo hecho primero faenas de marinería. </stage>
+          <stage> Transmútase el palacio en el teatro de la primera selva; con esta diferencia, que
+            su foro ha de ser un monte ceniciento, lo más eminente que se pueda, cuya cumbre ha de
+            estar a ratos exhalando humo y fuego; y salen a tierra Mitilene y damas, todas con
+            plumas y espadines; y Aurelio y soldados, habiendo hecho primero faenas de marinería. </stage>
           <sp who="#acompanamiento">
             <speaker> UNOS </speaker>
             <stage> Dentro. </stage>
@@ -4694,7 +4783,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage> Cajas y trompetas y se entran todos y salen Leonido y Polidoro en trajes de humildes soldados. </stage>
+          <stage> Cajas y trompetas y se entran todos y salen Leonido y Polidoro en trajes de
+            humildes soldados. </stage>
           <sp who="#leonido">
             <speaker> LEONIDO </speaker>
             <l> A buena ocasión llegamos, </l>
@@ -5389,7 +5479,8 @@
       <div n="3" type="act">
         <div type="scene" resp="#rojas" n="1">
           <head> Jornada III </head>
-          <stage> Corriéndose la mutación del palacio, suenan chirimías y música y salen Merlín y el Soldado. </stage>
+          <stage> Corriéndose la mutación del palacio, suenan chirimías y música y salen Merlín y el
+            Soldado. </stage>
           <sp who="#musico">
             <speaker> MÚSICA </speaker>
             <l> De los palacios de Venus, </l>
@@ -5490,7 +5581,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage> Éntranse y mudándose el teatro en el de un vistoso jardín, salen Arminda y sus damas, Casimiro, Adolfo, Florante, Merlín, el Soldado y acompañamiento. </stage>
+          <stage> Éntranse y mudándose el teatro en el de un vistoso jardín, salen Arminda y sus
+            damas, Casimiro, Adolfo, Florante, Merlín, el Soldado y acompañamiento. </stage>
           <sp who="#musico">
             <speaker> MÚSICA </speaker>
             <l> De los palacios de Venus, </l>
@@ -6518,7 +6610,8 @@
             <speaker> OTROS </speaker>
             <l part="M"> ¡Viva Arminda! </l>
           </sp>
-          <stage> Atabalillos, chirimías y Arminda con sus damas y Mitilene con las suyas. Florante y Adolfo y demás acompañantes cada uno por su parte y el Rey por en medio. </stage>
+          <stage> Atabalillos, chirimías y Arminda con sus damas y Mitilene con las suyas. Florante
+            y Adolfo y demás acompañantes cada uno por su parte y el Rey por en medio. </stage>
           <sp who="#leonido">
             <speaker> LEONIDO </speaker>
             <l part="F"> Ésta, </l>
@@ -7173,7 +7266,8 @@
             <l> Ni que la Fama después </l>
             <l> diga en repetidos ecos... </l>
           </sp>
-          <stage> Córrense los bastidores, quedando el teatro en el de bosque; y en lo alto se ve la Fama cantando; y atraviesa el tablado, midiendo la distancia con los versos. </stage>
+          <stage> Córrense los bastidores, quedando el teatro en el de bosque; y en lo alto se ve la
+            Fama cantando; y atraviesa el tablado, midiendo la distancia con los versos. </stage>
           <sp who="#fama">
             <speaker> FAMA </speaker>
             <stage> Canta. </stage>
@@ -8357,7 +8451,9 @@
             <l> traído consigo el veneno </l>
             <l n="4590"> de amor, que amando o amada </l>
             <l> la destina... Mas ¿qué es esto? </l>
-            <stage> Ha de andar por el tablado. Aquí, corriéndose los bastidores, se descubre la plaza de palacio; y van saliendo todos, como lo dicen los versos y Marfisa armada con el escudo y armas de Leonido. </stage>
+            <stage> Ha de andar por el tablado. Aquí, corriéndose los bastidores, se descubre la
+              plaza de palacio; y van saliendo todos, como lo dicen los versos y Marfisa armada con
+              el escudo y armas de Leonido. </stage>
             <l> Divertido tras el vulgo </l>
             <l> que va de tropel corriendo, </l>
             <l> a la plaza de palacio </l>
@@ -8704,7 +8800,8 @@
             <speaker> LOS DOS </speaker>
             <l> ¡Cielos! ¿Es verdad o es sueño? </l>
           </sp>
-          <sp who="#adolfo #argante #arminda #aurelio #casimiro #florante #leonido #marfisa #mitilene">
+          <sp
+            who="#adolfo #argante #arminda #aurelio #casimiro #florante #leonido #marfisa #mitilene">
             <speaker> TODOS </speaker>
             <l> ¡Vivan Leonido y Marfisa, </l>
             <l> de Tinacria heroicos dueños! </l>
@@ -8779,7 +8876,8 @@
             <speaker> CASIMIRO </speaker>
             <l n="4835"> Y repita ufano el pueblo... </l>
           </sp>
-          <sp who="#adolfo #argante #arminda #aurelio #casimiro #florante #leonido #marfisa #mitilene">
+          <sp
+            who="#adolfo #argante #arminda #aurelio #casimiro #florante #leonido #marfisa #mitilene">
             <speaker> TODOS </speaker>
             <l> ¡Vivan Leonido y Marfisa, </l>
             <l> de Tinacria heroicos dueños! </l>

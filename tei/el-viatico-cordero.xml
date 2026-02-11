@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000179" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de J. M. Escudero, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2007. ISBN: 978-3-937734-17-0.</title>
+            <title>Edición digital a partir de la edición de J. M. Escudero, Pamplona–Kassel,
+              Universidad de Navarra–Reichenberger, 2007. ISBN: 978-3-937734-17-0.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,17 +49,33 @@
         <listPerson>
           <person sex="FEMALE" xml:id="idolatria">
             <persName>Idolatría</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel-1">
             <persName>Ángel 1.º</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="angel-2">
             <persName>Ángel 2.º</persName>
+            <trait type="role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="baal">
             <persName>Baal</persName>
+            <idno type="wikidata">Q6674</idno>
             <trait source="castlist">
               <desc>demonio</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
@@ -66,8 +83,15 @@
           </personGrp>
           <person sex="MALE" xml:id="moises">
             <persName>Moisés</persName>
+            <idno type="wikidata">Q9077</idno>
             <trait source="castlist">
               <desc>hebreo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="libio">
@@ -75,29 +99,60 @@
             <trait source="castlist">
               <desc>gitano</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="maria">
             <persName>María</persName>
+            <idno type="wikidata">Q1938388</idno>
             <trait source="castlist">
               <desc>hermana</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="zambri">
             <persName>Zambrí</persName>
+            <idno type="wikidata">Q203956</idno>
             <trait source="castlist">
               <desc>hebreo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="fines">
             <persName>Finés</persName>
+            <idno type="wikidata">Q128063</idno>
             <trait source="castlist">
               <desc>hebreo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="aaron">
             <persName>Aarón</persName>
+            <idno type="wikidata">Q51676</idno>
             <trait source="castlist">
               <desc>sacerdote</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="heleacor">
@@ -105,18 +160,30 @@
             <trait source="castlist">
               <desc>hebreo</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nacor">
             <persName>Nacor</persName>
             <trait source="castlist">
               <desc>hebreo</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino-1">
             <persName>Niño 1.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="nino-2">
             <persName>Niño 2.º</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -125,17 +192,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -175,7 +245,8 @@
     <body>
       <div type="act">
         <div type="scene" resp="#rojas" n="1">
-          <stage>Salen dos ángeles con las espadas desnudas y la Idolatría en medio mirándolos con asombro</stage>
+          <stage>Salen dos ángeles con las espadas desnudas y la Idolatría en medio mirándolos con
+            asombro</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l>¿Dónde, enojados querubes,</l>
@@ -926,7 +997,9 @@
             <l>...Dios, que de cautivo</l>
             <l>su pueblo saca.</l>
           </sp>
-          <stage>Con estas voces a una parte y a otra la música; se descubre una mesa con un cordero, pan y lechugas. Y alrededor de ella Moisés, Aarón, María y otros vestidos a lo judío, en pie y con báculos en las manos. Al pie de la mesa Libio, gitano</stage>
+          <stage>Con estas voces a una parte y a otra la música; se descubre una mesa con un
+            cordero, pan y lechugas. Y alrededor de ella Moisés, Aarón, María y otros vestidos a lo
+            judío, en pie y con báculos en las manos. Al pie de la mesa Libio, gitano</stage>
           <sp who="#baal">
             <speaker>BAAL</speaker>
             <l n="535">Absorto, elevado y mudo,</l>
@@ -1217,7 +1290,8 @@
             <speaker>LIBIO</speaker>
             <l n="680">Mientras cenamos, cantemos.</l>
           </sp>
-          <stage>Lléganse a la mesa en pie y con los báculos, y comen representando con las acciones que dicen los versos.</stage>
+          <stage>Lléganse a la mesa en pie y con los báculos, y comen representando con las acciones
+            que dicen los versos.</stage>
           <sp who="#musicos #angel-1 #acompanamiento #maria #zambri #fines #aaron #moises">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Venturosos nosotros,</l>
@@ -1585,14 +1659,16 @@
             <l>las haciendas roba,</l>
             <l>los hijos mata.</l>
           </sp>
-          <sp who="#musicos #libio #zambri #fines #aaron #maria #heleacor #nacor #moises #acompanamiento">
+          <sp
+            who="#musicos #libio #zambri #fines #aaron #maria #heleacor #nacor #moises #acompanamiento">
             <speaker>MÚSICA Y TODOS</speaker>
             <l n="850">Venturosos nosotros,</l>
             <l>pues nos ampara</l>
             <l>Dios, que de cautivo</l>
             <l>su pueblo saca.</l>
           </sp>
-          <stage>Con esta repetición, sonando a un tiempo las voces, la música y el terremoto, se van todos y se descubren las mesas, quedando Idolatría y Baal.</stage>
+          <stage>Con esta repetición, sonando a un tiempo las voces, la música y el terremoto, se
+            van todos y se descubren las mesas, quedando Idolatría y Baal.</stage>
           <sp who="#idolatria">
             <speaker>IDOLATRÍA</speaker>
             <l>Bien ves, admiración tanta</l>
@@ -1773,7 +1849,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="5">
-          <stage>Vanse. Salen los dos ángeles cantando cada uno por su parte, y mientras cantan van saliendo Moisés, Aarón, María, Zambrí, Finés, Nacor, Heleacor y Libio y los demás hombres y mujeres que puedan, todos con báculos y vasijas.</stage>
+          <stage>Vanse. Salen los dos ángeles cantando cada uno por su parte, y mientras cantan van
+            saliendo Moisés, Aarón, María, Zambrí, Finés, Nacor, Heleacor y Libio y los demás
+            hombres y mujeres que puedan, todos con báculos y vasijas.</stage>
           <sp who="#angel-1">
             <speaker>ÁNGEL 1.º</speaker>
             <l part="I">Alerta, mortales...</l>
@@ -2074,7 +2152,8 @@
             <speaker>DENTRO</speaker>
             <l part="F">Lloremos.</l>
           </sp>
-          <sp who="#nacor #acompanamiento #fines #zambri #moises #maria #aaron #una-mujer #libio #musicos">
+          <sp
+            who="#nacor #acompanamiento #fines #zambri #moises #maria #aaron #una-mujer #libio #musicos">
             <speaker>TODOS</speaker>
             <l>Amargamente nosotros</l>
             <l part="I">nuestras desdichas.</l>
@@ -2119,7 +2198,8 @@
             <l>con que al verse perecer</l>
             <l>de sed, dice, y yo con ellos.</l>
           </sp>
-          <sp who="#zambri #nacor #acompanamiento #fines #maria #aaron #una-mujer #libio #musicos #moises">
+          <sp
+            who="#zambri #nacor #acompanamiento #fines #maria #aaron #una-mujer #libio #musicos #moises">
             <speaker>ÉL Y TODOS</speaker>
             <l n="1125">¡Cuanto mejor nos estaba</l>
             <stage>Dentro</stage>
@@ -2164,7 +2244,8 @@
             <l>a él se lo responde, pues</l>
             <l>él es el que está diciendo.</l>
           </sp>
-          <sp who="#zambri #nacor #acompanamiento #maria #una-mujer #libio #musicos #aaron #fines #moises">
+          <sp
+            who="#zambri #nacor #acompanamiento #maria #una-mujer #libio #musicos #aaron #fines #moises">
             <speaker>ÉL Y TODOS</speaker>
             <l>¿Faltábanle sepolturas</l>
             <stage>Dentro</stage>
@@ -2179,7 +2260,8 @@
             <l>que siempre me amargó el agua,</l>
             <l n="1160">y no me quejo por eso.</l>
           </sp>
-          <sp who="#zambri #nacor #acompanamiento #maria #una-mujer #musicos #aaron #fines #moises #libio">
+          <sp
+            who="#zambri #nacor #acompanamiento #maria #una-mujer #musicos #aaron #fines #moises #libio">
             <speaker>TODOS</speaker>
             <l>¡U darnos agua, o a Egipto,</l>
             <l>que para morir de cierto,</l>
@@ -2212,7 +2294,8 @@
             <l>mas con Vos, ¿qué no es acierto?</l>
             <l part="I">Llegad todos.</l>
           </sp>
-          <sp who="#zambri #nacor #acompanamiento #maria #una-mujer #aaron #fines #libio #musicos #moises">
+          <sp
+            who="#zambri #nacor #acompanamiento #maria #una-mujer #aaron #fines #libio #musicos #moises">
             <speaker>TODOS</speaker>
             <l n="1180" part="F">¿Pues qué intentas?</l>
           </sp>
@@ -2222,7 +2305,8 @@
             <l part="I">de su raíz.</l>
           </sp>
           <stage>Abrázase con un árbol</stage>
-          <sp who="#zambri #nacor #acompanamiento #maria #una-mujer #aaron #fines #libio #musicos #moises">
+          <sp
+            who="#zambri #nacor #acompanamiento #maria #una-mujer #aaron #fines #libio #musicos #moises">
             <speaker>TODOS</speaker>
             <l part="F">¿A qué fin?</l>
           </sp>
@@ -2231,7 +2315,8 @@
             <l>A fin de otro alto misterio</l>
             <l>que quiere mostrarnos Dios.</l>
           </sp>
-          <sp who="#zambri #nacor #acompanamiento #maria #una-mujer #aaron #fines #libio #musicos #moises">
+          <sp
+            who="#zambri #nacor #acompanamiento #maria #una-mujer #aaron #fines #libio #musicos #moises">
             <speaker>TODOS</speaker>
             <l n="1185">Ya dio su copa en el suelo.</l>
           </sp>
@@ -2252,7 +2337,9 @@
             <l part="F">¿Qué mucho, supuesto</l>
             <l n="1190">que voy hacia la amargura,</l>
             <l>ir tropezando y cayendo?</l>
-            <stage>Arrodilla Moisés con el árbol y llegan a ayudarle Finés por la mano derecha y por la izquierda Zambrí, María y Aarón; a los lados están como suspensos, y en esta acción salen Idolatría y Baal</stage>
+            <stage>Arrodilla Moisés con el árbol y llegan a ayudarle Finés por la mano derecha y por
+              la izquierda Zambrí, María y Aarón; a los lados están como suspensos, y en esta acción
+              salen Idolatría y Baal</stage>
             <l>Ayúdeme uno a llevarle.</l>
           </sp>
           <sp who="#zambri">
@@ -2340,7 +2427,8 @@
             <l>una y otra vez diciendo:</l>
             <l>Este es el madero...</l>
           </sp>
-          <sp who="#nacor #acompanamiento #una-mujer #musicos #zambri #fines #maria #aaron #libio #moises">
+          <sp
+            who="#nacor #acompanamiento #una-mujer #musicos #zambri #fines #maria #aaron #libio #moises">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Este es el Madero...</l>
           </sp>
@@ -2348,7 +2436,8 @@
             <speaker>MOISÉS</speaker>
             <l n="1240">...que eleva las aguas en prendas de otro...</l>
           </sp>
-          <sp who="#nacor #acompanamiento #una-mujer #musicos #zambri #fines #maria #aaron #libio #moises">
+          <sp
+            who="#nacor #acompanamiento #una-mujer #musicos #zambri #fines #maria #aaron #libio #moises">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>... que eleva las aguas en prendas de otro...</l>
           </sp>
@@ -2356,7 +2445,8 @@
             <speaker>MOISÉS</speaker>
             <l>... que trueca amarguras en dulces consuelos.</l>
           </sp>
-          <sp who="#nacor #acompanamiento #una-mujer #musicos #zambri #fines #maria #aaron #libio #moises">
+          <sp
+            who="#nacor #acompanamiento #una-mujer #musicos #zambri #fines #maria #aaron #libio #moises">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>... que trueca amarguras en dulces consuelos.</l>
           </sp>
@@ -2633,11 +2723,13 @@
             <speaker>MÚSICA</speaker>
             <l part="F">Sí.</l>
           </sp>
-          <sp who="#nacor #angel-1 #angel-2 #fines #maria #aaron #libio #acompanamiento #zambri #moises #musicos">
+          <sp
+            who="#nacor #angel-1 #angel-2 #fines #maria #aaron #libio #acompanamiento #zambri #moises #musicos">
             <speaker>TODOS</speaker>
             <l part="I">¿Quién lo asegura?</l>
           </sp>
-          <stage>Sube en una coluna una nube y abriéndose en el aire se ve en ella el Ángel 2.º. Con una bandera en la mano a Baal</stage>
+          <stage>Sube en una coluna una nube y abriéndose en el aire se ve en ella el Ángel 2.º. Con
+            una bandera en la mano a Baal</stage>
           <sp who="#moises">
             <speaker>MOISÉS</speaker>
             <l part="F">El efeto</l>
@@ -2721,7 +2813,8 @@
             <l>pasos adelante, amigos,</l>
             <l part="I">que importa mucho.</l>
           </sp>
-          <sp who="#baal #nacor #una-mujer #maria #acompanamiento #idolatria #musicos #zambri #fines #libio #moises #aaron">
+          <sp
+            who="#baal #nacor #una-mujer #maria #acompanamiento #idolatria #musicos #zambri #fines #libio #moises #aaron">
             <speaker>BAAL Y TODOS</speaker>
             <l n="1415" part="F">¿Dónde hemos</l>
             <l>de ir, si ya la noche cierra,</l>
@@ -2741,7 +2834,8 @@
             <speaker>MÚSICA</speaker>
             <l part="F">No.</l>
           </sp>
-          <sp who="#baal #nacor #una-mujer #maria #acompanamiento #idolatria #acompanamiento #zambri #fines #libio #aaron #moises #musicos">
+          <sp
+            who="#baal #nacor #una-mujer #maria #acompanamiento #idolatria #acompanamiento #zambri #fines #libio #aaron #moises #musicos">
             <speaker>TODOS</speaker>
             <l part="I">¿Quién lo asegura?</l>
           </sp>
@@ -2828,7 +2922,8 @@
             <l>el sumo encarecimiento:</l>
             <l>o comer, o vuelta a Egipto.</l>
           </sp>
-          <sp who="#nacor #una-mujer #maria #acompanamiento #fines #aaron #musicos #moises #zambri #libio">
+          <sp
+            who="#nacor #una-mujer #maria #acompanamiento #fines #aaron #musicos #moises #zambri #libio">
             <speaker>TODOS</speaker>
             <l n="1485">Todos decimos lo mesmo.</l>
           </sp>
@@ -2984,7 +3079,8 @@
             <l>Diga, pues ve vuestro celo,</l>
             <l n="1545">en cada grano un aroma.</l>
           </sp>
-          <sp who="#maria #baal #zambri #fines #musicos #aaron #nacor #heleacor #acompanamiento #moises">
+          <sp
+            who="#maria #baal #zambri #fines #musicos #aaron #nacor #heleacor #acompanamiento #moises">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Pan de ángeles es que, a que el hombre le coma,</l>
             <l>desciende del cielo.</l>
@@ -3164,7 +3260,8 @@
             <l n="1655">Venid, venid, y no deis</l>
             <l>oídos a esa ceguedad.</l>
           </sp>
-          <sp who="#maria #nacor #heleacor #acompanamiento #baal #aaron #musicos #idolatria #fines #zambri #moises">
+          <sp
+            who="#maria #nacor #heleacor #acompanamiento #baal #aaron #musicos #idolatria #fines #zambri #moises">
             <speaker>TODOS</speaker>
             <l part="I">¿Eso las respondes?</l>
           </sp>
@@ -3222,7 +3319,8 @@
             <speaker>AARÓN, FINÉS Y MOISÉS</speaker>
             <l n="1680" part="F">¡Teneos!</l>
           </sp>
-          <sp who="#maria #nacor #heleacor #acompanamiento #idolatria #baal #zambri #musicos #libio #aaron #fines #moises">
+          <sp
+            who="#maria #nacor #heleacor #acompanamiento #idolatria #baal #zambri #musicos #libio #aaron #fines #moises">
             <speaker>TODOS</speaker>
             <l>¿Quién ha de ir hacia el pesar...</l>
           </sp>
@@ -3234,7 +3332,8 @@
           <sp who="#moises">
             <speaker>MOISÉS</speaker>
             <l>No las escuchéis, y vea</l>
-            <stage>Quiriéndolos retirar por fuerza, y ellos resistiendo y porfiando para pasar donde están las mujeres</stage>
+            <stage>Quiriéndolos retirar por fuerza, y ellos resistiendo y porfiando para pasar donde
+              están las mujeres</stage>
             <l n="1685">el cielo la novedad,</l>
             <l>de que siendo a los conjuros</l>
             <l>las bellezas de Moab</l>
@@ -3327,7 +3426,8 @@
             <l>Sacrílegos israelitas,</l>
             <l>oíd, ved, atended, mirad.</l>
           </sp>
-          <sp who="#maria #nacor #heleacor #acompanamiento #libio #musicos #moises #aaron #fines #idolatria #zambri #baal">
+          <sp
+            who="#maria #nacor #heleacor #acompanamiento #libio #musicos #moises #aaron #fines #idolatria #zambri #baal">
             <speaker>TODOS</speaker>
             <l part="I">Es en vano.</l>
           </sp>
@@ -3544,7 +3644,8 @@
             <l n="1865">decir desde obscuro centro...</l>
           </sp>
           <stage>Dentro música y voces</stage>
-          <sp who="#musicos #maria #nacor #heleacor #acompanamiento #libio #idolatria #aaron #moises #fines #zambri">
+          <sp
+            who="#musicos #maria #nacor #heleacor #acompanamiento #libio #idolatria #aaron #moises #fines #zambri">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>... misericordia, Señor.</l>
           </sp>
@@ -3562,7 +3663,8 @@
             <l>mira como cuando clama</l>
             <l>una y otra vez diciendo...</l>
           </sp>
-          <sp who="#musicos #maria #nacor #heleacor #acompanamiento #libio #idolatria #aaron #moises #fines #zambri">
+          <sp
+            who="#musicos #maria #nacor #heleacor #acompanamiento #libio #idolatria #aaron #moises #fines #zambri">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>... misericordia, Señor.</l>
           </sp>
@@ -3579,7 +3681,8 @@
             <l>dice al pie del sacrificio</l>
             <l n="1885">de que hacer no supo aprecio.</l>
           </sp>
-          <stage>Vuelve a abrirse el carro donde estuvo la cena del cor-dero y vese un niño en una cruz y a sus pies Zambrí y Idolatría</stage>
+          <stage>Vuelve a abrirse el carro donde estuvo la cena del cor-dero y vese un niño en una
+            cruz y a sus pies Zambrí y Idolatría</stage>
           <sp who="#zambri">
             <speaker>ZAMBRÍ</speaker>
             <l>¡Ay infelice de mí!,</l>
@@ -3606,7 +3709,8 @@
             <l>Sí, pero el ácimo pan,</l>
             <l>¿dónde está, que no le veo?</l>
           </sp>
-          <stage>Ábrese otro carro y vese otro niño debajo de un araceli con el cáliz y hostia delante y Finés a su lado</stage>
+          <stage>Ábrese otro carro y vese otro niño debajo de un araceli con el cáliz y hostia
+            delante y Finés a su lado</stage>
           <sp who="#angel-2">
             <speaker>ÁNGEL 2.º</speaker>
             <l n="1900">En otra mesa Finés</l>
@@ -3655,7 +3759,8 @@
             <speaker>LOS ÁNGELES</speaker>
             <l>... sombras y luces uniendo...</l>
           </sp>
-          <sp who="#musicos #nacor #heleacor #acompanamiento #libio #angel-1 #zambri #idolatria #nino-1 #angel-2 #fines #nino-2 #baal #moises #maria #aaron">
+          <sp
+            who="#musicos #nacor #heleacor #acompanamiento #libio #angel-1 #zambri #idolatria #nino-1 #angel-2 #fines #nino-2 #baal #moises #maria #aaron">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>... que el blanco maná,</l>
             <l n="1925">inmolado cordero,</l>

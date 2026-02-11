@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000106" xml:lang="es">
   <teiHeader>
@@ -33,9 +33,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/fortunas-de-andromeda-y-perseo-comedia--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/fortunas-de-andromeda-y-perseo-comedia--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la Sexta parte de Comedias de don Pedro Calderón de la Barca que nuevamente corregidas, publica don Juan de Vera Tassis y Villarroel, Madrid, Por Francisco Sanz, 1683. Localización: Base de Datos Teatro Español del Siglo de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros. </title>
+            <title>Edición digital a partir de la Sexta parte de Comedias de don Pedro Calderón de
+              la Barca que nuevamente corregidas, publica don Juan de Vera Tassis y Villarroel,
+              Madrid, Por Francisco Sanz, 1683. Localización: Base de Datos Teatro Español del Siglo
+              de Oro (TESO). Autorizada por Evangelina Rodríguez Cuadros. </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -45,8 +49,12 @@
         <listPerson>
           <person xml:id="perseo" sex="MALE">
             <persName>Perseo</persName>
+            <idno type="wikidata">Q130832</idno>
             <trait source="#calderondigital">
               <desc>enamorado</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="bato" sex="MALE">
@@ -54,11 +62,17 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="gilote" sex="MALE">
             <persName>Gilote</persName>
             <trait source="#calderondigital">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="riselo" sex="MALE">
@@ -66,11 +80,17 @@
             <trait source="#calderondigital">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ergasto" sex="MALE">
             <persName>Ergasto</persName>
             <trait source="#calderondigital">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="cardenio" sex="MALE">
@@ -78,23 +98,41 @@
             <trait source="#calderondigital">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dánae" sex="FEMALE">
             <persName>Dánae</persName>
+            <idno type="wikidata">Q190582</idno>
             <trait source="#calderondigital">
               <desc>hija</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="polídites" sex="MALE">
             <persName>Polídites</persName>
+            <idno type="wikidata">Q771241</idno>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Un Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="fineo" sex="MALE">
             <persName>Fineo</persName>
+            <idno type="wikidata">Q1471454</idno>
             <trait source="#calderondigital">
               <desc>noble</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="lidoro" sex="MALE">
@@ -102,41 +140,68 @@
             <trait source="#calderondigital">
               <desc>príncipe</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="medusa" sex="FEMALE">
             <persName>Medusa</persName>
+            <idno type="wikidata">Q160730</idno>
             <trait source="#calderondigital">
               <desc>monstruo</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="palas" sex="FEMALE">
             <persName>Palas</persName>
+            <idno type="wikidata">Q37122</idno>
             <trait source="#calderondigital">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="mercurio" sex="MALE">
             <persName>Mercurio</persName>
+            <idno type="wikidata">Q1150</idno>
             <trait source="#calderondigital">
               <desc>dios</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="andrómeda" sex="FEMALE">
             <persName>Andrómeda</persName>
+            <idno type="wikidata">Q161582</idno>
             <trait source="#calderondigital">
               <desc>enamorada</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="morfeo" sex="MALE">
             <persName>Morfeo</persName>
+            <idno type="wikidata">Q194012</idno>
             <trait source="#calderondigital">
               <desc>dios</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="júpiter" sex="MALE">
             <persName>Júpiter</persName>
+            <idno type="wikidata">Q4649</idno>
             <trait source="#calderondigital">
               <desc>dios</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="música">
@@ -147,11 +212,17 @@
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dama-2" sex="FEMALE">
             <persName>Dama Segunda</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="dama-3" sex="FEMALE">
@@ -159,35 +230,58 @@
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="dama-4" sex="FEMALE">
             <persName>Dama Cuarta</persName>
             <trait resp="#rojas">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criada" sex="FEMALE">
             <persName>Una Criada</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juno" sex="FEMALE">
             <persName>[Juno]</persName>
+            <idno type="wikidata">Q125046</idno>
             <trait source="#calderondigital">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="dueña" sex="FEMALE">
             <persName>[Dueña]</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rey" sex="MALE">
             <persName>[El Rey de Trinacria]</persName>
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="discordia" sex="FEMALE">
             <persName>[Discordia]</persName>
+            <idno type="wikidata">Q140001</idno>
             <trait source="#calderondigital">
               <desc>diosa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="libia" sex="FEMALE">
@@ -195,11 +289,17 @@
             <trait source="#calderondigital">
               <desc>monstruo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="sirene" sex="FEMALE">
             <persName>[Sirene]</persName>
             <trait source="#calderondigital">
               <desc>monstruo</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
@@ -207,20 +307,32 @@
             <trait source="#calderondigital">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="celio" sex="MALE">
             <persName>[Celio]</persName>
             <trait source="#calderondigital">
               <desc>noble</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="libio" sex="MALE">
             <persName>[Libio]</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="furia-1" sex="FEMALE">
             <persName>[Furia primera]</persName>
             <trait source="#calderondigital">
               <desc>ser mitológico</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="furia-2" sex="FEMALE">
@@ -228,11 +340,17 @@
             <trait source="#calderondigital">
               <desc>ser mitológico</desc>
             </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="furia-3" sex="FEMALE">
             <persName>[Furia tercera]</persName>
             <trait source="#calderondigital">
               <desc>ser mitológico</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="nereida-1" sex="FEMALE">
@@ -240,11 +358,17 @@
             <trait source="#calderondigital">
               <desc>ninfa</desc>
             </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="nereida-2" sex="FEMALE">
             <persName>[Nereidas]</persName>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
+            </trait>
+            <trait type="role">
+              <desc>mythological</desc>
             </trait>
           </person>
           <person xml:id="nereida-3" sex="FEMALE">
@@ -252,18 +376,30 @@
             <trait source="#calderondigital">
               <desc>ninfa</desc>
             </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="nereida-4" sex="FEMALE">
             <persName>[Nereidas]</persName>
             <trait source="#calderondigital">
               <desc>ninfa</desc>
             </trait>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
           <person xml:id="villanos" sex="MALE">
             <persName>[Villanos]</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ecos" sex="MALE">
             <persName>[Ecos]</persName>
+            <trait type="role">
+              <desc>mythological</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -272,17 +408,20 @@
           <term source="dracor" type="genreTitle">comedia mitológica</term>
           <term source="#kroll" type="main">comedia mitológica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -344,7 +483,8 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
-          <stage>Descúbrese el teatro de las caserías nevadas. Dicen dentro, y salen después BATO, GILOTE, ERGASTO y RISELO, VILLANOS.</stage>
+          <stage>Descúbrese el teatro de las caserías nevadas. Dicen dentro, y salen después BATO,
+            GILOTE, ERGASTO y RISELO, VILLANOS.</stage>
           <sp who="#riselo">
             <speaker>RISELO</speaker>
             <l part="I">Huye, Gilote.</l>
@@ -1370,7 +1510,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage>Vase, y mientras la MÚSICA se repite con las voces de adentro, viene creciendo la nube hasta la mitad del tablado, donde se ha de abrir, y véese en un trono MERCURIO con alas en el sombrero y en los pies, y el caduceo en la mano, y PALAS armada con una asta en la mano, y embrazado un escudo, en que ha de estar un espejo, y bajan a tierra, y desaparécese la nube.</stage>
+          <stage>Vase, y mientras la MÚSICA se repite con las voces de adentro, viene creciendo la
+            nube hasta la mitad del tablado, donde se ha de abrir, y véese en un trono MERCURIO con
+            alas en el sombrero y en los pies, y el caduceo en la mano, y PALAS armada con una asta
+            en la mano, y embrazado un escudo, en que ha de estar un espejo, y bajan a tierra, y
+            desaparécese la nube.</stage>
           <sp who="#gente">
             <speaker>[GENTE]</speaker>
             <stage>Dentro.</stage>
@@ -2640,7 +2784,8 @@
       <div type="act" n="2">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada II</head>
-          <stage>Dicen dentro, a un lado PALAS, a otro MERCURIO, y a otro ANDRÓMEDA y PERSEO.</stage>
+          <stage>Dicen dentro, a un lado PALAS, a otro MERCURIO, y a otro ANDRÓMEDA y
+            PERSEO.</stage>
           <sp who="#perseo">
             <speaker>PERSEO</speaker>
             <l>Seguirte tengo, aunque te entres</l>
@@ -2653,7 +2798,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Sale ANDRÓMEDA de una parte a otra, y se entra, y múdase todo el teatro al pasar con estos dos versos ANDRÓMEDA, y PERSEO tras ella, como que la ha perdido de vista; y lo que se descubre es la gruta del sueño, y MORFEO viejo venerable sobre unas yerbas de su significación, como son beleños y cipreses, y sale PERSEO.</stage>
+          <stage>Sale ANDRÓMEDA de una parte a otra, y se entra, y múdase todo el teatro al pasar
+            con estos dos versos ANDRÓMEDA, y PERSEO tras ella, como que la ha perdido de vista; y
+            lo que se descubre es la gruta del sueño, y MORFEO viejo venerable sobre unas yerbas de
+            su significación, como son beleños y cipreses, y sale PERSEO.</stage>
           <sp who="#perseo">
             <speaker>PERSEO</speaker>
             <l n="5">¿Qué lóbrega estancia es esta,</l>
@@ -2708,7 +2856,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>Vase, y descúbrese el retrete con DÁNAE vestida de dama, y cuatro damas con ella cantando, y una dueña.</stage>
+          <stage>Vase, y descúbrese el retrete con DÁNAE vestida de dama, y cuatro damas con ella
+            cantando, y una dueña.</stage>
           <sp who="#perseo">
             <speaker>PERSEO</speaker>
             <l n="45">¿Mi madre entre tantas reales</l>
@@ -2996,7 +3145,8 @@
             <l> que sin él nada se vence</l>
             <l> y con él todo.]</l>
           </sp>
-          <stage>Cúbrese toda la gruta de MORFEO y el retrete, y vuelve a quedarse la selva como antes estaba, con las caserías nevadas, quedando admirado PERSEO.</stage>
+          <stage>Cúbrese toda la gruta de MORFEO y el retrete, y vuelve a quedarse la selva como
+            antes estaba, con las caserías nevadas, quedando admirado PERSEO.</stage>
           <sp who="#perseo">
             <speaker>PERSEO</speaker>
             <l>Oye, aguarda, escucha, espera,</l>
@@ -6398,7 +6548,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Salen todos los que pudieren al son de cajas destempladas, cantando, y detrás ANDRÓMEDA vestida de luto.</stage>
+          <stage>Salen todos los que pudieren al son de cajas destempladas, cantando, y detrás
+            ANDRÓMEDA vestida de luto.</stage>
           <sp who="#unos">
             <speaker>[UNOS]</speaker>
             <stage>Dentro.</stage>

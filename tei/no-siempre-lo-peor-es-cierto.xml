@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000144" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-13">
@@ -41,7 +42,10 @@
           <name>Association for Hispanic Classical Theater</name>
           <idno type="URL">http://www.comedias.org/calderon/Nosiem.html</idno>
           <bibl type="originalSource">
-            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en 1998.</title>
+            <title>Texto basado en las COMEDIAS DE DON PEDRO CALDERÓN DE LA BARCA, ed. Juan Jorge
+              Keil (Leipzig, 1830), tomo IV. Fue editado en forma electrónica por David Hildner y
+              luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en
+              1998.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,17 +55,29 @@
         <listPerson>
           <person xml:id="carlos" sex="MALE">
             <persName>Don Carlos</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juan" sex="MALE">
             <persName>Don Juan Roca</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="diego" sex="MALE">
             <persName>Don Diego Centellas</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pedro" sex="MALE">
             <persName>Don Pedro de Lara</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="fabio" sex="MALE">
@@ -69,18 +85,30 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ginés" sex="MALE">
             <persName>Ginés</persName>
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
             <persName>Doña Leonor</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="beatriz" sex="FEMALE">
             <persName>Doña Beatriz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="inés" sex="FEMALE">
             <persName>Inés</persName>
@@ -90,6 +118,9 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -98,17 +129,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -2351,7 +2385,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Salen don JUAN y don CARLOS por una puerta, y doña LEONOR con luces por otra</stage>
+          <stage>Salen don JUAN y don CARLOS por una puerta, y doña LEONOR con luces por
+            otra</stage>
           <sp who="#leonor">
             <speaker rend="caps">Leonor</speaker>
 
@@ -3994,7 +4029,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage>Vanse cada uno por su puerta, y don CARLOS se cierra por dentro. Salen don DIEGO, y GINÉS cojeando</stage>
+          <stage>Vanse cada uno por su puerta, y don CARLOS se cierra por dentro. Salen don DIEGO, y
+            GINÉS cojeando</stage>
           <sp who="#diego">
             <speaker rend="caps">Diego</speaker>
 

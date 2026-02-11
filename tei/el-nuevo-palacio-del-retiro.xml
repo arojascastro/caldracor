@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000167" xml:lang="es">
   <teiHeader>
@@ -36,9 +36,11 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra/el-nuevo-palacio-del-retiro--0/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra/el-nuevo-palacio-del-retiro--0/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Alan K.G. Paterson, Pamplona–Kassel, Universidad de Navarra– Reichenberger, 1998. ISBN: 3-931887-31-6.</title>
+            <title>Edición digital a partir de la edición de Alan K.G. Paterson, Pamplona–Kassel,
+              Universidad de Navarra– Reichenberger, 1998. ISBN: 3-931887-31-6.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,9 +50,15 @@
         <listPerson>
           <person sex="MALE" xml:id="judaismo">
             <persName>Judaísmo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hombre">
             <persName>Hombre</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
             <persName>Músicos</persName>
@@ -60,36 +68,66 @@
             <trait resp="#rojas">
               <desc>rey</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="reina">
             <persName>Reina</persName>
             <trait resp="#rojas">
               <desc>reina</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="vista">
             <persName>Vista</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="fe">
             <persName>Fe</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="tacto">
             <persName>Tacto</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="olfato">
             <persName>Olfato</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="gusto">
             <persName>Gusto</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="oido">
             <persName>Oído</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="caridad">
             <persName>Caridad</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="esperanza">
             <persName>Esperanza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -98,17 +136,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -551,7 +592,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="3">
-          <stage>VaseTocan chirimías, y salen del carro del Estanque el REY, la REINA, la FE, la ESPERANZA, la CARIDAD y los cinco SENTIDOS, de gala, así hombres como mujeres, con los vestidos que más propiamente pida el papel de cada uno. Y cantandocuantos pudieren</stage>
+          <stage>VaseTocan chirimías, y salen del carro del Estanque el REY, la REINA, la FE, la
+            ESPERANZA, la CARIDAD y los cinco SENTIDOS, de gala, así hombres como mujeres, con los
+            vestidos que más propiamente pida el papel de cada uno. Y cantandocuantos
+            pudieren</stage>
           <sp who="#musicos">
             <speaker>MÚSICOS</speaker>
             <l n="385">Abrid las puertas, abrid</l>
@@ -727,7 +771,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Tocan.Vanse haciendo reverencias el REY, la REINA, el HOMBRE. Los SENTIDOS la hacen a las da-mas y la última es la FE, que tendrá un ramillete en la mano. Están por orden y al ir pasando, habla cada uno en su lugar, y ella hace reverencia a cada uno de ellos</stage>
+          <stage>Tocan.Vanse haciendo reverencias el REY, la REINA, el HOMBRE. Los SENTIDOS la hacen
+            a las da-mas y la última es la FE, que tendrá un ramillete en la mano. Están por orden y
+            al ir pasando, habla cada uno en su lugar, y ella hace reverencia a cada uno de
+            ellos</stage>
           <sp who="#vista">
             <speaker>VISTA</speaker>
             <l>Fe divina, pues que yo</l>
@@ -1151,7 +1198,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="7">
-          <stage>Saleel REY y el JUDAÍSMO que le dará al REY un memorial; tómale y se le dará al HOMBRE</stage>
+          <stage>Saleel REY y el JUDAÍSMO que le dará al REY un memorial; tómale y se le dará al
+            HOMBRE</stage>
           <sp who="#judaismo">
             <speaker>JUDAÍSMO</speaker>
             <l>Vuestra Majestad, Señor,</l>
@@ -1180,7 +1228,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Salela REINA, las DAMAS y los cinco SENTIDOS y pónense a un lado todos los hombres y la REINA y las mujeres a otro; y en medio el REY y el HOMBRE. Saquen recado de escribir (y no se escriban decretos)</stage>
+          <stage>Salela REINA, las DAMAS y los cinco SENTIDOS y pónense a un lado todos los hombres
+            y la REINA y las mujeres a otro; y en medio el REY y el HOMBRE. Saquen recado de
+            escribir (y no se escriban decretos)</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l part="I">Decid.</l>
@@ -1829,7 +1879,8 @@
             <l>en el coronado cerco</l>
             <l>del mundo, a correr parejas</l>
             <l>con el Hombre, pues es cierto</l>
-            <stage>Pasande un lado a otro los dos, lo más conformemente vestidos que se pueda, de encarnado</stage>
+            <stage>Pasande un lado a otro los dos, lo más conformemente vestidos que se pueda, de
+              encarnado</stage>
             <l n="1195">que al entrar él en el mundo,</l>
             <l>los dos parejas corrieron.</l>
             <l>¡Qué galán viene! ¡Qué airoso!</l>
@@ -1954,7 +2005,12 @@
             <l n="1295">la celebrará, cantando</l>
             <l>himnos de dulzura llenos.</l>
           </sp>
-          <stage>Aun tiempo suben las DAMAS al Mirador y van tomando de los nichos uno y dejando otro, de manera que quede uno en blanco, y si mejor pareciere, toman los cuatro de delante y después se irán entreverando con los hombres; y el otro carro se abre con las barandillas, y el que subiere ha de ser por una y bajar por otra, representando lo que fuere señalado debajo de la Forma que a manera de sortija estará pendiente de dos columnas</stage>
+          <stage>Aun tiempo suben las DAMAS al Mirador y van tomando de los nichos uno y dejando
+            otro, de manera que quede uno en blanco, y si mejor pareciere, toman los cuatro de
+            delante y después se irán entreverando con los hombres; y el otro carro se abre con las
+            barandillas, y el que subiere ha de ser por una y bajar por otra, representando lo que
+            fuere señalado debajo de la Forma que a manera de sortija estará pendiente de dos
+            columnas</stage>
           <sp who="#judaismo">
             <speaker>JUDAÍSMO</speaker>
             <l>¡Oh purpúreo clavel! ¡Oh blanco azahar!</l>
@@ -2000,7 +2056,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage>Tocantodos los instrumentos músicos, chirimías y atabalillas, cajas y trompetas, y salen coronados con hojas todos, y lanzas, como de ristre, al compás del clarín; y en alto como se ha dicho están la REINA y las DAMAS; y el REY y el HOMBRE iguales con vestidos encarnados, los más conformes que se pueda</stage>
+          <stage>Tocantodos los instrumentos músicos, chirimías y atabalillas, cajas y trompetas, y
+            salen coronados con hojas todos, y lanzas, como de ristre, al compás del clarín; y en
+            alto como se ha dicho están la REINA y las DAMAS; y el REY y el HOMBRE iguales con
+            vestidos encarnados, los más conformes que se pueda</stage>
           <sp who="#reina">
             <speaker>REINA</speaker>
             <l>Ya para las fiestas reales,</l>
@@ -2060,7 +2119,8 @@
             <speaker>FE</speaker>
             <l>Sí, que estar él es lo mesmo.</l>
           </sp>
-          <stage>Va bajando al mismo tiempo que el REY va bajando la Forma, volviéndose a ver en su lugar como antes</stage>
+          <stage>Va bajando al mismo tiempo que el REY va bajando la Forma, volviéndose a ver en su
+            lugar como antes</stage>
           <sp who="#gusto">
             <speaker>GUSTO</speaker>
             <l n="1375">La sortija se ha llevado,</l>
@@ -2228,7 +2288,9 @@
             <l part="F">Vamos presto.</l>
             <l part="I">Mas, ¿dónde está?</l>
           </sp>
-          <stage>Cae la Torrecilla del Estanque habiendo subido ya los músicos, de suerte que, puestos un hombre y una mujer, queden haciendo labor en los nichos todos alrededor, y el REY en medio en la elevación</stage>
+          <stage>Cae la Torrecilla del Estanque habiendo subido ya los músicos, de suerte que,
+            puestos un hombre y una mujer, queden haciendo labor en los nichos todos alrededor, y el
+            REY en medio en la elevación</stage>
           <sp who="#hombre">
             <speaker>HOMBRE</speaker>
             <l n="1445" part="F">Subid todos</l>

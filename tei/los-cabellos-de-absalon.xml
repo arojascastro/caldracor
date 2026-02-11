@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000129" xml:lang="es">
   <teiHeader>
@@ -33,9 +33,11 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/los-cabellos-de-absalon--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/los-cabellos-de-absalon--0/html/</idno>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Evangelina Rodríguez Cuadros, Madrid, Espasa-Calpe, 1989.</title>
+            <title>Edición digital a partir de la edición de Evangelina Rodríguez Cuadros, Madrid,
+              Espasa-Calpe, 1989.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -45,50 +47,82 @@
         <listPerson>
           <person xml:id="david" sex="MALE">
             <persName>El Rey David</persName>
+            <idno type="wikidata">Q41370</idno>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="joab" sex="MALE">
             <persName>Joab</persName>
+            <idno type="wikidata">Q1141064</idno>
             <trait source="#calderondigital">
               <desc>general</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="absalón" sex="MALE">
             <persName>Absalón</persName>
+            <idno type="wikidata">Q205372</idno>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="salomón" sex="MALE">
             <persName>Salomón</persName>
+            <idno type="wikidata">Q37085</idno>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="adonías" sex="MALE">
             <persName>Adonías</persName>
+            <idno type="wikidata">Q360378</idno>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="amón" sex="MALE">
             <persName>Amón</persName>
+            <idno type="wikidata">Q361636</idno>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="jonadab" sex="MALE">
             <persName>Jonadab</persName>
+            <idno type="wikidata">Q6271831</idno>
             <trait source="#calderondigital">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="tamar" sex="FEMALE">
             <persName>Tamar</persName>
+            <idno type="wikidata">Q2917173</idno>
             <trait source="#calderondigital">
               <desc>princesa</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="teuca" sex="FEMALE">
@@ -96,11 +130,18 @@
             <trait source="#calderondigital">
               <desc>adivina</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="aquitofel" sex="MALE">
             <persName>Aquitofel</persName>
+            <idno type="wikidata">Q400294</idno>
             <trait source="#calderondigital">
               <desc>consejero</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="eliazar" sex="MALE">
@@ -108,11 +149,18 @@
             <trait source="#calderondigital">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="semey" sex="MALE">
             <persName>Semey</persName>
+            <idno type="wikidata">Q6978950</idno>
             <trait source="#calderondigital">
               <desc>general</desc>
+            </trait>
+            <trait type="role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="ensay" sex="MALE">
@@ -120,12 +168,21 @@
             <trait source="#calderondigital">
               <desc>anciano</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pastor-1" sex="MALE">
             <persName>Pastor Primero</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="pastor-2" sex="MALE">
             <persName>Pastor Segundo</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <personGrp xml:id="soldados" sex="MALE">
             <persName>Soldados</persName>
@@ -140,17 +197,20 @@
           <term source="dracor" type="genreTitle">comedia religiosa</term>
           <term source="#kroll" type="main">comedia religiosa</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -168,7 +228,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000129" passive="http://www.wikidata.org/entity/Q16493952"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000129"
+        passive="http://www.wikidata.org/entity/Q16493952"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -194,7 +255,8 @@
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
-          <stage>Tocan cajas, sale DAVID por una puerta, y por la otra ABSALÓN, SALOMÓN, TAMAR y AQUITOFEL.</stage>
+          <stage>Tocan cajas, sale DAVID por una puerta, y por la otra ABSALÓN, SALOMÓN, TAMAR y
+            AQUITOFEL.</stage>
           <sp who="#salomón">
             <speaker>SALOMÓN</speaker>
             <l> Vuelva felicemente, </l>
@@ -228,7 +290,8 @@
             <l> Queridas prendas mías,</l>
             <l> báculos vivos de mis luengos días,</l>
             <l> dadme todos los brazos.</l>
-            <stage>Abraza DAVID primero a SALOMÓN, después a ABSALÓN, después a ADONÍAS y a TAMAR.</stage>
+            <stage>Abraza DAVID primero a SALOMÓN, después a ABSALÓN, después a ADONÍAS y a
+              TAMAR.</stage>
             <l n="20"> Renuévese mi edad entre los lazos</l>
             <l> de dichas tan amadas, </l>
             <l> ¡Ay dulces prendas, por mí bien halladas!</l>
@@ -389,7 +452,8 @@
             <l> al príncipe se mira,</l>
             <l part="I"> sentado en una silla.</l>
           </sp>
-          <stage>Corriendo una cortina, se descubre AMÓN sentado en una silla arrimada a un bufete, y de la otra parte estará JONADAB.</stage>
+          <stage>Corriendo una cortina, se descubre AMÓN sentado en una silla arrimada a un bufete,
+            y de la otra parte estará JONADAB.</stage>
           <sp who="#tamar">
             <speaker>TAMAR</speaker>
             <l part="F"> ¿A quién no admira</l>
@@ -3734,7 +3798,8 @@
           <sp who="#absalón">
             <speaker>ABSALÓN</speaker>
             <l n="845"> Por dar venganza a Tamar.</l>
-            <stage>Descúbrese un mesa con un aparador de plata, y los manteles revueltos, AMÓN echado sobre ella con una servilleta, ensangrentado.</stage>
+            <stage>Descúbrese un mesa con un aparador de plata, y los manteles revueltos, AMÓN
+              echado sobre ella con una servilleta, ensangrentado.</stage>
             <l> Para ti, hermana, se ha hecho </l>
             <l> el convite: aqueste plato </l>
             <l> aunque de manjar ingrato, </l>
@@ -6115,7 +6180,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="34">
-          <stage>Vanse DAVID, SALOMÓN y ADONÍAS por un lado, JOAB, ENSAY y soldados por otro, y dentro tocan cajas, y dándose la batalla, se descubre ABSALÓN en un caballo.</stage>
+          <stage>Vanse DAVID, SALOMÓN y ADONÍAS por un lado, JOAB, ENSAY y soldados por otro, y
+            dentro tocan cajas, y dándose la batalla, se descubre ABSALÓN en un caballo.</stage>
           <sp who="#absalón">
             <speaker>ABSALÓN</speaker>
             <l> Fugitivos israelitas,</l>
@@ -6149,7 +6215,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="35">
-          <stage>Tocan clarines, y cajas, y se da la batalla, entrando y saliendo algunos, peleando.</stage>
+          <stage>Tocan clarines, y cajas, y se da la batalla, entrando y saliendo algunos,
+            peleando.</stage>
           <stage>Dentro.</stage>
           <sp who="#todos">
             <speaker>TODOS</speaker>
@@ -6186,7 +6253,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="36">
-          <stage>Da vueltas el caballo, tocan al arma, salen ENSAY, JOAB y soldados con lanzas.</stage>
+          <stage>Da vueltas el caballo, tocan al arma, salen ENSAY, JOAB y soldados con
+            lanzas.</stage>
           <stage>Dentro.</stage>
           <sp who="#todos">
             <speaker>TODOS</speaker>
@@ -6274,7 +6342,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="37">
-          <stage>Descúbrese ABSALÓN, como pendiente de los cabellos, con tres lanzas atravesadas.</stage>
+          <stage>Descúbrese ABSALÓN, como pendiente de los cabellos, con tres lanzas
+            atravesadas.</stage>
           <sp who="#absalón">
             <speaker>ABSALÓN</speaker>
             <l part="F"> ¡Yo muero,</l>

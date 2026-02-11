@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000002" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-03-11">
           <time when="13:46:15"/>
@@ -35,9 +36,14 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/a-maria-el-corazon--0/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/a-maria-el-corazon--0/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por Ignacio Arellano, Ildefonso Adeva, Francisco Crosas y Miguel Zugasti procedente de la edición Calderón de la Barca, Pedro, A María el corazón, ed. Ignacio Arellano, Ildefonso Adeva, Francisco Crosas y Miguel Zugasti, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1999. ISBN: 3-931887-56-1.</title>
+            <title>Texto crítico preparado por Ignacio Arellano, Ildefonso Adeva, Francisco Crosas y
+              Miguel Zugasti procedente de la edición Calderón de la Barca, Pedro, A María el
+              corazón, ed. Ignacio Arellano, Ildefonso Adeva, Francisco Crosas y Miguel Zugasti,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1999. ISBN:
+              3-931887-56-1.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,48 +53,90 @@
         <listPerson>
           <person xml:id="el-furor" sex="MALE">
             <persName>El Furor</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-culpa" sex="FEMALE">
             <persName>La Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-soberbia" sex="FEMALE">
             <persName>La Soberbia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-avaricia" sex="FEMALE">
             <persName>La Avaricia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-lascivia" sex="FEMALE">
             <persName>La Lascivia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-ira" sex="FEMALE">
             <persName>La Ira</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="envidia" sex="FEMALE">
             <persName>Envidia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-gula" sex="FEMALE">
             <persName>La Gula</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="la-pereza" sex="FEMALE">
             <persName>La Pereza</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-peregrino" sex="MALE">
             <persName>El Peregrino</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-pensamiento" sex="MALE">
             <persName>El Pensamiento</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="laureta" sex="FEMALE">
             <persName>Laureta</persName>
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="el-ángel" sex="MALE">
             <persName>El Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="música">
             <persName>Música</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -97,17 +145,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -119,7 +170,8 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000002" passive="http://www.wikidata.org/entity/Q68897761"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000002"
+        passive="http://www.wikidata.org/entity/Q68897761"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -150,7 +202,8 @@
     <body>
       <div type="act" n="1">
         <div type="scene" resp="#rojas" n="1">
-          <stage type="unassigned">Óyense en el primero carro instrumentos músicos, y mientras se canta dentro la primer copla, sale el FUROR como oyéndola con asombro.</stage>
+          <stage type="unassigned">Óyense en el primero carro instrumentos músicos, y mientras se
+            canta dentro la primer copla, sale el FUROR como oyéndola con asombro.</stage>
           <sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <stage type="entrance">Dentro.</stage>
@@ -305,7 +358,10 @@
             <l>que no ha de estar cautiva</l>
             <l n="90">en tirano poder la casa de María.</l>
           </sp>
-          <stage type="unassigned">Con esta repetición y las chirimías se descubra en el primer carro por elevación una fábrica pequeña sobre nubes, con cuatro ángeles en las cuatro esquinas trayéndola como en hombros, y en la fachada principal uno que viene delante, como guiando a los demás, el cual representa cantando.</stage>
+          <stage type="unassigned">Con esta repetición y las chirimías se descubra en el primer
+            carro por elevación una fábrica pequeña sobre nubes, con cuatro ángeles en las cuatro
+            esquinas trayéndola como en hombros, y en la fachada principal uno que viene delante,
+            como guiando a los demás, el cual representa cantando.</stage>
           <sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>En esta de Dalmacia</l>
@@ -371,7 +427,8 @@
             <l n="130">más venerada triunfe, reine y viva;</l>
             <l>que no ha de estar cautiva</l>
             <l>en tirano poder la casa de María.</l>
-            <stage type="exit">Con esta repetición, dejando la casa descubierta y fija en el aire, desaparecen los ángeles.</stage>
+            <stage type="exit">Con esta repetición, dejando la casa descubierta y fija en el aire,
+              desaparecen los ángeles.</stage>
           </sp>
           <sp who="#el-furor">
             <speaker>FUROR</speaker>
@@ -391,7 +448,11 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage type="unassigned">Ábrese el segundo carro, que será una montaña bruta, y sale de ella una hidra de siete cabezas coronadas, de cuyas bocas penderán unas cintas que traerán, como que vienen tirando de ella la SOBERBIA, la AVARICIA, la GULA, la LASCIVIA, la IRA, la ENVIDIA y la PEREZA. Y sobre su espalda la CULPA con una copa de oro en la mano.</stage>
+          <stage type="unassigned">Ábrese el segundo carro, que será una montaña bruta, y sale de
+            ella una hidra de siete cabezas coronadas, de cuyas bocas penderán unas cintas que
+            traerán, como que vienen tirando de ella la SOBERBIA, la AVARICIA, la GULA, la LASCIVIA,
+            la IRA, la ENVIDIA y la PEREZA. Y sobre su espalda la CULPA con una copa de oro en la
+            mano.</stage>
           <sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>Como el ver repetida</l>
@@ -555,7 +616,8 @@
             <l>que oprimí, me derriba</l>
             <l>ya a tus conjuros. ¿Cómo?</l>
           </sp>
-          <stage type="unassigned">Apéase de la hidra, que desaparecerá cerrándose la montaña.</stage>
+          <stage type="unassigned">Apéase de la hidra, que desaparecerá cerrándose la
+            montaña.</stage>
           <sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l part="I">Oye la causa.</l>
@@ -661,7 +723,8 @@
             <l n="330">volvamos a que admira</l>
             <l>su novedad la tierra.</l>
           </sp>
-          <stage type="unassigned">Mirando dentro, como que ven en sombras lo que representan.</stage>
+          <stage type="unassigned">Mirando dentro, como que ven en sombras lo que
+            representan.</stage>
           <sp who="#el-furor">
             <speaker>FUROR</speaker>
             <l>Ella, pues, discursiva</l>
@@ -830,7 +893,8 @@
             <l>sus voces oigan todos,</l>
             <l n="425">también las nuestras digan...</l>
           </sp>
-          <sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
+          <sp
+            who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
             <speaker>TODOS</speaker>
             <l>Vaya, vaya de fiesta, vaya de jira,</l>
             <l>y hagan sus efetos Gula y Lascivia.</l>
@@ -840,7 +904,8 @@
             <l>Mientras yo abraso a todos, tú a todos brinda,</l>
             <l>que sin Baco y Ceres, Venus se entibia.</l>
           </sp>
-          <sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
+          <sp
+            who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
             <speaker>TODOS</speaker>
             <l n="430">Vaya, vaya de fiesta, vaya de jira.</l>
           </sp>
@@ -849,13 +914,16 @@
             <l>Si mañana a la muerte todos caminan,</l>
             <l>bébase hoy, que mañana será otro día.</l>
           </sp>
-          <sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
+          <sp
+            who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia">
             <speaker>TODOS</speaker>
             <l>Hagan sus efetos Gula y Lascivia.</l>
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="11">
-          <stage type="unassigned">Mientras ellos cantan y bailan, han salido al tablado el PEREGRINO, viejo venerable, y el PENSAMIENTO, también vestido de peregrino, luchando con él.</stage>
+          <stage type="unassigned">Mientras ellos cantan y bailan, han salido al tablado el
+            PEREGRINO, viejo venerable, y el PENSAMIENTO, también vestido de peregrino, luchando con
+            él.</stage>
           <sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>¿Dónde vas, Pensamiento?</l>
@@ -869,12 +937,14 @@
             <l>mi voz repita:</l>
             <stage type="exit">Desásese dél y mézclase con los demás, bailando.</stage>
           </sp>
-          <sp who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia #el-pensamiento #el-peregrino">
+          <sp
+            who="#la-lascivia #la-gula #el-furor #envidia #la-avaricia #la-culpa #la-ira #la-pereza #la-soberbia #el-pensamiento #el-peregrino">
             <speaker>CON TODOS</speaker>
             <l n="440">Vaya, vaya de bulla, de fiesta y jira,</l>
             <l>y hagan sus efetos Gula y Lascivia.</l>
           </sp>
-          <stage type="unassigned">Con esta repetición se van bailando y cantando con varios instrumentos los vicios, y el PEREGRINO detiene al PENSAMIENTO luchando con él.</stage>
+          <stage type="unassigned">Con esta repetición se van bailando y cantando con varios
+            instrumentos los vicios, y el PEREGRINO detiene al PENSAMIENTO luchando con él.</stage>
           <sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Tente, Pensamiento, no</l>
@@ -993,7 +1063,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="12">
-          <stage type="exit">Vase apartando dél, y con lo que representa se suspende en el camino.</stage>
+          <stage type="exit">Vase apartando dél, y con lo que representa se suspende en el
+            camino.</stage>
           <sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="F">¿Es posible</l>
@@ -1018,7 +1089,8 @@
             <l>Pensamiento, te distraigas?</l>
             <stage type="exit">Va volviendo a él.</stage>
           </sp>
-          <stage type="unassigned">Suenan los instrumentos y él da vueltas a una parte y otra.</stage>
+          <stage type="unassigned">Suenan los instrumentos y él da vueltas a una parte y
+            otra.</stage>
           <sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l>No haré tal, ya vuelvo a ti.</l>
@@ -1052,7 +1124,9 @@
             <l>Vuelvan para divertirlos</l>
             <l n="515">a decir las voces altas.</l>
           </sp>
-          <stage type="unassigned">Aparecen segunda vez, como primero, los ángeles en su elevación, y dando vuelta con la casa desaparecen con ella, a tiempo que están como elevados PEREGRINO y PENSAMIENTO sin ver la mudanza.</stage>
+          <stage type="unassigned">Aparecen segunda vez, como primero, los ángeles en su elevación,
+            y dando vuelta con la casa desaparecen con ella, a tiempo que están como elevados
+            PEREGRINO y PENSAMIENTO sin ver la mudanza.</stage>
           <sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Soberana Jerarquía,</l>
@@ -1574,7 +1648,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage type="unassigned">Vanse los cuatro y, durando la repetición de la MÚSICA, salen atravesando el tablado como que la van siguiendo el PEREGRINO y el PENSAMIENTO.</stage>
+          <stage type="unassigned">Vanse los cuatro y, durando la repetición de la MÚSICA, salen
+            atravesando el tablado como que la van siguiendo el PEREGRINO y el PENSAMIENTO.</stage>
           <sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>«¿Hasta que vaya</l>
@@ -1918,7 +1993,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="18">
-          <stage type="unassigned">Arroja de sí al PENSAMIENTO y al entrarse salen IRA y CULPA vestidos de bandoleros, y pónenle al pecho las pistolas.</stage>
+          <stage type="unassigned">Arroja de sí al PENSAMIENTO y al entrarse salen IRA y CULPA
+            vestidos de bandoleros, y pónenle al pecho las pistolas.</stage>
           <sp who="#la-ira #la-culpa">
             <speaker>LOS DOS</speaker>
             <l part="M">¿Dónde?</l>
@@ -1965,7 +2041,8 @@
             <speaker>IRA</speaker>
             <l part="F" n="920">¡Muera!</l>
           </sp>
-          <stage type="unassigned">Disparan los dos y no dan fuego las pistolas, y dice dentro el ÁNGEL.</stage>
+          <stage type="unassigned">Disparan los dos y no dan fuego las pistolas, y dice dentro el
+            ÁNGEL.</stage>
           <sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>No hará, que para mayor</l>
@@ -2125,7 +2202,9 @@
             <l>donde más reverente culto la espera,</l>
             <l>salga también, salga de aquestas selvas.</l>
           </sp>
-          <stage type="unassigned">Suenan las chirimías y vese en el segundo cuerpo del segundo carro otra casa con la misma fábrica y pintura que la primera, con diferencia sólo de que ésta ha de estar fija y puedan abrirse sus puertas a su tiempo.</stage>
+          <stage type="unassigned">Suenan las chirimías y vese en el segundo cuerpo del segundo
+            carro otra casa con la misma fábrica y pintura que la primera, con diferencia sólo de
+            que ésta ha de estar fija y puedan abrirse sus puertas a su tiempo.</stage>
           <sp who="#el-ángel">
             <speaker>ÁNGEL</speaker>
             <l>Mira cómo ya en aquel</l>
@@ -2202,7 +2281,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="23">
-          <stage type="unassigned">De dentro de la casa salen luchando la ENVIDIA y la AVARICIA, en un tabladillo que habrá delante de ella.</stage>
+          <stage type="unassigned">De dentro de la casa salen luchando la ENVIDIA y la AVARICIA, en
+            un tabladillo que habrá delante de ella.</stage>
           <sp who="#envidia">
             <speaker>ENVIDIA</speaker>
             <l>A mí me toca en herencia</l>
@@ -2387,7 +2467,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="27">
-          <stage type="unassigned">Sale el PENSAMIENTO huyendo del FUROR, y siempre que llega a abrazarse con él se le escapa dentre los brazos, abrazando al viento. Lo mismo sucede a CULPA y IRA, y él huye libre de los tres.</stage>
+          <stage type="unassigned">Sale el PENSAMIENTO huyendo del FUROR, y siempre que llega a
+            abrazarse con él se le escapa dentre los brazos, abrazando al viento. Lo mismo sucede a
+            CULPA y IRA, y él huye libre de los tres.</stage>
           <sp who="#el-pensamiento">
             <speaker>PENSAMIENTO</speaker>
             <l part="F">No</l>
@@ -2447,7 +2529,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="29">
-          <stage type="unassigned">Vanse los tres y óyese un clarín en el tercero carro, que será una galera, y dando vuelta se ven en ella la SOBERBIA en la popa, vestido de mozo, y el PEREGRINO, entre otros, puesto al remo, vestido de cautivo.</stage>
+          <stage type="unassigned">Vanse los tres y óyese un clarín en el tercero carro, que será
+            una galera, y dando vuelta se ven en ella la SOBERBIA en la popa, vestido de mozo, y el
+            PEREGRINO, entre otros, puesto al remo, vestido de cautivo.</stage>
           <sp who="#la-soberbia">
             <speaker>SOBERBIA</speaker>
             <l part="F">¡Boga, canalla,</l>
@@ -2753,7 +2837,8 @@
             <l>y cómo en entrañas vida,</l>
             <l>alma y corazón impreso</l>
             <l>está el nombre de María.</l>
-            <stage type="exit">Embiste a él con el puñal, y echándole en el suelo le saca del pecho un corazón ensangrentado.</stage>
+            <stage type="exit">Embiste a él con el puñal, y echándole en el suelo le saca del pecho
+              un corazón ensangrentado.</stage>
           </sp>
           <sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
@@ -2794,7 +2879,8 @@
             <l n="1310">toma y llévale a María.</l>
             <stage type="exit">Arrójaselo.</stage>
           </sp>
-          <stage type="unassigned">Levántase ensangrentado el PEREGRINO y toma del suelo el corazón.</stage>
+          <stage type="unassigned">Levántase ensangrentado el PEREGRINO y toma del suelo el
+            corazón.</stage>
           <sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l part="I">Sí haré.</l>
@@ -2888,7 +2974,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="31">
-          <stage type="unassigned">Vase la SOBERBIA con esta repetición, y salen con la misma FUROR y CULPA como oyéndola.</stage>
+          <stage type="unassigned">Vase la SOBERBIA con esta repetición, y salen con la misma FUROR
+            y CULPA como oyéndola.</stage>
           <sp who="#la-culpa">
             <speaker>CULPA</speaker>
             <l>¿«Que para darle a María»...</l>
@@ -3088,7 +3175,13 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="34">
-          <stage type="unassigned">Salen los cuatro ángeles que aparecieron en la casa con hachas, alumbrando al PEREGRINO, que ensangrentado tray el corazón en las manos. Detrás dél todos los músicos, y delante de todos, guiándolos, el ÁNGEL. Los vicios se postran como va pasando hasta llegar al cuarto carro, que será un templo suntuoso, el cual, abriéndose en dos mitades, descubrirá una fábrica rica con un altar, y en él una imagen a imitación de la de Loreto. En la mesa del altar habrá un cáliz y hostia con su araceli y al pie dél el PENSAMIENTO, como en oración, arrodillado.</stage>
+          <stage type="unassigned">Salen los cuatro ángeles que aparecieron en la casa con hachas,
+            alumbrando al PEREGRINO, que ensangrentado tray el corazón en las manos. Detrás dél
+            todos los músicos, y delante de todos, guiándolos, el ÁNGEL. Los vicios se postran como
+            va pasando hasta llegar al cuarto carro, que será un templo suntuoso, el cual,
+            abriéndose en dos mitades, descubrirá una fábrica rica con un altar, y en él una imagen
+            a imitación de la de Loreto. En la mesa del altar habrá un cáliz y hostia con su araceli
+            y al pie dél el PENSAMIENTO, como en oración, arrodillado.</stage>
           <sp who="#el-peregrino">
             <speaker>PEREGRINO</speaker>
             <l>Ave, estrella de la mar,</l>
@@ -3296,7 +3389,8 @@
             <l>Y recebir el inmenso</l>
             <l>milagro de los milagros...</l>
           </sp>
-          <sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira #el-ángel #la-culpa #el-peregrino">
+          <sp
+            who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira #el-ángel #la-culpa #el-peregrino">
             <speaker>TODOS</speaker>
             <l n="1575">Es María el mejor medio.</l>
           </sp>
@@ -3307,14 +3401,16 @@
             <l>mientras para mayor honra</l>
             <l>suya decimos a un tiempo:</l>
           </sp>
-          <sp who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira #el-ángel #la-culpa #el-peregrino #música">
+          <sp
+            who="#la-soberbia #la-lascivia #la-gula #envidia #la-avaricia #la-ira #el-ángel #la-culpa #el-peregrino #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1580">Que para darle a María,</l>
             <l>puesto en ella el pensamiento,</l>
             <l>todos nuestros corazones</l>
             <l>en nuestras manos tenemos.</l>
           </sp>
-          <stage type="unassigned">Con esta repetición y chirimías se cierra el carro y acaba el auto.</stage>
+          <stage type="unassigned">Con esta repetición y chirimías se cierra el carro y acaba el
+            auto.</stage>
         </div>
 
       </div>

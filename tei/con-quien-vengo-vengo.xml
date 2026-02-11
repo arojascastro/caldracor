@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000069" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-06">
@@ -41,7 +42,10 @@
           <name>Association for Hispanic Classical Theater</name>
           <idno type="URL">http://www.comedias.org/calderon/cqveve.html</idno>
           <bibl type="originalSource">
-            <title>Texto basado en la edición de Juan Jorge Keil en su libro, COMEDIAS DE D. PEDRO CALDERON (Leipzig, 1830), Tomo 4. Fue editado en forma electrónica por David Hildner en 1998 y luego pasado al HTML para ser presentado en esta colección por Vern Williamsen en 2000.</title>
+            <title>Texto basado en la edición de Juan Jorge Keil en su libro, COMEDIAS DE D. PEDRO
+              CALDERON (Leipzig, 1830), Tomo 4. Fue editado en forma electrónica por David Hildner
+              en 1998 y luego pasado al HTML para ser presentado en esta colección por Vern
+              Williamsen en 2000.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,11 +58,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="juan" sex="MALE">
             <persName>Don Juan</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="sancho" sex="MALE">
@@ -66,11 +76,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ursino" sex="MALE">
             <persName>Ursino</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="celio" sex="MALE">
@@ -78,17 +94,29 @@
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="gobernador" sex="MALE">
             <persName>Gobernador</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="criado" sex="MALE">
             <persName>Un Criado</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="lisarda" sex="FEMALE">
             <persName>Doña Lisarda</persName>
             <trait source="castlist">
               <desc>dama</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="leonor" sex="FEMALE">
@@ -96,11 +124,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="nise" sex="FEMALE">
             <persName>Nise</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
         </listPerson>
@@ -110,17 +144,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -1902,7 +1939,8 @@
 
             <l>¿Nise?</l>
           </sp>
-          <stage>Siéntanse don JUAN y doña LEONOR, don OCTAVIO llega a hablar con doña LISARDA</stage>
+          <stage>Siéntanse don JUAN y doña LEONOR, don OCTAVIO llega a hablar con doña
+            LISARDA</stage>
           <sp who="#leonor">
             <speaker rend="caps">Leonor</speaker>
             <stage type="withText">Aparte</stage>
@@ -3998,7 +4036,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="17">
-          <stage>Vanse don JUAN y don OCTAVIO. Escóndese doña LEONOR. Sale don SANCHO con gente</stage>
+          <stage>Vanse don JUAN y don OCTAVIO. Escóndese doña LEONOR. Sale don SANCHO con
+            gente</stage>
           <sp who="#sancho">
             <speaker rend="caps">Sancho</speaker>
 
@@ -5566,7 +5605,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Encuéntranse URSINO y don JUAN, y cada uno hace como que no quiere que el otro encuentre con la dama que lleva, y apártanse, hasta igualarse las damas; y ellos volviendo a guiarlas, por tomar la suya, agarran la del otro, de manera que se truecan</stage>
+          <stage>Encuéntranse URSINO y don JUAN, y cada uno hace como que no quiere que el otro
+            encuentre con la dama que lleva, y apártanse, hasta igualarse las damas; y ellos
+            volviendo a guiarlas, por tomar la suya, agarran la del otro, de manera que se
+            truecan</stage>
           <sp who="#ursino">
             <speaker rend="caps">Ursino</speaker>
             <stage type="withText">Aparte</stage>
@@ -7666,7 +7708,8 @@
             <l>cumplo yo de parte mía,</l>
             <l>y él cumplirá de su parte.</l>
           </sp>
-          <stage>Van a reñir don JUAN con don SANCHO, y don OCTAVIO con URSINO; pero don OCTAVIO se vuelve contra don SANCHO</stage>
+          <stage>Van a reñir don JUAN con don SANCHO, y don OCTAVIO con URSINO; pero don OCTAVIO se
+            vuelve contra don SANCHO</stage>
           <sp who="#octavio">
             <speaker rend="caps">Octavio</speaker>
 
@@ -7693,7 +7736,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="25">
-          <stage>Riñen don JUAN y URSINO. Salen doña LEONOR y doña LISARDA, por un lado con mantos, y por el otro CELIO, el GOBERNADOR, y gente</stage>
+          <stage>Riñen don JUAN y URSINO. Salen doña LEONOR y doña LISARDA, por un lado con mantos,
+            y por el otro CELIO, el GOBERNADOR, y gente</stage>
           <sp who="#celio">
             <speaker rend="caps">Celio</speaker>
 

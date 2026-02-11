@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000066" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,8 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title> Edición digital a partir de la edición de José M. Ruano de la Haza, Kassel, Reichenberger, 1982. </title>
+            <title> Edición digital a partir de la edición de José M. Ruano de la Haza, Kassel,
+              Reichenberger, 1982. </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -51,11 +52,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="hernando">
             <persName>Hernando</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="violante">
@@ -63,14 +70,23 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="uno">
             <persName>Uno</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-carlos">
             <persName>Don Carlos</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="ines">
@@ -78,14 +94,23 @@
             <trait source="castlist">
               <desc>criada</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="otro">
             <persName>Otro</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="simon">
             <persName>Simón</persName>
             <trait source="castlist">
               <desc>criado</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="don-enrique">
@@ -93,11 +118,17 @@
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="juana">
             <persName>Juana</persName>
             <trait source="castlist">
               <desc>criada</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person sex="FEMALE" xml:id="leonor">
@@ -105,17 +136,26 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-diego">
             <persName>Don Diego</persName>
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="don-luis">
             <persName>Don Luis</persName>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
         </listPerson>
@@ -125,17 +165,20 @@
           <term source="dracor" type="genreTitle">comedia de capa y espada</term>
           <term source="#kroll" type="main">comedia cómica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -1991,7 +2034,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="25">
-          <stage> Escóndense los dos y sale DON DIEGO, viejo, por otra parte, y por otra, JUANA, con luces. </stage>
+          <stage> Escóndense los dos y sale DON DIEGO, viejo, por otra parte, y por otra, JUANA, con
+            luces. </stage>
           <sp who="#don-felix">
             <speaker> DON FÉLIX </speaker>
             <l part="F"> Entra, loco. </l>
@@ -4239,7 +4283,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <stage> Yendo a la puerta VIOLANTE, al último verso se entra la una, dejando descubierta la otra. </stage>
+          <stage> Yendo a la puerta VIOLANTE, al último verso se entra la una, dejando descubierta
+            la otra. </stage>
           <sp who="#don-carlos">
             <speaker> DON CARLOS </speaker>
             <l part="I"> …que tú sola… </l>
@@ -7150,7 +7195,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage> Sale INES, atravesando el tablado, dale un papel y vase corriendo; quiere detenerla HERNANDO, ella le da y se va corriendo. </stage>
+          <stage> Sale INES, atravesando el tablado, dale un papel y vase corriendo; quiere
+            detenerla HERNANDO, ella le da y se va corriendo. </stage>
           <sp who="#ines">
             <speaker> INÉS </speaker>
             <l n="3165" part="F"> Leed ese papel, </l>
@@ -7252,7 +7298,9 @@
         </div>
         <div type="scene" resp="#rojas" n="25">
           <stage> [Vanse.] </stage>
-          <stage> INÉS y VIOLANTE, tapadas, pasan por delante haciendo señas con un pañuelo y, en habiéndose entrado, salen por la misma parte LEONOR y JUANA y hacen lo mismo, pasando por delante, y luego vuelven las dos, cada una por donde entró. </stage>
+          <stage> INÉS y VIOLANTE, tapadas, pasan por delante haciendo señas con un pañuelo y, en
+            habiéndose entrado, salen por la misma parte LEONOR y JUANA y hacen lo mismo, pasando
+            por delante, y luego vuelven las dos, cada una por donde entró. </stage>
           <sp who="#ines">
             <speaker> INÉS </speaker>
             <l> Ya don Félix viene allí. </l>
@@ -8519,7 +8567,8 @@
             <l> Y yo en nombre del que atento </l>
             <l> siempre os desea servir… </l>
           </sp>
-          <sp who="#hernando #violante #don-carlos #ines #simon #don-enrique #juana #leonor #don-diego #don-luis">
+          <sp
+            who="#hernando #violante #don-carlos #ines #simon #don-enrique #juana #leonor #don-diego #don-luis">
             <speaker> TODOS </speaker>
             <l> ¿Es el perdón de las faltas, </l>
             <l> Félix, ése que pedís? </l>
@@ -8528,7 +8577,8 @@
             <speaker> DON FÉLIX </speaker>
             <l part="I"> Sí. </l>
           </sp>
-          <sp who="#hernando #violante #don-carlos #ines #simon #don-enrique #juana #leonor #don-diego #don-luis">
+          <sp
+            who="#hernando #violante #don-carlos #ines #simon #don-enrique #juana #leonor #don-diego #don-luis">
             <speaker> TODOS </speaker>
             <l n="3795" part="F"> Pues ése ha de pedirle </l>
             <l> cada uno para sí. </l>

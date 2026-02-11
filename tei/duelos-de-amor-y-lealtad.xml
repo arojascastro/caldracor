@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000075" xml:lang="es">
   <teiHeader>
@@ -26,7 +26,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="URL">https://dracor.org</idno>
         <date when="2022-01-06">
@@ -41,7 +42,9 @@
           <name>Biblioteca Virtual Miguel de Cervantes</name>
           <idno type="URL">http://www.cervantesvirtual.com/obra/duelos-de-amor-y-lealtad/</idno>
           <bibl type="originalSource">
-            <title>Incluido en un tomo pseudo-Vera Tassis de la Novena parte de Comedias de don Pedro Calderón de la Barca, Madrid, Francisco Sanz, 1691. Localización: Biblioteca de Menéndez Pelayo. Sig.: (2.102)-9 </title>
+            <title>Incluido en un tomo pseudo-Vera Tassis de la Novena parte de Comedias de don
+              Pedro Calderón de la Barca, Madrid, Francisco Sanz, 1691. Localización: Biblioteca de
+              Menéndez Pelayo. Sig.: (2.102)-9 </title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -54,11 +57,17 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="toante" sex="MALE">
             <persName>Toante</persName>
             <trait source="castlist">
               <desc>galán</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="deidamia" sex="FEMALE">
@@ -66,38 +75,63 @@
             <trait source="castlist">
               <desc>dama</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leonido" sex="MALE">
             <persName>Leonido</persName>
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="laura" sex="FEMALE">
             <persName>Laura</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cenón" sex="MALE">
             <persName>Cenón</persName>
             <trait source="castlist">
               <desc>galán</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="ismenia" sex="FEMALE">
             <persName>Ismenia</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="anteo" sex="MALE">
             <persName>Anteo</persName>
             <trait source="castlist">
               <desc>criado</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="doris" sex="FEMALE">
             <persName>Doris</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="alejandro" sex="MALE">
             <persName>Alejandro</persName>
+            <idno type="wikidata">Q8409</idno>
             <trait source="castlist">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>historical</desc>
             </trait>
           </person>
           <person xml:id="flora" sex="FEMALE">
@@ -105,35 +139,62 @@
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldados-persianos-1" sex="MALE">
             <persName>Soldado Persiano 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldados-persianos-2" sex="MALE">
             <persName>Soldado Persiano 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldados-persianos-3" sex="MALE">
             <persName>Soldado Persiano 3</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldados-persianos-4" sex="MALE">
             <persName>Soldado Persiano 4</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="cósdroas" sex="MALE">
             <persName>Cósdroas</persName>
             <trait source="castlist">
               <desc>viejo</desc>
             </trait>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldados-fenicios-1" sex="MALE">
             <persName>Soldado Fenicio 1</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="soldados-fenicios-2" sex="MALE">
             <persName>Soldado Fenicio 2</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="morlaco" sex="MALE">
             <persName>Morlaco</persName>
             <trait source="castlist">
               <desc>gracioso</desc>
+            </trait>
+            <trait type="role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="coro-1">
@@ -152,17 +213,20 @@
           <term source="dracor" type="genreTitle">comedia histórica</term>
           <term source="#kroll" type="main">comedia histórica</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -204,7 +268,8 @@
       <div type="act" n="1">
         <head rend="caps">Jornada Primera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Tocan cajas y trompetas y, fingiéndose dentro la batalla, sale después de las primeras voces Irífile con espada desnuda, cimera de plumas y bengala.</stage>
+          <stage>Tocan cajas y trompetas y, fingiéndose dentro la batalla, sale después de las
+            primeras voces Irífile con espada desnuda, cimera de plumas y bengala.</stage>
           <sp who="#unos">
             <speaker rend="caps">Unos</speaker>
             <stage type="withText">dentro.</stage>
@@ -462,7 +527,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="4">
-          <stage>Éntrase Irífile; síguenla todos, vuelve por la otra puerta y sale Cenón al paso.</stage>
+          <stage>Éntrase Irífile; síguenla todos, vuelve por la otra puerta y sale Cenón al
+            paso.</stage>
           <sp who="#cenón">
             <speaker rend="caps">Cenón</speaker>
 
@@ -1084,7 +1150,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Sale Cósdroas vestido de cautivo y como arrojado cae a los pies de Leonido, y después cuatro soldados que llevan a Toante como desmayado.</stage>
+          <stage>Sale Cósdroas vestido de cautivo y como arrojado cae a los pies de Leonido, y
+            después cuatro soldados que llevan a Toante como desmayado.</stage>
           <sp who="#leonido">
             <speaker rend="caps">Leonido</speaker>
 
@@ -1257,7 +1324,8 @@
             <l>amarrado a cuatro potros,</l>
             <l>decir la verdad es fuerza.</l>
           </sp>
-          <sp who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
+          <sp
+            who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
             <speaker rend="caps">Los Cuatro</speaker>
 
 
@@ -1309,7 +1377,8 @@
             <l>lo soy desde que han en mí</l>
             <l>cogido una linda pesca.</l>
           </sp>
-          <sp who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
+          <sp
+            who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
             <speaker rend="caps">Los Cuatro</speaker>
 
 
@@ -1357,7 +1426,8 @@
 
             <l>Buen remedio tengan.</l>
           </sp>
-          <sp who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
+          <sp
+            who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
             <speaker rend="caps">Los Cuatro</speaker>
 
 
@@ -1417,7 +1487,8 @@
             <l>Después</l>
             <l>irá; ahora no se detenga.</l>
           </sp>
-          <sp who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
+          <sp
+            who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
             <speaker rend="caps">Los Cuatro</speaker>
 
 
@@ -1491,7 +1562,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="13">
-          <stage>Llévanle, y salen las damas que pudieren, cantando y bailando, con guirnaldas de flores y, detrás, Deidamia, Irífile y Flora.</stage>
+          <stage>Llévanle, y salen las damas que pudieren, cantando y bailando, con guirnaldas de
+            flores y, detrás, Deidamia, Irífile y Flora.</stage>
           <sp who="#flora">
             <speaker rend="caps">Flora</speaker>
             <stage type="withText">Canta.</stage>
@@ -2256,7 +2328,8 @@
             <l>lo primero que escuchamos,</l>
             <l>trompas y cajas diciendo…</l>
           </sp>
-          <stage>dentro golpes como de fábrica y cantan sin instrumentos a compás del golpe de las azadas.</stage>
+          <stage>dentro golpes como de fábrica y cantan sin instrumentos a compás del golpe de las
+            azadas.</stage>
           <sp who="#música">
             <speaker rend="caps">Música</speaker>
             <stage type="withText">dentro.</stage>
@@ -3753,7 +3826,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Retírase Toante en medio del tablado, sale Cenón a una puerta, Leonido a otra, quedándose al paño, y paséase Irífile.</stage>
+          <stage>Retírase Toante en medio del tablado, sale Cenón a una puerta, Leonido a otra,
+            quedándose al paño, y paséase Irífile.</stage>
           <sp who="#cenón">
             <speaker rend="caps">Cenón</speaker>
 
@@ -3863,7 +3937,8 @@
 
             <l>¿Quién a huir te obliga?</l>
           </sp>
-          <stage>Al pasar junto a Toante diga el medio verso, y así los demás, que él repite.</stage>
+          <stage>Al pasar junto a Toante diga el medio verso, y así los demás, que él
+            repite.</stage>
           <sp who="#irífile">
             <speaker rend="caps">Irífile</speaker>
 
@@ -6003,7 +6078,8 @@
       <div type="act" n="3">
         <head rend="caps">Jornada Tercera</head>
         <div type="scene" resp="#rojas" n="1">
-          <stage>Tocan cajas y trompetas y sale marchando por una parte Alejandro y soldados y por otra Cenón.</stage>
+          <stage>Tocan cajas y trompetas y sale marchando por una parte Alejandro y soldados y por
+            otra Cenón.</stage>
           <sp who="#cenón">
             <speaker rend="caps">Cenón</speaker>
 
@@ -6875,7 +6951,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="9">
-          <stage>Sale Toante riñendo con algunos soldados, Morlaco, y Cósdroas deteniéndolos.</stage>
+          <stage>Sale Toante riñendo con algunos soldados, Morlaco, y Cósdroas
+            deteniéndolos.</stage>
           <sp who="#cósdroas">
             <speaker rend="caps">Cósdroas</speaker>
 
@@ -7929,7 +8006,8 @@
             <l>quieren volver, aquí</l>
             <l>me hallarán.</l>
           </sp>
-          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp
+            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7997,7 +8075,8 @@
             <l>salió el sol, a quien vi</l>
             <l>yo el primero de todos.</l>
           </sp>
-          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp
+            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8110,7 +8189,8 @@
             <l>tan especial decreto</l>
             <l>podrá?</l>
           </sp>
-          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp
+            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8140,7 +8220,8 @@
             <l>¡viva Toante, feliz</l>
             <l>primero rey de Tiro!</l>
           </sp>
-          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #música #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp
+            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #música #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -8161,7 +8242,8 @@
             <l>vosotros repetid</l>
             <l>en su festivo aplauso:</l>
           </sp>
-          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp
+            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8473,7 +8555,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="21">
-          <stage>Sale Alejandro, Cenón y soldados, y halla arrodilladas a Deidamia y las demás mujeres.</stage>
+          <stage>Sale Alejandro, Cenón y soldados, y halla arrodilladas a Deidamia y las demás
+            mujeres.</stage>
           <sp who="#deidamia">
             <speaker rend="caps">Deidamia</speaker>
 
@@ -8657,7 +8740,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="24">
-          <stage>Salen Cósdroas y los demás soldados trayendo preso a Toante y Irífile como deteniéndolos.</stage>
+          <stage>Salen Cósdroas y los demás soldados trayendo preso a Toante y Irífile como
+            deteniéndolos.</stage>
           <sp who="#irífile">
             <speaker rend="caps">Irífile</speaker>
 
@@ -9307,7 +9391,8 @@
             <l>esas tus mejores señas:</l>
           </sp>
           <stage>Todos y la música, unos cantando y otros representando a un tiempo.</stage>
-          <sp who="#alejandro #cenón #deidamia #flora #irífile #laura #leonido #morlaco #música #toante">
+          <sp
+            who="#alejandro #cenón #deidamia #flora #irífile #laura #leonido #morlaco #música #toante">
             <speaker rend="caps">Todos Y Música</speaker>
 
 

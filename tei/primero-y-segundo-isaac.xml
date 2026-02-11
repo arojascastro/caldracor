@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000050" xml:lang="es">
   <teiHeader>
@@ -22,7 +22,8 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority>University of Tübingen, Institute of Romance Languages and Literatures</authority>
+        <authority>University of Tübingen, Institute of Romance Languages and
+          Literatures</authority>
         <publisher xml:id="dracor">DraCor</publisher>
         <date when="2019-05-08">
           <time when="09:20:01"/>
@@ -35,9 +36,13 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/primero-y-segundo-isaac--1/html/</idno>
+          <idno type="URL"
+            >http://www.cervantesvirtual.com/obra-visor/primero-y-segundo-isaac--1/html/</idno>
           <bibl type="originalSource">
-            <title>Texto crítico preparado por Á.L. Cilveti y R. Arias procedente de la edición Calderón de la Barca, Pedro, Primero y segundo Isaac , ed. Á.L. Cilveti y R. Arias, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN: 3-930700-68-9.</title>
+            <title>Texto crítico preparado por Á.L. Cilveti y R. Arias procedente de la edición
+              Calderón de la Barca, Pedro, Primero y segundo Isaac , ed. Á.L. Cilveti y R. Arias,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 1997. ISBN:
+              3-930700-68-9.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -47,59 +52,143 @@
         <listPerson>
           <person xml:id="duda" sex="FEMALE">
             <persName>La Duda</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person xml:id="lucero" sex="MALE">
             <persName>El Lucero</persName>
+            <idno type="wikidata">Q6674</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="abrahán" sex="MALE">
             <persName>Abrahán</persName>
+            <idno type="wikidata">Q9181</idno>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="isaac" sex="MALE">
             <persName>Isaac</persName>
+            <idno type="wikidata">Q671872</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="eliazer" sex="MALE">
             <persName>Eliazer</persName>
+            <idno type="wikidata">Q14933103</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="simplicio" sex="MALE">
             <persName>Simplicio</persName>
             <trait source="castlist">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="adán" sex="MALE">
             <persName>Adán</persName>
+            <idno type="wikidata">Q70899</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="david" sex="MALE">
             <persName>David</persName>
+            <idno type="wikidata">Q41370</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="ángel" sex="MALE">
             <persName>Un Ángel</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <person xml:id="lauro" sex="MALE">
             <persName>Lauro</persName>
             <trait source="castlist">
               <desc>villano</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="leví" sex="MALE">
             <persName>Leví</persName>
+            <idno type="wikidata">Q215512</idno>
             <trait source="castlist">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="rubén" sex="MALE">
             <persName>Rubén</persName>
+            <idno type="wikidata">Q625661</idno>
             <trait source="castlist">
               <desc>villano</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="batuel" sex="MALE">
             <persName>Batuel</persName>
+            <idno type="wikidata">Q1579827</idno>
             <trait source="castlist">
               <desc>viejo</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="celsa" sex="FEMALE">
@@ -107,11 +196,23 @@
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="teuca" sex="FEMALE">
             <persName>Teuca</persName>
             <trait source="castlist">
               <desc>villana</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
             </trait>
           </person>
           <person xml:id="habra" sex="FEMALE">
@@ -119,24 +220,56 @@
             <trait source="castlist">
               <desc>villana</desc>
             </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="rebeca" sex="FEMALE">
             <persName>Rebeca</persName>
+            <idno type="wikidata">Q40520</idno>
             <trait source="castlist">
               <desc>pastora</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person xml:id="abel" sex="MALE">
             <persName>Abel</persName>
+            <idno type="wikidata">Q313421</idno>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
+            </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="músicos">
             <persName>Músicos</persName>
           </personGrp>
           <person xml:id="niña" sex="FEMALE">
             <persName>Niña</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person xml:id="niño" sex="MALE">
             <persName>Niño</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>fictional</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -145,17 +278,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -580,7 +716,10 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="2">
-          <stage>Ábrese el primer carro, que será una montaña, y vense en ella ISAAC, vendados los ojos y atadas las manos, y ABRAHÁN levantando el brazo con el cuchillo. Y a su tiempo sale del reverso del carro el ÁNGEL en el aire, suspendiendo la acción, como ordinariamente se pinta.</stage>
+          <stage>Ábrese el primer carro, que será una montaña, y vense en ella ISAAC, vendados los
+            ojos y atadas las manos, y ABRAHÁN levantando el brazo con el cuchillo. Y a su tiempo
+            sale del reverso del carro el ÁNGEL en el aire, suspendiendo la acción, como
+            ordinariamente se pinta.</stage>
           <sp who="#abrahán">
             <speaker>ABRAHÁN</speaker>
             <l>Señor, éste de fe y amor indicio...</l>
@@ -1270,7 +1409,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="8">
-          <stage>Hinca la rodilla en el suelo, y sobre la otra pone ELIAZER la mano, también de rodillas; y salen DUDA y LUCERO.</stage>
+          <stage>Hinca la rodilla en el suelo, y sobre la otra pone ELIAZER la mano, también de
+            rodillas; y salen DUDA y LUCERO.</stage>
           <sp who="#duda">
             <speaker>DUDA</speaker>
             <l>Cielos, ¿qué homenaje es éste?</l>
@@ -1644,7 +1784,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="10">
-          <stage>Dentro grita y instrumentos de pastores. Y salen cantando y bailando CELFA, TEUCA y HABRA, villanos; RUBÉN, LEVÍ y LAURO, pastores. Y detrás, BATUEL, viejo venerable, de mayoral y REBECA, de pastora.</stage>
+          <stage>Dentro grita y instrumentos de pastores. Y salen cantando y bailando CELFA, TEUCA y
+            HABRA, villanos; RUBÉN, LEVÍ y LAURO, pastores. Y detrás, BATUEL, viejo venerable, de
+            mayoral y REBECA, de pastora.</stage>
           <sp who="#rubén #leví #lauro">
             <speaker>CORO 2</speaker>
             <l>A la siega, a la siega, zagales,</l>
@@ -1728,7 +1870,8 @@
             <l>que desta florida falda</l>
             <l>para hacerla una guirnalda</l>
             <l n="880">desnude la primavera.</l>
-            <stage>Va cogiendo algunas flores y tejiendo una guirnalda con las que le van ofreciendo.</stage>
+            <stage>Va cogiendo algunas flores y tejiendo una guirnalda con las que le van
+              ofreciendo.</stage>
           </sp>
           <sp who="#rubén">
             <speaker>RUBÉN</speaker>
@@ -2195,7 +2338,11 @@
             <l>y pues pedí luz, y dais</l>
             <l n="1120">sombras, quizá esas me bastan.</l>
           </sp>
-          <stage>Recuéstase en el suelo; y en el carro que en sus cuatro fachadas tendrá cuatro nichos, aparece en el primero el ÁNGEL. Y dando vuelta, aparece en el segundo ADÁN, vestido de pieles. En el tercero ABEL, de zagal, con su sacrificio de un cordero. Y en el cuarto DAVID con su harpa y corona; cantando cada uno los versos que le tocan a su tiempo.</stage>
+          <stage>Recuéstase en el suelo; y en el carro que en sus cuatro fachadas tendrá cuatro
+            nichos, aparece en el primero el ÁNGEL. Y dando vuelta, aparece en el segundo ADÁN,
+            vestido de pieles. En el tercero ABEL, de zagal, con su sacrificio de un cordero. Y en
+            el cuarto DAVID con su harpa y corona; cantando cada uno los versos que le tocan a su
+            tiempo.</stage>
           <sp who="#ángel">
             <speaker>ÁNGEL</speaker>
             <stage>Canta.</stage>
@@ -2292,7 +2439,8 @@
             <l n="1175">Señor, que desde el trono de las alas</l>
             <l>del querubín a Israel riges y mandas.</l>
           </sp>
-          <stage>Dan vuelta los cuatro sin pararse, pasando cada uno con sus versos, cantando con toda la MÚSICA.</stage>
+          <stage>Dan vuelta los cuatro sin pararse, pasando cada uno con sus versos, cantando con
+            toda la MÚSICA.</stage>
           <sp who="#abel #ángel #adán #david #músicos">
             <speaker>LOS 4 Y MÚSICOS</speaker>
             <l>Atiende, Eliazer, a la suma importancia</l>
@@ -2383,7 +2531,9 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="15">
-          <stage>Salen cantando, cada un TEUCA, HABRA, CELFA y REBECA, trayendo las tres sus cantaricos con diversas flores; y REBECA con solas azucenas. Habrá en un carro un brocal de pozo, con su carrillo y cuerda.</stage>
+          <stage>Salen cantando, cada un TEUCA, HABRA, CELFA y REBECA, trayendo las tres sus
+            cantaricos con diversas flores; y REBECA con solas azucenas. Habrá en un carro un brocal
+            de pozo, con su carrillo y cuerda.</stage>
           <sp who="#habra">
             <speaker>HABRA</speaker>
 
@@ -2507,7 +2657,8 @@
             <l>de la sed aflige, os ruega</l>
             <l>que le deis un poco de agua.</l>
           </sp>
-          <stage>Retirada la DUDA, llega HABRA al pozo; hace como que saca agua, y, al irse, pasa por delante de ELIAZER; y así las demás.</stage>
+          <stage>Retirada la DUDA, llega HABRA al pozo; hace como que saca agua, y, al irse, pasa
+            por delante de ELIAZER; y así las demás.</stage>
           <sp who="#habra">
             <speaker>HABRA</speaker>
             <l n="1260">Veis la prisa que hay, y que</l>
@@ -2714,7 +2865,8 @@
           <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>Madre de misericordia.</l>
-            <stage>Bebe, y vuelve a poner las azucenas en la jarra, y déjala en el suelo entre los dos.</stage>
+            <stage>Bebe, y vuelve a poner las azucenas en la jarra, y déjala en el suelo entre los
+              dos.</stage>
           </sp>
           <sp who="#eliazer">
             <speaker>ELIAZER</speaker>
@@ -3147,7 +3299,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="25">
-          <stage>Salen, por otra parte, en tropa, zagales bailando; y detrás, ABRAHÁN y ISAAC; y por otra, zagalas; y detrás, REBECA y ELIAZER, cantando y bailando.</stage>
+          <stage>Salen, por otra parte, en tropa, zagales bailando; y detrás, ABRAHÁN y ISAAC; y por
+            otra, zagalas; y detrás, REBECA y ELIAZER, cantando y bailando.</stage>
           <sp who="#músicos #duda #abrahán #isaac">
             <speaker>MÚSICOS CORO 1</speaker>
             <l>Sean para en uno...</l>
@@ -3164,7 +3317,8 @@
             <speaker>CORO 2</speaker>
             <l>...y la hermosa Rebeca.</l>
           </sp>
-          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa">
+          <sp
+            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa">
             <speaker>TODOS</speaker>
             <l>Sean para en uno,</l>
             <l>para en uno sean.</l>
@@ -3176,7 +3330,8 @@
             <l>el dichoso fruto</l>
             <l>de su descendencia.</l>
           </sp>
-          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp
+            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>TODOS</speaker>
             <l>Para en uno sean.</l>
           </sp>
@@ -3186,7 +3341,8 @@
             <l n="1580">«fecundidad» ella,</l>
             <l>sus campos se vean.</l>
           </sp>
-          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp
+            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>TODOS</speaker>
             <l>Para en uno sean.</l>
           </sp>
@@ -3198,7 +3354,8 @@
             <l>siendo unas sus bodas</l>
             <l>dos sentidos tengan.</l>
           </sp>
-          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp
+            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>TODOS</speaker>
             <l>Para en uno sean.</l>
           </sp>
@@ -3209,7 +3366,8 @@
             <l>ganados y mieses</l>
             <l>del mar las arenas.</l>
           </sp>
-          <sp who="#músicos #abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp
+            who="#músicos #abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>MÚSICOS Y TODOS</speaker>
             <l>En ella explicada</l>
             <l>la naturaleza,</l>
@@ -3323,7 +3481,8 @@
             <l>que está gozando de Dios.</l>
             <l part="I">Vaya de música.</l>
           </sp>
-          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp
+            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>TODOS</speaker>
             <l part="F">Vaya.</l>
           </sp>
@@ -3336,7 +3495,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="26">
-          <stage>Con esta repetición se entran cantando y bailando todos; y al entrar tras ellos la DUDA, se pone a la puerta ELIAZER.</stage>
+          <stage>Con esta repetición se entran cantando y bailando todos; y al entrar tras ellos la
+            DUDA, se pone a la puerta ELIAZER.</stage>
           <sp who="#lucero">
             <speaker>LUCERO</speaker>
             <l>Pues yo no puedo, entra tú.</l>
@@ -3401,7 +3561,8 @@
             <l>siendo pozo de aguas vivas,</l>
             <l>es también fuente sellada.</l>
           </sp>
-          <stage>Ábrese en un carro, que será un jardín, los bastidores, y se ve en medio una fuente y en ella una NIÑA, vestida de Concepción.</stage>
+          <stage>Ábrese en un carro, que será un jardín, los bastidores, y se ve en medio una fuente
+            y en ella una NIÑA, vestida de Concepción.</stage>
           <sp who="#duda">
             <speaker>DUDA</speaker>
             <l n="1685">¿Quién eres, hermosa niña,</l>
@@ -3464,7 +3625,8 @@
             <l>el Monte de la Visión,</l>
             <l n="1720">el Segundo Isaac, cargada</l>
             <l>también la leña en el hombro.</l>
-            <stage>Vuelve a abrirse el carro del sacrificio, y vese, donde estuvo ISAAC, un NIÑO de Pasión, con la cruz a cuestas.</stage>
+            <stage>Vuelve a abrirse el carro del sacrificio, y vese, donde estuvo ISAAC, un NIÑO de
+              Pasión, con la cruz a cuestas.</stage>
           </sp>
           <sp who="#niño">
             <speaker>NIÑO</speaker>
@@ -3493,7 +3655,8 @@
             <l>saber qué cordero haya</l>
             <l part="I">que supla por él.</l>
           </sp>
-          <stage>Ábrese el tercer carro, y vense en él a ISAAC y REBECA a una mesa en que habrá un cordero, que a su tiempo se esconde, quedando en su lugar Hostia y Cáliz.</stage>
+          <stage>Ábrese el tercer carro, y vense en él a ISAAC y REBECA a una mesa en que habrá un
+            cordero, que a su tiempo se esconde, quedando en su lugar Hostia y Cáliz.</stage>
           <sp who="#eliazer">
             <speaker>ELIAZER</speaker>
             <l part="F">El que</l>
@@ -3562,7 +3725,8 @@
             <l>se va disponiendo en sombras,</l>
             <l n="1780">escucha sus alabanzas.</l>
           </sp>
-          <stage>Vuelve a abrirse el primer carro con ADÁN, ABEL y DAVID en sus nichos; y ABRAHÁN en el que estuvo el ÁNGEL.</stage>
+          <stage>Vuelve a abrirse el primer carro con ADÁN, ABEL y DAVID en sus nichos; y ABRAHÁN en
+            el que estuvo el ÁNGEL.</stage>
           <sp who="#músicos">
             <speaker>MÚSICOS</speaker>
             <l>Cordero sacrificado</l>
@@ -3628,7 +3792,8 @@
             <l>A cuyo efecto diré</l>
             <l>con todos en voces altas:</l>
           </sp>
-          <sp who="#músicos #abrahán #adán #ángel #abel #batuel #celsa #david #duda #eliazer #habra #isaac #lauro #leví #lucero #niño #niña #rebeca #rubén #simplicio #teuca">
+          <sp
+            who="#músicos #abrahán #adán #ángel #abel #batuel #celsa #david #duda #eliazer #habra #isaac #lauro #leví #lucero #niño #niña #rebeca #rubén #simplicio #teuca">
             <speaker>MÚSICOS Y TODOS</speaker>
             <l>Cordero sacrificado</l>
             <l n="1810">vio en primero Isaac el mundo;</l>

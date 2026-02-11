@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="cal000159" xml:lang="es">
   <teiHeader>
@@ -38,7 +38,9 @@
           <name/>
           <idno type="URL"/>
           <bibl type="originalSource">
-            <title>Edición digital a partir de la edición de Ignacio Arellano y Carmen Pinillos, Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2014. ISBN: 978-3-944244-30-3.</title>
+            <title>Edición digital a partir de la edición de Ignacio Arellano y Carmen Pinillos,
+              Pamplona–Kassel, Universidad de Navarra–Reichenberger, 2014. ISBN:
+              978-3-944244-30-3.</title>
           </bibl>
         </bibl>
       </sourceDesc>
@@ -48,32 +50,62 @@
         <listPerson>
           <person sex="MALE" xml:id="genero">
             <persName>Género</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="tierra">
             <persName>Tierra</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="agua">
             <persName>Agua</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="aire">
             <persName>Aire</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="fuego">
             <persName>Fuego</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="albedrio">
             <persName>Albedrío</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="culpa">
             <persName>Culpa</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="UNKNOWN" xml:id="voz">
             <persName>Voz</persName>
+            <trait type="role">
+              <desc>fictional</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="rey">
             <persName>Rey</persName>
             <trait resp="#rojas">
               <desc>rey</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <personGrp sex="UNKNOWN" xml:id="musicos">
@@ -81,30 +113,58 @@
           </personGrp>
           <person sex="MALE" xml:id="principe">
             <persName>Príncipe</persName>
+            <idno type="wikidata">Q302</idno>
             <trait resp="#rojas">
               <desc>príncipe</desc>
+            </trait>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
+            <trait type="secondary_role">
+              <desc>religious</desc>
             </trait>
           </person>
           <person sex="MALE" xml:id="bautismo">
             <persName>Bautismo</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="confirmacion">
             <persName>Confirmación</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="penitencia">
             <persName>Penitencia</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="comunion">
             <persName>Comunión</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="FEMALE" xml:id="extremauncion">
             <persName>Extremaunción</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="orden">
             <persName>Orden</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
           <person sex="MALE" xml:id="matrimonio">
             <persName>Matrimonio</persName>
+            <trait type="role">
+              <desc>allegorical</desc>
+            </trait>
           </person>
         </listPerson>
       </particDesc>
@@ -113,17 +173,20 @@
           <term source="dracor" type="genreTitle">auto sacramental</term>
           <term source="#kroll" type="main">auto sacramental</term>
         </keywords>
-      <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode></textClass>
+        <classCode scheme="http://www.wikidata.org/entity/">Q4877154</classCode>
+      </textClass>
     </profileDesc>
     <encodingDesc>
       <classDecl>
         <taxonomy xml:id="kroll">
-          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
+          <bibl>Kroll, Simon. Sonido y afecto en Calderón: un estudio de las asonancias. Teatro del
+            siglo de oro. Estudios de literatura 145. Kassel: Edition Reichenberger, 2022.</bibl>
         </taxonomy>
       </classDecl>
       <classDecl>
         <taxonomy xml:id="calderondigital">
-          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700. Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
+          <bibl>«Calderón Digital». Dir. Fausta Antonucci. Roma: Proyecto TeSpa 1570-1700.
+            Università di Roma, 2017. https://calderondigital.tespasiglodeoro.it/.</bibl>
         </taxonomy>
       </classDecl>
     </encodingDesc>
@@ -1285,7 +1348,8 @@
             <speaker>ALBEDRÍO</speaker>
             <l part="I">Tu nombre aclamen.</l>
           </sp>
-          <sp who="#agua #aire #fuego #acompanamiento #culpa #genero #musicos #principe #rey #albedrio">
+          <sp
+            who="#agua #aire #fuego #acompanamiento #culpa #genero #musicos #principe #rey #albedrio">
             <speaker>TODOS</speaker>
             <l n="695" part="F">¡Santo, Santo, Santo!</l>
           </sp>
@@ -1417,7 +1481,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="16">
-          <sp who="#agua #aire #fuego #acompanamiento #principe #rey #genero #albedrio #musicos #culpa">
+          <sp
+            who="#agua #aire #fuego #acompanamiento #principe #rey #genero #albedrio #musicos #culpa">
             <speaker>TODOS</speaker>
             <stage>Cantando</stage>
             <l n="770">Gloria a Dios en las alturas</l>
@@ -2381,7 +2446,8 @@
             <l>raíz sobre siete cervices</l>
             <l>que son mis siete gargantas.</l>
           </sp>
-          <stage>Tocan chirimías, y ábrese la nube otra vez; en ella ya un tiempo sube el árbol con el Príncipe, el Rey y el Espíritu Santo, como se ha dicho</stage>
+          <stage>Tocan chirimías, y ábrese la nube otra vez; en ella ya un tiempo sube el árbol con
+            el Príncipe, el Rey y el Espíritu Santo, como se ha dicho</stage>
           <sp who="#rey">
             <speaker>REY</speaker>
             <l n="1285">Muy felizmente triunfaste,</l>
@@ -2444,7 +2510,8 @@
           </sp>
         </div>
         <div type="scene" resp="#rojas" n="28">
-          <stage>Salen de su costado siete colonias encarnadas, y decada una toma la punta un personaje que represente un Sacramento</stage>
+          <stage>Salen de su costado siete colonias encarnadas, y decada una toma la punta un
+            personaje que represente un Sacramento</stage>
           <sp who="#musicos">
             <speaker>MÚSICA</speaker>
             <l>Viva del príncipe Dios</l>
@@ -2522,7 +2589,8 @@
             <l n="1365">pues con siete sacramentos</l>
             <l>siete vicios avasalla.</l>
           </sp>
-          <sp who="#genero #tierra #aire #fuego #agua #culpa #rey #principe #bautismo #confirmacion #penitencia #comunion #extremauncion #orden #matrimonio #albedrio #musicos">
+          <sp
+            who="#genero #tierra #aire #fuego #agua #culpa #rey #principe #bautismo #confirmacion #penitencia #comunion #extremauncion #orden #matrimonio #albedrio #musicos">
             <speaker>ÉL Y TODOS</speaker>
             <stage>Representa</stage>
             <l>Y demos al auto fin,</l>
