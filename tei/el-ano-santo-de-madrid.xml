@@ -1276,8 +1276,7 @@
             <l part="F">No has de oírlos.</l>
           </sp>
           <stage>Cantando y representando</stage>
-          <sp
-            who="#soberbia #avaricia #gula #envidia #ira #albedrio #pereza #lascivia #hombre #pecado #gracia">
+          <sp who="#soberbia #avaricia #gula #envidia #ira #albedrio #pereza #lascivia #hombre #pecado #gracia">
             <speaker>TODOS</speaker>
             <l n="725">A la corte has venido:</l>
             <l>goza su aplauso y deja los retiros.</l>
@@ -1356,8 +1355,7 @@
             <l>el conocer que son grillos.</l>
           </sp>
           <stage>Cantado y representado</stage>
-          <sp
-            who="#albedrio #hombre #pecado #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
+          <sp who="#albedrio #hombre #pecado #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
             <speaker>TODOS</speaker>
             <l n="755">A la corte has venido:</l>
             <l>goza su aplauso y deja los retiros.</l>
@@ -1407,8 +1405,7 @@
             <l n="770">Y sin mí, a vivir perdido.</l>
           </sp>
           <stage>GRACIA y ellos a un tiempo juntos todos representando y cantando</stage>
-          <sp
-            who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
+          <sp who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
             <speaker>TODOS</speaker>
             <l>A la corte has venido…</l>
           </sp>
@@ -1416,8 +1413,7 @@
             <speaker>GRACIA</speaker>
             <l>A la corte has venido…</l>
           </sp>
-          <sp
-            who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
+          <sp who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
             <speaker>TODOS</speaker>
             <l>Goza su aplauso, y deja los retiros.</l>
           </sp>
@@ -1425,8 +1421,7 @@
             <speaker>GRACIA</speaker>
             <l>Mas no por eso no eres peregrino.</l>
           </sp>
-          <sp
-            who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
+          <sp who="#albedrio #pecado #hombre #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia">
             <speaker>TODOS</speaker>
             <l part="I">¿A qué te resuelves?</l>
           </sp>
@@ -1450,8 +1445,7 @@
             <l n="785">vivamos hoy alegres y festivos.</l>
           </sp>
           <stage>Cantan y bailan llevándosele de en medio</stage>
-          <sp
-            who="#pecado #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #albedrio #musicos">
+          <sp who="#pecado #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #albedrio #musicos">
             <speaker>TODOS Y MÚSICA Y HOMBRE</speaker>
             <l>Vivamos hoy alegres y festivos.</l>
           </sp>
@@ -1459,8 +1453,7 @@
             <speaker>ALBEDRÍO</speaker>
             <l>Mañana moriremos, y es delirio…</l>
           </sp>
-          <sp
-            who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #musicos #albedrio">
+          <sp who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #musicos #albedrio">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Mañana moriremos, y es delirio…</l>
           </sp>
@@ -1469,8 +1462,7 @@
             <l>… que tristes y afligidos</l>
             <l n="790">nos matemos porque hemos de morirnos.</l>
           </sp>
-          <sp
-            who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #musicos #albedrio">
+          <sp who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #gracia #hombre #musicos #albedrio">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>… que tristes y afligidos</l>
             <l>nos matemos porque hemos de morirnos.</l>
@@ -1530,8 +1522,7 @@
             <l>entre aquestos cortesanos</l>
             <l n="810">afectos, con quien repito.</l>
           </sp>
-          <sp
-            who="#hombre #musicos #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #albedrio #gracia">
+          <sp who="#hombre #musicos #soberbia #avaricia #lascivia #ira #gula #envidia #pereza #albedrio #gracia">
             <speaker>ÉL, MÚSICA Y TODOS</speaker>
             <l>Vivamos hoy alegres y festivos;</l>
             <l>mañana moriremos, y es delirio</l>
@@ -1836,8 +1827,7 @@
             <l n="1005">en su dulce música el eco</l>
             <l>a repetirle, diciendo veloz:</l>
           </sp>
-          <sp
-            who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #albedrio #pecado #oido #musicos #iglesia #gracia">
+          <sp who="#soberbia #avaricia #lascivia #ira #gula #envidia #pereza #albedrio #pecado #oido #musicos #iglesia #gracia">
             <speaker>TODOS</speaker>
             <l>Abrid, abrid las Puertas del Perdón,</l>
             <l>que llama la Gracia y la Fe da la voz.</l>
@@ -1927,8 +1917,7 @@
             <speaker>PECADO</speaker>
             <l part="I">Buenas tardes.</l>
           </sp>
-          <sp
-            who="#avaricia #ira #gula #envidia #pereza #oido #iglesia #gracia #musicos #hombre #lascivia #albedrio #pecado">
+          <sp who="#avaricia #ira #gula #envidia #pereza #oido #iglesia #gracia #musicos #hombre #lascivia #albedrio #pecado">
             <speaker>TODOS</speaker>
             <l part="F">Bien venido.</l>
           </sp>
@@ -2119,8 +2108,7 @@
             <speaker>HOMBRE</speaker>
             <l part="I">¿Es pendencia aquella?</l>
           </sp>
-          <sp
-            who="#iglesia #gracia #musicos #pecado #envidia #ira #pereza #avaricia #gula #soberbia #albedrio #lascivia #hombre">
+          <sp who="#iglesia #gracia #musicos #pecado #envidia #ira #pereza #avaricia #gula #soberbia #albedrio #lascivia #hombre">
             <speaker>TODOS</speaker>
             <l part="F">Sí.</l>
           </sp>
@@ -2207,8 +2195,7 @@
             <l>nuevamente concedido</l>
             <l>del pontífice Inocencio.</l>
           </sp>
-          <sp
-            who="#gracia #musicos #envidia #pereza #avaricia #gula #soberbia #ira #lascivia #pecado #albedrio #hombre #oido">
+          <sp who="#gracia #musicos #envidia #pereza #avaricia #gula #soberbia #ira #lascivia #pecado #albedrio #hombre #oido">
             <speaker>TODOS</speaker>
             <l n="1165">Con linda cosa se viene.</l>
           </sp>
@@ -2439,8 +2426,7 @@
             <l>buen propósito que rompa.</l>
           </sp>
           <stage>Rompe el papel</stage>
-          <sp
-            who="#gracia #musicos #soberbia #avaricia #ira #envidia #gula #pereza #oido #pecado #hombre #albedrio #lascivia">
+          <sp who="#gracia #musicos #soberbia #avaricia #ira #envidia #gula #pereza #oido #pecado #hombre #albedrio #lascivia">
             <speaker>TODOS</speaker>
             <l>A alentar y vivir vuelvo.</l>
           </sp>
@@ -2464,8 +2450,7 @@
             <l>Pues por esta calle echemos:</l>
             <l part="I">venid todos.</l>
           </sp>
-          <sp
-            who="#gracia #musicos #soberbia #avaricia #ira #envidia #gula #pereza #oido #pecado #albedrio #hombre #lascivia">
+          <sp who="#gracia #musicos #soberbia #avaricia #ira #envidia #gula #pereza #oido #pecado #albedrio #hombre #lascivia">
             <speaker>TODOS</speaker>
             <l n="1255" part="F">Yendo tú,</l>
             <l>claro es que todos iremos.</l>
@@ -2642,8 +2627,7 @@
             <l part="F">Ira y Pereza,</l>
             <l>a estar con los dos me vengo.</l>
           </sp>
-          <sp
-            who="#gracia #musicos #soberbia #gula #oido #pereza #envidia #ira #pecado #lascivia #albedrio #hombre #avaricia">
+          <sp who="#gracia #musicos #soberbia #gula #oido #pereza #envidia #ira #pecado #lascivia #albedrio #hombre #avaricia">
             <speaker>TODOS</speaker>
             <l part="I">¿Por qué, Avaricia?</l>
           </sp>
@@ -2729,8 +2713,7 @@
             <speaker>VOCES</speaker>
             <l part="I">¡Plaza, plaza!</l>
           </sp>
-          <sp
-            who="#gracia #musicos #soberbia #oido #pereza #ira #avaricia #lascivia #envidia #pecado #albedrio #hombre #gula #acompanamiento">
+          <sp who="#gracia #musicos #soberbia #oido #pereza #ira #avaricia #lascivia #envidia #pecado #albedrio #hombre #gula #acompanamiento">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué es aquello?</l>
           </sp>
@@ -2973,8 +2956,7 @@
             <l>por más que un vicio a otro vicio</l>
             <l part="I">dé la mano.</l>
           </sp>
-          <sp
-            who="#gracia #musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre">
+          <sp who="#gracia #musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre">
             <speaker>TODOS</speaker>
             <l part="F">Es vano intento,</l>
             <l n="1525">pues yendo uno vamos todos.</l>
@@ -2987,8 +2969,7 @@
         </div>
         <div type="scene" resp="#rojas" n="9">
           <stage>Cay como haciendo fuerza y sale la GRACIA a levantarle</stage>
-          <sp
-            who="#gracia #musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre">
+          <sp who="#gracia #musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre">
             <speaker>TODOS</speaker>
             <l part="F">No harás.</l>
           </sp>
@@ -3004,8 +2985,7 @@
             <l>haciendo lo que en sí es,</l>
             <l part="I">Dios se la ha negado.</l>
           </sp>
-          <sp
-            who="#musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre #gracia">
+          <sp who="#musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #hombre #gracia">
             <speaker>TODOS</speaker>
             <l part="F">¡Cielos,</l>
             <l>el auxilio de la Gracia</l>
@@ -3042,8 +3022,7 @@
         </div>
         <div type="scene" resp="#rojas" n="10">
           <stage>Vase</stage>
-          <sp
-            who="#musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #gracia #hombre">
+          <sp who="#musicos #oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #gula #envidia #pereza #pecado #gracia #hombre">
             <speaker>TODOS</speaker>
             <l>Oye, aguarda, escucha, espera.</l>
           </sp>
@@ -3598,8 +3577,7 @@
             <l>del Año Santo en Madrid,</l>
             <l n="1840">todos a una voz diciendo:</l>
           </sp>
-          <sp
-            who="#musicos #oido #acompanamiento #albedrio #hombre #lascivia #soberbia #avaricia #ira #envidia #gula #pereza #pecado #gracia">
+          <sp who="#musicos #oido #acompanamiento #albedrio #hombre #lascivia #soberbia #avaricia #ira #envidia #gula #pereza #pecado #gracia">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Venid, mortales, venid,</l>
             <l>al triunfo donde se ve</l>
@@ -3659,8 +3637,7 @@
             <l n="1875">a vista de otros perdones</l>
             <l>yo pida el perdón diciendo:</l>
           </sp>
-          <sp
-            who="#oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #envidia #gula #pereza #vicios #pecado #iglesia #hombre #gracia #musicos">
+          <sp who="#oido #acompanamiento #albedrio #lascivia #soberbia #avaricia #ira #envidia #gula #pereza #vicios #pecado #iglesia #hombre #gracia #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Venid, mortales, venid,</l>
             <l>al triunfo donde se ve</l>

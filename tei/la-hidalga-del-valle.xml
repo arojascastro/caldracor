@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/la-hidalga-del-valle--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-hidalga-del-valle--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la de Pedro del Pando y Mier, Autos Sacramentales,
               alegóricos y historiales ... Tercera Parte, Madrid, Manuel Ruiz de Murga, 1717 y
@@ -169,8 +168,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000029"
-        passive="http://www.wikidata.org/entity/Q69034004"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000029" passive="http://www.wikidata.org/entity/Q69034004"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

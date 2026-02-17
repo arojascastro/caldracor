@@ -3087,8 +3087,7 @@
             <speaker>APETITO</speaker>
             <l part="F">¡Qué llanto!</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #musicos #principe #muerte #culpa #amor #vida #hombre #naturaleza #pobre #placer #pesar #apetito">
+          <sp who="#acompanamiento #culpa #otros #musicos #principe #muerte #culpa #amor #vida #hombre #naturaleza #pobre #placer #pesar #apetito">
             <speaker>TODOS</speaker>
             <l>¿Qué será esta violencia?</l>
           </sp>
@@ -3651,8 +3650,7 @@
             <l>«que entre piedad y culpa,</l>
             <l>la culpa es mía y la piedad es tuya».</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #musicos #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza">
+          <sp who="#acompanamiento #culpa #otros #musicos #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza">
             <speaker>TODOS</speaker>
             <l part="I">¡Piedad, Señor!</l>
           </sp>
@@ -3660,8 +3658,7 @@
             <speaker>MÚSICA</speaker>
             <l part="F">¡Piedad!</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
+          <sp who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
             <speaker>TODOS</speaker>
             <l n="1790">«Pues cosa es justa...</l>
           </sp>
@@ -3669,13 +3666,11 @@
             <speaker>MÚSICA</speaker>
             <l>... pues cosa es justa...</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
+          <sp who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
             <speaker>TODOS</speaker>
             <l>... que habiendo culpa y piedad...</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
+          <sp who="#acompanamiento #culpa #otros #muerte #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #culpa #principe #naturaleza #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>... vean cielos, sol y luna,</l>
             <l>hombres, aves, peces, fieras,</l>
@@ -3732,8 +3727,7 @@
             <l>no hay música como el llanto,</l>
             <l>y así digan todas juntas...</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #musicos #muerte #culpa #naturaleza">
+          <sp who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #musicos #muerte #culpa #naturaleza">
             <speaker>TODOS</speaker>
             <l part="I">¡Piedad, Señor!</l>
           </sp>
@@ -3741,8 +3735,7 @@
             <speaker>MÚSICA</speaker>
             <l n="1820" part="F">¡Piedad!</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
+          <sp who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
             <speaker>TODOS</speaker>
             <l>«Pues cosa es justa...</l>
           </sp>
@@ -3750,8 +3743,7 @@
             <speaker>MÚSICA</speaker>
             <l>... pues cosa es justa...</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
+          <sp who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
             <speaker>TODOS</speaker>
             <l>... que entre piedad y culpa...</l>
           </sp>
@@ -3759,8 +3751,7 @@
             <speaker>MÚSICA</speaker>
             <l>... que entre piedad y culpa...</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
+          <sp who="#acompanamiento #culpa #otros #amor #vida #placer #pesar #apetito #hombre #pobre #justicia #principe #muerte #culpa #naturaleza #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1825">... la culpa es nuestra y la piedad es tuya».</l>
           </sp>
@@ -3848,8 +3839,7 @@
             <l n="1870">nuestras voces sólo pueden</l>
             <l>decir al aire confusas...</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #placer #pesar #apetito #hombre #pobre #justicia #musicos #muerte #culpa #principe #naturaleza #amor #vida">
+          <sp who="#acompanamiento #culpa #otros #placer #pesar #apetito #hombre #pobre #justicia #musicos #muerte #culpa #principe #naturaleza #amor #vida">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>«que entre piedad y culpa,</l>
             <l>la culpa es nuestra y la piedad es tuya».</l>
@@ -4521,8 +4511,7 @@
             <l>todos a una voz diciendo</l>
             <l n="2165">en dulces tonos y letras...</l>
           </sp>
-          <sp
-            who="#acompanamiento #culpa #otros #justicia #musicos #hombre #pobre #amor #culpa #vida #muerte #pesar #placer #apetito #naturaleza #principe">
+          <sp who="#acompanamiento #culpa #otros #justicia #musicos #hombre #pobre #amor #culpa #vida #muerte #pesar #placer #apetito #naturaleza #principe">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>«... de estos ejemplares dos</l>
             <l>mirad la distancia, pues</l>

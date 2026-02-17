@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-divino-orfeo-version-de-1663--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-divino-orfeo-version-de-1663--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por J. Enrique Duarte procedente de la edición Calderón
               de la Barca, Pedro, El divino Orfeo, ed. J. Enrique Duarte, Pamplona–Kassel,
@@ -70,7 +69,7 @@
           </person>
           <person xml:id="orfeo" sex="MALE">
             <persName>Orfeo</persName>
-            <idno type="alternative_wikidata">Q302</idno>
+            <idno type="wikidata" subtype="alternative">Q302</idno>
             <idno type="wikidata">Q174353</idno>
             <trait type="role">
               <desc>allegorical</desc>
@@ -195,8 +194,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000012"
-        passive="http://www.wikidata.org/entity/Q68902927"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000012" passive="http://www.wikidata.org/entity/Q68902927"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -1210,8 +1208,7 @@
             <l>es el principio y fin</l>
             <l n="545">de tantas bellas obras.</l>
           </sp>
-          <sp
-            who="#placer #envidia #leteo #orfeo #naturaleza-humana #príncipe-de-las-tinieblas #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+          <sp who="#placer #envidia #leteo #orfeo #naturaleza-humana #príncipe-de-las-tinieblas #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
             <speaker>TODOS</speaker>
             <l>Confesemos su gloria,</l>
             <l>pues es en eterno su misericordia.</l>
@@ -2937,8 +2934,7 @@
             <l>Diciendo al pedir perdón,</l>
             <l>al compás de sus compases...</l>
           </sp>
-          <sp
-            who="#príncipe-de-las-tinieblas #envidia #coro-1 #coro-2 #leteo #orfeo #placer #música #naturaleza-humana #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
+          <sp who="#príncipe-de-las-tinieblas #envidia #coro-1 #coro-2 #leteo #orfeo #placer #música #naturaleza-humana #día-1 #día-2 #día-3 #día-4 #día-5 #día-6 #día-7">
             <speaker>TODOS y MÚSICA</speaker>
             <l>A la nave de la vida</l>
             <l n="1380">la Naturaleza pase,</l>

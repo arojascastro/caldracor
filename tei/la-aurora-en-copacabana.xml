@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/la-aurora-en-copacabana--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-aurora-en-copacabana--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de Cuarta parte de Comedias de Don Pedro Calderón de la
               Barca, Madrid, Por Bernardo de Hervada. A costa de Antonio de la Fuente, 1674.
@@ -280,8 +279,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000024"
-        passive="http://www.wikidata.org/entity/Q5965749"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000024" passive="http://www.wikidata.org/entity/Q5965749"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -7065,8 +7063,7 @@
         </div>
         <div type="scene" resp="#rojas" n="25">
           <stage>Salen todos, el VIRREY, el GOBERNADOR, ANDRÉS y YUPANGUÍ.</stage>
-          <sp
-            who="#idolatría #don-jerónimo-marañón #un-indio-llamado-andrés #don-lorenzo-de-mendoza #yupanguí">
+          <sp who="#idolatría #don-jerónimo-marañón #un-indio-llamado-andrés #don-lorenzo-de-mendoza #yupanguí">
             <speaker>TODOS</speaker>
             <l>¡Viva el ínclito Mendoza,</l>
             <l>que en justicia y paz gobierna!</l>
@@ -7561,8 +7558,7 @@
             <l>si no es que sea a mí, por más</l>
             <l>que de mi error me arrepiento?</l>
           </sp>
-          <sp
-            who="#un-indio-llamado-andrés #yupanguí #guacolda #don-lorenzo-de-mendoza #don-jerónimo-marañón">
+          <sp who="#un-indio-llamado-andrés #yupanguí #guacolda #don-lorenzo-de-mendoza #don-jerónimo-marañón">
             <speaker>TODOS</speaker>
             <l n="1385">A todos ha parecido</l>
             <l part="I">diferente.</l>
@@ -7751,8 +7747,7 @@
             <speaker>UNOS</speaker>
             <l>Todos decimos lo mesmo.</l>
           </sp>
-          <sp
-            who="#un-indio-llamado-andrés #yupanguí #guacolda #don-lorenzo-de-mendoza #don-jerónimo-marañón #tucapel">
+          <sp who="#un-indio-llamado-andrés #yupanguí #guacolda #don-lorenzo-de-mendoza #don-jerónimo-marañón #tucapel">
             <speaker>TODOS</speaker>
             <l n="1485">¡María es la Virgen Madre,</l>
             <l>Cristo es el Dios verdadero!</l>
@@ -7840,8 +7835,7 @@
             <l>voz dirá al reino español</l>
             <l>que en su imagen soberana...</l>
           </sp>
-          <sp
-            who="#música #un-indio-llamado-andrés #yupanguí #guacolda #don-lorenzo-de-mendoza #don-jerónimo-marañón #tucapel">
+          <sp who="#música #un-indio-llamado-andrés #yupanguí #guacolda #don-lorenzo-de-mendoza #don-jerónimo-marañón #tucapel">
             <speaker>MÚSICA y TODOS</speaker>
             <l>Hoy nace con mejor sol</l>
             <l>la aurora en Copacabana.</l>

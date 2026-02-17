@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/quien-hallara-mujer-fuerte--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/quien-hallara-mujer-fuerte--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por Ignacio Arellano y Luis Galván procedente de la
               edición Calderón de la Barca, Pedro, ¿Quién hallará mujer fuerte?, ed. Ignacio
@@ -248,8 +247,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000052"
-        passive="http://www.wikidata.org/entity/Q69031014"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000052" passive="http://www.wikidata.org/entity/Q69031014"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -3738,8 +3736,7 @@
             <l n="1850">digamos todos, pidiendo</l>
             <l>de nuestras faltas perdón.</l>
           </sp>
-          <sp
-            who="#fortaleza #prudencia #justicia #templanza #sísara #morfuz #jael #débora #mundo #sabiduría #música">
+          <sp who="#fortaleza #prudencia #justicia #templanza #sísara #morfuz #jael #débora #mundo #sabiduría #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Jael viva, sombra de aquella</l>
             <l>pura y limpia concepción,</l>

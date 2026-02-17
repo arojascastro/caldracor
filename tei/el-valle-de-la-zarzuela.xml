@@ -1651,8 +1651,7 @@
             <l>reparada en la criatura,</l>
             <l part="I">porque se publique…</l>
           </sp>
-          <sp
-            who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
+          <sp who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
             <speaker>MÚSICA Y TODOS</speaker>
             <l part="F">¡A Dios en la altura</l>
             <l>la gloria, y al hombre la paz en la tierra!</l>
@@ -1675,8 +1674,7 @@
             <speaker>PRÍNCIPE</speaker>
             <l part="I">Celajes se ven.</l>
           </sp>
-          <sp
-            who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
+          <sp who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">¡A Dios en la altura</l>
             <l>la gloria, y al hombre la paz en la tierra!</l>
@@ -1693,8 +1691,7 @@
             <l>volverá el ansia en ventura,</l>
             <l part="I">pues viene diciendo…</l>
           </sp>
-          <sp
-            who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
+          <sp who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">¡A Dios en la altura</l>
             <l>la gloria, y al hombre la paz en la tierra!</l>
@@ -1778,8 +1775,7 @@
             <l>Vuelvan, porque tierra y cielo</l>
             <l>digan en voces diversas…</l>
           </sp>
-          <sp
-            who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
+          <sp who="#musicos #asia #europa #america #africa #hombre #gracia #simplicidad #bautista #evangelista">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Gloria a Dios en las alturas,</l>
             <l n="970">y paz al hombre en la tierra!</l>
@@ -2362,8 +2358,7 @@
             <speaker>OTROS</speaker>
             <l part="M">¡Al monte!</l>
           </sp>
-          <sp
-            who="#america #africa #hombre #musicos #aguila #asia #principe #simplicidad #gracia #acompanamiento">
+          <sp who="#america #africa #hombre #musicos #aguila #asia #principe #simplicidad #gracia #acompanamiento">
             <speaker>TODOS</speaker>
             <l n="1285" part="F">¡A la cumbre!</l>
           </sp>
@@ -2419,8 +2414,7 @@
             <l n="1300">infestando su ribera.</l>
             <l part="I">¡Huid, huid!</l>
           </sp>
-          <sp
-            who="#america #africa #hombre #musicos #aguila #asia #acompanamiento #simplicidad #principe #lucero #gracia">
+          <sp who="#america #africa #hombre #musicos #aguila #asia #acompanamiento #simplicidad #principe #lucero #gracia">
             <speaker>TODOS</speaker>
             <l part="F">¡Al monte! ¡Al valle!</l>
           </sp>
@@ -3431,8 +3425,7 @@
           </sp>
           <stage>Terremoto dentro y van saliendo cada uno con susversos como despavoridos y
             asombrados</stage>
-          <sp
-            who="#acompanamiento #musicos #gracia #aguila #lucero #simplicidad #leon #africa #america #europa #asia #fiera #hombre #principe">
+          <sp who="#acompanamiento #musicos #gracia #aguila #lucero #simplicidad #leon #africa #america #europa #asia #fiera #hombre #principe">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l>¿Quién vio confusiones tantas?</l>
@@ -3518,8 +3511,7 @@
             <speaker>OTROS</speaker>
             <l part="F">¡Qué ansia!</l>
           </sp>
-          <sp
-            who="#gracia #principe #leon #africa #america #europa #asia #lucero #aguila #simplicidad #hombre #acompanamiento">
+          <sp who="#gracia #principe #leon #africa #america #europa #asia #lucero #aguila #simplicidad #hombre #acompanamiento">
             <speaker>TODOS</speaker>
             <l>Muerta aquí yace la fiera.</l>
           </sp>
@@ -3756,8 +3748,7 @@
             <l>¡Amaina, amaina, que a pique</l>
             <l part="I">nos vamos!</l>
           </sp>
-          <sp
-            who="#acompanamiento #europa #america #africa #asia #simplicidad #aguila #leon #principe #gracia #lucero #hombre">
+          <sp who="#acompanamiento #europa #america #africa #asia #simplicidad #aguila #leon #principe #gracia #lucero #hombre">
             <speaker>TODOS</speaker>
             <l part="F">¡Amaina, amaina!</l>
           </sp>
@@ -3925,8 +3916,7 @@
             <l>repitiendo todos en voces altas</l>
             <l>que acudamos donde dice la gracia…</l>
           </sp>
-          <sp
-            who="#acompanamiento #europa #america #africa #asia #aguila #lucero #hombre #fiera #leon #gracia #principe #simplicidad">
+          <sp who="#acompanamiento #europa #america #africa #asia #aguila #lucero #hombre #fiera #leon #gracia #principe #simplicidad">
             <speaker>TODOS</speaker>
             <stage>Cantan</stage>
             <l>¡A mi brindis, mortales venid.</l>

@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/la-segunda-esposa--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-segunda-esposa--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la edición de V. García Ruiz, Pamplona, Universidad
               de Navarra ; Kassel, Reichenberger, 1993. ISBN: 3-928064-48-7</title>
@@ -2628,8 +2627,7 @@
             <speaker>CORO 2</speaker>
             <l part="F"> ¡Buen pasaje... </l>
           </sp>
-          <sp
-            who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
             <speaker>LOS DOS</speaker>
             <l>...el mar y la tierra alegres le den! </l>
           </sp>
@@ -2641,8 +2639,7 @@
             <speaker>CORO 2</speaker>
             <l n="1280" part="F">Y venga con bien, </l>
           </sp>
-          <sp
-            who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
             <speaker>LOS DOS</speaker>
             <l> ...pues que nuestros puertos viene a enriquecer. </l>
           </sp>
@@ -2680,8 +2677,7 @@
             <speaker>CORO 1</speaker>
             <l part="F"> ¡Buen pasaje... </l>
           </sp>
-          <sp
-            who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
             <speaker>LOS DOS</speaker>
             <l> ...el mar y la tierra alegres le den! </l>
           </sp>
@@ -2693,8 +2689,7 @@
             <speaker>CORO 1</speaker>
             <l part="F">Y venga con bien, </l>
           </sp>
-          <sp
-            who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
+          <sp who="#matrimonio #esposa #pecado #bauptismo #confirmación #penitencia #comunión #orden #hombre #música">
             <speaker>LOS DOS</speaker>
             <l n="1290"> ...pues que nuestros mares sale a enriquecer. </l>
           </sp>

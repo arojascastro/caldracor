@@ -1524,8 +1524,7 @@
             <speaker>NATURALEZA</speaker>
             <l part="I">¡Que hermosas son!</l>
           </sp>
-          <sp
-            who="#sombra #musicos #mundo #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #naturaleza">
+          <sp who="#sombra #musicos #mundo #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #naturaleza">
             <speaker>TODOS</speaker>
             <l part="F">¿No han de serlo…</l>
           </sp>
@@ -1744,8 +1743,7 @@
             <speaker>MUNDO</speaker>
             <l part="I">Llegad vosotros.</l>
           </sp>
-          <sp
-            who="#musicos #dos #sombra #esfera-1 #esfera-2 #esfera-3 #esfera-4 #inociencia #naturaleza #mundo">
+          <sp who="#musicos #dos #sombra #esfera-1 #esfera-2 #esfera-3 #esfera-4 #inociencia #naturaleza #mundo">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué es esto?</l>
           </sp>
@@ -1924,8 +1922,7 @@
             <l>Si os acercáis es a herirme</l>
             <l>y a huir de mí si yo me acerco.</l>
           </sp>
-          <sp
-            who="#musicos #dos #sombra #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #mundo #naturaleza">
+          <sp who="#musicos #dos #sombra #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #mundo #naturaleza">
             <speaker>TODOS</speaker>
             <l n="870">Sí, que no somos vasallos</l>
             <l part="I">ya.</l>
@@ -1934,8 +1931,7 @@
             <speaker>NATURALEZA</speaker>
             <l part="M">Pues ¿qué sois?</l>
           </sp>
-          <sp
-            who="#musicos #dos #sombra #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #mundo #naturaleza">
+          <sp who="#musicos #dos #sombra #inociencia #esfera-1 #esfera-2 #esfera-3 #esfera-4 #mundo #naturaleza">
             <speaker>TODOS</speaker>
             <l part="F">Tus opuestos.</l>
           </sp>
@@ -2128,8 +2124,7 @@
             <l>…hará a quien cure su mal</l>
             <l>esposo de su belleza.</l>
           </sp>
-          <sp
-            who="#dos #sombra #esfera-1 #esfera-2 #esfera-3 #inociencia #naturaleza #mundo #esfera-4 #musicos">
+          <sp who="#dos #sombra #esfera-1 #esfera-2 #esfera-3 #inociencia #naturaleza #mundo #esfera-4 #musicos">
             <speaker>TODOS</speaker>
             <l n="960">La humana Naturaleza</l>
             <l>padece un daño mortal,</l>
@@ -2928,8 +2923,7 @@
             <l>Este es el primer desmayo</l>
             <l part="I">que yo he sentido.</l>
           </sp>
-          <sp
-            who="#naturaleza #lucero #dos #esfera-3 #esfera-4 #gentilidad #musicos #gentilidad #judaismo #culpa #mundo #esfera-1 #esfera-2 #peregrino #sombra">
+          <sp who="#naturaleza #lucero #dos #esfera-3 #esfera-4 #gentilidad #musicos #gentilidad #judaismo #culpa #mundo #esfera-1 #esfera-2 #peregrino #sombra">
             <speaker>NATURALEZA Y TODOS</speaker>
             <l n="1310" part="F">¿Qué es esto?</l>
           </sp>
@@ -2949,8 +2943,7 @@
             <speaker>MUNDO</speaker>
             <l part="I">¡Qué maravilla!</l>
           </sp>
-          <sp
-            who="#naturaleza #lucero #dos #esfera-3 #esfera-4 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #sombra #peregrino #judaismo #gentilidad #mundo">
+          <sp who="#naturaleza #lucero #dos #esfera-3 #esfera-4 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #sombra #peregrino #judaismo #gentilidad #mundo">
             <speaker>TODOS</speaker>
             <l part="F">¡Qué asombro!</l>
           </sp>
@@ -3010,8 +3003,7 @@
             <l>tan venenoso mi aliento?</l>
           </sp>
           <stage>Yéndose.</stage>
-          <sp
-            who="#lucero #dos #esfera-3 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #judaismo #gentilidad #mundo #sombra #esfera-4 #peregrino #naturaleza">
+          <sp who="#lucero #dos #esfera-3 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #judaismo #gentilidad #mundo #sombra #esfera-4 #peregrino #naturaleza">
             <speaker>TODOS</speaker>
             <l part="I">¿Dónde vas?</l>
           </sp>
@@ -3026,8 +3018,7 @@
             <l>Tarde que lo intentas, pienso,</l>
             <l>que ya creo que lo has sido.</l>
           </sp>
-          <sp
-            who="#dos #esfera-3 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #judaismo #gentilidad #mundo #sombra #esfera-4 #peregrino #naturaleza #inociencia">
+          <sp who="#dos #esfera-3 #gentilidad #musicos #culpa #esfera-1 #esfera-2 #judaismo #gentilidad #mundo #sombra #esfera-4 #peregrino #naturaleza #inociencia">
             <speaker>TODOS</speaker>
             <l part="I">¡Detente!</l>
           </sp>
@@ -4184,8 +4175,7 @@
             <l>¿qué dotor no se la yerra</l>
             <l>al enfermo que le cabe?</l>
           </sp>
-          <sp
-            who="#gentilidad #culpa #musicos #peregrino #lucero #sombra #mundo #esfera-1 #esfera-2 #esfera-3 #esfera-4 #naturaleza #gentilidad #judaismo #inociencia">
+          <sp who="#gentilidad #culpa #musicos #peregrino #lucero #sombra #mundo #esfera-1 #esfera-2 #esfera-3 #esfera-4 #naturaleza #gentilidad #judaismo #inociencia">
             <speaker>TODOS</speaker>
             <l>Sin duda Dios hombre era,</l>
             <l n="1910">en cuyas exequias hacen</l>
@@ -4454,8 +4444,7 @@
         </div>
         <div type="scene" resp="#rojas" n="58">
           <stage>Vanse los dos.</stage>
-          <sp
-            who="#gentilidad #culpa #musicos #inociencia #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo">
+          <sp who="#gentilidad #culpa #musicos #inociencia #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo">
             <speaker>TODOS</speaker>
             <l>Pues vuelve a sus perfecciones,</l>
             <l n="2030">volvamos todos a darte</l>
@@ -4469,13 +4458,11 @@
             <l n="2035">de este sacramento acabe</l>
             <l>la cura y la enfermedad.</l>
           </sp>
-          <sp
-            who="#gentilidad #culpa #musicos #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo #inociencia">
+          <sp who="#gentilidad #culpa #musicos #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo #inociencia">
             <speaker>TODOS</speaker>
             <l>Pues digan ecos suaves…</l>
           </sp>
-          <sp
-            who="#gentilidad #culpa #musicos #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo #inociencia">
+          <sp who="#gentilidad #culpa #musicos #esfera-1 #esfera-2 #esfera-3 #lucero #esfera-4 #peregrino #naturaleza #gentilidad #mundo #inociencia">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>No en vano espere piedad</l>
             <l>la Naturaleza bella,</l>

@@ -1024,8 +1024,7 @@
             <l part="I">en nuestro aplauso…</l>
           </sp>
           <stage>Dentro</stage>
-          <sp
-            who="#musicos #sefora #simplicio #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6">
+          <sp who="#musicos #sefora #simplicio #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6">
             <speaker>TODOS</speaker>
             <l n="535" part="F">¡Mal haya</l>
             <l>quien a perecer nos trujo</l>
@@ -1068,8 +1067,7 @@
             <l n="550">sus voces, decir con ellos</l>
             <l part="I">también las nuestras:…</l>
           </sp>
-          <sp
-            who="#idolatria #belfegor #musicos #sefora #simplicio #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6">
+          <sp who="#idolatria #belfegor #musicos #sefora #simplicio #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6">
             <speaker>LOS DOS Y TODOS</speaker>
             <l part="F">¡Mal haya</l>
             <l>quien a perecer nos trujo</l>
@@ -1085,8 +1083,7 @@
             <l part="F">¿Qué es aquesto,</l>
             <l part="I">amigos?</l>
           </sp>
-          <sp
-            who="#musicos #sefora #simplicio #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6">
+          <sp who="#musicos #sefora #simplicio #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6">
             <speaker>TODOS</speaker>
             <l n="555" part="F">¿De qué te espantas?</l>
             <l>Esto es quejarnos de ti.</l>
@@ -1258,8 +1255,7 @@
             <l>pasiones, afectos viles</l>
             <l part="I">de gula y pereza!</l>
           </sp>
-          <sp
-            who="#musicos #sefora #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio">
+          <sp who="#musicos #sefora #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio">
             <speaker>TODOS</speaker>
             <l part="F">¿Tantas</l>
             <l n="650">razones no son disculpa</l>
@@ -1311,8 +1307,7 @@
             <speaker>MOISÉS</speaker>
             <l part="I">¿Mas qué es esto?</l>
           </sp>
-          <sp
-            who="#musicos #sefora #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio">
+          <sp who="#musicos #sefora #aron #josue #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio">
             <speaker>TODOS</speaker>
             <l n="685" part="F">Que faltaba</l>
             <l>a nuestra queja solo ese</l>
@@ -1681,8 +1676,7 @@
             <l>Hasta pensar lo que haremos,</l>
             <l>a aqueste lado te aparta.</l>
           </sp>
-          <sp
-            who="#afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio #josue #1 #aron #sefora #maria">
+          <sp who="#afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio #josue #1 #aron #sefora #maria">
             <speaker>TODOS</speaker>
             <l>¡Vitoria por Israel!</l>
           </sp>
@@ -1794,15 +1788,13 @@
             <l>acompañándole hasta</l>
             <l part="I">su tribu.</l>
           </sp>
-          <sp
-            who="#afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio #josue #1 #aron #sefora #maria #moises">
+          <sp who="#afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio #josue #1 #aron #sefora #maria #moises">
             <speaker>TODOS</speaker>
             <l part="F">Vamos, y sea</l>
             <l>repitiendo en su alabanza:…</l>
           </sp>
           <stage>Cantan</stage>
-          <sp
-            who="#afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio #josue #1 #aron #sefora #maria #moises">
+          <sp who="#afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-5 #afecto-6 #simplicio #josue #1 #aron #sefora #maria #moises">
             <speaker>TODOS</speaker>
             <l n="940">Que todo Israel</l>
             <l>le cante la gala,</l>
@@ -2398,8 +2390,7 @@
             <l>pues repite todo el pueblo…</l>
           </sp>
           <stage>Dentro Música y todos</stage>
-          <sp
-            who="#afecto-4 #afecto-6 #acompanamiento #josue #afecto-1 #afecto-2 #afecto-3 #afecto-5 #simplicio #moises #sefora #maria #musicos #angel-1 #angel-2 #aron">
+          <sp who="#afecto-4 #afecto-6 #acompanamiento #josue #afecto-1 #afecto-2 #afecto-3 #afecto-5 #simplicio #moises #sefora #maria #musicos #angel-1 #angel-2 #aron">
             <speaker>TODOS</speaker>
             <l>Candor tan bello</l>
             <l>pan de ángeles es que a que el hombre le coma</l>
@@ -2436,8 +2427,7 @@
             <l>Justo es, y en tanto que él llega</l>
             <l>todos en su loor diremos:…</l>
           </sp>
-          <sp
-            who="#afecto-4 #afecto-6 #acompanamiento #josue #afecto-1 #afecto-2 #afecto-3 #afecto-5 #simplicio #moises #sefora #maria #musicos #angel-1 #angel-2 #aron">
+          <sp who="#afecto-4 #afecto-6 #acompanamiento #josue #afecto-1 #afecto-2 #afecto-3 #afecto-5 #simplicio #moises #sefora #maria #musicos #angel-1 #angel-2 #aron">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Candor tan bello</l>
             <l n="1255">pan de ángeles es que a que el hombre le coma</l>
@@ -2538,8 +2528,7 @@
             <l n="1295">y así, porque este lo sea,</l>
             <l>vamos todos repitiendo:…</l>
           </sp>
-          <sp
-            who="#afecto-4 #afecto-6 #acompanamiento #josue #afecto-1 #afecto-2 #afecto-3 #afecto-5 #simplicio #moises #sefora #maria #musicos #angel-1 #angel-2 #aron">
+          <sp who="#afecto-4 #afecto-6 #acompanamiento #josue #afecto-1 #afecto-2 #afecto-3 #afecto-5 #simplicio #moises #sefora #maria #musicos #angel-1 #angel-2 #aron">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Candor tan bello,</l>
             <l>pan de ángeles es que a que el hombre le coma</l>
@@ -2821,8 +2810,7 @@
             <l>me quedaré que he pensado</l>
             <l>de hallar a este dios más presto.</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #aron #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #aron #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué es?</l>
           </sp>
@@ -2883,8 +2871,7 @@
             <l part="F">Pues no esperemos</l>
             <l part="I">más.</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #aron #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #aron #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l part="F">En busca suya vamos</l>
             <l>todos desde aquí diciendo:</l>
@@ -2928,8 +2915,7 @@
             <l part="I">los sigue, diciendo:…</l>
           </sp>
           <stage>Dentro</stage>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l part="F">!Arón,</l>
             <l>danos un dios que adoremos!</l>
@@ -2943,8 +2929,7 @@
             <l n="1515">ingrato, atrevido pueblo,</l>
             <l part="I">¿qué dios pides?</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l part="F">Un dios que</l>
             <l>nos saque de este desierto.</l>
@@ -2955,8 +2940,7 @@
             <l>que es Dios de Dioses inmenso,</l>
             <l part="I">a quien pedírselo?</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l n="1520" part="F">No,</l>
             <l>que no oye nuestros lamentos</l>
@@ -2970,8 +2954,7 @@
             <l>¿Aún el sabor en los labios,</l>
             <l>está ya la queja en ellos?</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l>¿Qué manjar es un rocío?</l>
           </sp>
@@ -2980,8 +2963,7 @@
             <l>Aquí, Arón, no hay más remedio</l>
             <l part="I">que darnos dios…</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l n="1530" part="F">o morir</l>
             <l part="I">a nuestras manos.</l>
@@ -2998,8 +2980,7 @@
             <l>los complazco y los tolero.</l>
             <l part="I">¿Qué medio habrá?)</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué respondes?</l>
           </sp>
@@ -3018,8 +2999,7 @@
             <l>abrirá el cielo camino</l>
             <l>que provea de remedio.)</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué dices?</l>
           </sp>
@@ -3035,8 +3015,7 @@
             <l>de otro metal no hace aprecio.</l>
             <l part="I">Ved, pues, si este queréis.</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l part="F">Sí.</l>
           </sp>
@@ -3076,8 +3055,7 @@
             <l n="1580">que aquel es el sacrificio</l>
             <l>del dios que le anima dentro?</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l>¿En qué otra vez te suspendes?</l>
           </sp>
@@ -3087,8 +3065,7 @@
             <l>Id trayendo materiales;</l>
             <l n="1585">iré yo la estatua haciendo.</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l>Porque el tiempo no se pierda,</l>
             <l>vamos todos a traerlos.</l>
@@ -3353,8 +3330,7 @@
         <div type="scene" resp="#rojas" n="28">
           <stage>Ábrese un carro, que es otro monte, y vese en él elídolo de un becerro, y salen los
             afectos y hombres ymujeres, bailando delante de él</stage>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Pues tenemos</l>
             <l>ya dios a quien adorar,</l>
@@ -3511,8 +3487,7 @@
         <div type="scene" resp="#rojas" n="32">
           <stage>La caja, y hacen batalla, retirándose los seis, y salen María con manchas en el
             rostro y manos, y Séfora deteniéndola</stage>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l>Forzoso nos es huir.</l>
           </sp>
@@ -3586,8 +3561,7 @@
             <l>que le inunda el Mar Bermejo.</l>
           </sp>
           <stage>La caja. Dentro</stage>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l part="I">Piedad, Moisés.</l>
           </sp>
@@ -3723,8 +3697,7 @@
         </div>
         <div type="scene" resp="#rojas" n="34">
           <stage>Vase. Dentro</stage>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l>¡Marche el campo de Israel!</l>
           </sp>
@@ -3745,8 +3718,7 @@
             <l>una cerviz tan cruel.</l>
           </sp>
           <stage>Dentro</stage>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l>¡Marche el campo de Israel!</l>
           </sp>
@@ -3842,8 +3814,7 @@
             <l part="I">tu furor.</l>
           </sp>
           <stage>Dentro</stage>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l n="1995" part="F">¡Alto, y pase la palabra!</l>
           </sp>
@@ -4012,8 +3983,7 @@
             <l>que no sea tumba funesta.</l>
           </sp>
           <stage>Dentro y fuera todos</stage>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #belfegor #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l>¡Rabiando muero sin que</l>
             <l>haya quien me favorezca!</l>
@@ -4052,8 +4022,7 @@
             <speaker>DENTRO Y LOS TRES</speaker>
             <l part="M">¡Qué rabia!</l>
           </sp>
-          <sp
-            who="#acompanamiento #1 #acompanamiento #angel-1 #angel-2 #mujer-2 #afectos-4 #6 #mujer-1 #musicos #aron #josue #maria #sefora #moises #acompanamiento #acompanamiento #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-6 #simplicio #belfegor #idolatria">
+          <sp who="#acompanamiento #1 #acompanamiento #angel-1 #angel-2 #mujer-2 #afectos-4 #6 #mujer-1 #musicos #aron #josue #maria #sefora #moises #acompanamiento #acompanamiento #afecto-1 #afecto-2 #afecto-3 #afecto-4 #afecto-6 #simplicio #belfegor #idolatria">
             <speaker>DENTRO Y LOS OTROS TRES</speaker>
             <l n="2080" part="F">¡Qué furia!</l>
           </sp>
@@ -4095,8 +4064,7 @@
             <l>Hasta enternecer al cielo,</l>
             <l>las deprecaciones vuelvan.</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1 #moises #maria">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1 #moises #maria">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Misericordia, Señor,</l>
             <l n="2095">clemencia, Señor, clemencia.</l>
@@ -4158,8 +4126,7 @@
             <l n="2130">pues la sanidad del cuerpo</l>
             <l>pasa a que el alma la tenga.</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #moises #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #moises #afecto-4 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l>Lo mismo decimos todos.</l>
           </sp>
@@ -4399,14 +4366,12 @@
             <speaker>MARÍA</speaker>
             <l>grandeza de las grandezas,…</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #moises #afecto-4 #afecto-5 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #moises #afecto-4 #afecto-5 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS</speaker>
             <l>digamos todos humildes</l>
             <l>a sus plantas y a las vuestras…</l>
           </sp>
-          <sp
-            who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #moises #afecto-4 #afecto-5 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
+          <sp who="#acompanamiento #maria #angel-1 #angel-2 #mujer-1 #mujer-2 #afectos-4 #sefora #josue #musicos #moises #afecto-4 #afecto-5 #afecto-6 #afecto-2 #afecto-3 #simplicio #afecto-1">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>que en figura y figurado</l>
             <l n="2245">perdonéis las faltas nuestras,</l>

@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-santo-rey-don-fernando-primera-parte--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-santo-rey-don-fernando-primera-parte--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por Ignacio Arellano, Juan Manuel Escudero y Mª Carmen
               Pinillos procedente de la edición Calderón de la Barca, Pedro, El santo rey don
@@ -2044,8 +2043,7 @@
         </div>
         <div type="scene" resp="#rojas" n="23">
           <stage>Sale la APOSTASÍA.</stage>
-          <sp
-            who="#alcorán #hebraísmo #rústico #rey #leandro #viejo #fe #esperanza #caridad #isidro #religión-de-santo-domingo">
+          <sp who="#alcorán #hebraísmo #rústico #rey #leandro #viejo #fe #esperanza #caridad #isidro #religión-de-santo-domingo">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l>Cristo es el Dios verdadero,</l>
@@ -2134,8 +2132,7 @@
             <l>¡Oh infame hebreo! ¿Esta fue</l>
             <l>la unión que dejamos hecha?</l>
           </sp>
-          <sp
-            who="#alcorán #hebraísmo #rey #leandro #viejo #fe #esperanza #caridad #isidro #religión-de-santo-domingo">
+          <sp who="#alcorán #hebraísmo #rey #leandro #viejo #fe #esperanza #caridad #isidro #religión-de-santo-domingo">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l>Cristo es el Dios verdadero,</l>
@@ -2867,8 +2864,7 @@
             <l>es la lumbre de su Fe,</l>
             <l>¿qué mucho que digáis que...</l>
           </sp>
-          <sp
-            who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #isidro #leandro #músicos #religión-de-santo-domingo #rey #rústico #viejo">
+          <sp who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #isidro #leandro #músicos #religión-de-santo-domingo #rey #rústico #viejo">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Viva la Fe y el albigense muera!</l>
           </sp>
@@ -2905,8 +2901,7 @@
             <l>esta obra y publicad,</l>
             <l>porque más la Fe lo advierta:</l>
           </sp>
-          <sp
-            who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #músicos #religión-de-santo-domingo #rey #rústico">
+          <sp who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #músicos #religión-de-santo-domingo #rey #rústico">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Alerta al alto triunfo suyo, alerta!</l>
           </sp>
@@ -2914,8 +2909,7 @@
             <speaker>REY</speaker>
             <l n="1500">¡Alerta pues, y en encendida hoguera...</l>
           </sp>
-          <sp
-            who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #religión-de-santo-domingo #rey #rústico">
+          <sp who="#alcorán #rústico #caridad #apostasía #esperanza #fe #hebraísmo #religión-de-santo-domingo #rey #rústico">
             <speaker>TODOS</speaker>
             <l>¡Viva la Fe y el albigense muera!</l>
           </sp>
@@ -3496,8 +3490,7 @@
             <speaker>REY</speaker>
             <l part="I">¡Al arma, pues!</l>
           </sp>
-          <sp
-            who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico #religión-de-santo-domingo">
+          <sp who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico #religión-de-santo-domingo">
             <speaker>TODOS</speaker>
             <l part="F">¡Al arma, pues,</l>
             <l>a lograr en los triunfos de la Esperanza,</l>
@@ -3532,8 +3525,7 @@
             <l n="1850">mientras se pone su autor,</l>
             <l>siempre humilde a vuestros pies:</l>
           </sp>
-          <sp
-            who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico #religión-de-santo-domingo #músicos">
+          <sp who="#isidro #leandro #caridad #fe #esperanza #viejo #rústico #religión-de-santo-domingo #músicos">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>¡Ven, Fernando, ven</l>
             <l>a lograr en los triunfos de la Esperanza,</l>

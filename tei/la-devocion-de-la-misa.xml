@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/la-devocion-de-la-misa--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-devocion-de-la-misa--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por J. Enrique Duarte procedente de la edición Calderón
               de la Barca, Pedro, La devoción de la misa, ed. J. Enrique Duarte, Pamplona–Kassel,
@@ -3193,8 +3192,7 @@
         <div type="scene" resp="#rojas" n="34">
           <stage>Al irse como huyendo, salen al encuentro don GARCÍA, ALMANZOR, prisionero, y otros
             MOROS, AMINTA y SOLDADOS y entre ellos LELIO y el DEMONIO.</stage>
-          <sp
-            who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas">
+          <sp who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas">
             <speaker>TODOS</speaker>
             <l part="I">Aquí está.</l>
           </sp>
@@ -3347,8 +3345,7 @@
             <speaker>GARCÍA</speaker>
             <l part="I">¿No le vistis todos?</l>
           </sp>
-          <sp
-            who="#soldados-montañeses #soldados-moros #almanzor #aminta #lelio #demonio-pascual-vivas">
+          <sp who="#soldados-montañeses #soldados-moros #almanzor #aminta #lelio #demonio-pascual-vivas">
             <speaker>TODOS</speaker>
             <l part="F">Sí.</l>
           </sp>
@@ -3414,8 +3411,7 @@
             <speaker>MÚSICA</speaker>
             <l n="1810">Como uno era su imagen que no era él mismo.</l>
           </sp>
-          <sp
-            who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel">
+          <sp who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel">
             <speaker>TODOS</speaker>
             <l>Porque el cielo quiso premiar su valor</l>
             <l>con vislumbres y rasgos de su devoción.</l>
@@ -3555,8 +3551,7 @@
             <l>los unos para castigo,</l>
             <l>los otros para consuelo....</l>
           </sp>
-          <sp
-            who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel #música">
+          <sp who="#soldados-montañeses #soldados-moros #garcía #almanzor #aminta #lelio #demonio-pascual-vivas #pascual #pernil #ángel #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>¿Cómo puede en dos partes estar un cuerpo?</l>
             <l n="1900">Solo Dios en la Hostia del sacramento.</l>

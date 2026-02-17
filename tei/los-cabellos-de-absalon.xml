@@ -33,8 +33,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/los-cabellos-de-absalon--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/los-cabellos-de-absalon--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la edición de Evangelina Rodríguez Cuadros, Madrid,
               Espasa-Calpe, 1989.</title>
@@ -228,8 +227,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000129"
-        passive="http://www.wikidata.org/entity/Q16493952"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000129" passive="http://www.wikidata.org/entity/Q16493952"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

@@ -1582,8 +1582,7 @@
             <l>y así lugares pedid</l>
             <l>a oposición de tal fama.</l>
           </sp>
-          <sp
-            who="#criado #musicos #andres #juan #diego #pablo #inocencia #baptista #pedro #emanuel">
+          <sp who="#criado #musicos #andres #juan #diego #pablo #inocencia #baptista #pedro #emanuel">
             <speaker>TODOS</speaker>
             <l n="805" part="I">¡Ah de la Iglesia!</l>
           </sp>
@@ -1616,8 +1615,7 @@
             <l>y de la gloria a quien hoy</l>
             <l>aplaudís de aquesta suerte?</l>
           </sp>
-          <sp
-            who="#criado #musicos #andres #juan #diego #pablo #inocencia #pedro #acompanamiento #baptista">
+          <sp who="#criado #musicos #andres #juan #diego #pablo #inocencia #pedro #acompanamiento #baptista">
             <speaker>TODOS</speaker>
             <l>A él, que es poderoso y fuerte.</l>
           </sp>
@@ -2487,8 +2485,7 @@
             <l>conmigo venid aquellos</l>
             <l part="I">que seguirme queráis.</l>
           </sp>
-          <sp
-            who="#musicos #andres #diego #acompanamiento #baptista #pedro #inocencia #pablo #iglesia #juan">
+          <sp who="#musicos #andres #diego #acompanamiento #baptista #pedro #inocencia #pablo #iglesia #juan">
             <speaker>TODOS</speaker>
             <l part="F">Todos</l>
             <l n="1240">tus pisadas seguiremos.</l>
@@ -2552,8 +2549,7 @@
             <speaker>BAPTISTA</speaker>
             <l>Mi voz será la primera.</l>
           </sp>
-          <sp
-            who="#musicos #acompanamiento #inocencia #pablo #juan #emanuel #pedro #andres #diego #iglesia #baptista">
+          <sp who="#musicos #acompanamiento #inocencia #pablo #juan #emanuel #pedro #andres #diego #iglesia #baptista">
             <speaker>TODOS</speaker>
             <l>Y todos te ayudaremos.</l>
           </sp>
@@ -2754,8 +2750,7 @@
             <l>La vacante general</l>
             <l>todos a un tiempo diciendo:</l>
           </sp>
-          <sp
-            who="#musicos #acompanamiento #juan #andres #diego #baptista #emanuel #pedro #pablo #iglesia #inocencia">
+          <sp who="#musicos #acompanamiento #juan #andres #diego #baptista #emanuel #pedro #pablo #iglesia #inocencia">
             <speaker>MÚSICA Y TODOS</speaker>
             <l n="1395">Venid, mortales, venid,</l>
             <l>venid, venid, no a oponeros,</l>

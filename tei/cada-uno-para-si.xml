@@ -8567,8 +8567,7 @@
             <l> Y yo en nombre del que atento </l>
             <l> siempre os desea servir… </l>
           </sp>
-          <sp
-            who="#hernando #violante #don-carlos #ines #simon #don-enrique #juana #leonor #don-diego #don-luis">
+          <sp who="#hernando #violante #don-carlos #ines #simon #don-enrique #juana #leonor #don-diego #don-luis">
             <speaker> TODOS </speaker>
             <l> ¿Es el perdón de las faltas, </l>
             <l> Félix, ése que pedís? </l>
@@ -8577,8 +8576,7 @@
             <speaker> DON FÉLIX </speaker>
             <l part="I"> Sí. </l>
           </sp>
-          <sp
-            who="#hernando #violante #don-carlos #ines #simon #don-enrique #juana #leonor #don-diego #don-luis">
+          <sp who="#hernando #violante #don-carlos #ines #simon #don-enrique #juana #leonor #don-diego #don-luis">
             <speaker> TODOS </speaker>
             <l n="3795" part="F"> Pues ése ha de pedirle </l>
             <l> cada uno para sí. </l>

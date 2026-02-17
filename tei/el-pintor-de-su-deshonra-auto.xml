@@ -860,8 +860,7 @@
             <l part="F">…y sol,</l>
             <l>…bendecid al Señor.</l>
           </sp>
-          <sp
-            who="#albedrio #mundo #amor #musica #culpa #lucero #pintor #ciencia #inocencia #musicos #gracia">
+          <sp who="#albedrio #mundo #amor #musica #culpa #lucero #pintor #ciencia #inocencia #musicos #gracia">
             <speaker>TODOS</speaker>
             <l n="400">Bendecid al Señor.</l>
           </sp>
@@ -888,8 +887,7 @@
             <l part="F">…ardor,</l>
             <l n="405">…bendecid al Señor.</l>
           </sp>
-          <sp
-            who="#albedrio #mundo #amor #musica #culpa #lucero #pintor #ciencia #inocencia #musicos #gracia">
+          <sp who="#albedrio #mundo #amor #musica #culpa #lucero #pintor #ciencia #inocencia #musicos #gracia">
             <speaker>TODOS</speaker>
             <l>Bendecid al Señor.</l>
           </sp>
@@ -938,8 +936,7 @@
             <l n="420" part="F">…arrebol,</l>
             <l>…bendecid al Señor.</l>
           </sp>
-          <sp
-            who="#albedrio #mundo #amor #musica #pintor #lucero #culpa #ciencia #inocencia #musicos #gracia">
+          <sp who="#albedrio #mundo #amor #musica #pintor #lucero #culpa #ciencia #inocencia #musicos #gracia">
             <speaker>TODOS</speaker>
             <l>Bendecid al Señor.</l>
           </sp>
@@ -967,8 +964,7 @@
             <l part="F">…verdor,</l>
             <l>…bendecid al Señor.</l>
           </sp>
-          <sp
-            who="#albedrio #mundo #amor #musica #pintor #lucero #culpa #ciencia #inocencia #musicos #gracia">
+          <sp who="#albedrio #mundo #amor #musica #pintor #lucero #culpa #ciencia #inocencia #musicos #gracia">
             <speaker>TODOS</speaker>
             <l>Bendecid al Señor.</l>
           </sp>
@@ -1013,8 +1009,7 @@
             <l part="F">y flor,</l>
             <l>…bendecid al Señor.</l>
           </sp>
-          <sp
-            who="#albedrio #mundo #amor #musica #pintor #culpa #lucero #ciencia #inocencia #musicos #gracia">
+          <sp who="#albedrio #mundo #amor #musica #pintor #culpa #lucero #ciencia #inocencia #musicos #gracia">
             <speaker>TODOS</speaker>
             <l>Bendecid al Señor.</l>
           </sp>
@@ -1041,8 +1036,7 @@
             <l part="F">…albor,</l>
             <l>…bendecid al Señor.</l>
           </sp>
-          <sp
-            who="#albedrio #mundo #amor #musica #pintor #culpa #lucero #ciencia #inocencia #musicos #gracia">
+          <sp who="#albedrio #mundo #amor #musica #pintor #culpa #lucero #ciencia #inocencia #musicos #gracia">
             <speaker>TODOS</speaker>
             <l n="450">Bendecid al Señor.</l>
           </sp>
@@ -1086,8 +1080,7 @@
             <l part="F">…voz,</l>
             <l n="465">…bendecid al Señor.</l>
           </sp>
-          <sp
-            who="#albedrio #mundo #amor #musica #culpa #lucero #pintor #ciencia #inocencia #musicos #gracia">
+          <sp who="#albedrio #mundo #amor #musica #culpa #lucero #pintor #ciencia #inocencia #musicos #gracia">
             <speaker>TODOS</speaker>
             <l>Bendecid al Señor.</l>
           </sp>
@@ -1147,8 +1140,7 @@
         </div>
         <div type="scene" resp="#rojas" n="5">
           <stage>Vanse LUCERO y CULPA, y dicen todos, unos cantando y otros representando.</stage>
-          <sp
-            who="#mundo #amor #musica #pintor #ciencia #inocencia #musicos #naturaleza #culpa #lucero #gracia">
+          <sp who="#mundo #amor #musica #pintor #ciencia #inocencia #musicos #naturaleza #culpa #lucero #gracia">
             <speaker>TODOS</speaker>
             <l>Pues ya coronó sus obras</l>
             <l>dando al cuerpo que formó</l>

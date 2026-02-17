@@ -33,8 +33,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-magico-prodigioso/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-magico-prodigioso/html/</idno>
           <bibl type="originalSource">
             <title> Edición digital a partir de la Sexta parte de Comedias de don Pedro Calderón de
               la Barca que nuevamente corregidas por sus originales publica don Juan de Vera Tassis
@@ -193,8 +192,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000092"
-        passive="http://www.wikidata.org/entity/Q5825879"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000092" passive="http://www.wikidata.org/entity/Q5825879"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

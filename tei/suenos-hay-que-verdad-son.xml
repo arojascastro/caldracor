@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/suenos-hay-que-verdad-son--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/suenos-hay-que-verdad-son--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por Michael D. McGaha procedente de la edición Calderón
               de la Barca, Pedro, Sueños hay que verdad son, ed. Michael D. McGaha, Pamplona–Kassel,
@@ -328,8 +327,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000053"
-        passive="http://www.wikidata.org/entity/Q69031569"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000053" passive="http://www.wikidata.org/entity/Q69031569"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -490,8 +488,7 @@
             <l part="I">¡Ah del calabozo!</l>
             <stage>Dentro.</stage>
           </sp>
-          <sp
-            who="#aser #neftalí #manasés #leví #isacar #asenet #rubén #judás #benjamín #gad #simeón #josef #jacob #bato #sombra-1 #sombra-2 #la-fe #panadero #alcaide #zabulón #rey #copero">
+          <sp who="#aser #neftalí #manasés #leví #isacar #asenet #rubén #judás #benjamín #gad #simeón #josef #jacob #bato #sombra-1 #sombra-2 #la-fe #panadero #alcaide #zabulón #rey #copero">
             <speaker>TODOS</speaker>
             <l part="F"> ¿Quién </l>
             <l part="I">es quien llama?</l>
@@ -1048,8 +1045,7 @@
             <speaker>SOMBRA 2</speaker>
             <l>...pues si en gracia le bebe, es de los cielos!</l>
           </sp>
-          <sp
-            who="#aser #neftalí #manasés #leví #isacar #asenet #rubén #judás #benjamín #gad #simeón #josef #jacob #bato #sombra-1 #sombra-2 #la-fe #alcaide #zabulón #rey #música">
+          <sp who="#aser #neftalí #manasés #leví #isacar #asenet #rubén #judás #benjamín #gad #simeón #josef #jacob #bato #sombra-1 #sombra-2 #la-fe #alcaide #zabulón #rey #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Dormid, dormid, mortales,</l>
             <l>que el grande y el pequeño</l>
@@ -2498,8 +2494,7 @@
             <l>procurando mi favor.</l>
             <stage>Romance a-oQuintilla</stage>
           </sp>
-          <sp
-            who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #copero #josef #música">
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #copero #josef #música">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>El pan nuestro de cada día,</l>
             <l>dánosle hoy, señor.</l>
@@ -3299,8 +3294,7 @@
         <div type="scene" resp="#rojas" n="35">
           <stage>Vase el COPERO. Salen los hermanos, BENJAMÍN con ellos, y BATO, villano
             rústico.</stage>
-          <sp
-            who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #benjamín">
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #benjamín">
             <speaker>TODOS</speaker>
             <l>Danos, gran señor, tus plantas.</l>
           </sp>
@@ -3500,8 +3494,7 @@
             <l>que a mi mesa os sentéis todos.</l>
             <l part="I">¿Qué os detiene?</l>
           </sp>
-          <sp
-            who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #benjamín #bato">
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #benjamín #bato">
             <speaker>TODOS</speaker>
             <l part="F"> Tu respecto. </l>
           </sp>
@@ -3672,8 +3665,7 @@
             <l>Todos habéis de pagar</l>
             <l part="I">su culpa.</l>
           </sp>
-          <sp
-            who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #jacob #benjamín">
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #jacob #benjamín">
             <speaker>TODOS</speaker>
             <l part="F"> Mirad primero... </l>
           </sp>
@@ -3681,8 +3673,7 @@
             <speaker>BENJAMÍN</speaker>
             <l>¡Ay, infelice de mí!</l>
           </sp>
-          <sp
-            who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #jacob #benjamín">
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #jacob #benjamín">
             <speaker>TODOS</speaker>
             <l part="I">...que, aunque pastores...</l>
           </sp>
@@ -3717,8 +3708,7 @@
             <l>atención. Pues ¿mi festejo</l>
             <l part="I">y mi agasajo?</l>
           </sp>
-          <sp
-            who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #jacob #benjamín #asenet">
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #jacob #benjamín #asenet">
             <speaker>TODOS</speaker>
             <l part="F"> ¡Señor! </l>
           </sp>
@@ -3794,8 +3784,7 @@
             <l n="1935">vosotros sin él, pues él</l>
             <l part="I">mi esclavo queda.</l>
           </sp>
-          <sp
-            who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #jacob #asenet">
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #jacob #asenet">
             <speaker>TODOS</speaker>
             <l part="F"> Primero </l>
             <l>que sin Benjamín volvamos</l>
@@ -3850,8 +3839,7 @@
             <l n="1955">...nuestra muerte en este cáliz</l>
             <l>que está de amargura lleno...</l>
           </sp>
-          <sp
-            who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #jacob #asenet">
+          <sp who="#leví #simeón #manasés #neftalí #aser #gad #zabulón #isacar #judás #rubén #bato #jacob #asenet">
             <speaker>TODOS</speaker>
             <l>...antes que sin Benjamín</l>
             <l part="I">volver.</l>
@@ -3912,8 +3900,7 @@
             <speaker>OTROS</speaker>
             <l part="F"> ...y de suspensos, </l>
           </sp>
-          <sp
-            who="#leví #simeón #manasés #neftalí #aser #benjamín #gad #zabulón #isacar #judás #rubén #jacob">
+          <sp who="#leví #simeón #manasés #neftalí #aser #benjamín #gad #zabulón #isacar #judás #rubén #jacob">
             <speaker>TODOS</speaker>
             <l>...no sabemos qué decirte.</l>
           </sp>

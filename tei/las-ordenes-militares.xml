@@ -35,8 +35,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/las-ordenes-militares--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/las-ordenes-militares--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la de Pedro Pando y Mier, Autos Sacramentales,
               alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la
@@ -238,8 +237,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000039"
-        passive="http://www.wikidata.org/entity/Q68907441"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000039" passive="http://www.wikidata.org/entity/Q68907441"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -3963,8 +3961,7 @@
             <speaker>INOCENCIA</speaker>
             <l n="2080" part="F"> Mueve la lengua. </l>
           </sp>
-          <sp
-            who="#acompañamiento #job #judaísmo #naturaleza #gracia #mundo #inocencia #santiago #segundo-adán #benito #bernardo">
+          <sp who="#acompañamiento #job #judaísmo #naturaleza #gracia #mundo #inocencia #santiago #segundo-adán #benito #bernardo">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué ibas a decir?</l>
           </sp>
@@ -4068,8 +4065,7 @@
             <l>del nuevo Adán, que en la cruz</l>
             <l>pagó del otro la deuda.</l>
           </sp>
-          <sp
-            who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia">
+          <sp who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia">
             <speaker>TODOS</speaker>
             <l>Pues dando al cielo las gracias,</l>
             <l>diga en su aplauso la tierra.</l>
@@ -4104,8 +4100,7 @@
             <l n="2145">Repitamos todos,</l>
             <l>en voces diversas.</l>
           </sp>
-          <sp
-            who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia #música">
+          <sp who="#gentilidad #bernardo #santiago #inocencia #mundo #judaísmo #job #david #benito #lucero #segundo-adán #naturaleza #gracia #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l>Cobre lenguas y plumas</l>
             <l>la Gracia bella,</l>

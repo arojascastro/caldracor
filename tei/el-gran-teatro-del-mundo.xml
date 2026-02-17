@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-gran-teatro-del-mundo--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-gran-teatro-del-mundo--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don
               Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier,
@@ -158,8 +157,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000015"
-        passive="http://www.wikidata.org/entity/Q1171310"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000015" passive="http://www.wikidata.org/entity/Q1171310"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

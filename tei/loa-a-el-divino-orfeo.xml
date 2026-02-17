@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/loa-a-el-divino-orfeo--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-a-el-divino-orfeo--0/html/</idno>
           <bibl type="originalSource">
             <title> Edición digital a partir de la edición de E. Duarte, Pamplona, Universidad de
               Navarra ; Kassel, Reichenberger, 1999.</title>
@@ -631,8 +630,7 @@
             <l>de la R el atributo</l>
             <l part="I">celebremos.</l>
           </sp>
-          <sp
-            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
+          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="F">Norabuena.</l>
           </sp>
@@ -652,8 +650,7 @@
             <speaker>PLACER</speaker>
             <l part="I">Oíd, esperad.</l>
           </sp>
-          <sp
-            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué pretendes?</l>
           </sp>
@@ -681,8 +678,7 @@
             <speaker>PLACER</speaker>
             <l part="F">Llego a leerlas.</l>
           </sp>
-          <sp
-            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué dicen?</l>
           </sp>
@@ -752,8 +748,7 @@
             <l>No, no prosigáis, oíd</l>
             <l>que aún otra duda me queda.</l>
           </sp>
-          <sp
-            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué es la duda?</l>
           </sp>
@@ -793,8 +788,7 @@
             <speaker>VIEJO</speaker>
             <l>Volviendo otra vez a leerlas.</l>
           </sp>
-          <sp
-            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
+          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #viejo-venerable">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué lees?</l>
           </sp>
@@ -923,8 +917,7 @@
             <speaker>MÚSICA</speaker>
             <l>En vez de perdón, aplauso y licencia.</l>
           </sp>
-          <sp
-            who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
+          <sp who="#galán-1 #galán-2 #galán-3 #galán-4 #galán-5 #dama-1 #dama-2 #dama-3 #dama-4 #dama-5 #placer #viejo-venerable">
             <speaker>TODOS</speaker>
             <l>Pues vaya de baile, vaya de fiesta,</l>
             <l>en vez de perdón, aplauso y licencia.</l>

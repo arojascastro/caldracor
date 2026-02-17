@@ -3608,8 +3608,7 @@
         </div>
         <div type="scene" resp="#rojas" n="27">
           <stage> Salen todos. </stage>
-          <sp
-            who="#hernando #otanez #don-juan #don-pedro #mari-nuno #brigida #don-toribio #don-alonso">
+          <sp who="#hernando #otanez #don-juan #don-pedro #mari-nuno #brigida #don-toribio #don-alonso">
             <speaker> TODOS </speaker>
             <l part="I"> ¿Qué es esto? </l>
           </sp>

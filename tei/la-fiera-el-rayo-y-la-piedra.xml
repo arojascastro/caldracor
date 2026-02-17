@@ -35,8 +35,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/la-fiera-el-rayo-y-la-piedra--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-fiera-el-rayo-y-la-piedra--0/html/</idno>
           <bibl type="originalSource">
             <title> Edición digital a partir de Tercera parte de comedias de D. Pedro Calderón de la
               Barca, Madrid, Por Domingo García Morràs. A costa de Domingo Palacio y Villegas, 1664.
@@ -300,8 +299,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000028"
-        passive="http://www.wikidata.org/entity/Q5966696"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000028" passive="http://www.wikidata.org/entity/Q5966696"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -8576,8 +8574,7 @@
         </div>
         <div type="scene" resp="#rojas" n="26">
           <stage>Vanse las dos.</stage>
-          <sp
-            who="#anajarte #anteros #cupido #pasquín #céfiro #pigmaleón #irífile #ifis #anteo #música">
+          <sp who="#anajarte #anteros #cupido #pasquín #céfiro #pigmaleón #irífile #ifis #anteo #música">
             <speaker>TODOS</speaker>
             <l>Retirémosle de aquí.</l>
           </sp>
@@ -8614,8 +8611,7 @@
           <stage>Aquí se descubre la máscara, repartida en dos coros de música de siete voces cada
             uno; cada uno cuatro mujeres y tres hombres, y en una tropa de doce mujeres que son las
             que han de danzar, y en lo alto la FORTUNA.</stage>
-          <sp
-            who="#anajarte #anteros #cupido #pasquín #céfiro #pigmaleón #lebrón #irífile #ifis #anteo #música #hombres #mujeres">
+          <sp who="#anajarte #anteros #cupido #pasquín #céfiro #pigmaleón #lebrón #irífile #ifis #anteo #música #hombres #mujeres">
             <speaker>TODOS</speaker>
             <l n="1305">¡Muera, muera el Amor vendado y ciego!</l>
             <l>¡Viva el correspondido Amor perfecto!</l>

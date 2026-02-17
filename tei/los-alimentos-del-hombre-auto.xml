@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra/los-alimentos-del-hombre-auto/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra/los-alimentos-del-hombre-auto/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la edición de Miguel Zugasti, Pamplona / Kassel,
               Universidad de Navarra / Reichenberger, 2009. ISBN: 978-3-937734-75-0.</title>
@@ -1384,8 +1383,7 @@
             <l>y tú oye la norabuena</l>
             <l n="700">de unirse en él...</l>
           </sp>
-          <sp
-            who="#padre #emanuel #estio #otono #demonio #razon #apetito #adamo #primavera #musicos #angel">
+          <sp who="#padre #emanuel #estio #otono #demonio #razon #apetito #adamo #primavera #musicos #angel">
             <speaker>TODOS</speaker>
             <l>... al candor de la azucena,</l>
             <l>lo encarnado del clavel.</l>
@@ -1409,8 +1407,7 @@
             <l>dar más no puedo a tu pena</l>
             <l>que esa azada. Une tú en él…</l>
           </sp>
-          <sp
-            who="#padre #emanuel #estio #otono #demonio #razon #apetito #musicos #angel #adamo #primavera">
+          <sp who="#padre #emanuel #estio #otono #demonio #razon #apetito #musicos #angel #adamo #primavera">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>… al candor de la azucena,</l>
             <l n="715">lo encarnado del clavel.</l>
@@ -1826,8 +1823,7 @@
             <l>… gloria a Dios en las alturas</l>
             <l n="955">y paz al hombre en el suelo.</l>
           </sp>
-          <sp
-            who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #adamo #invierno #musicos">
+          <sp who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #adamo #invierno #musicos">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
@@ -1846,8 +1842,7 @@
             <l>¿a qué efecto es repetida</l>
             <l part="I">de todos?</l>
           </sp>
-          <sp
-            who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo #invierno">
+          <sp who="#emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo #invierno">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l part="F">A la venida</l>
@@ -1868,8 +1863,7 @@
             <l>el primero, cuyo celo</l>
             <l>de entre esotras voces puras…</l>
           </sp>
-          <sp
-            who="#invierno #emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo">
+          <sp who="#invierno #emanuel #demonio #razon #angel #primavera #lucero #estio #apetito #aurora #otono #musicos #adamo">
             <speaker>ÉL Y TODOS</speaker>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
@@ -1917,8 +1911,7 @@
             <l>dará con festivo anhelo,</l>
             <l n="1005">celebrando sus venturas…</l>
           </sp>
-          <sp
-            who="#invierno #demonio #razon #angel #primavera #lucero #estio #aurora #otono #musicos #adamo #apetito #emanuel #acompanamiento">
+          <sp who="#invierno #demonio #razon #angel #primavera #lucero #estio #aurora #otono #musicos #adamo #apetito #emanuel #acompanamiento">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>Gloria a Dios en las alturas</l>
             <l>y paz al hombre en el suelo.</l>
@@ -2596,8 +2589,7 @@
             <speaker>LOS TRES</speaker>
             <l>Por más que repita el viento…</l>
           </sp>
-          <sp
-            who="#musicos #invierno #demonio #primavera #lucero #estio #aurora #otono #emanuel #acompanamiento #apetito #razon #angel #adamo">
+          <sp who="#musicos #invierno #demonio #primavera #lucero #estio #aurora #otono #emanuel #acompanamiento #apetito #razon #angel #adamo">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>Todos en su venida</l>
             <l>nos alegremos,</l>
@@ -2702,8 +2694,7 @@
             <l>que cordero inmolado</l>
             <l>dice misterios.</l>
           </sp>
-          <sp
-            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #angel #adamo #primavera #estio #otono #invierno #musicos #emanuel">
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #angel #adamo #primavera #estio #otono #invierno #musicos #emanuel">
             <speaker>TODOS</speaker>
             <stage>Cantado</stage>
             <l n="1480">Pües también tu agrado</l>
@@ -2963,8 +2954,7 @@
             <l>se ha de componer el himno</l>
             <l>que tras ti cantando iremos.</l>
           </sp>
-          <sp
-            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué himno?</l>
           </sp>
@@ -2980,8 +2970,7 @@
         <div type="scene" resp="#rojas" n="22">
           <stage>Cantando la PRIMAVERA y respondiendo la mujer. Sale el DEMONIO como oyendo a lo
             lejos. (Cantado)</stage>
-          <sp
-            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
             <speaker>TODOS</speaker>
             <l>«Pues desheredado el hombre,</l>
             <l n="1650">humilde pide alimentos».</l>
@@ -2992,8 +2981,7 @@
             <l>Contestando su demanda</l>
             <l>en el oficio del rezo.</l>
           </sp>
-          <sp
-            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #emanuel #primavera">
             <speaker>TODOS</speaker>
             <l>«Contestando su demanda</l>
             <l>en el oficio del rezo».</l>
@@ -3011,8 +2999,7 @@
             <l>Dices bien, y así con todos</l>
             <l n="1660">iré yo también diciendo…</l>
           </sp>
-          <sp
-            who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #primavera #emanuel">
+          <sp who="#demonio #lucero #aurora #acompanamiento #apetito #razon #adamo #estio #otono #invierno #musicos #angel #primavera #emanuel">
             <speaker>TODOS</speaker>
             <l>¿Quién duda, si él pone el llanto,</l>
             <l>si custudio pone el ruego</l>
@@ -3259,8 +3246,7 @@
             <l>repitiendo los ecos que veloces</l>
             <l>en ese patio están diciendo a voces…</l>
           </sp>
-          <sp
-            who="#lucero #aurora #acompanamiento #apetito #razon #adamo #angel #emanuel #justicia #invierno #musicos #demonio #primavera #estio #otono">
+          <sp who="#lucero #aurora #acompanamiento #apetito #razon #adamo #angel #emanuel #justicia #invierno #musicos #demonio #primavera #estio #otono">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1790">Vengan las partes, vengan,</l>
             <l>del pleito de alimentos a oír sentencia.</l>
@@ -3574,8 +3560,7 @@
             <speaker>MÚSICA</speaker>
             <l part="F">Silencio.</l>
           </sp>
-          <sp
-            who="#aurora #acompanamiento #invierno #otono #estio #primavera #razon #emanuel #adamo #apetito #padre #angel #demonio #coro-1 #coro-2 #justicia #musicos">
+          <sp who="#aurora #acompanamiento #invierno #otono #estio #primavera #razon #emanuel #adamo #apetito #padre #angel #demonio #coro-1 #coro-2 #justicia #musicos">
             <speaker>TODOS</speaker>
             <l n="1975">Justicia, clemencia.</l>
           </sp>
@@ -3971,8 +3956,7 @@
             <l>Pues todo ha parado en dicha,</l>
             <l>acabe también en fiesta.</l>
           </sp>
-          <sp
-            who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
+          <sp who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
             <speaker>TODOS</speaker>
             <l part="I">¿De qué suerte?</l>
           </sp>
@@ -3981,8 +3965,7 @@
             <l part="F">¿Qué dijimos</l>
             <l>al convocar esta audiencia?</l>
           </sp>
-          <sp
-            who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
+          <sp who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="2240">Vengan las partes, vengan</l>
             <l>al pleito de alimentos a oír sentencia.</l>
@@ -3998,8 +3981,7 @@
             <l>que empieza en justicia</l>
             <l>y acaba en clemencia.</l>
           </sp>
-          <sp
-            who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
+          <sp who="#acompanamiento #apetito #coro-1 #coro-2 #musicos #estio #otono #invierno #aurora #demonio #padre #emanuel #justicia #angel #adamo #razon #primavera">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="2250">Vengan todos, todos vengan</l>
             <l>a tan piadosa audiencia,</l>

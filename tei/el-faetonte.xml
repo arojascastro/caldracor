@@ -233,8 +233,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000013"
-        passive="http://www.wikidata.org/entity/Q69034587"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000013" passive="http://www.wikidata.org/entity/Q69034587"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -2061,8 +2060,7 @@
             <l part="F">Que sea no ignoro</l>
             <l n="760">la letra que acompañe esos extremos.</l>
           </sp>
-          <sp
-            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l>Empieza tú, que todas seguiremos.</l>
           </sp>
@@ -2071,8 +2069,7 @@
             <stage>Cante.</stage>
             <l>Los casos dificultosos.</l>
           </sp>
-          <sp
-            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l>Los casos dificultosos.</l>
           </sp>
@@ -2080,8 +2077,7 @@
             <speaker>DORIS</speaker>
             <l>Con razón son envidiados.</l>
           </sp>
-          <sp
-            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l n="765">Con razón son envidiados.</l>
           </sp>
@@ -2089,8 +2085,7 @@
             <speaker>DORIS</speaker>
             <l>Inténtanlos los osados.</l>
           </sp>
-          <sp
-            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l>Inténtanlos los osados.</l>
           </sp>
@@ -2098,8 +2093,7 @@
             <speaker>DORIS</speaker>
             <l>Y acábanlos los dichosos.</l>
           </sp>
-          <sp
-            who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
+          <sp who="#tetis #faetón #epafo #admeto #eridano #amaltea #galatea #ninfas #soldados-y-acompañamiento">
             <speaker>TODAS</speaker>
             <l>Y acábanlos los dichosos.</l>
           </sp>
@@ -5158,8 +5152,7 @@
             <speaker>MÚSICA</speaker>
             <l> Y todos [decid].</l>
           </sp>
-          <sp
-            who="#admeto #epafo #tetis #amaltea #galatea #música #climene #eridano #coro-1 #coro-2 #coro-3">
+          <sp who="#admeto #epafo #tetis #amaltea #galatea #música #climene #eridano #coro-1 #coro-2 #coro-3">
             <speaker>TODOS</speaker>
             <l> Al templo inmortal de la sacra Diana</l>
             <l> hermosa y gentil,</l>
@@ -5276,8 +5269,7 @@
             <l>¿Cómo a merendarme a mí</l>
             <l part="I">te atrevías?</l>
           </sp>
-          <sp
-            who="#admeto #epafo #tetis #faetón #amaltea #galatea #música #eridano #coro-1 #coro-2 #coro-3">
+          <sp who="#admeto #epafo #tetis #faetón #amaltea #galatea #música #eridano #coro-1 #coro-2 #coro-3">
             <speaker>TODOS</speaker>
             <l part="F">¿Cómo ahora</l>
             <l part="I">aún no respondes?</l>
@@ -5491,8 +5483,7 @@
             <l>¿No digo yo bien que es loco?</l>
             <l>Arrojadle, echadle de ahí.</l>
           </sp>
-          <sp
-            who="#epafo #tetis #batillo #amaltea #galatea #música #climene #eridano #coro-1 #coro-2 #coro-3">
+          <sp who="#epafo #tetis #batillo #amaltea #galatea #música #climene #eridano #coro-1 #coro-2 #coro-3">
             <speaker>TODOS</speaker>
             <l>Vaya el loco, vaya el loco.</l>
           </sp>

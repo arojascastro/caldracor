@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/amor-honor-y-poder--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/amor-honor-y-poder--0/html/</idno>
           <bibl type="originalSource">
             <title> Edición digital a partir de la Segunda parte de Comedias de don Pedro Calderón
               de la Barca, Madrid, Por María de Quiñónez, 1637. Localización: Base de DatosTeatro
@@ -168,8 +167,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000004"
-        passive="http://www.wikidata.org/entity/Q5672955"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000004" passive="http://www.wikidata.org/entity/Q5672955"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
