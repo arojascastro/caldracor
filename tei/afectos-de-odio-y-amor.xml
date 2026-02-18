@@ -51,7 +51,10 @@
           <person xml:id="sigismundo" sex="MALE">
             <persName>Sigismundo</persName>
             <trait source="#calderondigital">
-              <desc>galán</desc>
+              <desc>rey</desc>
+            </trait>
+            <trait source="#calderondigital">
+              <desc>enamorado</desc>
             </trait>
             <trait type="role">
               <desc>fictional</desc>
@@ -62,6 +65,12 @@
             <trait source="#calderondigital">
               <desc>duque</desc>
             </trait>
+            <trait source="#calderondigital">
+              <desc>hermano</desc>
+            </trait>
+            <trait source="#calderondigital">
+              <desc>enamorado</desc>
+            </trait>
             <trait type="role">
               <desc>fictional</desc>
             </trait>
@@ -70,6 +79,9 @@
             <persName>Federico</persName>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait source="#calderondigital">
+              <desc>enamorado</desc>
             </trait>
             <trait type="role">
               <desc>fictional</desc>
@@ -109,6 +121,9 @@
             <persName>Auristela</persName>
             <trait source="#calderondigital">
               <desc>hermana</desc>
+            </trait>
+            <trait source="#calderondigital">
+              <desc>enamorada</desc>
             </trait>
             <trait type="role">
               <desc>fictional</desc>

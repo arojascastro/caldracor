@@ -88,8 +88,8 @@
           </person>
           <person xml:id="poliarco" sex="MALE">
             <persName>Poliarco</persName>
-            <trait source="castlist">
-              <desc>criado</desc>
+            <trait source="#calderondigital">
+              <desc>enamorado</desc>
             </trait>
             <trait source="#calderondigital">
               <desc>delfín</desc>
@@ -100,6 +100,9 @@
           </person>
           <person xml:id="arcombroto" sex="MALE">
             <persName>Arcombroto</persName>
+            <trait source="#calderondigital">
+              <desc>enamorado</desc>
+            </trait>
             <trait source="#calderondigital">
               <desc>amigo</desc>
             </trait>
@@ -154,6 +157,9 @@
           </person>
           <personGrp xml:id="dama" sex="FEMALE">
             <persName>Dos damas suyas</persName>
+            <trait source="#calderondigital">
+              <desc>damas</desc>
+            </trait>
           </personGrp>
           <person xml:id="timonides" sex="MALE">
             <persName>Timonides</persName>
