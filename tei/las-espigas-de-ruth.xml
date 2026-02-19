@@ -1217,8 +1217,7 @@
           <stage>Representando los unos y cantando los otros. Se van LUCERO y DISCORDIA y salen
             vestidos de segadores todos los MÚSICOS y MÚSICAS que puedan, y con ellos LEVI viejo,
             rústico mayoral, y SIMEÓN, segador galán, y CELFA, villana.</stage>
-          <sp
-            who="#sembrador #labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #levi #simeon #celfa">
+          <sp who="#sembrador #labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #levi #simeon #celfa">
             <speaker>TODOS</speaker>
             <l>¡Ven, hermosa aurora, en quien</l>
             <l>se alivian nuestras fatigas,</l>
@@ -1283,8 +1282,7 @@
             <l>le descubro cargado</l>
             <l part="I">de olla y banasta.</l>
           </sp>
-          <sp
-            who="#sembrador #labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #levi #segador-2 #celfa #simeon">
+          <sp who="#sembrador #labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #levi #segador-2 #celfa #simeon">
             <speaker>TODOS</speaker>
             <l part="F">El sea bien llegado.</l>
           </sp>
@@ -1368,8 +1366,7 @@
             <l n="615">Es venir Zafio presto tal maravilla</l>
             <l>que en él vemos estrellas a mediodía.</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #segador-2 #simeon #segador-3 #levi #celfa #musicos">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #segador-2 #simeon #segador-3 #levi #celfa #musicos">
             <speaker>TODOS</speaker>
             <l>Seas, Zafio, bien venido.</l>
           </sp>
@@ -1406,8 +1403,7 @@
             <l n="630">por hoy, amigos, paciencia</l>
             <l>y sorber y no mascar.</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #segador-2 #simeon #segador-3 #levi #celfa #musicos #zafio">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #lucero #segador-1 #segador-2 #simeon #segador-3 #levi #celfa #musicos #zafio">
             <speaker>TODOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
@@ -1655,8 +1651,7 @@
             <l>con algo cansancio y sol,</l>
             <l>el tono en vaya se vuelva.</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #segador-2 #segador-3 #levi #zafio #musicos #lucero #simeon #celfa">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #segador-2 #segador-3 #levi #zafio #musicos #lucero #simeon #celfa">
             <speaker>TODOS</speaker>
             <l>¿Dónde van las peregrinas?</l>
           </sp>
@@ -1726,8 +1721,7 @@
             <l>de la vida, sin hacer</l>
             <l>de achaques del mundo cuenta.</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #segador-2 #segador-3 #levi #musicos #simeon #noemi #celfa #zafio #lucero #ruth">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #segador-2 #segador-3 #levi #musicos #simeon #noemi #celfa #zafio #lucero #ruth">
             <speaker>TODOS</speaker>
             <l>Deja la vieja caduca,</l>
             <l part="I">hermosa beldad.</l>
@@ -1873,8 +1867,7 @@
         </div>
         <div type="scene" resp="#rojas" n="8">
           <stage>Vase.</stage>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #levi #musicos #segador-2 #segador-3 #celfa #zafio #ruth #lucero #noemi #simeon">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #levi #musicos #segador-2 #segador-3 #celfa #zafio #ruth #lucero #noemi #simeon">
             <speaker>TODOS</speaker>
             <l part="F">¡Dios os ampare!</l>
           </sp>
@@ -2241,8 +2234,7 @@
             <l>prevengámosle algún baile</l>
             <l>para cuando al valle vuelva.</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #celfa #noemi #levi #lucero #booz #ruth #zafio">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #celfa #noemi #levi #lucero #booz #ruth #zafio">
             <speaker>TODOS</speaker>
             <l part="I">Dices bien.</l>
           </sp>
@@ -2268,8 +2260,7 @@
             <speaker>CELFA</speaker>
             <l>¡Ay, que me quiere morir!</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #noemi #levi #lucero #booz #ruth #zafio #celfa">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #noemi #levi #lucero #booz #ruth #zafio #celfa">
             <speaker>TODOS</speaker>
             <l part="I">Teneos.</l>
           </sp>
@@ -2281,8 +2272,7 @@
             <l n="1045">que no he de quedarme así</l>
             <l part="I">toda la vida.</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #noemi #levi #lucero #booz #ruth #celfa #zafio">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #discordia #segador-1 #musicos #segador-2 #segador-3 #simeon #noemi #levi #lucero #booz #ruth #celfa #zafio">
             <speaker>TODOS</speaker>
             <l part="F">Huye, Celfa.</l>
           </sp>
@@ -2561,8 +2551,7 @@
             <l>si mi caída primera</l>
             <l>fue el lazo de la discordia?</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #celfa #zafio #ruth #noemi #booz #musicos #discordia #lucero">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #celfa #zafio #ruth #noemi #booz #musicos #discordia #lucero">
             <speaker>TODOS</speaker>
             <l part="I">Levantaos.</l>
           </sp>
@@ -2579,8 +2568,7 @@
             <l>fuera del corro estropeado,</l>
             <l part="I">sin él vuelva el baile.</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #celfa #ruth #noemi #booz #musicos #discordia #lucero #zafio">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #celfa #ruth #noemi #booz #musicos #discordia #lucero #zafio">
             <speaker>TODOS</speaker>
             <l part="F">Vuelva.</l>
           </sp>
@@ -2619,8 +2607,7 @@
             <speaker>CELFA</speaker>
             <l part="M">Vuelva el baile.</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #ruth #booz #musicos #noemi #zafio #discordia #lucero #celfa">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #ruth #booz #musicos #noemi #zafio #discordia #lucero #celfa">
             <speaker>TODOS</speaker>
             <l part="F">Vuelva.</l>
           </sp>
@@ -2649,8 +2636,7 @@
             <speaker>LOS DOS</speaker>
             <l part="I">Nada es. Vuelva al baile.</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #ruth #booz #discordia #lucero #musicos #celfa #zafio #noemi">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #simeon #levi #ruth #booz #discordia #lucero #musicos #celfa #zafio #noemi">
             <speaker>TODOS</speaker>
             <l part="F">Vuelva.</l>
           </sp>
@@ -3141,8 +3127,7 @@
             <l n="1455">Que no tiene que llegar</l>
             <l part="I">adonde está la...</l>
           </sp>
-          <sp
-            who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #celfa #simeon #noemi #zafio #booz #levi #musicos #mayoral #ruth #discordia #lucero">
+          <sp who="#labradores #sacerdote #joseph #melchisedech #abraham #acompanamiento #segador-1 #segador-2 #segador-3 #celfa #simeon #noemi #zafio #booz #levi #musicos #mayoral #ruth #discordia #lucero">
             <speaker>TODOS</speaker>
             <l part="F">¡Cizaña</l>
             <l>en los trigos ha nacido!</l>
@@ -3829,8 +3814,7 @@
             <l>de Ruth esas voces altas</l>
             <l part="I">repitan</l>
           </sp>
-          <sp
-            who="#acompanamiento #segador-1 #segador-2 #segador-3 #celfa #zafio #mayoral #levi #sembrador #angel #nina #sacerdote #nino #joseph #melchisedech #abraham #musicos #discordia #coro-1 #coro-2 #coro-3 #coro-4 #noemi #simeon #booz #ruth #lucero #casio">
+          <sp who="#acompanamiento #segador-1 #segador-2 #segador-3 #celfa #zafio #mayoral #levi #sembrador #angel #nina #sacerdote #nino #joseph #melchisedech #abraham #musicos #discordia #coro-1 #coro-2 #coro-3 #coro-4 #noemi #simeon #booz #ruth #lucero #casio">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">Diciendo todos,</l>
             <l>humildes a vuestras plantas:</l>

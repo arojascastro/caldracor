@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/casa-con-dos-puertas-mala-es-de-guardar--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/casa-con-dos-puertas-mala-es-de-guardar--0/html/</idno>
           <bibl type="originalSource">
             <title> Edición digital a partir de la Primera parte de Comedias de don Pedro Calderón
               de la Barca, Madrid, Por la viuda de Juan Sánchez, a costa de Gabriel de León, 1640.
@@ -172,8 +171,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000006"
-        passive="http://www.wikidata.org/entity/Q16490369"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000006" passive="http://www.wikidata.org/entity/Q16490369"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

@@ -33,8 +33,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-mayor-monstruo-del-mundo--1/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-mayor-monstruo-del-mundo--1/html/</idno>
           <bibl type="originalSource">
             <title>Edición original en Biblioteca de la Universidad de Alicante. Revisada por el
               editor para la Biblioteca Virtual Miguel de Cervantes. Edición digital a partir de la
@@ -4243,8 +4242,7 @@
             <l> en ambos coros uno y otro estruendo... </l>
             <stage>Música.</stage>
           </sp>
-          <sp
-            who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
+          <sp who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
             <speaker>TODOS Y MÚSICA</speaker>
             <l>¡Viva Octaviano, viva!</l>
             <l>Y en los campos de Oriente</l>
@@ -4289,8 +4287,7 @@
             <speaker>LOS DOS</speaker>
             <l part="I"> Diciendo a voces... </l>
           </sp>
-          <sp
-            who="#capitán #filipo #mariene #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
+          <sp who="#capitán #filipo #mariene #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
             <speaker>TODOS</speaker>
             <l part="F"> ¡Octaviano viva! </l>
           </sp>
@@ -4672,8 +4669,7 @@
             <l part="F"> Sea diciendo: </l>
             <l part="I"> ¡Viva Octaviano! </l>
           </sp>
-          <sp
-            who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
+          <sp who="#capitán #filipo #mariene #música #octaviano #polidoro #soldado-1 #soldado-2 #tetrarca #tolomeo">
             <speaker>TODOS Y MÚSICA</speaker>
             <l part="F">¡Viva!</l>
             <l>Y en los campos de Oriente</l>

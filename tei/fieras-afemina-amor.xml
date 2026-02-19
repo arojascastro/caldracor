@@ -41,8 +41,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/fieras-afemina-amor--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/fieras-afemina-amor--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la Quinta parte de las Comedias de Don Pedro Calderón
               de la Barca, Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos
@@ -1586,8 +1585,7 @@
 
             <l>... a quejas de Amor cuantos lloran sus quejas.</l>
           </sp>
-          <sp
-            who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
+          <sp who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -1676,8 +1674,7 @@
             <l>la rara hermosura de Yole, que es bien,</l>
             <l>pues niega esplendores, que sombras le venzan.</l>
           </sp>
-          <sp
-            who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
+          <sp who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -1697,8 +1694,7 @@
 
             <l>Sí haré, porque todos repitan...</l>
           </sp>
-          <sp
-            who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
+          <sp who="#coro-primero #coro-segundo #cupido #egle #hércules #licas #música #rey #venus #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 
@@ -7493,8 +7489,7 @@
             <l>y entrad todos.</l>
           </sp>
           <stage>(ARISTEO, LICAS y soldados.)</stage>
-          <sp
-            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7557,8 +7552,7 @@
             <l>ni oye ni mira ni alienta:</l>
             <l>no forcéis su libertad.</l>
           </sp>
-          <sp
-            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7595,8 +7589,7 @@
 
             <l>¡Seguidle!</l>
           </sp>
-          <sp
-            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7656,8 +7649,7 @@
             <l>bien como le representa</l>
             <l>ya pinceles y ya plumas.</l>
           </sp>
-          <sp
-            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7774,8 +7766,7 @@
             <l>... que si él afemina fieras,</l>
             <l>fieras afemina Amor.</l>
           </sp>
-          <sp
-            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7787,8 +7778,7 @@
 
             <l>Pues otra mayor le resta.</l>
           </sp>
-          <sp
-            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -7824,8 +7814,7 @@
             <l>el perdón, diciendo todos,</l>
             <l>puestos a las plantas vuestras...</l>
           </sp>
-          <sp
-            who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #música #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
+          <sp who="#aristeo #calíope #cautivos #cupido #egle #hesperia #hércules #licas #música #ninfas #venus #verusa #voz-primera #voz-segunda #voz-tercera #yole">
             <speaker rend="caps">Todos y Música</speaker>
 
 

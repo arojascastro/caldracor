@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/psiquis-y-cupido-que-escribio-para-esta-villa-de-madrid--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/psiquis-y-cupido-que-escribio-para-esta-villa-de-madrid--0/html/</idno>
           <bibl type="originalSource">
             <title> Edición digital a partir de Autos sacramentales, alegoricos, y historiales de
               Don Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y
@@ -188,8 +187,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000051"
-        passive="http://www.wikidata.org/entity/Q68906979"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000051" passive="http://www.wikidata.org/entity/Q68906979"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -3308,8 +3306,7 @@
             <l>todos los suyos; qué dura.</l>
           </sp>
           <stage>Anda el ODIO como inspirando en ellos.</stage>
-          <sp
-            who="#hebraísmo #mundo #gentilidad #sencillez #malicia #edad-primera #edad-segunda #edad-tercera">
+          <sp who="#hebraísmo #mundo #gentilidad #sencillez #malicia #edad-primera #edad-segunda #edad-tercera">
             <speaker>TODOS</speaker>
             <l>Qué dura.</l>
           </sp>
@@ -3436,8 +3433,7 @@
             <speaker>HEBRAÍSMO</speaker>
             <l>Con tus palacios te queda.</l>
           </sp>
-          <sp
-            who="#mundo #gentilidad #sencillez #malicia #edad-primera #edad-segunda #edad-tercera #odio">
+          <sp who="#mundo #gentilidad #sencillez #malicia #edad-primera #edad-segunda #edad-tercera #odio">
             <speaker>TODOS</speaker>
             <l n="1625">Que nosotros no lo hemos</l>
             <l>de creer hasta que se vea.</l>
@@ -3858,8 +3854,7 @@
         </div>
         <div type="scene" resp="#rojas" n="37">
           <stage>Terremoto, y salen por diversas partes todos con asombro.</stage>
-          <sp
-            who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #mundo #odio #sencillez">
+          <sp who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #mundo #odio #sencillez">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l part="F">¡Qué asombro!</l>
@@ -3932,8 +3927,7 @@
             <l>pero no me desconfían,</l>
             <l>pues puedo volver a ella.</l>
           </sp>
-          <sp
-            who="#hebraísmo #gentilidad #edad-primera #edad-segunda #malicia #mundo #odio #sencillez">
+          <sp who="#hebraísmo #gentilidad #edad-primera #edad-segunda #malicia #mundo #odio #sencillez">
             <speaker>TODOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
@@ -3946,8 +3940,7 @@
           </sp>
           <stage>Vuelven a verse palacios y jardines, aparadores y mesas y en ella el AMOR con cáliz
             y hostia.</stage>
-          <sp
-            who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #mundo #odio #sencillez">
+          <sp who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #mundo #odio #sencillez">
             <speaker>TODOS</speaker>
             <l part="I">Será en vano.</l>
           </sp>
@@ -4020,8 +4013,7 @@
             <l>el dolor, cuando repitan,</l>
             <l>mudando el tono y la letra.</l>
           </sp>
-          <sp
-            who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #amor #odio #sencillez #música">
+          <sp who="#hebraísmo #gentilidad #edad-primera #edad-segunda #edad-tercera #malicia #amor #odio #sencillez #música">
             <speaker>TODOS y MÚSICOS</speaker>
             <l>Venturosa de ti, Naturaleza,</l>
             <l n="1850">venturosa de ti, pues a creer llegas</l>

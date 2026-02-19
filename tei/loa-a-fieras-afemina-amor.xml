@@ -35,8 +35,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/loa-a-fieras-afemina-amor--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-a-fieras-afemina-amor--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la Quinta parte de las Comedias de Don Pedro Calderón
               de la Barca, Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos
@@ -535,8 +534,7 @@
             <l>que cumplan y gocen edades eternas.</l>
           </sp>
           <stage>Todos y MÚSICA dentro.</stage>
-          <sp
-            who="#el-águila #el-fénix #el-pavón #música #enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #octubre #noviembre #diciembre">
+          <sp who="#el-águila #el-fénix #el-pavón #música #enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #octubre #noviembre #diciembre">
             <speaker>TODOS</speaker>
             <l>Pues todos digamos, en voces diversas,</l>
             <l>que Carlos Segundo ofrece a su madre,</l>
@@ -790,8 +788,7 @@
             <l>yo mi mayor excelencia,</l>
             <l n="295">con que he de exceder a todos.</l>
           </sp>
-          <sp
-            who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #diciembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo">
+          <sp who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #diciembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo">
             <speaker>TODOS</speaker>
             <l part="I">¿Cómo?</l>
           </sp>
@@ -827,8 +824,7 @@
             <l>que a mí llegara, tuviera</l>
             <l n="315">merecida la guirnalda.</l>
           </sp>
-          <sp
-            who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #octubre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #escorpión #capricornio #sagitario #virgo">
+          <sp who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #octubre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #escorpión #capricornio #sagitario #virgo">
             <speaker>TODOS</speaker>
             <l>¿Qué razón puede ser esa?</l>
           </sp>
@@ -931,8 +927,7 @@
             <l>del sol, es de todo el año</l>
             <l part="I">el menor...</l>
           </sp>
-          <sp
-            who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
+          <sp who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
             <speaker>TODOS</speaker>
             <l part="F">... vencer intentas</l>
             <l part="I">a todos?</l>
@@ -941,8 +936,7 @@
             <speaker>DICIEMBRE</speaker>
             <l part="F">Como hay razón.</l>
           </sp>
-          <sp
-            who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
+          <sp who="#enero #febrero #marzo #abril #mayo #junio #julio #agosto #setiembre #noviembre #acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué razón puede ser?</l>
           </sp>
@@ -1016,8 +1010,7 @@
             <l part="I">descendamos.</l>
           </sp>
           <stage>Todos los SIGNOS.</stage>
-          <sp
-            who="#acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
+          <sp who="#acuario #piscis #ariete #tauro #géminis #cancro #león #libra #capricornio #sagitario #virgo #escorpión">
             <speaker>[SIGNOS]</speaker>
             <l part="F">Descendamos,</l>
             <l>diciendo en voces diversas...</l>

@@ -33,8 +33,7 @@
       <sourceDesc>
         <bibl type="sourceText">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-alcalde-de-zalamea-0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-alcalde-de-zalamea-0/html/</idno>
           <bibl type="originalSource">
             <title>Texto base: Comedia famosa / El alcalde de Zalamea, en El mejor de los mejores
               libros que ha salido de comedias, impreso en Alcalá de Henares por María Fernández en
@@ -195,8 +194,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000080"
-        passive="http://www.wikidata.org/entity/Q686158"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000080" passive="http://www.wikidata.org/entity/Q686158"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

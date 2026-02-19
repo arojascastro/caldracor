@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/los-encantos-de-la-culpa--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/los-encantos-de-la-culpa--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la de Pedro del Pando y Mier, Autos Sacramentales,
               alegóricos y historiales..., Madrid, Manuel Ruiz de Murga, 1717 y cotejada con la
@@ -181,8 +180,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000048"
-        passive="http://www.wikidata.org/entity/Q30899717"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000048" passive="http://www.wikidata.org/entity/Q30899717"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -2352,8 +2350,7 @@
             <l>Dices bien, Entendimiento;</l>
             <l>de aquí mis sentidos saca.</l>
           </sp>
-          <sp
-            who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <l n="1275">Vamos al bajel, que aquí</l>
             <l>todo es sombras y fantasmas.</l>
@@ -2386,8 +2383,7 @@
             <l>Sí; pero éstos son regalos</l>
             <l>con que más mérito alcanza.</l>
           </sp>
-          <sp
-            who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <stage>Dentro</stage>
             <l>¡Buen viaje! ¡Buen viaje!</l>
@@ -2451,8 +2447,7 @@
             <l>encrespando las espumas</l>
             <l n="1320">vidrios de nieve y de plata.</l>
           </sp>
-          <sp
-            who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <l>Buen viaje, buen viaje,</l>
             <l>que vientos y ondas se amansan.</l>
@@ -2500,8 +2495,7 @@
             <l>manjar que da por vianda.</l>
             <stage>Ruido de terremoto y húndense los palacios.</stage>
           </sp>
-          <sp
-            who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
+          <sp who="#penitencia #lisonja #gula #entendimiento #lascivia #hombre #olfato #gusto #vista #oído #tacto">
             <speaker>TODOS</speaker>
             <l n="1355">A cuyo grande milagro</l>
             <l>el mundo mil fiestas haga,</l>

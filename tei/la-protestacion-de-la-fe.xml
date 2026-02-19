@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/la-protestacion-de-la-fe--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-protestacion-de-la-fe--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por Gregory Peter Andrachuk procedente de la edición
               Calderón de la Barca, Pedro, La protestación de la fe, ed. Gregory Peter Andrachuk,
@@ -192,8 +191,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000035"
-        passive="http://www.wikidata.org/entity/Q69033505"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000035" passive="http://www.wikidata.org/entity/Q69033505"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -2646,8 +2644,7 @@
             <l n="1525">Cantad hoy las de Cristina,</l>
             <l>que son las que más me ensalzan.</l>
           </sp>
-          <sp
-            who="#la-herejía #la-religión #la-sabiduría #un-etíope #la-reina-cristina #la-penitencia #la-oración #la-fe">
+          <sp who="#la-herejía #la-religión #la-sabiduría #un-etíope #la-reina-cristina #la-penitencia #la-oración #la-fe">
             <speaker>TODOS</speaker>
             <l>¿Quién hallará mujer fuerte?</l>
             <l>Quien advierte</l>
@@ -2944,8 +2941,7 @@
             <l>Después que hayamos pedido</l>
             <l>el perdón de nuestras faltas…</l>
           </sp>
-          <sp
-            who="#la-sabiduría #la-reina-cristina #la-herejía #la-penitencia #la-oración #un-etíope #la-fe #la-religión">
+          <sp who="#la-sabiduría #la-reina-cristina #la-herejía #la-penitencia #la-oración #un-etíope #la-fe #la-religión">
             <speaker>TODOS</speaker>
             <l n="1665">A tan grande sacramento</l>
             <l>venere el mundo rendido,</l>

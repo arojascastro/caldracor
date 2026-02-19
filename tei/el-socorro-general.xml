@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-socorro-general--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-socorro-general--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de
               la Barca, Pedro, El socorro general, ed. Ignacio Are-llano, Pamplona–Kassel,
@@ -172,8 +171,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000022"
-        passive="http://www.wikidata.org/entity/Q69034179"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000022" passive="http://www.wikidata.org/entity/Q69034179"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -1177,8 +1175,7 @@
             <l>¡Soldado de la fe soy!</l>
             <l n="625">¡Qué cobarde a pelear voy!</l>
           </sp>
-          <sp
-            who="#acompañamiento #gentilidad #iglesia #bautismo #marineros #oración #orden #penitencia #san-pedro #soldados #zabulón">
+          <sp who="#acompañamiento #gentilidad #iglesia #bautismo #marineros #oración #orden #penitencia #san-pedro #soldados #zabulón">
             <speaker>TODOS</speaker>
             <stage>Dentro.</stage>
             <l>¡Arma, arma; guerra, guerra!</l>
@@ -1227,8 +1224,7 @@
             <l>y lo segundo por si</l>
             <l>se ofrece la fugitiva.</l>
           </sp>
-          <sp
-            who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
+          <sp who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
             <speaker>TODOS</speaker>
             <l part="I">¡Victoria!</l>
           </sp>
@@ -1236,8 +1232,7 @@
             <speaker>UNO</speaker>
             <l part="F">¡La Iglesia viva!</l>
           </sp>
-          <sp
-            who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
+          <sp who="#acompañamiento #apostasía #bautismo #gentilidad #iglesia #marineros #oración #orden #penitencia #san-pedro #soldados">
             <speaker>TODOS</speaker>
             <l part="I">¡Viva!</l>
           </sp>
@@ -1689,8 +1684,7 @@
             <l n="930">al rey que el empíreo asiste</l>
             <l>sobre tronos de diamantes.</l>
           </sp>
-          <sp
-            who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
+          <sp who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
             <speaker>TODOS</speaker>
             <l>Dios inmenso,</l>
             <l>Dios grande,</l>
@@ -1706,8 +1700,7 @@
             <l>los enemigos la embisten,</l>
             <l>los contrarios la combaten.</l>
           </sp>
-          <sp
-            who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
+          <sp who="#apostasía #iglesia #música #sinagoga #bautismo #oración #penitencia #orden #zabulón">
             <speaker>TODOS</speaker>
             <l n="940">Dios inmenso,</l>
             <l>Dios grande,</l>

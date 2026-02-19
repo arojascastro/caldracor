@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-indulto-general--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-indulto-general--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por Ignacio Arellano y Juan Manuel Escudero procedente de
               la edición Calderón de la Barca, Pedro, El indulto general , ed. Ignacio Arellano y
@@ -64,7 +63,7 @@
           </person>
           <person xml:id="adán" sex="MALE">
             <persName>Adán</persName>
-            <idno type="alternative_wikidata">,,</idno>
+            <idno type="wikidata" subtype="alternative">,,</idno>
             <idno type="wikidata">Q70899</idno>
             <trait type="role">
               <desc>allegorical</desc>
@@ -3482,8 +3481,7 @@
             <l>y ella de triunfante oliva,</l>
             <l>reine, goce, triunfe y viva.</l>
           </sp>
-          <sp
-            who="#música #culpa #ángel #justicia #misericordia #gestas #dimas #esposa #mundo #abraham #david #adán">
+          <sp who="#música #culpa #ángel #justicia #misericordia #gestas #dimas #esposa #mundo #abraham #david #adán">
             <speaker>MÚSICA y TODOS</speaker>
             <l n="1775">El príncipe, que deseado</l>
             <l>del cielo por apellido,</l>

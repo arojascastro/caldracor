@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/la-inmunidad-del-sagrado--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-inmunidad-del-sagrado--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por José María Ruano de la Haza, Delia Gavela y Rafael
               Martín procedente de la edición Calderón de la Barca, Pedro, La inmunidad del sagrado,
@@ -2445,8 +2444,7 @@
             <speaker>ÁNGEL 1.º</speaker>
             <l>...el ejecutor también de las iras.</l>
           </sp>
-          <sp
-            who="#ángel-1 #ángel-2 #agua #aire #gracia #misericordia #tierra #fuego #lucero #culpa #justicia #mundo">
+          <sp who="#ángel-1 #ángel-2 #agua #aire #gracia #misericordia #tierra #fuego #lucero #culpa #justicia #mundo">
             <speaker>TODOS</speaker>
             <l>¡Venid, venid a la vista</l>
             <l>del pleito que tratan la Gracia y la Culpa,</l>
@@ -2489,8 +2487,7 @@
             <l>haciendo que todos juntos</l>
             <l>una y otra vez repitan:</l>
           </sp>
-          <sp
-            who="#ángel-1 #ángel-2 #agua #aire #gracia #misericordia #tierra #fuego #lucero #culpa #justicia #mundo">
+          <sp who="#ángel-1 #ángel-2 #agua #aire #gracia #misericordia #tierra #fuego #lucero #culpa #justicia #mundo">
             <speaker>TODOS</speaker>
             <l>¡Venid, mortales, venid,</l>
             <l>venid, venid a la vista,</l>

@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/la-nave-del-mercader--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/la-nave-del-mercader--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por Ignacio Arellano procedente de la edición Calderón de
               la Barca, Pedro, La nave del mercader, ed. Ignacio Arellano, con la colaboración de
@@ -182,8 +181,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000032"
-        passive="http://www.wikidata.org/entity/Q69033759"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000032" passive="http://www.wikidata.org/entity/Q69033759"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -4567,8 +4565,7 @@
             <l>esas perdidas alhajas</l>
             <l>viendo pagadas tus deudas.</l>
           </sp>
-          <sp
-            who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #lascivia #mundo #demonio #hombre">
+          <sp who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #lascivia #mundo #demonio #hombre">
             <speaker>TODOS</speaker>
             <l>Hasta ahora no están pagadas.</l>
           </sp>
@@ -4665,8 +4662,7 @@
             <l>rinda el Mundo vida y alma.</l>
             <stage>Dale la sortija.</stage>
           </sp>
-          <sp
-            who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #mundo #mercader #hombre">
+          <sp who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #mundo #mercader #hombre">
             <speaker>TODOS</speaker>
             <l n="2420">¿Qué esperamos, cuando todo</l>
             <l>el mundo se ve a sus plantas?</l>
@@ -4692,8 +4688,7 @@
             <l>Pues en tanto repitamos</l>
             <l>todos en sus alabanzas...</l>
           </sp>
-          <sp
-            who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #mundo #mercader #hombre #música">
+          <sp who="#deseo #los-cinco-sentidos #memoria #voluntad #entendimiento #tiempo #mundo #mercader #hombre #música">
             <speaker>TODOS Y MÚSICOS</speaker>
             <l>La nave del mercader,</l>
             <l n="2435">que de su trigo cargada</l>

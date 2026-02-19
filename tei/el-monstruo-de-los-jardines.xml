@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-monstruo-de-los-jardines--7/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-monstruo-de-los-jardines--7/html/</idno>
           <bibl type="originalSource">
             <title> Edición digital a partir de la Cuarta parte de las Comedias de Don Pedro
               Calderón de la Barca, Madrid, Por Bernardo de Hervada. A costa de Antonio de la
@@ -254,8 +253,7 @@
         <div type="scene" resp="#rojas" n="1">
           <head>Jornada I</head>
           <stage>Dentro voces.</stage>
-          <sp
-            who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo">
+          <sp who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo">
             <speaker>TODOS</speaker>
             <l part="I">Vira al mar. </l>
           </sp>
@@ -6894,8 +6892,7 @@
         </div>
         <div type="scene" resp="#rojas" n="25">
           <stage>Salen todos y dos CRIADOS con hachas.</stage>
-          <sp
-            who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo #criados">
+          <sp who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo #criados">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué es esto? </l>
           </sp>
@@ -6961,8 +6958,7 @@
             <l part="F">Esto </l>
             <l part="I"> a todos importa. </l>
           </sp>
-          <sp
-            who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #el-rey #libio #armindo #criados">
+          <sp who="#aquiles #deidamia #tetis #cintia #sirene #lidoro #danteo #el-rey #libio #armindo #criados">
             <speaker>TODOS</speaker>
             <l n="1105" part="F">¿Cómo? </l>
           </sp>
@@ -6986,8 +6982,7 @@
             <l n="1120"> que dél esperáis viviendo. </l>
           </sp>
           <stage>Vuela a la cazuela.</stage>
-          <sp
-            who="#deidamia #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo #criados">
+          <sp who="#deidamia #cintia #sirene #lidoro #danteo #ulises #el-rey #libio #armindo #criados">
             <speaker>TODOS</speaker>
             <l> Vive Aquiles, viva Aquiles. </l>
           </sp>

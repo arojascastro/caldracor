@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/triunfar-muriendo--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/triunfar-muriendo--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la edición de V. García Ruiz, Pamplona, Universidad
               de Navarra ; Kassel, Reichenberger, 1993. ISBN: 3-928064-48-7 El auto Triunfar
@@ -170,8 +169,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000054"
-        passive="http://www.wikidata.org/entity/Q69031968"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000054" passive="http://www.wikidata.org/entity/Q69031968"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -2556,8 +2554,7 @@
             <l> ¡Arma, arma, guerra, guerra! </l>
             <stage>Cajas dentro.</stage>
           </sp>
-          <sp
-            who="#música #muerte #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #rey">
+          <sp who="#música #muerte #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #rey">
             <speaker>TODOS</speaker>
             <l> ¿Qué estruendo de armas, qué ruido </l>
             <l part="I"> es este? </l>
@@ -3154,8 +3151,7 @@
             <speaker>CORO 2</speaker>
             <l n="1590" part="F"> ¡Buen pasaje... </l>
           </sp>
-          <sp
-            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>AMBOS COROS</speaker>
             <l> ...la tierra y el cielo alegres la den! </l>
           </sp>
@@ -3167,8 +3163,7 @@
             <speaker>CORO 2</speaker>
             <l part="F"> Y venga con bien, </l>
           </sp>
-          <sp
-            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>AMBOS COROS</speaker>
             <l> ...pues que nuestros puertos viene a enriquecer. </l>
           </sp>
@@ -3219,8 +3214,7 @@
             <speaker>CORO 1</speaker>
             <l part="F"> ¡Buen pasaje... </l>
           </sp>
-          <sp
-            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>TODOS</speaker>
             <l> ...el mar y la tierra alegres le den! </l>
           </sp>
@@ -3232,8 +3226,7 @@
             <speaker>CORO 1</speaker>
             <l n="1605" part="F"> Y venga con bien, </l>
           </sp>
-          <sp
-            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>TODOS</speaker>
             <l> ...pues que nuestros mares viene a enriquecer. </l>
           </sp>
@@ -3590,8 +3583,7 @@
             <speaker>LOS DOS</speaker>
             <l>Y yo, aunque me pese, habré de decir... </l>
           </sp>
-          <sp
-            who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
+          <sp who="#hombre #placer #baptismo #confirmación #penitencia #comunión #orden-sacerdotal #matrimonio #rey #esposa #pecado #muerte #música">
             <speaker>TODOS Y MÚSICA.</speaker>
             <l> ...que aquí está la Vida, puesto que está aquí </l>
             <l n="1790"> quien a Muerte y Pecado pudo destruir. </l>

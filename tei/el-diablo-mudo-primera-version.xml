@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-diablo-mudo-primera-version--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-diablo-mudo-primera-version--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por C. C. García Valdés procedente de la edición Calderón
               de la Barca, Pedro, El diablo mudo, ed. C. C. García Valdés, Pamplona–Kassel,
@@ -2285,8 +2284,7 @@
             <l n="1130">El Señor de las Virtudes</l>
             <l>es de la Gloria el Rey .mesmo</l>
           </sp>
-          <sp
-            who="#apetito #fe #música #naturaleza-divina #naturaleza-humana #penitencia #peregrino">
+          <sp who="#apetito #fe #música #naturaleza-divina #naturaleza-humana #penitencia #peregrino">
             <speaker>TODOS</speaker>
             <l part="I">Abrid las puertas.</l>
           </sp>
@@ -3201,8 +3199,7 @@
             <l>,de su afrenta y de mi ira</l>
             <l part="I">lo sea.</l>
           </sp>
-          <sp
-            who="#penitencia #apetito #gentilidad #naturaleza-divina #naturaleza-humana #conocimiento #demonio #fe #hombre #peregrino">
+          <sp who="#penitencia #apetito #gentilidad #naturaleza-divina #naturaleza-humana #conocimiento #demonio #fe #hombre #peregrino">
             <speaker>TODOS</speaker>
             <l part="F">¿Qué haces, necio?</l>
           </sp>
@@ -3252,8 +3249,7 @@
         </div>
         <div type="scene" resp="#rojas" n="31">
           <stage>Vase y suena terremoto.</stage>
-          <sp
-            who="#fe #peregrino #hombre #demonio #conocimiento #naturaleza-humana #apetito #penitencia #gentilidad #judaísmo #ángel">
+          <sp who="#fe #peregrino #hombre #demonio #conocimiento #naturaleza-humana #apetito #penitencia #gentilidad #judaísmo #ángel">
             <speaker>TODOS</speaker>
             <l>¿Qué es esto, cielos, qué es esto?</l>
           </sp>
@@ -3535,8 +3531,7 @@
             <l>[recobrado] en mis sentidos</l>
             <l>:con todos juntos diciendo</l>
           </sp>
-          <sp
-            who="#fe #gentilidad #penitencia #hombre #conocimiento #naturaleza-divina #naturaleza-humana #peregrino #música">
+          <sp who="#fe #gentilidad #penitencia #hombre #conocimiento #naturaleza-divina #naturaleza-humana #peregrino #música">
             <speaker>TODAS Y LA MÚSICA</speaker>
             <l>Abra el Hombre los labios,</l>
             <l n="1685">pues si confiesa,</l>

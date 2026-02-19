@@ -1449,8 +1449,7 @@
             <l n="705"> yo, que viendo esa ventaja, </l>
             <l part="I"> le defenderé. </l>
           </sp>
-          <sp
-            who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
+          <sp who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
             <speaker> TODOS </speaker>
             <l part="F"> ¿Qué es esto? </l>
           </sp>
@@ -1475,8 +1474,7 @@
             <l> ¡Vive Dios que he de morir </l>
             <l part="I"> en venganza! </l>
           </sp>
-          <sp
-            who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
+          <sp who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
             <speaker> TODOS </speaker>
             <l part="F"> Deteneos </l>
             <l part="I"> a la justicia. </l>
@@ -7037,8 +7035,7 @@
         </div>
         <div type="scene" resp="#rojas" n="21">
           <stage> Salen todos los que pudieren. </stage>
-          <sp
-            who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
+          <sp who="#don-luis #juana #elvira #don-juan #leonor #capitan #dentro #don-diego #fabio #otro #don-fernando #roque #alguacil #pedro #isabel #escudero #juan #ines #uno">
             <speaker> TODOS </speaker>
             <l part="I"> Estos son. </l>
           </sp>

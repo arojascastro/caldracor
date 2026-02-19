@@ -37,8 +37,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-el-gran-teatro-del-mundo--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/loa-para-el-auto-sacramental-intitulado-el-gran-teatro-del-mundo--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de Autos sacramentales, alegoricos, y historiales de Don
               Pedro Calderón de la Barca, Obras posthumas, que saca a luz don Pedro de Pando y Mier,
@@ -677,14 +676,12 @@
             <l> en sus psalmos que le alaben </l>
             <l> en todos tiempos las gentes. </l>
           </sp>
-          <sp
-            who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia">
+          <sp who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia">
             <speaker>TODOS</speaker>
             <l n="385">Con que los acentos todos </l>
             <l> otra vez a decir vuelven. </l>
           </sp>
-          <sp
-            who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia #música">
+          <sp who="#españa #apostasía #testamento-antiguo #testamento-nuevo #ley-natural #isaac #ley-escrita #sansón #ley-de-gracia #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l> Memoria de sus prodigios </l>
             <l> hizo el Sumo Dios clemente </l>

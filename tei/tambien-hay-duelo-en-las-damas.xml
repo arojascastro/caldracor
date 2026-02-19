@@ -10645,8 +10645,7 @@
         </div>
         <div type="scene" resp="#rojas" n="39">
           <stage>Salen todos.</stage>
-          <sp
-            who="#don-alonso #don-fernando #don-félix #don-juan #don-pedro #leonor #simón #violante">
+          <sp who="#don-alonso #don-fernando #don-félix #don-juan #don-pedro #leonor #simón #violante">
             <speaker rend="caps">Todos</speaker>
 
 

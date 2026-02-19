@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/primero-y-segundo-isaac--1/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/primero-y-segundo-isaac--1/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por Á.L. Cilveti y R. Arias procedente de la edición
               Calderón de la Barca, Pedro, Primero y segundo Isaac , ed. Á.L. Cilveti y R. Arias,
@@ -3317,8 +3316,7 @@
             <speaker>CORO 2</speaker>
             <l>...y la hermosa Rebeca.</l>
           </sp>
-          <sp
-            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa">
+          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa">
             <speaker>TODOS</speaker>
             <l>Sean para en uno,</l>
             <l>para en uno sean.</l>
@@ -3330,8 +3328,7 @@
             <l>el dichoso fruto</l>
             <l>de su descendencia.</l>
           </sp>
-          <sp
-            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>TODOS</speaker>
             <l>Para en uno sean.</l>
           </sp>
@@ -3341,8 +3338,7 @@
             <l n="1580">«fecundidad» ella,</l>
             <l>sus campos se vean.</l>
           </sp>
-          <sp
-            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>TODOS</speaker>
             <l>Para en uno sean.</l>
           </sp>
@@ -3354,8 +3350,7 @@
             <l>siendo unas sus bodas</l>
             <l>dos sentidos tengan.</l>
           </sp>
-          <sp
-            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>TODOS</speaker>
             <l>Para en uno sean.</l>
           </sp>
@@ -3366,8 +3361,7 @@
             <l>ganados y mieses</l>
             <l>del mar las arenas.</l>
           </sp>
-          <sp
-            who="#músicos #abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp who="#músicos #abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>MÚSICOS Y TODOS</speaker>
             <l>En ella explicada</l>
             <l>la naturaleza,</l>
@@ -3481,8 +3475,7 @@
             <l>que está gozando de Dios.</l>
             <l part="I">Vaya de música.</l>
           </sp>
-          <sp
-            who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
+          <sp who="#abrahán #isaac #rebeca #eliazer #duda #lucero #teuca #ángel #abel #adán #david #habra #celsa #simplicio">
             <speaker>TODOS</speaker>
             <l part="F">Vaya.</l>
           </sp>
@@ -3792,8 +3785,7 @@
             <l>A cuyo efecto diré</l>
             <l>con todos en voces altas:</l>
           </sp>
-          <sp
-            who="#músicos #abrahán #adán #ángel #abel #batuel #celsa #david #duda #eliazer #habra #isaac #lauro #leví #lucero #niño #niña #rebeca #rubén #simplicio #teuca">
+          <sp who="#músicos #abrahán #adán #ángel #abel #batuel #celsa #david #duda #eliazer #habra #isaac #lauro #leví #lucero #niño #niña #rebeca #rubén #simplicio #teuca">
             <speaker>MÚSICOS Y TODOS</speaker>
             <l>Cordero sacrificado</l>
             <l n="1810">vio en primero Isaac el mundo;</l>

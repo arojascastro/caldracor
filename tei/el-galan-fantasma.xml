@@ -35,8 +35,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-galan-fantasma--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-galan-fantasma--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la Segunda parte de Comedias de Don Pedro Calderón de
               la Barca, Madrid, Por María de Quiñónez, 1637. Localización: : Base de Datos Teatro
@@ -186,8 +185,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000014"
-        passive="http://www.wikidata.org/entity/Q16492315"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000014" passive="http://www.wikidata.org/entity/Q16492315"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

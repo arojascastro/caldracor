@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-jardin-de-falerina-2/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-jardin-de-falerina-2/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la Quinta parte de Comedias de don Pedro Calderón de
               la Barca , Barcelona, Por Antonio la Cavallería, 1677. Localización: Base de Datos
@@ -250,8 +249,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000017"
-        passive="http://www.wikidata.org/entity/Q69034392"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000017" passive="http://www.wikidata.org/entity/Q69034392"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

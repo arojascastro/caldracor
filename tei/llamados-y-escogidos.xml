@@ -757,8 +757,7 @@
             <speaker>CORO 2</speaker>
             <l part="F">¡Mas, ay, qué placer!</l>
           </sp>
-          <sp
-            who="#musicos #isaias #daniel #principe #esposa #fe #rey #acompanamiento #coro-1 #coro-2">
+          <sp who="#musicos #isaias #daniel #principe #esposa #fe #rey #acompanamiento #coro-1 #coro-2">
             <speaker>TODOS</speaker>
             <l n="285">La tierra y el cielo alabanzas les den.</l>
           </sp>
@@ -1294,8 +1293,7 @@
             <speaker>VOZ 4</speaker>
             <l part="F">Y Apolo es el sol…</l>
           </sp>
-          <sp
-            who="#acompanamiento #isaias #daniel #principe #esposa #fe #rey #coro-2 #verdad #mentira #gentilidad #coro-1">
+          <sp who="#acompanamiento #isaias #daniel #principe #esposa #fe #rey #coro-2 #verdad #mentira #gentilidad #coro-1">
             <speaker>TODOS</speaker>
             <l n="505">Dioses, piedad, que ofenderos no puede</l>
             <l part="I">a tantos la fama…</l>
@@ -2125,8 +2123,7 @@
             <l>Llegad, mortales, llegad</l>
             <l n="945">a comer en las bodas de un feliz manjar.</l>
           </sp>
-          <sp
-            who="#gentilidad #musicos #daniel #acompanamiento #isaias #mentira #sinagoga #verdad #rey #principe #esposa #coro-1 #coro-2 #fe">
+          <sp who="#gentilidad #musicos #daniel #acompanamiento #isaias #mentira #sinagoga #verdad #rey #principe #esposa #coro-1 #coro-2 #fe">
             <speaker>TODOS</speaker>
             <l>Comeréis en la boda de un feliz manjar.</l>
           </sp>
@@ -2468,8 +2465,7 @@
             <l>dad voces, pidiendo al cielo</l>
             <l n="1160">que nos aclare la senda.</l>
           </sp>
-          <sp
-            who="#musicos #daniel #acompanamiento #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #fe #mentira #sinagoga #gentilidad">
+          <sp who="#musicos #daniel #acompanamiento #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #fe #mentira #sinagoga #gentilidad">
             <speaker>TODOS</speaker>
             <l>Señor, pues a ti venimos</l>
             <l>el camino nos enseña.</l>
@@ -2486,8 +2482,7 @@
             <stage>dentro</stage>
             <l>Norabuena venga.</l>
           </sp>
-          <sp
-            who="#musicos #daniel #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #mentira #sinagoga #gentilidad #acompanamiento #fe">
+          <sp who="#musicos #daniel #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #mentira #sinagoga #gentilidad #acompanamiento #fe">
             <speaker>TODOS</speaker>
             <l n="1165">La unión de los fieles</l>
             <l>formando la Iglesia.</l>
@@ -2497,8 +2492,7 @@
             <l>Pues ya músicas nos guían</l>
             <l>responda la salva nuestra.</l>
           </sp>
-          <sp
-            who="#musicos #daniel #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #mentira #sinagoga #acompanamiento #fe #gentilidad">
+          <sp who="#musicos #daniel #isaias #verdad #rey #principe #esposa #coro-1 #coro-2 #mentira #sinagoga #acompanamiento #fe #gentilidad">
             <speaker>TODOS</speaker>
             <l>Venga norabuena,</l>
             <l n="1170">norabuena venga.</l>
@@ -2626,8 +2620,7 @@
             <l n="1225">Llamando al Príncipe todos,</l>
             <l>la voz al viento suspenda.</l>
           </sp>
-          <sp
-            who="#musicos #daniel #isaias #rey #principe #coro-1 #coro-2 #sinagoga #acompanamiento #gentilidad #persia #etiopia #armenia #citia #padmos #mentira #esposa #verdad #fe">
+          <sp who="#musicos #daniel #isaias #rey #principe #coro-1 #coro-2 #sinagoga #acompanamiento #gentilidad #persia #etiopia #armenia #citia #padmos #mentira #esposa #verdad #fe">
             <speaker>TODOS</speaker>
             <stage>Cantan</stage>
             <l>Ven, príncipe generoso,</l>
@@ -2898,8 +2891,7 @@
             <speaker>SINAGOGA</speaker>
             <l part="I">No lo creo.</l>
           </sp>
-          <sp
-            who="#musicos #daniel #isaias #coro-1 #coro-2 #acompanamiento #persia #armenia #citia #verdad #rey #mentira #principe #gentilidad #esposa #etiopia #fe #padmos #espana #sinagoga">
+          <sp who="#musicos #daniel #isaias #coro-1 #coro-2 #acompanamiento #persia #armenia #citia #verdad #rey #mentira #principe #gentilidad #esposa #etiopia #fe #padmos #espana #sinagoga">
             <speaker>TODOS</speaker>
             <l part="F">Todos sí.</l>
           </sp>

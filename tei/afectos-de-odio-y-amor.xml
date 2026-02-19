@@ -35,8 +35,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/afectos-de-odio-y-amor--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/afectos-de-odio-y-amor--0/html/</idno>
           <bibl type="originalSource">
             <title>Edición digital a partir de la Tercera parte de Comedias de don Pedro Calderón de
               la Barca, Madrid, Por Domingo García Morràs, a costa de Domingo Palacio y Villegas,
@@ -52,7 +51,10 @@
           <person xml:id="sigismundo" sex="MALE">
             <persName>Sigismundo</persName>
             <trait source="#calderondigital">
-              <desc>galán</desc>
+              <desc>rey</desc>
+            </trait>
+            <trait source="#calderondigital">
+              <desc>enamorado</desc>
             </trait>
             <trait type="role">
               <desc>fictional</desc>
@@ -63,6 +65,12 @@
             <trait source="#calderondigital">
               <desc>duque</desc>
             </trait>
+            <trait source="#calderondigital">
+              <desc>hermano</desc>
+            </trait>
+            <trait source="#calderondigital">
+              <desc>enamorado</desc>
+            </trait>
             <trait type="role">
               <desc>fictional</desc>
             </trait>
@@ -71,6 +79,9 @@
             <persName>Federico</persName>
             <trait source="#calderondigital">
               <desc>príncipe</desc>
+            </trait>
+            <trait source="#calderondigital">
+              <desc>enamorado</desc>
             </trait>
             <trait type="role">
               <desc>fictional</desc>
@@ -110,6 +121,9 @@
             <persName>Auristela</persName>
             <trait source="#calderondigital">
               <desc>hermana</desc>
+            </trait>
+            <trait source="#calderondigital">
+              <desc>enamorada</desc>
             </trait>
             <trait type="role">
               <desc>fictional</desc>
@@ -201,8 +215,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000003"
-        passive="http://www.wikidata.org/entity/Q50307358"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000003" passive="http://www.wikidata.org/entity/Q50307358"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

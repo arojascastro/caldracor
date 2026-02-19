@@ -168,8 +168,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000142"
-        passive="http://www.wikidata.org/entity/Q6043775"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000142" passive="http://www.wikidata.org/entity/Q6043775"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">

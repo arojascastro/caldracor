@@ -36,8 +36,7 @@
       <sourceDesc>
         <bibl type="digitalSource">
           <name>Biblioteca Virtual Miguel de Cervantes</name>
-          <idno type="URL"
-            >http://www.cervantesvirtual.com/obra-visor/el-cordero-de-isaias--0/html/</idno>
+          <idno type="URL">http://www.cervantesvirtual.com/obra-visor/el-cordero-de-isaias--0/html/</idno>
           <bibl type="originalSource">
             <title>Texto crítico preparado por Mª Carmen Pinillos procedente de la edición Calderón
               de la Barca, Pedro, El cordero de Isaías , ed. Mª Carmen Pinillos, Pamplona–Kassel,
@@ -225,8 +224,7 @@
       </event>
     </listEvent>
     <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/cal000008"
-        passive="http://www.wikidata.org/entity/Q68899356"/>
+      <relation name="wikidata" active="https://dracor.org/entity/cal000008" passive="http://www.wikidata.org/entity/Q68899356"/>
     </listRelation>
   </standOff>
   <text xml:lang="es">
@@ -261,8 +259,7 @@
             <speaker>UNOS</speaker>
             <l part="I">¡Qué asombro!</l>
           </sp>
-          <sp
-            who="#candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
+          <sp who="#candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
             <speaker>OTROS</speaker>
             <l part="F">¡Qué confusión!</l>
           </sp>
@@ -270,8 +267,7 @@
             <speaker>OTROS</speaker>
             <l part="I">¡Qué sobresalto!</l>
           </sp>
-          <sp
-            who="#candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
+          <sp who="#candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
             <speaker>OTROS</speaker>
             <l part="F">¡Qué pena!</l>
           </sp>
@@ -279,8 +275,7 @@
             <speaker>OTROS</speaker>
             <l part="I">¡Qué angustia!</l>
           </sp>
-          <sp
-            who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo #candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
+          <sp who="#filipo #descuido #behomud #pitonisa #ángel #pueblo-hebreo #candaces #criado #dama-1 #dama-2 #demonio #pastor-1 #pastor-2 #cuidado #fe #pueblo-romano">
             <speaker>TODOS</speaker>
             <l part="F">¡Cielos, piedad!</l>
           </sp>
@@ -1710,8 +1705,7 @@
             <speaker>CUIDADO</speaker>
             <l>Gracias a Dios que te hallamos.</l>
           </sp>
-          <sp
-            who="#descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #demonio #pitonisa #música">
+          <sp who="#descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #demonio #pitonisa #música">
             <speaker>TODOS</speaker>
             <l>A todos nos da una y mil</l>
             <l>veces tu mano a besar.</l>
@@ -1763,8 +1757,7 @@
             <l>tras aquella luz, que lleva</l>
             <l>vida y sentidos tras sí.</l>
           </sp>
-          <sp
-            who="#descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #demonio #pitonisa #música">
+          <sp who="#descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #demonio #pitonisa #música">
             <speaker>TODOS</speaker>
             <l>Todos su norte sigamos.</l>
           </sp>
@@ -1780,8 +1773,7 @@
             <stage>Yéndose.</stage>
             <l part="I">Venid, venid.</l>
           </sp>
-          <sp
-            who="#pitonisa #descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #pitonisa #música">
+          <sp who="#pitonisa #descuido #behomud #pastor-1 #pastor-2 #ángel #cuidado #pitonisa #música">
             <speaker>TODOS</speaker>
             <stage>Cantando.</stage>
             <l part="F">Pues dejando su esfinge,</l>
@@ -4487,8 +4479,7 @@
             <speaker>FILIPO</speaker>
             <l>Humildes a sus pies puestos.</l>
           </sp>
-          <sp
-            who="#pitonisa #pueblo-hebreo #ángel #demonio #fe #descuido #dama-1 #dama-2 #cuidado #behomud #candaces #filipo #música">
+          <sp who="#pitonisa #pueblo-hebreo #ángel #demonio #fe #descuido #dama-1 #dama-2 #cuidado #behomud #candaces #filipo #música">
             <speaker>TODOS y MÚSICA</speaker>
             <l n="2385">Venid, mortales, venid</l>
             <l>al triunfo mayor,</l>

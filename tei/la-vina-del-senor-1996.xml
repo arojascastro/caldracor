@@ -2380,8 +2380,7 @@
         <div type="scene" resp="#rojas" n="14">
           <stage>Salen de villanos y villanas todos los que puedan y entre ellos el LUCERO 2 y
             detrás la SINAGOGA</stage>
-          <sp
-            who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
+          <sp who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
             <speaker>TODOS Y MÚSICA</speaker>
             <l n="1190">¡A la viña, a la viña, zagales,</l>
             <l>zagales venid, venid a la viña!</l>
@@ -2394,8 +2393,7 @@
             <l n="1195">la deja con su venida</l>
             <l>dos veces fecunda y mil veces florida.</l>
           </sp>
-          <sp
-            who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
+          <sp who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
             <speaker>TODOS</speaker>
             <l>¡Zagales venid, venid a la viña!</l>
           </sp>
@@ -2407,8 +2405,7 @@
             <l>de flor y fruto vestida</l>
             <l>dos veces fecunda y mil veces florida.</l>
           </sp>
-          <sp
-            who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
+          <sp who="#zagal-1 #zagal-2 #musicos #inocencia #malicia #hebraismo #lucero-de-la-noche #sinagoga">
             <speaker>TODOS</speaker>
             <l>¡Zagales venid, venid a la viña!</l>
           </sp>
@@ -3985,8 +3982,7 @@
         </div>
         <div type="scene" resp="#rojas" n="30">
           <stage>Salen todos y el LUCERO 2 y la MALICIA</stage>
-          <sp
-            who="#isaias #jeremias #zagal-1 #zagal-2 #lucero-del-dia #sinagoga #inocencia #musicos">
+          <sp who="#isaias #jeremias #zagal-1 #zagal-2 #lucero-del-dia #sinagoga #inocencia #musicos">
             <speaker>TODOS</speaker>
             <l part="I">¿Qué nos mandas?</l>
           </sp>
@@ -4029,8 +4025,7 @@
             <l n="2055">que a excederos: como igual</l>
             <l part="I">me tratad.</l>
           </sp>
-          <sp
-            who="#isaias #jeremias #zagal-1 #zagal-2 #lucero-del-dia #sinagoga #inocencia #musicos">
+          <sp who="#isaias #jeremias #zagal-1 #zagal-2 #lucero-del-dia #sinagoga #inocencia #musicos">
             <speaker>TODOS</speaker>
             <l part="F">Pues tan humano</l>
             <l>se nos muestra, otra y mil veces</l>
@@ -4338,8 +4333,7 @@
             <l n="2200">toda un fúnebre teatro</l>
             <l part="I">de cadáveres.</l>
           </sp>
-          <sp
-            who="#isaias #jeremias #lucero-del-dia #musicos #inocencia #lucero-de-la-noche #malicia #hebraismo #sinagoga #zagal-1 #zagal-2">
+          <sp who="#isaias #jeremias #lucero-del-dia #musicos #inocencia #lucero-de-la-noche #malicia #hebraismo #sinagoga #zagal-1 #zagal-2">
             <speaker>TODOS</speaker>
             <l part="F">¡Qué asombro!</l>
           </sp>
@@ -4366,8 +4360,7 @@
             <l part="F">Sus candados</l>
             <l>abra para mí el abismo.</l>
           </sp>
-          <sp
-            who="#isaias #jeremias #lucero-del-dia #musicos #inocencia #malicia #zagal-1 #zagal-2 #hebraismo #sinagoga #lucero-de-la-noche">
+          <sp who="#isaias #jeremias #lucero-del-dia #musicos #inocencia #malicia #zagal-1 #zagal-2 #hebraismo #sinagoga #lucero-de-la-noche">
             <speaker>TODOS</speaker>
             <l>¡Qué horror! ¡Qué susto! ¡Qué espanto!</l>
           </sp>
@@ -4815,8 +4808,7 @@
             <l>besen tus plantas porque</l>
             <l>no estén ociosos mis labios.</l>
           </sp>
-          <sp
-            who="#jeremias #lucero-del-dia #musicos #zagal-1 #zagal-2 #inocencia #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad">
+          <sp who="#jeremias #lucero-del-dia #musicos #zagal-1 #zagal-2 #inocencia #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad">
             <speaker>TODOS</speaker>
             <l n="2445">Todos hacemos lo mismo</l>
             <l>pues descubierta miramos</l>
@@ -4827,8 +4819,7 @@
             <l part="F">Llegad,</l>
             <l>llegad todos a mis brazos.</l>
           </sp>
-          <sp
-            who="#jeremias #lucero-del-dia #musicos #zagal-1 #zagal-2 #inocencia #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad">
+          <sp who="#jeremias #lucero-del-dia #musicos #zagal-1 #zagal-2 #inocencia #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad">
             <speaker>TODOS</speaker>
             <l>Eso es obligar que todos</l>
             <l n="2450">digamos en ecos altos...</l>
@@ -4847,8 +4838,7 @@
             <l>porque a vuestros pies gozosos</l>
             <l>una y mil veces digamos...</l>
           </sp>
-          <sp
-            who="#musicos #jeremias #lucero-del-dia #zagal-1 #zagal-2 #hijo #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad #padre #inocencia">
+          <sp who="#musicos #jeremias #lucero-del-dia #zagal-1 #zagal-2 #hijo #nino-1 #nino-2 #fe #hebraismo #sinagoga #lucero-de-la-noche #malicia #gentilidad #padre #inocencia">
             <speaker>MÚSICA Y TODOS</speaker>
             <l>A tan alto sacramento</l>
             <l n="2460">venere el mundo postrado,</l>

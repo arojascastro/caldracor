@@ -1324,8 +1324,7 @@
             <l>amarrado a cuatro potros,</l>
             <l>decir la verdad es fuerza.</l>
           </sp>
-          <sp
-            who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
+          <sp who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
             <speaker rend="caps">Los Cuatro</speaker>
 
 
@@ -1377,8 +1376,7 @@
             <l>lo soy desde que han en mí</l>
             <l>cogido una linda pesca.</l>
           </sp>
-          <sp
-            who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
+          <sp who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
             <speaker rend="caps">Los Cuatro</speaker>
 
 
@@ -1426,8 +1424,7 @@
 
             <l>Buen remedio tengan.</l>
           </sp>
-          <sp
-            who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
+          <sp who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
             <speaker rend="caps">Los Cuatro</speaker>
 
 
@@ -1487,8 +1484,7 @@
             <l>Después</l>
             <l>irá; ahora no se detenga.</l>
           </sp>
-          <sp
-            who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
+          <sp who="#soldados-persianos-1 #soldados-persianos-2 #soldados-persianos-3 #soldados-persianos-4">
             <speaker rend="caps">Los Cuatro</speaker>
 
 
@@ -8006,8 +8002,7 @@
             <l>quieren volver, aquí</l>
             <l>me hallarán.</l>
           </sp>
-          <sp
-            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8075,8 +8070,7 @@
             <l>salió el sol, a quien vi</l>
             <l>yo el primero de todos.</l>
           </sp>
-          <sp
-            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8189,8 +8183,7 @@
             <l>tan especial decreto</l>
             <l>podrá?</l>
           </sp>
-          <sp
-            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -8220,8 +8213,7 @@
             <l>¡viva Toante, feliz</l>
             <l>primero rey de Tiro!</l>
           </sp>
-          <sp
-            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #música #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #música #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
@@ -8242,8 +8234,7 @@
             <l>vosotros repetid</l>
             <l>en su festivo aplauso:</l>
           </sp>
-          <sp
-            who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
+          <sp who="#alejandro #coro-1 #coro-2 #cósdroas #morlaco #soldados-fenicios-1 #soldados-fenicios-2 #toante">
             <speaker rend="caps">Todos</speaker>
 
 
@@ -9391,8 +9382,7 @@
             <l>esas tus mejores señas:</l>
           </sp>
           <stage>Todos y la música, unos cantando y otros representando a un tiempo.</stage>
-          <sp
-            who="#alejandro #cenón #deidamia #flora #irífile #laura #leonido #morlaco #música #toante">
+          <sp who="#alejandro #cenón #deidamia #flora #irífile #laura #leonido #morlaco #música #toante">
             <speaker rend="caps">Todos Y Música</speaker>
 
 
